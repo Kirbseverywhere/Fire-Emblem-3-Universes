@@ -49,7 +49,7 @@ WORD 0
 
 ALIGN 4
 #ifndef ArmorClasses
-#define ArmorClasses "Knight Knight_F General General_F GreatKnight GreatKnight_F"
+#define ArmorClasses "SwordKnight LanceKnight AxeKnight BowKnight General GreatKnight"
 #endif
 ArmoredClassesList:
 BYTE ArmorClasses 0 // ArmorClasses defined in Master Skill Installer

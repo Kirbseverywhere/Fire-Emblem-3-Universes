@@ -470,7 +470,7 @@ POIN SkillTester
 POIN ArmorMarchList //list of classes that should be affected by armor march
 
 #ifndef ArmorClasses
-#define ArmorClasses "Knight Knight_F General General_F GreatKnight GreatKnight_F"
+#define ArmorClasses "SwordKnight LanceKnight AxeKnight BowKnight General GreatKnight"
 #endif
 ArmorMarchList:
 BYTE ArmorClasses 0

@@ -1,0 +1,194 @@
+#undef EphraimLord
+#undef EirikaLord
+#undef EphraimMasterLord
+#undef EirikaMasterLord 
+#undef Cavalier 
+#undef Cavalier_F 
+#undef Paladin 
+#undef Paladin_F 
+#undef Knight 
+#undef Knight_F 
+#undef General 
+#undef General_F 
+#undef Thief 
+#undef Manakete 
+#undef Mercenary 
+#undef Mercenary_F 
+#undef Hero 
+#undef Hero_F 
+#undef Myrmidon 
+#undef Myrmidon_F 
+#undef Swordmaster 
+#undef Swordmaster_F 
+#undef Assassin 
+#undef Assassin_F 
+#undef Archer 
+#undef Archer_F 
+#undef Sniper 
+#undef Sniper_F 
+#undef Ranger 
+#undef Ranger_F 
+#undef WyvernRider 
+#undef WyvernRider_F 
+#undef WyvernLord 
+#undef WyvernLord_F 
+#undef WyvernKnight 
+#undef WyvernKnight_F 
+#undef Mage 
+#undef Mage_F 
+#undef Sage 
+#undef Sage_F 
+#undef MageKnight 
+#undef MageKnight_F 
+#undef Bishop 
+#undef Bishop_F 
+#undef Shaman 
+#undef Shaman_F 
+#undef Druid 
+#undef Druid_F 
+#undef Summoner 
+#undef Summoner_F 
+#undef Rogue 
+#undef GorgonEgg 
+#undef GreatKnight 
+#undef GreatKnight_F 
+#undef Recruit_2 
+#undef Journeyman_3 
+#undef Pupil_3 
+#undef Recruit_3 
+#undef Manakete_2 
+#undef Manakete_2_F 
+#undef Journeyman_1 
+#undef Pupil_1 
+#undef Fighter 
+#undef Warrior 
+#undef Brigand 
+#undef Pirate 
+#undef Berserker 
+#undef Monk 
+#undef Priest 
+#undef Bard 
+#undef Recruit_1 
+#undef PegasusKnight 
+#undef FalcoKnight 
+#undef Cleric 
+#undef Troubadour 
+#undef Valkyrie 
+#undef Dancer 
+#undef Soldier 
+#undef Necromancer 
+#undef Fleet 
+#undef GhostFighter 
+#undef Revenant 
+#undef Entombed 
+#undef Bonewalker 
+#undef Bonewalker_Bow 
+#undef Wight 
+#undef Wight_Bow 
+#undef Bael 
+#undef ElderBael 
+#undef Cyclops 
+#undef Mauthedoog 
+#undef Gwyllgi 
+#undef Tarvos 
+#undef Maelduin 
+#undef Mogall 
+#undef ArchMogall 
+
+#define Magus 1
+#define GrandMagus 2
+#define VergilLord 3
+#define HighLord 4
+#define LadyLord 5
+#define SkyLord 6
+#define SwordKnight 7
+#define SwordKnight_F 8
+#define LanceKnight 9
+#define LanceKnight_F 10
+#define AxeKnight 11
+#define AxeKnight_F 12
+#define BowKnight 13
+#define BowKnight_F 14
+#define Paladin 15
+#define Paladin_F 16
+#define SwordArmor 17
+#define LanceArmor 18
+#define AxeArmor 19
+#define BowArmor 20
+#define General 21
+#define GreatKnight 22
+#define Thief 23
+#define Thief_F 24
+#define Assassin 25
+#define Rogue 26
+#define Rogue_F 27
+#define Myrmidon 28
+#define Myrmidon_F 29
+#define Swordmaster 30
+#define Swordmaster_F 31
+#define Mercenary 32
+#define Mercenary_F 33
+#define Hero 34
+#define Archer 35
+#define Archer_F 36
+#define Sniper 37
+#define Sniper_F 38
+#define Horseman 39
+#define Horseman_F 40
+#define WyvernRider 41
+#define WyvernLord 42
+#define MaligKnight 43
+#define Mage 44
+#define Mage_F 45
+#define Sage 46
+#define Sage_F 47
+#define MageKnight 48
+#define MageKnight_F 49
+#define MageFighter 50
+#define MageFighter_F 51
+#define DarkMage 52
+#define DarkMage_F 53
+#define Warlock 54
+#define Warlock_F 55
+#define Summoner 56
+#define Summoner_F 57
+#define DarkBishop 58
+#define DarkBishop_F 59 
+#define Fighter 60
+#define Brigand 61
+#define Pirate 62
+#define Warrior 63
+#define Berserker 64
+#define Monk 65
+#define Priest 66
+#define PriestBuff 67
+#define Cleric 68
+#define Deacon 69
+#define Troubadour 70
+#define Bishop 71
+#define Bishop_F 72
+#define HolyKnight 73
+#define HolyKnight_F 74
+#define DarkKnight 75
+#define WarMonk 76
+#define WarCleric 77
+#define Templar 78
+#define Valkyrie 79
+#define PegasusKnight 80
+#define FalcoKnight 81
+#define Dancer 82
+#define Dancer_F 83
+#define Soldier 84
+#define Halberdier 85
+#define Dragoon 86
+#define KnightLord 87
+#define Swordsman 88
+#define Legend 89
+#define King 90
+#define Fleet 91
+#undef DracoZombie
+#define DracoZombie 92
+#define ManaketeMorva 93
+#define ManaketeMyrrh 94
+#define Bear 95
+#define Wyvern 96
