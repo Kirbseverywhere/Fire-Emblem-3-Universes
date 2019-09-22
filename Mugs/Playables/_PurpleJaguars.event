@@ -1,0 +1,48 @@
+
+#define VERGIL_PRETIMESKIP_PORTRAIT Vergil
+setMugEntry(VERGIL_PRETIMESKIP_PORTRAIT, ArchPreTimeskip, 3, 5, 3, 3) 
+ArchPreTimeskip:
+#incext PortraitFormatter "Arch_PreTimeskip.png"
+
+#define XENITH_PRETIMESKIP_PORTRAIT Xenith
+setMugEntry(XENITH_PRETIMESKIP_PORTRAIT, XenithPreTimeskip, 3, 5, 3, 3) 
+XenithPreTimeskip:
+#incext PortraitFormatter "Xenith_PreTimeskip.png"
+
+#define TRAY_PRETIMESKIP_PORTRAIT Tray
+setMugEntry(TRAY_PRETIMESKIP_PORTRAIT, TrayPreTimeskip, 4, 6, 3, 4) 
+TrayPreTimeskip:
+#incext PortraitFormatter "Tray_PreTimeskip.png"
+
+#define HORUS_PRETIMESKIP_PORTRAIT Horus
+setMugEntry(HORUS_PRETIMESKIP_PORTRAIT, HorusPreTimeskip, 3, 6, 3, 4) 
+HorusPreTimeskip:
+#incext PortraitFormatter "Horus_PreTimeskip.png"
+
+#define GLAC_PRETIMESKIP_PORTRAIT Glac
+setMugEntry(GLAC_PRETIMESKIP_PORTRAIT, GlacPreTimeskip, 3, 5, 3, 3) 
+GlacPreTimeskip:
+#incext PortraitFormatter "Glac_PreTimeskip.png"
+
+#define DAFF_PRETIMESKIP_PORTRAIT Daff
+
+#define SMEGLINDE_PRETIMESKIP_PORTRAIT Smeglinde
+setMugEntry(SMEGLINDE_PRETIMESKIP_PORTRAIT, SmeglindePreTimeskip, 3, 6, 3, 4) 
+SmeglindePreTimeskip:
+#incext PortraitFormatter "Smeglinde_PreTimeskip.png"
+
+#define KABBY_PRETIMESKIP_PORTRAIT Kabby
+
+#define STEPHEN_PRETIMESKIP_PORTRAIT Stephen
+setMugEntry(STEPHEN_PRETIMESKIP_PORTRAIT, StephenPreTimeskip, 3, 5, 3, 3) 
+StephenPreTimeskip:
+#incext PortraitFormatter "Stephen_PreTimeskip.png"
+
+#define ANTHONY_PRETIMESKIP_PORTRAIT Anthony
+
+#define MYST_PRETIMESKIP_PORTRAIT Myst
+setMugEntry(MYST_PRETIMESKIP_PORTRAIT, MystPreTimeskip, 3, 5, 3, 3) 
+MystPreTimeskip:
+#incext PortraitFormatter "Myst_PreTimeskip.png"
+
+#define LEO_PRETIMESKIP_PORTRAIT Leo 

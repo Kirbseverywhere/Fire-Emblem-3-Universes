@@ -1,0 +1,16 @@
+#define ItemIconSheetOffset 0x5926F4
+#define SetItemIcon(Index) "ORG ItemIconSheetOffset + (Index * 0x80)"
+
+PUSH
+SetItemIcon(NormalShield)
+#incext Png2Dmp "Shield.png"
+
+SetItemIcon(AegisShield)
+#incext Png2Dmp "AegisShield.png"
+
+
+// Weapon Icons
+SetItemIcon(0x70)
+#incext Png2Dmp "WRankIcons.png"
+
+POP

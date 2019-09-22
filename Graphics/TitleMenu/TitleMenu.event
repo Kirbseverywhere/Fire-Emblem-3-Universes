@@ -1,0 +1,50 @@
+PUSH
+ORG 0x896A4
+POIN MenuBannerGfx
+ORG 0x895E0
+POIN MenuBannerPal
+
+ORG 0x8E088
+POIN MenuBanner2Gfx
+ORG 0xAF7D0
+POIN MenuBanner2Gfx
+ORG $A1B638
+#incext Png2Dmp "pal-a2e1b8.png" --palette-only
+ORG $A1E0D8
+#incext Png2Dmp "pal-a2e1b8.png" --palette-only
+ORG $A27F68
+#incext Png2Dmp "pal-a2e1b8.png" --palette-only
+ORG $A27FE8
+#incext Png2Dmp "pal-a27fe8.png" --palette-only
+ORG $A2E1B8
+#incext Png2Dmp "pal-a2e1b8.png" --palette-only
+ORG $A2E1D8
+#incext Png2Dmp "pal-a2e1b8.png" --palette-only
+
+ORG $A8EDC
+POIN NewSaveMenu
+ORG $AA43C
+POIN NewSaveMenu
+
+POP
+
+ALIGN 4
+MenuBannerGfx:
+#incext Png2Dmp "Banner.png" --lz77
+
+ALIGN 4
+MenuBannerPal:
+#incext Png2Dmp "Banner.png" --palette-only
+
+ALIGN 4
+MenuBanner2Gfx:
+#incext Png2Dmp "Banner2.png" --lz77
+
+ALIGN 4
+NewSaveMenu:
+#incext Png2Dmp "SaveMenu.png" --lz77
+
+ALIGN 4
+MenuBanner2Pal:
+#incbin "a2d32c.pal.bin" 
+

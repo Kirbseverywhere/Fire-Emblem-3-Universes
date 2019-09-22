@@ -1,0 +1,25 @@
+ALIGN 4
+RLSmallBannerGraphics:
+#incext png2dmp "RLBanner.png" --lz77
+
+ALIGN 4
+RLSmallBannerPalette:
+#incext png2dmp "RLBanner.png" --palette-only
+
+ALIGN 4
+PJSmallBannerGraphics:
+#incext png2dmp "PJBanner.png" --lz77
+
+ALIGN 4
+PJSmallBannerPalette:
+#incext png2dmp "PJBanner.png" --palette-only
+
+ALIGN 4
+ABSmallBannerGraphics:
+#incext png2dmp "ABBanner.png" --lz77
+
+ALIGN 4
+ABSmallBannerPalette:
+#incext png2dmp "ABBanner.png" --palette-only
+
+ALIGN 4

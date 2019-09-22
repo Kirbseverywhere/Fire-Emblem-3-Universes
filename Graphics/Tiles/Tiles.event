@@ -1,0 +1,138 @@
+ALIGN 4
+PUSH
+ORG $4E310
+POIN MenuStyleTsaTable
+ORG $4E5B0
+POIN MenuStyleTsaTable
+ORG $4E130
+POIN MenuStyleGraphicsTable
+ORG $4E1B4
+POIN MenuStyleGraphicsTable
+ORG $4E0D0
+POIN MenuStylePaletteTable
+
+
+//Minimug box
+ORG $8C2EC
+POIN FE3HMenuTilesPalette //Ally
+ORG $8C2F4
+POIN FE3HMenuTilesPalette+0x20 //Enemy
+ORG $8C2FC
+POIN FE3HMenuTilesPalette+0x40 //Green unit
+
+ORG 0x95E38
+POIN FE3HMenuTilesPalette //Prep Screen
+ORG 0x36D2C
+POIN FE3HMenuTilesPalette
+ORG 0x36D34
+POIN FE3HMenuTilesPalette+0x20 //Battle Preview
+
+#define MenuTile(tileID) "0x1000|tileID"
+ORG 0xDA380
+SHORT MenuTile(25) MenuTile(25)
+
+ORG 0x8C70C
+POIN MMBTsa
+
+ORG 0x8CB30
+POIN TerrainBoxTSA
+
+ORG 0x8D280
+POIN ObjectiveBoxTSA
+
+ORG 0x8D284
+POIN LargeObjectiveBoxTSA
+
+ORG 0x368A0
+POIN BattlePreviewTSA
+
+ORG 0x90F94
+POIN UnitMenuTSA
+
+ORG 0x8E07C
+POIN StatusMenuTSA
+
+ORG 0xB1C84
+POIN OptionsMenuTSA
+
+ORG 0xAC19C
+POIN DifficultySelectTSA
+POP
+
+ALIGN 4
+PUSH
+ORG 0x5B6470
+MenuStyleGraphicsTable:
+POIN FE3HMenuTilesGraphics
+POIN FE3HMenuTilesGraphics
+POIN FE3HMenuTilesGraphics
+POIN FE3HMenuTilesGraphics
+POP
+
+MenuStylePaletteTable:
+POIN FE3HMenuTilesPalette
+POIN FE3HMenuTilesPalette
+POIN FE3HMenuTilesPalette
+POIN FE3HMenuTilesPalette
+
+MenuStyleTsaTable:
+POIN FirstMenuStyleTSA // Style 0
+POIN SecondMenuStyleTSA //Style 1
+POIN FirstMenuStyleTSA //Style 2
+POIN FirstMenuStyleTSA //Style 3
+
+
+FE3HMenuTilesGraphics:
+#incext Png2Dmp "MainTiles2.png" --lz77
+
+FE3HMenuTilesPalette:
+#incext Png2Dmp "MainTiles2.png" --palette-only
+
+ALIGN 4
+FirstMenuStyleTSA:
+SHORT MenuTile(17) MenuTile(19) MenuTile(20) MenuTile(22) 
+SHORT MenuTile(23) MenuTile(25) MenuTile(25) MenuTile(32) 
+SHORT MenuTile(24) MenuTile(25) MenuTile(25) MenuTile(33) 
+SHORT MenuTile(26) MenuTile(28) MenuTile(29) MenuTile(31)
+
+SecondMenuStyleTSA:
+SHORT MenuTile(114) MenuTile(115) MenuTile(115) MenuTile(116) 
+SHORT MenuTile(117) MenuTile(25) MenuTile(25) MenuTile(118) 
+SHORT MenuTile(117) MenuTile(25) MenuTile(25) MenuTile(118) 
+SHORT MenuTile(119) MenuTile(120) MenuTile(120) MenuTile(121)
+
+ALIGN 4
+MMBTsa:
+#incbin "MMBTsa.bin"
+
+ALIGN 4
+TerrainBoxTSA:
+#incbin "TerrainBoxTSA.bin"
+
+ALIGN 4
+ObjectiveBoxTSA:
+#incbin "ObjectiveBoxTSA.bin"
+
+ALIGN 4
+LargeObjectiveBoxTSA:
+#incbin "LargeObjectiveBoxTSA.bin"
+
+ALIGN 4
+BattlePreviewTSA:
+#incbin "BattlePreviewTSA.bin"
+
+ALIGN 4
+UnitMenuTSA:
+#incbin "UnitMenuTSA.bin"
+
+ALIGN 4
+StatusMenuTSA:
+#incext compress "StatusMenuTSA.bin"
+
+ALIGN 4
+OptionsMenuTSA:
+#incext compress "OptionsMenuTSA.bin"
+
+ALIGN 4
+DifficultySelectTSA:
+#incbin "DifficultySelectTSA.bin"

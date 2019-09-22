@@ -1,0 +1,54 @@
+
+#define RODIN_PRETIMESKIP_PORTRAIT Rodin
+setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 2, 5, 3, 3) 
+KyuPreTimeskip:
+#incext PortraitFormatter "Kyu_PreTimeskip.png"
+
+#define MICHAEL_PRETIMESKIP_PORTRAIT Michael
+setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 5, 3, 3) 
+MichaelPreTimeskip:
+#incext PortraitFormatter "Michael_PreTimeskip.png"
+
+#define ERIC_PRETIMESKIP_PORTRAIT Eric
+setMugEntry(ERIC_PRETIMESKIP_PORTRAIT, EricPreTimeskip, 3, 5, 3, 3) 
+EricPreTimeskip:
+#incext PortraitFormatter "Eric_PreTimeskip.png"
+
+#define KELLY_PRETIMESKIP_PORTRAIT Kelly
+setMugEntry(KELLY_PRETIMESKIP_PORTRAIT, KellyPreTimeskip, 3, 5, 3, 3) 
+KellyPreTimeskip:
+#incext PortraitFormatter "Kelly_PreTimeskip.png"
+
+#define QUASAHNT_PRETIMESKIP_PORTRAIT QuaSahnt
+setMugEntry(QUASAHNT_PRETIMESKIP_PORTRAIT, QuaSahntPreTimeskip, 3, 5, 3, 3) 
+QuaSahntPreTimeskip:
+#incext PortraitFormatter "QuaSahnt_PreTimeskip.png"
+
+#define INNARDS_PRETIMESKIP_PORTRAIT Innards
+
+#define JONATHEN_PRETIMESKIP_PORTRAIT Jonathen
+setMugEntry(JONATHEN_PRETIMESKIP_PORTRAIT, JonathenPreTimeskip, 2, 6, 3, 4) 
+JonathenPreTimeskip:
+#incext PortraitFormatter "Jonathen_PreTimeskip.png"
+
+#define KAIDEN_PRETIMESKIP_PORTRAIT Kaiden
+setMugEntry(KAIDEN_PRETIMESKIP_PORTRAIT, KaidenPreTimeskip, 3, 6, 3, 4) 
+KaidenPreTimeskip:
+#incext PortraitFormatter "Kaiden_PreTimeskip.png"
+
+#define CLEO_PRETIMESKIP_PORTRAIT Cleo
+setMugEntry(CLEO_PRETIMESKIP_PORTRAIT, CleoPreTimeskip, 3, 5, 3, 3) 
+CleoPreTimeskip:
+#incext PortraitFormatter "Cleo_PreTimeskip.png"
+
+#define REDS_PRETIMESKIP_PORTRAIT Reds
+setMugEntry(REDS_PRETIMESKIP_PORTRAIT, RedsPreTimeskip, 3, 5, 3, 3) 
+RedsPreTimeskip:
+#incext PortraitFormatter "Reds_PreTimeskip.png"
+
+#define MIMI_PRETIMESKIP_PORTRAIT Mimi
+
+#define ZORUA_PRETIMESKIP_PORTRAIT Zorua
+setMugEntry(ZORUA_PRETIMESKIP_PORTRAIT, ZoruaPreTimeskip, 2, 6, 3, 4) 
+ZoruaPreTimeskip:
+#incext PortraitFormatter "Zorua_PreTimeskip.png"

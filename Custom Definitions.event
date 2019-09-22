@@ -1,0 +1,81 @@
+#define FreeSpace 0x1000000
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+
+#ifndef DebuffTable
+  #define DebuffTable     0x0203F100
+  #define DebuffTableSize 0x00000900
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+// Attribute for defining items with passive stat bonuses
+#define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000
+
+// this is for if you use the legacy way of define item attributes in your table (this is for byte 3)
+// (which is sadly what the included table also does TODO: fix that)
+#define PassiveBoosts 0x80
+
+#include "Engine Hacks/SkillSystem/skill_definitions.event"
+#include "Engine Hacks/ForgingAndItemEquip/AccessoryEffectDefinitions.event"
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+// Characters
+
+// Red Lobsters
+
+#define Rodin 1
+#define Michael 2
+#define Eric 3
+#define Kelly 4
+#define QuaSahnt 5
+#define Innards 6
+#define Jonathen 7
+#define Kaiden 8
+#define Cleo 9
+#define Reds 10
+#define Mimi 11
+#define Zorua 12
+
+// Purple Jaguars
+#define Vergil 13
+#define Xenith 14
+#define Tray 15
+#define Horus 16
+#define Glac 17
+#define Daff 18
+#define Smeglinde 19
+#define Kabby 20
+#define Stephen 21
+#define Anthony 22
+#define Myst 23
+#define Leo 24
+
+//Amber Bears
+#define Diana 25
+#define Zane 26
+#define Adamminn 27
+#define William 28
+#define Nobody 29
+#define Jack 30
+#define Lazul 31
+#define Paul 32
+#define Reginald 33
+#define Vollster 34
+#define Greg 35
+#define Occam 36
+
+// Items
+
+#define Caduceus 0xBC 
+#define NormalShield 0xBD  
+#define AegisShield 0xBE
+#define ExpShare 0xBF

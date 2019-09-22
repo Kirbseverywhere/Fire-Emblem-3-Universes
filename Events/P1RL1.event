@@ -1,0 +1,93 @@
+
+EventPointerTable(0x2, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+DefeatAll(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+PlayerUnits:
+UNIT Rodin Mage 0x00 Level(10, Ally, 0) [1,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Michael Paladin 0x00 Level(10, Ally, 0) [0,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eric Paladin 0x00 Level(10, Ally, 0) [2,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Kelly Paladin 0x00 Level(10, Ally, 0) [3,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT QuaSahnt Paladin 0x00 Level(10, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Innards Paladin 0x00 Level(10, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Jonathen Paladin 0x00 Level(10, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+EnemyUnits:
+UNIT ONeill Brigand 0x00 Level(12, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [IronAxe] NeverMoveAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [17,11] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [12,6] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Fighter 0x00 Level(12, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Cavalier 0x00 Level(12, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F Cavalier 0x00 Level(12, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F Cavalier 0x00 Level(12, Enemy, 1) [13,12] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F PegasusKnight 0x00 Level(12, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F PegasusKnight 0x00 Level(12, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F Archer 0x00 Level(12, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F Archer 0x00 Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F Archer 0x00 Level(12, Enemy, 1) [14,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F Mercenary 0x00 Level(12, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7F Mercenary 0x00 Level(12, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7F Brigand 0x00 Level(12, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Brigand 0x00 Level(12, Enemy, 1) [16,9] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Brigand 0x00 Level(12, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 PlayerUnits
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+ENDA
+
+EndingScene:
+MNC2 0x2
+NoFade
+ENDA

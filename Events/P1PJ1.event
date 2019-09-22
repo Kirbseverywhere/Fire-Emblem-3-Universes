@@ -1,0 +1,87 @@
+
+EventPointerTable(17, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN PlayerUnits PlayerUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(7, EndingScene, 8)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+PlayerUnits:
+UNIT Vergil EphraimLord 0x00 Level(1, Ally, 0) [10,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Xenith 0 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray 0 0x00 Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus 0 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Glac 0 0x00 Level(1, Ally, 0) [12,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Daff 0 0x00 Level(1, Ally, 0) [12,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Smeglinde 0 0x00 Level(1, Ally, 0) [12,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Myst 0 0x00 Level(1, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+EnemyUnits:
+UNIT Aias Berserker 0x00 Level(1, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [KillerAxe] GuardTileAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [20,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Brigand 0x00 Level(5, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x71 Mercenary 0x00 Level(5, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x71 Mercenary 0x00 Level(5, Enemy, 1) [19,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x71 Mercenary 0x00 Level(5, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x71 Archer 0x00 Level(5, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x71 Archer 0x00 Level(5, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 PlayerUnits
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+ENDA
+
+EndingScene:
+MNC2 17
+NoFade
+ENDA

@@ -1,0 +1,27 @@
+how AI works right now, rough algorithm:
+	aiUnits = all_units[allegiance]
+	sort_ai_units(aiUnits) // how it does that doesn't matter
+
+	foreach unit in aiUnits:
+		try_heal_or_escape(unit)
+		try_exec_ai1(unit)
+		try_exec_ai2(unit)
+		try_use_special_item(unit) // door key, lockpick, antidote
+
+Doesn't quite exist in the form of a function but that's about how it does decition making on the whole
+
+THE PLAN:
+	aiUnits = all_units[allegiance]
+	// Do not sort
+
+	foreach unit in aiUnits:
+		try_exec_ai1(unit)
+
+	foreach unit in aiUnits:
+		try_heal_or_escape(unit)
+
+	foreach unit in aiUnits:
+		try_use_special_item(unit)
+
+	foreach unit in aiUnits:
+		try_exec_ai2(unit)

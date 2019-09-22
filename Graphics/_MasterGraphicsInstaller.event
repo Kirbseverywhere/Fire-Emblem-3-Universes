@@ -1,0 +1,88 @@
+PUSH
+ORG 0xC2044
+POIN SmallWorldMapGFX
+POIN SmallWorldMapPalette
+POIN SmallWorldMapTSA
+
+ORG 0x20088
+POIN ScrollyBGPalette
+POIN ScrollyBGGFX
+
+ORG 0x86BF8
+POIN ScrollyBGPalette
+ORG 0x86C40
+POIN ScrollyBGPalette
+ORG 0x86C8C
+POIN ScrollyBGPalette
+ORG 0x86CD8
+POIN ScrollyBGPalette
+ORG 0x86DAC
+POIN ScrollyBGPalette
+ORG 0x8E194
+POIN ScrollyBGPalette
+ORG 0xB058C
+POIN ScrollyBGPalette
+ORG 0xB0D04
+POIN ScrollyBGPalette
+ORG 0xB4E14
+POIN ScrollyBGPalette
+ORG 0xB6880
+POIN ScrollyBGPalette
+
+ORG 0x86C44
+POIN ScrollyBGGFX
+ORG 0x86CDC
+POIN ScrollyBGGFX
+ORG 0x86DB0
+POIN ScrollyBGGFX
+ORG 0xB0594
+POIN ScrollyBGGFX
+ORG 0xB0D0C
+POIN ScrollyBGGFX
+ORG 0xB4E18
+POIN ScrollyBGGFX
+ORG 0xB6808
+POIN ScrollyBGGFX
+ORG 0xC48DC
+POIN ScrollyBGGFX
+
+ORG $88638
+POIN StatScreen
+ORG $88640
+POIN StatScreenPal 
+POP
+
+ALIGN 4
+SmallWorldMapGFX:
+#incext Png2Dmp "Feudlan_Small_Tiles.png" --lz77
+
+ALIGN 4
+SmallWorldMapPalette:
+#incext Png2Dmp "Feudlan_Small_Tiles.png" --palette-only
+
+ALIGN 4
+SmallWorldMapTSA:
+#incbin "Feudlan_Small_Tsa.bin"
+
+ALIGN 4
+ScrollyBGGFX:
+#incext Png2Dmp "ScrollyBG.png" --lz77
+
+ALIGN 4
+ScrollyBGPalette:
+#incext Png2Dmp "ScrollyBG.png" --palette-only
+
+ALIGN 4
+StatScreen:
+#incext Png2Dmp "StatScreen.png" --lz77
+
+ALIGN 4
+StatScreenPal:
+#incext Png2Dmp "StatScreen.png" --palette-only
+
+#include "Tiles/Tiles.event"
+#include "TitleScreen/TitleScreen.event"
+#include "TitleMenu/TitleMenu.event"
+#include "ItemIcons/ItemIcons.event"
+#include "HouseBanners/HouseBanners.event"
+#include "PointerList/SplitPointerList.event"

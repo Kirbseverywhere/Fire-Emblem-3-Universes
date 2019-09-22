@@ -1,0 +1,95 @@
+#include "Defs.event"
+
+PUSH
+// No ideas where else to put this so I put it here
+// Changes the staff check to check for the Faith weapon type rather than wtype 0x4
+ORG 0x23A7E
+BYTE Faith
+
+ORG 0x23BA4
+BYTE Faith
+POP
+
+#define gItemData ItemTable
+#include "asm/Forging.event"
+ALIGN 4
+#include "asm/Accessories.event"
+MESSAGE ExpShareAccessoryEffect
+
+ALIGN 4
+CannotEquipAccessoryText:
+SHORT CannotEquipAccessoryTextID
+
+PUSH
+ORG $59D120
+POIN ItemMenuTable
+POP
+
+
+ALIGN 4
+#define ForgeBonuses(itemId, mtBonus, hitBonus, critBonus) "BYTE itemId mtBonus hitBonus critBonus"
+gForgeBonusLookupTable:
+ForgeBonuses(IronSword, 1, 10, 0)
+ForgeBonuses(SteelSword, 2, 5, 0)
+ForgeBonuses(KillingEdge, 0, 20, 20)
+WORD 0
+
+#define AccessoryLocks(accessoryId, levelLock, typeOfLock, accessoryClassLocks, userCheckFunction) "BYTE accessoryId levelLock typeOfLock 0; POIN accessoryClassLocks userCheckFunction"
+#define AL_MOUNTED 1
+#define AL_FOOTLOCKED 2
+#define AL_FLYING 3
+#define AL_LORD 4
+ALIGN 4
+gAccessoryLocksLookupTable:
+AccessoryLocks(NormalShield, 0, AL_FLYING, 0, 0)
+AccessoryLocks(Caduceus, 0, 0, MagicClassesList, 0)
+WORD 0
+
+// Class Types not defined by Class Attributes
+
+ALIGN 4
+#ifndef ArmorClasses
+#define ArmorClasses "Knight Knight_F General General_F GreatKnight GreatKnight_F"
+#endif
+ArmoredClassesList:
+BYTE ArmorClasses 0 // ArmorClasses defined in Master Skill Installer
+
+ALIGN 4
+#define MagicClasses "Mage Mage_F Sage Sage_F MageKnight MageKnight_F Priest Cleric Bishop Bishop_F"
+MagicClassesList:
+BYTE MagicClasses 0
+
+/*#define ForgableItem(itemId, additionalDescriptionTextID, priceForUpgrade, otherItemID, requiredMaterialItemID, priceForTransformation) "SHORT itemId additionalDescriptionTextID priceForUpgrade otherItemID requiredMaterialItemID priceForTransformation"
+gForgableItems:
+ForgableItem(IronSword, "Requires mythril to turn into quick sword", 500, QuickSword, Mythril, 1000)
+WORD 0 0 0*/
+
+ALIGN 4
+ItemMenuTable:
+IM_Use
+MenuCommand(0x697, 0, GreenText, EquipAccessoryUsability|1, EquipAccessoryEffect|1)
+IM_Equip
+IM_Trade
+IM_Discard
+IM_Separator
+
+ALIGN 4
+ASMC_GiveUnitExp:
+#incbin "asm\give_exp.dmp"
+POIN event_proc_bin
+
+ALIGN 4
+event_proc_bin:
+#incbin "asm\event_fe8u.bin" //HINT=PROCS
+
+ALIGN 4
+ExpShareEvent:
+WORD 0xA000D4B; POIN ASMC_GiveUnitExp|1
+NoFade
+ENDA
+
+ALIGN 4
+AE_ExpShareID:
+BYTE AE_ExpShare
+
+ALIGN 4

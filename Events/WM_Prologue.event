@@ -1,0 +1,60 @@
+WorldMapPointerTable(1,WM_Events)
+#define BeginWorldMap "EVBIT_MODIFY 0x1; _0xC220; WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0; STAL 2; WM_FADEOUT 0x0 0x0 0x0"
+#define WorldMapShowTextBox "WM_TEXTDECORATE; WM_SHOWTEXTWINDOW 0x0 0x28 0x1; WM_WAITFORTEXT"
+#define WorldMapTextBegin(textID) "WM_TEXTSTART; WM_TEXT textID"
+#define WorldMapShowPortraitLeft(portraitID) "WM_SHOWPORTRAIT portraitID 1332"
+#define WorldMapShowPortraitRight(portraitID) "WM_SHOWPORTRAIT portraitID 700"
+#define WordlMapClearLeftPortrait "WM_CLEARPORTRAIT 0x0 0x200 0x0"
+#define WordlMapClearRightPortrait "WM_CLEARPORTRAIT 0x0 0x100 0x0"
+#define WorldMapLoadMapSprite(runtimeID, classID, factionID) "PUTSPRITE runtimeID classID factionID 0x12"
+#define WorldMapDisplayMapSprite(runtimeID, factionID, xCoords, yCoords, fadeInTime) "WM_PUTSPRITE 0 runtimeID factionID xCoords yCoords; WM_FADEINSPRITE 0x0 runtimeID fadeInTime"
+#define WorldMapMoveMapSprite(runtimeID, acceleration, startX, startY, destX, destY, moveTime, EID, delay) "WM_PUTMOVINGSPRITE 0x0 runtimeID acceleration startX startY destX destY moveTime EID delay 0x0"
+
+WM_Events:
+SKIPWN
+ENDA
+BeginWorldMap
+MUSC 0x4
+WorldMapShowTextBox
+WorldMapTextBegin(Part0Ch1WorldMapText1)
+TEXTEND
+STAL 6
+WorldMapLoadMapSprite(0x2, WyvernRider, 0)
+WorldMapDisplayMapSprite(0x2, 0, 70, 70, 16)
+WorldMapShowPortraitRight(RODIN_PRETIMESKIP_PORTRAIT)
+TEXTCONT
+TEXTEND
+REMSPRITE 0x2
+WordlMapClearRightPortrait
+STAL 16
+WM_MOVECAM2 0x0 0x0 0x0 0x0 0x18 0x3C 0x0
+STAL 60
+WorldMapLoadMapSprite(0x2, EphraimLord, 0)
+WorldMapDisplayMapSprite(0x2, 0, 125, 110, 16)
+WorldMapShowPortraitRight(VERGIL_PRETIMESKIP_PORTRAIT)
+TEXTCONT
+TEXTEND
+REMSPRITE 0x2
+WordlMapClearRightPortrait
+STAL 16
+WM_MOVECAM2 0x0 0x0 0x18 0x0 0xFFF8 0x3C 0x0
+STAL 60
+WorldMapLoadMapSprite(0x2, EirikaLord, 0)
+WorldMapDisplayMapSprite(0x2, 0, 190, 65, 16)
+WorldMapShowPortraitLeft(DIANA_PRETIMESKIP_PORTRAIT)
+TEXTCONT
+TEXTEND
+REMSPRITE 0x2
+WordlMapClearLeftPortrait
+STAL 16
+WM_MOVECAM2 0x0 0x0 0x0 0x0 0x18 0x3C 0x0
+STAL 60
+WorldMapShowPortraitRight(VERGIL_PRETIMESKIP_PORTRAIT)
+WorldMapLoadMapSprite(0x2, EphraimLord, 0)
+WorldMapMoveMapSprite(0x2, 0, 125, 110, 120, 90, 210, 1, 10)
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0x0 0xFFFF 0xFFFF
+FADI 16
+SKIPWN
+ENDA

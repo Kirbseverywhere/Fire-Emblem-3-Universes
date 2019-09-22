@@ -1,0 +1,75 @@
+PUSH
+ORG 0x3840C
+POIN EmptyTitleScreenBG
+ORG 0xA8EB4
+POIN EmptyTitleScreenBG
+ORG $88620
+POIN RemoveGlowy  
+ORG $aac5ac
+#incext Png2Dmp "Title.png" --lz77  
+ORG $c5830
+POIN NewTitleScroll
+ORG 0x0C57E4
+POIN NewDragonGraphics
+ORG 0x38418
+POIN NewFogGraphics
+ORG 0xA8EC4
+POIN NewFogGraphics
+ORG 0x38428
+POIN NewFogPalette
+ORG 0xA8EC0
+POIN NewFogPalette
+
+ORG 0xC5496
+BYTE 0x7C
+
+ORG 0xC5498
+BYTE 0x7C
+POP
+
+
+
+ALIGN 4
+NewTitleScroll:
+#incext Png2Dmp "Subtitle.png" --lz77
+
+NewDragonGraphics:
+#incext Png2Dmp "Dragon.png" --lz77
+
+EmptyTitleScreenBG:
+#incext Png2Dmp "BlankTitleScreenBg.png" --lz77
+
+NewFogGraphics:
+#incext Png2Dmp "FogEdited.png" --lz77
+
+NewFogPalette:
+#incext Png2Dmp "FogEdited.png" --palette-only
+
+
+PUSH
+ORG $C5780
+POIN Title_Screen_Background
+WORD 0x06000000			//tile 1 vram
+ORG $C5790				//just to keep things all in one place, we'll do the bg palette pointer updating here too
+POIN Title_Screen_Background_Palette
+ORG $C5CC0
+POIN Title_Screen_Background_Palette
+ORG $C5F1C
+POIN Title_Screen_Background_Palette
+ORG $C62B4
+POIN Title_Screen_Background_Palette
+ORG $C5724 				//we can ignore the loading of the first part
+SHORT 0xE08A
+ORG $C5742
+SHORT 0x46C0 0x46C0		//nop out the bl to decompress the tsa, since we're not using it anymore
+ORG $C5752
+SHORT 0x20E0 0x0200 0x21A0 0x0089 0x2200 0x1883 0x8023 0x3402 0x3201 0x428A 0xDBF9 0x1C2A 0x3229 0x46C0
+POP
+
+ALIGN 4
+Title_Screen_Background:
+#incext Png2Dmp "TitleScreen.png" --lz77
+	
+ALIGN 4
+Title_Screen_Background_Palette:
+#incext Png2Dmp "TitleScreen.png" --palette-only

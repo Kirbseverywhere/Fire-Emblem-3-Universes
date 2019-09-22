@@ -1,0 +1,215 @@
+## RodinNameTextID
+Rodin[X]
+
+## MichaelNameTextID
+Michael[X]
+
+## EricNameTextID
+Eric[X]
+
+## KellyNameTextID
+Kelly[X]
+
+## QuaSahntNameTextID
+Qua Sahnt[X]
+
+## InnardsNameTextID
+Innards[X]
+
+## JonathenNameTextID
+Jonathen[X]
+
+## KaidenNameTextID
+Kaiden[X]
+
+## CleoNameTextID
+Cleo[X]
+
+## RedsNameTextID
+Reds[X]
+
+## MimiNameTextID
+Mimi[X]
+
+## ZoruaNameTextID
+Zorua[X]
+
+## VergilNameTextID
+Vergil[X]
+
+## XenithNameTextID
+Xenith[X]
+
+## TrayNameTextID
+Tray[X]
+
+## HorusNameTextID
+Horus[X]
+
+## GlacNameTextID
+Glac[X]
+
+## DaffNameTextID
+Daff[X]
+
+## SmeglindeNameTextID
+Smeglinde[X]
+
+## KabbyNameTextID
+Kabby[X]
+
+## StephenNameTextID
+Stephen[X]
+
+## AnthonyNameTextID
+Anthony[X]
+
+## MystNameTextID
+Myst[X]
+
+## LeoNameTextID
+Leo[X]
+
+## DianaNameTextID
+Diana[X]
+
+## ZaneNameTextID
+Zane[X]
+
+## AdamminnNameTextID
+Adamminn[X]
+
+## WilliamNameTextID
+William[X]
+
+## NobodyNameTextID
+Nobody[X]
+
+## JackNameTextID
+Jack[X]
+
+## LazulNameTextID
+Lazul[X]
+
+## PaulNameTextID
+Paul[X]
+
+## ReginaldNameTextID
+Reginald[X]
+
+## VollsterNameTextID
+Vollster[X]
+
+## GregNameTextID
+Greg[X]
+
+## OccamNameTextID
+Occam[X]
+
+## RodinDescTextID
+Rodin[X]
+
+## MichaelDescTextID
+Michael[X]
+
+## EricDescTextID
+Eric[X]
+
+## KellyDescTextID
+Kelly[X]
+
+## QuaSahntDescTextID
+Qua Sahnt[X]
+
+## InnardsDescTextID
+Innards[X]
+
+## JonathenDescTextID
+Jonathen[X]
+
+## KaidenDescTextID
+Kaiden[X]
+
+## CleoDescTextID
+Cleo[X]
+
+## RedsDescTextID
+Reds[X]
+
+## MimiDescTextID
+Mimi[X]
+
+## ZoruaDescTextID
+Zorua[X]
+
+## VergilDescTextID
+Vergil[X]
+
+## XenithDescTextID
+Xenith[X]
+
+## TrayDescTextID
+Tray[X]
+
+## HorusDescTextID
+Horus[X]
+
+## GlacDescTextID
+Glac[X]
+
+## DaffDescTextID
+Daff[X]
+
+## SmeglindeDescTextID
+Smeglinde[X]
+
+## KabbyDescTextID
+Kabby[X]
+
+## StephenDescTextID
+Stephen[X]
+
+## AnthonyDescTextID
+Anthony[X]
+
+## MystDescTextID
+Myst[X]
+
+## LeoDescTextID
+Leo[X]
+
+## DianaDescTextID
+Diana[X]
+
+## ZaneDescTextID
+Zane[X]
+
+## AdamminnDescTextID
+Adamminn[X]
+
+## WilliamDescTextID
+William[X]
+
+## NobodyDescTextID
+Nobody[X]
+
+## JackDescTextID
+Jack[X]
+
+## LazulDescTextID
+Lazul[X]
+
+## PaulDescTextID
+Paul[X]
+
+## ReginaldDescTextID
+Reginald[X]
+
+## VollsterDescTextID
+Vollster[X]
+
+## GregDescTextID
+Greg[X]
+
+## OccamDescTextID
+Occam[X]

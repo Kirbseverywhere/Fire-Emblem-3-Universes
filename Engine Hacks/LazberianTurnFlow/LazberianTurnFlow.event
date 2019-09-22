@@ -1,0 +1,309 @@
+#ifndef HAX_LTF
+#define HAX_LTF
+
+#include "Extensions/Hack Installation.txt"
+#include "Extensions/ProcDefinitions.txt"
+
+#ifndef SetSymbolDefined
+	#define SetSymbolDefined
+
+	#define SetSymbol(aName, aValue) "PUSH; ORG (aValue); aName:; POP"
+//	#define SetSymbol(aName, aValue) "aName = (aValue)"
+#endif // SetSymbolDefined
+
+PUSH
+
+	// End player phase after an action was taken
+	ORG $59AC00
+		PROC_JUMP(LTFPlayerPhaseProcHook)
+
+	// ^
+	ORG $59AC78
+		PROC_JUMP(LTFPlayerPhaseProcHook)
+
+	// Display prediction icons on the side of the screen
+	// (replaces the mist thing background effect that breaks hpbars anyway)
+	// This is obsolete and has been redone in a better way
+	// ORG $59D93C
+	//	POIN LTF_DisplayPhasePredictions
+
+	// Update map sprite palettes when R button press changes state
+	// (Hopefully allows the player to be less confused as to what color is what unit)
+	ORG $59D934
+		POIN LTFMapSprite_UpdateAll
+
+	// Allow TURN events to run regardless of phase
+	ORG $08388E
+		SHORT $46C0 // nop
+
+	// Every unit gets their status refresh on turn switch (status turn decrement start)
+	ORG $01886C
+		SHORT $2000 // mov r0, #0
+
+	// ^ (status turn decrement end)
+	ORG $018922
+		SHORT $20FF // mov r0, #0xFF
+
+	// ^^ (terrain heal start)
+	ORG $035E26
+		SHORT $2000 // mov r0, #0
+
+	// ^^^ (terrain heal end)
+	ORG $0259D2
+		SHORT $20FF // mov r0, #0xFF
+
+	// ^^^^ (poison damage start)
+	ORG $035FBE
+		SHORT $2000 // mov r0, #0
+
+	// ^^^^^ (poison damage end)
+	ORG $025A4E
+		SHORT $20FF // mov r0, #0xFF
+
+	// ^^^^^^ (gorgon egg hatching start)
+	ORG $0360BE
+		SHORT $2000 // mov r0, #0
+
+	// ^^^^^^^ (gorgon egg hatching end)
+	ORG $025B06
+		SHORT $20FF // mov r0, #0xFF
+
+	// Always update traps
+	ORG $0154D2
+		SHORT $46C0 // nop
+
+	// Do not get camera coords for start of enemy phase
+	ORG $01DE88
+		SHORT $4770 // bx lr
+
+	// Only one unit per AI phase (very hacky version)
+	// ORG $039A2C
+	//	SHORT $2001 // mov r0, #1
+
+	// Do not loop CPDECIDE
+	ORG $5A7FF4
+		PROC_END
+
+	// Do not reset decide index (should fix loot ai and other things)
+	ORG $039B0C
+		SHORT $46C0
+
+	// Allow for hard "end turn" AI actions
+	ORG $039BA4
+		SHORT $E018
+
+	// Change state when building the AI unit list
+	ORG $039A48
+		WORD $67 // US_HIDDEN | US_UNSELECTABLE | US_HAS_MOVED | US_DEAD | US_RESCUED
+
+	// Change the way AI works big time by replacing the CPORDER routine list
+	ORG $0397A8
+		POIN LTFAi_NewCpOrderFuncList
+
+	// ^ But for Berserk AI by replacing the BSKORDER proc itself
+	ORG $039774
+		POIN gProc_LTFAiNewBskOrder
+
+	// Disable prediction display when disabling game gfx
+	ORG $030198
+		jumpToHack(LTFHook_InDisableBattleMapGfx)
+
+	// Restore prediction display when restoring game gfx
+	ORG $0301D0
+		jumpToHack(LTFHook_InRestoreBattleMapGfx)
+
+	// Disable prediction display when starting anims-on battle
+	// (Otherwise it will kind of do weird stuff)
+	ORG $5B9AD4
+		PROC_JUMP(LTFBattleStartingProcHook)
+
+POP
+
+PUSH
+	ORG $59A1F0
+
+	// Rewrite BMAPMAIN 
+
+	{
+
+	SetSymbol(chapter_intro,       0)
+	SetSymbol(chapter_start,       1)
+	SetSymbol(fast_chapter_intro,  2)
+	SetSymbol(phase_switch,        3)
+	SetSymbol(resume_phase_idle,   4)
+	SetSymbol(phase_start_control, 5)
+	SetSymbol(resume_action,       6)
+	SetSymbol(resume_berserk,      7)
+	SetSymbol(resume_phase_start,  8)
+	SetSymbol(turn_start,          9) // was phase_start before
+	SetSymbol(resume_arena,        10)
+	SetSymbol(chapter_start_end,   11)
+	SetSymbol(berserk_phase,       12)
+
+		PROC_SET_NAME($0D79C4) // "BMAPMAIN"
+		PROC_SET_MARK(2)
+
+		PROC_CALL_ROUTINE(LTF_StartPredictionDisplay)
+
+		PROC_SLEEP(0)
+
+	PROC_LABEL(chapter_intro)
+		PROC_CALL_ROUTINE($01550D) // MapMain_StartIntroFx
+		PROC_SLEEP(0)
+
+	PROC_LABEL(chapter_start)
+		PROC_CALL_ROUTINE($085971) // TriggerDisableMapIcons
+		PROC_CALL_ROUTINE($018DB1) // MapMain_UpdatePrevDeployStates 
+		PROC_CALL_ROUTINE_2($0153D5) // MapMain_CallBeginningEvent
+		PROC_CALL_ROUTINE($015545) // MapMain_DeployEveryone
+
+	PROC_LABEL(chapter_start_end)
+		PROC_CALL_ROUTINE($08597D) // UnTriggerDisableMapIcons
+		PROC_CALL_ROUTINE(LTF_InitCursorMemory)
+
+	PROC_LABEL(turn_start)
+		PROC_NEW_CHILD($59AE00) // gProc_ResetCursorPosition
+//		PROC_NEW_CHILD_BLOCKING($59AF80) // gProc_PhaseSwitchGfx
+
+		PROC_NEW_CHILD_BLOCKING(gProc_TurnSwitchFx)
+
+		PROC_WHILE_EXISTS($59A548) // gProc_CameraMovement
+
+		PROC_CALL_ROUTINE($018859) // MapMain_UpdateUnitStatus
+		PROC_NEW_CHILD_BLOCKING($59E438) // gProc_StatusDepletionLoop
+		PROC_NEW_CHILD_BLOCKING($59E308) // gProc_TerrainHealLoop
+		PROC_NEW_CHILD_BLOCKING($59E368) // gProc_PoisonDamageLoop
+		PROC_NEW_CHILD_BLOCKING($59E3D0) // gProc_GorgonEggHatchLoop
+
+		PROC_CALL_ROUTINE_2($0154C9) // MapMain_UpdateTraps
+
+	PROC_LABEL(phase_switch)
+		PROC_CALL_ROUTINE_2(LTF_MapMainPhaseSwitch)
+
+		PROC_CALL_ROUTINE($0154F5) // MapMain_Suspend
+
+	PROC_LABEL(phase_start_control)
+		PROC_CALL_ROUTINE(LTF_EnablePredictionDisplay)
+
+		PROC_NEW_CHILD_BLOCKING($59AE00) // gProc_ResetCursorPosition
+		PROC_LOOP_ROUTINE($015451) // MapMain_StartPhaseController
+
+		PROC_GOTO(phase_switch)
+
+	PROC_LABEL(fast_chapter_intro)
+		PROC_CALL_ROUTINE($0155C5) // MapMain_ChapterSwitch
+		PROC_SLEEP(0)
+
+		PROC_NEW_CHILD_BLOCKING($59B578) // gProc_ChapterIntroTitleOnly
+		PROC_SLEEP(0)
+
+		PROC_GOTO(chapter_start)
+
+	PROC_LABEL(resume_phase_idle) // Suspend Actions #0 (player phase idle) & #2 (cp phase idle)
+	PROC_LABEL(resume_phase_start) // Suspend action #9 (after phase switch)
+		PROC_NEW_CHILD_BLOCKING(LTFResumeToMapProc)
+
+		PROC_GOTO(phase_start_control)
+
+	PROC_LABEL(resume_action) // Suspend actions #1 (before action)
+		PROC_NEW_CHILD_BLOCKING(LTFResumeToMapProc)
+
+	PROC_LABEL(resume_arena) // Suspend action #4 (during arena fight)
+		PROC_SLEEP(0)
+		PROC_LOOP_ROUTINE($0154A5) // StartPlayerPhaseAndApplyAction
+
+		PROC_GOTO(phase_switch)
+
+	PROC_LABEL(resume_berserk)
+		PROC_NEW_CHILD_BLOCKING(LTFResumeToMapProc)
+
+	PROC_LABEL(berserk_phase)
+		PROC_NEW_CHILD_BLOCKING($5A7F30) // gProc_BerserkPhase
+
+		PROC_GOTO(phase_switch)
+
+		PROC_END // end
+
+	LTFResumeToMapProc:
+		PROC_CALL_ROUTINE($019C3D) // DrawTileGraphics
+		PROC_CALL_ROUTINE($0160D1) // UpdatePlayMapMusic
+		PROC_CALL_ROUTINE($013D8D) // StartFadeOutBlackMedium
+		PROC_LOOP_ROUTINE($014069) // WaitForFade
+
+		PROC_END // end
+
+	}
+
+	// We have room to put that here so why not
+	LTFPlayerPhaseProcHook:
+		// Clean up graphics
+		// (if we end immediately, we end up have the active map sprite not displayed for a few frames)
+		PROC_CALL_ROUTINE($01A1F5) // RefreshEntityMaps
+		PROC_CALL_ROUTINE($019C3D) // DrawTileGraphics
+		PROC_CALL_ROUTINE($0271A1) // SMS_UpdateFromGameData
+
+		PROC_WHILE_ROUTINE($01DE19) // BMXFADEExists
+
+		PROC_END
+
+	LTFBattleStartingProcHook:
+		PROC_CALL_ROUTINE(LTF_DisablePredictionDisplay)
+		PROC_JUMP($5B9ADC)
+
+	ASSERT ($59A438 - CURRENTOFFSET)
+
+POP
+
+#include "Src/LTFCore.lyn.event"
+#include "Src/LTFPhaseSwitch.lyn.event"
+#include "Src/LTFDisplay.lyn.event"
+#include "Src/LTFMapSprite.lyn.event"
+#include "Src/LTFEndPlayerPhase.lyn.event"
+#include "Src/LTFAutocursor.lyn.event"
+#include "Src/LTFAi.lyn.event"
+#include "Src/LTFTurnSwitchFx.lyn.event"
+
+#include "Src/LTFHooks.lyn.event"
+
+ALIGN 4
+gLTFTurnSwitchSheetImg:
+	#incbin "Data/TurnSwitchSheet.4bpp.lz"
+
+ALIGN 4
+gLTFTurnSwitchSheetPal:
+	#incbin "Data/TurnSwitchSheet.gbapal"
+
+// BIG-STUFF-TO-DO-AND-TO-FIX-LIST-THING:
+
+// Done: Only one action per player phase
+// Done: Have CPPHASE only do one unit
+// Done: Not reset unit state on phase switch
+// Done: Phase switch depends on units left to move
+// Done: Redo the AI to do things in a less stupid order
+// Fixed: Player phase leaves active unit map sprite hidden for a few frames too long
+// Done: Not display phase switch screen effect unless this is new turn
+// Done: Display the things!
+// WontDo: Display "E"s instead of graying the units out (ala Berwick)
+// Done: Allow holding (R) to display non-grayed out map sprites
+// Done: Wait command ends the turn of every player unit
+// Done: Turn events always trigger regarless of phase
+// Done: Update status effects for *everyone* on turn change
+// Done: Properly update traps on turn change
+// Fixed: Cursor jumps around after AI phase
+// Done: Account for Berserk Phase somehow
+// Done: Redo the Berserk AI in the same way the regular AI was redone
+// Done: Autocursor takes the first unit *that hasn't moved yet*
+// Fixed: Autocursor Off is broken
+// Done: Restore the additional AI behaviors (escaping/lockpicking)
+// Fixed: some AI2 seem broken
+// Done: Not display predictions sometimes (during cutscenes/menus/etc?)
+// Done: Not move camera to enemy before each enemy move
+// Done: Change phase switch screen effect to show something like "TURN xyz" instead of "PLAYER PHASE"
+// Fixed: Turn switch blend doesn't work on sprites, resulting in weirdities. (fixed by using bg1 for blend instead of objs).
+
+// Todo: Test
+
+// KNOWN ISSUES:
+//   AI can take its time to make a decision
+
+#endif // HAX_LTF

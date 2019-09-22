@@ -1,0 +1,222 @@
+PUSH
+ORG 0x19900
+POIN TileConfigPLIST
+
+ORG 0x19968
+POIN ObjTypePalettePLIST
+
+ORG 0x1999C
+POIN ObjTypePalettePLIST
+
+ORG 0x30134
+POIN TileAnimPLIST
+
+ORG 0x30C78
+POIN TileAnimPLIST
+
+ORG 0x34680
+POIN MapPLIST
+
+ORG 0x346AC
+POIN MapChangesPLIST
+
+ORG 0xB3018
+POIN MapChangesPLIST
+
+ORG 0xC66E8
+POIN MapChangesPLIST
+
+POP
+
+ALIGN 4
+TileConfigPLIST:
+ORG TileConfigPLIST + (0x4 * 0xFF)
+ObjTypePalettePLIST:
+ORG ObjTypePalettePLIST + (0x4 * 0xFF)
+TileAnimPLIST:
+ORG TileAnimPLIST + (0x4 * 0xFF)
+MapPLIST:
+ORG MapPLIST + (0x4 * 0xFF)
+MapChangesPLIST:
+ORG MapChangesPLIST + (0x4 * 0xFF)
+
+#define TileConfigPointerTable(aId, apointer) "PUSH; ORG TileConfigPLIST+(0x4 * aId); POIN apointer; POP"
+#define ObjTypePalettePointerTable(aId, apointer) "PUSH; ORG ObjTypePalettePLIST+(0x4 * aId); POIN apointer; POP"
+#define TileAnimPointerTable(aId, apointer) "PUSH; ORG TileAnimPLIST+(0x4 * aId); POIN apointer; POP"
+#define Map_Pointer_Table(aId, apointer) "PUSH; ORG MapPLIST+(4*aId); POIN apointer; POP"
+#define MapChangesPointerTable(aId, apointer) "PUSH; ORG MapChangesPLIST+(0x4 * aId); POIN apointer; POP"
+
+// -------------------------------TILE CONFIG-------------------------------
+
+#define FieldsTileConfig 1
+TileConfigPointerTable(FieldsTileConfig, 0x1AB69C) //03
+
+#define FieldsWithBridgeTileConfig 2
+TileConfigPointerTable(FieldsWithBridgeTileConfig, FieldsWithBridgeTileConfigData) 
+
+#define VillageTileConfig 3
+TileConfigPointerTable(VillageTileConfig, 0x1AA140) //10
+
+#define CastleTileConfig 4
+TileConfigPointerTable(CastleTileConfig, 0x1A8CCC) //1A
+
+#define PlainsTileConfig 5
+TileConfigPointerTable(PlainsTileConfig, 0x1A7674) //30
+
+#define FortTileConfig 6
+TileConfigPointerTable(FortTileConfig, 0x1A6604) //3E
+
+#define DesertTileConfig 7
+TileConfigPointerTable(DesertTileConfig, 0x1A55B4) //44
+
+#define LavaCaveTileConfig 8
+TileConfigPointerTable(LavaCaveTileConfig, 0x1A4510) //52
+
+#define RuinsTileConfig 9
+TileConfigPointerTable(RuinsTileConfig, 0x1A3660) //61
+
+#define MountainsTileConfig 10
+TileConfigPointerTable(MountainsTileConfig, 0x1A1FC0) //6E
+
+#define StrongholdTileConfig 11
+TileConfigPointerTable(StrongholdTileConfig, 0x1A1440) //7B
+
+#define TempleTileConfig 12
+TileConfigPointerTable(TempleTileConfig, 0x1A0514) //8A
+
+// -------------------------------OBJ TYPE-------------------------------
+
+#define FieldsObjType 1
+ObjTypePalettePointerTable(FieldsObjType, 0x198D8C) //01
+
+#define FieldsWithBridgeObjType 2
+ObjTypePalettePointerTable(FieldsWithBridgeObjType, FieldsWithBridgeGFX)
+
+#define VillageObjType 3
+ObjTypePalettePointerTable(VillageObjType, 0x191B14) //0E
+
+#define CastleObjType 4
+ObjTypePalettePointerTable(CastleObjType, 0x18B89C) //18
+
+#define PlainsObjType 5
+ObjTypePalettePointerTable(PlainsObjType, 0x185154) //2E
+
+#define FortObjType 6
+ObjTypePalettePointerTable(FortObjType, 0x1816B8) //3C
+
+#define DesertObjType 7
+ObjTypePalettePointerTable(DesertObjType, 0x17A9F4) //42
+
+#define LavaCastleObjType 8
+ObjTypePalettePointerTable(LavaCastleObjType, 0x1756B4) //50
+
+#define RuinsObjType 9
+ObjTypePalettePointerTable(RuinsObjType, 0x170DA8) //5F
+
+#define MountainsObjType 10
+ObjTypePalettePointerTable(MountainsObjType, 0x169D54) //6C
+
+#define StrongholdObjType 11
+ObjTypePalettePointerTable(StrongholdObjType, 0x165F7C) //79
+
+#define TempleObjType 12
+ObjTypePalettePointerTable(TempleObjType, 0x1609BC) //88
+
+// -------------------------------Palette-------------------------------
+
+#define FieldsPalette1 20
+ObjTypePalettePointerTable(FieldsPalette1, 0x1AEBF0) //02
+
+#define FieldsPalette2 21
+ObjTypePalettePointerTable(FieldsPalette2, 0x1AE5B0) //38
+
+#define FieldsPalette3 22
+ObjTypePalettePointerTable(FieldsPalette3, 0x1AE0B0) //4C
+
+#define FieldsPalette4 23
+ObjTypePalettePointerTable(FieldsPalette4, 0x1ADCF0) //5B
+
+#define FieldsWithBridgePalette1 24
+ObjTypePalettePointerTable(FieldsWithBridgePalette1, FieldsWithBridgePalette1Data)
+
+#define VillagePalette1 25
+ObjTypePalettePointerTable(VillagePalette1, 0x1AEAB0) //0F
+
+#define VillagePalette2 26
+ObjTypePalettePointerTable(VillagePalette2, 0x1AD7F0) //72
+
+#define CastlePalette1 27
+ObjTypePalettePointerTable(CastlePalette1, 0x1AE970) //19
+
+#define CastlePalette2 28
+ObjTypePalettePointerTable(CastlePalette2, 0x1AE1F0) //48
+
+#define CastlePalette3 29
+ObjTypePalettePointerTable(CastlePalette3, 0x1ADE30) //57
+
+#define CastlePalette4 30
+ObjTypePalettePointerTable(CastlePalette4, 0x1AD2F0) //B9
+
+#define PlainsPalette1 31
+ObjTypePalettePointerTable(PlainsPalette1, 0x1AE830) //2F
+
+#define PlainsPalette2 32
+ObjTypePalettePointerTable(PlainsPalette2, 0x1AE6F0) //34
+
+#define FortPalette1 33
+ObjTypePalettePointerTable(FortPalette1, 0x1AE470) //3D
+
+#define FortPalette2 34
+ObjTypePalettePointerTable(FortPalette2, 0x1ADA70) //68
+
+#define FortPalette3 35
+ObjTypePalettePointerTable(FortPalette3, 0x1AD1B0) //CE
+
+#define DesertPalette1 36
+ObjTypePalettePointerTable(DesertPalette1, 0x1AE330) //43
+
+#define LavaCavePalette1 37
+ObjTypePalettePointerTable(LavaCavePalette1, 0x1ADF70) //51
+
+#define RuinsPalette1 38
+ObjTypePalettePointerTable(RuinsPalette1, 0x1ADBB0) //60
+
+#define MountainsPalette1 39
+ObjTypePalettePointerTable(MountainsPalette1, NewMountainsPalette) //6D
+
+#define MountainsPalette2 40
+ObjTypePalettePointerTable(MountainsPalette2, 0x1AD430) //A3
+
+#define StrongholdPalette1 41
+ObjTypePalettePointerTable(StrongholdPalette1, 0x1AD6B0) //7A
+
+#define TemplePalette1 42
+ObjTypePalettePointerTable(TemplePalette1, 0x1AD570) //89
+
+// -------------------------------Tile Anims-------------------------------
+
+TileAnimPointerTable(5, 0x59D498)
+TileAnimPointerTable(0x12, 0x0859D568)
+TileAnimPointerTable(0x1C, 0x0859D6F8)
+TileAnimPointerTable(0x54, 0x0859D800)
+TileAnimPointerTable(0x7D, 0x0859D678)
+TileAnimPointerTable(0xD3, 0x0859D520)
+
+ALIGN 4
+NewMountainsPalette:
+#incext Png2Dmp "Tilesets/NewMountainsPalette.png" --palette-only
+
+ALIGN 4
+FieldsWithBridgeGFX:
+#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --lz77
+
+ALIGN 4
+FieldsWithBridgePalette1Data:
+#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --palette-only
+
+ALIGN 4
+FieldsWithBridgeTileConfigData:
+#incext compress "Tilesets/FieldsWithBridge.mapchip_conf"
+
+
+ALIGN 4

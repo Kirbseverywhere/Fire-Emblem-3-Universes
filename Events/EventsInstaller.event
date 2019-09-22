@@ -1,0 +1,12 @@
+{
+#include "HouseSelector.event"
+}
+{
+#include "P1RL1.event"
+}
+{
+#include "P1PJ1.event"
+}
+{
+#include "P1AB1.event"
+}

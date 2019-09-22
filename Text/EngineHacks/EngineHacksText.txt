@@ -1,0 +1,42 @@
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+#for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[NL]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[NL]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[NL]
+for items and gold.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## CannotEquipAccessoryTextID
+You can't equip[NL]
+this accessory.[X]
+
+#include "UnitMenuText.txt"
+
+#include "SkillDescText.txt"

@@ -1,0 +1,54 @@
+
+#define DIANA_PRETIMESKIP_PORTRAIT Diana
+setMugEntry(DIANA_PRETIMESKIP_PORTRAIT, DiaPreTimeskip, 4, 6, 3, 4) 
+DiaPreTimeskip:
+#incext PortraitFormatter "Dia_PreTimeskip.png"
+
+#define ZANE_PRETIMESKIP_PORTRAIT Zane
+setMugEntry(ZANE_PRETIMESKIP_PORTRAIT, ZanePreTimeskip, 2, 5, 3, 3) 
+ZanePreTimeskip:
+#incext PortraitFormatter "Zane_PreTimeskip.png"
+
+#define ADAMMINN_PRETIMESKIP_PORTRAIT Adamminn
+setMugEntry(ADAMMINN_PRETIMESKIP_PORTRAIT, AdamminnPreTimeskip, 3, 6, 3, 4) 
+AdamminnPreTimeskip:
+#incext PortraitFormatter "Adamminn_PreTimeskip.png"
+
+#define WILLIAM_PRETIMESKIP_PORTRAIT William 
+setMugEntry(WILLIAM_PRETIMESKIP_PORTRAIT, WilliamPreTimeskip, 3, 5, 3, 3) 
+WilliamPreTimeskip:
+#incext PortraitFormatter "William_PreTimeskip.png"
+
+#define NOBODY_PRETIMESKIP_PORTRAIT Nobody 
+
+#define JACK_PRETIMESKIP_PORTRAIT Jack 
+setMugEntry(JACK_PRETIMESKIP_PORTRAIT, JackPreTimeskip, 3, 6, 3, 4) 
+JackPreTimeskip:
+#incext PortraitFormatter "Jack_PreTimeskip.png"
+
+#define LAZUL_PRETIMESKIP_PORTRAIT Lazul 
+setMugEntry(LAZUL_PRETIMESKIP_PORTRAIT, LazulPreTimeskip, 3, 6, 3, 4) 
+LazulPreTimeskip:
+#incext PortraitFormatter "Lazul_PreTimeskip.png"
+
+#define PAUL_PRETIMESKIP_PORTRAIT Paul 
+
+#define REGINALD_PRETIMESKIP_PORTRAIT Reginald 
+setMugEntry(REGINALD_PRETIMESKIP_PORTRAIT, ReginaldPreTimeskip, 2, 5, 3, 3) 
+ReginaldPreTimeskip:
+#incext PortraitFormatter "Reginald_PreTimeskip.png"
+
+#define VOLLSTER_PRETIMESKIP_PORTRAIT Vollster 
+setMugEntry(VOLLSTER_PRETIMESKIP_PORTRAIT, VollsterPreTimeskip, 3, 6, 3, 4) 
+VollsterPreTimeskip:
+#incext PortraitFormatter "Vollster_PreTimeskip.png"
+
+#define GREG_PRETIMESKIP_PORTRAIT Greg 
+setMugEntry(GREG_PRETIMESKIP_PORTRAIT, GregPreTimeskip, 4, 6, 3, 4) 
+GregPreTimeskip:
+#incext PortraitFormatter "Greg_PreTimeskip.png"
+
+#define OCCAM_PRETIMESKIP_PORTRAIT Occam 
+setMugEntry(OCCAM_PRETIMESKIP_PORTRAIT, OccamPreTimeskip, 3, 6, 3, 4) 
+OccamPreTimeskip:
+#incext PortraitFormatter "Occam_PreTimeskip.png"

@@ -1,0 +1,26 @@
+## CaduceusNameText
+Caduceus[X]
+
+## CaduceusDescText
+Grants Tome Range +1[N]
+And +2 Mag.[X]
+
+## NormalShieldNameText
+Shield[X]
+
+## NormalShieldDescText
+Grants Defense +2[N]
+At the cost of -2 speed.[X]
+
+## AegisShieldNameText
+Aegis Shield[X]
+
+## AegisShieldDescText
+Grants Aegis.[X]
+
+## ExpShareNameText
+Exp Share[X]
+
+## ExpShareDescText
+Grants Exp to Adjacent.[NL]
+Units after Battle.[X]

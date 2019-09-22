@@ -1,0 +1,50 @@
+#include "Extensions/Hack Installation.txt"
+
+#ifndef efxHPBarParent
+ALIGN 4
+//  #include "HPCost/HPHealingFixes.event"
+#endif
+
+#include "SpellSystem.event"
+#include "vanilla_spell_lists.event"
+
+//put code for menu option usability here
+
+MagicUMCommand:
+#incbin "MagicUMCommand.dmp"
+POIN Spells_Getter
+MagicUMCommandEffect:
+#incbin "MagicUMCommandEffect.dmp"
+POIN BuildSelectSpellMenu
+MagicUMCommandHover:
+#incbin "MagicUMCommandHover.dmp"
+MagicUMCommandUnhover:
+#incbin "MagicUMCommandUnhover.dmp"
+
+PUSH
+
+/*ORG $2B3EC
+  jumpToHack(ProcParent)*/
+
+//here we'll overwrite a useless command like Play with our new commands.
+
+POP
+
+//Changes to support calculating HP changes during battle:
+ProcParent:
+#incbin "proc_loop.dmp"
+POIN Magic_Proc_Start
+POIN MagicCostsHP
+POIN Magic_Proc_Finish 0
+
+ALIGN 4
+Magic_Proc_Start:
+#incbin "proc_start.dmp"
+
+ALIGN 4
+Magic_Proc_Finish:
+#incbin "proc_finish.dmp"
+
+ALIGN 4
+MagicCostsHP:
+#incbin "hpcost.dmp"

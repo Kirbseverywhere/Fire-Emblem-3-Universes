@@ -1,0 +1,108 @@
+ALIGN 4
+#include "src/HouseSelection.event"
+ALIGN 4
+#include "src/UnitCustomizer.event"
+ALIGN 4
+
+#define UnitCustomizerEntry(charID, majorProficiency, minorProficiency, hiddenTalent, class1, class1Item1, class1Item2, class2, class2Item1, class2Item2, class3, class3Item1, class3Item2, class4, class4Item1, class4Item2, unitDescriptionString) "BYTE charID majorProficiency minorProficiency hiddenTalent class1 class2 class3 class4 class1Item1 class1Item2 class2Item1 class2Item2 class3Item1 class3Item2 class4Item1 class4Item2; POIN unitDescriptionString"
+
+unitCustomizerClassList:
+
+// RED LOBSTERS
+UnitCustomizerEntry(Michael, Swords, Axes, Lances, Mercenary, IronSword, ExpShare, Brigand, IronAxe, Vulnerary, Soldier, IronLance, Vulnerary, Knight, IronLance, Vulnerary, MichaelUnitCustomizerDesc)
+UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, Pirate, IronAxe, Vulnerary, Knight, IronLance, Vulnerary, EricUnitCustomizerDesc)
+UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Monk, Lightning, Vulnerary, Priest, Heal, Vulnerary, Archer, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
+UnitCustomizerEntry(QuaSahnt, Reason, Reason, Axes, Mage, Fire, Vulnerary, Shaman, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, Knight, IronLance, Vulnerary, QuaSahntUnitCustomizerDesc)
+UnitCustomizerEntry(Innards, Axes, Reason, Bows, WyvernRider, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, InnardsUnitCustomizerDesc)
+UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulnerary, Mage, Fire, Vulnerary, Shaman, Flux, Vulnerary, Knight, IronLance, Vulnerary, JonathenUnitCustomizerDesc)
+
+
+
+// PURPLE JAGUARS
+UnitCustomizerEntry(Horus, Faith, Swords, Reason, Mage, Fire, Vulnerary, Cavalier, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, IronBow, Vulnerary, HorusUnitCustomizerDesc)
+UnitCustomizerEntry(Tray, Lances, Swords, Bows, PegasusKnight, IronLance, Vulnerary, Myrmidon, IronSword, Vulnerary, Knight, IronLance, Vulnerary, Archer, IronBow, Vulnerary, TrayUnitCustomizerDesc)
+UnitCustomizerEntry(Xenith, Swords, Bows, Lances, Knight, IronLance, Vulnerary, Mercenary, IronSword, Vulnerary, Archer, IronBow, Vulnerary, Soldier, IronLance, Vulnerary, XenithUnitCustomizerDesc)
+UnitCustomizerEntry(Glac, Axes, Swords, Faith, Knight, IronLance, Vulnerary, Myrmidon, KillingEdge, Vulnerary, WyvernRider, IronLance, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
+UnitCustomizerEntry(Myst, Swords, Swords, Reason, Knight, IronLance, Vulnerary, Mercenary, IronSword, Vulnerary, Myrmidon, IronSword, Vulnerary, Shaman, Flux, Vulnerary, MystUnitCustomizerDesc)
+UnitCustomizerEntry(Daff, Reason, Faith, Lances, Shaman, Flux, Vulnerary, Troubadour, Heal, Vulnerary, Archer, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, DaffUnitCustomizerDesc)
+UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief, IronSword, Lockpick, Archer, IronBow, Vulnerary, Cleric, Heal, Vulnerary, Mage, Fire, Vulnerary, SmeglindeUnitCustomizerDesc)
+UnitCustomizerEntry(Kabby, Gauntlets, Reason, Axes, Brigand, IronAxe, Vulnerary, Fighter, IronAxe, Vulnerary, Shaman, Flux, Vulnerary, Priest, Heal, Vulnerary, KabbyUnitCustomizerDesc)
+
+// AMBER BEARS
+UnitCustomizerEntry(Zane, Lances, Axes, Faith, Priest, Heal, Caduceus, Mage, Fire, Caduceus, Knight, IronLance, Vulnerary, Mage, Thunder, Vulnerary, ZaneUnitCustomizerDesc)
+UnitCustomizerEntry(Adamminn, Lances, Axes, Faith, Brigand, IronAxe, AegisShield, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, Knight, IronLance, Vulnerary, AdamminnUnitCustomizerDesc)
+
+SHORT 0
+
+ALIGN 4
+MichaelUnitCustomizerDesc:
+String("Michael: Probably too drunk to fight")
+BYTE 0
+
+EricUnitCustomizerDesc:
+String("Eric: Oh wait THIS is chair")
+BYTE 0
+
+KellyUnitCustomizerDesc:
+String("Kelly: Best and only cook in all of Ternon!")
+BYTE 0
+
+QuaSahntUnitCustomizerDesc:
+String("Qua: Best and only cook in all of Ternon!")
+BYTE 0
+
+InnardsUnitCustomizerDesc:
+String("Innards: Had the guts to show up")
+BYTE 0
+
+JonathenUnitCustomizerDesc:
+String("Jonathen Mitford: always with ford")
+BYTE 0
+
+ALIGN 4
+XenithUnitCustomizerDesc:
+String("Xenith:")
+BYTE 0
+
+MystUnitCustomizerDesc:
+String("Myst: Literally unwatchable")
+BYTE 0
+
+ALIGN 4
+TrayUnitCustomizerDesc:
+String("Tray: Really, I have no joke here")
+BYTE 0
+
+ALIGN 4
+HorusUnitCustomizerDesc:
+String("I cause a game over because I'm in charge")
+BYTE 0
+
+ALIGN 4
+GlacUnitCustomizerDesc:
+String("Gregg")
+BYTE 0
+
+ALIGN 4
+DaffUnitCustomizerDesc:
+String("Daff von Morgana: You look tired.")
+BYTE 0
+
+ALIGN 4
+SmeglindeUnitCustomizerDesc:
+String("Smeglinde: Has the role gauntlet")
+BYTE 0
+
+ALIGN 4
+KabbyUnitCustomizerDesc:
+String("Kabby: Feet")
+BYTE 0
+
+ALIGN 4
+ZaneUnitCustomizerDesc:
+String("Zane: Always one bone away from perfection")
+BYTE 0
+
+AdamminnUnitCustomizerDesc:
+String("GOD NO I AM NOT DOING A DESC FOR ADAM")
+BYTE 0

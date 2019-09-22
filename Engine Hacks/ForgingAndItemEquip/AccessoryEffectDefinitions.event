@@ -1,0 +1,4 @@
+#define AE_Skill 0x1
+#define AE_TomeRangeUp 0x2
+#define AE_NormalShield 0x3
+#define AE_ExpShare 0x4

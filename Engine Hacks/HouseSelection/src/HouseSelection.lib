@@ -1,0 +1,42 @@
+.macro SET_ABS_FUNC name, value
+	.global \name
+	.type   \name, %function
+	.set    \name, \value
+.endm
+
+.macro SET_ABS_DATA name, value
+	.global \name
+	.type   \name, %object
+	.set    \name, \value
+.endm
+
+
+@MENU WINDOW
+SET_ABS_FUNC MakeUIWindowTileMap_BG0BG1, 0x0804E369
+SET_ABS_FUNC LoadOldUIPal, 0x0804E0A9
+
+@TEXT
+SET_ABS_FUNC DrawTextInline, 0x0800443D
+SET_ABS_FUNC Text_InitFont, 0x08003C95
+
+@PROC
+SET_ABS_FUNC ProcStart, 0x08002C7D
+SET_ABS_FUNC ProcStartBlocking, 0x08002CE1
+SET_ABS_FUNC BreakProcLoop, 0x08002E95
+
+@GFX
+SET_ABS_FUNC Decompress, 0x08012F51
+SET_ABS_FUNC CopyToPaletteBuffer, 0x8000DB9
+SET_ABS_FUNC SetupBG, 0x08001B59
+SET_ABS_FUNC StartFace, 0x800563D
+SET_ABS_FUNC EndFaceById, 0x8005759
+SET_ABS_DATA gBg0MapBuffer, 0x02022CA8
+SET_ABS_DATA gBg3MapBuffer, 0x020244A8
+
+@INPUT
+SET_ABS_DATA sInput, 0x2024CC0
+
+@CHAPTER
+SET_ABS_DATA gChapterData, 0x202BCF0
+
+
