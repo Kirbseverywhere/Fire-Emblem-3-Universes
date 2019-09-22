@@ -86,3 +86,4 @@ StatScreenPal:
 #include "ItemIcons/ItemIcons.event"
 #include "HouseBanners/HouseBanners.event"
 #include "PointerList/SplitPointerList.event"
+#include "MapSprites/MapSprites.event"

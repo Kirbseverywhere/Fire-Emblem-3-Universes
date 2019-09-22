@@ -79,3 +79,5 @@
 #define NormalShield 0xBD  
 #define AegisShield 0xBE
 #define ExpShare 0xBF
+
+#include "ClassDefinitions.event"

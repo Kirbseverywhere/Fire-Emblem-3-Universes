@@ -54,6 +54,8 @@ Gauntlet mastery level.[X]
 
 #include "Characters\CharacterText.txt"
 
+#include "Class\ClassText.txt"
+
 #include "Items\ItemText.txt"
 
 #include "Story\StoryBuildfile.txt"
