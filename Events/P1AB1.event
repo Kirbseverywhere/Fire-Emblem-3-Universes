@@ -1,11 +1,6 @@
 EventPointerTable(32, PointerList)
 // definitions so i don't die
 #define Rebel 0x72
-#define SwordArmor Knight
-#define LanceArmor Knight
-#define AxeKnight Cavalier
-#define SwordKnight Cavalier
-#define LanceKnight Cavalier
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
