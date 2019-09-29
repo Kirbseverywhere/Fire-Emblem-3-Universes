@@ -27,6 +27,7 @@ void CreateUnitCustomizerMenu(struct Proc *EventEngine) {
 }
 
 void UnitCustomizerMenuSetup(struct UnitCustomizerMenuProc *currentProc) {
+	EndFaceById(0);
 	DrawBG();
 	currentProc->UnitPoolIndex = 0;
 }
@@ -93,6 +94,7 @@ void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	gActiveUnit->spd = gActiveUnit->pCharacterData->baseSpd + gActiveUnit->pClassData->baseSpd;
 	gActiveUnit->def = gActiveUnit->pCharacterData->baseDef + gActiveUnit->pClassData->baseDef;
 	gActiveUnit->res = gActiveUnit->pCharacterData->baseRes + gActiveUnit->pClassData->baseRes;
+	gActiveUnit->mag = MagCharTable[gActiveUnit->pCharacterData->number].baseMag + MagClassTable[gActiveUnit->pClassData->number].baseMag;
 	
 	// Weapon Ranks
 	for(int i = 0; i<7; i++) {

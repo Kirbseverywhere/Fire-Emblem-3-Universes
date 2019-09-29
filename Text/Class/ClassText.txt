@@ -93,3 +93,9 @@ Mage Fighter[X]
 
 ## MageFighterClassDesc
 Mage Fighter[X]
+
+## DeaconClassName
+Deacon[X]
+
+## DeaconClassDesc
+Deacon[X]

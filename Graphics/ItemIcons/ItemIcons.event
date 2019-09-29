@@ -13,4 +13,7 @@ SetItemIcon(AegisShield)
 SetItemIcon(0x70)
 #incext Png2Dmp "WRankIcons.png"
 
+//Weapon Icons Palette
+ORG 0x5996F4+0x20
+#incbin "WRankIconsPal.bin"
 POP

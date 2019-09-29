@@ -19,7 +19,7 @@ UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulner
 
 
 // PURPLE JAGUARS
-UnitCustomizerEntry(Horus, Faith, Swords, Reason, Mage, Fire, Vulnerary, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, IronBow, Vulnerary, HorusUnitCustomizerDesc)
+UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, IronBow, Vulnerary, HorusUnitCustomizerDesc)
 UnitCustomizerEntry(Tray, Lances, Swords, Bows, PegasusKnight, IronLance, Vulnerary, Myrmidon, IronSword, Vulnerary, LanceArmor, IronLance, Vulnerary, Archer, IronBow, Vulnerary, TrayUnitCustomizerDesc)
 UnitCustomizerEntry(Xenith, Swords, Bows, Lances, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Archer, IronBow, Vulnerary, Soldier, IronLance, Vulnerary, XenithUnitCustomizerDesc)
 UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, KillingEdge, Vulnerary, WyvernRider, IronLance, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)

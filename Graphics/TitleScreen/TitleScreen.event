@@ -73,3 +73,5 @@ Title_Screen_Background:
 ALIGN 4
 Title_Screen_Background_Palette:
 #incext Png2Dmp "TitleScreen.png" --palette-only
+
+#include "titlebackgroundinstaller.event"

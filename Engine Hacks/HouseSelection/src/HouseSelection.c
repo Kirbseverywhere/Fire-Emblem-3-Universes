@@ -82,7 +82,7 @@ void HouseSelectionMenuSetup(struct HouseSelectionProc *currentProc) {
 void HouseSelectionMenuLoop(struct HouseSelectionProc *currentProc) {
 	Text_InitFont();
 	if ((sInput.newPress & InputStart) != 0) {
-		EndFaceById(0);
+		//EndFaceById(0);
 		gChapterData.chapterModeIndex = currentProc->houseCounter;
 		BreakProcLoop((struct Proc *)currentProc);
 	}
