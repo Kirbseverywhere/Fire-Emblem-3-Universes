@@ -114,3 +114,8 @@ ALIGN 4
 ReginaldUnitCustomizerDesc:
 String("Reginald: :dlanigeR")
 BYTE 0
+
+ALIGN 4
+LazulUnitCustomizerDesc:
+String("Lazul: I'm blue dabedeedabeda")
+BYTE 0
