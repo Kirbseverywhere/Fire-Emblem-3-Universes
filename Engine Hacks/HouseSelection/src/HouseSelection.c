@@ -28,7 +28,7 @@ void DrawBG() {
 	CopyToPaletteBuffer(ScrollyBGPalette, 0x1C0, 0x20);
 	GenerateBGTsa(gBg3MapBuffer, 0x280, 14, 0);
 	CopyToPaletteBuffer((u16 *)0x859ED70, 0x200, 0x20); // Hand
-	CopyToPaletteBuffer((u16 *)0x8599714, 0x80, 0x20); // Weapon Icons
+	CopyToPaletteBuffer(WeaponIconsPal+16, 0x80, 0x20); // Weapon Icons
 }
 
 void CreateHouseSelectionMenu(struct Proc *EventEngine) {

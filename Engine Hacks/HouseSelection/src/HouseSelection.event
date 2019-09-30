@@ -19,7 +19,8 @@ BYTE $51 $2F $01 $08 $00 $80 $00 $06
 POIN ScrollyBGGFX
 BYTE $B9 $0D $00 $08
 POIN ScrollyBGPalette
-BYTE $A8 $44 $02 $02 $70 $ED $59 $08 $14 $97 $59 $08
+BYTE $A8 $44 $02 $02 $70 $ED $59 $08
+POIN (WeaponIconsPal+32)
 SHORT $B510 $0001 $4B03 $4804 $F000 $F998 $BC10 $BC01 $4700 $46C0
 BYTE $E1 $2C $00 $08
 POIN HouseSelectionMenuProcCode
