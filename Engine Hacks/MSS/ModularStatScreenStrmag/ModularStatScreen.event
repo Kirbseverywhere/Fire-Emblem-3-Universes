@@ -403,10 +403,10 @@ ALIGN 4
 
 #ifdef Display_Growths_Toggle
 	PersonalDataRText:
-	  RMenu(0,ST_Str,0,0,0x76,0x4,PersonalDataDesc1)
+	  RMenu(0,ST_Str,ST_Name,0,0x76,0x4,PersonalDataDesc1)
 #else
 	PersonalDataRText:
-	  RMenu(0,ST_Str,0,0,0x76,0x4,PersonalDataDesc2)
+	  RMenu(0,ST_Str,ST_Name,0,0x76,0x4,PersonalDataDesc2)
 #endif
   
   PUSH
