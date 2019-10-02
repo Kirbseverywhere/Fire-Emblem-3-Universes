@@ -78,13 +78,20 @@ void DrawClassOption(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, menuInfo->x, menuInfo->y), 0, 0, 10, className);
 }
 
-void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+void ApplyClassIDChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	
 	struct UnitCustomizerClassList *currentCustomizerList = getUnitCustomizeClassList(gActiveUnit->pCharacterData->number);
 	
 	// Class
 	u8 classID = currentCustomizerList->ClassOptions[menuInfo->menuCommandID];
 	gActiveUnit->pClassData = GetClassData(classID);
+}
+
+void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+	
+	struct UnitCustomizerClassList *currentCustomizerList = getUnitCustomizeClassList(gActiveUnit->pCharacterData->number);
+	
+	ApplyClassIDChange(menuProc, menuInfo);
 	
 	// Stats
 	gActiveUnit->maxHP = gActiveUnit->pCharacterData->baseHP + gActiveUnit->pClassData->baseHP;
@@ -114,6 +121,13 @@ void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	EndFaceById(0);
 }
 
+int DrawClassSMS(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+	ApplyClassIDChange(menuProc, menuInfo);
+	UpdateMapSpriteSheet();
+	SMS_Draw(0, 100, 104, gActiveUnit);
+	return 0;
+}
+
 const struct ProcCmd UnitCustomizerMenuProcCode[] = {
 	PROC_SET_NAME("ASMC_KIRB_HOUSESELECTOR"),
 	PROC_CALL_ROUTINE(LockGameLogic),
@@ -134,22 +148,26 @@ const struct MenuCommand UnitCustomizerMenuCommands[] = {
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 	}

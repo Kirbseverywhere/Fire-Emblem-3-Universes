@@ -5,7 +5,7 @@ KyuPreTimeskip:
 #incext PortraitFormatter "Kyu_PreTimeskip.png"
 
 #define MICHAEL_PRETIMESKIP_PORTRAIT Michael
-setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 5, 3, 3) 
+setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 6, 3, 4) 
 MichaelPreTimeskip:
 #incext PortraitFormatter "Michael_PreTimeskip.png"
 

@@ -10,6 +10,7 @@ typedef signed long s32;
 
 
 #include "HouseSelection.h"
+#include "unitData.h"
 #include "chapterData.h"
 #include "proc.h"
 #include "text.h"
@@ -29,6 +30,7 @@ void DrawBG() {
 	GenerateBGTsa(gBg3MapBuffer, 0x280, 14, 0);
 	CopyToPaletteBuffer((u16 *)0x859ED70, 0x200, 0x20); // Hand
 	CopyToPaletteBuffer(WeaponIconsPal+16, 0x80, 0x20); // Weapon Icons
+	LoadMapSpritePalettes();
 }
 
 void CreateHouseSelectionMenu(struct Proc *EventEngine) {

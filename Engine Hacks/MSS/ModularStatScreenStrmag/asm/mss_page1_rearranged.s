@@ -107,6 +107,7 @@ draw_con_bar_with_getter_at 24, 5
 
 draw_textID_at 21, 7, textID=0x4f8 @aid
 draw_number_at 25, 7, 0x80189B8, 1 @aid getter
+draw_aid_icon_at 26, 7
 
 draw_trv_text_at 21, 9
 

@@ -143,6 +143,8 @@
 	ORG 0x87784 
 	  WORD 0x2003CB4
 
+	ORG 0x286C6
+	  SHORT 0x3801 // Remove the +0x79 for icons 
   POP
   
 	ALIGN 4
@@ -426,7 +428,7 @@ ALIGN 4
     RMenu(ST_Class3,ST_HP3,ST_Level3,ST_Skill1,0x26,0x78,0x543)
 
   ST_HP3:
-    RMenu(ST_Level4,0,0,ST_Skill4,0x6,0x88,0x544)
+    RMenu(ST_Level4,0,0,ST_Skill1,0x6,0x88,0x544)
 	
   POP
   
@@ -455,25 +457,13 @@ ALIGN 4
     RMenu(ST_AuthorityRank,ST_Skills,ST_ReasonRank, 0, 0xA8, 0x48, 0x566)
 
    ST_Skills:
-    RMenu(ST_ReasonRank,ST_Skill1,ST_Class3,0,0x94,0x60,SS_SkillsRText)
+    RMenu(ST_ReasonRank,ST_Skill1,ST_Class3,0,0x70,0x60,SS_SkillsRText)
 
   ST_Skill1:
-    RMenu(ST_Skills,ST_Skill4,ST_Exp3,ST_Skill2,0x70,0x70,0,RTextLoop,SkillDescGetter)
+    RMenu(ST_Skills,0,ST_Exp3,ST_Skill2,0x6C,0x70,0,RTextLoop,SkillDescGetter)
 
   ST_Skill2:
-    RMenu(ST_Skills,ST_Skill5,ST_Skill1,ST_Skill3,0x88,0x70,1,RTextLoop,SkillDescGetter+4)
-
-  ST_Skill3:
-    RMenu(ST_Skills,ST_Skill6,ST_Skill2,0,0xA0,0x70,2,RTextLoop,SkillDescGetter+8)
-
-  ST_Skill4:
-    RMenu(ST_Skill1,0,ST_Exp3,ST_Skill5,0x70,0x80,3,RTextLoop,SkillDescGetter+12)
-
-  ST_Skill5:
-    RMenu(ST_Skill2,0,ST_Skill4,ST_Skill6,0x88,0x80,4,RTextLoop,SkillDescGetter+16)
-
-  ST_Skill6:
-    RMenu(ST_Skill3,0,ST_Skill5,0,0xA0,0x80,5,RTextLoop,SkillDescGetter+20)
+    RMenu(ST_Skills,0,ST_Skill1,0,0x7C,0x70,1,RTextLoop,SkillDescGetter+4)
   
   RText_Page4:
 
