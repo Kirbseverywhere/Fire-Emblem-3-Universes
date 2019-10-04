@@ -128,6 +128,12 @@ int DrawClassSMS(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	return 0;
 }
 
+int backDownIfPossible() {
+	struct UnitCustomizerMenuProc *proc = (struct UnitCustomizerMenuProc *)ProcFind(UnitCustomizerMenuProcCode);
+	if(proc->UnitPoolIndex > 1) proc->UnitPoolIndex -= 2;
+	EndFaceById(0);
+}
+
 const struct ProcCmd UnitCustomizerMenuProcCode[] = {
 	PROC_SET_NAME("ASMC_KIRB_HOUSESELECTOR"),
 	PROC_CALL_ROUTINE(LockGameLogic),
@@ -179,5 +185,6 @@ const struct MenuDefinition UnitCustomizerMenuDefinition = {
 	.width = 10,
 	.style = 1,
 	.menuCommands = (struct MenuCommand *)UnitCustomizerMenuCommands,
-	.onDestruction = (void *)0x801BCCD
+	//.onDestruction = (void *)0x801BCCD,
+	.onBPress = (void *)backDownIfPossible
 };

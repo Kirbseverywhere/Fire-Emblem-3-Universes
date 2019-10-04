@@ -25,6 +25,9 @@ QuaSahntPreTimeskip:
 #incext PortraitFormatter "QuaSahnt_PreTimeskip.png"
 
 #define INNARDS_PRETIMESKIP_PORTRAIT Innards
+setMugEntry(INNARDS_PRETIMESKIP_PORTRAIT, InnardsPreTimeskip, 2, 4, 2, 2) 
+InnardsPreTimeskip:
+#incext PortraitFormatter "Innards_PreTimeskip.png"
 
 #define JONATHEN_PRETIMESKIP_PORTRAIT Jonathen
 setMugEntry(JONATHEN_PRETIMESKIP_PORTRAIT, JonathenPreTimeskip, 2, 6, 3, 4) 

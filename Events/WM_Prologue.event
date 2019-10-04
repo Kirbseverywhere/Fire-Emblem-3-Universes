@@ -11,13 +11,15 @@ WorldMapPointerTable(1,WM_Events)
 #define WorldMapMoveMapSprite(runtimeID, acceleration, startX, startY, destX, destY, moveTime, EID, delay) "WM_PUTMOVINGSPRITE 0x0 runtimeID acceleration startX startY destX destY moveTime EID delay 0x0"
 
 WM_Events:
-SKIPWN
-ENDA
+/*SKIPWN
+ENDA*/
 BeginWorldMap
 MUSC 0x4
 WorldMapShowTextBox
 WorldMapTextBegin(Part0Ch1WorldMapText1)
 TEXTEND
+SKIPWN
+ENDA
 STAL 6
 WorldMapLoadMapSprite(0x2, Magus, 0)
 WorldMapDisplayMapSprite(0x2, 0, 70, 70, 16)

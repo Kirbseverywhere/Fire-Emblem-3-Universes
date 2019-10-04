@@ -84,6 +84,9 @@ TileConfigPointerTable(StrongholdTileConfig, 0x1A1440) //7B
 #define TempleTileConfig 12
 TileConfigPointerTable(TempleTileConfig, 0x1A0514) //8A
 
+#define CaveTileConfig 13
+TileConfigPointerTable(CaveTileConfig, CaveTileConfigData) 
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -121,6 +124,9 @@ ObjTypePalettePointerTable(StrongholdObjType, 0x165F7C) //79
 
 #define TempleObjType 12
 ObjTypePalettePointerTable(TempleObjType, 0x1609BC) //88
+
+#define CaveObjType 12
+ObjTypePalettePointerTable(CaveObjType, CaveObjTypeData)
 
 // -------------------------------Palette-------------------------------
 
@@ -193,8 +199,17 @@ ObjTypePalettePointerTable(StrongholdPalette1, 0x1AD6B0) //7A
 #define TemplePalette1 42
 ObjTypePalettePointerTable(TemplePalette1, 0x1AD570) //89
 
+#define CavePalette1 42
+ObjTypePalettePointerTable(CavePalette1, CavePalette1Data) 
+
 // -------------------------------Tile Anims-------------------------------
 
+#define MapAnimsTiles(duration, tileSize, imgPointer) "SHORT duration tileSize; POIN imgPointer"
+
+#define CaveTileAnims 1
+TileAnimPointerTable(CaveTileAnims, CaveTileAnimsData)
+
+TileAnimPointerTable(5, 0x59D498)
 TileAnimPointerTable(5, 0x59D498)
 TileAnimPointerTable(0x12, 0x0859D568)
 TileAnimPointerTable(0x1C, 0x0859D6F8)
@@ -218,5 +233,16 @@ ALIGN 4
 FieldsWithBridgeTileConfigData:
 #incext compress "Tilesets/FieldsWithBridge.mapchip_conf"
 
+ALIGN 4
+CaveObjTypeData:
+#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --lz77
 
 ALIGN 4
+CavePalette1Data:
+#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --palette-only
+
+ALIGN 4
+CaveTileConfigData:
+#incext compress "Tilesets/Cave/Cave.mapchip_conf"
+
+#include "Tilesets/Cave/CaveAnimsInstaller.event"

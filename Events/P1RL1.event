@@ -20,6 +20,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(7,Village1Event,1,2)
+Village(8,Village2Event,11,12)
 END_MAIN
 
 MiscBasedEvents:
@@ -81,6 +83,11 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+REMU Kaiden
+REMU Cleo
+REMU Reds
+REMU Mimi
+REMU Zorua
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
@@ -90,4 +97,14 @@ ENDA
 EndingScene:
 MNC2 0x2
 NoFade
+ENDA
+
+Village1Event:
+//GiveItem(Caduceus)
+SVAL 3 Caduceus; GIVEITEMTO 0xFF
+ENDA
+
+Village2Event:
+//GiveItem(NormalShield)
+SVAL 3 NormalShield; GIVEITEMTO 0xFF
 ENDA

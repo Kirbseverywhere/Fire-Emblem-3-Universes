@@ -213,6 +213,7 @@
 	#incbin "asm/Growth Getters/Get_Mag_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	POIN MagCharTable
+	POIN MagClassTable
 	ALIGN 4
 	
 	Get_Skl_Growth:
@@ -244,6 +245,8 @@
 	#incbin "asm/Growth Getters/Extra_Growth_Boosts.dmp"
 	WORD Growth_Options
 	POIN ItemTable
+	
+	MESSAGE Growths Mag Get_Mag_Growth Skill/Speed Get_Skl_Growth Get_Spd_Growth
 
   ALIGN 4
   Load_Page:

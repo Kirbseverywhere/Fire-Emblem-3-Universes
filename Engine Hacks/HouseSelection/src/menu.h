@@ -24,12 +24,12 @@ struct MenuDefinition
 	u8 height;
 	u32 style;
 	struct MenuCommand *menuCommands;
+	void (*onBuild)();
+	void (*onStartGenericRPress)();
+	void (*unk1)();
 	void (*onBPress)();
 	void (*onRPress)();
-	void (*onBuild)();
-	void (*onDestruction)();
-	void (*unk1)();
-	void (*unk2)();
+	void (*onEndGenericRPress)();
 };
 
 struct MenuStuff

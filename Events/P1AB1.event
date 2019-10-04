@@ -77,6 +77,15 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+REMU Zane
+REMU Adamminn
+REMU William
+REMU Nobody
+REMU Jack
+REMU Paul
+REMU Vollster
+REMU Greg
+REMU Occam
 LOAD1 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits

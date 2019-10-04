@@ -9,6 +9,7 @@ Map:
 
 MapChanges:
 TileMap(7,1,2,1,1,Village1Closed)
+TileMap(8,11,12,1,1,Village1Closed)
 TileMapEnd
 
 Village1Closed:

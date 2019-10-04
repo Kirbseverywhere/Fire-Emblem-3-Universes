@@ -75,6 +75,10 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+REMU Kabby
+REMU Stephen
+REMU Anthony
+REMU Leo
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
