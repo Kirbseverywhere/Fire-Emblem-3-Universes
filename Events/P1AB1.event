@@ -14,7 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 BanditsAppear[4,0] 0x0
+TURN 0x0 BanditsAppear[6,0] 0x0
 END_MAIN
 
 BanditsAppear:
@@ -30,9 +30,25 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(0x7,Village1,1,1)
+Village(0x8,Village2,10,5)
+Village(0x9,Village3,11,10)
 END_MAIN
 
+Village1:
+VillageEventItem(PlaceholderText,0x5,NormalShield) 
+ENDA
+
+Village2:
+VillageEventItem(PlaceholderText,0x5,MasterSeal)
+ENDA
+
+Village3:
+VillageEventItem(PlaceholderText,0x5,KillingEdge)
+ENDA
+
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -58,13 +74,12 @@ EnemyUnits:
 UNIT Kajarn Mercenary 0x1 Level(10, Enemy, 0)   [13,1] 0b 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
 UNIT Rebel Fighter Pablo Level(8, Enemy, 1)   [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
 UNIT Rebel Mercenary Pablo Level(10, Enemy, 1)  [8,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
-UNIT Rebel SwordArmor Pablo Level(10, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronBlade] NeverMoveAI
-UNIT Rebel LanceArmor Pablo Level(10, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
-UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [IronLance, NormalShield] PursueWithoutHeedAI
+UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronBlade] NeverMoveAI
+UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
+UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [IronLance, NormalShield] PursueWithoutHeedAI
 UNIT Rebel LanceKnight Pablo Level(10, Enemy, 1) [11,11] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
-UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [HandAxe] GuardTileAI
+UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [IronAxe] GuardTileAI
 UNIT Rebel AxeKnight Pablo Level(11, Enemy, 1) [8,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [2,4] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
 UNIT Rebel Mercenary Pablo Level(11, Enemy, 1) [13,5] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
 UNIT
  
