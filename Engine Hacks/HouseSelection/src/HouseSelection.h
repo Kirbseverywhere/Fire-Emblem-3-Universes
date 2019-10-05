@@ -19,3 +19,5 @@ extern u16 PJSmallBannerPalette[];
 
 extern u32 ABSmallBannerGraphics[];
 extern u16 ABSmallBannerPalette[];
+
+extern u16 WeaponIconsPal[];

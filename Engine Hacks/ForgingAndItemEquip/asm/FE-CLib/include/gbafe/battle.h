@@ -164,5 +164,10 @@ int GetStatIncrease(int growth); //! FE8U = 0x802B9A1
 
 int BattleUnit_ShouldDisplayWpnBroke(struct BattleUnit* bu); //! FE8U = 0x807A771
 int BattleUnit_ShouldDisplayWRankUp(struct BattleUnit* bu); //! FE8U = 0x802C1B1
+int CanBattleUnitGainLevels(struct BattleUnit* bu); //! FE8U =  
+void CheckBattleUnitLevelUp(struct BattleUnit* bu); //! FE8U =  
+void InitBattleUnit(struct BattleUnit* bu, struct Unit *unit);
+void SetupMapBattleAnim(struct BattleUnit* bu, struct BattleHit *bh);
+extern ProcInstruction gProc_BattleAnimSimpleLock[];
 
 #endif // GBAFE_BATTLE_H

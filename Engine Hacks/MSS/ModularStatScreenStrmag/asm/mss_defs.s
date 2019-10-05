@@ -73,7 +73,7 @@
   bx r0 
 .endm
 
-.macro draw_textID_at tile_x, tile_y, textID=0, width=3, colour=3, growth_func=-1		@growth func is # of growth getter in growth_getters_table; 0=hp, 1=str, 2=skl, etc
+.macro draw_textID_at tile_x, tile_y, textID=0, width=3, colour=3, growth_func=-1, pixel_index=0		@growth func is # of growth getter in growth_getters_table; 0=hp, 1=str, 2=skl, etc
   mov r3, r7
   mov r1, #\width
   @r3 is current buffer location, r1 is width.
@@ -110,7 +110,7 @@
   .endif
   mov r0, r7
   ldr r1, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
-  mov r3, #0
+  mov r3, #\pixel_index
   blh DrawText, r4
   .ifge \growth_func
   ldr r1,[sp,#0x14]
@@ -600,7 +600,9 @@
   ldr r4, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
   mov r0, r8
   blh AffinityGetter
-  mov     r1,r0      
+  mov     r1, #0x2
+  lsl     r1, #0x8 @ 0x200
+  orr     r1, r0
   mov     r2,#0xA0       
   lsl     r2,r2,#0x7      
   mov     r0,r4    

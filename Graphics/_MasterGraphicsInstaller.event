@@ -54,15 +54,15 @@ POP
 
 ALIGN 4
 SmallWorldMapGFX:
-#incext Png2Dmp "Feudlan_Small_Tiles.png" --lz77
+#incext Png2Dmp "Ternon_Small_Tiles.png" --lz77
 
 ALIGN 4
 SmallWorldMapPalette:
-#incext Png2Dmp "Feudlan_Small_Tiles.png" --palette-only
+#incext Png2Dmp "Ternon_Small_Tiles.png" --palette-only
 
 ALIGN 4
 SmallWorldMapTSA:
-#incbin "Feudlan_Small_Tsa.bin"
+#incbin "Ternon_Small_Tsa.bin"
 
 ALIGN 4
 ScrollyBGGFX:
@@ -87,3 +87,4 @@ StatScreenPal:
 #include "HouseBanners/HouseBanners.event"
 #include "PointerList/SplitPointerList.event"
 #include "MapSprites/MapSprites.event"
+#include "Animations/ClassAnimationsList.event"

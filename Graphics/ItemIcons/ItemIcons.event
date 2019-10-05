@@ -13,4 +13,40 @@ SetItemIcon(AegisShield)
 SetItemIcon(0x70)
 #incext Png2Dmp "WRankIcons.png"
 
+// Weapon Icons
+SetItemIcon(0x81)
+#incext Png2Dmp "MountTypeIcons.png"
+
+//Weapon Icons Palette
+ORG 0x35D0
+POIN WeaponIconsPal
+
+ORG 0x35E8
+POIN WeaponIconsPal
+
+ORG 0x885CE
+BYTE 0x2
+
+ORG 0x885E8
+BYTE 0x2
+
+ORG 0x8D070
+BYTE 0x2
+
+// Use IDA to scope out the references to LoadIconPalette(0x80035D4) at some point cause i'm probably missing some
+
 POP
+
+ALIGN 4
+
+WeaponIconsPal:
+#incbin "WeaponIconsPal.bin"
+MESSAGE Weapon Icon Palette is at WeaponIconsPal
+
+ALIGN 4
+
+AffinityIcons:
+#incext Png2Dmp "AffinityIcons.png"
+
+
+ALIGN 4

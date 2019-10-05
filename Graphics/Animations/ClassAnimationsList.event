@@ -1,0 +1,6 @@
+// Anim Fixes
+PUSH
+ORG 0x8AF504
+BYTE Faith
+
+POP

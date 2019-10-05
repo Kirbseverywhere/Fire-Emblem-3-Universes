@@ -91,6 +91,20 @@ void DrawItemMenuLineLong(struct TextHandle* text, int item, s8 isUsable, u16* m
     DrawIcon(mapOut, GetItemIconId(item), 0x4000);
 }
 
+void DrawItemMenuLineNoColor(struct TextHandle* text, int item, u16* mapOut) {
+    Text_SetXCursor(text, 0);
+    Text_DrawString(text, GetItemName(item));
+	if(ITEM_FORGED(item)) Text_DrawString(text, "+");
+
+    Text_Display(text, mapOut + 2);
+
+	if(!(ITEM_EQUIPPED(item))) {
+		DrawSpecialUiChar(mapOut + 11, Text_GetColorId(text), GetItemUses(item));
+	}
+	
+    DrawIcon(mapOut, GetItemIconId(item), 0x4000);
+}
+
 void DrawItemStatScreenLine(struct TextHandle* text, int item, int nameColor, u16* mapOut) {
     int color;
 	int isItemAnAccessory = GetItemAttributes(item) & IA_ACCESSORY;

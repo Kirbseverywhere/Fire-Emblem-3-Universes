@@ -27,6 +27,7 @@ void CreateUnitCustomizerMenu(struct Proc *EventEngine) {
 }
 
 void UnitCustomizerMenuSetup(struct UnitCustomizerMenuProc *currentProc) {
+	EndFaceById(0);
 	DrawBG();
 	currentProc->UnitPoolIndex = 0;
 }
@@ -77,13 +78,20 @@ void DrawClassOption(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, menuInfo->x, menuInfo->y), 0, 0, 10, className);
 }
 
-void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+void ApplyClassIDChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	
 	struct UnitCustomizerClassList *currentCustomizerList = getUnitCustomizeClassList(gActiveUnit->pCharacterData->number);
 	
 	// Class
 	u8 classID = currentCustomizerList->ClassOptions[menuInfo->menuCommandID];
 	gActiveUnit->pClassData = GetClassData(classID);
+}
+
+void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+	
+	struct UnitCustomizerClassList *currentCustomizerList = getUnitCustomizeClassList(gActiveUnit->pCharacterData->number);
+	
+	ApplyClassIDChange(menuProc, menuInfo);
 	
 	// Stats
 	gActiveUnit->maxHP = gActiveUnit->pCharacterData->baseHP + gActiveUnit->pClassData->baseHP;
@@ -93,6 +101,7 @@ void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	gActiveUnit->spd = gActiveUnit->pCharacterData->baseSpd + gActiveUnit->pClassData->baseSpd;
 	gActiveUnit->def = gActiveUnit->pCharacterData->baseDef + gActiveUnit->pClassData->baseDef;
 	gActiveUnit->res = gActiveUnit->pCharacterData->baseRes + gActiveUnit->pClassData->baseRes;
+	gActiveUnit->mag = MagCharTable[gActiveUnit->pCharacterData->number].baseMag + MagClassTable[gActiveUnit->pClassData->number].baseMag;
 	
 	// Weapon Ranks
 	for(int i = 0; i<7; i++) {
@@ -109,6 +118,19 @@ void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	gActiveUnit->items[0] = (itemList[0]) | (GetItemMaxUses(itemList[0]) << 8);
 	gActiveUnit->items[1] = (itemList[1]) | (GetItemMaxUses(itemList[1]) << 8);
 	
+	EndFaceById(0);
+}
+
+int DrawClassSMS(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
+	ApplyClassIDChange(menuProc, menuInfo);
+	UpdateMapSpriteSheet();
+	SMS_Draw(0, 100, 104, gActiveUnit);
+	return 0;
+}
+
+int backDownIfPossible() {
+	struct UnitCustomizerMenuProc *proc = (struct UnitCustomizerMenuProc *)ProcFind(UnitCustomizerMenuProcCode);
+	if(proc->UnitPoolIndex > 1) proc->UnitPoolIndex -= 2;
 	EndFaceById(0);
 }
 
@@ -132,22 +154,26 @@ const struct MenuCommand UnitCustomizerMenuCommands[] = {
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 		.usability = (void *)0x804F449,
 		.effect = (void *)ApplyClassChange,
-		.onDraw = (void *)DrawClassOption
+		.onDraw = (void *)DrawClassOption,
+		.onUpdateSelected = (void *)DrawClassSMS
 	},
 	{
 	}
@@ -159,5 +185,6 @@ const struct MenuDefinition UnitCustomizerMenuDefinition = {
 	.width = 10,
 	.style = 1,
 	.menuCommands = (struct MenuCommand *)UnitCustomizerMenuCommands,
-	.onDestruction = (void *)0x801BCCD
+	//.onDestruction = (void *)0x801BCCD,
+	.onBPress = (void *)backDownIfPossible
 };

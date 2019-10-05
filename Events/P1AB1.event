@@ -1,11 +1,6 @@
 EventPointerTable(32, PointerList)
 // definitions so i don't die
 #define Rebel 0x72
-#define SwordArmor Knight
-#define LanceArmor Knight
-#define AxeKnight Cavalier
-#define SwordKnight Cavalier
-#define LanceKnight Cavalier
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -60,7 +55,7 @@ UNIT Reginald 0x0 0x1 Level(10, Ally, 0)   [3,9] 0b 0x0 0x0 0x0 [0] [0x0,0x0,0x0
 UNIT
 
 EnemyUnits:
-UNIT Pablo Mercenary 0x1 Level(10, Enemy, 0)   [13,1] 0b 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
+UNIT Kajarn Mercenary 0x1 Level(10, Enemy, 0)   [13,1] 0b 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
 UNIT Rebel Fighter Pablo Level(8, Enemy, 1)   [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
 UNIT Rebel Mercenary Pablo Level(10, Enemy, 1)  [8,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
 UNIT Rebel SwordArmor Pablo Level(10, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronBlade] NeverMoveAI
@@ -82,6 +77,15 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+REMU Zane
+REMU Adamminn
+REMU William
+REMU Nobody
+REMU Jack
+REMU Paul
+REMU Vollster
+REMU Greg
+REMU Occam
 LOAD1 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits

@@ -78,3 +78,6 @@ stats to capture an enemy.[X]
 ## UM_MagicDesc
 Spend HP to cast a spell[NL]
 that can attack a foe.[X]
+
+## IM_UnequipAccessory
+Unequip[X]

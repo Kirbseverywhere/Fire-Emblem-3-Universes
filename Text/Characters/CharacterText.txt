@@ -225,3 +225,5 @@ Greg[X]
 
 ## OccamDescTextID
 Occam[X]
+
+#include "DeathQuotes.txt"

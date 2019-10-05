@@ -1,0 +1,17 @@
+ALIGN 4
+CaveTileAnimsData:
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*0))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*1))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*2))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*3))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*4))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*5))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*6))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*7))
+MapAnimsTiles(0, 0, 0)
+
+ALIGN 4
+CaveTileAnimsImage:
+#incext Png2Dmp "CaveAnimFrames.png"
+
+ALIGN 4

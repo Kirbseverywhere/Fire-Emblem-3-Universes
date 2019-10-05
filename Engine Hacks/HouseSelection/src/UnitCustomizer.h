@@ -16,6 +16,18 @@ struct UnitCustomizerClassList {
 	char *CharDescription;
 };
 
+struct MagROMChar {
+	u8 baseMag;
+	u8 magGrowth;
+} __attribute__((packed));
+
+struct MagROMClass {
+	u8 baseMag;
+	u8 magGrowth;
+	u8 magCap;
+	u8 magPromotionBonus;
+};
+
 extern struct UnitCustomizerClassList unitCustomizerClassList[];
 
 void CreateUnitCustomizerMenu(struct Proc *EventEngine);
@@ -35,3 +47,6 @@ extern int GetItemMaxUses(int item);
 extern u32 ScrollyBGGFX[];
 extern u16 ScrollyBGPalette[];
 
+
+extern struct MagROMChar MagCharTable[];
+extern struct MagROMClass MagClassTable[];

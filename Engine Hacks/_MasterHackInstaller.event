@@ -148,9 +148,11 @@ POP
   // #include "StatScreenAllegiance/StatScreenAllegiance.event"
 
   //menu semitransparency
-  #include "Misc/SemitransparencyChanges.event"
+  //#include "Misc/SemitransparencyChanges.event"
 
   #include "Misc/PrologueSupply.event"
+  
+  #include "Misc/UnitEditor.event"
   
   //Item Range Fix
   #include "FE8-Item Range Fix/FE8-Item Range EA.event"
@@ -185,6 +187,12 @@ POP
 
   ALIGN 4
   //#include "LazberianTurnFlow/LazberianTurnFlow.event"
+
+  ALIGN 4
+  #include "MapSpritePalettes/Installer.event"
+  
+  ALIGN 4
+  #include "WalkingSoundsFix/WalkingSounds.event"
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons

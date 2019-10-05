@@ -28,6 +28,8 @@
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
+#define __TERNONDEBUG__
+
 // Characters
 
 // Red Lobsters
@@ -72,6 +74,24 @@
 #define Vollster 34
 #define Greg 35
 #define Occam 36
+
+// Bosses
+
+// Red Lobsters
+#define Borgas 0x40
+#define Alva 0x41
+#define WyvernBoss 0x42
+
+// Purple Jaguars
+#define Yanndahl 0x50
+#define Bruckner 0x51
+#define BearBoss 0x52
+#define Darach 0x53
+
+//Amber Bears
+#define Kajarn 0x60
+#define Rynod 0x61
+#define Ilyron 0x62
 
 // Items
 

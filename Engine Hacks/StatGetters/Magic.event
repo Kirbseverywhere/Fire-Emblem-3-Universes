@@ -25,6 +25,6 @@ prItemPassiveMag:
 	
 prAccessoryAddMag:
 	rIfUnitHasAccessoryEffect(AE_TomeRangeUp)
-		rAddConst(2)
+		rAddConst(3)
 
 #endif // MODULAR_GETTER_MAGIC_EVENT

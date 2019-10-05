@@ -8,11 +8,7 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
-# 0x160 IntroChName
-Choose your Fate[X]
-
-## P1RL1ChName
-Border Conflict[X]
+#include "Story/ChapterNames.txt"
 
 #0x3A LearnedSkillText
 #first text ID in the free block
