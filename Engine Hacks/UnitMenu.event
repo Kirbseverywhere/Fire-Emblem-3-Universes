@@ -56,6 +56,11 @@ PUSH
 
   ORG $23662
     BYTE $14 // right x coord (go back 4)
+	
+#ifdef __TERNONDEBUG__
+  ORG $59CF58
+    POIN EndEffect
+#endif
 
 POP
 

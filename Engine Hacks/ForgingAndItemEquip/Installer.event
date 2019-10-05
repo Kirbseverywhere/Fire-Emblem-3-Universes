@@ -41,7 +41,6 @@ WORD 0
 #define AL_LORD 4
 ALIGN 4
 gAccessoryLocksLookupTable:
-AccessoryLocks(NormalShield, 0, AL_FLYING, 0, 0)
 AccessoryLocks(Caduceus, 0, 0, MagicClassesList, 0)
 WORD 0
 
@@ -55,7 +54,7 @@ ArmoredClassesList:
 BYTE ArmorClasses 0 // ArmorClasses defined in Master Skill Installer
 
 ALIGN 4
-#define MagicClasses "Mage Mage_F Sage Sage_F MageKnight MageKnight_F Priest Cleric Bishop Bishop_F"
+#define MagicClasses "Magus GrandMagus Mage Mage_F Sage Sage_F MageKnight MageKnight_F Priest Cleric Bishop Bishop_F Deacon Troubadour"
 MagicClassesList:
 BYTE MagicClasses 0
 
@@ -68,6 +67,7 @@ ALIGN 4
 ItemMenuTable:
 IM_Use
 MenuCommand(0x697, 0, GreenText, EquipAccessoryUsability|1, EquipAccessoryEffect|1)
+MenuCommand(IM_UnequipAccessory, 0, GreenText, UnequipAccessoryUsability|1, UnequipAccessoryEffect|1)
 IM_Equip
 IM_Trade
 IM_Discard
@@ -87,6 +87,8 @@ ExpShareEvent:
 WORD 0xA000D4B; POIN ASMC_GiveUnitExp|1
 NoFade
 ENDA
+
+MESSAGE Give Unit Exp ASMC_GiveUnitExp
 
 ALIGN 4
 AE_ExpShareID:

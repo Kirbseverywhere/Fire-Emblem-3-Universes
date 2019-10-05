@@ -27,3 +27,7 @@ To aid him in his quest, several of his friends[A][NL]
 -now retainers-[A][NL] 
 have decided to join forces with Arch.[A]
 [X]
+
+## PlaceholderText
+[OpenRight][LoadPortrait][0x01][0x01]
+This Text is a placeholder![X]

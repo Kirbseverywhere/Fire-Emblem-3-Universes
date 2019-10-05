@@ -3,7 +3,7 @@
 #include eastdlib.event
 
 SetChapterData(17,CaveObjType,0,CavePalette1,CaveTileConfig,17,Map,CaveTileAnims,0,17)
-EventPointerTable(17, MapChanges)
+MapChangesPointerTable(17, MapChanges)
 Map:
 #incbin "P1PJ2_data.dmp"
 

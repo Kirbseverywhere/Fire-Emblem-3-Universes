@@ -848,7 +848,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="ChestOpen" width="18" height="15">
+ <layer id="4" name="ChestOpen" width="18" height="15" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
@@ -1121,7 +1121,7 @@
    <tile/>
    <tile/>
    <tile/>
-   <tile/>
+   <tile gid="2"/>
    <tile/>
    <tile/>
    <tile/>

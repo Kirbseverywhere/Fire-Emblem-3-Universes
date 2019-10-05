@@ -52,7 +52,7 @@ UNIT Jonathen Paladin 0x00 Level(10, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] N
 UNIT
 
 EnemyUnits:
-UNIT ONeill Brigand 0x00 Level(10, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [IronAxe] NeverMoveAI 
+UNIT Borgas Brigand 0x00 Level(10, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [IronAxe] NeverMoveAI 
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
@@ -101,10 +101,10 @@ ENDA
 
 Village1Event:
 //GiveItem(Caduceus)
-SVAL 3 Caduceus; GIVEITEMTO 0xFF
+VillageEventItem(PlaceholderText,0x2,Caduceus)
 ENDA
 
 Village2Event:
 //GiveItem(NormalShield)
-SVAL 3 NormalShield; GIVEITEMTO 0xFF
+VillageEventItem(PlaceholderText,0x2,NormalShield)
 ENDA

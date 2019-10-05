@@ -1,0 +1,138 @@
+## RodinDeathQuote
+[OpenMidRight][LoadFace][0x01][0x01]RodinDeathQuote[A][X]
+
+## MichaelDeathQuote
+[OpenMidRight][LoadFace][0x02][0x01]MichaelDeathQuote[A][X]
+
+## EricDeathQuote
+[OpenMidRight][LoadFace][0x03][0x01]EricDeathQuote[A][X]
+
+## KellyDeathQuote
+[OpenMidRight][LoadFace][0x04][0x01]KellyDeathQuote[A][X]
+
+## QuaSahntDeathQuote
+[OpenMidRight][LoadFace][0x05][0x01]QuaSahntDeathQuote[A][X]
+
+## InnardsDeathQuote
+[OpenMidRight][LoadFace][0x06][0x01]InnardsDeathQuote[A][X]
+
+## JonathenDeathQuote
+[OpenMidRight][LoadFace][0x07][0x01]JonathenDeathQuote[A][X]
+
+## KaidenDeathQuote
+[OpenMidRight][LoadFace][0x08][0x01]KaidenDeathQuote[A][X]
+
+## CleoDeathQuote
+[OpenMidRight][LoadFace][0x09][0x01]CleoDeathQuote[A][X]
+
+## RedsDeathQuote
+[OpenMidRight][LoadFace][0x0A][0x01]RedsDeathQuote[A][X]
+
+## MimiDeathQuote
+[OpenMidRight][LoadFace][0x0B][0x01]MimiDeathQuote[A][X]
+
+## ZoruaDeathQuote
+[OpenMidRight][LoadFace][0x0C][0x01]ZoruaDeathQuote[A][X]
+
+## VergilDeathQuote
+[OpenMidRight][LoadFace][0x0D][0x01]VergilDeathQuote[A][X]
+
+## XenithDeathQuote
+[OpenMidRight][LoadFace][0x0E][0x01]XenithDeathQuote[A][X]
+
+## TrayDeathQuote
+[OpenMidRight][LoadFace][0x0F][0x01]TrayDeathQuote[A][X]
+
+## HorusDeathQuote
+[OpenMidRight][LoadFace][0x10][0x01]HorusDeathQuote[A][X]
+
+## GlacDeathQuote
+[OpenMidRight][LoadFace][0x11][0x01]GlacDeathQuote[A][X]
+
+## DaffDeathQuote
+[OpenMidRight][LoadFace][0x12][0x01]DaffDeathQuote[A][X]
+
+## SmeglindeDeathQuote
+[OpenMidRight][LoadFace][0x13][0x01]SmeglindeDeathQuote[A][X]
+
+## KabbyDeathQuote
+[OpenMidRight][LoadFace][0x14][0x01]KabbyDeathQuote[A][X]
+
+## StephenDeathQuote
+[OpenMidRight][LoadFace][0x15][0x01]StephenDeathQuote[A][X]
+
+## AnthonyDeathQuote
+[OpenMidRight][LoadFace][0x16][0x01]AnthonyDeathQuote[A][X]
+
+## MystDeathQuote
+[OpenMidRight][LoadFace][0x17][0x01]MystDeathQuote[A][X]
+
+## LeoDeathQuote
+[OpenMidRight][LoadFace][0x18][0x01]LeoDeathQuote[A][X]
+
+## DianaDeathQuote
+[OpenMidRight][LoadFace][0x19][0x01]DianaDeathQuote[A][X]
+
+## ZaneDeathQuote
+[OpenMidRight][LoadFace][0x1A][0x01]ZaneDeathQuote[A][X]
+
+## AdamminnDeathQuote
+[OpenMidRight][LoadFace][0x1B][0x01]AdamminnDeathQuote[A][X]
+
+## WilliamDeathQuote
+[OpenMidRight][LoadFace][0x1C][0x01]WilliamDeathQuote[A][X]
+
+## NobodyDeathQuote
+[OpenMidRight][LoadFace][0x1D][0x01]NobodyDeathQuote[A][X]
+
+## JackDeathQuote
+[OpenMidRight][LoadFace][0x1E][0x01]JackDeathQuote[A][X]
+
+## LazulDeathQuote
+[OpenMidRight][LoadFace][0x1F][0x01]LazulDeathQuote[A][X]
+
+## PaulDeathQuote
+[OpenMidRight][LoadFace][0x20][0x01]PaulDeathQuote[A][X]
+
+## ReginaldDeathQuote
+[OpenMidRight][LoadFace][0x21][0x01]ReginaldDeathQuote[A][X]
+
+## VollsterDeathQuote
+[OpenMidRight][LoadFace][0x22][0x01]VollsterDeathQuote[A][X]
+
+## GregDeathQuote
+[OpenMidRight][LoadFace][0x23][0x01]GregDeathQuote[A][X]
+
+## OccamDeathQuote
+[OpenMidRight][LoadFace][0x24][0x01]OccamDeathQuote[A][X]
+
+## BorgasDeathQuote
+[OpenMidRight][LoadFace][0x40][0x01]BorgasDeathQuote[A][X]
+
+## AlvaDeathQuote
+[OpenMidRight][LoadFace][0x41][0x01]AlvaDeathQuote[A][X]
+
+## WyvernBossDeathQuote
+[OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
+
+## YanndahlDeathQuote
+[OpenMidRight][LoadFace][0x50][0x01]YanndahlDeathQuote[A][X]
+
+## BrucknerDeathQuote
+[OpenMidRight][LoadFace][0x51][0x01]BrucknerDeathQuote[A][X]
+
+## BearBossDeathQuote
+[OpenMidRight][LoadFace][0x52][0x01]BearBossDeathQuote[A][X]
+
+## DarachDeathQuote
+[OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
+
+## KajarnDeathQuote
+[OpenMidRight][LoadFace][0x60][0x01]KajarnDeathQuote[A][X]
+
+## RynodDeathQuote
+[OpenMidRight][LoadFace][0x61][0x01]RynodDeathQuote[A][X]
+
+## IlyronDeathQuote
+[OpenMidRight][LoadFace][0x62][0x01]IlyronDeathQuote[A][X]
+

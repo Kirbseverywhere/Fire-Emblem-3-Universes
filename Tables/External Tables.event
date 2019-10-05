@@ -5,3 +5,83 @@ defWeaponDebuffs(2,0,0,0,3,3,0) //0x2: Iron Shuriken debuff.
 defWeaponDebuffs(3,0,0,0,4,4,0) //0x3: Steel Shuriken debuff.
 defWeaponDebuffs(0,0,4,0,4,4,0) //0x4: Silver Shuriken debuff.
 defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
+
+// Death Quotes
+
+PUSH
+ORG 0x8472C
+POIN DeathQuoteTable
+POP
+
+#define DeathQuote(Character, Mode, Chapter, Flag, TextID) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN 0"
+#define DeathQuote(Character, Mode, Chapter, Flag, TextID, Event) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN Event"
+
+#define AnyChapter 0xFF
+#define AnyMode 0xFF
+#define GameOverFlag 0x65
+#define BossKilledFlag 0x2
+
+ALIGN 4
+DeathQuoteTable:
+
+// Red Lobsters
+DeathQuote(Rodin, AnyMode, AnyChapter, GameOverFlag, RodinDeathQuote)
+DeathQuote(Michael, AnyMode, AnyChapter, 0, MichaelDeathQuote)
+DeathQuote(Eric, AnyMode, AnyChapter, 0, EricDeathQuote)
+DeathQuote(Kelly, AnyMode, AnyChapter, 0, KellyDeathQuote)
+DeathQuote(QuaSahnt, AnyMode, AnyChapter, 0, QuaSahntDeathQuote)
+DeathQuote(Innards, AnyMode, AnyChapter, 0, InnardsDeathQuote)
+DeathQuote(Jonathen, AnyMode, AnyChapter, 0, JonathenDeathQuote)
+DeathQuote(Kaiden, AnyMode, AnyChapter, 0, KaidenDeathQuote)
+DeathQuote(Cleo, AnyMode, AnyChapter, 0, CleoDeathQuote)
+DeathQuote(Reds, AnyMode, AnyChapter, 0, RedsDeathQuote)
+DeathQuote(Mimi, AnyMode, AnyChapter, 0, MimiDeathQuote)
+DeathQuote(Zorua, AnyMode, AnyChapter, 0, ZoruaDeathQuote)
+
+// Purple Jaguars
+DeathQuote(Vergil, AnyMode, AnyChapter, GameOverFlag, VergilDeathQuote)
+DeathQuote(Xenith, AnyMode, AnyChapter, 0, XenithDeathQuote)
+DeathQuote(Tray, AnyMode, AnyChapter, 0, TrayDeathQuote)
+DeathQuote(Horus, AnyMode, AnyChapter, 0, HorusDeathQuote)
+DeathQuote(Glac, AnyMode, AnyChapter, 0, GlacDeathQuote)
+DeathQuote(Daff, AnyMode, AnyChapter, 0, DaffDeathQuote)
+DeathQuote(Smeglinde, AnyMode, AnyChapter, 0, SmeglindeDeathQuote)
+DeathQuote(Kabby, AnyMode, AnyChapter, 0, KabbyDeathQuote)
+DeathQuote(Stephen, AnyMode, AnyChapter, 0, StephenDeathQuote)
+DeathQuote(Anthony, AnyMode, AnyChapter, 0, AnthonyDeathQuote)
+DeathQuote(Myst, AnyMode, AnyChapter, 0, MystDeathQuote)
+DeathQuote(Leo, AnyMode, AnyChapter, 0, LeoDeathQuote)
+
+// Amber Bears
+DeathQuote(Diana, AnyMode, AnyChapter, GameOverFlag, DianaDeathQuote)
+DeathQuote(Zane, AnyMode, AnyChapter, 0, ZaneDeathQuote)
+DeathQuote(Adamminn, AnyMode, AnyChapter, 0, AdamminnDeathQuote)
+DeathQuote(William, AnyMode, AnyChapter, 0, WilliamDeathQuote)
+DeathQuote(Nobody, AnyMode, AnyChapter, 0, NobodyDeathQuote)
+DeathQuote(Jack, AnyMode, AnyChapter, 0, JackDeathQuote)
+DeathQuote(Lazul, AnyMode, AnyChapter, 0, LazulDeathQuote)
+DeathQuote(Paul, AnyMode, AnyChapter, 0, PaulDeathQuote)
+DeathQuote(Reginald, AnyMode, AnyChapter, 0, ReginaldDeathQuote)
+DeathQuote(Vollster, AnyMode, AnyChapter, 0, VollsterDeathQuote)
+DeathQuote(Greg, AnyMode, AnyChapter, 0, GregDeathQuote)
+DeathQuote(Occam, AnyMode, AnyChapter, 0, OccamDeathQuote)
+
+//Bosses
+
+// Red Lobsters
+DeathQuote(Borgas, AnyMode, AnyChapter, BossKilledFlag, BorgasDeathQuote)
+DeathQuote(Alva, AnyMode, AnyChapter, BossKilledFlag, AlvaDeathQuote)
+DeathQuote(WyvernBoss, AnyMode, AnyChapter, BossKilledFlag, WyvernBossDeathQuote)
+
+// Purple Jaguars
+DeathQuote(Yanndahl, AnyMode, AnyChapter, BossKilledFlag, YanndahlDeathQuote)
+DeathQuote(Bruckner, AnyMode, AnyChapter, BossKilledFlag, BrucknerDeathQuote)
+DeathQuote(BearBoss, AnyMode, AnyChapter, BossKilledFlag, BearBossDeathQuote)
+DeathQuote(Darach, AnyMode, AnyChapter, BossKilledFlag, DarachDeathQuote)
+
+// AmberBears
+DeathQuote(Kajarn, AnyMode, AnyChapter, BossKilledFlag, KajarnDeathQuote)
+DeathQuote(Rynod, AnyMode, AnyChapter, BossKilledFlag, RynodDeathQuote)
+DeathQuote(Ilyron, AnyMode, AnyChapter, BossKilledFlag, IlyronDeathQuote)
+
+WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
