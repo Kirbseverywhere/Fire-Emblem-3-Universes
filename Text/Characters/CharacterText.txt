@@ -107,40 +107,52 @@ Greg[X]
 Occam[X]
 
 ## RodinDescTextID
-Rodin[X]
+Crown Prince of Novingale. Hides a grand[N]
+ambition he works on behind the scenes.[X]
 
 ## MichaelDescTextID
-Michael[X]
+Heir to House Marus and knight[N]
+of Novingale. Fixed on defending the realm.[X]
 
 ## EricDescTextID
-Eric[X]
+A retainer of Rodin. Laidback[N]
+and facetious.[X]
 
 ## KellyDescTextID
-Kelly[X]
+An avid cook and devout healer.[N]
+Would rather cook than fight.[X]
 
 ## QuaSahntDescTextID
-Qua Sahnt[X]
+A baker working for the royal family.[N]
+Short tempered but determined.[X]
 
 ## InnardsDescTextID
-Innards[X]
+A cutthroat mercenary hired[N]
+by Rodin. Brooding and sarcastic.[X]
 
 ## JonathenDescTextID
-Jonathen[X]
+A mercenary hired by the church.[N]
+Laid-back but fierce in battle.[X]
 
 ## KaidenDescTextID
-Kaiden[X]
+A street performer turned soldier.[N]
+Has good intentions but comes off as rude.[X]
 
 ## CleoDescTextID
-Cleo[X]
+A spy working for Rodin.[N]
+Adventurous but uncertain at times.[X]
 
 ## RedsDescTextID
-Reds[X]
+A squire in service of Rodin.[N]
+A caring boy but can be naive.[X]
 
 ## MimiDescTextID
-Mimi[X]
+A deceased mage given life via[N]
+magic. Carefree and optimistic.[X]
 
 ## ZoruaDescTextID
-Zorua[X]
+An overemotional mage who[N]
+tries her best. Loves music.[X]
 
 ## VergilDescTextID
 Vergil[X]
