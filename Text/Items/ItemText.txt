@@ -2,8 +2,8 @@
 Caduceus[X]
 
 ## CaduceusDescText
-Grants Tome Range +1[N]
-And +2 Mag.[X]
+Grants Mag + 3.[N]
+Can't counter at Close Range.[X]
 
 ## NormalShieldNameText
 Shield[X]

@@ -108,6 +108,6 @@ ENUN
 ENDA
 
 EndingScene:
-MNC2 0x1
+MNC2 32
 NoFade
 ENDA

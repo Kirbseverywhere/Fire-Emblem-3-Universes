@@ -18,7 +18,7 @@ END_MAIN
 
 CharacterBasedEvents:
 CharacterEvent(10,FreePrisoner1,0,0xF9)
-CharacterEvent(10,FreePrisoner2,0,0xFA)
+CharacterEvent(11,FreePrisoner2,0,0xFA)
 END_MAIN
 
 LocationBasedEvents:

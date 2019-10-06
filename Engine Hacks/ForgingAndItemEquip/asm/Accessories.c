@@ -106,36 +106,6 @@ int AccessorySkillGetter(struct Unit *unit) {
 	return 0;
 }
 
-/*void nin_i_exp(Proc *proc, int exp) {
-	if((gBattleActor.unit.index & 0xC0) == FACTION_BLUE) { // Else no exp 
-		if (CanBattleUnitGainLevels(&gBattleActor)) {
-			if(gChapterData.chapterStateBits & 0x80) {
-				gBattleActor.expGain = exp;
-				gBattleActor.unit.exp += exp;
-				CheckBattleUnitLevelUp(&gBattleActor);
-				ProcStartBlocking(gProc_BattleAnimSimpleLock, proc);
-			}
-		}
-	}
-}
-
-void nin_effect(Proc *proc) {
-	Text_InitFont();
-	SetupMapBattleAnim(&gBattleTarget, gBattleHitArray);
-	ProcStartBlocking(event_proc_bin, proc);
-}
-
-void GiveUnitExp(struct Unit *unit, int exp, Proc *proc) {
-	if(unit) {
-		InitBattleUnit(&gBattleActor, unit);
-		nin_i_exp(proc, exp);
-		nin_effect(proc);
-		RefreshEntityBmMaps();
-		SMS_UpdateFromGameData();
-		RenderBmMap();
-	}
-}*/
-
 void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Defender) {
 	struct Unit *PlayerUnit;
 	Proc *BattleProc = Proc_Find((struct ProcInstruction *)0x0859AAD8);
@@ -147,7 +117,6 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				//GiveUnitExp(UnitToCheck, 10, BattleProc);
 				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
@@ -156,7 +125,6 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				//GiveUnitExp(UnitToCheck, 10, BattleProc);
 				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
@@ -165,7 +133,6 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				//GiveUnitExp(UnitToCheck, 10, BattleProc);
 				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
@@ -174,7 +141,6 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				//GiveUnitExp(UnitToCheck, 10, BattleProc);
 				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}

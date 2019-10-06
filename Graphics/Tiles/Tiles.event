@@ -84,6 +84,15 @@ POIN PrepScreenItemScreenTSA
 
 ORG 0xA14D8
 POIN PrepScreenSupportScreenTSA
+
+ORG 0x9DC38
+POIN SupplyScreenTSA
+
+ORG 0x9F0C8
+POIN SupplyScreenTSA
+
+ORG 0x9DC44
+POIN SupplyScreenMerchantTSA
 POP
 
 ALIGN 4
@@ -183,3 +192,11 @@ PrepScreenItemScreenTSA:
 ALIGN 4
 PrepScreenSupportScreenTSA:
 #incbin "PrepScreenSupportScreenTSA.bin"
+
+ALIGN 4
+SupplyScreenTSA:
+#incbin "SupplyScreenTSA.bin"
+
+ALIGN 4
+SupplyScreenMerchantTSA:
+#incbin "SupplyScreenMerchantTSA.bin"
