@@ -82,7 +82,6 @@
 	SlayerTable:
 	SlayerTableEntry(Bishop, MonsterType, 6)
 	SlayerTableEntry(Bishop_F, MonsterType, 6)
-	SlayerTableEntry(Ranger_F, MonsterType, 6)
 	WORD 0 //terminator
 	
 	//Change existing effective items (class weaknesses are already part of the class data table)

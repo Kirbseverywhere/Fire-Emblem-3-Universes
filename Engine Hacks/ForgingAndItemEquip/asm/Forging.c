@@ -37,6 +37,11 @@ int GetItemHit(int item) {
 	return GetItemData(ITEM_INDEX(item))->hit + hitBonus;
 }
 
+void ComputeBattleUnitHitRate(struct BattleUnit* bu) {
+    bu->battleHitRate = (bu->unit.skl * 2) + GetItemHit(bu->weapon) + (bu->unit.lck / 2) + bu->wTriangleHitBonus;
+	if(AccessoryEffectTester(&bu->unit, 5)) bu->battleHitRate += 10;
+}
+
 int GetItemCrit(int item) {
 	int critBonus = 0;
 	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
@@ -88,6 +93,20 @@ void DrawItemMenuLineLong(struct TextHandle* text, int item, s8 isUsable, u16* m
 		DrawSpecialUiChar(mapOut + 11, isUsable ? TEXT_COLOR_NORMAL : TEXT_COLOR_GRAY, 0x16); // draw special character?
 	}
 
+    DrawIcon(mapOut, GetItemIconId(item), 0x4000);
+}
+
+void DrawItemMenuLineNoColor(struct TextHandle* text, int item, u16* mapOut) {
+    Text_SetXCursor(text, 0);
+    Text_DrawString(text, GetItemName(item));
+	if(ITEM_FORGED(item)) Text_DrawString(text, "+");
+
+    Text_Display(text, mapOut + 2);
+
+	if(!(ITEM_EQUIPPED(item))) {
+		DrawSpecialUiChar(mapOut + 11, Text_GetColorId(text), GetItemUses(item));
+	}
+	
     DrawIcon(mapOut, GetItemIconId(item), 0x4000);
 }
 

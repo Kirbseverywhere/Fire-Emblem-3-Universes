@@ -1,4 +1,7 @@
 ALIGN 4
+
+// LoadNewUIGraphics: 0x804EB68
+
 PUSH
 ORG $4E310
 POIN MenuStyleTsaTable
@@ -57,6 +60,45 @@ POIN OptionsMenuTSA
 
 ORG 0xAC19C
 POIN DifficultySelectTSA
+
+ORG 0xAC19C
+POIN DifficultySelectTSA
+
+ORG 0x95E3C
+POIN PrepScreenEntryMenuTSA
+
+ORG 0x95EB8
+POIN PrepScreenEntryMenuTSA
+
+ORG 0x95EAC
+POIN PrepScreenObjectiveWindowTSA
+
+ORG 0x9A8E0
+POIN PrepScreenUnitScreenTSA
+
+ORG 0x98D78
+POIN PrepScreenItemScreenTSA
+
+ORG 0x995C0
+POIN PrepScreenItemScreenTSA
+
+ORG 0xA14D8
+POIN PrepScreenSupportScreenTSA
+
+ORG 0x9DC38
+POIN SupplyScreenTSA
+
+ORG 0x9F0C8
+POIN SupplyScreenTSA
+
+ORG 0x9DC44
+POIN SupplyScreenMerchantTSA
+
+ORG 0xAF7C8
+POIN SoundRoomVolumeWindowTSA
+
+ORG 0xAF7CC
+POIN SoundRoomSongWindowTSA
 POP
 
 ALIGN 4
@@ -136,3 +178,39 @@ OptionsMenuTSA:
 ALIGN 4
 DifficultySelectTSA:
 #incbin "DifficultySelectTSA.bin"
+
+ALIGN 4
+PrepScreenEntryMenuTSA:
+#incbin "PrepScreenEntryMenuTSA.bin"
+
+ALIGN 4
+PrepScreenObjectiveWindowTSA:
+#incbin "PrepScreenObjectiveWindowTSA.bin"
+
+ALIGN 4
+PrepScreenUnitScreenTSA:
+#incbin "PrepScreenUnitScreenTSA.bin"
+
+ALIGN 4
+PrepScreenItemScreenTSA:
+#incbin "PrepScreenItemScreenTSA.bin"
+
+ALIGN 4
+PrepScreenSupportScreenTSA:
+#incbin "PrepScreenSupportScreenTSA.bin"
+
+ALIGN 4
+SupplyScreenTSA:
+#incbin "SupplyScreenTSA.bin"
+
+ALIGN 4
+SupplyScreenMerchantTSA:
+#incbin "SupplyScreenMerchantTSA.bin"
+
+ALIGN 4
+SoundRoomVolumeWindowTSA:
+#incbin "SoundRoomVolumeWindowTSA.bin"
+
+ALIGN 4
+SoundRoomSongWindowTSA:
+#incbin "SoundRoomSongWindowTSA.bin"

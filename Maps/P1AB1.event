@@ -9,9 +9,19 @@ Map:
 
 MapChanges:
 TileMap(7,11,10,1,1,House1Closed)
+TileMap(8,10,5,1,1,House2Closed)
+TileMap(9,1,1,1,1,House3Closed)
 TileMapEnd
 
 House1Closed:
+SHORT 0x80 
+ALIGN 4
+
+House2Closed:
+SHORT 0x80 
+ALIGN 4
+
+House3Closed:
 SHORT 0x80 
 ALIGN 4
 

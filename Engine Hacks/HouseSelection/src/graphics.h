@@ -14,6 +14,11 @@ extern void EndFaceById(u32 id);
 
 extern void DrawIcon(int mapOut, int iconId, int palette);
 
+extern void SMS_Draw(int depth, int x, int y, struct Unit *unit);
+extern void LoadMapSpritePalettes();
+extern int GetUnitMapSpritePaletteIndex(struct Unit *unit);
+extern void UpdateMapSpriteSheet();
+
 #pragma long_calls_off
 
 #define BGLoc(BGOffset, x, y) (BGOffset + 0x2 * x + 0x40 * y)

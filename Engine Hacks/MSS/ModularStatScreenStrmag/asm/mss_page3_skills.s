@@ -19,7 +19,7 @@ Skills:
   ldr r0, =ss_skillloc
   add r0, pc
   ldr r0, [r0]
-draw_textID_at 19, 12, colour=White, width=10 @skills
+draw_textID_at 14, 12, colour=White, width=10, pixel_index=4 @skills
 mov r0, r8
 mov 	r1,#0x47
 ldrb	r0,[r0,r1]
@@ -39,32 +39,12 @@ mov r6, r0
 ldrb r0, [r6] 
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 15, 14
+draw_skill_icon_at 14, 14
 
 ldrb r0, [r6,#1]
 cmp r0, #0
 beq SkillEnd
-draw_skill_icon_at 18, 14
-
-ldrb r0, [r6, #2]
-cmp r0, #0
-beq SkillEnd
-draw_skill_icon_at 21, 14
-
-ldrb r0, [r6, #3]
-cmp r0, #0
-beq SkillEnd
-draw_skill_icon_at 15, 16
-
-ldrb r0, [r6, #4]
-cmp r0, #0
-beq SkillEnd
-draw_skill_icon_at 18, 16
-
-ldrb r0, [r6, #5]
-cmp r0, #0
-beq SkillEnd
-draw_skill_icon_at 21, 16
+draw_skill_icon_at 16, 14
 
 SkillEnd:
 
@@ -96,8 +76,8 @@ sub r1, r2 @ Get Either the forged skill or the normal skill
 ldrb r0, [r0, r1]
 cmp r0, #0
 beq AccessorySkill
-draw_skill_icon_at 26, 14
-draw_icon_at 24, 14, number=0x70
+draw_skill_icon_at 16, 16
+draw_icon_at 14, 16, number=0x70
 
 AccessorySkill:
 mov r0, r8
@@ -106,8 +86,8 @@ mov lr, r3
 .short 0xF800
 cmp r0, #0
 beq Ranks
-draw_skill_icon_at 26, 16
-draw_icon_at 24, 16, number=0x78
+draw_skill_icon_at 16, 18
+draw_icon_at 14, 18, number=0x78
 
 
 

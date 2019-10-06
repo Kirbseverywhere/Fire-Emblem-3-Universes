@@ -2,8 +2,8 @@
 Caduceus[X]
 
 ## CaduceusDescText
-Grants Tome Range +1[N]
-And +2 Mag.[X]
+Grants Mag + 3.[N]
+Can't counter at Close Range.[X]
 
 ## NormalShieldNameText
 Shield[X]
@@ -24,3 +24,16 @@ Exp Share[X]
 ## ExpShareDescText
 Grants Exp to Adjacent.[NL]
 Units after Battle.[X]
+
+## PrecisionRingNameText
+Prc. Ring[X]
+
+## PrecisionRingDescText
+Grants Hit + 10.[X]
+
+## MovRingNameText
+Movement Ring[X]
+
+## MovRingDescText
+Grants Move + 1.[X]
+

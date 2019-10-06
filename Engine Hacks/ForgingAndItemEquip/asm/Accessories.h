@@ -15,3 +15,4 @@ extern const AccessoryLocks gAccessoryLocksLookupTable[];
 extern u16 CannotEquipAccessoryText;
 extern const u32 ExpShareEvent[];
 extern u8 AE_ExpShareID;
+extern struct ProcInstruction event_proc_bin[];

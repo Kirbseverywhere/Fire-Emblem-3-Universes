@@ -11,15 +11,17 @@ WorldMapPointerTable(1,WM_Events)
 #define WorldMapMoveMapSprite(runtimeID, acceleration, startX, startY, destX, destY, moveTime, EID, delay) "WM_PUTMOVINGSPRITE 0x0 runtimeID acceleration startX startY destX destY moveTime EID delay 0x0"
 
 WM_Events:
-SKIPWN
-ENDA
+/*SKIPWN
+ENDA*/
 BeginWorldMap
 MUSC 0x4
 WorldMapShowTextBox
 WorldMapTextBegin(Part0Ch1WorldMapText1)
 TEXTEND
+SKIPWN
+ENDA
 STAL 6
-WorldMapLoadMapSprite(0x2, WyvernRider, 0)
+WorldMapLoadMapSprite(0x2, Magus, 0)
 WorldMapDisplayMapSprite(0x2, 0, 70, 70, 16)
 WorldMapShowPortraitRight(RODIN_PRETIMESKIP_PORTRAIT)
 TEXTCONT
@@ -29,7 +31,7 @@ WordlMapClearRightPortrait
 STAL 16
 WM_MOVECAM2 0x0 0x0 0x0 0x0 0x18 0x3C 0x0
 STAL 60
-WorldMapLoadMapSprite(0x2, EphraimLord, 0)
+WorldMapLoadMapSprite(0x2, VergilLord, 0)
 WorldMapDisplayMapSprite(0x2, 0, 125, 110, 16)
 WorldMapShowPortraitRight(VERGIL_PRETIMESKIP_PORTRAIT)
 TEXTCONT
@@ -39,7 +41,7 @@ WordlMapClearRightPortrait
 STAL 16
 WM_MOVECAM2 0x0 0x0 0x18 0x0 0xFFF8 0x3C 0x0
 STAL 60
-WorldMapLoadMapSprite(0x2, EirikaLord, 0)
+WorldMapLoadMapSprite(0x2, LadyLord, 0)
 WorldMapDisplayMapSprite(0x2, 0, 190, 65, 16)
 WorldMapShowPortraitLeft(DIANA_PRETIMESKIP_PORTRAIT)
 TEXTCONT
@@ -50,7 +52,7 @@ STAL 16
 WM_MOVECAM2 0x0 0x0 0x0 0x0 0x18 0x3C 0x0
 STAL 60
 WorldMapShowPortraitRight(VERGIL_PRETIMESKIP_PORTRAIT)
-WorldMapLoadMapSprite(0x2, EphraimLord, 0)
+WorldMapLoadMapSprite(0x2, VergilLord, 0)
 WorldMapMoveMapSprite(0x2, 0, 125, 110, 120, 90, 210, 1, 10)
 TEXTCONT
 TEXTEND

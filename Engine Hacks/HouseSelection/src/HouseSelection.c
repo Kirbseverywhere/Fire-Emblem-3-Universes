@@ -10,6 +10,7 @@ typedef signed long s32;
 
 
 #include "HouseSelection.h"
+#include "unitData.h"
 #include "chapterData.h"
 #include "proc.h"
 #include "text.h"
@@ -28,7 +29,8 @@ void DrawBG() {
 	CopyToPaletteBuffer(ScrollyBGPalette, 0x1C0, 0x20);
 	GenerateBGTsa(gBg3MapBuffer, 0x280, 14, 0);
 	CopyToPaletteBuffer((u16 *)0x859ED70, 0x200, 0x20); // Hand
-	CopyToPaletteBuffer((u16 *)0x8599714, 0x80, 0x20); // Weapon Icons
+	CopyToPaletteBuffer(WeaponIconsPal+16, 0x80, 0x20); // Weapon Icons
+	LoadMapSpritePalettes();
 }
 
 void CreateHouseSelectionMenu(struct Proc *EventEngine) {
@@ -39,7 +41,7 @@ void CreateHouseSelectionMenu(struct Proc *EventEngine) {
 }
 
 void HouseSelectMenuDrawRLInfo() {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Rodin as he tries to like his mom");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Rodin in his quest for Justice.");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Amber Bears");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 17, 2), 3, 0, 12, "Purple Jaguars ->");
 	
@@ -51,7 +53,7 @@ void HouseSelectMenuDrawRLInfo() {
 }
 
 void HouseSelectMenuDrawPJInfo() {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Stop Archibald from becoming Archi-bad");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 9, "<- Red Lobsters");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Amber Bears ->");
 	
@@ -63,7 +65,7 @@ void HouseSelectMenuDrawPJInfo() {
 }
 
 void HouseSelectMenuDrawABInfo() {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Diana and die in a car crash");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Purple Jaguars");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Red Lobsters ->");
 	
@@ -82,9 +84,11 @@ void HouseSelectionMenuSetup(struct HouseSelectionProc *currentProc) {
 void HouseSelectionMenuLoop(struct HouseSelectionProc *currentProc) {
 	Text_InitFont();
 	if ((sInput.newPress & InputStart) != 0) {
-		EndFaceById(0);
-		gChapterData.chapterModeIndex = currentProc->houseCounter;
-		BreakProcLoop((struct Proc *)currentProc);
+		//EndFaceById(0);
+		//if(currentProc->houseCounter == 0) {
+			gChapterData.chapterModeIndex = currentProc->houseCounter;
+			BreakProcLoop((struct Proc *)currentProc);
+		//}
 	}
 	else {
 		SetupBG(0);

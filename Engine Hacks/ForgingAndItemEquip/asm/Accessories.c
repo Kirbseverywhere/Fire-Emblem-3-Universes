@@ -47,9 +47,14 @@ int CanUnitUseAccessory(u16 accessory, struct Unit *unit) {
 }
 
 int EquipAccessoryUsability() {
-	if (GetItemAttributes(gActiveUnit->items[gActionData.itemSlotIndex]) & IA_ACCESSORY) {
+	if ((GetItemAttributes(gActiveUnit->items[gActionData.itemSlotIndex]) & IA_ACCESSORY) && !(ITEM_EQUIPPED(gActiveUnit->items[gActionData.itemSlotIndex]))) {
 		if(CanUnitUseAccessory(gActiveUnit->items[gActionData.itemSlotIndex], gActiveUnit)) return 1; else return 2;
 	}		
+	else return 3;
+}
+
+int UnequipAccessoryUsability() {
+	if(ITEM_EQUIPPED(gActiveUnit->items[gActionData.itemSlotIndex])) return 1;
 	else return 3;
 }
 
@@ -62,6 +67,13 @@ int EquipAccessoryEffect(void *CurrentMenuProc) {
 		if(ITEM_EQUIPPED(gActiveUnit->items[i])) gActiveUnit->items[i] &= 0x7FFF;
 	}
 	gActiveUnit->items[gActionData.itemSlotIndex] |= (1 << 15);
+	return CancelMenu(CurrentMenuProc);
+}
+
+int UnequipAccessoryEffect(void *CurrentMenuProc) {
+	for(int i = 0; i < 5; i++) {
+		if(ITEM_EQUIPPED(gActiveUnit->items[i])) gActiveUnit->items[i] &= 0x7FFF;
+	}
 	return CancelMenu(CurrentMenuProc);
 }
 
@@ -94,24 +106,18 @@ int AccessorySkillGetter(struct Unit *unit) {
 	return 0;
 }
 
-void GiveExpViaASMC(struct Unit *Unit) {
-	gEventSlot[0xB] = (Unit->yPos << 16) | Unit->xPos;
-	CallMapEventEngine(&ExpShareEvent, EV_RUN_CUTSCENE);
-}
-
 void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Defender) {
 	struct Unit *PlayerUnit;
+	Proc *BattleProc = Proc_Find((struct ProcInstruction *)0x0859AAD8);
 	if(UNIT_FACTION(&Attacker->unit) == FACTION_BLUE) PlayerUnit = &Attacker->unit;
 	if(UNIT_FACTION(&Defender->unit) == FACTION_BLUE) PlayerUnit = &Defender->unit;
-	
-	
 	if (AccessoryEffectTester(PlayerUnit, AE_ExpShareID)) {
 		
 		struct Unit *UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos+1][PlayerUnit->xPos]);
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				GiveExpViaASMC(UnitToCheck);
+				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
 		
@@ -119,7 +125,7 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				GiveExpViaASMC(UnitToCheck);
+				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
 		
@@ -127,7 +133,7 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				GiveExpViaASMC(UnitToCheck);
+				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
 		
@@ -135,7 +141,7 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 		
 		if(UnitToCheck) {
 			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				GiveExpViaASMC(UnitToCheck);
+				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
 			}
 		}
 	}

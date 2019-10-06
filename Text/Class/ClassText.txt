@@ -1,0 +1,101 @@
+## MagusClassName
+Magus[X]
+
+## MagusClassDesc
+Magus[X]
+
+## GrandMagusClassName
+Grand Magus[X]
+
+## GrandMagusClassDesc
+Grand Magus[X]
+
+## LordClassName
+Lord[X]
+
+## LordClassDesc
+Lord[X]
+
+## HighLordClassName
+High Lord[X]
+
+## HighLordClassDesc
+High Lord[X]
+
+## LadyClassName
+Lady[X]
+
+## LadyClassDesc
+Lady[X]
+
+## SkyLordClassName
+Sky Lord[X]
+
+## SkyLordClassDesc
+Sky Lord[X]
+
+## SwordKnightClassName
+Swd. Knight[X]
+
+## SwordKnightClassDesc
+Swd. Knight[X]
+
+## LanceKnightClassName
+Lnc. Knight[X]
+
+## LanceKnightClassDesc
+Lnc. Knight[X]
+
+## AxeKnightClassName
+Axe Knight[X]
+
+## AxeKnightClassDesc
+Axe Knight[X]
+
+## BowKnightClassName
+Bow Knight[X]
+
+## BowKnightClassDesc
+Bow Knight[X]
+
+## SwordArmorClassName
+Swd. Armor[X]
+
+## SwordArmorClassDesc
+Swd. Armor[X]
+
+## LanceArmorClassName
+Lnc. Armor[X]
+
+## LanceArmorClassDesc
+Lnc. Armor[X]
+
+## AxeArmorClassName
+Axe Armor[X]
+
+## AxeArmorClassDesc
+Axe Armor[X]
+
+## BowArmorClassName
+Bow Armor[X]
+
+## BowArmorClassDesc
+Bow Armor[X]
+
+## MaligKnightClassName
+Malig Knight[X]
+
+## MaligKnightClassDesc
+Malig Knight[X]
+
+## MageFighterClassName
+Mage Fighter[X]
+
+## MageFighterClassDesc
+Mage Fighter[X]
+
+## DeaconClassName
+Deacon[X]
+
+## DeaconClassDesc
+Deacon[X]

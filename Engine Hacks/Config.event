@@ -27,7 +27,7 @@
 
 // If uncommented, will use a full (EMS-based) save expansion instead of the "old" suspend expansion
 // Enabling this *will* break saves, but allows for higher stats and other things.
-// #define USE_SAVE_EXPANSION
+#define USE_SAVE_EXPANSION
 
 // =================================
 // = SKILL BEHAVIOUR CONFIGURATION =

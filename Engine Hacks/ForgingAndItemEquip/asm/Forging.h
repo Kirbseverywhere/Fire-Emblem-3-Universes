@@ -9,5 +9,7 @@ typedef struct {
 
 // Extern Data
 
+extern int AccessoryEffectTester(struct Unit *unit, int AccessoryEffectID);
+
 extern const struct ItemData gItemData[];
 extern const ItemForgeBonuses gForgeBonusLookupTable[];

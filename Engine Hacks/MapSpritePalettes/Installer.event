@@ -1,0 +1,27 @@
+#include "src/MapSpritesPalette.event"
+
+PUSH 
+ORG 0x26664
+SHORT 0 0
+
+ORG 0x90ED2
+BYTE 0x20
+
+/*ORG 0x8E3F8
+BYTE 0xB0
+ORG 0x8E408
+BYTE 0x16*/
+
+ORG 0xA2E97D
+BYTE 0xD
+POP
+
+ALIGN 4
+MapSpritePalettesFactions:
+#incbin "MapSpritePalettesFactions.bin"
+
+ALIGN 4
+MapSpritePalettesVanilla:
+#incbin "MapSpritePalettesVanilla.bin"
+
+ALIGN 4

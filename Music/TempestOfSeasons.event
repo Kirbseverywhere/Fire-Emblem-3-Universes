@@ -1,0 +1,4038 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	TempestOfSeasons_grp  NativeInstrumentMap2
+	#define	TempestOfSeasons_pri  0
+	#define	TempestOfSeasons_rev  0
+	#define	TempestOfSeasons_mvl  127
+	#define	TempestOfSeasons_key  0
+	#define	TempestOfSeasons_tbs  1
+	#define	TempestOfSeasons_exg  0
+	#define	TempestOfSeasons_cmp  1
+
+	// .rodata
+	//	TempestOfSeasons
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+TempestOfSeasons_1:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   183*TempestOfSeasons_tbs/2
+	BYTE		VOICE   40
+	BYTE		VOL     94*TempestOfSeasons_mvl/mxv
+	BYTE		PAN     c_v+12
+	BYTE		N11     Ds3   v100
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+// 001   ----------------------------------------
+TempestOfSeasons_1_001:
+	BYTE		N11     Cs4   v100
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+TempestOfSeasons_1_002:
+	BYTE		N11     Gs3   v100
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_002
+// 006   ----------------------------------------
+TempestOfSeasons_1_006:
+	BYTE		N11     Fn3   v100
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+TempestOfSeasons_1_007:
+	BYTE		N11     Ds4   v100
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_006
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_007
+// 011   ----------------------------------------
+	BYTE		N11     As3   v100
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N05     Fn3 
+	BYTE	W12
+// 012   ----------------------------------------
+	BYTE		        En3 
+	BYTE		N05     Fs3 
+	BYTE		N05     Bn3 
+	BYTE	W12
+	BYTE		N11     En3 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W24
+	BYTE		N17     En3 
+	BYTE		N17     Fs3 
+	BYTE		N17     Bn3 
+	BYTE	W36
+	BYTE		N05     Fs3 
+	BYTE		N05     Gs3 
+	BYTE		N05     Cs4 
+	BYTE	W12
+	BYTE		N11     Fs3 
+	BYTE		N11     Gs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     Fs3 
+	BYTE		N17     Gs3 
+	BYTE		N17     Cs4 
+	BYTE	W36
+	BYTE		N05     An3 
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W24
+	BYTE		N17     An3 
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N05     As3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		N11     As3 
+	BYTE		N11     Cs4 
+	BYTE		N11     Fs4 
+	BYTE	W24
+	BYTE		N17     As3 
+	BYTE		N17     Cs4 
+	BYTE		N17     Fs4 
+	BYTE	W36
+// 015   ----------------------------------------
+	BYTE		N05     An3 
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W24
+	BYTE		N17     An3 
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE	W36
+	BYTE		N05     An3 
+	BYTE		N05     Bn3 
+	BYTE		N05     En4 
+	BYTE	W12
+	BYTE		N11     An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     An3 
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE	W36
+	BYTE		N05     Dn4 
+	BYTE		N05     En4 
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N11     Dn4 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W24
+	BYTE		N17     Dn4 
+	BYTE		N17     En4 
+	BYTE		N17     An4 
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE	W24
+	BYTE		N05     Dn4 
+	BYTE		N05     En4 
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N11     Dn4 
+	BYTE		N11     En4 
+	BYTE		N11     An4 
+	BYTE	W24
+	BYTE		N17     Dn4 
+	BYTE		N17     En4 
+	BYTE		N17     An4 
+	BYTE	W36
+// 018   ----------------------------------------
+TempestOfSeasons_1_018:
+	BYTE	W24
+	BYTE		N22     As3   v100
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE		        As3 
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N68     Ds3 
+	BYTE		N68     Ds4 
+	BYTE	W48
+// 020   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Cs3 
+	BYTE		N22     Cs4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE		N22     En4 
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		N68     Bn2 
+	BYTE		N68     Bn3 
+	BYTE	W48
+// 022   ----------------------------------------
+	BYTE	W24
+	BYTE		N11     As2 
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Cs4 
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W08
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_018
+// 025   ----------------------------------------
+	BYTE		N22     As3   v100
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N44     Cs4 
+	BYTE		N44     Cs5 
+	BYTE	W48
+// 026   ----------------------------------------
+	BYTE		N22     Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE		N22     Cs5 
+	BYTE	W24
+	BYTE		N17     Ds4 
+	BYTE		N17     Ds5 
+	BYTE	W36
+	BYTE		N11     Bn3 
+	BYTE		N11     Bn4 
+	BYTE	W12
+// 027   ----------------------------------------
+	BYTE		N44     As3 
+	BYTE		N44     As4 
+	BYTE	W48
+	BYTE		N90     Gs3 
+	BYTE		N90     Gs4 
+	BYTE	W48
+// 028   ----------------------------------------
+	BYTE	W48
+	BYTE		N32     Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		        Ds3 
+	BYTE		N32     Ds4 
+	BYTE	W12
+// 029   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N32     Cs4 
+	BYTE	W36
+	BYTE		        Ds3 
+	BYTE		N32     Ds4 
+	BYTE	W36
+// 030   ----------------------------------------
+	BYTE		N17     Bn2 
+	BYTE		N17     Cs3 
+	BYTE		N17     Fs3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE		N17     Fs3 
+	BYTE		N17     Bn3 
+	BYTE	W36
+	BYTE		N23     Dn3 
+	BYTE		N23     En3 
+	BYTE		N23     An3 
+	BYTE	W24
+// 031   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     Gn3 
+	BYTE		N17     An3 
+	BYTE		N17     Dn4 
+	BYTE	W36
+	BYTE		N11     En3 
+	BYTE		N11     Fs3 
+	BYTE		N11     Bn3 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE		N11     Bn3 
+	BYTE		N11     En4 
+	BYTE	W24
+// 032   ----------------------------------------
+TempestOfSeasons_1_032:
+	BYTE		N22     Gs2   v100
+	BYTE		N22     Gs3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N22     As3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N22     Bn3 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N22     Cs4 
+	BYTE	W24
+	BYTE	PEND
+// 033   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+	BYTE		N68     Cs3 
+	BYTE		N68     Cs4 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fs2 
+	BYTE		N68     Fs3 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_032
+// 036   ----------------------------------------
+	BYTE		N22     Ds3   v100
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE		N22     Gs4 
+	BYTE	W24
+	BYTE		N68     Fs3 
+	BYTE		N68     Fs4 
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N68     Cs4 
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_032
+// 039   ----------------------------------------
+	BYTE		N22     Ds3   v100
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+	BYTE		N44     Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+// 040   ----------------------------------------
+	BYTE		N22     Bn2 
+	BYTE		N22     Bn3 
+	BYTE	W24
+	BYTE		N32     As2 
+	BYTE		N32     As3 
+	BYTE	W36
+	BYTE		N11     Ds2 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N22     Fs2 
+	BYTE		N22     Fs3 
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		N44     Gs2 
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE		N22     Ds2 
+	BYTE		N22     Ds3 
+	BYTE	W24
+	BYTE		TIE     Gs2 
+	BYTE		TIE     Gs3 
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W16
+	BYTE		EOT     Gs2 
+	BYTE		        Gs3 
+	BYTE	W20
+	BYTE		N11     As2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE		TIE     An3 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT     Fs3 
+	BYTE		        An3 
+	BYTE	W07
+	BYTE		N11     Ds3 
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		TIE     Gs3 
+	BYTE		TIE     Bn3 
+	BYTE	W48
+// 046   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		EOT     Gs3 
+	BYTE		        Bn3 
+	BYTE	W07
+	BYTE		N11     Fs3 
+	BYTE		N11     An3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+// 047   ----------------------------------------
+	BYTE		TIE     An3 
+	BYTE		TIE     Cs4 
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT     An3 
+	BYTE		        Cs4 
+	BYTE	W07
+	BYTE		N11     Gs3 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N44     Bn3 
+	BYTE		N44     Ds4 
+	BYTE	W48
+// 049   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE		N44     En4 
+	BYTE	W48
+	BYTE		        Bn3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+// 050   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		N90     Ds3 
+	BYTE		N90     Bn3 
+	BYTE	W48
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE		N44   
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		N22     As3 
+	BYTE		N22     En4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+// 053   ----------------------------------------
+	BYTE		N44     Cs4 
+	BYTE		N44     Gs4 
+	BYTE	W48
+	BYTE		N90     En3 
+	BYTE		N90     Cs4 
+	BYTE	W48
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE		N44     Bn3 
+	BYTE		N44     Ds4 
+	BYTE	W48
+	BYTE		N22     Bn3 
+	BYTE		N22     En4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+// 056   ----------------------------------------
+TempestOfSeasons_1_056:
+	BYTE		N22     Fs3   v100
+	BYTE		N22     Gs3 
+	BYTE		N22     Ds4 
+	BYTE	W36
+	BYTE		N17     Gs3 
+	BYTE		N17     Bn3 
+	BYTE		N17     En4 
+	BYTE	W36
+	BYTE		TIE     Ds4 
+	BYTE		TIE     En4 
+	BYTE		TIE     Bn4 
+	BYTE	W24
+	BYTE	PEND
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W84
+	BYTE	W01
+	BYTE		EOT     Ds4 
+	BYTE		        En4 
+	BYTE		        Bn4 
+	BYTE	W11
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_056
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W36
+	BYTE	W03
+	BYTE		EOT     Ds4 
+	BYTE		        En4 
+	BYTE		        Bn4 
+	BYTE	W32
+	BYTE	W01
+	BYTE		N22     Fs3   v100
+	BYTE		N22     Fs4 
+	BYTE	W24
+// 062   ----------------------------------------
+TempestOfSeasons_1_062:
+	BYTE		N32     Gs3   v100
+	BYTE		N32     Gs4 
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE		N32     Bn4 
+	BYTE	W36
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 063   ----------------------------------------
+TempestOfSeasons_1_063:
+	BYTE	W24
+	BYTE		N22     En3   v100
+	BYTE		N22     En4 
+	BYTE	W24
+	BYTE		N32     Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE		N32     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 064   ----------------------------------------
+TempestOfSeasons_1_064:
+	BYTE	W24
+	BYTE		N44     En3   v100
+	BYTE		N44     En4 
+	BYTE	W48
+	BYTE		N22     Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 065   ----------------------------------------
+TempestOfSeasons_1_065:
+	BYTE		N32     Ds3   v100
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Cs4 
+	BYTE	W60
+	BYTE	PEND
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W11
+	BYTE		N11     Cs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_062
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_063
+// 070   ----------------------------------------
+	BYTE	W24
+	BYTE		N44     Ds4   v100
+	BYTE		N44     Ds5 
+	BYTE	W48
+	BYTE		N22     En4 
+	BYTE		N22     En5 
+	BYTE	W24
+// 071   ----------------------------------------
+TempestOfSeasons_1_071:
+	BYTE		N32     Ds4   v100
+	BYTE		N32     Ds5 
+	BYTE	W36
+	BYTE		TIE     Cs4 
+	BYTE		TIE     Cs5 
+	BYTE	W60
+	BYTE	PEND
+// 072   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs4 
+	BYTE		        Cs5 
+	BYTE	W08
+// 073   ----------------------------------------
+	BYTE		N22     Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_062
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_063
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_064
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_065
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     En3   v100
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_062
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_063
+// 082   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Ds4   v100
+	BYTE		N22     Ds5 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE		N22     En5 
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE		N22     Fs5 
+	BYTE	W24
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_071
+// 084   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs4 
+	BYTE		        Cs5 
+	BYTE	W08
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W96
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_062
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_063
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_064
+// 101   ----------------------------------------
+TempestOfSeasons_1_101:
+	BYTE		N32     Ds3   v100
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE		N32     En4 
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 102   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Bn3 
+	BYTE	W84
+// 103   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_062
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_063
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_064
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_101
+// 108   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Cs3   v100
+	BYTE		TIE     Cs4 
+	BYTE	W84
+// 109   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W10
+// 110   ----------------------------------------
+TempestOfSeasons_1_110:
+	BYTE		N11     Cs3   v100
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 111   ----------------------------------------
+TempestOfSeasons_1_111:
+	BYTE		N11     Bn3   v100
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 112   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_110
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_111
+// 115   ----------------------------------------
+	BYTE		N11     Fs3   v100
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N17     Gs3 
+	BYTE	W12
+// 116   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+// 117   ----------------------------------------
+TempestOfSeasons_1_117:
+	BYTE		N11     Ds4   v100
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 118   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+// 119   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_1_117
+// 121   ----------------------------------------
+	BYTE		N11     As3   v100
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N12     Cn4 
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_1_B1
+TempestOfSeasons_1_B2:
+// 122   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+TempestOfSeasons_2:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		VOL     104*TempestOfSeasons_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+TempestOfSeasons_2_018:
+	BYTE	W24
+	BYTE		N22     As3   v100
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE		        As3 
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N68     Ds3 
+	BYTE		N68     Ds4 
+	BYTE	W48
+// 020   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Cs3 
+	BYTE		N22     Cs4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE		N22     En4 
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		N68     Bn2 
+	BYTE		N68     Bn3 
+	BYTE	W48
+// 022   ----------------------------------------
+	BYTE	W24
+	BYTE		N11     As2 
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Cs4 
+	BYTE	W48
+// 023   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W08
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_018
+// 025   ----------------------------------------
+	BYTE		N22     As3   v100
+	BYTE		N22     As4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N44     Cs4 
+	BYTE		N44     Cs5 
+	BYTE	W48
+// 026   ----------------------------------------
+	BYTE		N22     Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE		N22     Cs5 
+	BYTE	W24
+	BYTE		N17     Ds4 
+	BYTE		N17     Ds5 
+	BYTE	W36
+	BYTE		N11     Bn3 
+	BYTE		N11     Bn4 
+	BYTE	W12
+// 027   ----------------------------------------
+	BYTE		N44     As3 
+	BYTE		N44     As4 
+	BYTE	W48
+	BYTE		N90     Gs3 
+	BYTE		N90     Gs4 
+	BYTE	W48
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+TempestOfSeasons_2_032:
+	BYTE		N22     Gs2   v100
+	BYTE		N22     Gs3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N22     As3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N22     Bn3 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N22     Cs4 
+	BYTE	W24
+	BYTE	PEND
+// 033   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+	BYTE		N68     Cs3 
+	BYTE		N68     Cs4 
+	BYTE	W48
+// 034   ----------------------------------------
+	BYTE	W24
+	BYTE		        Fs2 
+	BYTE		N68     Fs3 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_032
+// 036   ----------------------------------------
+	BYTE		N22     Ds3   v100
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE		N22     Gs4 
+	BYTE	W24
+	BYTE		N68     Fs3 
+	BYTE		N68     Fs4 
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N68     Cs4 
+	BYTE	W72
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_032
+// 039   ----------------------------------------
+	BYTE		N22     Ds3   v100
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+	BYTE		N44     Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+// 040   ----------------------------------------
+	BYTE		N22     Bn2 
+	BYTE		N22     Bn3 
+	BYTE	W24
+	BYTE		N32     As2 
+	BYTE		N32     As3 
+	BYTE	W36
+	BYTE		N11     Ds2 
+	BYTE		N11     Ds3 
+	BYTE	W12
+	BYTE		N22     Fs2 
+	BYTE		N22     Fs3 
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		N44     Gs2 
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE		N22     Ds2 
+	BYTE		N22     Ds3 
+	BYTE	W24
+	BYTE		TIE     Gs2 
+	BYTE		TIE     Gs3 
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W16
+	BYTE		EOT     Gs2 
+	BYTE		        Gs3 
+	BYTE	W80
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W72
+	BYTE		N22     Fs3 
+	BYTE		N22     Fs4 
+	BYTE	W24
+// 062   ----------------------------------------
+TempestOfSeasons_2_062:
+	BYTE		N32     Gs3   v100
+	BYTE		N32     Gs4 
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE		N32     Bn4 
+	BYTE	W36
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 063   ----------------------------------------
+TempestOfSeasons_2_063:
+	BYTE	W24
+	BYTE		N22     En3   v100
+	BYTE		N22     En4 
+	BYTE	W24
+	BYTE		N32     Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE		N32     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 064   ----------------------------------------
+TempestOfSeasons_2_064:
+	BYTE	W24
+	BYTE		N44     En3   v100
+	BYTE		N44     En4 
+	BYTE	W48
+	BYTE		N22     Ds3 
+	BYTE		N22     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 065   ----------------------------------------
+TempestOfSeasons_2_065:
+	BYTE		N32     Ds3   v100
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Cs4 
+	BYTE	W60
+	BYTE	PEND
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W11
+	BYTE		N11     Cs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_062
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_063
+// 070   ----------------------------------------
+	BYTE	W24
+	BYTE		N44     Ds4   v100
+	BYTE		N44     Ds5 
+	BYTE	W48
+	BYTE		N22     En4 
+	BYTE		N22     En5 
+	BYTE	W24
+// 071   ----------------------------------------
+TempestOfSeasons_2_071:
+	BYTE		N32     Ds4   v100
+	BYTE		N32     Ds5 
+	BYTE	W36
+	BYTE		TIE     Cs4 
+	BYTE		TIE     Cs5 
+	BYTE	W60
+	BYTE	PEND
+// 072   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs4 
+	BYTE		        Cs5 
+	BYTE	W08
+// 073   ----------------------------------------
+	BYTE		N22     Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N22     Bn4 
+	BYTE	W24
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_062
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_063
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_064
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_065
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W36
+	BYTE	W01
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     En3   v100
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_062
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_063
+// 082   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Ds4   v100
+	BYTE		N22     Ds5 
+	BYTE	W24
+	BYTE		        En4 
+	BYTE		N22     En5 
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE		N22     Fs5 
+	BYTE	W24
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_071
+// 084   ----------------------------------------
+	BYTE	W88
+	BYTE		EOT     Cs4 
+	BYTE		        Cs5 
+	BYTE	W08
+// 085   ----------------------------------------
+	BYTE	W24
+	BYTE		N11     En5   v100
+	BYTE	W12
+	BYTE		        Ds5 
+	BYTE	W12
+	BYTE		        Bn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+// 086   ----------------------------------------
+	BYTE		N90     Gs3 
+	BYTE		N90     Cs4 
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N90     Bn3 
+	BYTE		N90     Ds4 
+	BYTE	W48
+// 088   ----------------------------------------
+	BYTE	W48
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 089   ----------------------------------------
+	BYTE		N90     Cs4 
+	BYTE		N90     En4 
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE		N11     Gs3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N68     Dn4 
+	BYTE		N68     Fs4 
+	BYTE	W48
+// 091   ----------------------------------------
+	BYTE	W24
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 092   ----------------------------------------
+	BYTE		N32     Cs4 
+	BYTE		N32     Gs4 
+	BYTE	W36
+	BYTE		N68     Gs3 
+	BYTE		N68     Cs4 
+	BYTE	W60
+// 093   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		N32     Ds4 
+	BYTE		N32     Bn4 
+	BYTE	W36
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Bn4 
+	BYTE	W06
+// 094   ----------------------------------------
+	BYTE		N44     An4 
+	BYTE	W48
+	BYTE		N22     En4 
+	BYTE		N22     Gs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE		N22     Fs4 
+	BYTE	W24
+// 095   ----------------------------------------
+	BYTE		N68     Ds4 
+	BYTE		N68     Fs4 
+	BYTE	W72
+	BYTE		TIE     En4 
+	BYTE		TIE     Gs4 
+	BYTE	W24
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W84
+	BYTE	W01
+	BYTE		EOT     En4 
+	BYTE		        Gs4 
+	BYTE	W11
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_062
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_063
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_064
+// 101   ----------------------------------------
+TempestOfSeasons_2_101:
+	BYTE		N32     Ds3   v100
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE		N32     En4 
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 102   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Bn3 
+	BYTE	W84
+// 103   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_062
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_063
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_064
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_2_101
+// 108   ----------------------------------------
+	BYTE	W12
+	BYTE		TIE     Cs3   v100
+	BYTE		TIE     Cs4 
+	BYTE	W84
+// 109   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W10
+// 110   ----------------------------------------
+	BYTE	W96
+// 111   ----------------------------------------
+	BYTE	W96
+// 112   ----------------------------------------
+	BYTE	W96
+// 113   ----------------------------------------
+	BYTE	W96
+// 114   ----------------------------------------
+	BYTE	W96
+// 115   ----------------------------------------
+	BYTE	W96
+// 116   ----------------------------------------
+	BYTE	W96
+// 117   ----------------------------------------
+	BYTE	W96
+// 118   ----------------------------------------
+	BYTE	W96
+// 119   ----------------------------------------
+	BYTE	W96
+// 120   ----------------------------------------
+	BYTE	W96
+// 121   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_2_B1
+TempestOfSeasons_2_B2:
+// 122   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+TempestOfSeasons_3:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   58
+	BYTE		PAN     c_v+9
+	BYTE		VOL     74*TempestOfSeasons_mvl/mxv
+	BYTE		N17     Ds1   v100
+	BYTE		N17     Ds2 
+	BYTE	W36
+	BYTE		N11     Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		N05     Ds1 
+	BYTE		N05     Ds2 
+	BYTE	W12
+	BYTE		N17     Ds1 
+	BYTE		N17     Ds2 
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		N05     Ds1 
+	BYTE		N05     Ds2 
+	BYTE	W12
+	BYTE		N17     Fs1 
+	BYTE		N17     Fs2 
+	BYTE	W36
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		N17     Cs2 
+	BYTE		N17     Cs3 
+	BYTE	W36
+	BYTE		N11     Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		N05     Cs2 
+	BYTE		N05     Cs3 
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N11     Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		N17     Ds1 
+	BYTE		N17     Ds2 
+	BYTE	W36
+	BYTE		N05     Ds1 
+	BYTE		N05     Ds2 
+	BYTE	W12
+	BYTE		N17     Fs1 
+	BYTE		N17     Fs2 
+	BYTE	W24
+// 004   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N17     Gs1 
+	BYTE		N17     Gs2 
+	BYTE	W24
+// 005   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N17     Cs1 
+	BYTE		N17     Cs2 
+	BYTE	W36
+	BYTE		N11     Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+	BYTE		N05     Cs1 
+	BYTE		N05     Cs2 
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE		N11     Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+	BYTE		N17     Fn1 
+	BYTE		N17     Fn2 
+	BYTE	W36
+	BYTE		N05     Gn1 
+	BYTE		N05     Gn2 
+	BYTE	W12
+	BYTE		N17     Gs1 
+	BYTE		N17     Gs2 
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N11     Cn2 
+	BYTE		N11     Cn3 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE		N17     As1 
+	BYTE		N17     As2 
+	BYTE	W24
+// 008   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     As1 
+	BYTE		N05     As2 
+	BYTE	W12
+	BYTE		N17     Fn1 
+	BYTE		N17     Fn2 
+	BYTE	W36
+	BYTE		N05     Fn1 
+	BYTE		N05     Fn2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+// 009   ----------------------------------------
+TempestOfSeasons_3_009:
+	BYTE		N68     Gn1   v100
+	BYTE		N68     Gn2 
+	BYTE	W72
+	BYTE		        Ds1 
+	BYTE		N68     Ds2 
+	BYTE	W24
+	BYTE	PEND
+// 010   ----------------------------------------
+TempestOfSeasons_3_010:
+	BYTE	W48
+	BYTE		N68     Dn1   v100
+	BYTE		N68     Dn2 
+	BYTE	W48
+	BYTE	PEND
+// 011   ----------------------------------------
+TempestOfSeasons_3_011:
+	BYTE	W24
+	BYTE		N68     As0   v100
+	BYTE		N68     As1 
+	BYTE	W72
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE		N05     Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		N11     Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		N17     Bn1 
+	BYTE		N17     Bn2 
+	BYTE	W36
+	BYTE		N05     As1 
+	BYTE		N05     As2 
+	BYTE	W12
+	BYTE		N11     As1 
+	BYTE		N11     As2 
+	BYTE	W12
+// 013   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     As1 
+	BYTE		N17     As2 
+	BYTE	W36
+	BYTE		N05     An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N17     An1 
+	BYTE		N17     An2 
+	BYTE	W12
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N17     Gs1 
+	BYTE		N17     Gs2 
+	BYTE	W36
+// 015   ----------------------------------------
+	BYTE		N05     Gn1 
+	BYTE		N05     Gn2 
+	BYTE	W12
+	BYTE		N11     Gn1 
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE		N17     Gn1 
+	BYTE		N17     Gn2 
+	BYTE	W36
+	BYTE		N05     Gn1 
+	BYTE		N05     Gn2 
+	BYTE	W12
+	BYTE		N11     Gn1 
+	BYTE		N11     Gn2 
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     Gn1 
+	BYTE		N17     Gn2 
+	BYTE	W36
+	BYTE		N05     An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N17     An1 
+	BYTE		N17     An2 
+	BYTE	W12
+// 017   ----------------------------------------
+	BYTE	W24
+	BYTE		N05     An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N17     An1 
+	BYTE		N17     An2 
+	BYTE	W36
+// 018   ----------------------------------------
+TempestOfSeasons_3_018:
+	BYTE		N05     Gs1   v100
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     As1 
+	BYTE		N05     As2 
+	BYTE	W12
+	BYTE		N22     Bn1 
+	BYTE		N22     Bn2 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+TempestOfSeasons_3_019:
+	BYTE		N11     Fs3   v100
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		N05     En1 
+	BYTE		N05     En2 
+	BYTE	W12
+	BYTE		N11     En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+TempestOfSeasons_3_020:
+	BYTE	W12
+	BYTE		N05     Ds1   v100
+	BYTE		N05     Ds2 
+	BYTE	W12
+	BYTE		N22     Cs1 
+	BYTE		N22     Cs2 
+	BYTE	W24
+	BYTE		N11     Cs3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_018
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_019
+// 023   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     En1   v100
+	BYTE		N05     En2 
+	BYTE	W12
+	BYTE		N22     Fs1 
+	BYTE		N22     Fs2 
+	BYTE	W24
+	BYTE		N11     Cs3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_018
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_019
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_020
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_018
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_019
+// 029   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     En1   v100
+	BYTE		N05     En2 
+	BYTE	W12
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+// 030   ----------------------------------------
+	BYTE		N17     Gs1 
+	BYTE		N17     Gs2 
+	BYTE	W36
+	BYTE		        Dn1 
+	BYTE		N17     Dn2 
+	BYTE	W36
+	BYTE		N23     Gn1 
+	BYTE		N23     Gn2 
+	BYTE	W24
+// 031   ----------------------------------------
+	BYTE	W12
+	BYTE		N17     Bn1 
+	BYTE		N17     Bn2 
+	BYTE	W36
+	BYTE		N11     Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		        Fs2 
+	BYTE		N11     Fs3 
+	BYTE	W24
+// 032   ----------------------------------------
+TempestOfSeasons_3_032:
+	BYTE		N05     Gs1   v100
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W24
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N11     En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE	PEND
+// 033   ----------------------------------------
+TempestOfSeasons_3_033:
+	BYTE		N11     En1   v100
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W24
+	BYTE		N17     Fs1 
+	BYTE		N17     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 034   ----------------------------------------
+TempestOfSeasons_3_034:
+	BYTE	W12
+	BYTE		N05     Fs1   v100
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		N11     Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W24
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_032
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_033
+// 037   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Fs1   v100
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_032
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_033
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_034
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_032
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_033
+// 043   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Fs1   v100
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		N11     Cs3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W48
+	BYTE	W48
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+TempestOfSeasons_3_056:
+	BYTE		N22     Cs2   v100
+	BYTE		N22     Cs3 
+	BYTE	W36
+	BYTE		N17     Cs2 
+	BYTE		N17     Cs3 
+	BYTE	W36
+	BYTE		N11     Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 057   ----------------------------------------
+TempestOfSeasons_3_057:
+	BYTE		N11     Cs2   v100
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N22     Cs2 
+	BYTE		N22     Cs3 
+	BYTE	W36
+	BYTE		N28     Cs2 
+	BYTE		N28     Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 058   ----------------------------------------
+	BYTE	W24
+	BYTE		N11     Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		N23     Cs2 
+	BYTE		N23     Cs3 
+	BYTE	W48
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_056
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_057
+// 061   ----------------------------------------
+	BYTE	W24
+	BYTE		N22     Cs2   v100
+	BYTE		N22     Cs3 
+	BYTE	W24
+	BYTE	W48
+// 062   ----------------------------------------
+TempestOfSeasons_3_062:
+	BYTE		N05     Cs2   v100
+	BYTE		N05     Cs3 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE		N05     Cs3 
+	BYTE	W24
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Cs2 
+	BYTE		N05     Cs3 
+	BYTE	W12
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE	PEND
+// 063   ----------------------------------------
+TempestOfSeasons_3_063:
+	BYTE		N11     An1   v100
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		        An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N05     Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W24
+	BYTE		N17     Bn1 
+	BYTE		N17     Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 064   ----------------------------------------
+TempestOfSeasons_3_064:
+	BYTE	W12
+	BYTE		N05     An1   v100
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 067   ----------------------------------------
+TempestOfSeasons_3_067:
+	BYTE	W12
+	BYTE		N05     Fs1   v100
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W12
+	BYTE	PEND
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_064
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_067
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_064
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_067
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_064
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_062
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_063
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_067
+// 086   ----------------------------------------
+TempestOfSeasons_3_086:
+	BYTE		N11     An1   v100
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE	PEND
+// 087   ----------------------------------------
+TempestOfSeasons_3_087:
+	BYTE		N11     En3   v100
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 088   ----------------------------------------
+TempestOfSeasons_3_088:
+	BYTE		N11     Bn3   v100
+	BYTE	W24
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 089   ----------------------------------------
+TempestOfSeasons_3_089:
+	BYTE		N11     Cs2   v100
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 090   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+// 091   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+// 092   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_086
+// 093   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_087
+// 094   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_088
+// 095   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_089
+// 096   ----------------------------------------
+TempestOfSeasons_3_096:
+	BYTE		N11     En3   v100
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 097   ----------------------------------------
+TempestOfSeasons_3_097:
+	BYTE		N11     Bn3   v100
+	BYTE	W24
+	BYTE		        Cs2 
+	BYTE		N11     Cs3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_086
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_087
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_088
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_089
+// 102   ----------------------------------------
+	BYTE		N11     En3   v100
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		TIE     Bn3 
+	BYTE	W12
+	BYTE		N11     Gs3 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+// 103   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W14
+	BYTE		EOT     Bn3 
+	BYTE	W10
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_086
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_087
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_088
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_089
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_096
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_097
+// 110   ----------------------------------------
+	BYTE		N11     Cs1   v100
+	BYTE		N11     Cs2 
+	BYTE	W36
+	BYTE		        Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+	BYTE		N05     Cs1 
+	BYTE		N05     Cs2 
+	BYTE	W12
+	BYTE		N11     Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+// 111   ----------------------------------------
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+	BYTE		N05     Cs1 
+	BYTE		N05     Cs2 
+	BYTE	W12
+	BYTE		N11     En1 
+	BYTE		N11     En2 
+	BYTE	W36
+	BYTE		N17     En1 
+	BYTE		N17     En2 
+	BYTE	W12
+// 112   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     En1 
+	BYTE		N05     En2 
+	BYTE	W12
+	BYTE		N11     Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W36
+	BYTE		        Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		N05     Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+// 113   ----------------------------------------
+	BYTE		N11     Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W24
+	BYTE		N17     Cs1 
+	BYTE		N17     Cs2 
+	BYTE	W36
+	BYTE		N05     Cs1 
+	BYTE		N05     Cs2 
+	BYTE	W12
+	BYTE		N11     En1 
+	BYTE		N11     En2 
+	BYTE	W24
+// 114   ----------------------------------------
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W24
+	BYTE		N05     En1 
+	BYTE		N05     En2 
+	BYTE	W12
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		N23     Fs1 
+	BYTE		N23     Fs2 
+	BYTE	W24
+// 115   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		N11     Bn0 
+	BYTE		N11     Bn1 
+	BYTE	W36
+	BYTE		        Bn0 
+	BYTE		N11     Bn1 
+	BYTE	W24
+	BYTE		N05     Bn0 
+	BYTE		N05     Bn1 
+	BYTE	W12
+// 116   ----------------------------------------
+	BYTE		N11     Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W24
+	BYTE		N17     Fn1 
+	BYTE		N17     Fn2 
+	BYTE	W36
+	BYTE		N05     Gn1 
+	BYTE		N05     Gn2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+// 117   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		N11     Cn2 
+	BYTE		N11     Cn3 
+	BYTE	W24
+	BYTE		        As1 
+	BYTE		N11     As2 
+	BYTE	W24
+	BYTE		N23     As1 
+	BYTE		N23     As2 
+	BYTE	W24
+// 118   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     As1 
+	BYTE		N05     As2 
+	BYTE	W12
+	BYTE		N11     Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W36
+	BYTE		N05     Fn1 
+	BYTE		N05     Fn2 
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_009
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_010
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_3_011
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_3_B1
+TempestOfSeasons_3_B2:
+// 122   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+TempestOfSeasons_4:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		PAN     c_v+12
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N24     Dn1   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 001   ----------------------------------------
+TempestOfSeasons_4_001:
+	BYTE		N24     Dn1   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 048   ----------------------------------------
+	BYTE		PAN     c_v+12
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N24     Dn1   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W96
+// 098   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 099   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 100   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 102   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 103   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 108   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 109   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 117   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 118   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+// 121   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_4_001
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_4_B1
+TempestOfSeasons_4_B2:
+// 122   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+TempestOfSeasons_5:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   116
+	BYTE		PAN     c_v-6
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48     Fn2   v076
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W12
+// 001   ----------------------------------------
+TempestOfSeasons_5_001:
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+TempestOfSeasons_5_002:
+	BYTE	W24
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+TempestOfSeasons_5_003:
+	BYTE	W24
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+TempestOfSeasons_5_004:
+	BYTE	W12
+	BYTE		N48     Fn2   v076
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE	PEND
+// 005   ----------------------------------------
+TempestOfSeasons_5_005:
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W48
+	BYTE	PEND
+// 006   ----------------------------------------
+TempestOfSeasons_5_006:
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+TempestOfSeasons_5_007:
+	BYTE	W36
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+TempestOfSeasons_5_008:
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+TempestOfSeasons_5_009:
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W36
+	BYTE	PEND
+// 010   ----------------------------------------
+TempestOfSeasons_5_010:
+	BYTE	W12
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+// 012   ----------------------------------------
+TempestOfSeasons_5_012:
+	BYTE		N72     Dn2   v076
+	BYTE	W72
+	BYTE		N72   
+	BYTE	W24
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		N72   
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W24
+	BYTE		N72   
+	BYTE	W72
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_012
+// 016   ----------------------------------------
+	BYTE	W48
+	BYTE		N72     Dn2   v076
+	BYTE	W48
+// 017   ----------------------------------------
+	BYTE	W24
+	BYTE		N72   
+	BYTE	W72
+// 018   ----------------------------------------
+TempestOfSeasons_5_018:
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48     Fn2   v076
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+TempestOfSeasons_5_019:
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+TempestOfSeasons_5_020:
+	BYTE	W24
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 022   ----------------------------------------
+TempestOfSeasons_5_022:
+	BYTE	W12
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48     Fn2   v076
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE	PEND
+// 023   ----------------------------------------
+TempestOfSeasons_5_023:
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W48
+	BYTE	PEND
+// 024   ----------------------------------------
+TempestOfSeasons_5_024:
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	W36
+	BYTE		N36   
+	BYTE	W36
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 027   ----------------------------------------
+TempestOfSeasons_5_027:
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W36
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_019
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_020
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_022
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_023
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_024
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 037   ----------------------------------------
+TempestOfSeasons_5_037:
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W24
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_027
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_019
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_006
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_008
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_009
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 051   ----------------------------------------
+TempestOfSeasons_5_051:
+	BYTE		N48     Fn2   v076
+	BYTE	W48
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W12
+	BYTE	PEND
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_001
+// 053   ----------------------------------------
+	BYTE	W24
+	BYTE		N12     Fn2   v076
+	BYTE	W12
+	BYTE		N72     Dn2 
+	BYTE	W60
+// 054   ----------------------------------------
+	BYTE	W12
+	BYTE		N72   
+	BYTE	W72
+	BYTE		N72   
+	BYTE	W12
+// 055   ----------------------------------------
+	BYTE	W60
+	BYTE		N72   
+	BYTE	W36
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W36
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE	W60
+// 060   ----------------------------------------
+	BYTE	W72
+	BYTE		        126*TempestOfSeasons_mvl/mxv
+	BYTE	W24
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_019
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_020
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_022
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 068   ----------------------------------------
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W12
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_037
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_027
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_019
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_020
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_022
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_023
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_024
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_037
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_027
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_051
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_001
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W96
+// 098   ----------------------------------------
+	BYTE		N48     Dn2   v084
+	BYTE	W48
+	BYTE		N72     Dn2   v076
+	BYTE	W48
+// 099   ----------------------------------------
+	BYTE	W24
+	BYTE		N72   
+	BYTE	W72
+// 100   ----------------------------------------
+	BYTE		N72   
+	BYTE	W72
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48     Fn2 
+	BYTE	W24
+// 101   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 102   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_022
+// 103   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_023
+// 104   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_024
+// 105   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 106   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_037
+// 107   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_027
+// 108   ----------------------------------------
+	BYTE	W12
+	BYTE		N36     Fn2   v076
+	BYTE	W36
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W48
+// 109   ----------------------------------------
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W12
+// 110   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_019
+// 111   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_020
+// 112   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_003
+// 113   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_022
+// 114   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_023
+// 115   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_024
+// 116   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_007
+// 117   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_037
+// 118   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_027
+// 119   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_010
+// 120   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_5_018
+// 121   ----------------------------------------
+	BYTE	W12
+	BYTE		N24     Fn2   v076
+	BYTE	W24
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N12   
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_5_B1
+TempestOfSeasons_5_B2:
+// 122   ----------------------------------------
+	BYTE		VOL     126*TempestOfSeasons_mvl/mxv
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+TempestOfSeasons_6:
+	BYTE	KEYSH   TempestOfSeasons_key+0
+TempestOfSeasons_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   29
+	BYTE		PAN     c_v-8
+	BYTE		VOL     91*TempestOfSeasons_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+TempestOfSeasons_6_044:
+	BYTE		N05     Fs1   v100
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W24
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 045   ----------------------------------------
+TempestOfSeasons_6_045:
+	BYTE	W12
+	BYTE		N11     Fs1   v100
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W24
+	BYTE		N17     Fs1 
+	BYTE		N17     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 046   ----------------------------------------
+TempestOfSeasons_6_046:
+	BYTE	W12
+	BYTE		N05     Fs1   v100
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W24
+	BYTE		N11     Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W24
+	BYTE		N05     Fs1 
+	BYTE		N05     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_6_044
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_6_045
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	TempestOfSeasons_6_046
+// 050   ----------------------------------------
+	BYTE		N05     Gs1   v100
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W24
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+// 051   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W24
+	BYTE		N17     Gs1 
+	BYTE		N17     Gs2 
+	BYTE	W12
+// 052   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W24
+	BYTE		N11     Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W24
+	BYTE		N05     Gs1 
+	BYTE		N05     Gs2 
+	BYTE	W12
+// 053   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE		N05     An2 
+	BYTE	W24
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N05     An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE		N05     An2 
+	BYTE	W12
+// 054   ----------------------------------------
+	BYTE	W12
+	BYTE		N11     An1 
+	BYTE		N11     An2 
+	BYTE	W24
+	BYTE		N05     An1 
+	BYTE		N05     An2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W24
+	BYTE		N17     Bn1 
+	BYTE		N17     Bn2 
+	BYTE	W12
+// 055   ----------------------------------------
+	BYTE	W12
+	BYTE		N05     Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W24
+	BYTE		N11     Bn1 
+	BYTE		N11     Bn2 
+	BYTE	W24
+	BYTE		N05     Bn1 
+	BYTE		N05     Bn2 
+	BYTE	W12
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W96
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	W96
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W96
+// 088   ----------------------------------------
+	BYTE	W96
+// 089   ----------------------------------------
+	BYTE	W96
+// 090   ----------------------------------------
+	BYTE	W96
+// 091   ----------------------------------------
+	BYTE	W96
+// 092   ----------------------------------------
+	BYTE	W96
+// 093   ----------------------------------------
+	BYTE	W96
+// 094   ----------------------------------------
+	BYTE	W96
+// 095   ----------------------------------------
+	BYTE	W96
+// 096   ----------------------------------------
+	BYTE	W96
+// 097   ----------------------------------------
+	BYTE	W96
+// 098   ----------------------------------------
+	BYTE	W96
+// 099   ----------------------------------------
+	BYTE	W96
+// 100   ----------------------------------------
+	BYTE	W96
+// 101   ----------------------------------------
+	BYTE	W96
+// 102   ----------------------------------------
+	BYTE	W96
+// 103   ----------------------------------------
+	BYTE	W96
+// 104   ----------------------------------------
+	BYTE	W96
+// 105   ----------------------------------------
+	BYTE	W96
+// 106   ----------------------------------------
+	BYTE	W96
+// 107   ----------------------------------------
+	BYTE	W96
+// 108   ----------------------------------------
+	BYTE	W96
+// 109   ----------------------------------------
+	BYTE	W96
+// 110   ----------------------------------------
+	BYTE	W96
+// 111   ----------------------------------------
+	BYTE	W96
+// 112   ----------------------------------------
+	BYTE	W96
+// 113   ----------------------------------------
+	BYTE	W96
+// 114   ----------------------------------------
+	BYTE	W96
+// 115   ----------------------------------------
+	BYTE	W96
+// 116   ----------------------------------------
+	BYTE	W96
+// 117   ----------------------------------------
+	BYTE	W96
+// 118   ----------------------------------------
+	BYTE	W96
+// 119   ----------------------------------------
+	BYTE	W96
+// 120   ----------------------------------------
+	BYTE	W96
+// 121   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	TempestOfSeasons_6_B1
+TempestOfSeasons_6_B2:
+// 122   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+TempestOfSeasons:
+	BYTE	6	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	TempestOfSeasons_pri	// Priority
+	BYTE	TempestOfSeasons_rev	// Reverb.
+
+	POIN2	TempestOfSeasons_grp
+
+	POIN2	TempestOfSeasons_1
+	POIN2	TempestOfSeasons_2
+	POIN2	TempestOfSeasons_3
+	POIN2	TempestOfSeasons_4
+	POIN2	TempestOfSeasons_5
+	POIN2	TempestOfSeasons_6
+
+	

@@ -5,7 +5,7 @@ KyuPreTimeskip:
 #incext PortraitFormatter "Kyu_PreTimeskip.png"
 
 #define MICHAEL_PRETIMESKIP_PORTRAIT Michael
-setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 5, 3, 3) 
+setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 6, 3, 4) 
 MichaelPreTimeskip:
 #incext PortraitFormatter "Michael_PreTimeskip.png"
 
@@ -25,6 +25,9 @@ QuaSahntPreTimeskip:
 #incext PortraitFormatter "QuaSahnt_PreTimeskip.png"
 
 #define INNARDS_PRETIMESKIP_PORTRAIT Innards
+setMugEntry(INNARDS_PRETIMESKIP_PORTRAIT, InnardsPreTimeskip, 2, 4, 2, 2) 
+InnardsPreTimeskip:
+#incext PortraitFormatter "Innards_PreTimeskip.png"
 
 #define JONATHEN_PRETIMESKIP_PORTRAIT Jonathen
 setMugEntry(JONATHEN_PRETIMESKIP_PORTRAIT, JonathenPreTimeskip, 2, 6, 3, 4) 
@@ -47,6 +50,9 @@ RedsPreTimeskip:
 #incext PortraitFormatter "Reds_PreTimeskip.png"
 
 #define MIMI_PRETIMESKIP_PORTRAIT Mimi
+setMugEntry(MIMI_PRETIMESKIP_PORTRAIT, MimiPreTimeskip, 3, 6, 3, 4) 
+MimiPreTimeskip:
+#incext PortraitFormatter "Mimi_PreTimeskip.png"
 
 #define ZORUA_PRETIMESKIP_PORTRAIT Zorua
 setMugEntry(ZORUA_PRETIMESKIP_PORTRAIT, ZoruaPreTimeskip, 2, 6, 3, 4) 
