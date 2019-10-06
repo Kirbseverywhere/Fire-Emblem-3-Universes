@@ -1,0 +1,32 @@
+
+#define AnimTableEntry(index) "ORG (AnimationDataList - 0x20) + (index * 0x20)"
+
+//////////////Installed animations go here:
+
+{
+#include "Cavalier/MaleSwordCav.event"
+}
+{
+#include "Cavalier/MaleLanceCav.event"
+}
+{
+#include "Cavalier/MaleAxeCav.event"
+}
+{
+#include "Cavalier/MaleHandAxeCav.event"
+}
+{
+#include "Cavalier/MaleUnarmedCav.event"
+}
+{
+#include "Knight/SwordKnight.event"
+}
+{
+#include "Knight/AxeKnight.event"
+}
+{
+#include "Knight/HandAxeKnight.event"
+}
+{
+#include "Knight/BowKnight.event"
+}

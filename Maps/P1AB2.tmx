@@ -9,9 +9,9 @@
    <property name="ChapterID" value="32"/>
    <property name="Main" value=""/>
    <property name="MapID" value="32"/>
-   <property name="ObjectType1" value="FieldsObjType"/>
-   <property name="PaletteID" value="FieldsPalette1"/>
-   <property name="TileConfig" value="FieldsTileConfig"/>
+   <property name="ObjectType1" value="SnowObjType"/>
+   <property name="PaletteID" value="SnowPalette1"/>
+   <property name="TileConfig" value="SnowTileConfig"/>
   </properties>
   <data>
    <tile gid="560"/>

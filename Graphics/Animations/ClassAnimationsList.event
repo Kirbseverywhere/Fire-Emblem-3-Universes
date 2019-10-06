@@ -1,6 +1,89 @@
+#include "VanillaAnimationList.event" // Oh you know asides from a few
+// Free Anims Start at 0xA0
+
 // Anim Fixes
 PUSH
 ORG 0x8AF504
 BYTE Faith
 
 POP
+
+ALIGN 4
+#define MaleCavalierSwordAnimID 0xA0
+#define MaleCavalierLanceAnimID 0xA1
+#define MaleCavalierAxeAnimID 0xA2
+#define MaleCavalierBowAnimID 0x2F
+#define MaleCavalierHandAxeAnimID 0xA3
+#define MaleCavalierUnarmedAnimID 0xA4
+MaleCavalierAnimationList:
+BYTE Swords 1
+SHORT MaleCavalierSwordAnimID
+BYTE Lances 1
+SHORT MaleCavalierLanceAnimID
+BYTE Axes 1
+SHORT MaleCavalierAxeAnimID
+BYTE 0x28 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE 0x29 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE 0x2C 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE Bows 1
+SHORT MaleCavalierBowAnimID
+BYTE 0x9 1
+SHORT MaleCavalierUnarmedAnimID
+SHORT 0 0
+
+ALIGN 4
+#define FemaleCavalierSwordAnimID 0xA5
+#define FemaleCavalierLanceAnimID 0xA6
+#define FemaleCavalierAxeAnimID 0xA7
+#define FemaleCavalierBowAnimID 0x32
+#define FemaleCavalierUnarmedAnimID 0xA8
+FemaleCavalierAnimationList:
+BYTE Swords 1
+SHORT MaleCavalierSwordAnimID
+BYTE Lances 1
+SHORT MaleCavalierLanceAnimID
+BYTE Axes 1
+SHORT MaleCavalierAxeAnimID
+BYTE 0x28 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE 0x29 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE 0x2C 0
+SHORT MaleCavalierHandAxeAnimID
+BYTE Bows 1
+SHORT MaleCavalierBowAnimID
+BYTE 0x9 1
+SHORT MaleCavalierUnarmedAnimID
+SHORT 0 0
+
+ALIGN 4
+#define KnightSwordAnimID 0xA9
+#define KnightLanceAnimID 0x40
+#define KnightAxeAnimID 0xAB
+#define KnightHandAxeAnimID 0xAC
+#define KnightBowAnimID 0xAD
+#define KnightUnarmedAnimID 0x41
+KnightAnimationList:
+BYTE Swords 1
+SHORT KnightSwordAnimID
+BYTE Lances 1
+SHORT KnightLanceAnimID
+BYTE Axes 1
+SHORT KnightAxeAnimID
+BYTE 0x28 0
+SHORT KnightHandAxeAnimID
+BYTE 0x29 0
+SHORT KnightHandAxeAnimID
+BYTE 0x2C 0
+SHORT KnightHandAxeAnimID
+BYTE Bows 1
+SHORT KnightBowAnimID
+BYTE 0x9 1
+SHORT KnightUnarmedAnimID
+SHORT 0 0
+
+ALIGN 4
+#include "AnimationInstaller.event"

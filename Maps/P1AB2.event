@@ -2,6 +2,6 @@
 
 #include eastdlib.event
 
-SetChapterData(32,FieldsObjType,0,FieldsPalette1,FieldsTileConfig,32,Map,5,0,0)
+SetChapterData(32,SnowObjType,0,SnowPalette1,SnowTileConfig,32,Map,5,0,0)
 Map:
 #incbin "P1AB2_data.dmp"

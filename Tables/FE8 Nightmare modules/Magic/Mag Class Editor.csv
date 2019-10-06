@@ -1,7 +1,7 @@
 INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
 None,0,0,20,0
 Magus,3,15,20,0
-Grand Magus,0,10,20,0
+Grand Magus,7,10,20,0
 Lord,2,0,20,1
 High Lord,0,0,20,2
 Lady,0,0,20,0
@@ -64,10 +64,10 @@ Brigand,0,0,20,0
 Pirate,0,0,20,0
 Warrior,0,0,20,0
 Berserker,0,0,20,0
-Monk,1,5,20,0
-Priest,1,10,20,0
-Priest (Buff),1,10,20,0
-Cleric,1,10,20,0
+Monk,2,5,20,0
+Priest,2,10,20,0
+Priest (Buff),2,10,20,0
+Cleric,2,10,20,0
 Deacon,1,10,20,0
 Troubadour,1,10,20,0
 Bishop,7,10,20,0

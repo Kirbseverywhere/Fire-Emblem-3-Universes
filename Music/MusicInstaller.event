@@ -18,6 +18,11 @@ ALIGN 4
 #include "MainTheme.event"
 SongTable(M_MainTheme,MainTheme,0)
 
+#define M_TeamMaking 0x34
+#include "TeamMaking.event"
+SongTable(M_TeamMaking,TeamMaking,MapMusicGroup)
+
+
 // Girl of a spirit forest(P1 RL EarlyGame)
 #define M_GirlOfTheSpiritForest 9
 #include "GirlOfTheSpiritForest.event"

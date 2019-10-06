@@ -50,6 +50,9 @@ RedsPreTimeskip:
 #incext PortraitFormatter "Reds_PreTimeskip.png"
 
 #define MIMI_PRETIMESKIP_PORTRAIT Mimi
+setMugEntry(MIMI_PRETIMESKIP_PORTRAIT, MimiPreTimeskip, 3, 6, 3, 4) 
+MimiPreTimeskip:
+#incext PortraitFormatter "Mimi_PreTimeskip.png"
 
 #define ZORUA_PRETIMESKIP_PORTRAIT Zorua
 setMugEntry(ZORUA_PRETIMESKIP_PORTRAIT, ZoruaPreTimeskip, 2, 6, 3, 4) 

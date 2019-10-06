@@ -87,6 +87,9 @@ TileConfigPointerTable(TempleTileConfig, 0x1A0514) //8A
 #define CaveTileConfig 13
 TileConfigPointerTable(CaveTileConfig, CaveTileConfigData) 
 
+#define SnowTileConfig 14
+TileConfigPointerTable(SnowTileConfig, SnowTileConfigData)
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -127,6 +130,9 @@ ObjTypePalettePointerTable(TempleObjType, 0x1609BC) //88
 
 #define CaveObjType 12
 ObjTypePalettePointerTable(CaveObjType, CaveObjTypeData)
+
+#define SnowObjType 13
+ObjTypePalettePointerTable(SnowObjType, SnowObjTypeData)
 
 // -------------------------------Palette-------------------------------
 
@@ -202,6 +208,10 @@ ObjTypePalettePointerTable(TemplePalette1, 0x1AD570) //89
 #define CavePalette1 42
 ObjTypePalettePointerTable(CavePalette1, CavePalette1Data) 
 
+#define SnowPalette1 43
+ObjTypePalettePointerTable(SnowPalette1, SnowPalette1Data) 
+
+
 // -------------------------------Tile Anims-------------------------------
 
 #define MapAnimsTiles(duration, tileSize, imgPointer) "SHORT duration tileSize; POIN imgPointer"
@@ -246,3 +256,17 @@ CaveTileConfigData:
 #incext compress "Tilesets/Cave/Cave.mapchip_conf"
 
 #include "Tilesets/Cave/CaveAnimsInstaller.event"
+
+ALIGN 4
+SnowTileConfigData:
+#incext compress "Tilesets/Snow/SnowTileset.mapchip_conf"
+
+ALIGN 4
+SnowObjTypeData:
+#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --lz77
+
+ALIGN 4
+SnowPalette1Data:
+#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --palette-only
+
+ALIGN 4
