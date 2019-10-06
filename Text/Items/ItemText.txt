@@ -24,3 +24,16 @@ Exp Share[X]
 ## ExpShareDescText
 Grants Exp to Adjacent.[NL]
 Units after Battle.[X]
+
+## PrecisionRingNameText
+Prc. Ring[X]
+
+## PrecisionRingDescText
+Grants Hit + 10.[X]
+
+## MovRingNameText
+Movement Ring[X]
+
+## MovRingDescText
+Grants Move + 1.[X]
+

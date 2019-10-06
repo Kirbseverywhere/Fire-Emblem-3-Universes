@@ -88,6 +88,15 @@ UNIT
 UNIT
 
 BeginningScene:
+REVEAL Zane
+REVEAL Adamminn
+REVEAL William
+REVEAL Nobody
+REVEAL Jack
+REVEAL Paul
+REVEAL Vollster
+REVEAL Greg
+REVEAL Occam
 /*FADI 1
 //BROWNBOXTEXT LocationTextP1AB2[3,4]
 LOAD2 0x1 GuardSquad

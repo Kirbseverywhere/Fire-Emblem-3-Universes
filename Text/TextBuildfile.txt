@@ -14,9 +14,6 @@ Set health bar display[X]
 #first text ID in the free block
 Learned  [X]
 
-## PlaceholderText
-Placeholder text.[X]
-
 #include "EngineHacks\StatScreenText.txt"
 
 #0x509 GauntletWeaponTypeName

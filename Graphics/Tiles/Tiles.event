@@ -93,6 +93,12 @@ POIN SupplyScreenTSA
 
 ORG 0x9DC44
 POIN SupplyScreenMerchantTSA
+
+ORG 0xAF7C8
+POIN SoundRoomVolumeWindowTSA
+
+ORG 0xAF7CC
+POIN SoundRoomSongWindowTSA
 POP
 
 ALIGN 4
@@ -200,3 +206,11 @@ SupplyScreenTSA:
 ALIGN 4
 SupplyScreenMerchantTSA:
 #incbin "SupplyScreenMerchantTSA.bin"
+
+ALIGN 4
+SoundRoomVolumeWindowTSA:
+#incbin "SoundRoomVolumeWindowTSA.bin"
+
+ALIGN 4
+SoundRoomSongWindowTSA:
+#incbin "SoundRoomSongWindowTSA.bin"

@@ -117,7 +117,7 @@ NoFade
 ENDA
 
 FreePrisoner1:
-SVAL 3 Longbow; GIVEITEMTO 0xFFFF
+SVAL 3 PrecisionRing; GIVEITEMTO 0xFFFF
 DISA 0xF9
 ENDA
 

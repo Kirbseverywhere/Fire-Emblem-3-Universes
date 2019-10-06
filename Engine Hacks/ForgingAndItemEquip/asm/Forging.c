@@ -37,6 +37,11 @@ int GetItemHit(int item) {
 	return GetItemData(ITEM_INDEX(item))->hit + hitBonus;
 }
 
+void ComputeBattleUnitHitRate(struct BattleUnit* bu) {
+    bu->battleHitRate = (bu->unit.skl * 2) + GetItemHit(bu->weapon) + (bu->unit.lck / 2) + bu->wTriangleHitBonus;
+	if(AccessoryEffectTester(&bu->unit, 5)) bu->battleHitRate += 10;
+}
+
 int GetItemCrit(int item) {
 	int critBonus = 0;
 	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)

@@ -101,6 +101,8 @@
 
 // Items
 
+#define PrecisionRing 0x7D
+#define MovRing 0x7E
 #define Caduceus 0xBC 
 #define NormalShield 0xBD  
 #define AegisShield 0xBE
