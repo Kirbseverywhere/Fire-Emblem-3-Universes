@@ -9,7 +9,7 @@ ALIGN 4
 unitCustomizerClassList:
 
 // RED LOBSTERS
-UnitCustomizerEntry(Michael, Swords, Axes, Lances, Mercenary, IronSword, ExpShare, Brigand, IronAxe, Vulnerary, Soldier, IronLance, Vulnerary, SwordArmor, IronSword, Vulnerary, MichaelUnitCustomizerDesc)
+UnitCustomizerEntry(Michael, Swords, Axes, Lances, Mercenary, IronSword, Vulnerary, Brigand, IronAxe, Vulnerary, Soldier, IronLance, Vulnerary, SwordArmor, IronSword, Vulnerary, MichaelUnitCustomizerDesc)
 UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, Pirate, IronAxe, Vulnerary, AxeKnight, IronAxe, Vulnerary, EricUnitCustomizerDesc)
 UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Deacon, Lightning, Heal, Priest, Heal, Vulnerary, Archer, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
 UnitCustomizerEntry(QuaSahnt, Reason, Reason, Axes, Mage, Fire, Vulnerary, DarkMage_F, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, AxeArmor, IronAxe, Vulnerary, QuaSahntUnitCustomizerDesc)

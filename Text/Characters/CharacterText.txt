@@ -111,8 +111,8 @@ Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
 
 ## MichaelDescTextID
-Heir to House Marus and knight[N]
-of Novingale. Fixed on defending the realm.[X]
+Heir to House Marus.[N]
+Fixed on defending the realm.[X]
 
 ## EricDescTextID
 A retainer of Rodin. Laidback[N]
@@ -136,7 +136,7 @@ Laid-back but fierce in battle.[X]
 
 ## KaidenDescTextID
 A street performer turned soldier.[N]
-Has good intentions but comes off as rude.[X]
+His good intentions are misinterpreted.[X]
 
 ## CleoDescTextID
 A spy working for Rodin.[N]

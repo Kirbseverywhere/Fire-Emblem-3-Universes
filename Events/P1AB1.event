@@ -40,7 +40,7 @@ VillageEventItem(PlaceholderText,0x5,NormalShield)
 ENDA
 
 Village2:
-VillageEventItem(PlaceholderText,0x5,MasterSeal)
+VillageEventItem(PlaceholderText,0x5,RedGem)
 ENDA
 
 Village3:
@@ -74,7 +74,7 @@ EnemyUnits:
 UNIT Kajarn Mercenary 0x1 Level(10, Enemy, 0)   [13,1] 0b 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
 UNIT Rebel Fighter Pablo Level(8, Enemy, 1)   [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
 UNIT Rebel Mercenary Pablo Level(10, Enemy, 1)  [8,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
-UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronBlade] NeverMoveAI
+UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronLance] NeverMoveAI
 UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
 UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [IronLance, NormalShield] PursueWithoutHeedAI
 UNIT Rebel LanceKnight Pablo Level(10, Enemy, 1) [11,11] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
