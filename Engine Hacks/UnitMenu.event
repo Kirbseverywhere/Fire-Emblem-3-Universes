@@ -27,17 +27,13 @@ PUSH
   ORG $1D450
     BYTE $14 // right x coord (open 2)
 
-  /*
+  //Goddammit Teq (capture hooks here too)
 
-  Goddammit Teq (capture hooks here too)
-
-  ORG $22882
-    BYTE $01 // left x coord (go back 1)
+  //ORG $22882
+  //  BYTE $01 // left x coord (go back 1)
 
   ORG $22884
     BYTE $14 // right x coord (go back 1)
-
-  */
 
   ORG $22818
     BYTE $01 // left x coord (go back 2)
