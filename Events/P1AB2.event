@@ -16,14 +16,14 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 Reinforcements1[10,11] 0x0
+//TURN 0x0 Reinforcements1[10,11] 0x0
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
-ReinforcementEvent(Wave1)
+//ReinforcementEvent(Wave1)
 
-Wave1:
-UNIT Rebel Soldier Rynod(10, Enemy, True) [16,12] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
-UNIT
+/*Wave1:
+UNIT Rebel Soldier Rynod Level(10, Enemy, True) [16,12] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT*/
 CharacterBasedEvents:
 END_MAIN
 
