@@ -93,6 +93,9 @@ void ApplyClassChange(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 	
 	ApplyClassIDChange(menuProc, menuInfo);
 	
+	gActiveUnit->level = 10;
+	gActiveUnit->exp = 0;
+	
 	// Stats
 	gActiveUnit->maxHP = gActiveUnit->pCharacterData->baseHP + gActiveUnit->pClassData->baseHP;
 	gActiveUnit->curHP = gActiveUnit->maxHP;
