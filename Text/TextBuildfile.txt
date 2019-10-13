@@ -17,7 +17,8 @@ Learned  [X]
 #include "EngineHacks\StatScreenText.txt"
 
 #0x509 GauntletWeaponTypeName
-Gauntlet[X]
+#Gauntlet overflows
+Fists[X]
 
 ## ReasonWeaponTypeName
 Reason[X]

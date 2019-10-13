@@ -2,38 +2,39 @@
 Caduceus[X]
 
 ## CaduceusDescText
-Grants Mag + 3.[N]
-Can't counter at Close Range.[X]
+Grants +3 magic, but[N]
+cannot attack at 1 range.[X]
 
 ## NormalShieldNameText
 Shield[X]
 
 ## NormalShieldDescText
-Grants Defense +2[N]
-At the cost of -2 speed.[X]
+Grants +2 defence[N]
+at the cost of -2 speed.[X]
 
 ## AegisShieldNameText
 Aegis Shield[X]
 
 ## AegisShieldDescText
-Grants Aegis.[X]
+Grants Aegis:[N]
+May negate magic attacks.[X]
 
 ## ExpShareNameText
-Exp Share[X]
+Exp. Share[X]
 
 ## ExpShareDescText
-Grants Exp to Adjacent.[NL]
-Units after Battle.[X]
+Grants Exp. to adjacent[NL]
+units after battle.[X]
 
 ## PrecisionRingNameText
-Prc. Ring[X]
+Skill Ring[X]
 
 ## PrecisionRingDescText
-Grants Hit + 10.[X]
+Grants +10 accuracy.[X]
 
 ## MovRingNameText
 Movement Ring[X]
 
 ## MovRingDescText
-Grants Move + 1.[X]
+Grants +1 movement.[X]
 

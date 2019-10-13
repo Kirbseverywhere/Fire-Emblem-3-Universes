@@ -1,0 +1,96 @@
+NARRATION
+Having subdued the bandit attack in Alva territory, Rodin finds the situation rather suspicious. To that end, he continues his investigation, which takes him to Count Alva's castle. Hoping to find an explanation, Rodin proceeds inside, unaware of what is about to befall him...
+
+
+(Outside, before the castle)
+Rodin (R): Rrrgh...
+Kelly (L): Is something the matter, Your Highness?
+Rodin: I've never liked this place. As a child, I used to accompany my mother on noble visits. That Alva has always looked down on me for whatever reason.
+Michael (L): My liege, may I suggest we approach with due caution? You are wary of Count Alva, after all.
+Rodin: You took the words right out of my mouth, Michael.
+Eric (L): Hey, Boss. I think I see someone coming our way. Best be on your guard.
+Rodin: Hm? Ah, I see them. Brace yourselves, in any case.
+
+
+AUGUSTUS JOINS
+Gus (L): Hello.
+Michael (R): State your name and purpose.
+Gus: Oh, I'm Augustus. You can call me Gus. Basically, I just saw the commotion earlier and decided to have a look-see. Nice job wiping those bandits.
+Rodin (R): Gus, you say? We are about to enter Count Alva's castle in the hopes of knowing what is going on here.
+Gus: Oh, I can help. There's a catch, though.
+Rodin: Yes? I am all ears.
+Gus: You're a prince, right? Means you're quite wealthy. I'll help you out, but on the condition that I'm compensated for my efforts.
+Rodin: As you wish. After all, my companions deserve to be rewarded adequately for their hard efforts.
+Gus: Thanks! Uh...
+Rodin: You are free to call me Rodin. My station does not matter when we fight as equals. It is great to meet you, in any case.
+Gus: Likewise.
+Rodin: Right. Everyone, we move! 
+
+
+CASTLE ENTRANCE
+Jonathen (L): We've made it. Still, looks like we're not being met with a warm welcome, milord...
+Rodin (R): Of all the...! Rrrgh... I fear we find ourselves in a deadlock, my friends. I apologize.
+Kaiden (L): What to do now, Lord Rodin? Break through the enemy lines?
+Rodin: Mm. After that, we will churn all the answers out of Alva. After all, there is much I need to know.
+Kaiden: Doesn't look like things will be all that simple, though...
+Rodin: I know you won't let me down. We shall break through!
+==(SHIFT TO ALVA)==
+Alva (R): Hmhmhm... Sounds like the little brat got himself tangled up in the web!
+Goon (L): Lord Alva, your orders!
+Alva: If the brat and his retinue march on, beat them down! Kill his friends, and capture the prince! After all, little boys should be returned to their mothers...
+Goon: Yes, milord!
+Alva: Squirm all you want, Rodin. Your last breath draws near! Ah, how sad, and yet, what a relief...
+==(SHIFT TO RODIN)==
+Gus (R): Say, Rodin. I can hear something.
+Rodin (L): ...As can I, now that you mention it. People screaming for help.
+Gus: You gonna help them, or?
+Rodin: Of course. I will not allow my countrymen to suffocate under the yoke of abusive nobles. We have to be quick, or Alva's forces may catch up...
+
+
+HOSTAGES
+H1 (saved): Oh, goodness me, I didn't think I'd make it out alive! Thanks so much! Ya saved me hide, ye kindly folks...
+H1 (killed): No, no, no! Have mercy, please! Aaaagh...!
+
+H2 (saved): I'd given up all hope on being rescued. Then you come along and whisk me out. I owe you my life.
+H2 (killed): ...I feared as much... So this is the end of it...
+
+
+BOSS: Alva
+How have you found your way in here?! Hmph, very well. I suppose I'll just dispose of you while I can!
+
+(VS. Rodin)
+Alva: Hmph! Hasn't your mother told you not to meddle in adults' affairs, brat?
+Rodin: Quite the way to address the Empress's brat, Alva. Now, I shall return what you have stolen from the people.
+Alva: Just- just shut your mouth! I serve Her Majesty, not you! Now shoo!
+Rodin: Cease your nonsense, mongrel.
+
+Agh! No! Let go of me, child! What do you think you're doing?!
+
+
+POST-BATTLE
+Rodin (L): Alright, you will speak up.
+Alva (R): I have nothing to say to you! In fact, I could tell your mother that-
+Rodin: (move to right; slamming Alva into the wall)
+Rodin: Have I not made myself clear? You will speak up, wretch. Those bandits were too calculating for anyone's good. What are you hiding?
+Alva: They... they're at my command! I pay them for their services!
+Rodin: So rather than look after your people, as any proper noble should, you leave them to their fates to enrich a conscripted bunch of crooks?
+Alva: What do the lives of those serfs matter in the grand scheme? Nothing, I tell you! They exist to serve us! To enrich us!
+Rodin: (slams Alva again)
+Alva: Aaaagh! Y-you're breaking my bones!
+Rodin: Craven wretch! I have had enough of you! BEGONE! (cutting SFX)
+Alva: A-ack...! Y-you'll... pay... (dies)
+===
+Jonathen (L): Hey, Kelly? You okay?
+Kelly (R): ...I'm fine. I'm just not good with blood, is all.
+Jonathen: Don't worry. Honestly, I didn't know Lord Rodin could be so vicious around his foes... That is some strong hatred, alright.
+Qua (L): Kelly, I've got an idea.
+Kelly: Yes? Please tell me.
+Qua: Why don't we prepare a nice meal for the group once this is sorted out? That'll help us all feel better after today.
+Kelly: That's a great idea. We'll have to make quite a lot, but it'll all bring us closer together.
+Qua: Yeah. Even after all this mess, we can still enjoy a nice meal to celebrate our victory here.
+===
+Rodin (R): Apologies for taking long, everyone. I know all I need to know now.
+Eric (L): You made quite a mess in there, Boss.
+Rodin: Yes... I suppose I got carried away. But victory is ours, and the people of this territory are now free.
+Eric (L): I guess that's a win. Are we bound for the palace?
+Rodin: That we are. Let us away, my friends. Today has been a long day.

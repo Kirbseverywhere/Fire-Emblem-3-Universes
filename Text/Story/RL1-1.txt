@@ -169,7 +169,7 @@ Please! Help us![A]
 [Left]#Rodin
 What is amiss? Please[N]
 try to remain calm.[AN]
-[MidRight]#Villager
+[Right]#Villager
 It's terrible... Bandits are[N]
 'ere to plunder our lands[AN]
 and take our belongings![N]
