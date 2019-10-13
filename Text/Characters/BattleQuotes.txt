@@ -1,0 +1,20 @@
+## BorgasBattleQuote
+[MidLeft][LoadFace][0x40][0x01]
+Grrr... Lord Alva didn't[N]
+tell us we'd be facin'[AN]
+this much headwind![AN]
+Dammit, s'pose I'll just[N]
+get rid o' ya lot![A][X]
+
+## BorgasVsRodin
+[MidLeft][LoadFace][0x40][0x01]
+Th-the Prince?! Why[N]
+aint'cha in yer little[AN]
+palace frolickin' about[N]
+like a prince should?![A]
+[ClearFace][MidRight][LoadRodin]
+Harm my countrymen, and[N]
+you invoke my ire. Now,[AN]
+as your Prince, it falls[N]
+to me to decide your fate.[AN]
+Brace yourself![A][X]
