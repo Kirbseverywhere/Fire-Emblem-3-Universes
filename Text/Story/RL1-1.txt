@@ -1,0 +1,223 @@
+## RL1Narration
+The Novingale Empire.[N]
+A proud and well-faring nation[AN]
+that has thrived for centuries.[N]
+In recent years, the nation has[AN]
+reached a peak of welfare, and[N]
+its population has begun[AN]
+exploding ever since. However,[N]
+the increasing population[AN]
+demands more space. The cities of[N]
+Novingale are being overrun,[AN]
+and disease has started to crop up[N]
+over a lack of organization[AN]
+and proper measures.[N]
+Empress Aurea, current sovereign[AN]
+of Novingale, seems to be[N]
+turning the commonfolk's[AN]
+suffering a blind eye. Her son,[N] 
+Crown Prince Rodin, has taken[AN]
+up arms to protect the commonfolk.[N]
+Now, his duty takes him to the[AN]
+territory of Count Alva, a[N]
+decadent noble notorious for[AN]
+leeching off his people...[A][X]
+
+## RL1OpeningVillagers
+//(Outside in the fields)
+[MidLeft][LoadFace][0x5A][0x01]
+[MidRight][LoadFace][0x58][0x01]
+[MidLeft]
+Urgh... How much longer have I[N]
+gotta work me poor bones off?[A]
+[MidRight]
+Lord Alva's doin' a number on[N]
+us... I won't live to see me[AN]
+children grow up at this rate![A]
+[MidLeft]
+To say nothin' of all the taxes[N]
+he's been throwin' at us.[AN]
+We barely get to feed ourselves![N]
+'Tis a tragedy, it is...[A]
+[MidRight]
+The least thing we say about it,[N]
+he'll flog us, too. Now let's[AN]
+hope nobody's heard us...[A]
+[MidLeft]
+What's it matter? We're already[N]
+doomed to bite it. The scythe o'[AN]
+hunger will be takin' us 'fore long.[A]
+[MidRight]
+...[A][X]
+
+## RL1OpeningBandits
+//(Cut to different scene, bandits approaching the villagers)
+[MidRight][LoadFace][0x4C]
+[MidLeft][LoadFace][0x40] #Borgas, I hope
+[MidRight]
+Hey, Boss! When we gettin' our[N]
+paycheck from Lord Alva?[A]
+[MidLeft]
+Zip it, wontcha?[N]
+You've been naggin' 'bout yer[AN] 
+coin for ages by this point.[N]
+I wanna get my own pay,[AN]
+too, but we gotta wait till[N]
+the job's done.[A]
+[MidRight]
+But dontcha think Lord[N]
+Alva's bein' stingy[AN]
+with us too? I mean,[N]
+we get to pillage all[AN]
+we like, but it all goes[N]
+to him in the end.[AN]
+[MidLeft]
+Be glad someone actually pays[N]
+us for bein' a buncha' bandits.[AN]
+Lord Alva gave us a place to[N]
+stay, a shelter from the rain,[AN]
+and yer still not happy?[AN]
+[MidRight]
+N-no, Boss![AN]
+I'm just sayin' he could give[N] 
+us a few coins more per day.[AN]
+[MidLeft]
+I can talk with 'im to get[N]
+that sorted out. Just do[AN]
+what I tell ya lot to do,[N]
+and we'll get paid.[A]
+[MidRight]
+Oh, hey![N]
+They're in sight, Boss![AN]
+The villagers Lord Alva[N]
+told us about![A]
+[MidLeft]
+Gotcha. Time to rake[N]
+in some coin...[A][X]
+
+## RL1OpeningAttack
+#(Cut to Borgas talking to villagers)
+[FarLeft][LoadFace][0x5A][0x01]
+[Left][LoadFace][0x58][0x01]
+[MidRight][LoadFace][0x40] #Borgas, I hope
+Fork over yer goods,[N]
+ya good-for-nothings![AN]
+[Left]
+W-we got nothin' on us![N]
+Lord Alva's been taxin'[AN]
+us so hard, we-[A]
+#(axe slash)
+[ClearFace]
+[FarLeft]
+Aaaaaah! N-no, don't do this![N]
+We'll pay! We'll give ya all[AN]
+we 'ave! J-just spare us![A]
+[MidRight]
+No excuses![N]
+Get 'em, boys![AN]
+Take whatever ya[N]
+can scrounge up![A]
+[FarFarRight]
+Got it, Boss![A]
+[MidRight]
+Heheh... Once we get our haul,[N]
+Lord Alva'll pay us in kind.[A][X]
+
+## RL1OpeningRodin
+#(Rodin arrives with his retinue)
+[Left][LoadEric]
+[MidRight][LoadRodin]
+[Left] # Eric
+Is this the[N]
+place, Boss?[A]
+[MidRight] # Rodin
+Yes. Alva territory is[N]
+right around these[AN]
+parts. Just a little[N]
+further.[A]
+[FarLeft][LoadKelly]
+Milord, would you remind us[N]
+what we've come to do here?[A]
+[MidRight] #Rodin
+We're here because we've been[N]
+receiving complaints from the[AN]
+townsfolk of Alva territory.[N]
+From what I recall, Count Alva[AN]
+has been extorting his people[N]
+by levying absurdly high taxes[AN]
+and overworking them.[A]
+[Left] #Eric 
+And since your dear mother[N]
+turned them a blind eye,[AN]
+you decided to come invest-[N]
+igate for yourself. Right?[A]
+[MidRight] # Rodin 
+Right. That is why we've[N]
+come to Alva's lands.[AN]
+I'd like to confirm[N]
+these claims for myself.[A]
+#(pause)
+[FarLeft][ClearFace][Left][ClearFace]
+[FarLeft][LoadJonathen]
+Lord Rodin, somebody[N]
+is approaching.[AN]
+[MidRight][MoveLeft][FarFarRight][LoadFace][0x60][0x01]
+#(woman villager runs in from the right)
+[MoveRight][Right]
+Y-Your Highness![N]
+Please! Help us![A]
+[Left] #Rodin
+What is amiss? Please[N]
+try to remain calm.[AN]
+[MidRight] #Villager
+It's terrible... Bandits are[N]
+'ere to plunder our lands[AN]
+and take our belongings![N]
+Won't you please come drive[AN]
+'em away, Your Highness?[A]
+[Left] #Rodin
+Rest assured. We shall[N]
+eradicate those pillagers[AN]
+and protect what is[N]
+rightfully yours.[A]
+[MidRight] #Villager
+Oh, thank you, Your Highness![N]
+If there's anythin' I can do to-[AN]
+[Left] #Rodin
+No need for recompense.[AN]
+I am simply doing my duty[N]
+as Prince of Novingale.[A]
+[MidRight][MoveFarRight][Right][LoadMichael]
+My liege, your[N]
+orders, please![A]
+[Left] #Rodin
+Everyone! Move out, and[N]
+protect your fellow[AN]
+countrymen from the[N]
+bandit attack! Show[AN]
+those wretches no mercy![A][X]
+
+## BorgasCombat
+[MidLeft] Grrr... Lord Alva didn't tell us we'd be facin' this much headwind! Dammit, s'pose I'll just get rid o' ya lot![X]
+
+## BorgasVsRodin
+[MidLeft] Th-the Prince?! Why aint'cha in yer little palace frolickin' about like a prince should?!
+Rodin: Harm my countrymen, and you invoke my ire. Now, as your Prince, it falls to me to decide your fate. Brace yourself![X]
+
+## BorgasDeath
+G-guh... Wh-why'm I... seein' things...[X]
+
+## RL1Ending
+Villager (L): Thank you! Oh, thank you so much for savin' us from those ruffians!
+Rodin (R): It sets me at ease knowing I could intervene in time.
+Villager: If there's anythin' we could do to return the favor, please don't hesitate to give us a holler, Your Highness!
+Rodin: Your well-being is reward enough for me. That being said, something seemed off about those bandits...
+Michael (L): They were too organized for any ordinary bandit group, milord. If anything, they remind me of a militia, if an informal one.
+Rodin: Well observed, Michael. Now, let's take matters to Alva. It's high time this madness was put to a screeching halt.
+Michael: You've heard the prince, everybody. Let us be on our way.
+
+Kelly (R): What an awful display that was...
+Qua (L): I agree. Though I don't think there's much we can do against it.
+Kelly: I know Lord Rodin is counting on us. I know we're valuable to him. Still, seeing all that bloodshed makes me wonder just how often this has happened.
+Qua: It'd be so much more convenient if people didn't have to claw at each other. Oh, well... Let's join the others, Kelly.
+Kelly: Right.[X]
