@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pSkillModifiers: // Skill
-	POIN prAddUnitSkill prHalveIfRescuing prHalveIfCapturing prDebuffSkl prAddEquipSkill prItemPassiveSkl prRallySkl
+	POIN prAddUnitSkill prHalveIfRescuing prHalveIfCapturing prDebuffSkl prAddEquipSkill prAddAccessorySkill prItemPassiveSkl prRallySkl
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
@@ -15,7 +15,10 @@ prAddUnitSkill:
 
 prAddEquipSkill:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemSklBonus)))
-
+	
+prAddAccessorySkill:
+	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemSklBonus)))
+	
 prDebuffSkl:
 	#incbin "_asm/DebuffSkl.bin"
 	WORD DebuffTable

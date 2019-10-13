@@ -85,3 +85,8 @@ DeathQuote(Rynod, AnyMode, AnyChapter, BossKilledFlag, RynodDeathQuote)
 DeathQuote(Ilyron, AnyMode, AnyChapter, BossKilledFlag, IlyronDeathQuote)
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+// Stat Boosts
+ShieldStatBoosts:
+BYTE 0 0 0 (-2) 2 0 0 0 0 0 // Hp Str Skl Spd Def Res Luk Mov Con Mag
+ALIGN 4

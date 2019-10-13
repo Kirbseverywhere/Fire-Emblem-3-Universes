@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pLuckModifiers: // Luck
-	POIN prAddUnitLuck prHalveIfCapturing prDebuffLck prAddEquipLuck prItemPassiveLuck prRallyLck
+	POIN prAddUnitLuck prHalveIfCapturing prDebuffLck prAddEquipLuck prAddAccessoryLuck prItemPassiveLuck prRallyLck
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
@@ -15,6 +15,9 @@ prAddUnitLuck:
 
 prAddEquipLuck:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemLckBonus)))
+	
+prAddAccessoryLuck:
+	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemLckBonus)))
 
 prDebuffLck:
 	#incbin "_asm/DebuffLck.bin"
