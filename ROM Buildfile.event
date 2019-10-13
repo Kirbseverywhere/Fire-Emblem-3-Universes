@@ -9,7 +9,7 @@
     #include "repointedTextTable.event"
 
     //Text first for Text ID definitions
-    #include "Text/TextBuildfile.txt"
+    #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
 	
 	//Mugs
