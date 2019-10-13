@@ -226,4 +226,6 @@ Greg[X]
 ## OccamDescTextID
 Occam[X]
 
+#include BattleQuotes.txt
+
 #include "DeathQuotes.txt"

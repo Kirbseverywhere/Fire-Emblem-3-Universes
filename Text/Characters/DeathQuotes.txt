@@ -107,7 +107,9 @@
 [OpenMidRight][LoadFace][0x24][0x01]OccamDeathQuote[A][X]
 
 ## BorgasDeathQuote
-[OpenMidRight][LoadFace][0x40][0x01]BorgasDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x40][0x01]
+G-guh... Wh-why'm I...[N]
+seein' things...[A][X]
 
 ## AlvaDeathQuote
 [OpenMidRight][LoadFace][0x41][0x01]AlvaDeathQuote[A][X]
