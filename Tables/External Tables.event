@@ -90,3 +90,7 @@ WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
 ShieldStatBoosts:
 BYTE 0 0 0 (-2) 2 0 0 0 0 0 // Hp Str Skl Spd Def Res Luk Mov Con Mag
 ALIGN 4
+
+CaduceusStatBoosts:
+BYTE 0 0 0 0 0 0 0 0 0 3
+ALIGN 4
