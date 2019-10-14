@@ -81,6 +81,9 @@
 #define Greg 35
 #define Occam 36
 
+//Neutrals
+#define Augustus 37
+
 // Bosses
 
 // Red Lobsters

@@ -1,96 +1,283 @@
-NARRATION
-Having subdued the bandit attack in Alva territory, Rodin finds the situation rather suspicious. To that end, he continues his investigation, which takes him to Count Alva's castle. Hoping to find an explanation, Rodin proceeds inside, unaware of what is about to befall him...
+## RL2Narration
+Having subdued the bandit attack in[N]
+Alva territory, Rodin finds the[AN]
+situation rather suspicious. To[N]
+that end, he continues his[AN]
+investigation, which takes him[N]
+to Count Alva's castle. Hoping[AN]
+to find an explanation, Rodin[N]
+proceeds inside, unaware of[AN]
+what is about to befall him...[A][X]
+
+## RL2OpeningApproach
+#(Outside, before the castle)
+[MidRight][LoadRodin]
+Rrrgh...[A]
+[Left][LoadKelly]
+Is something the matter,[N]
+Your Highness?[A]
+[MidRight]#Rodin
+I've never liked this place. As[N]
+a child, I used to accompany[AN]
+my mother on noble visits. That[N]
+Alva has always looked down on[AN]
+me for whatever reason.[A]
+[FarLeft][LoadMichael]
+My liege, may I suggest we[N]
+approach with due caution?[AN]
+You are wary of Count Alva,[N]
+after all.[A]
+[MidRight]#Rodin
+You took the words right[N]
+out of my mouth, Michael.[A]
+[Left][ClearFace][LoadEric]
+Hey, Boss. I think I see[N]
+someone coming our way.[AN]
+Best be on your guard.[A]
+[MidRight]
+Hm? Ah, I see them. Brace[N]
+yourselves, in any case.[A][X]
 
 
-(Outside, before the castle)
-Rodin (R): Rrrgh...
-Kelly (L): Is something the matter, Your Highness?
-Rodin: I've never liked this place. As a child, I used to accompany my mother on noble visits. That Alva has always looked down on me for whatever reason.
-Michael (L): My liege, may I suggest we approach with due caution? You are wary of Count Alva, after all.
-Rodin: You took the words right out of my mouth, Michael.
-Eric (L): Hey, Boss. I think I see someone coming our way. Best be on your guard.
-Rodin: Hm? Ah, I see them. Brace yourselves, in any case.
+## RL2OpeningAugustus
+[MidLeft][LoadAugustus][MidRight][LoadMichael]
+[MidLeft]#Augustus
+Hello.[A]
+[MidRight]#Michael
+State your name[N]
+and purpose.[A]
+[MidLeft]#Gus
+Oh, I'm Augustus. Call me[N]
+Gus if you wish. Reason[AN]
+why I am here is because[N]
+I saw the commotion earlier[AN]
+and decided to have a[N]
+look-see for myself.[A]
+[MidRight][ClearFace][LoadRodin]
+Gus, you say? We are about[N]
+to enter Count Alva's castle[AN]
+in the hopes of knowing what[N]
+is going on here.[A]
+[MidLeft]#Gus
+Oh, I can help. There's[N]
+a catch, though.[AN]
+[MidRight]#Rodin
+Yes? I am all ears.[A]
+[MidLeft]#Gus
+You're a prince, right?[N]
+Means you're quite wealthy.[AN]
+I'll help you out, but on[N]
+the condition that I'm[AN]
+compensated for my efforts.[N]
+I'm not too shabby with[AN]
+my healing magic.[A]
+[MidRight]#R
+As you wish. After all,[N]
+my companions deserve to[AN]
+be rewarded adequately[N]
+for their hard efforts.[A]
+[MidLeft]
+Thanks! Uh...[A]
+[MidRight]
+You are free to call me Rodin.[N]
+My station does not matter[AN]
+when we fight as equals. It is[N]
+great to meet you, in any case.[A]
+[MidLeft]
+A pleasure to work[N]
+with you then.[A]
+[MidRight]
+Right. Everyone,[N]
+we move![A][X]
 
 
-AUGUSTUS JOINS
-Gus (L): Hello.
-Michael (R): State your name and purpose.
-Gus: Oh, I'm Augustus. You can call me Gus. Basically, I just saw the commotion earlier and decided to have a look-see. Nice job wiping those bandits.
-Rodin (R): Gus, you say? We are about to enter Count Alva's castle in the hopes of knowing what is going on here.
-Gus: Oh, I can help. There's a catch, though.
-Rodin: Yes? I am all ears.
-Gus: You're a prince, right? Means you're quite wealthy. I'll help you out, but on the condition that I'm compensated for my efforts.
-Rodin: As you wish. After all, my companions deserve to be rewarded adequately for their hard efforts.
-Gus: Thanks! Uh...
-Rodin: You are free to call me Rodin. My station does not matter when we fight as equals. It is great to meet you, in any case.
-Gus: Likewise.
-Rodin: Right. Everyone, we move! 
+## RL2OpeningCastleEntrance
+[MidRight][LoadRodin]
+[FarLeft][LoadKaiden]
+[Left][LoadJonathen]
+We've made it. Still, looks[N]
+like we're not being met[AN]
+with a warm welcome, milord...[AN]
+[MidRight]#Rodin
+Of all the...![N]
+Rrrgh... I fear we find[AN]
+ourselves in a deadlock,[N]
+my friends. I apologize.[A]
+[FarLeft]#Kaiden
+What to do now, Lord Rodin?[N]
+Break through the enemy lines?[A]
+[MidRight]
+Mm. After that, we will[N]
+churn all the answers out[AN]
+of Alva. After all, there[N]
+is much I need to know.[A]
+[FarLeft]#K
+Doesn't look like things will[N]
+be all that simple, though...[AN]
+[MidRight]#R
+I know you won't let me down.[N]
+We shall break through![A][X]
+
+## RL2AfterPrepAlva
+#==(SHIFT TO ALVA)==
+#might break for prep screen here
+[MidLeft][LoadFace][0x6A][0x01]#goon
+[MidRight][LoadFace][0x41][0x01]#Alva
+Hmhmhm...[AN]
+Sounds like the little brat got[N]
+himself tangled up in the web![A]
+[MidLeft]
+Lord Alva, your orders![A]
+[MidRight]
+If the brat and his retinue march[N]
+on, beat them down! Kill his[AN]
+friends, and capture the prince![N]
+After all, little boys should[AN]
+be returned to their mothers...[A]
+[MidLeft]
+Yes, milord![A]
+[MidRight]
+Squirm all you want, Rodin.[N]
+Your last breath draws near![AN]
+Ah, how sad, and yet,[N]
+what a relief...[A][X]
+
+## RL2AfterPrepRodin
+[MidLeft][LoadRodin][MidRight][LoadAugustus]
+Say, Rodin. I can[N]
+hear something.[A]
+[MidLeft]
+...As can I, now that you mention[N]
+it. People screaming for help.[A]
+[MidRight]
+You gonna help[N]
+them, or?[A]
+[MidLeft]
+Of course. I will not allow[N]
+my countrymen to suffocate[AN]
+under the yoke of abusive[N]
+nobles. We have to be quick,[AN]
+or Alva's forces may catch up...[A][X]
 
 
-CASTLE ENTRANCE
-Jonathen (L): We've made it. Still, looks like we're not being met with a warm welcome, milord...
-Rodin (R): Of all the...! Rrrgh... I fear we find ourselves in a deadlock, my friends. I apologize.
-Kaiden (L): What to do now, Lord Rodin? Break through the enemy lines?
-Rodin: Mm. After that, we will churn all the answers out of Alva. After all, there is much I need to know.
-Kaiden: Doesn't look like things will be all that simple, though...
-Rodin: I know you won't let me down. We shall break through!
-==(SHIFT TO ALVA)==
-Alva (R): Hmhmhm... Sounds like the little brat got himself tangled up in the web!
-Goon (L): Lord Alva, your orders!
-Alva: If the brat and his retinue march on, beat them down! Kill his friends, and capture the prince! After all, little boys should be returned to their mothers...
-Goon: Yes, milord!
-Alva: Squirm all you want, Rodin. Your last breath draws near! Ah, how sad, and yet, what a relief...
-==(SHIFT TO RODIN)==
-Gus (R): Say, Rodin. I can hear something.
-Rodin (L): ...As can I, now that you mention it. People screaming for help.
-Gus: You gonna help them, or?
-Rodin: Of course. I will not allow my countrymen to suffocate under the yoke of abusive nobles. We have to be quick, or Alva's forces may catch up...
+## TalkHostage1
+[OpenLeft][LoadFace][0x61][0x01]
+Oh, goodness me, I didn't think[N]
+I'd make it out alive! Thanks[AN]
+so much! Ya saved me hide, ye[N]
+kindly folks...[A][X]
+## DeathHostage1
+[OpenLeft][LoadFace][0x61][0x01]
+No, no, no! Have mercy,[N]
+please! Aaaagh...![A][X]
 
+## TalkHostage2
+[OpenLeft][LoadFace][0x5D][0x01]
+I'd given up all hope on[N]
+being rescued. Then you come[AN]
+along and whisk me out.[N]
+I owe you my life.[A][X]
+## DeathHostage2
+[OpenLeft][LoadFace][0x5D][0x01]
+...I feared as much...[N]
+So this is the end of it...[A][X]
 
-HOSTAGES
-H1 (saved): Oh, goodness me, I didn't think I'd make it out alive! Thanks so much! Ya saved me hide, ye kindly folks...
-H1 (killed): No, no, no! Have mercy, please! Aaaagh...!
+## RL2EndingAlvaFight
+[MidLeft][LoadRodin]
+[MidRight][LoadFace][0x41][0x01]#Alva
+[MidLeft]
+Alright, you will speak up.[A]
+[MidRight]
+I have nothing to say to you![N]
+In fact, I could tell your[AN]
+mother that-[......]
+#Rodin: (move to right; slamming Alva into the wall)
+[MidLeft][MoveRight][MidRight][MoveFarFarRight][FarFarRight][MoveFarRight][Right]
+Have I not made myself clear?[N]
+You will speak up, wretch.[AN]
+Those bandits were too[N]
+calculating for anyone's good.[AN]
+What are you hiding?[A]
+[FarRight]
+They... they're at my command![N]
+I pay them for their services![AN]
+[Right]
+So rather than look after your[N]
+people, as any proper noble should,[AN]
+you leave them to their fates to[N]
+enrich a conscripted bunch of crooks?[AN]
+[FarRight]
+What do the lives of those serfs[N]
+matter in the grand scheme? Nothing,[AN]
+I tell you! They exist to serve us![N]
+To enrich us![A]
+#Rodin: (slams Alva again)
+[Right][MoveMidRight][FarRight][MoveFarFarRight][MidRight][MoveLeft]
+[FarFarRight]
+Aaaagh![N]
+Y-you're breaking my bones![A]
+[MoveFarRight]
+[Left]
+Craven wretch! I have had[N]
+enough of you! BEGONE![A]
+#(cutting SFX)
+[FarRight]
+A-ack...![N]
+Y-you'll... pay...[A]
+[ClearFace]
+[......][......][......]
+[X]
 
-H2 (saved): I'd given up all hope on being rescued. Then you come along and whisk me out. I owe you my life.
-H2 (killed): ...I feared as much... So this is the end of it...
+## RL2EndingKellyCooking
+[FarLeft][LoadJonathen]
+[Left][LoadQuaSahnt]
+[MidRight][LoadKelly]
+[FarLeft]
+Hey, Kelly? You okay?[A]
+[MidRight]
+...I'm fine. I'm just not good[N]
+with blood, is all.[A]
+[FarLeft]
+Don't worry. Honestly, I didn't[N]
+know Lord Rodin could be so[AN]
+vicious around his foes... That[N]
+is some strong hatred, alright.[A]
+[Left]
+Hmm. Kelly, I got an idea.[A]
+[MidRight]
+Yes? Please tell me.[A]
+[Left]
+How about we prepare a meal[N]
+for everyone once this is[AN]
+sorted out? It'll help ease[N]
+the tension in all of us.[A]
+[MidRight]
+That's a great idea. We'll[N]
+have to make quite a lot,[AN]
+but it'll all bring us[N]
+closer together.[A]
+[Left]
+Yeah, I didn't expect for[N]
+things to turn out like this,[AN]
+but a victory is a victory[N]
+and a celebration is needed.[A][X]
 
-
-BOSS: Alva
-How have you found your way in here?! Hmph, very well. I suppose I'll just dispose of you while I can!
-
-(VS. Rodin)
-Alva: Hmph! Hasn't your mother told you not to meddle in adults' affairs, brat?
-Rodin: Quite the way to address the Empress's brat, Alva. Now, I shall return what you have stolen from the people.
-Alva: Just- just shut your mouth! I serve Her Majesty, not you! Now shoo!
-Rodin: Cease your nonsense, mongrel.
-
-Agh! No! Let go of me, child! What do you think you're doing?!
-
-
-POST-BATTLE
-Rodin (L): Alright, you will speak up.
-Alva (R): I have nothing to say to you! In fact, I could tell your mother that-
-Rodin: (move to right; slamming Alva into the wall)
-Rodin: Have I not made myself clear? You will speak up, wretch. Those bandits were too calculating for anyone's good. What are you hiding?
-Alva: They... they're at my command! I pay them for their services!
-Rodin: So rather than look after your people, as any proper noble should, you leave them to their fates to enrich a conscripted bunch of crooks?
-Alva: What do the lives of those serfs matter in the grand scheme? Nothing, I tell you! They exist to serve us! To enrich us!
-Rodin: (slams Alva again)
-Alva: Aaaagh! Y-you're breaking my bones!
-Rodin: Craven wretch! I have had enough of you! BEGONE! (cutting SFX)
-Alva: A-ack...! Y-you'll... pay... (dies)
-===
-Jonathen (L): Hey, Kelly? You okay?
-Kelly (R): ...I'm fine. I'm just not good with blood, is all.
-Jonathen: Don't worry. Honestly, I didn't know Lord Rodin could be so vicious around his foes... That is some strong hatred, alright.
-Qua (L): Kelly, I've got an idea.
-Kelly: Yes? Please tell me.
-Qua: Why don't we prepare a nice meal for the group once this is sorted out? That'll help us all feel better after today.
-Kelly: That's a great idea. We'll have to make quite a lot, but it'll all bring us closer together.
-Qua: Yeah. Even after all this mess, we can still enjoy a nice meal to celebrate our victory here.
-===
-Rodin (R): Apologies for taking long, everyone. I know all I need to know now.
-Eric (L): You made quite a mess in there, Boss.
-Rodin: Yes... I suppose I got carried away. But victory is ours, and the people of this territory are now free.
-Eric (L): I guess that's a win. Are we bound for the palace?
-Rodin: That we are. Let us away, my friends. Today has been a long day.
+## RL2EndingEric
+[MidLeft][LoadEric]
+[MidRight][LoadRodin]
+Apologies for taking long, everyone.[N]
+I know all I need to know now.[AN]
+[MidLeft]
+You made quite a mess[N]
+in there, Boss.[A]
+[MidRight]
+Yes... I suppose I got[N]
+carried away. But victory[AN]
+is ours, and the people of[N]
+this territory are now free.[AN]
+[MidLeft]
+I guess that's a win.[N]
+Are we bound for the palace?[A]
+[MidRight]
+That we are. Let us away, my friends.[N]
+Today has been a long day.[A][X]

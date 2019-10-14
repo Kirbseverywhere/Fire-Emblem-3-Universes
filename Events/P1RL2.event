@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0, PostPrep, 1)
 END_MAIN
 
 CharacterBasedEvents:
@@ -87,6 +88,10 @@ UNIT 0xF9 0x70 0x00 Level(1, NPC, 0) [3,13] 0x0 0x00 0x0 0x00 [0] NeverMoveAI
 UNIT 0xFA 0x70 Breguet Level(1, NPC, 0) [4,0] 0x00 0x00 0x0 0x00 [0] NeverMoveAI 
 UNIT
 
+GusGet:
+UNIT Augustus Priest Rodin Level(10, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
 
 Traps1:
 ENDTRAP
@@ -97,31 +102,65 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+SetBackground(Black)
+MUSC The_Beginning
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW RL2Narration
+TEXTEND
 REVEAL Kaiden
 REVEAL Cleo
 REVEAL Reds
 REVEAL Mimi
 REVEAL Zorua
+MUSC Advance
+Text(Fort_Outside,RL2OpeningApproach)
+Text(Fort_Outside,RL2OpeningAugustus)
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 Prisoners
 ENUN
+MUSC Tension
+CAM1 Rodin
+STAL 10
+Text(Castle_Garden,RL2OpeningCastleEntrance)
 GotoPrepScreen
 ENDA
 
+PostPrep:
+LOAD1 0x1 GusGet
+ENUN
+MUSC Solve_the_Riddle
+CAM1 Alva
+FlashCursor(Alva,60)
+Text(Castle_Room,RL2AfterPrepAlva)
+CAM1 Rodin
+MUSC Tension
+FlashCursor(Augustus,60)
+Text(RL2AfterPrepRodin)
+NoFade
+ENDA
+
 EndingScene:
+MUSC Raid
+Text(Castle_Room,RL2EndingAlvaFight)
+MUSC Into_the_Shadow_of_Victory
+Text(Castle_Hall,RL2EndingKellyCooking)
+Text(Castle_Hall_2,RL2EndingEric)
 MNC2 0x3
 NoFade
 ENDA
 
 FreePrisoner1:
+Text(TalkHostage1)
 SVAL 3 PrecisionRing; GIVEITEMTO 0xFFFF
 DISA 0xF9
 ENDA
 
 FreePrisoner2:
+Text(TalkHostage2)
 SVAL 3 Longbow; GIVEITEMTO 0xFFFF
 DISA 0xFA
 ENDA

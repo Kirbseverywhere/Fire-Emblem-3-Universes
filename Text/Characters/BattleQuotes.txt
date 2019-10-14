@@ -18,3 +18,28 @@ you invoke my ire. Now,[AN]
 as your Prince, it falls[N]
 to me to decide your fate.[AN]
 Brace yourself![A][X]
+
+## AlvaBattleQuote
+[MidLeft][LoadFace][0x41][0x01]
+How have you found your way[N]
+in here?! Hmph, very well.[AN]
+I suppose I'll just dispose[N]
+of you while I can![A][X]
+
+## AlvaVsRodin
+[MidLeft][LoadFace][0x41][0x01]#Alva
+Hmph! Hasn't your mother[N]
+told you not to meddle[AN]
+in adults' affairs, brat?[AN]
+[MidRight][LoadRodin]
+Quite the way to address the[N]
+Empress's brat, Alva. Now, I[AN]
+shall return what you have[N]
+stolen from the people.[A]
+[MidLeft][LoadFace][0x41][0x01]
+Just- just shut your mouth![N]
+I serve Her Majesty, not you![AN]
+Now shoo![A]
+[MidRight][LoadRodin]
+Cease your nonsense, mongrel.[A][X]
+
