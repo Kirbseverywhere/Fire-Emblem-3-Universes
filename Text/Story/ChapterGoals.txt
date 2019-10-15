@@ -1,3 +1,21 @@
+## SeizeThroneGoal
+Seize throne[X]
+
+## SeizeGateGoal
+Seize gate[X]
+
+## RoutGoal
+Defeat enemy[X]
+
+## KillBossGoal
+Defeat boss[X]
+
+## SurviveGoal
+Survive[X]
+
+## DefendGoal
+Defend[X]
+
 ## P1RL1Goal
 Defeat all bandits[N]
 attacking villagers[X]
@@ -7,4 +25,4 @@ Defeat Count Alva,[N]
 corrupt nobleman[X]
 
 ## P1RL3Goal
-Defeat the wild wyvern[X]
+Defeat wild wyvern[X]
