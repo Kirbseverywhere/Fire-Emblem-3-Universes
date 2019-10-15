@@ -3,13 +3,13 @@
 A Ternon[X]
 
 ## P1RL1ChName
-The People's Prince[X]
+Ch. 1: The People's Prince[X]
 
 ## P1RL2ChName
-Caught in the Web[X]
+Ch. 2: Caught in the Web[X]
 
 ## P1RL3ChName
-Heart of a Dragon[X]
+Ch. 3: Heart of a Dragon[X]
 
 ## P1RL4ChName
 Swaying Hearts[X]

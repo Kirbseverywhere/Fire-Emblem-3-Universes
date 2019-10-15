@@ -35,67 +35,78 @@ Sky Lord[X]
 Sky Lord[X]
 
 ## SwordKnightClassName
-Swd. Knight[X]
+Sword Knight[X]
 
 ## SwordKnightClassDesc
-Swd. Knight[X]
+Knights on horseback that[N]
+use swords in battle.[X]
 
 ## LanceKnightClassName
-Lnc. Knight[X]
+Lance Knight[X]
 
 ## LanceKnightClassDesc
-Lnc. Knight[X]
+Knights on horseback that[N]
+use lances in battle.[X]
 
 ## AxeKnightClassName
 Axe Knight[X]
 
 ## AxeKnightClassDesc
-Axe Knight[X]
+Knights on horseback that[N]
+use axes in battle.[X]
 
 ## BowKnightClassName
 Bow Knight[X]
 
 ## BowKnightClassDesc
-Bow Knight[X]
+Knights on horseback that[N]
+use bows in battle.[X]
 
 ## SwordArmorClassName
-Swd. Armor[X]
+Sword Armor[X]
 
 ## SwordArmorClassDesc
-Swd. Armor[X]
+Heavily armoured knights.[N]
+High defences. Uses swords.[X]
 
 ## LanceArmorClassName
-Lnc. Armor[X]
+Lance Armor[X]
 
 ## LanceArmorClassDesc
-Lnc. Armor[X]
+Heavily armoured knights.[N]
+High defences. Uses lances.[X]
 
 ## AxeArmorClassName
 Axe Armor[X]
 
 ## AxeArmorClassDesc
-Axe Armor[X]
+Heavily armoured knights.[N]
+High defences. Uses axes.[X]
 
 ## BowArmorClassName
 Bow Armor[X]
 
 ## BowArmorClassDesc
-Bow Armor[X]
+Heavily armoured knights.[N]
+High defences. Uses bows.[X]
 
 ## MaligKnightClassName
 Malig Knight[X]
 
 ## MaligKnightClassDesc
-Malig Knight[X]
+Malignant knights soaring on[N]
+a dragon. Can use magic.[X]
 
 ## MageFighterClassName
 Mage Fighter[X]
 
 ## MageFighterClassDesc
-Mage Fighter[X]
+A mage trained in using[N]
+swords in addition to magic.[X]
 
 ## DeaconClassName
 Deacon[X]
 
 ## DeaconClassDesc
-Deacon[X]
+Healers on horseback, capable[N]
+of using staves to aid allies.[X]

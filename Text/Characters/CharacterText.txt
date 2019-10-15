@@ -106,6 +106,9 @@ Greg[X]
 ## OccamNameTextID
 Occam[X]
 
+## AugustusNameTextID
+Augustus[X]
+
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
@@ -225,5 +228,13 @@ Greg[X]
 
 ## OccamDescTextID
 Occam[X]
+
+## AugustusDescTextID
+A vagabond with a charming smile.[N]
+Willing to lend a hand on one condition.[X]
+
+#include NPCEnemyCharText.txt
+
+#include BattleQuotes.txt
 
 #include "DeathQuotes.txt"
