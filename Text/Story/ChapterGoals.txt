@@ -1,0 +1,10 @@
+## P1RL1Goal
+Defeat all bandits[N]
+attacking villagers[X]
+
+## P1RL2Goal
+Defeat Count Alva,[N]
+corrupt nobleman[X]
+
+## P1RL3Goal
+Defeat the wild wyvern[X]
