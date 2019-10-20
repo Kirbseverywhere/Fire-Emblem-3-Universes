@@ -1,2 +1,4 @@
+#include ChapterGoals.txt
 #include "OpeningNarration.txt"
 #include "RL1-1.txt"
+#include "RL1-2.txt"

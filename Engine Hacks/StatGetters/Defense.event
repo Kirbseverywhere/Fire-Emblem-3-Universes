@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pDefenseModifiers: // Defense
-	POIN prAddUnitDefense prHalveIfCapturing prDebuffDef prAddEquipDefense prItemPassiveDefense prRallyDef prLifeAndDeathMinus VigorDanceCheck prSkillFury prFortressDefenseDef prAccessoryNormalShieldDefBuff
+	POIN prAddUnitDefense prHalveIfCapturing prDebuffDef prAddEquipDefense prAddAccessoryDefense prItemPassiveDefense prRallyDef prLifeAndDeathMinus VigorDanceCheck prSkillFury prFortressDefenseDef
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
@@ -15,6 +15,9 @@ prAddUnitDefense:
 	
 prAddEquipDefense:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemDefBonus)))
+	
+prAddAccessoryDefense:
+	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemDefBonus)))
 
 prDebuffDef:
 	#incbin "_asm/DebuffDef.bin"
@@ -29,9 +32,5 @@ prFortressDefenseDef:
 
 prItemPassiveDefense:
 	rPassiveStatBoosts(STAT_DEFENSE)
-	
-prAccessoryNormalShieldDefBuff:
-	rIfUnitHasAccessoryEffect(AE_NormalShield)
-		rAddConst(2)
 
 #endif // MODULAR_GETTER_DEFENSE_EVENT

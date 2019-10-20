@@ -89,5 +89,8 @@
 [LoadGreg] = [LoadFace][0x23][0x01]
 [LoadOccam] = [LoadFace][0x24][0x01]
 
+//The rest
+[LoadAugustus] = [LoadFace][0x25][0x01]
+
 
 [ResumeEvent] = [LoadOverworldFaces]

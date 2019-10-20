@@ -36,7 +36,7 @@ Reginald,0,30
 Vollster,0,40
 Greg,6,30
 Occam,0,10
-Glen,2,0
+Augustus,7,45
 Selena,10,40
 Valter,2,10
 Riev,10,45
@@ -45,22 +45,22 @@ Fado,4,5
 Ismaire,7,15
 Hayden,2,10
 FakeEirika,0,0
-+AC0-0,0,0
+#NAME?,0,0
 0,0,0
 0,0,0
 0,0,0
 0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
+#NAME?,0,0
 Lyon's Summon,0,0
-+AC0-0,0,0
-+AC0-0,0,0
+#NAME?,0,0
+#NAME?,0,0
 Knoll's Summon,0,0
 Ewan's Summon,0,0
 Lyon (Ch 17),13,50
@@ -98,9 +98,9 @@ Entombed (Monster Boss),3,5
 0,0,0
 0,0,0
 0,0,0
-+AC0-0,0,0
+#NAME?,0,0
 Hunter (Ch 16),3,10
-+AC0-0,0,0
+#NAME?,0,0
 Brigand,0,0
 0,0,0
 O'Neill (Prologue),0,5

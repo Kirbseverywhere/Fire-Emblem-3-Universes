@@ -107,12 +107,14 @@
 [OpenMidRight][LoadFace][0x24][0x01]OccamDeathQuote[A][X]
 
 ## BorgasDeathQuote
-[OpenMidRight][LoadFace][0x40][0x01]
+[OpenMidLeft][LoadFace][0x40][0x01]
 G-guh... Wh-why'm I...[N]
 seein' things...[A][X]
 
 ## AlvaDeathQuote
-[OpenMidRight][LoadFace][0x41][0x01]AlvaDeathQuote[A][X]
+[MidLeft][LoadFace][0x41][0x01]#Alva
+Agh! No! Let go of me, child![N]
+What do you think you're doing?![A][X]
 
 ## WyvernBossDeathQuote
 [OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
