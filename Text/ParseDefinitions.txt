@@ -47,6 +47,7 @@
 [.......v] = [FarFarRight]
 
 [CurrentPortrait] = [0xFF][0xFF]
+[LoadCurrent] = [LoadFace][0xFF][0xFF]
 
 [LoadRodin] = [LoadFace][0x01][0x01]
 [LoadMichael] = [LoadFace][0x02][0x01]

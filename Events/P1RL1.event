@@ -126,10 +126,10 @@ ENDA
 
 Village1Event:
 //GiveItem(Caduceus)
-VillageEventItem(PlaceholderText,0x2,Caduceus)
+VillageEventItem(RL1CaduceusVillage,0x2,Caduceus)
 ENDA
 
 Village2Event:
 //GiveItem(NormalShield)
-VillageEventItem(PlaceholderText,0x2,NormalShield)
+VillageEventItem(RL1ShieldVillage,0x2,NormalShield)
 ENDA
