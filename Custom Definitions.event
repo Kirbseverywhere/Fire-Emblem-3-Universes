@@ -112,3 +112,16 @@
 #define ExpShare 0xBF
 
 #include "ClassDefinitions.event"
+
+// Affnities
+#define NoAffin 0 
+#define FireAffin 1
+#define ThunderAffin 2
+#define WaterAffin 3
+#define IceAffin 4
+#define WindAffin 5
+#define EarthAffin 6
+#define AnimaAffin 7
+#define LightAffin 8
+#define DarkAffin 9
+#define HeavenAffin 10
