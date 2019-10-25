@@ -12,6 +12,12 @@ Alva[X]
 A count in the Novingale Empire.[N]
 Known to treat his subjects poorly.[X]
 
+## WildWyvernName
+Wyvern[X]
+
+## WildWyvernDesc
+A ferocious wild wyvern.[X]
+
 ## RL2HostageName
 Hostage[X]
 
