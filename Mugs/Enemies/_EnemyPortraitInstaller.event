@@ -1,0 +1,4 @@
+#define ALVA_PORTRAIT Alva
+setMugEntry(ALVA_PORTRAIT, AlvaMug, 3, 5, 3, 3) 
+AlvaMug:
+#incext PortraitFormatter "Alva.png"
