@@ -62,8 +62,8 @@ BYTE 00 00
 ALIGN 4
 
 ThiefSkillList:
-BYTE 15 AcrobatID
-BYTE 1 DespoilID
+BYTE 1 StealID
+BYTE 1 CunningID
 BYTE 00 00
 ALIGN 4
 
@@ -196,10 +196,8 @@ BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
-BYTE 255 DespoilID
-BYTE 255 AcrobatID
-BYTE 5 LungeID
-BYTE 15 CelerityID
+BYTE 255 StealID
+BYTE 255 CunningID
 BYTE 00 00
 ALIGN 4
 

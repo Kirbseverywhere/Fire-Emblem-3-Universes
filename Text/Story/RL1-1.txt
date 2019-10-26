@@ -197,6 +197,29 @@ countrymen from the[N]
 bandit attack! Show[AN]
 those wretches no mercy![A][X]
 
+## RL1ShieldVillage
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Am I seein' things right? Help's[N]
+come! Oh, thank the gods above[AN]
+for yer kindness! Please, take[N]
+this shield with ya! It's a tad[AN]
+heavy, but you'll shrug off[N]
+more blows from yer foes with[AN]
+it. Thanks again, kindly heroes![A][X]
+
+## RL1CaduceusVillage
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5D][0x01]
+Saviors! All o' you! Just when we[N]
+thought we were done for, you[AN]
+come in and save our hides! Lord[N]
+Alva's never once come to our[AN]
+aid, and yet here you are. We[N]
+need more of yer kind in this[AN]
+land, I tell ya. Please take this![N]
+We'll fight with ya in spirit![A][X]
+
 ## RL1Ending
 [MidLeft][LoadFace][0x60][0x01]
 [MidRight][LoadRodin]

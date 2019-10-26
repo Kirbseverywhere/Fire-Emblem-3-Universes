@@ -14,12 +14,12 @@ UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, Wy
 UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Deacon, Lightning, Heal, Priest, Heal, Vulnerary, Archer, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
 UnitCustomizerEntry(QuaSahnt, Reason, Reason, Axes, Mage, Fire, Vulnerary, DarkMage_F, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, AxeArmor, IronAxe, Vulnerary, QuaSahntUnitCustomizerDesc)
 UnitCustomizerEntry(Innards, Axes, Reason, Bows, WyvernRider, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, InnardsUnitCustomizerDesc)
-UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulnerary, Mage, Fire, Vulnerary, DarkMage_F, Flux, Vulnerary, SwordArmor, IronSword, Vulnerary, JonathenUnitCustomizerDesc)
-UnitCustomizerEntry(Kaiden, Reason, Bows, Axes, DarkMage_F, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, Archer, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Cleo, Lances, Swords, Bows, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Reds, Swords, Lances, Bows, Myrmidon, IronSword, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, DarkMage_F, Flux, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Mimi, Reason, Faith, Swords, DarkMage_F, Flux, Vulnerary, Thief, SlimSword, Lockpick, Archer, IronBow, Vulnerary, Monk, Lightning, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Zorua, Reason, Swords, Lances, Mage, Fire, Vulnerary, Mercenary_F, IronSword, Vulnerary, Cleric, Heal, Lightning, DarkMage_F, Flux, Vulnerary, GenericUnitCustomizerDesc)
+UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulnerary, Mage, Fire, Vulnerary, DarkMage, Flux, Vulnerary, SwordArmor, IronSword, Vulnerary, JonathenUnitCustomizerDesc)
+UnitCustomizerEntry(Kaiden, Reason, Bows, Axes, DarkMage, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, Archer, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, KaidenUnitCustomizerDesc)
+UnitCustomizerEntry(Cleo, Lances, Swords, Bows, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, CleoUnitCustomizerDesc)
+UnitCustomizerEntry(Reds, Swords, Lances, Bows, Myrmidon, IronSword, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, DarkMage, Flux, Vulnerary, RedsUnitCustomizerDesc)
+UnitCustomizerEntry(Mimi, Reason, Faith, Swords, DarkMage, Flux, Vulnerary, Thief, SlimSword, Lockpick, Archer, IronBow, Vulnerary, Monk, Lightning, Vulnerary, MimiUnitCustomizerDesc)
+UnitCustomizerEntry(Zorua, Reason, Swords, Lances, Mage_F, Fire, Vulnerary, Mercenary_F, IronSword, Vulnerary, Cleric, Heal, Lightning, DarkMage_F, Flux, Vulnerary, ZoruaUnitCustomizerDesc)
 
 // PURPLE JAGUARS
 UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, IronBow, Vulnerary, HorusUnitCustomizerDesc)
@@ -72,6 +72,26 @@ BYTE 0
 
 JonathenUnitCustomizerDesc:
 String("Jonathen Mitford: always with ford")
+BYTE 0
+
+KaidenUnitCustomizerDesc:
+String("Kaiden: Some misunderstood performer.")
+BYTE 0
+
+CleoUnitCustomizerDesc:
+String("Cleo: Don't dress like a spy.")
+BYTE 0
+
+RedsUnitCustomizerDesc:
+String("Reds: He'll work in any class.")
+BYTE 0
+
+MimiUnitCustomizerDesc:
+String("Mimi Reife: A sentinent ragdoll. Yep.")
+BYTE 0
+
+ZoruaUnitCustomizerDesc:
+String("Zorua: Tiny but mighty! ...Or not.")
 BYTE 0
 
 ALIGN 4

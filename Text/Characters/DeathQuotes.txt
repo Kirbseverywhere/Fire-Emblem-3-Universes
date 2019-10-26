@@ -1,38 +1,70 @@
 ## RodinDeathQuote
-[OpenMidRight][LoadFace][0x01][0x01]RodinDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x01][0x01]
+Gaaaah...! My people...[N]
+my dear countrymen...[AN]
+I will meet you on the[N]
+other side...[A][X]
 
 ## MichaelDeathQuote
-[OpenMidRight][LoadFace][0x02][0x01]MichaelDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x02][0x01]
+No...  This is it.[N]
+I did... what I could...[AN]
+for the empire... For[N]
+all of Novingale...[A][X]
 
 ## EricDeathQuote
-[OpenMidRight][LoadFace][0x03][0x01]EricDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x03][0x01]
+Is this really...[N]
+how it ends?...[AN]
+Rodin, you gave me[N]
+a chance...[A] And I've[N]
+failed you...[A][X]
 
 ## KellyDeathQuote
-[OpenMidRight][LoadFace][0x04][0x01]KellyDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x04][0x01]
+Not here... not yet![N]
+I can't... see...[A][X]
 
 ## QuaSahntDeathQuote
-[OpenMidRight][LoadFace][0x05][0x01]QuaSahntDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x05][0x01]
+This is not... where it's[N]
+supposed to end... No...[A][X]
 
 ## InnardsDeathQuote
-[OpenMidRight][LoadFace][0x06][0x01]InnardsDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x06][0x01]
+GRIIFIIIIIIISSS![A][X]
 
 ## JonathenDeathQuote
-[OpenMidRight][LoadFace][0x07][0x01]JonathenDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x07][0x01]
+...Ah, so this is the end...[N]
+But...[A] I've so much yet[N]
+to do...[A][X]
 
 ## KaidenDeathQuote
-[OpenMidRight][LoadFace][0x08][0x01]KaidenDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x08][0x01]
+I don't...[N]
+don't want to...[A][X]
 
 ## CleoDeathQuote
-[OpenMidRight][LoadFace][0x09][0x01]CleoDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x09][0x01]
+So... after everything...[N]
+this is where I'll lie.[AN]
+I should have...[N]
+given... more.[A][X]
 
 ## RedsDeathQuote
-[OpenMidRight][LoadFace][0x0A][0x01]RedsDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0A][0x01]
+Ugh... I had... a good run...[N]
+Sorry, guys...[A][X]
 
 ## MimiDeathQuote
-[OpenMidRight][LoadFace][0x0B][0x01]MimiDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0B][0x01]
+I guess... I failed[N]
+everybody...[A][X]
 
 ## ZoruaDeathQuote
-[OpenMidRight][LoadFace][0x0C][0x01]ZoruaDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0C][0x01]
+This text is a placeholder![A][X]
 
 ## VergilDeathQuote
 [OpenMidRight][LoadFace][0x0D][0x01]VergilDeathQuote[A][X]
