@@ -21,8 +21,8 @@ Axe Armor,0x0
 Bow Armor,0x0
 General,0x0
 Great Knight,0x0
-Thief,0x0
-Thief (F),0x0
+Thief,StealID
+Thief (F),StealID
 Assassin,LethalityID
 Rogue,LockTouchID
 Rogue (F),LockTouchID
@@ -73,19 +73,19 @@ Bishop,0x0
 Bishop (F),0x0
 Holy Knight,CantoID
 Holy Knight (F),CantoID
-Dark Knight,0x0
+Dark Knight,CantoID
 War Monk,0x0
 War Cleric,0x0
 Templar,CantoID
 Valkyrie,CantoID
-Pegasus Rider,0x0
-Falcon Knight,0x0
+Pegasus Rider,CantoID
+Falcon Knight,CantoID
 Dancer (M),DanceID
 Dancer (F),DanceID
 Soldier,0x0
 Halberdier,0x0
 Dragoon,0x0
-Knight Lord,0x0
+Knight Lord,CantoID
 Swordsman,0x0
 Legend,0x0
 King,0x0
@@ -94,7 +94,7 @@ Draco Zombie,0x0
 Manakete (Morva),0x0
 Manakete (Myrrh),0x0
 Bear,0x0
-Wyvern,0x0
+Wyvern,CantoID
 Gorgon,0x0
 Gorgon Egg,0x0
 Gargoyle,0x0
