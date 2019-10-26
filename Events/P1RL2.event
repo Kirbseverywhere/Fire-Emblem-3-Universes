@@ -61,8 +61,8 @@ UNIT
 
 EnemyUnits:
 UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
-UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,8] 0x2 0x00 0x0 0x00 [Javelin,DoorKey] AttackInRangeAI 
-UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x2 0x00 0x0 0x00 [IronLance,DoorKey] AttackInRangeAI 
+UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 AxeArmor Breguet Level(12, Enemy, 1) [4,3] 0x2 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [12,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
@@ -75,7 +75,7 @@ UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [15,7] 0x00 0x00 0x0 0x00 [Iro
 UNIT 0x80 Mercenary Breguet Level(12, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x80 Myrmidon Breguet Level(12, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x80 Archer Breguet Level(12, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x80 Archer Breguet Level(12, Enemy, 1) [12,11] 0x2 0x00 0x0 0x00 [IronBow,ChestKey] AttackInRangeAI 
+UNIT 0x80 Archer Breguet Level(12, Enemy, 1) [12,11] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
 UNIT 0x80 Archer Breguet Level(12, Enemy, 1) [2,5] 0x2 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
 UNIT 0x80 Mage Breguet Level(12, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT 0x80 Mage Breguet Level(12, Enemy, 1) [14,7] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
