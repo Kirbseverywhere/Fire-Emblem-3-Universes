@@ -1,0 +1,35 @@
+## GuideStrMagName
+Str/Mag Split[X]
+
+## GuideStrMagDesc
+Str/Mag Split[X]
+
+## GuideReasonFaithName
+Reason and Faith[X]
+
+## GuideReasonFaithDesc
+Reason and Faith[X]
+
+## GuideSkillSystemName
+Skill System[X]
+
+## GuideSkillSystemDesc
+Donate to Circles[X]
+
+## GuideAccessoriesName
+Accessories[X]
+
+## GuideAccessoriesDesc
+Accessories[X]
+
+## GuideUnitColorName
+Unit Color[X]
+
+## GuideUnitColorDesc
+Unit Color[X]
+
+## GuideHpBarsName
+HP Bars[X]
+
+## GuideHpBarsDesc
+HP Bars[X]

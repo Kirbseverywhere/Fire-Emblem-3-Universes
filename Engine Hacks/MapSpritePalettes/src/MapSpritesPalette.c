@@ -8,6 +8,7 @@ void LoadMapSpritePalettes() {
 }
 
 unsigned GetUnitMapSpritePaletteIndex(struct Unit *unit) {
+	LoadMapSpritePalettes();
 	if (gChapterData.unitColorOption == 0 && unit->pCharacterData->unitMapSpritePalette != 0) { // if it's turned on AND the unit has a specific map sprite palette 
 		return 0xA + unit->pCharacterData->unitMapSpritePalette;
 	}

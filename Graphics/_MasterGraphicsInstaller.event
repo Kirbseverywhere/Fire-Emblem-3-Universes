@@ -88,3 +88,4 @@ StatScreenPal:
 #include "PointerList/SplitPointerList.event"
 #include "MapSprites/MapSprites.event"
 #include "Animations/ClassAnimationsList.event"
+#include "BattleFrame/BattleFrameInstaller.event"
