@@ -15,6 +15,11 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0, PostPrep, 1)
+TurnEventPlayer(0, Rein1Event, 4)
+TurnEventPlayer(0, Rein2Event, 5)
+TurnEventPlayer(0, Rein3Event, 7)
+TurnEventPlayer(0, Rein4Event, 10)
+TurnEventPlayer(0, Rein4Event, 12)
 END_MAIN
 
 CharacterBasedEvents:
@@ -61,16 +66,16 @@ UNIT
 
 EnemyUnits:
 UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
-UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,8] 0x2 0x00 0x0 0x00 [Javelin,DoorKey] AttackInRangeAI 
-UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x2 0x00 0x0 0x00 [IronLance,DoorKey] AttackInRangeAI 
+UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,8] 0x2 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x0 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 AxeArmor Breguet Level(12, Enemy, 1) [4,3] 0x2 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [12,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [IronLance] NeverMoveAI 
 UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [12,6] 0x2 0x00 0x0 0x00 [IronLance,RedGem] PursueWithoutHeedAI 
+UNIT 0x80 LanceKnight Breguet Level(14, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x80 LanceKnight Breguet Level(14, Enemy, 1) [12,6] 0x2 0x00 0x0 0x00 [IronLance,RedGem] PursueWithoutHeedAI 
 UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [15,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Mercenary Breguet Level(12, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x80 Myrmidon Breguet Level(12, Enemy, 1) [8,4] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
@@ -92,6 +97,31 @@ GusGet:
 UNIT Augustus Priest Rodin Level(10, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
 UNIT
 
+Rein1:
+UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT
+
+Rein2:
+UNIT 0x80 Mercenary Breguet Level(12, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x80 AxeArmor Breguet Level(12, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT
+
+Rein3:
+UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SlimLance] PursueWithoutHeedAI 
+UNIT
+
+Rein4:
+UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Thief Breguet Level(12, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SlimSword] PursueWithoutHeedAI 
+UNIT
+
+Rein5:
+UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT
 
 Traps1:
 ENDTRAP
@@ -163,4 +193,24 @@ FreePrisoner2:
 Text(TalkHostage2)
 SVAL 3 Longbow; GIVEITEMTO 0xFFFF
 DISA 0xFA
+ENDA
+
+Rein1Event:
+ReinforcementEvent(Rein1)
+ENDA
+
+Rein2Event:
+ReinforcementEvent(Rein2)
+ENDA
+
+Rein3Event:
+ReinforcementEvent(Rein3)
+ENDA
+
+Rein4Event:
+ReinforcementEvent(Rein4)
+ENDA
+
+Rein5Event:
+ReinforcementEvent(Rein5)
 ENDA

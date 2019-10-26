@@ -109,6 +109,9 @@ Occam[X]
 ## AugustusNameTextID
 Augustus[X]
 
+## LenatoNameTextID
+Lenato[X]
+
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
@@ -232,6 +235,9 @@ Occam[X]
 ## AugustusDescTextID
 A vagabond with a charming smile.[N]
 Willing to lend a hand on one condition.[X]
+
+## LenatoDescTextID
+Lenato[X]
 
 #include NPCEnemyCharText.txt
 
