@@ -197,6 +197,7 @@ void EquipUnitItemSlot(struct Unit*, int slot); //! FE8U = (0x08016BC0+1)
 int IsItemEffectiveAgainst(int item, const struct Unit*); //! FE8U = (0x08016BEC+1)
 
 char* GetItemDisplayRangeString(int item); //! FE8U = (0x08016CC0+1)
+char* GetItemDisplayRangeString2(int item);
 int GetWeaponLevelFromExp(int rank); //! FE8U = (0x08016D5C+1)
 char* GetItemDisplayRankString(int item); //! FE8U = (0x08016D94+1)
 

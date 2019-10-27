@@ -34,9 +34,7 @@ void DrawBG() {
 }
 
 void CreateHouseSelectionMenu(struct Proc *EventEngine) {
-	int i = 0;
-	i++;
-	i--;
+	gChapterData.partyGoldAmount = 5000;
 	ProcStartBlocking(HouseSelectionMenuProcCode, EventEngine);
 }
 

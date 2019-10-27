@@ -19,7 +19,7 @@ TurnEventPlayer(0, Rein1Event, 4)
 TurnEventPlayer(0, Rein2Event, 5)
 TurnEventPlayer(0, Rein3Event, 7)
 TurnEventPlayer(0, Rein4Event, 10)
-TurnEventPlayer(0, Rein4Event, 12)
+TurnEventPlayer(0, Rein5Event, 12)
 END_MAIN
 
 CharacterBasedEvents:
@@ -67,7 +67,7 @@ UNIT
 EnemyUnits:
 UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
 UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,8] 0x2 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x0 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [2,9] 0x2 0x00 0x0 0x00 [IronLance, Vulnerary] AttackInRangeAI 
 UNIT 0x80 AxeArmor Breguet Level(12, Enemy, 1) [4,3] 0x2 0x00 0x0 0x00 [HandAxe] NeverMoveAI 
 UNIT 0x80 LanceArmor Breguet Level(12, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [12,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 

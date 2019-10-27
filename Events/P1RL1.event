@@ -22,6 +22,7 @@ END_MAIN
 LocationBasedEvents:
 Village(7,Village1Event,1,2)
 Village(8,Village2Event,11,12)
+House(0, HouseEvent,8,14)
 END_MAIN
 
 MiscBasedEvents:
@@ -132,4 +133,30 @@ ENDA
 Village2Event:
 //GiveItem(NormalShield)
 VillageEventItem(RL1ShieldVillage,0x2,NormalShield)
+ENDA
+
+HouseEvent:
+SetBackground(0)
+Text(RL1ForgeHouse)
+REMA
+SVAL 7 1
+BNE 1 0xC 7
+	// Yes
+	CHECK_MONEY
+	SVAL 7 200
+	BLT 2 0xC 7
+		Text(RL1ForgeHouseYesEnoughMoney)
+		ASMC ForgeActiveUnitEquippedWeaponASMC
+		SVAL 0x3 200
+		GIVETOSLOT3 // Take 200 Gold
+		GOTO 5
+	LABEL 2
+		Text(RL1ForgeHouseYesNotEnoughMoney)
+		GOTO 5
+LABEL 1
+	// No
+	Text(RL1ForgeHouseNo)
+LABEL 5 // End
+ClearBackground
+NoFade
 ENDA

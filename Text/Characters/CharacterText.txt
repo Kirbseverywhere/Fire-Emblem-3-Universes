@@ -11,7 +11,7 @@ Eric[X]
 Kelly[X]
 
 ## QuaSahntNameTextID
-Qua Sahnt[X]
+Qua[X]
 
 ## InnardsNameTextID
 Innards[X]

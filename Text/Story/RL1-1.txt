@@ -220,6 +220,36 @@ need more of yer kind in this[AN]
 land, I tell ya. Please take this![N]
 We'll fight with ya in spirit![A][X]
 
+## RL1ForgeHouse
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Here to save us from Evil, heh?[A][N]
+How 'bout I polish up your weapons?[A][N]
+They're looking pretty rusty,[N]
+if you ask me![A][N]
+200 Gold and I'll give them[N]
+a new life![Yes][X]
+
+## RL1ForgeHouseYesEnoughMoney
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+I'll be done in no time![A][X]
+
+## RL1ForgeHouseYesNotEnoughMoney
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Hold up, buddy![A][N]
+I don't work for free![A][N]
+Come back with some money,[N]
+will 'ya?[A][X]
+
+## RL1ForgeHouseNo
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Well, that's a shame.[A][N]
+Come back if you ever[N]
+change your mind![A][X]
+
 ## RL1Ending
 [MidLeft][LoadFace][0x60][0x01]
 [MidRight][LoadRodin]
