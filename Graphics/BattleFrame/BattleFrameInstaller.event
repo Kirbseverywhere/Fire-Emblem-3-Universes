@@ -1,0 +1,44 @@
+BattleScreenGraphic1:
+#incext Png2Dmp "BF_Tiles.png" --lz77
+//#incbin "BF_Tiles.dmp"
+
+BattleScreenGraphic2:
+#incext Png2Dmp "BF_EnemyName.png" --lz77
+//#incbin "BattleScreenGraphic2.dmp"
+
+BattleScreenGraphic3:
+#incext Png2Dmp "BF_EnemyItem.png" --lz77
+//#incbin "BattleScreenGraphic3.dmp"
+
+BattleScreenGraphic4:
+#incext Png2Dmp "BF_AllyName.png" --lz77
+//#incbin "BattleScreenGraphic4.dmp"
+
+BattleScreenGraphic5:
+#incext Png2Dmp "BF_AllyItem.png" --lz77
+//#incbin "BattleScreenGraphic5.dmp"
+
+BattleScreenPalettes:
+#incext Png2Dmp "BF_Tiles.png" --palette-only
+
+PUSH
+ORG $51F68
+POIN BattleScreenGraphic1
+ORG $51FC8
+POIN BattleScreenGraphic2
+ORG $52028
+POIN BattleScreenGraphic3
+ORG $52088
+POIN BattleScreenGraphic4
+ORG $52164
+POIN BattleScreenGraphic5
+ORG $80210C
+#incbin "BF_TSA.bin"
+/*ORG $802558
+#incbin "BattleScreenPalettes.dmp"*/
+ORG 0x52178
+POIN BattleScreenPalettes
+
+// Hook at 0x8057748
+
+POP

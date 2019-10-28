@@ -34,9 +34,7 @@ void DrawBG() {
 }
 
 void CreateHouseSelectionMenu(struct Proc *EventEngine) {
-	int i = 0;
-	i++;
-	i--;
+	gChapterData.partyGoldAmount = 5000;
 	ProcStartBlocking(HouseSelectionMenuProcCode, EventEngine);
 }
 
@@ -86,6 +84,13 @@ void HouseSelectionMenuLoop(struct HouseSelectionProc *currentProc) {
 	if ((sInput.newPress & InputStart) != 0) {
 		//EndFaceById(0);
 		if(currentProc->houseCounter == 0) {
+			gChapterData.chapterModeIndex = currentProc->houseCounter;
+			BreakProcLoop((struct Proc *)currentProc);
+		}
+	}
+	if ((sInput.newPress & InputSelect) != 0) {
+		//EndFaceById(0);
+		if(currentProc->houseCounter > 0) {
 			gChapterData.chapterModeIndex = currentProc->houseCounter;
 			BreakProcLoop((struct Proc *)currentProc);
 		}

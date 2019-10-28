@@ -11,7 +11,7 @@ Eric[X]
 Kelly[X]
 
 ## QuaSahntNameTextID
-Qua Sahnt[X]
+Qua[X]
 
 ## InnardsNameTextID
 Innards[X]
@@ -108,6 +108,9 @@ Occam[X]
 
 ## AugustusNameTextID
 Augustus[X]
+
+## LenatoNameTextID
+Lenato[X]
 
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
@@ -232,6 +235,9 @@ Occam[X]
 ## AugustusDescTextID
 A vagabond with a charming smile.[N]
 Willing to lend a hand on one condition.[X]
+
+## LenatoDescTextID
+Lenato[X]
 
 #include NPCEnemyCharText.txt
 

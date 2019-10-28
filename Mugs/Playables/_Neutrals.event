@@ -2,3 +2,8 @@
 setMugEntry(AUGUSTUS_PRETIMESKIP_PORTRAIT, AugustusPreTimeskip, 3, 6, 3, 4) 
 AugustusPreTimeskip:
 #incext PortraitFormatter "Augustus_PreTimeskip.png"
+
+#define LENATO_PRETIMESKIP_PORTRAIT Lenato
+setMugEntry(LENATO_PRETIMESKIP_PORTRAIT, LenatoPreTimeskip, 3, 6, 3, 4) 
+LenatoPreTimeskip:
+#incext PortraitFormatter "Lenato_PreTimeskip.png"

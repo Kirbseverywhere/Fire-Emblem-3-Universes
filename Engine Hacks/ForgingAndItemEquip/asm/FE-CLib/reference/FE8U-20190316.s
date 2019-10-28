@@ -732,6 +732,7 @@ SET_FUNC EquipUnitItemSlot, 0x8016BC1
 SET_FUNC IsItemEffectiveAgainst, 0x8016BED
 SET_FUNC IsUnitEffectiveAgainst, 0x8016C89
 SET_FUNC GetItemDisplayRangeString, 0x8016CC1
+SET_FUNC GetItemDisplayRangeString2, 0x8016CC9
 SET_FUNC GetWeaponLevelFromExp, 0x8016D5D
 SET_FUNC GetItemDisplayRankString, 0x8016D95
 SET_FUNC GetDisplayRankSpecialCharFromExp, 0x8016DF9
@@ -2420,6 +2421,8 @@ SET_FUNC StartHelpTextBubble, 0x8089165
 SET_FUNC Loop6C_8A00B20_UpdateOAMData, 0x808948D
 SET_FUNC LoadChapterTitleGfx, 0x8089625
 SET_FUNC LoadDialogueBoxGfx, 0x8089805
+SET_FUNC DrawItemDescBoxInfo, 0x8089C41
+SET_FUNC DrawItemDescBoxStats, 0x8089CD5
 SET_FUNC SetDialogueBoxConfig, 0x808A519
 SET_FUNC GetDialogueBoxConfig, 0x808A525
 SET_FUNC BoxDialogueInterpreter_Main, 0x808B179

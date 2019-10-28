@@ -148,3 +148,53 @@ u16 GetItemAfterUse(int item) {
 
     return item; // return used item
 }
+
+/*int DrawItemDescBoxInfo(u16 item) {
+	struct TextHandle* text = (struct TextHandle*)0x203E7AC;
+	Text_InsertString(text, 0, 8, GetWeaponTypeDisplayString(GetItemType(item)));
+	
+}*/
+
+int DrawItemDescBoxStats(u16 item) {
+	struct TextHandle* text = (struct TextHandle*)0x203E7AC;
+	
+	// Weapon Rank
+	Text_InsertString(text, 32, 7, GetItemDisplayRankString(item));
+	
+	// Range
+	Text_InsertString(text, 0x43, 7, GetItemDisplayRangeString2(item));
+	
+	// Weight
+	Text_InsertNumberOr2Dashes(text, 0x81, 7, GetItemWeight(item));
+	
+	text = (struct TextHandle*)(0x203E7AC + 8);
+	
+	
+	if(ITEM_FORGED(item)) {
+		// Might
+		Text_InsertNumberOr2Dashes(text, 0x20, 8, GetItemMight(item));
+	
+		// Hit
+		Text_InsertNumberOr2Dashes(text, 0x51, 8, GetItemHit(item));
+	
+		// Crit
+		Text_InsertNumberOr2Dashes(text, 0x81, 8, GetItemCrit(item));
+	}
+	else {
+		// Might
+		Text_InsertNumberOr2Dashes(text, 0x20, 7, GetItemMight(item));
+	
+		// Hit
+		Text_InsertNumberOr2Dashes(text, 0x51, 7, GetItemHit(item));
+	
+		// Crit
+		Text_InsertNumberOr2Dashes(text, 0x81, 7, GetItemCrit(item));
+	}
+}
+
+void ForgeActiveUnitEquippedWeaponASMC() {
+	int item = GetUnitEquippedWeapon(gActiveUnit);
+	if(item) {
+		gActiveUnit->items[GetUnitEquippedWeaponSlot(gActiveUnit)] = (item | 0x4000);
+	}
+}

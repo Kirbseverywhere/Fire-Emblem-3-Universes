@@ -85,3 +85,28 @@ DeathQuote(Rynod, AnyMode, AnyChapter, BossKilledFlag, RynodDeathQuote)
 DeathQuote(Ilyron, AnyMode, AnyChapter, BossKilledFlag, IlyronDeathQuote)
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+ 
+// Stat Boosts
+ShieldStatBoosts:
+BYTE 0 0 0 (-2) 2 0 0 0 0 0 // Hp Str Skl Spd Def Res Luk Mov Con Mag
+ALIGN 4
+
+CaduceusStatBoosts:
+BYTE 0 0 0 0 0 0 0 0 0 3
+ALIGN 4
+
+// Guide
+PUSH
+ORG 0xCEF74
+SHORT 0x2200 // Prevent Sorting
+#define MainGuideEntry(sectionID, chapterID, entryName, entryContent, flagID, readFlagID) "BYTE sectionID chapterID; SHORT entryName entryContent flagID readFlagID 0"
+ORG 0xB19E0C
+MainGuideEntry(1, 0, GuideStrMagName, GuideStrMagDesc, 0xB4, 0xB5)
+MainGuideEntry(1, 0, GuideReasonFaithName, GuideReasonFaithDesc, 0xB6, 0xB7)
+MainGuideEntry(2, 0, GuideSkillSystemName, GuideSkillSystemDesc, 0xB8, 0xB9)
+MainGuideEntry(2, 0, GuideAccessoriesName, GuideAccessoriesDesc, 0xBA, 0xBB)
+MainGuideEntry(3, 0, GuideUnitColorName, GuideUnitColorDesc, 0xBC, 0xBD)
+MainGuideEntry(3, 0, GuideHpBarsName, GuideHpBarsDesc, 0xBE, 0xBF)
+MainGuideEntry(0xC, 0, 0, 0, 0, 0)
+WORD 0 0 0
+POP

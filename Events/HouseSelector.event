@@ -92,6 +92,15 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+ENUT 0xB4
+ENUT 0xB6
+
+ENUT 0xB8
+ENUT 0xBA
+
+ENUT 0xBC
+ENUT 0xBE
+
 SetBackground(0x2F)
 ASMC CreateHouseSelectionMenu
 

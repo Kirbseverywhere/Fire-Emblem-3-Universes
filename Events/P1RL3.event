@@ -55,28 +55,32 @@ UNIT Reds Paladin 0x00 Level(10, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 EnemyUnits:
-UNIT WyvernBoss Wyvern 0x00 Level(1, Enemy, 1) [9,17] 0x2 0x00 0x0 0x00 [SteelLance, SilverSword] NoAI 
-UNIT 0x7F AxeKnight Bone Level(10, Enemy, 1) [7,15] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x7F AxeKnight Bone Level(10, Enemy, 1) [7,13] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x7F SwordKnight Bone Level(10, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x7F LanceKnight Bone Level(10, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x7F LanceKnight Bone Level(10, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x7F LanceArmor Bone Level(10, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F LanceArmor Bone Level(10, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F LanceArmor Bone Level(10, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F LanceArmor Bone Level(10, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F Mercenary Bone Level(10, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x7F Mercenary Bone Level(10, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x7F Mercenary Bone Level(10, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x7F Archer Bone Level(10, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x7F Archer Bone Level(10, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x7F Archer Bone Level(10, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x7F PegasusKnight Bone Level(10, Enemy, 1) [4,15] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F PegasusKnight Bone Level(10, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F PegasusKnight Bone Level(10, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x7F Mage Bone Level(10, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x7F Mage Bone Level(10, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT WyvernBoss Wyvern 0x00 Level(1, Enemy, 1) [9,17] 0x2 0x00 0x0 0x00 [SteelLance, SilverSword] NeverMoveAI 
+UNIT 0x7F Brigand WyvernBoss Level(10, Enemy, 1) [7,15] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F Brigand WyvernBoss Level(10, Enemy, 1) [7,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7F SwordKnight WyvernBoss Level(10, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x7F LanceKnight WyvernBoss Level(10, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x7F LanceKnight WyvernBoss Level(10, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x7F LanceArmor WyvernBoss Level(10, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F LanceArmor WyvernBoss Level(10, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F LanceArmor WyvernBoss Level(10, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F LanceArmor WyvernBoss Level(10, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F Mercenary WyvernBoss Level(10, Enemy, 1) [8,9] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7F Mercenary WyvernBoss Level(10, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7F Mercenary WyvernBoss Level(10, Enemy, 1) [14,8] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7F Archer WyvernBoss Level(10, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F Archer WyvernBoss Level(10, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F Archer WyvernBoss Level(10, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7F PegasusKnight WyvernBoss Level(10, Enemy, 1) [4,15] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F PegasusKnight WyvernBoss Level(10, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F PegasusKnight WyvernBoss Level(10, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x7F Mage WyvernBoss Level(10, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x7F Mage WyvernBoss Level(10, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT
+
+NewGuyWhoDis:
+UNIT Lenato Horseman 0x0 Level(1, Ally, 0) [10,5] 0x00 0x00 0x0 0x00 [IronBow] NoAI
+UNIT 
 
 Traps1:
 ENDTRAP
@@ -104,5 +108,5 @@ SVAL 3 KillingEdge; GIVEITEMTO 0xFFFF
 ENDA
 
 Village2Event:
-SVAL 3 Thunder; GIVEITEMTO 0xFFFF
+LOAD1 0x1 NewGuyWhoDis
 ENDA
