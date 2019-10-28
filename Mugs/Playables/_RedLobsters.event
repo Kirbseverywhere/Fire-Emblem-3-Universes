@@ -1,6 +1,6 @@
 
 #define RODIN_PRETIMESKIP_PORTRAIT Rodin
-setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 2, 5, 3, 3) 
+setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 3, 5, 3, 3) 
 KyuPreTimeskip:
 #incext PortraitFormatter "Kyu_PreTimeskip.png"
 
