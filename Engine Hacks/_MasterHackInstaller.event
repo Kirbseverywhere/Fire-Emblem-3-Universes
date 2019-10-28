@@ -22,6 +22,9 @@ PUSH
     ORG 0x000AD8   // this is somewhere in the startup routine
       BL(0x01C090) // Call the debug startup menu
   #endif
+  
+  /*ORG 0x72886
+  SHORT 0 0*/
 POP
 
 
