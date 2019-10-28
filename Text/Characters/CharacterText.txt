@@ -161,83 +161,108 @@ An overemotional mage who[N]
 tries her best. Loves music.[X]
 
 ## VergilDescTextID
-Vergil[X]
+Heir to the Kingdom of Seraphyn.[N]
+Aggressive, but determined.[X]
 
 ## XenithDescTextID
-Xenith[X]
+Leader of an infamous organisation[N]
+known as "the House". Confident.[X]
 
 ## TrayDescTextID
-Tray[X]
+A messenger of Seraphyn serving[N]
+Vergil. Fond of the jaguar.[X]
 
 ## HorusDescTextID
-Horus[X]
+Vergil's loyal retainer.[N]
+Always found on horseback.[X]
 
 ## GlacDescTextID
-Glac[X]
+A member of the House. Driven on[N]
+by his rivalry with Myst.[X]
 
 ## DaffDescTextID
-Daff[X]
+A follower of Vergil. Concerned[N]
+about others, especially about sleep.[X]
 
 ## SmeglindeDescTextID
-Smeglinde[X]
+A shy person. Paranoid about[N]
+being bullied.[X]
 
 ## KabbyDescTextID
-Kabby[X]
+A spy for hire. Sells suspicious things[N]
+on the black market.[X]
 
 ## StephenDescTextID
-Stephen[X]
+A gloryhound fan of himself and puns.[N]
+Seeks to regain lost noble status.[X]
 
 ## AnthonyDescTextID
-Anthony[X]
+An artistic type who spends his time[N]
+drawing. Also likes eating food.[X]
 
 ## MystDescTextID
-Myst[X]
+A member of the House. Lives to[N]
+eclipse his rival, Glac.[X]
 
 ## LeoDescTextID
-Leo[X]
+A confused wanderer. Not sure what[N]
+his purpose in the world is.[X]
 
 ## DianaDescTextID
-Diana[X]
+The dreaded Blade of the Council[N]
+of Hevursa. Cares for her subordinates.[X]
 
 ## ZaneDescTextID
-Zane[X]
+A devout follower of ancient[N]
+arts. Craves arcane knowledge.[X]
 
 ## AdamminnDescTextID
-Adamminn[X]
+A brigand belonging to the nobility.[N]
+Fights instead of paying a fine.[X]
 
 ## WilliamDescTextID
-William[X]
+A young man from the countryside.[N]
+Lacks any notion of restraint.[X]
 
 ## NobodyDescTextID
-Nobody[X]
+A knight who is fond of the horse.[N]
+His loyalty is highly suspect.[X]
 
 ## JackDescTextID
-Jack[X]
+A quiet thief with a penchant[N]
+for strange gadgets.[X]
 
 ## LazulDescTextID
-Lazul[X]
+A quiet woman who keeps to herself.[N]
+Possessess otherworldly charm.[X]
 
 ## PaulDescTextID
-Paul[X]
+A reckless man. Often plays with[N]
+fire, without much fear.[X]
 
 ## ReginaldDescTextID
-Reginald[X]
+Retainer to Diana. Eccentric, but[N]
+loyal to a fault and self-assured.[X]
 
 ## VollsterDescTextID
-Vollster[X]
+A commoner easily excited by magic.[N]
+Has proven himself in fights.[X]
 
 ## GregDescTextID
-Greg[X]
+A foreigner from a distant land.[N]
+Ended up under the Amber Bears.[X]
 
 ## OccamDescTextID
-Occam[X]
+A lazy traveler from the land of[N]
+Dagda. Means well in his actions.[X]
 
 ## AugustusDescTextID
 A vagabond with a charming smile.[N]
 Willing to lend a hand on one condition.[X]
 
 ## LenatoDescTextID
-Lenato[X]
+A skilled archer. Travels Ternon[N]
+for opportunites to practice.[X]
 
 #include NPCEnemyCharText.txt
 
