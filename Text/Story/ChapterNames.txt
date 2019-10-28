@@ -1,6 +1,6 @@
 
 # 0x160 IntroChName
-A Ternon[X]
+Select a Route: Ternon[X]
 
 ## P1RL1ChName
 Ch. 1: The People's Prince[X]
@@ -12,127 +12,127 @@ Ch. 2: Caught in the Web[X]
 Ch. 3: Heart of a Dragon[X]
 
 ## P1RL4ChName
-Swaying Hearts[X]
+Ch. 4: Swaying Hearts[X]
 
 ## P1RL5ChName
-Bad Blood[X]
+Ch. 5: Bad Blood[X]
 
 ## P1RL6ChName
-Pride Before the Fall[X]
+Ch. 6: Pride Before the Fall[X]
 
 ## P1RL7ChName
-Event Horizon[X]
+Ch. 7: Event Horizon[X]
 
 ## P2RL8ChName
-Hanging On to Life[X]
+Ch. 8: Hanging On to Life[X]
 
 ## P2RL9ChName
-[X]
+Chapter 9[X]
 
 ## P2RL10ChName
-[X]
+Chapter 10[X]
 
 ## P2RL11ChName
-[X]
+Chapter 11[X]
 
 ## P2RL12ChName
-[X]
+Chapter 12[X]
 
 ## P2RL13ChName
-[X]
+Chapter 13[X]
 
 ## P2RL14ChName
-[X]
+Chapter 14[X]
 
 ## P2RL15ChName
-[X]
+Final Chapter[X]
 
 ## P1PJ1ChName
-Tragic Beginnings[X]
+Ch. 1: Tragic Beginnings[X]
 
 ## P1PJ2ChName
-Persecution[X]
+Ch. 2: Persecution[X]
 
 ## P1PJ3ChName
-Building Momentum[X]
+Ch. 3: Building Momentum[X]
 
 ## P1PJ4ChName
-Conquest[X]
+Ch. 4: Conquest[X]
 
 ## P1PJ5ChName
-Birthright[X]
+Ch. 5: Birthright[X]
 
 ## P1PJ6ChName
-Revelation[X]
+Ch. 6: Revelation[X]
 
 ## P1PJ7ChName
-Smash[X]
+Ch. 7: Smash[X]
 
 ## P2PJ8ChName
-Awakening[X]
+Ch. 8: Awakening[X]
 
 ## P2PJ9ChName
-New Mystery[X]
+Ch. 9: New Mystery[X]
 
 ## P2PJ10ChName
-Lurking in the Shadows[X]
+Ch. 10: Lurking in the Shadows[X]
 
 ## P2PJ11ChName
-A New Dawn[X]
+Ch. 11: A New Dawn[X]
 
 ## P2PJ12ChName
-The Path to Radiance[X]
+Ch. 12: The Path to Radiance[X]
 
 ## P2PJ13ChName
-The Sacred Throne[X]
+Ch. 13: The Sacred Throne[X]
 
 ## P2PJ14ChName
-The Divine Lightning[X]
+Ch. 14: The Divine Lightning[X]
 
 ## P2PJ15ChName
-The Pierced Skies[X]
+Final: The Pierced Skies[X]
 
 ## P1AB1ChName
-Seeping Pride[X]
+Ch. 1: Seeping Pride[X]
 
 ## P1AB2ChName
-Blanket of Snow[X]
+Ch. 2: Blanket of Snow[X]
 
 ## P1AB3ChName
-False Framing[X]
+Ch. 3: False Framing[X]
 
 ## P1AB4ChName
-Mountain Village[X]
+Ch. 4: Mountain Village[X]
 
 ## P1AB5ChName
-Descending Paraiah[X]
+Ch. 5: Descending Paraiah[X]
 
 ## P1AB6ChName
-Hunting the Apex[X]
+Ch. 6: Hunting the Apex[X]
 
 ## P1AB7ChName
-Emerging Hell[X]
+Ch. 7: Emerging Hell[X]
 
 ## P2AB8ChName
-Attempt at a Life[X]
+Ch. 8: Attempt at a Life[X]
 
 ## P2AB9ChName
-Blood of Bear and Lobster[X]
+Ch. 9: Blood of Bear and Lobster[X]
 
 ## P2AB10ChName
-Taking the Keep[X]
+Ch. 10: Taking the Keep[X]
 
 ## P2AB11ChName
-Lobsters Behind a Pot[X]
+Ch. 11: Lobsters Behind a Pot[X]
 
 ## P2AB12ChName
-Reform to Revolt[X]
+Ch. 12: Reform to Revolt[X]
 
 ## P2AB13ChName
-Crazed King[X]
+Ch. 13: Crazed King[X]
 
 ## P2AB14ChName
-Homecoming Quarrel[X]
+Ch. 14: Homecoming Quarrel[X]
 
 ## P2AB15ChName
-Hevursa United[X]
+Final: Hevursa United[X]
