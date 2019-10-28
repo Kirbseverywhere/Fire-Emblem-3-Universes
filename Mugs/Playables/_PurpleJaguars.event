@@ -25,6 +25,9 @@ GlacPreTimeskip:
 #incext PortraitFormatter "Glac_PreTimeskip.png"
 
 #define DAFF_PRETIMESKIP_PORTRAIT Daff
+setMugEntry(DAFF_PRETIMESKIP_PORTRAIT, DaffPreTimeskip, 3, 6, 3, 4) 
+DaffPreTimeskip:
+#incext PortraitFormatter "Daff_PreTimeskip.png"
 
 #define SMEGLINDE_PRETIMESKIP_PORTRAIT Smeglinde
 setMugEntry(SMEGLINDE_PRETIMESKIP_PORTRAIT, SmeglindePreTimeskip, 3, 6, 3, 4) 
@@ -32,6 +35,9 @@ SmeglindePreTimeskip:
 #incext PortraitFormatter "Smeglinde_PreTimeskip.png"
 
 #define KABBY_PRETIMESKIP_PORTRAIT Kabby
+setMugEntry(KABBY_PRETIMESKIP_PORTRAIT, KabbyPreTimeskip, 3, 6, 3, 4) 
+KabbyPreTimeskip:
+#incext PortraitFormatter "Kabby_PreTimeskip.png"
 
 #define STEPHEN_PRETIMESKIP_PORTRAIT Stephen
 setMugEntry(STEPHEN_PRETIMESKIP_PORTRAIT, StephenPreTimeskip, 3, 5, 3, 3) 
@@ -39,6 +45,9 @@ StephenPreTimeskip:
 #incext PortraitFormatter "Stephen_PreTimeskip.png"
 
 #define ANTHONY_PRETIMESKIP_PORTRAIT Anthony
+setMugEntry(ANTHONY_PRETIMESKIP_PORTRAIT, AntonPreTimeskip, 3, 5, 3, 3) 
+AntonPreTimeskip:
+#incext PortraitFormatter "Anton_PreTimeskip.png"
 
 #define MYST_PRETIMESKIP_PORTRAIT Myst
 setMugEntry(MYST_PRETIMESKIP_PORTRAIT, MystPreTimeskip, 3, 5, 3, 3) 
@@ -46,3 +55,6 @@ MystPreTimeskip:
 #incext PortraitFormatter "Myst_PreTimeskip.png"
 
 #define LEO_PRETIMESKIP_PORTRAIT Leo 
+setMugEntry(LEO_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 3, 5, 3, 3) 
+KhrisPreTimeskip:
+#incext PortraitFormatter "Khris_PreTimeskip.png"

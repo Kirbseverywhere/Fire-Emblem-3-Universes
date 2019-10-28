@@ -1,6 +1,6 @@
 
 #define DIANA_PRETIMESKIP_PORTRAIT Diana
-setMugEntry(DIANA_PRETIMESKIP_PORTRAIT, DiaPreTimeskip, 4, 6, 3, 4) 
+setMugEntry(DIANA_PRETIMESKIP_PORTRAIT, DiaPreTimeskip, 3, 6, 3, 4) 
 DiaPreTimeskip:
 #incext PortraitFormatter "Dia_PreTimeskip.png"
 
@@ -20,6 +20,9 @@ WilliamPreTimeskip:
 #incext PortraitFormatter "William_PreTimeskip.png"
 
 #define NOBODY_PRETIMESKIP_PORTRAIT Nobody 
+setMugEntry(NOBODY_PRETIMESKIP_PORTRAIT, NobodyPreTimeskip, 2, 5, 2, 3) 
+NobodyPreTimeskip:
+#incext PortraitFormatter "Nobody_PreTimeskip.png"
 
 #define JACK_PRETIMESKIP_PORTRAIT Jack 
 setMugEntry(JACK_PRETIMESKIP_PORTRAIT, JackPreTimeskip, 3, 6, 3, 4) 
@@ -34,7 +37,7 @@ LazulPreTimeskip:
 #define PAUL_PRETIMESKIP_PORTRAIT Paul 
 
 #define REGINALD_PRETIMESKIP_PORTRAIT Reginald 
-setMugEntry(REGINALD_PRETIMESKIP_PORTRAIT, ReginaldPreTimeskip, 2, 5, 3, 3) 
+setMugEntry(REGINALD_PRETIMESKIP_PORTRAIT, ReginaldPreTimeskip, 2, 6, 3, 4) 
 ReginaldPreTimeskip:
 #incext PortraitFormatter "Reginald_PreTimeskip.png"
 
