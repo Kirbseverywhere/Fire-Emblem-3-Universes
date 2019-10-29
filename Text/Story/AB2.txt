@@ -1,0 +1,106 @@
+	Beginning cutscene
+	Councilwoman Mandel: --frankly, a disgrace. Do I make myself clear, Miss [DIANA LAST NAME]?
+	Diana: *eyes closed* Yes, Councilwoman Mandel.
+	CMa: You have disappointed all of us. Dismissed!
+	Albinia: If I may, Councilwoman.
+	CMa: What is it, Councilwoman Nouveau?
+	A: Please, we’ve been over this, just refer to me as Albinia.
+	Beat.
+	A: Anyway, I just wanted to add that we mustn’t be too hard on her. She’s always worked hard for us. Isn’t that right, Diana?
+	D: Er, yes, Councilwo…
+	A: …
+	D: *eyes closed* Albinia.
+	A: All right, now you really are dismissed.
+
+	Next cutscene
+	Reginald: How did it go, Lady Diana?
+	D: Urgh, about as badly as I feared.
+	Lazul: Cheer up, Dia. You still might have a shot for the Council seat.
+	???: Wrong. They’ll never overlook your grievous blunder.
+	Councilman Barrymore: *entering* Your hopes of getting a spot on the Council are over, Miss [DIANA LAST NAME].
+	D: Councilman Barrymore. What are you doing here?
+	CB: I just thought I’d come see how you’re faring, Blade of the Council. It’s a right shame your mission went the way it did.
+	D: Forgive my mistrust, but you’ve never been one to pay any attention to my House. I don’t see what’s so intriguing all of a sudden.
+	CB: Oh, that. Well, you see, I have a little bit of an offer for you.
+	D: I’m listening.
+	CB: With your current resources, you’ll never be able to secure a spot on the Council.
+	D: Please tell me something I don’t already know.
+	CB: However, it’s only impossible with your current resources at hand. House Barrymore has quite a lot of resources, as you know. And as you also know, our last champion, Mikey, met an unfortunate end a fortnight ago.
+	D: So you are using a secret proxy. That’s against the law, Councilman.
+	CB: I’m very much aware. Though, tell me, what exactly can you do to me? Tell the Council I’m using proxies? It’s your word against mine; they’ll just see you as bitter and desperate in light of your failure.
+	D: … 
+	CB: See? I always knew you were a smart girl. And our desires just happen to align. You want a seat on the Council, and I would like another one.
+	D: What’s the point of being on the Council if I’m to obey your every whim? I’d just be your dog.
+	CB: You already are. When the Council tells you to do something, you do it with no questions asked. Tell me, Miss [DIANA LAST NAME], if that isn’t what you’d consider to be a dog, what is?
+	R: All right, that’s enough. I will not stand around and let--
+	D: Reginald. It’s fine.
+	Beat.
+	D: So? Let’s say I agree to your terms. What will you have me do?
+	CB: It’s simple enough, really. There have been rumors of rebellion in [very cold northern region].
+	D: Are you really so willing to send me off again, despite what happened the last time?
+	CB: Oh, please. This won’t be nearly as public. You can massacre the lot, as far as I care. The Council won’t catch wind of it.
+	Beat.
+	D: Very well. I accept your terms.
+
+	Northern area cutscene
+	L: Oh, it’s so cold… 
+	D: Agreed. But there’s nothing to be done about it. Let’s get this finished quick so we can go back home.
+	R: Cold? I feel nothing.
+	D: You maintain heat like a bear, Reginald. Though before we leave, I’d like to check something out.
+	L: Hm?
+	D: There’s supposed to be a gorgeous frozen lake nearby. You can see glimmering lights in the water through the ice, apparently.
+	L: R-really?! Wow, that sounds amazing.
+	R: It’s just a view. There’s no need to get excited.
+	L: *closed eyes* Yes…you’re right. S-sorry…
+D: Hm? Stop! We’ve arrived, you two.
+
+Map scene
+Boss: At arms, men! Why are you all looking so tired?
+Grunt: Just manning our posts, sir.
+Boss: Bah! A bunch of whoresons, you are. Listen up! If you see anyone who’s an outsider, attack first, ask questions later. Am I clear?
+Grunt: Sir, yes sir!
+
+D: What’s this? This sleepy village is really nursing a rebellion?
+R: Lady Diana, it looks like the villagers are actually at the mercy of a group of unsavory folk.
+D: Hmm. Odd, but let’s set out anyway. Whoever these men are, they look to be outsiders. And I won’t tolerate outsiders hurting the people.
+
+	After killing the first enemy
+	B: They’re strong… Men! We need some hostages!
+
+Boss dialogue
+B: Heh, you’re just a little runt. Sure is interesting to see a woman not dressed from head to toe in furs. Gets awfully boring around here.
+D: It’s men like you that I relish killing.
+
+B: Oh, my, you’re absolutely stunning.
+L: Eep! St-stay away from me!
+B: C’mere, I can’t kill you without getting closer.
+L: *eyes closed* I…need to stand my ground…
+
+*for any other unit*
+B: Hurry up and die!
+
+Boss death
+B: This isn’t right. How could I…have been beaten…?
+G: [BOSS NAME]’s been defeated! Every man for himself!
+
+Post-map
+D: Hmph. Cowards. Soon as their leader’s killed, they flee like the dastards they are.
+R: It appears the village really was under siege from a foreign bandit troupe. They are free now.
+D: Good. Though that begs the question…who sent them here? This is certainly not a place one just stumbles upon.
+L: Perhaps it’s just pure chance? What would anyone want with a village as nondescript as this?
+R: I am inclined to agree with Lapis, as much as it pains me to admit.
+L: “Pains”…?
+R: I can see no reason why their presence would be required here. Not to mention they were weak. Perhaps they were driven out of the southern territory by stronger bandits, and came here as a result.
+D: Hmm...
+
+Post-map cutscene
+D: Damn, nothing. Not a single shred of evidence to suggest they were hired.
+R: As I said, perhaps--
+L: *entering* Dia! I found this!
+D: Is this…a letter? Damn, it’s written in a cypher of some sort. Certainly not one we can decipher without proper tools.
+R: Lady Diana, look. The wax seal.
+D: Hm? This is…
+R: Indeed. House Nouveau’s crest.
+D: We need to return. Immediately.
+L: *eyes closed* B-But…I wanted to see the lake…
+D: It looks like Barrymore isn’t the only one using underhanded tactics.
