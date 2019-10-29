@@ -1,3 +1,8 @@
+#define BORGAS_PORTRAIT Borgas
+setMugEntry(BORGAS_PORTRAIT, BorgasMug, 3, 5, 3, 3) 
+BorgasMug:
+#incext PortraitFormatter "Borgas.png"
+
 #define ALVA_PORTRAIT Alva
 setMugEntry(ALVA_PORTRAIT, AlvaMug, 3, 5, 3, 3) 
 AlvaMug:

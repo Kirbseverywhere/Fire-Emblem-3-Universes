@@ -42,7 +42,7 @@ ReginaldPreTimeskip:
 #incext PortraitFormatter "Reginald_PreTimeskip.png"
 
 #define VOLLSTER_PRETIMESKIP_PORTRAIT Vollster 
-setMugEntry(VOLLSTER_PRETIMESKIP_PORTRAIT, VollsterPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(VOLLSTER_PRETIMESKIP_PORTRAIT, VollsterPreTimeskip, 2, 6, 2, 4) 
 VollsterPreTimeskip:
 #incext PortraitFormatter "Vollster_PreTimeskip.png"
 
