@@ -1,0 +1,104 @@
+#include EAstdlib.event
+
+EventPointerTable(18,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Vergil Brigand 0x00 Level(1, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [0,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [1,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [3,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [4,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(0x3,EndingScene,19,3)
+Chest(LightBrand,8,0)
+Chest(Javelin,16,15)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+REVEAL Kabby
+REVEAL Stephen
+REVEAL Anthony
+REVEAL Leo
+LOAD2 0x1 Units
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 18
+ENDA
+
+// Events
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Bad:
+UNIT Bruckner LanceKnight 0x00 Level(15, Enemy, 1) [18,3] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NeverMoveAI 
+UNIT BearBoss Bear 0x00 Level(12, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [0] PursueWithoutHeedAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [17,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [16,14] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [IronAxe] GuardTileAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [6,5] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset
