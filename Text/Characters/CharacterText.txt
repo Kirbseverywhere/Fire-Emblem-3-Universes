@@ -68,7 +68,7 @@ Anthony[X]
 Myst[X]
 
 ## LeoNameTextID
-Leo[X]
+Khris[X]
 
 ## DianaNameTextID
 Diana[X]
@@ -234,7 +234,7 @@ for strange gadgets.[X]
 
 ## LazulDescTextID
 A quiet woman who keeps to herself.[N]
-Possessess otherworldly charm.[X]
+Possesses otherworldly charm.[X]
 
 ## PaulDescTextID
 A reckless man. Often plays with[N]

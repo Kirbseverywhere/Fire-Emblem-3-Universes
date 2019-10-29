@@ -22,10 +22,10 @@ UnitCustomizerEntry(Mimi, Reason, Faith, Swords, DarkMage, Flux, Vulnerary, Thie
 UnitCustomizerEntry(Zorua, Reason, Swords, Lances, Mage_F, Fire, Vulnerary, Mercenary_F, IronSword, Vulnerary, Cleric, Heal, Lightning, DarkMage_F, Flux, Vulnerary, ZoruaUnitCustomizerDesc)
 
 // PURPLE JAGUARS
-UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, IronBow, Vulnerary, HorusUnitCustomizerDesc)
+UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, SlimLance, Vulnerary, HorusUnitCustomizerDesc)
 UnitCustomizerEntry(Tray, Lances, Swords, Bows, PegasusKnight, IronLance, Vulnerary, Myrmidon, IronSword, Vulnerary, LanceArmor, IronLance, Vulnerary, Archer, IronBow, Vulnerary, TrayUnitCustomizerDesc)
 UnitCustomizerEntry(Xenith, Swords, Bows, Lances, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Archer, IronBow, Vulnerary, Soldier, IronLance, Vulnerary, XenithUnitCustomizerDesc)
-UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, KillingEdge, Vulnerary, WyvernRider, IronLance, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
+UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, Shamshir, Vulnerary, WyvernRider, IronLance, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
 UnitCustomizerEntry(Myst, Swords, Swords, Reason, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Myrmidon, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, MystUnitCustomizerDesc)
 UnitCustomizerEntry(Daff, Reason, Faith, Lances, DarkMage_F, Flux, Vulnerary, Troubadour, Heal, Vulnerary, Archer_F, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, DaffUnitCustomizerDesc)
 UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief_F, IronSword, Lockpick, Archer_F, IronBow, Vulnerary, Cleric, Heal, Vulnerary, Mage_F, Fire, Vulnerary, SmeglindeUnitCustomizerDesc)
