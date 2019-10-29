@@ -13,13 +13,23 @@ ORG 0x8472C
 POIN DeathQuoteTable
 POP
 
+// Battle quotes
+PUSH
+ORG 0x846AC
+POIN BattleQuoteTable
+POP
+
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN 0"
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID, Event) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN Event"
+#define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID) "BYTE Initiator 0; BYTE Receiver 0; BYTE Chapter 0; SHORT Flag; SHORT TextID; BYTE 0; POIN 0"
+#define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID, Event) "BYTE Initiator 0; BYTE Receiver 0; BYTE Chapter 0; SHORT Flag; SHORT TextID; BYTE 0; POIN Event"
 
 #define AnyChapter 0xFF
 #define AnyMode 0xFF
+#define AnyCharacter 0x00
 #define GameOverFlag 0x65
 #define BossKilledFlag 0x2
+#define BossFoughtFlag 0x1
 
 ALIGN 4
 DeathQuoteTable:
@@ -85,6 +95,18 @@ DeathQuote(Rynod, AnyMode, AnyChapter, BossKilledFlag, RynodDeathQuote)
 DeathQuote(Ilyron, AnyMode, AnyChapter, BossKilledFlag, IlyronDeathQuote)
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+BattleQuoteTable:
+BattleQuote(Rodin, Borgas, 1, 0x9, BorgasVsRodin)
+BattleQuote(Borgas, AnyCharacter, 1, BossFoughtFlag, BorgasBattleQuote)
+BattleQuote(AnyCharacter, Borgas, 1, BossFoughtFlag, BorgasBattleQuote)
+BattleQuote(Rodin, Alva, 2, 0xC, AlvaVsRodin)
+BattleQuote(AnyCharacter, Alva, 2, BossFoughtFlag, AlvaBattleQuote)
+BattleQuote(Alva, AnyCharacter, 2, BossFoughtFlag, AlvaBattleQuote)
+
+WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+
  
 // Stat Boosts
 ShieldStatBoosts:
