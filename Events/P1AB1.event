@@ -105,6 +105,8 @@ LOAD1 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
+Text(Town_Day,AB1Opening)
+NoFade
 ENDA
 
 EndingScene:
