@@ -52,8 +52,12 @@ UNIT Innards Paladin 0x00 Level(10, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] No
 UNIT Jonathen Paladin 0x00 Level(10, Ally, 0) [3,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-EnemyUnits:
+BorgasAndCo:
 UNIT Borgas Brigand 0x00 Level(10, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [IronAxe] NeverMoveAI 
+UNIT 0x7F Archer 0x00 Level(10, Enemy, 1) [14,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT
+
+EnemyUnits:
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [10,9] 0x2 0x00 0x0 0x00 [IronAxe, _5000G] AttackInRangeAI 
 UNIT 0x7F Fighter 0x00 Level(10, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
@@ -67,7 +71,6 @@ UNIT 0x7F PegasusKnight 0x00 Level(10, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [Iron
 UNIT 0x7F PegasusKnight 0x00 Level(10, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
 UNIT 0x7F Archer 0x00 Level(10, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
 UNIT 0x7F Archer 0x00 Level(10, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x7F Archer 0x00 Level(10, Enemy, 1) [14,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
 UNIT 0x7F Mercenary 0x00 Level(10, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x7F Mercenary 0x00 Level(10, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x7F Brigand 0x00 Level(10, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
@@ -97,21 +100,24 @@ TEXTSHOW RL1Narration
 TEXTEND
 ClearBackground
 STAL 10
-CAM1 [8,5]
+CAM1 [6,5]
 MUSC LyonTheme
+STAL 10
 Text(Riverside, RL1OpeningVillagers)
-CAM1 [14,5]
-//FlashCursor(Borgas,60)
 MUSC Solve_the_Riddle
+LOAD1 0x1 BorgasAndCo
+CAM1 Borgas
+FlashCursor(Borgas,60)
 Text(Fort_Outside, RL1OpeningBandits)
 LOAD1 0x1 EnemyUnits
 ENUN
 CAM1 [8,5]
 MUSC Tension
 Text(Riverside, RL1OpeningAttack)
+LOAD2 0x1 PlayerUnits
 CAM1 [8,10]
 STAL 15
-LOAD2 0x1 PlayerUnits
+//Should run in after the camera pan but REDAs are hard
 ENUN
 FlashCursor(Rodin,60)
 Text(Plain, RL1OpeningRodin)

@@ -35,7 +35,7 @@ Chest(GoddessIcon, 12,14)
 END_MAIN
 
 MiscBasedEvents:
-DefeatAll(EndingScene)
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -97,6 +97,10 @@ GusGet:
 UNIT Augustus Priest Rodin Level(10, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
 UNIT
 
+OpeningGusDupe:
+UNIT Augustus Priest Rodin Level(10, NPC, 0) [15,4] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
 Rein1:
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT
@@ -115,12 +119,19 @@ UNIT
 Rein4:
 UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
 UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Thief Breguet Level(12, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SlimSword] PursueWithoutHeedAI 
+UNIT 0x80 Thief Breguet Level(12, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SlimSword, Lockpick] LootingThiefAI 
 UNIT
 
 Rein5:
 UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT
+
+EndingFight:
+UNIT Rodin Magus 0x00 Level(10, Ally, 0) [15,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+UNIT Kelly Paladin 0x00 Level(10, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT QuaSahnt Paladin 0x00 Level(10, Ally, 0) [9,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 Traps1:
@@ -143,15 +154,25 @@ REVEAL Cleo
 REVEAL Reds
 REVEAL Mimi
 REVEAL Zorua
+FADI 100
+SETVAL 0xB 0x00000F //Camera setting
+LOMA 1
 MUSC Advance
+FADU 10
 Text(Fort_Outside,RL2OpeningApproach)
+LOAD2 0x1 OpeningGusDupe
+FlashCursor(Augustus,60)
 Text(Fort_Outside,RL2OpeningAugustus)
+FADI 10
+DISA Augustus
+LOMA 2
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 Prisoners
 ENUN
+FADU 10
 MUSC Tension
 CAM1 Rodin
 STAL 10
@@ -160,6 +181,7 @@ GotoPrepScreen
 ENDA
 
 PostPrep:
+CAM1 Alva
 LOAD1 0x1 GusGet
 ENUN
 MUSC Solve_the_Riddle
@@ -174,8 +196,12 @@ NoFade
 ENDA
 
 EndingScene:
+LOAD2 0x1 EndingFight
+CAM1 Rodin
 MUSC Raid
 Text(Castle_Room,RL2EndingAlvaFight)
+SETVAL 0x1 0x0
+SET_STATE Alva //KILL Alva
 MUSC Into_the_Shadow_of_Victory
 Text(Castle_Hall,RL2EndingKellyCooking)
 Text(Castle_Hall_2,RL2EndingEric)
