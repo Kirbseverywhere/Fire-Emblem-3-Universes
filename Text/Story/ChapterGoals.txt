@@ -16,6 +16,9 @@ Survive[X]
 ## DefendGoal
 Defend[X]
 
+## EscapeGoal
+Escape[X]
+
 ## P1RL1Goal
 Defeat all bandits[N]
 attacking villagers[X]
@@ -26,3 +29,19 @@ corrupt nobleman[X]
 
 ## P1RL3Goal
 Defeat wild wyvern[X]
+
+## P1PJ1Goal
+Survive Yanndahl's[N]
+murder attempt[X]
+
+## P1PJ2Goal
+Escape the foul[N]
+cave Vergil's in[X]
+
+## P1AB1Goal
+Put down the revolt[N]
+by killing Kajarn[X]
+
+## P1AB2Goal
+Defeat Rynod, the[N]
+bandit leader[X]
