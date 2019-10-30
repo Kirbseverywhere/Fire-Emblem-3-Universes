@@ -43,3 +43,47 @@ unsigned GetUnitMapSpritePaletteIndex(struct Unit *unit) {
 		}
 	}
 }
+
+int GetBattleFramePaletteAccordingToMode() {
+	switch(gChapterData.mode) {
+		case 0: // Red Lobsters
+			return 1;
+		case 1: // Purple Jaguars
+			return 3;
+		case 2: // Amber Bears
+			return 4;
+	}
+}
+
+int GetBattleFramePaletteAccordingToFactionID(int faction) {
+	switch(faction) {
+		case 1: // Red Lobsters
+			return 1;
+		case 2: // Purple Jaguars
+			return 3;
+		case 3: // Amber Bears
+			return 4;
+	}
+}
+
+int GetBattleFramePaletteAccordingToAllegiance(u8 allegiance) {
+	switch(allegiance) {
+			case 0: // Player
+				return 3;
+			case 1: // Enemy
+				return 4;
+			case 2: // Neutral
+				return 5;
+			case 3: // Neutral
+				return 5;
+	}
+}
+
+int GetBattleFramePalette(struct Unit *unit) {
+	if (gChapterData.unitColorOption != 0) 	return GetAllegienceId(UNIT_FACTION(unit));
+	else {
+		if(unit->pCharacterData->unitMapSpritePalette == 0xFF) return GetBattleFramePaletteAccordingToMode();
+		else if(unit->pCharacterData->unitMapSpritePalette) return GetBattleFramePaletteAccordingToFactionID(unit->pCharacterData->unitMapSpritePalette);
+		else return GetBattleFramePaletteAccordingToAllegiance((u8)(unit->index) >> 6);
+	}
+}

@@ -4,7 +4,7 @@
 	#define	TempestOfSeasons_grp  NativeInstrumentMap2
 	#define	TempestOfSeasons_pri  0
 	#define	TempestOfSeasons_rev  0
-	#define	TempestOfSeasons_mvl  127
+	#define	TempestOfSeasons_mvl  63
 	#define	TempestOfSeasons_key  0
 	#define	TempestOfSeasons_tbs  1
 	#define	TempestOfSeasons_exg  0
