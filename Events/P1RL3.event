@@ -99,6 +99,7 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+Text(EndOfDemo)
 MNC2 0x4
 NoFade
 ENDA
