@@ -180,7 +180,7 @@ Rest assured. We shall[N]
 eradicate those pillagers[AN]
 and protect what is[N]
 rightfully yours.[A]
-[Right] #Villager
+[Right]#Villager
 Oh, thank you, Your Highness![N]
 If there's anythin' I can do to-[AN]
 [Left]#Rodin
