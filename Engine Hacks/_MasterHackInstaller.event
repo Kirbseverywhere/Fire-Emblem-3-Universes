@@ -192,7 +192,7 @@ POP
   //#include "LazberianTurnFlow/LazberianTurnFlow.event"
 
   ALIGN 4
-  #include "MapSpritePalettes/Installer.event"
+  #include "FactionPalettes/Installer.event"
   
   ALIGN 4
   #include "WalkingSoundsFix/WalkingSounds.event"

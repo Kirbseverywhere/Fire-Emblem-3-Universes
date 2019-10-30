@@ -38,7 +38,7 @@ void CreateHouseSelectionMenu(struct Proc *EventEngine) {
 	ProcStartBlocking(HouseSelectionMenuProcCode, EventEngine);
 }
 
-void HouseSelectMenuDrawRLInfo() {
+void HouseSelectMenuDrawRLInfo(struct HouseSelectionProc *currentProc) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Rodin in his quest for Justice.");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Amber Bears");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 17, 2), 3, 0, 12, "Purple Jaguars ->");
@@ -50,11 +50,11 @@ void HouseSelectMenuDrawRLInfo() {
 	StartFace(0, 1, 20*8, 5*8, 0x102);
 }
 
-void HouseSelectMenuDrawPJInfo() {
+void HouseSelectMenuDrawPJInfo(struct HouseSelectionProc *currentProc) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 9, "<- Red Lobsters");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Amber Bears ->");
-	
+
 	Decompress(PJSmallBannerGraphics, (void *)0x6002C00);
 	CopyToPaletteBuffer(PJSmallBannerPalette, 0xA0, 0x20);
 	GenerateBGTsa((u16 *)BGLoc((int)gBg0MapBuffer, 5, 6), 288, 5, 352);
@@ -62,7 +62,7 @@ void HouseSelectMenuDrawPJInfo() {
 	StartFace(0, 13, 20*8, 5*8, 0x102);
 }
 
-void HouseSelectMenuDrawABInfo() {
+void HouseSelectMenuDrawABInfo(struct HouseSelectionProc *currentProc) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Purple Jaguars");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Red Lobsters ->");
@@ -102,8 +102,8 @@ void HouseSelectionMenuLoop(struct HouseSelectionProc *currentProc) {
 		MakeUIWindowTileMap_BG0BG1(2,15,26,4,1);
 		LoadOldUIPal(-1);
 		
-		void (*HouseInfoFunctionList[])() = {HouseSelectMenuDrawRLInfo, HouseSelectMenuDrawPJInfo, HouseSelectMenuDrawABInfo};
-		(*HouseInfoFunctionList[currentProc->houseCounter])();
+		void (*HouseInfoFunctionList[])(struct HouseSelectionProc *proc) = {HouseSelectMenuDrawRLInfo, HouseSelectMenuDrawPJInfo, HouseSelectMenuDrawABInfo};
+		(*HouseInfoFunctionList[currentProc->houseCounter])(currentProc);
 	
 		if ((sInput.newPress & InputLeft) != 0) {
 			if (currentProc->houseCounter == 0) currentProc->houseCounter = 2; else currentProc->houseCounter--;

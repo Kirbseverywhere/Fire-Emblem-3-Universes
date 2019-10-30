@@ -4,6 +4,7 @@ struct HouseSelectionProc
 {
 	PROC_HEADER
 	u8 houseCounter;
+	u8 frameCount:2;
 };
 
 const struct ProcCmd HouseSelectionMenuProcCode[];
