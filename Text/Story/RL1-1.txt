@@ -125,11 +125,14 @@ Lord Alva'll pay us in kind.[A][X]
 
 ## RL1OpeningRodin
 #(Rodin arrives with his retinue)
-#[Left][LoadEric]
+[Left][LoadEric]
 [MidRight][LoadRodin]
-#[Left]# Eric
-Don't do drugs, Kids![N]
-They're bad for you.[A]
+[Left]# Eric
+Is this the[N]
+place, Boss?[A]
+#dammit kirb
+#RODIN: Don't do drugs, Kids![N]
+#They're bad for you.[A]
 [MidRight]# Rodin
 Yes. Alva territory is[N]
 right around these[AN]
