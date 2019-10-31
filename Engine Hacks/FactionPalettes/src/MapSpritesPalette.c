@@ -1,5 +1,6 @@
 #include "MapSpritesPalette.h"
 
+
 void LoadMapSpritePalettes() {
 	if(gChapterData.unitColorOption == 0) { 
 		CopyToPaletteBuffer(MapSpritePalettesFactions, 0x360, 0xA0);
@@ -79,11 +80,18 @@ int GetBattleFramePaletteAccordingToAllegiance(u8 allegiance) {
 	}
 }
 
-int GetBattleFramePalette(struct Unit *unit) {
+u16 GetBattleFramePalette(struct Unit *unit) {
 	if (gChapterData.unitColorOption != 0) 	return GetAllegienceId(UNIT_FACTION(unit));
 	else {
 		if(unit->pCharacterData->unitMapSpritePalette == 0xFF) return GetBattleFramePaletteAccordingToMode();
 		else if(unit->pCharacterData->unitMapSpritePalette) return GetBattleFramePaletteAccordingToFactionID(unit->pCharacterData->unitMapSpritePalette);
 		else return GetBattleFramePaletteAccordingToAllegiance((u8)(unit->index) >> 6);
 	}
+}
+
+int WriteBattleFramePaletteToRam(struct Unit *attacker, struct Unit *defender) {
+	u16 *BattleFramePalettes = (u16 *)0x203F084;
+	BattleFramePalettes[0] = GetBattleFramePalette(attacker);
+	BattleFramePalettes[1] = GetBattleFramePalette(defender);
+	return GetAllegienceId(UNIT_FACTION(attacker));
 }

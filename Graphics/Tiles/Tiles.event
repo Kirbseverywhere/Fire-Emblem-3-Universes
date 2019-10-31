@@ -99,6 +99,9 @@ POIN SoundRoomVolumeWindowTSA
 
 ORG 0xAF7CC
 POIN SoundRoomSongWindowTSA
+
+ORG 0xCEEFC
+POIN GuideMenuTSA
 POP
 
 ALIGN 4
@@ -214,3 +217,7 @@ SoundRoomVolumeWindowTSA:
 ALIGN 4
 SoundRoomSongWindowTSA:
 #incbin "SoundRoomSongWindowTSA.bin"
+
+ALIGN 4
+GuideMenuTSA:
+#incbin "GuideMenuTSA.bin"
