@@ -202,6 +202,7 @@ MUSC Raid
 Text(Castle_Room,RL2EndingAlvaFight)
 SETVAL 0x1 0x0
 SET_STATE Alva //KILL Alva
+DISA Alva
 MUSC Into_the_Shadow_of_Victory
 Text(Castle_Hall,RL2EndingKellyCooking)
 Text(Castle_Hall_2,RL2EndingEric)

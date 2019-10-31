@@ -163,8 +163,10 @@ these claims for myself.[A]
 [FarLeft][ClearFace][Left][ClearFace]
 [FarLeft][LoadJonathen]
 Lord Rodin, somebody[N]
-is approaching.[AN]
-[MidRight][ClearFace][Left][LoadRodin][FarFarRight][LoadFace][0x60][0x01]
+is approaching.[AN][X]
+
+## RL1OpeningWoman
+[FarLeft][LoadJonathen][Left][LoadRodin][FarFarRight][LoadFace][0x60][0x01]
 #(woman villager runs in from the right)
 [MoveRight][Right]
 Y-Your Highness![N]
