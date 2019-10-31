@@ -1,197 +1,197 @@
 Starting cutscene
-	Diana: Finally, we’re back. It took way too long to return. Does anything seem amiss?
-	Reginald: No, Lady Diana. Everything seems to be in order. I’ve yet to spot anyone who looks out of place.
-	Lazul: *eyes closed* Um, Dia, I…I’m so sorry. I…sniff…
-D: There’s nothing to worry about, Lazul. It’s not your fault that farmer stopped and harassed us.
-L: No, it is! Because I was shamefully showing my body, he… 
-R: We don’t really have time for this, I’m afraid. It’s best we check back with Councilman Barrymore as soon as possible.
+	Diana: Finally, we're back. It took way too long to return. Does anything seem amiss?
+	Reginald: No, Lady Diana. Everything seems to be in order. I've yet to spot anyone who looks out of place.
+	Lazul: *eyes closed* Um, Dia, I...I'm so sorry. I...sniff...
+D: There's nothing to worry about, Lazul. It's not your fault that farmer stopped and harassed us.
+L: No, it is! Because I was shamefully showing my body, he... 
+R: We don't really have time for this, I'm afraid. It's best we check back with Councilman Barrymore as soon as possible.
 Beat.
-R: Besides, it wasn’t anything you wore, or didn’t wear, that provoked him, so it’s really foolish of you to waste precious time on it.
-L: I… Thank--
-R: All right, let’s go.
+R: Besides, it wasn't anything you wore, or didn't wear, that provoked him, so it's really foolish of you to waste precious time on it.
+L: I... Thank--
+R: All right, let's go.
 
 Inside castle cutscene
 D: Councilman Barrymore, I bear--
 Albinia: Yes? What is it you bear?
 Councilman Barrymore: Miss [DIANA LAST NAME]? What is it?
-D: C-Councilwoman Nouveau…it is a pleasant surprise to see you.
+D: C-Councilwoman Nouveau...it is a pleasant surprise to see you.
 A: Likewise, Miss Diana. Come on, you know I prefer being on a first name basis.
-D: Oh, yes. Erm, pardon my…bad manners.
+D: Oh, yes. Erm, pardon my...bad manners.
 A: Is everything okay? You seem a bit tongue-tied.
-D: No, no, everything’s fine. It’s just…been a bit stressful lately.
+D: No, no, everything's fine. It's just...been a bit stressful lately.
 A: Yes, you mentioned something about bearing earlier. What was that whole thing about?
 D: B-Bearing? I think maybe you misheard.
-A: No, I’m pretty sure that is not the case. Did you hear her say the same, Lucian?
-CB: Er, I don’t think so. Who knows what she could have said?
+A: No, I'm pretty sure that is not the case. Did you hear her say the same, Lucian?
+CB: Er, I don't think so. Who knows what she could have said?
 	Beat.
-	A: Bearing, bearing… Oh my!
+	A: Bearing, bearing... Oh my!
 	D: What is it?
-	A: I see. Oh, Lucian, you naughty boy! With someone so beneath your station, no less. I’ll let you two talk it out amongst yourselves; this is a private affair, after all. Don’t worry; I won’t tell anyone your secret. Not like you don’t have the resources to deal with it privately, if you decide not to go public. *leaves*
+	A: I see. Oh, Lucian, you naughty boy! With someone so beneath your station, no less. I'll let you two talk it out amongst yourselves; this is a private affair, after all. Don't worry; I won't tell anyone your secret. Not like you don't have the resources to deal with it privately, if you decide not to go public. *leaves*
 	CB: Urgh, that minx.
 	D: Councilman, what was she going on about?
-	CB: Nothing true. Let’s not dwell on it; tell me what it is you’ve had weighing on your tongue.
+	CB: Nothing true. Let's not dwell on it; tell me what it is you've had weighing on your tongue.
 	Fade out
 	Fade in
-	CB: *eyes closed* I’m afraid this could be major.
+	CB: *eyes closed* I'm afraid this could be major.
 	D: What do you mean “could”? It is!
-	CB: *eyes open* Albinia was here trying to get information from me. I fear she might already know about us. We’d best be careful; she’s planning something.
+	CB: *eyes open* Albinia was here trying to get information from me. I fear she might already know about us. We'd best be careful; she's planning something.
 	D: Why did you send us there, though? To [northern area]?
-	CB: Truth be told, I first heard the name from Albinia’s lips. I overheard her mention it the other day when exchanging words with a servant. Naturally, I got suspicious; there’s no reason for a woman of her rank to be talking to a servant unless it’s something she wants to keep under wraps. 
+	CB: Truth be told, I first heard the name from Albinia's lips. I overheard her mention it the other day when exchanging words with a servant. Naturally, I got suspicious; there's no reason for a woman of her rank to be talking to a servant unless it's something she wants to keep under wraps. 
 	R: Well what are we to do now?
-	CB: It would be foolish to act in haste. We’d best just stay on our guard. For now, return to your normal routines. I will send word when I need something else done.
+	CB: It would be foolish to act in haste. We'd best just stay on our guard. For now, return to your normal routines. I will send word when I need something else done.
 
 	In castle cutscene
 	R: Lady Diana! Why have we been summoned by the Council?
-	D: I don’t know, Reginald. We’ll have to wait and see.
+	D: I don't know, Reginald. We'll have to wait and see.
 
 	In Council room cutscene
 	Councilwoman Mandel: Miss [DIANA LAST NAME].
 	D: Yes, Councilwoman?
-	CM: We’ve summoned you today to answer some questions for the Council.
+	CM: We've summoned you today to answer some questions for the Council.
 	D: May I ask what brought this on?
 	CM: Councilwoman Nouveau has brought something to our attention. Councilwoman?
 	A: Yes. Miss Diana, are you familiar with this brooch?
-	D: … 
-	A: Ahem. I asked if you’re familiar with this brooch.
-	D: *eyes closed* That is…Mikey’s brooch, Councilwoman.
+	D: ... 
+	A: Ahem. I asked if you're familiar with this brooch.
+	D: *eyes closed* That is...Mikey's brooch, Councilwoman.
 	A: Indeed. One of the servants found it whilst cleaning your quarters. As you know, Mikey, bless his heart, was murdered some two weeks ago. Do you have anything to say?
-	D: …No.
+	D: ...No.
 	A: What was that? Speak up.
 	D: *opens eyes* I said no. However you found this evidence, it was planted.
-	A: Ha! You’re a funny one. While it’s true that the brooch could’ve been planted, it’s a bit hard to prove your innocence when there’s traces of the poison used to kill him on your boots.
+	A: Ha! You're a funny one. While it's true that the brooch could've been planted, it's a bit hard to prove your innocence when there's traces of the poison used to kill him on your boots.
 	R: Lies! You speak lies, Albinia!
 	CM: Reginald Hielvann! How dare you raise your voice in this room? And to a member of the Council, no less!
 	R: I shall not apologize when my lady is being slandered like--
 	D: Reginald. Silence.
-	R: *eyes closed* …Very well.
-D: What leads you to believe it wasn’t planted as well, along with the brooch?
-A: The poison is from [rural area in Hevursa]. At the time of Mikey’s murder, you had recently returned from that very same place three days prior. No one else here has been there any time recently.
+	R: *eyes closed* ...Very well.
+D: What leads you to believe it wasn't planted as well, along with the brooch?
+A: The poison is from [rural area in Hevursa]. At the time of Mikey's murder, you had recently returned from that very same place three days prior. No one else here has been there any time recently.
 A: I think that is sufficient, Councilwoman Mandel?
-CB: Councilwoman Mandel, if I may. There is no damning evidence that connects Miss [DIANA LAST NAME] with the murder. As someone whose House always had a close relationship with Mikey, you know I am as eager to get vengeance as anyone. Yet I just can’t believe--
+CB: Councilwoman Mandel, if I may. There is no damning evidence that connects Miss [DIANA LAST NAME] with the murder. As someone whose House always had a close relationship with Mikey, you know I am as eager to get vengeance as anyone. Yet I just can't believe--
 A: Why not? She is an assassin, remember? The Blade of the Council. Turning around and killing one of our own is hardly unexpected.
 CM: Enough! Councilman Barrymore, I am afraid I cannot take your word as sufficient evidence to consider Miss [DIANA LAST NAME] innocent.
 CB: May I ask why?
 CM: That harlot sorceress is in her company. To be brief, I cannot trust the opinion of any man in this room.
-L: *eyes closed* …
+L: *eyes closed* ...
 CM: The Council finds Miss [DIANA LAST NAME] guilty of the murder of Mikey [LAST NAME]! Guards! Come escort them to the dungeons!
-Guard: Yes, ma’am!
+Guard: Yes, ma'am!
 
 In dungeons cutscene
 D: Damn! We fell right into her trap!
-L: Dia, I’m so sorry for hindering you like that, back in the Council room!
+L: Dia, I'm so sorry for hindering you like that, back in the Council room!
 L: *close eyes* I will volunteer to be executed first. It is only right.
 D: Hold on, no one is dying. We can still get out of this. Right, Reginald?
-R: Honestly, I’d say our chances are--
+R: Honestly, I'd say our chances are--
 D: *eyes half closed* Right, Reginald?
 R: Y-Yes, of course. Fear not, Lapis, we shall escape.
-L: *opens eyes* I hope you’re right.
+L: *opens eyes* I hope you're right.
 CB: Hello there.
 D: Councilman Barrymore?!
 CB: In the flesh. Now come; I have the keys.
 D: Where are you taking us?
-CB: I’m not taking you anywhere. I am merely opening the door to freedom. How you go about seizing it is up to you, Blade of the Council. I’ve subdued the guards. I’d estimate roughly 20 minutes before anyone notices something’s amiss.
+CB: I'm not taking you anywhere. I am merely opening the door to freedom. How you go about seizing it is up to you, Blade of the Council. I've subdued the guards. I'd estimate roughly 20 minutes before anyone notices something's amiss.
 	Fade out
 	Fade in
 	D: Reginald, Lazul, you two go first.
 	R: But--
-	D: No buts. I’m your leader; it’s my responsibility to assure my subordinate’ safety my own. Now go.
+	D: No buts. I'm your leader; it's my responsibility to assure my subordinate' safety my own. Now go.
 	Beat.
 	R: So be it, Lady Diana. I shall be waiting for you outside the castle walls. *leaves*
-	L: Dia, please, I can’t be without you. I’m…scared. So scared.
+	L: Dia, please, I can't be without you. I'm...scared. So scared.
 	CB: Miss Lazul, you will be okay. Here, let me--
-	L: Eep! Get away from me! Ack, I’m outta here! *leaves*
-	D: Hmph. Clever trick you did there. I almost have respect for you. Most men would’ve done more than just speak to her. The enchantment of her Crest is a strong one indeed.
-	CB: I do have to admit, it’s not as if I feel nothing looking at her. Yet it feels oddly hollow. Certainly nothing like the perplexing feeling I get when looking at-- *close eyes* Er, do not mind me.
-	D: Why did you save us? I’m useless to you now; I have no chance of making it onto the Council.
-	CB: Let’s just call it sentiment, hm? Now go, before the both of us are caught and it’s my head on the chopping block.
+	L: Eep! Get away from me! Ack, I'm outta here! *leaves*
+	D: Hmph. Clever trick you did there. I almost have respect for you. Most men would've done more than just speak to her. The enchantment of her Crest is a strong one indeed.
+	CB: I do have to admit, it's not as if I feel nothing looking at her. Yet it feels oddly hollow. Certainly nothing like the perplexing feeling I get when looking at-- *close eyes* Er, do not mind me.
+	D: Why did you save us? I'm useless to you now; I have no chance of making it onto the Council.
+	CB: Let's just call it sentiment, hm? Now go, before the both of us are caught and it's my head on the chopping block.
 	D: All right then.
 	Beat.
 	D: Thank you, Lucian.
 
 	Outside cutscene
 	R: It appears all of us have reunited in one piece.
-	L: I’m pretty good at hiding, actually.
+	L: I'm pretty good at hiding, actually.
 	D: All right, now to--
-	A: Not so fast. Guards! They’re over here!
-	D: Damn, we’ve been found out! There’s no way we can win with our paltry numbers.
+	A: Not so fast. Guards! They're over here!
+	D: Damn, we've been found out! There's no way we can win with our paltry numbers.
 	L: Dia! I-If we manage to break through, we can flee through that mountain range. Our smaller numbers allows us more mobility!
-	D: Lazul, you’re a genius! All right, does everyone know their orders? To the mountain range!
+	D: Lazul, you're a genius! All right, does everyone know their orders? To the mountain range!
 
 	Map cutscene
-	D: They have us surrounded. We’ll have to break our way past.
+	D: They have us surrounded. We'll have to break our way past.
 	R: That man over there. I believe if we can defeat him, we should have a clear path to the mountain range.
-	L: He doesn’t look like any old guard to me. I’m starting to get nervous.
-	D: You’re right; he doesn’t. But we don’t have a choice, I’m afraid.
+	L: He doesn't look like any old guard to me. I'm starting to get nervous.
+	D: You're right; he doesn't. But we don't have a choice, I'm afraid.
 
 	Upon selecting start battle
-Boss (Ilyron): Hmph. So these are the despicable killers who did away with Mikey. It’s unfortunate Lucian isn’t here to see this, but no matter; I’ll make sure to bring their heads back on pikes. For both my brother and Mikey.
+Boss (Ilyron): Hmph. So these are the despicable killers who did away with Mikey. It's unfortunate Lucian isn't here to see this, but no matter; I'll make sure to bring their heads back on pikes. For both my brother and Mikey.
 
 Boss dialogue
-B: I’ve been waiting for you, Blade of the Council. I’ll relish tearing you apart and showing your remains to Mikey’s family and my brother. Your treachery ends here.
-D: I can’t stop now, lest I spit in the face of those who have helped me up to this point. En garde!
+B: I've been waiting for you, Blade of the Council. I'll relish tearing you apart and showing your remains to Mikey's family and my brother. Your treachery ends here.
+D: I can't stop now, lest I spit in the face of those who have helped me up to this point. En garde!
 
-B: Get out of my way, you scum. Only Diana’s head is fit to bring back to my brother!
+B: Get out of my way, you scum. Only Diana's head is fit to bring back to my brother!
 
-B: What…? To be defeated by mere rats, I… 
+B: What...? To be defeated by mere rats, I... 
 
 Post-map cutscene
 D: Everyone! The lynchpin has been defeated! Quickly, to the mountain range!
-A: Wait! I won’t let you get away!
+A: Wait! I won't let you get away!
 
 Mountain range cutscene
-D: Huff…huff… I think we lost them.
+D: Huff...huff... I think we lost them.
 R: It appears so. For the time being, we are safe.
-L: But what are we to do now? We have no place to call home anymore. We’re criminals!
+L: But what are we to do now? We have no place to call home anymore. We're criminals!
 R: Calm yourself, Lapis. Surely Lady Diana has a plan.
-D: *eyes closed* … 
+D: *eyes closed* ... 
 R: You do have a plan, right?
 D: *eyes open* Of course I do. First, we prove ourselves innocent. Then, we get a seat on the Council.
 R: While that is all fine and dandy, what is our first step toward that goal?
-D: *eyes closed* I, um… 
+D: *eyes closed* I, um... 
 L: First we should rest!
 Beat.
-L: I mean, um, I suggest that we rest. Look…there’s a village over there. One of us should go ask.
+L: I mean, um, I suggest that we rest. Look...there's a village over there. One of us should go ask.
 R: I will. It is unwise to send Lady Diana, as some know her face and associate it with unpleasantness. *leaves*
 Beat.
 D: What led you to take charge?
 L: What?
-D: You said we should rest and go to the village. You seem…oddly calm in the face of this unexpected situation.
-L: One step at a time. Worry about today, not tomorrow. I…had to teach myself that before coming here. Sometimes, when you’re so inundated with problems that you can’t even think, you just shut it all out and focus on one thing: living. For now, we just need to survive. And while we do that, we can think about what to do next.
+D: You said we should rest and go to the village. You seem...oddly calm in the face of this unexpected situation.
+L: One step at a time. Worry about today, not tomorrow. I...had to teach myself that before coming here. Sometimes, when you're so inundated with problems that you can't even think, you just shut it all out and focus on one thing: living. For now, we just need to survive. And while we do that, we can think about what to do next.
 D: I see. Lazul, I never did as you the details about--
-	R: *enters* All right. The elder was kind enough to allow us shelter for the time being. It will certainly be better than braving the wilderness. I’ll lead the way. *leaves*
-	L: Dia…
+	R: *enters* All right. The elder was kind enough to allow us shelter for the time being. It will certainly be better than braving the wilderness. I'll lead the way. *leaves*
+	L: Dia...
 D: What is it, Lazul?
-L: Thank you. Because of meeting you, I can look forward to more than just when my next meal is, or where I’m going to sleep for the night.
-D: Oh, Lazul, you needn’t thank me. I should be just as thankful that we met. Now come on, let’s hurry up and get warm. An eastern wind is coming.
+L: Thank you. Because of meeting you, I can look forward to more than just when my next meal is, or where I'm going to sleep for the night.
+D: Oh, Lazul, you needn't thank me. I should be just as thankful that we met. Now come on, let's hurry up and get warm. An eastern wind is coming.
 
 Inside castle cutscene
 Generic messenger: Sir! I bear news!
 Councilman Barrymore: You may speak.
-GM: It’s your younger brother, sir, Lord Barrymore. He…was killed trying to apprehend the Blade of the Council.
+GM: It's your younger brother, sir, Lord Barrymore. He...was killed trying to apprehend the Blade of the Council.
 CB: You may go.
 GM: Sir! *leaves*
 Beat.
 CB: *eyes closed* Oh, Ilyron, you damned fool. How many times have I told you not to play the hero?
 A: *enters* My, am I interrupting something?
-CB: *opens eyes* Albinia. I’m afraid I am rather occupied at the moment. If you would please leave me be.
-A: Yes, I’ve heard the news. It’s a shame about Ilyron. You two were always so close. 
-CB: Don’t speak his name, you wench! You’re the one who sent him to his death!
+CB: *opens eyes* Albinia. I'm afraid I am rather occupied at the moment. If you would please leave me be.
+A: Yes, I've heard the news. It's a shame about Ilyron. You two were always so close. 
+CB: Don't speak his name, you wench! You're the one who sent him to his death!
 A: I may have been the one who called for reinforcements, but it was Ilyron who insisted on throwing himself into the fray. Not to mention it was Diana who dealt the finishing blow. You must hate her, no? The girl who stole away not only a close family friend, but now your baby brother.
-CB: I…
-A: Even more so a shame that you’re the one who helped her.
+CB: I...
+A: Even more so a shame that you're the one who helped her.
 CB: What? You speak lies!
-A: No, I don’t. I know you did it, Lucian. There is no doubt in my mind.
+A: No, I don't. I know you did it, Lucian. There is no doubt in my mind.
 CB: Even if it were true, you have no proof.
-A: That’s the thing: I don’t need it. You’re no fool, Lucian. It’s easy to see the unease in the air. You have no alibi at the time of the incident. The Council is looking for someone to blame their woes on. You’ll have to prove yourself innocent, rather than guilty. So you have just as much proof as I do.
-CB: … 
-A: But your secret’s safe with me. After all, this is so much more fun.
+A: That's the thing: I don't need it. You're no fool, Lucian. It's easy to see the unease in the air. You have no alibi at the time of the incident. The Council is looking for someone to blame their woes on. You'll have to prove yourself innocent, rather than guilty. So you have just as much proof as I do.
+CB: ... 
+A: But your secret's safe with me. After all, this is so much more fun.
 CB: What is?
 A: Watching you lose everything by your own hand. First you lost Mikey by telling him to investigate me. Then you lose Diana by sending her to [VILLAGE NAME]. Then last but not least, by freeing them, you inadvertently sent your brother to his death. Oh, yes, this is way more fun than simply destroying you.
-CB: I… 
-A: Anyway, I’ve come here to say my piece. Ciao.
+CB: I... 
+A: Anyway, I've come here to say my piece. Ciao.
 CB: *eyes closed* Wait.
-A: … 
-CB: *eyes open* How did you know that it was me who helped her? I surely can’t have been the only one without an alibi.
-A: Ah, it’s true. Under normal circumstances, you would’ve left them to die after they failed you so. They’re of no use to you anymore. But I knew you weren’t going to act the same this time.
+A: ... 
+CB: *eyes open* How did you know that it was me who helped her? I surely can't have been the only one without an alibi.
+A: Ah, it's true. Under normal circumstances, you would've left them to die after they failed you so. They're of no use to you anymore. But I knew you weren't going to act the same this time.
 Beat.
-A: It’s the way you look at her. You look at her how you used to look at me.
+A: It's the way you look at her. You look at her how you used to look at me.

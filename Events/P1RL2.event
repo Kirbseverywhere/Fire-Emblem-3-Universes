@@ -35,7 +35,7 @@ Chest(GoddessIcon, 12,14)
 END_MAIN
 
 MiscBasedEvents:
-DefeatAll(EndingScene)
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -63,6 +63,20 @@ UNIT Kaiden Paladin 0x00 Level(10, Ally, 0) [7,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Cleo Paladin 0x00 Level(10, Ally, 0) [8,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Reds Paladin 0x00 Level(10, Ally, 0) [6,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
+
+PlayerUnitsCutscene:
+UNIT Rodin Mage 0x00 Level(10, Ally, 0) [6,14] 0x00 0x00 0x1 REDA1 [0x00] NoAI 
+UNIT Michael Paladin 0x00 Level(10, Ally, 0) [7,14] 0x00 0x00 0x1 REDA2 [0x00] NoAI 
+UNIT Eric Paladin 0x00 Level(10, Ally, 0) [8,14] 0x00 0x00 0x1 REDA3 [0x00] NoAI 
+UNIT Kelly Paladin 0x00 Level(10, Ally, 0) [7,14] 0x00 0x00 0x1 REDA4 [0x00] NoAI 
+UNIT QuaSahnt Paladin 0x00 Level(10, Ally, 0) [8,14] 0x00 0x00 0x1 REDA5 [0x00] NoAI 
+UNIT Innards Paladin 0x00 Level(10, Ally, 0) [7,14] 0x00 0x00 0x1 REDA6 [0x00] NoAI 
+UNIT Jonathen Paladin 0x00 Level(10, Ally, 0) [8,14] 0x00 0x00 0x1 REDA7 [0x00] NoAI 
+UNIT Kaiden Paladin 0x00 Level(10, Ally, 0) [7,14] 0x00 0x00 0x1 REDA8 [0x00] NoAI 
+UNIT Cleo Paladin 0x00 Level(10, Ally, 0) [8,14] 0x00 0x00 0x1 REDA9 [0x00] NoAI 
+UNIT Reds Paladin 0x00 Level(10, Ally, 0) [6,14] 0x00 0x00 0x1 REDA10 [0x00] NoAI 
+UNIT
+
 
 EnemyUnits:
 UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
@@ -97,6 +111,10 @@ GusGet:
 UNIT Augustus Priest Rodin Level(10, Ally, 0) [6,11] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
 UNIT
 
+OpeningGusDupe:
+UNIT Augustus Priest Rodin Level(10, NPC, 0) [15,4] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
 Rein1:
 UNIT 0x80 Soldier Breguet Level(12, Enemy, 1) [4,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
 UNIT
@@ -115,13 +133,43 @@ UNIT
 Rein4:
 UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [8,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
 UNIT 0x80 LanceKnight Breguet Level(12, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
-UNIT 0x80 Thief Breguet Level(12, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SlimSword] PursueWithoutHeedAI 
+UNIT 0x80 Thief Breguet Level(12, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SlimSword, Lockpick] LootingThiefAI 
 UNIT
 
 Rein5:
 UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT 0x80 SwordArmor Breguet Level(12, Enemy, 1) [17,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
 UNIT
+
+EndingFight:
+UNIT Rodin Magus 0x00 Level(10, Ally, 0) [15,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Alva LanceKnight 0x00 Level(13, Enemy, 1) [15,1] 0x2 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+UNIT Kelly Paladin 0x00 Level(10, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT QuaSahnt Paladin 0x00 Level(10, Ally, 0) [9,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+//REDAs
+REDA1:
+REDA [6,9] 0x00 5 0x0 0
+REDA2:
+REDA [7,12] 0x00 5 0x0 0
+REDA3:
+REDA [8,12] 0x00 5 0x0 0
+REDA4:
+REDA [7,11] 0x00 5 0x0 0
+REDA5:
+REDA [8,11] 0x00 5 0x0 0
+REDA6:
+REDA [7,10] 0x00 5 0x0 0
+REDA7:
+REDA [8,10] 0x00 5 0x0 0
+REDA8:
+REDA [7,9] 0x00 5 0x0 0
+REDA9:
+REDA [8,9] 0x00 5 0x0 0
+REDA10:
+REDA [6,10] 0x00 5 0x0 0
+
 
 Traps1:
 ENDTRAP
@@ -143,23 +191,38 @@ REVEAL Cleo
 REVEAL Reds
 REVEAL Mimi
 REVEAL Zorua
+FADI 100
+SETVAL 0xB 0x00000F //Camera setting
+LOMA 1
 MUSC Advance
+FADU 10
 Text(Fort_Outside,RL2OpeningApproach)
+LOAD2 0x1 OpeningGusDupe
+FlashCursor(Augustus,60)
 Text(Fort_Outside,RL2OpeningAugustus)
-LOAD2 0x1 PlayerUnits
-ENUN
+FADI 10
+DISA Augustus
+LOMA 2
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 Prisoners
 ENUN
+FADU 10
 MUSC Tension
+CAM1 [8,10]
+LOAD2 0x1 PlayerUnitsCutscene
+ENUN
 CAM1 Rodin
 STAL 10
 Text(Castle_Garden,RL2OpeningCastleEntrance)
+CLEA 0x1
+FADU 10
+LOAD2 0x1 PlayerUnits
 GotoPrepScreen
 ENDA
 
 PostPrep:
+CAM1 Alva
 LOAD1 0x1 GusGet
 ENUN
 MUSC Solve_the_Riddle
@@ -174,8 +237,13 @@ NoFade
 ENDA
 
 EndingScene:
+LOAD2 0x1 EndingFight
+CAM1 Rodin
 MUSC Raid
 Text(Castle_Room,RL2EndingAlvaFight)
+SETVAL 0x1 0x0
+SET_STATE Alva //KILL Alva
+DISA Alva
 MUSC Into_the_Shadow_of_Victory
 Text(Castle_Hall,RL2EndingKellyCooking)
 Text(Castle_Hall_2,RL2EndingEric)

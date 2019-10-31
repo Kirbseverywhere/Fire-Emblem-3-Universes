@@ -16,15 +16,28 @@
 [.7] = [.......]
 [Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
+[Clear] = [ClearFace]
+[Smile] = [ToggleSmile]
+
 
 [FarFarLeft] = [OpenFarFarLeft]
 [FarLeft] = [OpenFarLeft]
 [MidLeft] = [OpenMidLeft]
+[NearLeft] = [OpenLeft]
 [Left] = [OpenLeft]
 [Right] = [OpenRight]
+[NearRight] = [OpenRight]
 [MidRight] = [OpenMidRight]
 [FarRight] = [OpenFarRight]
 [FarFarRight] = [OpenFarFarRight]
+
+[FFL] = [FarFarLeft]
+[FL] = [FarLeft]
+[ML] = [MidLeft]
+[MR] = [MidRight]
+[FR] = [FarRight]
+[FFR] = [FarFarRight]
+
 
 [<-......] = [FarFarLeft]
 [<-] = [FarFarLeft]
@@ -92,6 +105,7 @@
 
 //The rest
 [LoadAugustus] = [LoadFace][0x25][0x01]
+[LoadLenato] = [LoadFace][0x26][0x01]
 
 
 [ResumeEvent] = [LoadOverworldFaces]

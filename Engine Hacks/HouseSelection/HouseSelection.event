@@ -32,7 +32,7 @@ UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief_F, IronSword, Lockpick
 UnitCustomizerEntry(Kabby, Gauntlets, Reason, Axes, Brigand, IronAxe, Vulnerary, Fighter, IronAxe, Vulnerary, DarkMage, Flux, Vulnerary, Priest, Heal, Vulnerary, KabbyUnitCustomizerDesc)
 UnitCustomizerEntry(Stephen, Swords, Axes, Faith, Mercenary, IronSword, Vulnerary, Pirate, IronAxe, Vulnerary, SwordArmor, IronSword, Vulnerary, PriestBuff, Heal, Lightning, GenericUnitCustomizerDesc)
 UnitCustomizerEntry(Anthony, Bows, Lances, Axes, Archer, IronBow, Vulnerary, LanceKnight, IronLance, Vulnerary, LanceArmor, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Leo, Swords, Bows, Reason, Myrmidon, IronSword, Vulnerary, BowKnight, IronBow, Lightning, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, GenericUnitCustomizerDesc)
+UnitCustomizerEntry(Leo, Swords, Bows, Reason, Myrmidon, IronSword, Vulnerary, BowKnight, IronBow, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, GenericUnitCustomizerDesc)
 
 // AMBER BEARS
 UnitCustomizerEntry(Zane, Lances, Axes, Faith, Priest, Heal, Caduceus, Mage, Fire, Caduceus, AxeArmor, IronAxe, Vulnerary, Pirate, SteelAxe, Vulnerary, ZaneUnitCustomizerDesc)

@@ -1,88 +1,129 @@
-*enters map*
-	Reginald: Lady Diana, I believe we’ve arrived.
-	Diana: Ugh, smoke! There’s so much smoke everywhere!
-	Lazul: D-Do you want me to get you a honey-infused handkerchief?
-	D: No, it’s fine. 
-	Villager 1: We’re not stopping until Hevursa does something about those poachers!
-Villager 2: Let that stupid Council come here and stop us if they really care so much about our village! They’ll never show up, I guarantee it.
-Villager 3: Eek! It’s the Blade of the Council! Run for your lives!
-V1: No, don’t! We mustn’t run now or nothing will change! Hold your ground! So long as we have [PROLOGUE BOSS] we’ll be fine!
-D: It would be easier to kill them, but unfortunately the Council insisted that we merely subdue them with force. Let’s wrap this up quickly. Reginald, Lazul, let’s go!
-	R: I’m with you!
-	L: I’m…with you… 
-	R: What was that, Lapis?
-	L: I-I said I’m with you!
+## AB1Opening
+[MidRight][LoadDiana]
+[FarLeft][LoadLazul]
+[Left][LoadReginald]
+#*enters map*
+Lady Diana, I believe[N]
+we've arrived.[A]
+[MidRight]#Diana
+Ugh, smoke! There's so much[N]
+smoke everywhere![A]
+[FarLeft]#Lazul
+D-Do you want me to get you[N]
+a honey-infused handkerchief?[A]
+[MidRight]#Diana
+No, it's fine.[A]
+[MidRight][ClearFace][NearLeft][Clear][FarLeft][Clear]
+[ML][LoadDiana][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
+[Right]
+We're not stopping until Hevursa does[N]
+something about those poachers![A]
+[FR]
+Let that stupid Council come here[N]
+and stop us if they really care[AN]
+so much about our village! They'll[N]
+never show up, I guarantee it.[AN]
+[Clear][LoadFace][0x5F][0x01]
+Eek! It's the Blade of the[N]
+Council! Run for your lives![A]
+[Right]
+No, don't! We mustn't run now[N]
+or nothing will change! Hold[AN]
+your ground! So long as we[N]
+have Kajarn we'll be fine![AN]
+[ML]
+It would be easier to kill them,[N]
+but unfortunately the Council[AN]
+insisted that we merely subdue[N]
+them with force. Let's wrap[AN]
+this up quickly. Reginald,[N]
+Lazul, let's go![A]
+[Clear][FL][LoadReginald][Left][LoadLazul]
+#Might trim out
+[FL]#R
+I'm with you![A]
+[Left]#Lazul
+I'm...with you...[A]
+[FL]#Reg
+What was that, Lapis?[A]
+[Left]#Laz
+I-I said I'm with you![A][X]
 
-	After defeating first opponent
-	D: You’re fortunate your heart still beats.
-	R: Hmph. I shan’t let you get in Lady Diana’s way.
-	L: Oh, wow. I…actually won?
+## AB1FirstKillQuotesCUT
+After defeating first opponent
+#Probably not viable to display in-game
+D: You're fortunate your heart still beats.
+R: Hmph. I shan't let you get in Lady Diana's way.
+L: Oh, wow. I...actually won?[X]
 
-	Boss dialogue
-	B: Halt! I won’t allow this to go on!
-	D: Are you the head of the village?
-	B: I am [PROLOGUE BOSS], the chieftain. For too long we have suffered from the Council’s deliberate ignorance to our plight. Poachers plague our forests, gluttonously slaughtering all the game they can find. We’ve been on the brink of starvation for years. Years!
-	D: That’s not my problem.
-	B: Yes, I know, Blade of the Council. I know all about your despicable deeds.
-D: ….
-B: I swore I would never slaughter a human being, but prepare to die!
+## KajarnVsDiana
+B: Halt! I won't allow this to go on!
+D: Are you the head of the village?
+B: I am Kajarn, the chieftain. For too long we have suffered from the Council's deliberate ignorance to our plight. Poachers plague our forests, gluttonously slaughtering all the game they can find. We've been on the brink of starvation for years. Years!
+D: That's not my problem.
+B: Yes, I know, Blade of the Council. I know all about your despicable deeds.
+D: ....
+B: I swore I would never slaughter a human being, but prepare to die![X]
 
-R: So you’re the one spearheading this insurrection!
+## KajarnVsReginald
+R: So you're the one spearheading this insurrection!
 B: Indeed! It is my duty as chieftain to ensure my people are taken care of. And your beloved Council has done nothing for our plight!
 R: I cannot speak for the Council, but violence is not the answer!
 B: Ha! You are one to talk. That wench you follow is hardly more than a harbinger of death herself. I know all about her various misdeeds.
-R: So you wish to stain the road with your blood then. You shall pay for those words dearly!
+R: So you wish to stain the road with your blood then. You shall pay for those words dearly![X]
 
-B: Oh? One of the Blade’s subordinates approaches? I am [PROLOGUE BOSS], chieftain of Jacquine village! While we have struggled for years to survive with the poachers copiously slaughtering all our game, your beloved Council turned a blind eye to our struggle! And now you come to us, sent by them to silence us for voicing our sorrow. I swore to never lay harm to another human being, but I will warn you now: This will not stop until one of us is dead.
-L: ...Why is he monologing like that?
+## KajarnVsLazul
+#Might take some of this monologue and make it generic
+B: Oh? One of the Blade's subordinates approaches? I am Kajarn, chieftain of Jacquine village! While we have struggled for years to survive with the poachers copiously slaughtering all our game, your beloved Council turned a blind eye to our struggle! And now you come to us, sent by them to silence us for voicing our sorrow. I swore to never lay harm to another human being, but I will warn you now: This will not stop until one of us is dead.
+L: ...Why is he monologing like that?[X]
 
-Boss death
-B: No, I…I can’t leave them now. They still…need me…
+## KajarnDeath
+B: No, I...I can't leave them now. They still...need me...[X]
 
-Post-map
-D: …
-R: Lady Diana, our work here is done. I know that [PROLOGUE BOSS]’s death wasn’t our goal, but there’s nothing to be done about it now.
+## AB1Ending1
+D: ...
+R: Lady Diana, our work here is done. I know that Kajarn's death wasn't our goal, but there's nothing to be done about it now.
 L: Um, I think you two should see this.
-V3: The Blade of the Council killed [PROLOGUE BOSS]! Is this what the Council is planning to do with us too? Are we really so worthless to them?
+V3: The Blade of the Council killed Kajarn! Is this what the Council is planning to do with us too? Are we really so worthless to them?
 V2: Monster!
 V1: Murderer!
-V3: Leave us now, you beast! If you’re going to slaughter us then do so without delay! [PROLOGUE BOSS]’s death will not be in vain!
-R: I’ll do something about their treacherous words.
-D: Reginald. ...I think it’s best we go before things worsen.
+V3: Leave us now, you beast! If you're going to slaughter us then do so without delay! Kajarn's death will not be in vain!
+R: I'll do something about their treacherous words.
+D: Reginald. ...I think it's best we go before things worsen.
 R: But-
-D: Let’s go. Now.
+D: Let's go. Now.
 Beat.
-R: Very well.
+R: Very well.[X]
 
-Post-chapter cutscene
-D: So much for garnering the Council’s favor. No doubt I’m going to be reprimanded when we return.
+## AB1Ending2
+D: So much for garnering the Council's favor. No doubt I'm going to be reprimanded when we return.
 R: No need to stress. We still have plenty of time to improve your image. This shall only be temporary.
 L: Do you think Jacquine village will get the help it needs?
 R: Should you really be wasting your time thinking about that, Lapis?
 L: Eek!
 Beat.
-R: *eyes closed* I…suppose they might. It’s impossible to say right now. *open eyes* What I will say, though, is that we still accomplished our main objective: to subdue the rebellion. We should take pride in that.
-D: … 
-L: … 
-R: *eyes closed* I’ll go scout ahead. *leaves*
+R: *eyes closed* I...suppose they might. It's impossible to say right now. *open eyes* What I will say, though, is that we still accomplished our main objective: to subdue the rebellion. We should take pride in that.
+D: ... 
+L: ... 
+R: *eyes closed* I'll go scout ahead. *leaves*
 L: Dia? Is everything okay?
 D: What? Of course, Lazul. No need to worry over me.
-L: Right, of course. Sorry for bothering you… *leaves*
-D: … 
-D: *eyes closed* Why did that fool insist on dying?
+L: Right, of course. Sorry for bothering you... *leaves*
+D: ... 
+D: *eyes closed* Why did that fool insist on dying?[X]
 
-Optional convos--Lazul & Reginald
+## AB1ReginaldLazulTalk
 R: Lapis!
 L: Eep! Y-You scared me, Reginald.
 R: You say that every time I speak to you though.
-L: I…guess you’re right about that.
-R: Anyway, I approached you because I heard from Diana that you were wondering how I’m so imposing when I speak.
-L: *closes eyes* Those conversations were…supposed to be private…
+L: I...guess you're right about that.
+R: Anyway, I approached you because I heard from Diana that you were wondering how I'm so imposing when I speak.
+L: *closes eyes* Those conversations were...supposed to be private...
 R: Pardon?
 L: *open eyes* Um, nothing.
-R: As I was saying, I figured now was a good time to discuss since it’s your first time on the frontlines and all.
+R: As I was saying, I figured now was a good time to discuss since it's your first time on the frontlines and all.
 L: What does me being on the frontlines have to do with anything?
-R: Well, you know, it’s to ease stress. Stress can be dangerous on the battlefield.
-L: Do you actually…care about me?
-R: Hm? Whatever it was you said, I didn’t hear it, Lapis.
-L: *closes eyes* My name is Lazul… 
+R: Well, you know, it's to ease stress. Stress can be dangerous on the battlefield.
+L: Do you actually...care about me?
+R: Hm? Whatever it was you said, I didn't hear it, Lapis.
+L: *closes eyes* My name is Lazul...[X]
