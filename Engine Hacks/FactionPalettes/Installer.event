@@ -18,12 +18,10 @@ BYTE 0xD
 // Battle Frame Faction Color hooks
 ORG 0x57746
 SHORT 0x4648 0x4901 0x468E 0xF800 0xE001
-POIN GetBattleFramePalette
+POIN BattleFramePaletteHook
 
-ORG 0x57760
-SHORT 0x4650 0x4901 0x468E 0xE001
-POIN GetBattleFramePalette
-SHORT 0xF800
+ORG 0x52174
+WORD 0x203F084
 
 POP
 
@@ -34,5 +32,10 @@ MapSpritePalettesFactions:
 ALIGN 4
 MapSpritePalettesVanilla:
 #incbin "MapSpritePalettesVanilla.bin"
+
+ALIGN 4
+BattleFramePaletteHook:
+SHORT 0x4651 0x4B01 0x4718 0x46C0
+POIN WriteBattleFramePaletteToRam
 
 ALIGN 4
