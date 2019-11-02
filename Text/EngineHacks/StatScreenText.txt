@@ -26,5 +26,11 @@ stats and skills.[X]
 ## DonateURL
 donorbox.org/donate-to-circles[X]
 
+## SS_RatingName
+Rating[X]
+
+## SS_RatingRText
+Sum of this unit's stats.[X]
+
 ## SS_ItemsText
  ->[X]

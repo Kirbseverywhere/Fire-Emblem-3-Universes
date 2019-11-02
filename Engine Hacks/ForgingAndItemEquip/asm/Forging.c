@@ -25,15 +25,19 @@ int GetItemUses(int item) {
 
 int GetItemMight(int item) {
 	int mightBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		mightBonus = GetItemForgeBonuses(item)->mightBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) mightBonus = GetItemForgeBonuses(item)->mightBonus;
+		else mightBonus = 1;
+	}
 	return GetItemData(ITEM_INDEX(item))->might + mightBonus;
 }
 
 int GetItemHit(int item) {
 	int hitBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		hitBonus = GetItemForgeBonuses(item)->hitBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) hitBonus = GetItemForgeBonuses(item)->hitBonus;
+		else hitBonus = 5;
+	}
 	return GetItemData(ITEM_INDEX(item))->hit + hitBonus;
 }
 
@@ -44,8 +48,10 @@ void ComputeBattleUnitHitRate(struct BattleUnit* bu) {
 
 int GetItemCrit(int item) {
 	int critBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		critBonus = GetItemForgeBonuses(item)->critBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) critBonus = GetItemForgeBonuses(item)->critBonus;
+		else critBonus = 5;
+	}
 	return GetItemData(ITEM_INDEX(item))->crit + critBonus;
 }
 

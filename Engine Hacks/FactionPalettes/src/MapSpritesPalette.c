@@ -6,6 +6,7 @@ void LoadMapSpritePalettes() {
 		CopyToPaletteBuffer(MapSpritePalettesFactions, 0x360, 0xA0);
 	}
 	else CopyToPaletteBuffer(MapSpritePalettesVanilla, 0x360, 0xA0);
+	if(gChapterData.chapterIndex == 0x11) CopyToPaletteBuffer(BearMapSpritePalette, 0x3A0, 0x20);
 }
 
 unsigned GetUnitMapSpritePaletteIndex(struct Unit *unit) {
