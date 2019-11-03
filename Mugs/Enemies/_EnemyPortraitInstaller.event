@@ -12,3 +12,8 @@ AlvaMug:
 setMugEntry(YANNDAHL_PORTRAIT, YanndahlMug, 3, 5, 3, 3) 
 YanndahlMug:
 #incext PortraitFormatter "Yanndahl.png"
+
+#define BRUCKNER_PORTRAIT Bruckner
+setMugEntry(BRUCKNER_PORTRAIT, BrucknerMug, 3, 5, 3, 3) 
+BrucknerMug:
+#incext PortraitFormatter "Bruckner.png"
