@@ -7,6 +7,7 @@
 .set Growth_Getters_Table, Display_Growths_options+4
 .set Get_Palette_Index, Growth_Getters_Table+4
 .set MagClassTable, Get_Palette_Index+4
+.set RatingTextID, MagClassTable+4
 
 page_start
 
@@ -111,11 +112,28 @@ draw_aid_icon_at 26, 7
 
 draw_trv_text_at 21, 9
 
-draw_textID_at 21, 11, textID=0x4f1 @affin
+.set ss_RatingText, (RatingTextID - . - 6)
+ldr r0, =ss_RatingText
+add r0, pc
+ldr r0, [r0]
+draw_textID_at 21, 11, width=4
+mov r0, #0
+mov r2, r8
+mov r3, #0x14
+RatingLoop:
+ldrb r1, [r2, r3]
+add r0, r1
+add r3, #1
+cmp r3, #0x1B
+bne RatingLoop
+ldrb r1, [r2, #0x1D] @ mov
+add r0, r1
+add r2, #0x3A @ mag
+ldrb r1, [r2]
+add r0, r1
+draw_number_at 27, 11 @Unit Rating
 
 draw_status_text_at 21, 13
-
-draw_affinity_icon_at 24, 11
 
 .set ss_talkloc, (SS_TalkText - . - 6)
   ldr r0, =ss_talkloc

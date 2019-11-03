@@ -8,10 +8,33 @@ MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*4))
 MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*5))
 MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*6))
 MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*7))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*8))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*9))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*10))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*11))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*12))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*13))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*14))
+MapAnimsTiles(28, 4096, CaveTileAnimsImage+(4096*15))
 MapAnimsTiles(0, 0, 0)
 
 ALIGN 4
 CaveTileAnimsImage:
-#incext Png2Dmp "CaveAnimFrames.png"
+#incext Png2Dmp "CaveAnim_Frame1.png"
+#incext Png2Dmp "CaveAnim_Frame2.png"
+#incext Png2Dmp "CaveAnim_Frame3.png"
+#incext Png2Dmp "CaveAnim_Frame4.png"
+#incext Png2Dmp "CaveAnim_Frame5.png"
+#incext Png2Dmp "CaveAnim_Frame6.png"
+#incext Png2Dmp "CaveAnim_Frame7.png"
+#incext Png2Dmp "CaveAnim_Frame8.png"
+#incext Png2Dmp "CaveAnim_Frame9.png"
+#incext Png2Dmp "CaveAnim_Frame10.png"
+#incext Png2Dmp "CaveAnim_Frame11.png"
+#incext Png2Dmp "CaveAnim_Frame12.png"
+#incext Png2Dmp "CaveAnim_Frame13.png"
+#incext Png2Dmp "CaveAnim_Frame14.png"
+#incext Png2Dmp "CaveAnim_Frame15.png"
+#incext Png2Dmp "CaveAnim_Frame16.png"
 
 ALIGN 4

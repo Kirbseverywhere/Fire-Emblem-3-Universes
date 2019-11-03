@@ -87,7 +87,7 @@ String("Reds: He'll work in any class.")
 BYTE 0
 
 MimiUnitCustomizerDesc:
-String("Mimi Reife: A sentinent ragdoll. Yep.")
+String("Mimi Reife: A sentient ragdoll. Yep.")
 BYTE 0
 
 ZoruaUnitCustomizerDesc:
