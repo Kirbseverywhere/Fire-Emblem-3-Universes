@@ -197,7 +197,9 @@ What do you think you're doing?![A][X]
 [OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
 
 ## KajarnDeathQuote
-[OpenMidRight][LoadFace][0x60][0x01]KajarnDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x60][0x01]
+No, I...I can't leave them now.[N]
+They still...need me...[A][X]
 
 ## RynodDeathQuote
 [OpenMidRight][LoadFace][0x61][0x01]RynodDeathQuote[A][X]

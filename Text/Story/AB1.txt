@@ -52,65 +52,100 @@ I-I said I'm with you![A][X]
 ## AB1FirstKillQuotesCUT
 After defeating first opponent
 #Probably not viable to display in-game
-D: You're fortunate your heart still beats.
+[MidRight]#Diana You're fortunate your heart still beats.
 R: Hmph. I shan't let you get in Lady Diana's way.
 L: Oh, wow. I...actually won?[X]
 
-## KajarnVsDiana
-B: Halt! I won't allow this to go on!
-D: Are you the head of the village?
-B: I am Kajarn, the chieftain. For too long we have suffered from the Council's deliberate ignorance to our plight. Poachers plague our forests, gluttonously slaughtering all the game they can find. We've been on the brink of starvation for years. Years!
-D: That's not my problem.
-B: Yes, I know, Blade of the Council. I know all about your despicable deeds.
-D: ....
-B: I swore I would never slaughter a human being, but prepare to die![X]
-
-## KajarnVsReginald
-R: So you're the one spearheading this insurrection!
-B: Indeed! It is my duty as chieftain to ensure my people are taken care of. And your beloved Council has done nothing for our plight!
-R: I cannot speak for the Council, but violence is not the answer!
-B: Ha! You are one to talk. That wench you follow is hardly more than a harbinger of death herself. I know all about her various misdeeds.
-R: So you wish to stain the road with your blood then. You shall pay for those words dearly![X]
-
-## KajarnVsLazul
-#Might take some of this monologue and make it generic
-B: Oh? One of the Blade's subordinates approaches? I am Kajarn, chieftain of Jacquine village! While we have struggled for years to survive with the poachers copiously slaughtering all our game, your beloved Council turned a blind eye to our struggle! And now you come to us, sent by them to silence us for voicing our sorrow. I swore to never lay harm to another human being, but I will warn you now: This will not stop until one of us is dead.
-L: ...Why is he monologing like that?[X]
-
-## KajarnDeath
-B: No, I...I can't leave them now. They still...need me...[X]
-
 ## AB1Ending1
-D: ...
-R: Lady Diana, our work here is done. I know that Kajarn's death wasn't our goal, but there's nothing to be done about it now.
-L: Um, I think you two should see this.
-V3: The Blade of the Council killed Kajarn! Is this what the Council is planning to do with us too? Are we really so worthless to them?
-V2: Monster!
-V1: Murderer!
-V3: Leave us now, you beast! If you're going to slaughter us then do so without delay! Kajarn's death will not be in vain!
-R: I'll do something about their treacherous words.
-D: Reginald. ...I think it's best we go before things worsen.
-R: But-
-D: Let's go. Now.
-Beat.
-R: Very well.[X]
+[MidLeft][LoadDiana][Right][LoadReginald][FR][LoadLazul]
+[ML]#Diana
+...[A]
+[Right]#Reginald
+Lady Diana, our work here is done.[N]
+I know that Kajarn's death wasn't[AN]
+our goal, but there's nothing to[N]
+be done about it now.[A]
+[FR]
+Um, I think you two[N]
+should see this.[A]
+[FR][Clear][Right][Clear][ML][Clear]
+[FL][LoadReginald][Left][LoadDiana][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
+[Right]
+The Blade of the Council killed[N]
+Kajarn! Is this what the Council[AN]
+is planning to do with us too?[N]
+Are we really so worthless to them?[AN]
+[FarRight]
+Monster![A]
+[Clear][LoadFace][0x5F][0x01]
+Murderer![A]
+[Right]
+Leave us now, you beast! If you're[N]
+going to slaughter us then do so[AN]
+without delay! Kajarn's death[N]
+will not be in vain![A]
+[FarLeft]#Reg
+I'll do something about[N]
+their treacherous words.[A]
+[Left]#Dia
+Reginald. ...I think it's best[N]
+we go before things worsen.[A]
+[FarLeft]#Reg
+But-[A]
+[Left]#Dia
+Let's go. Now.
+[....]
+[FarLeft]#Reg
+Very well.[A][X]
 
 ## AB1Ending2
-D: So much for garnering the Council's favor. No doubt I'm going to be reprimanded when we return.
-R: No need to stress. We still have plenty of time to improve your image. This shall only be temporary.
-L: Do you think Jacquine village will get the help it needs?
-R: Should you really be wasting your time thinking about that, Lapis?
-L: Eek!
-Beat.
-R: *eyes closed* I...suppose they might. It's impossible to say right now. *open eyes* What I will say, though, is that we still accomplished our main objective: to subdue the rebellion. We should take pride in that.
-D: ... 
-L: ... 
-R: *eyes closed* I'll go scout ahead. *leaves*
-L: Dia? Is everything okay?
-D: What? Of course, Lazul. No need to worry over me.
-L: Right, of course. Sorry for bothering you... *leaves*
-D: ... 
-D: *eyes closed* Why did that fool insist on dying?[X]
+[MidRight][LoadDiana][FL][LoadReginald][Left][LoadLazul]
+[MidRight]#Diana
+So much for garnering the Council's[N]
+favor. No doubt I'm going to be[AN]
+reprimanded when we return.[A]
+[FarLeft]#Reginald 
+No need to stress.[N]
+We still have plenty of time to[AN]
+improve your image. This shall[N]
+only be temporary.[A]
+[Left]#Lazul
+Do you think Jacquine village[N]
+will get the help it needs?[A]
+[FarLeft]#Reginald 
+Should you really be wasting your[N]
+time thinking about that, Lapis?[A]
+[Left]#Lazul
+Eek![A]
+[....]
+[FarLeft]#Reginald 
+[CloseEyes]
+I...suppose they might. It's impossible[N]
+to say right now.[OpenEyes] What I will say,[AN]
+though, is that we still accomplished[N]
+our main objective: to subdue the[AN]
+rebellion. We should take pride in that.[A]
+[MidRight]#Diana
+...[A] 
+[Left]#Lazul
+...[A]
+[FarLeft]#Reginald 
+[CloseEyes]
+I'll go scout ahead.[A]
+[ClearFace]
+[Left]#Lazul
+Dia? Is everything okay?[A]
+[MidRight]#Diana
+What? Of course, Lazul.[N]
+No need to worry over me.[A]
+[Left]#Lazul
+Right, of course. Sorry for[N]
+bothering you...[A]
+[Clear]
+[MidRight]#Diana
+...
+[CloseEyes]Why did that fool[N]
+insist on dying?[A][X]
 
 ## AB1ReginaldLazulTalk
 R: Lapis!
