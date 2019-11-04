@@ -1,0 +1,535 @@
+## PJ1Narration
+The Kingdom of Seraphyn. Ruled by 
+the von Siegfried family for
+centuries, the Kingdom has enjoyed
+an era of peace and prosperity.
+However, recent events have
+roused up disdain among the people.
+To the west, the Novingale Empire
+has been conducting frequent border
+skirmishes, deploying numerous
+troops to that region, but Seraphyn's
+current monarch, King Curtis, has
+done little to address Novingale's
+aggression. Under pressure from his
+advisors, Curtis has requested an
+audience with Aurea, current sovereign
+of Novingale. He brings along his son,
+Prince Vergil, hoping that the
+experience will help educate him on
+negotiating with other countries...
+
+
+Opening scene:
+
+Horus:
+Prince Vergil, how are you
+faring? It must be exhausting,
+having to travel all the way
+to Highwater Bridge.
+
+
+Vergil:
+It's alright, Horus. You need
+not worry about me. I can manage
+for the rest of the trip.
+
+Daff:
+Still, you look weary, milord.
+Rest is important every now and
+then, you know.
+
+Vergil:
+Well, I would be lying if I said
+I wasn't half nervous. It's nothing
+I can't manage, however.
+
+Daff:
+Oh, I see... very well then, milord.
+I'll go and check on the others, too.
+
+*Daff leaves*
+
+Horus:
+Still, Daff has a point, Lord Vergil -
+you must take care of your health.
+You have an important role in the
+new trade agreement with Novingale,
+yes? We have to make sure that you're-
+
+*Tray barges in*
+
+Tray:
+GOOD LUCK LATER, VERGIL! I KNOW
+YOU CAN DO IT- I, uh... mean...
+Prince Vergil...? ...Milord?
+
+Horus:
+Ahem. If Tray's here, Sme should
+be coming any second now...
+
+*Sme enters*
+
+Sme:
+Tray! Get back here this instant!
+How many times have I told you
+to behave appropriately in front
+of the Prince?
+
+Tray:
+Umm... I'm... sorry?
+
+Vergil:
+Hah - you don't have to be such a
+stick in the mud, Smeglinde. The
+Kingdom isn't in its best state at
+the moment. Tray's enthusiasm and
+positivity is much needed in such
+trying times. You have my thanks.
+
+Sme:
+But still, I think all of us would
+rather have our ears working after
+this long excursion.
+
+Tray:
+I'm still confused, Vergil- I mean,
+Prince Vergil. Why are you with us,
+instead of your family?
+
+Vergil:
+I would rather be here, Tray. My
+parents are a stern lot - being
+around them wouldn't be too
+healthy for me. And besides,
+Orion's there with your brothers.
+They're the most loyal of men we have.
+
+Tray:
+Oh, right, my big brothers! One day,
+I'll be just like them, and stand
+by your side as a royal knight!
+
+Vergil:
+Well, I'm sure you will, Tray. I can
+tell you have the same zeal as them.
+
+Tray:
+Ooh! I can see Highwater Bridge!
+Oh, the bridge brings back
+good memories. I remember when
+I was young, I-
+
+*thump*
+
+Horus:
+What the- what's with
+the sudden stop?
+
+Sme:
+Aah! T-There's enemies ahead!
+
+Vergil:
+What?! Are my parents alright?
+Quickly! To arms!
+
+*Scene changes to the bridge ahead, fields background*
+
+*Yanndahl appears on the screen. Runa approaches him.*
+
+Runa:
+Sir Yanndahl, I presume?
+
+Yanndahl:
+And... you are?
+
+Runa:
+Let's just say we're "help"
+sent by your benefactors.
+
+Yanndahl:
+Ah, wonderful. So, you know
+your men are serving under my-
+
+Runa:
+Do not get ahead of yourself,
+Sir Yanndahl. Now, if you
+would, send your men to cut
+off the caravan's escape
+routes here. My unit is more
+than capable of holding off
+the other side.
+
+Yanndahl:
+...Hmph. Your units better not
+hold us back, girl. Besides,
+shouldn't they be focusing
+on the royal caravan?
+
+Runa:
+Don't worry about that.
+We'll carry out this
+mission flawlessly.
+Now, you'd better pick
+up the slack on your
+side. It isn't much
+time before the Dark
+Prince's men start to
+show up.
+
+*Runa leaves.*
+
+Yanndahl:
+Gah, who does that brat think she
+is, doubting me? We're plenty
+good enough to handle some brat
+prince and his riff-raff gang.
+
+*open to map. Vergil and other PJ units deploy from the caravans.*
+
+Vergil:
+What is going on here?! Damned
+ruffians, as Prince of Seraphyn,
+I'll never forgive you if you
+lay so much as a finger on the
+other caravans!
+
+*The caravans attempt to escape to the right, only to be cut off by the sudden appearance of Yanndahl and his men, and are killed.*
+
+Xenith:
+Seems we're surrounded. Get
+into formation, lads! Our
+objective: Protect the Prince!
+Let's get to work!
+
+Myst:
+Finally, some entertainment. I was
+getting bored just sitting around
+standing on guard. Glac, you'd
+better stay out of my way.
+
+Glac:
+Yeah, yeah, jeez. Just shut
+up and get going.
+
+Daff:
+Oh, my. Are you three really alright?
+I know I asked you earlier, but now,
+with all these-
+
+Myst:
+Does man care?
+
+Glac:
+Does man care?
+
+*Clear Myst and Glac*
+
+Daff:
+Um. Be careful, I guess...?
+
+*Clear Daff*
+
+Horus:
+Lord Vergil, our best bet here
+is to aim for the commander
+leading these brutes before we
+head off to help the others.
+
+Vergil:
+Good thinking, Horus! Everyone!
+Let's make quick work of these
+ruffians and aid the other
+caravans ahead!
+
+MAP STARTS
+
+Turn 2, Player Phase:
+
+
+Vergil:
+Who are these men?! Their
+skills are much greater than
+a mere mountain bandit!
+
+Horus:
+Let's not fret over such
+details for now, Lord Vergil -
+I already have a scheme
+planned out for this. Just
+stick to my plan for now.
+
+Turn 3, Enemy Phase
+Yanndahl:
+This isn't good... boys!
+Get over here! We need
+some more men!
+
+Turn 5, Enemy Phase
+Yanndahl:
+How are those pipsqueaks 
+still alive? Looks like 
+it's time for me to step
+in. Show 'em what you've
+got, boys!
+
+YANNDAHL NO LONGER REMAINS STATIONARY.
+
+Boss Quote: 
+
+Yanndahl:
+So my men couldn't handle
+you, huh? Then I'll finish
+the job myself!
+
+Vergil vs. Yanndahl: 
+
+Vergil:
+Yanndahl!? What is the meaning
+of this treachery? You are
+sworn to serve the rulers
+of Seraphyn!
+
+Yanndahl:
+That's a question you won't
+get the answer to, princeling.
+All you need to do is say
+your last words... and die.
+
+Yanndahl Defeated:
+
+Yanndahl:
+Gah! That hurts like hell...!
+Boys, we're getting out of here!
+
+
+Ending:
+
+(ONLY IF YANNDAHL WAS NOT DEFEATED)
+
+Yanndahl:
+Bah, I'm sick of this little game.
+Boys, we're leaving! We've held
+off the princeling's little band
+long enough. I'm not dying just yet.
+
+(END OF BRANCH)
+
+Vergil:
+They're retreating! Quickly,
+everyone! Let's head off to
+the royal caravan!
+
+------
+
+Sme:
+It's worse than I thought...
+
+Daff:
+Oh, gods... the knights and
+the servants, they're all... 
+
+*Daff faints*
+
+Sme:
+Daff? DAFF! Someone, help me
+out here! Daff collapsed-
+
+Tray:
+Hold it! I think I see a bunch
+of people! Is that... Orion?
+
+*camera moves up to Runa and Orion.*
+
+Runa:
+And that's that. The Tyrant
+King has been felled.
+
+Orion:
+Y-You... you monster! You do know...
+you aren't doing anything good
+for "the future of Ternon", do you...?
+
+Runa:
+Hmm? You're still alive? You're
+a good man. I'll give you two
+options - flee, or perish here
+with the rest of this lot.
+
+Orion:
+His Majesty and Her Highness...
+THEY WILL BE AVENGED!
+
+*EVENT BATTLE BETWEEN RUNA AND ORION. ORION MISSES, AND RUNA RETALIATES WITH A CRIT.*
+
+Orion:
+Argh! I'm... I'm sorry,
+your majesty... 
+
+Runa:
+So in the end, you're just like
+the rest of them - brainwashed
+by the devilish von Siegfried
+family. How pitiful.
+
+Orion:
+Do not insult... their names...
+long live... Prince... Vergil!
+
+Runa:
+That's enough of you.
+
+*Runa yeets Orion off the bridge*
+
+Runa:
+Now, how does our
+princeling fare?
+
+*The PJs arrive at the scene.*
+
+Vergil:
+Father, Mother... Damn those
+assassins! I'll cleave their-
+
+Horus:
+Vergil, hold! We're at
+risk as it is! Don't
+make matters any worse!
+
+Vergil:
+Horus, shut up! How could you
+say that? Look at what they
+did to my family! My flesh and
+blood! Do you think they'd
+want us to just leave this be?!
+What sort of "plan" involves
+LEAVING MY PARENTS ROTTING
+ON THE GROUND?!
+
+Runa:
+Hmm? The princeling is still alive,
+is he? I had low expectations of
+Yanndahl, but he's somehow managed
+to disappoint me. Oh well, I'll
+have to take matters into my hands.
+
+Glac:
+This sure went from bad to
+terrible really quickly.
+I think this is the part
+we run.
+
+Xenith:
+This is bad! Everyone! Grab
+whoever you can and RUN!!
+
+*Myst tries grabbing Vergil*
+
+Myst:
+Oi! Settle down! We need
+to get out of here!
+
+Vergil:
+I... I... Rrgh!
+
+*Clear Vergil*
+
+Xenith:
+You! Scout the area ahead for the
+safest pathway! We're breaking
+through to safety.
+
+Tray:
+...my brothers, they're all... Horus,
+please... tell us what to do.
+
+Horus:
+Tray, we can mourn later. We've
+all lost something precious today,
+but we need to keep living more
+than anything. Now GO!
+
+Tray:
+...Got it, Horus.
+
+*some people get rescued and they all run offscreen*
+
+Runa:
+Hah. You made the right choice,
+Dark Prince. How smart of you.
+Though, for how much longer
+can you escape our judgment?
+
+------
+
+*Nighttime, in a nearby forest*
+
+Vergil: ...
+
+Daff:
+What in gods' name just transpired...?
+Oh, why can't we return to those
+normal relaxing days once more...
+
+Myst:
+Whatever it was it sure as hell
+was nasty. I'd count ourselves
+lucky we managed to get this
+far without pursuit.
+
+Glac:
+Sooo... Where are we heading
+now? Kinda bored from all
+this traveling.
+
+Horus:
+We ride to the capital. If
+we travel through the night
+at our current pace, we
+should be back by dawn.
+Continue pushing on, everyone.
+
+Xenith:
+Those two don't seem to be
+doing too well. You sure we
+shouldn't rest up for a bit?
+
+Horus:
+That's not an option. It'd be far
+too dangerous considering the
+recent events. If we don't keep
+running, we're as good as dead.
+
+Sme (offscreen):
+Aaagh!
+
+Glac:
+...What was that?
+
+*sme appears*
+
+Sme:
+Ugh... E-enemies!
+
+Horus:
+Sme, you're bleeding!
+What happened?!
+
+*Seraphyn soldiers appear*
+
+Arxhat Soldier:
+Is this Prince Vergil's band?
+
+Vergil:
+...Yes, it is. ...Are you
+here to escort us back?
+
+Arxhat Soldier:
+Former prince Vergil of Seraphyn.
+I hereby declare to you a death
+sentence for the murder of the
+former king and queen.
+...King Arxhat's orders.
+
+*screen fades to black* 
+
