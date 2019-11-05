@@ -80,6 +80,19 @@ REMU Kabby
 REMU Stephen
 REMU Anthony
 REMU Leo
+SetBackground(Black)
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+MUSC The_Beginning
+TEXTSHOW PJ1Narration
+TEXTEND
+ClearBackground
+MUSC Advance
+Text(Riverside,PJ1OpeningBeforeAttack)
+MUSC Solve_the_Riddle
+Text(Plain,PJ1OpeningYanndahlRuna)
+MUSC Tension
+Text(Riverside,PJ1OpeningAttack)
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
