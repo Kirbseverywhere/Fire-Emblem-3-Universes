@@ -185,7 +185,9 @@ What do you think you're doing?![A][X]
 [OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
 
 ## YanndahlDeathQuote
-[OpenMidRight][LoadFace][0x50][0x01]YanndahlDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x50][0x01]
+Gah! That hurts like hell...![N]
+Boys, we're getting out of here![A][X]
 
 ## BrucknerDeathQuote
 [OpenMidRight][LoadFace][0x51][0x01]BrucknerDeathQuote[A][X]

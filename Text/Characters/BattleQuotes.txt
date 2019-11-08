@@ -43,6 +43,30 @@ Now shoo![A]
 [Clear][MidRight][LoadRodin]
 Cease your nonsense, mongrel.[A][X]
 
+## PJ1YanndahlBattleQuote
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+#Yanndahl:
+So my men couldn't handle[N]
+you, huh? Then I'll finish[AN]
+the job myself![A][X]
+
+## PJ1YanndahlVsVergil
+
+[MR][LoadVergil]
+#Vergil:
+Yanndahl!? What is the meaning[N]
+of this treachery? You are[AN]
+sworn to serve the rulers[N]
+of Seraphyn![A]
+
+#Yanndahl:
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+That's a question you won't[N]
+get the answer to, princeling.[AN]
+All you need to do is say[N]
+your last words... and die.[A][X]
+
+
 ## KajarnVsDiana
 B: Halt! I won't allow this to go on!
 D: Are you the head of the village?

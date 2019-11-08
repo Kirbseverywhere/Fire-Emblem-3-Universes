@@ -40,8 +40,9 @@ for the rest of the trip.[A]
 #Daff:
 [FL]
 Still, you look weary, milord.[N]
-Rest is important every now and[AN]
-then, you know.[A]
+I probably don't have to remind[AN]
+you that you should take it[N]
+easy every now and then, but...[A]
 
 #Vergil:
 [MR]
@@ -51,8 +52,10 @@ I can't manage, however.[A]
 
 #Daff:
 [FL]
-Oh, I see... very well then, milord.[N]
-I'll go and check on the others, too.[A]
+Oh, um... If you say so, I'll try[N]
+to take your word for it. I-I...[AN]
+think I ought to go and check on[N]
+the others, too.[A]
 
 #*Daff leaves*
 [Clear]
@@ -219,24 +222,26 @@ prince and his riff-raff gang.[AN][X]
 [MR][LoadVergil]
 #Vergil:
 What is going on here?! Damned[N]
-ruffians, as Prince of Seraphyn,[AN]
+cowards! As Prince of Seraphyn,[AN]
 I'll never forgive you if you[N]
 lay so much as a finger on the[AN]
 other caravans![A]
-[Clear]
 
 #*The caravans attempt to escape to the right, only to be cut off by the sudden appearance of Yanndahl and his men, and are killed.*
+
+What? They've cut the caravans[N]
+off?! You dastards, you'll all[AN]
+pay with your blood![A]
+
 [FR][LoadXenith]
 [Right][LoadMyst]
 [Left][LoadGlac]
-[FL][LoadDaff]
+#[FL][LoadDaff]
 
 #Xenith:
 [FR]
-Seems we're surrounded. Get[N]
-into formation, lads! Our[AN]
-objective: Protect the Prince![N]
-Let's get to work![AN]
+Really? An attack, now? And I thought[N]
+I could finally get some rest.[A]
 
 #Myst:
 [Right]
@@ -247,202 +252,223 @@ better stay out of my way.[AN]
 
 #Glac:
 [Left]
-Yeah, yeah, jeez. Just shut[N]
-up and get going.[A]
+Yeah, yeah, jeez. I'll gladly leave[N]
+you to die, then.[A]
 
-#Daff:
-[FL]
-Oh, my. Are you three really alright?[N]
-I know I asked you earlier, but now,[AN]
-with all these-[AN]
+[FL][LoadHorus]
 
-#Myst:
-[Right]
-Does man care?[A]
+Hey! What's wrong with you three?! Stop[N]
+lollygagging, we're under attack![A]
+
 
 #Glac:
 [Left]
-Does man care?[A]
-[Right][Clear][Left][Clear]
+...I told you to just shut[N]
+up and get going...[A]
+[Right][Clear][Left][Clear][FR][Clear]
 
-#*Clear Myst and Glac*
-
-#Daff:
-[FL]
-Um. Be careful, I guess...?[A]
-
-#*Clear Daff*
-[Clear]
-[LoadHorus][Left][LoadVergil]
+#*Clear Xenith, Myst and Glac*
 
 [FL]#Horus:
-Lord Vergil, our best bet here[N]
-is to aim for the commander[AN]
-leading these brutes before we[N]
-head off to help the others.[A]
-
-[Left]#Vergil:
-Good thinking, Horus! Everyone![N]
-Let's make quick work of these[AN]
-ruffians and aid the other[N]
-caravans ahead![A]
+Right. Anyways, for our battle plan...[N]
+Hey, Lord Vergil?! You can't just[AN]
+run off on your own! Hey![A]
 #MAP STARTS
 [X]
 
 
 
-## PJ1Turn2PlayerScene
+## PJ1HorusVergilTalk
+[MR][LoadVergil][ML][LoadHorus]
+[ML]
+#Horus:
+There you are, Lord Vergil![N]
+How rash can you be?![A]
 
-Vergil:
-Who are these men?! Their[N]
-skills are much greater than[AN]
-a mere mountain bandit![A]
+[MR]
+#Vergil:
+You don't understand,[N]
+Horus! You saw what[AN]
+these monsters did to[N]
+the other caravans! We[AN]
+can't just let them go[N]
+so easily![AN]
 
-Horus:
-Let's not fret over such[N]
-details for now, Lord Vergil -[AN]
-I already have a scheme[N]
-planned out for this. Just[AN]
-stick to my plan for now.[A][X]
+[ML]
+#Horus:
+At least hear me out! I have[N]
+a plan for this battle - and[AN]
+it involves getting your[N]
+desired revenge.[AN]
+
+[MR]
+#Vergil:
+Oh? I'm all ears.[A]
+
+[ML]
+#Horus:
+Right. our best bet here is to[N]
+aim for the commander leading[AN]
+these brutes before we head off[N]
+to help the others. We might[AN]
+have to split our forces - these[N]
+assassins have more men waiting[AN]
+in reserve, for sure.[A][X]
 
 ## PJ1Turn3EnemyScene
-Yanndahl:
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+#Yanndahl:
 This isn't good... boys![N]
 Get over here! We need[AN]
 some more men![A][X]
 
 ## PJ1Turn5EnemyScene
-Yanndahl:
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+#Yanndahl:
 How are those pipsqueaks[N]
 still alive? Looks like[AN]
 it's time for me to step[N]
 in. Show 'em what you've[AN]
 got, boys![A]
-YANNDAHL NO LONGER REMAINS STATIONARY.
+#YANNDAHL NO LONGER REMAINS STATIONARY.
 [X]
 
+## PJ1YanndahlLives
 
-## PJ1YanndahlCombat
-Yanndahl:
-So my men couldn't handle[N]
-you, huh? Then I'll finish[AN]
-the job myself![A]
-
-Vergil vs. Yanndahl: 
-
-Vergil:
-Yanndahl!? What is the meaning[N]
-of this treachery? You are[AN]
-sworn to serve the rulers[N]
-of Seraphyn![A]
-
-Yanndahl:
-That's a question you won't[N]
-get the answer to, princeling.[AN]
-All you need to do is say[N]
-your last words... and die.[A]
-
-Yanndahl Defeated:
-
-Yanndahl:
-Gah! That hurts like hell...![N]
-Boys, we're getting out of here![A]
-
-
-Ending:
-
-(ONLY IF YANNDAHL WAS NOT DEFEATED)
-
-Yanndahl:
+#(ONLY IF YANNDAHL WAS NOT DEFEATED)
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+#Yanndahl:
 Bah, I'm sick of this little game.[N]
 Boys, we're leaving! We've held[AN]
 off the princeling's little band[N]
-long enough. I'm not dying just yet.[A]
+long enough. I'm not dying just yet.[A][X]
 
-(END OF BRANCH)
+## PJ1EndingCaravan
 
-Vergil:
+[MR][LoadVergil]
+#Vergil:
 They're retreating! Quickly,[N]
 everyone! Let's head off to[AN]
-the royal caravan![A]
+the royal caravan![A][X]
 
-------
-
-Sme:
+## PJ1EndingOrionSpotted
+[Left][LoadSmeglinde][Right][LoadDaff]
+[Left]
+#Sme:
 It's worse than I thought...[A]
-
-Daff:
+[Right]
+#Daff:
 Oh, gods... the knights and[N]
-the servants, they're all... [A]
+the servants, they're all...[A]
+[Clear]
 
-*Daff faints*
+#*Daff faints*
 
-Sme:
-Daff? DAFF! Someone, help me[N]
-out here! Daff collapsed-[A]
+[Left]
+#Sme:
+Daff! Are you alright?[A]
 
-Tray:
-Hold it! I think I see a bunch[N]
-of people! Is that... Orion?[A]
+[Right][LoadDaff]
+#Daff:
+Don't worry about me...[N]
+I was just feeling a[AN]
+little faint. Maybe[N]
+I'll rest for a- huh?[A]
 
-*camera moves up to Runa and Orion.*
+[FR][LoadHorus]
+What is it, Daff?[A]
 
-Runa:
+#Daff:
+[Right]
+Who's that coming[N]
+to us? Is that...[A]
+
+[ML][LoadFace][0x44][0x01]#random number, no Orion portrait
+#while I'm at it: I need NPC portrait space and I need to not clobber vanilla villagers
+#Orion:
+You... what are you[N]
+doing here?![A][X]
+
+## PJ1EndingRunaOrion
+#*camera moves up to Runa and Orion.*
+
+[MidLeft][LoadFace][0x54][0x01]#some random portrait, placeholder Runa
+[MR][LoadFace][0x44][0x01]#random number, no Orion portrait
+[ML]
+#Runa:
 And that's that. The Tyrant[N]
 King has been felled.[A]
 
-Orion:
+[MR]
+#Orion:
 Y-You... you monster! You do know...[N]
 you aren't doing anything good[AN]
 for "the future of Ternon", do you...?[A]
 
-Runa:
+[ML]
+#Runa:
 Hmm? You're still alive? You're[N]
 a good man. I'll give you two[AN]
 options - flee, or perish here[N]
 with the rest of this lot.[A]
 
-Orion:
+[MR]
+#Orion:
 His Majesty and Her Highness...[N]
 THEY WILL BE AVENGED![A]
+#*EVENT BATTLE BETWEEN RUNA AND ORION. ORION MISSES, AND RUNA RETALIATES WITH A CRIT.*
+[X]
 
-*EVENT BATTLE BETWEEN RUNA AND ORION. ORION MISSES, AND RUNA RETALIATES WITH A CRIT.*
 
-Orion:
+## PJ1EndingRunaOrion2
+[MidLeft][LoadFace][0x54][0x01]#some random portrait, placeholder Runa
+[MR][LoadFace][0x44][0x01]#random number, no Orion portrait
+
+[MR]
+#Orion:
 Argh! I'm... I'm sorry,[N]
 your majesty... [A]
 
-Runa:
+[ML]
+#Runa:
 So in the end, you're just like[N]
 the rest of them - brainwashed[AN]
 by the devilish von Siegfried[N]
 family. How pitiful.[A]
 
-Orion:
+[MR]
+#Orion:
 Do not insult... their names...[N]
 long live... Prince... Vergil![A]
 
-Runa:
-That's enough of you.[A]
+[ML]
+#Runa:
+That's enough of you.[A][N]
 
-*Runa yeets Orion off the bridge*
-
-Runa:
+#*Runa throws Orion off the bridge*
+[MR][Clear]
+[ML]
+#Runa:
 Now, how does our[N]
-princeling fare?[A]
+princeling fare?[A][X]
 
-*The PJs arrive at the scene.*
+## PJ1EndingDeadParentsFound
+#*The PJs arrive at the scene.*
 
-Vergil:
+[Left][LoadVergil][Right][LoadHorus]
+[Left]
+#Vergil:
 Father, Mother... Damn those[N]
 assassins! I'll cleave their-[A]
 
-Horus:
+[Right]
+#Horus:
 Vergil, hold! We're at[N]
 risk as it is! Don't[AN]
 make matters any worse![A]
 
-Vergil:
+[Left]
+#Vergil:
 Horus, shut up! How could you[N]
 say that? Look at what they[AN]
 did to my family! My flesh and[N]
@@ -451,132 +477,283 @@ want us to just leave this be?![N]
 What sort of "plan" involves[AN]
 LEAVING MY PARENTS ROTTING[N]
 ON THE GROUND?![AN]
+[Right][MoveFarRight][Left][Clear][Right][LoadVergil][MidLeft][LoadFace][0x54][0x01]
 
-Runa:
+#Runa:
 Hmm? The princeling is still alive,[N]
 is he? I had low expectations of[AN]
 Yanndahl, but he's somehow managed[N]
 to disappoint me. Oh well, I'll[AN]
 have to take matters into my hands.[A]
 
-Glac:
+[FR][Clear][LoadGlac]
+#Glac:
 This sure went from bad to[N]
 terrible really quickly.[AN]
 I think this is the part[N]
 we run.[A]
 
-Xenith:
+[Clear][LoadXenith]
+#Xenith:
 This is bad! Everyone! Grab[N]
 whoever you can and RUN!![A]
 
-*Myst tries grabbing Vergil*
+#*Myst tries grabbing Vergil*
+[Clear][LoadMyst]
 
-Myst:
+#Myst:
 Oi! Settle down! We need[N]
 to get out of here![A]
 
-Vergil:
+[Right]
+#Vergil:
 I... I... Rrgh![A]
 
-*Clear Vergil*
-
-Xenith:
+#*Clear Vergil*
+[Clear][FR][Clear][LoadXenith][Right][LoadTray]
+[FR]
+#Xenith:
 You! Scout the area ahead for the[N]
 safest pathway! We're breaking[AN]
 through to safety.[A]
 
-Tray:
-...my brothers, they're all... Horus,[N]
+[Right]
+#Tray:
+...My brothers, they're all... Horus,[N]
 please... tell us what to do.[A]
 
-Horus:
+[FR][Clear][LoadHorus]
+#Horus:
 Tray, we can mourn later. We've[N]
 all lost something precious today,[AN]
 but we need to keep living more[N]
 than anything. Now GO![A]
 
-Tray:
+[Right]
+#Tray:
 ...Got it, Horus.[A]
+#*some people get rescued and they all run offscreen*
+[X]
 
-*some people get rescued and they all run offscreen*
-
-Runa:
+## PJ1EndingRunaSoloLine
+[MidLeft][LoadFace][0x54][0x01]
+#Runa:
 Hah. You made the right choice,[N]
 Dark Prince. How smart of you.[AN]
 Though, for how much longer[N]
-can you escape our judgment?[A]
+can you escape our judgment?[A][X]
 
-------
 
-*Nighttime, in a nearby forest*
+## PJ1EndingForestScene
 
-Vergil: ...
+#*Nighttime, in a nearby forest*
 
-Daff:
+[FL][LoadDaff]
+[Left][LoadMyst]
+[Right][LoadVergil]
+[FR][LoadHorus]
+
+[Right]
+#Vergil:
+...[A]
+
+[FL]
+#Daff:
 What in gods' name just transpired...?[N]
 Oh, why can't we return to those[AN]
 normal relaxing days once more...[A]
 
-Myst:
+[Left]
+#Myst:
 Whatever it was it sure as hell[N]
 was nasty. I'd count ourselves[AN]
 lucky we managed to get this[N]
 far without pursuit.[A]
+[Clear][LoadGlac]
 
-Glac:
+#Glac:
 Sooo... Where are we heading[N]
 now? Kinda bored from all[AN]
 this traveling.[A]
 
-Horus:
+[FR]
+#Horus:
 We ride to the capital. If[N]
 we travel through the night[AN]
 at our current pace, we[N]
 should be back by dawn.[AN]
 Continue pushing on, everyone.[A]
 
-Xenith:
+[FL][Clear][LoadXenith]
+#Xenith:
 Those two don't seem to be[N]
 doing too well. You sure we[AN]
 shouldn't rest up for a bit?[A]
 
-Horus:
+[FR]
+#Horus:
 That's not an option. It'd be far[N]
 too dangerous considering the[AN]
 recent events. If we don't keep[N]
 running, we're as good as dead.[A]
 
-Sme (offscreen):
+[FL][Clear]
+[FFL][LoadSmeglinde]
+#Sme (offscreen):
 Aaagh![A]
 
-Glac:
+[Left]
+#Glac:
 ...What was that?[A]
 
-*sme appears*
+#*sme appears*
+[FFL][MoveFarLeft]
 
-Sme:
+#Sme:
 Ugh... E-enemies![A]
 
-Horus:
+[FR]
+#Horus:
 Sme, you're bleeding![N]
-What happened?![A]
+What happened?![A][X]
 
-*Seraphyn soldiers appear*
 
-Arxhat Soldier:
+## PJ1EndingArxhatMenAppear
+#*Seraphyn soldiers appear*
+[Left][LoadFace][0x6A][0x01]#whatever generic soldier is
+[Right][LoadVergil][FarRight][LoadSmeglinde]
+
+[Left]
+#Seraphyn? Soldier:
+Looks like we've made it in time.[N]
 Is this Prince Vergil's band?[A]
 
-Vergil:
+[Right]
+#Vergil:
 ...Yes, it is. ...Are you[N]
 here to escort us back?[A]
 
-Arxhat Soldier:
-Former prince Vergil of Seraphyn.[N]
-I hereby declare to you a death[AN]
-sentence for the murder of the[N]
-former king and queen.[AN]
-...King Arxhat's orders.[A]
+[Left]
+#Arxhat Soldier:
+Escort you back? Of course,[N]
+Your Highness. We will[AN]
+protect you and-[A]
 
-*screen fades to black* 
+[FR]
+#Sme:
+D-don't trust them! They're[N]
+here to kill us![AN]
+
+[Clear][LoadHorus]
+#Horus:
+What? Everyone, look out![A]
+
+#*More Seraphyn Soldiers come out of hiding*
+[FarLeft][LoadFace][0x6A][0x01]#whatever generic soldier is
+
+[Right]
+#Vergil:
+What in the-[A]
+
+[FL]
+#Arxhat Soldier:
+Yanndahl let you slip off freely. We[N]
+won't let it happen a second time.[A]
+
+[Right]
+#Vergil:
+You... you traitors![A]
+#*screen fades to black*
+[X]
+
+## PJ1EndingArxhatYanndahl
+
+#*scene changes to the Seraphyn palace, with Arxhat and Yanndahl.*
+[MidRight][LoadFace][0x50][0x01]#Yanndahl
+[MidLeft][LoadFace][0x56][0x01]#some random number for Arxhat
+
+[ML]
+#Arxhat:
+Of course, Yanndahl. Your failure[N]
+was an inconvenience, but it's[AN]
+nothing I can't remedy with some...[N]
+outside help.[A]
+
+[MR]
+#Yanndahl:
+Better than nothing,[N]
+I suppose.[A]
+
+[ML]
+#Arxhat:
+The coup is flowing as I planned. A[N]
+month or so, and the nobles will[AN]
+have to recognise me as the next[N]
+King of Seraphyn. Then, Seraphyn[AN]
+will finally be able to fight back[N]
+against those Novingale scum.[AN]
+
+[MR]
+#Yanndahl:
+That's fine and all, what if Vergil[N]
+escapes the death squad you sent[AN]
+out? What's stopping him from just[N]
+marching to the capital?[A]
+
+[ML]
+#Arxhat:
+Even if he does, I've already convinced[N]
+the people that he's dead. It'd be[AN]
+child's play to change that story up a[N]
+little - say, that he murdered his[AN]
+parents and hid from my search teams.[A]
+
+[MR]
+#Yanndahl:
+Hmph. Quite the scheming one, aren't[N]
+you. As for your search teams, do[AN]
+I have to bring in the boys?[A]
+
+[ML]
+#Arxhat:
+No, you won't have to do anything[N]
+about that. The coup hasn't ended,[AN]
+but I've already gained quite the[N]
+influence amongst the military.[AN]
+Come on in, Commander![A]
+
+[ML][MoveFarLeft]
+[MR][Clear][Left][LoadFace][0x50][0x01]#Yanndahl
+[Right][LoadFace][0x51][0x01]#Bruckner
+[FR][LoadFace][0x52][0x01]#Darach probably
+
+#*Darach and Bruckner move into view of the camera*
+
+[FR]
+#Darach:
+You called, Lord Arxhat?[A]
+
+[Left]
+#Yanndahl:
+Tch, Seraphyn knights?[A]
+
+[FL]
+#Arxhat:
+Correct, Yanndahl. Commander, you[N]
+will hunt down Vergil and his[AN]
+turncoats for us. Show those traitors[N]
+the might of the Seraphyn army.[A]
+
+[FR]
+#Darach:
+As you wish. Lieutenant Bruckner,[N]
+you're in charge of this rabble.[A]
+
+[Right]
+#Bruckner:
+Heh. I've been waiting for this... The[N]
+day where justice can be dealt out.[A]
+
+#*fade to black*
 
 [X]
