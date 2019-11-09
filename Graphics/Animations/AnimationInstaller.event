@@ -30,3 +30,6 @@
 {
 #include "Knight/BowKnight.event"
 }
+{
+#include "Vergil Lord/Vergil.event"
+}
