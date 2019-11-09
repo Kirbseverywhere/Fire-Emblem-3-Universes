@@ -146,4 +146,5 @@ ENDA
 
 HorusVergilConvo:
 Text(PJ1HorusVergilTalk)
+NoFade
 ENDA
