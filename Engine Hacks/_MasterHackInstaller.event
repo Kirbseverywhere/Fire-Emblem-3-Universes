@@ -145,8 +145,7 @@ POP
   //  #include "Raid/Raid.event"
   
   //Modular Supply
-  //Not playing nice, no supply for you
-  //#include "ModularSupply/ModularSupply.event"
+  #include "ModularSupply/ModularSupply.event"
   
   //Forging And Equip Items System
   #include "ForgingAndItemEquip/Installer.event"
