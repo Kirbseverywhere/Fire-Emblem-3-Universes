@@ -1,5 +1,5 @@
 WorldMapPointerTable(1,WM_Events)
-#define BeginWorldMap "EVBIT_MODIFY 0x1; _0xC220; WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0; STAL 2; WM_FADEOUT 0x0 0x0 0x0"
+#define BeginWorldMap "/*EVBIT_MODIFY 0x1*/; _0xC220; WM_SHOWDRAWNMAP 0x0 0x0 0x0 0x10 0x0; STAL 2; WM_FADEOUT 0x0 0x0 0x0"
 #define WorldMapShowTextBox "WM_TEXTDECORATE; WM_SHOWTEXTWINDOW 0x0 0x28 0x1; WM_WAITFORTEXT"
 #define WorldMapTextBegin(textID) "WM_TEXTSTART; WM_TEXT textID"
 #define WorldMapShowPortraitLeft(portraitID) "WM_SHOWPORTRAIT portraitID 1332"
@@ -18,8 +18,10 @@ MUSC 0x4
 WorldMapShowTextBox
 WorldMapTextBegin(Part0Ch1WorldMapText1)
 TEXTEND
+FADI 16
 SKIPWN
 ENDA
+/*
 STAL 6
 WorldMapLoadMapSprite(0x2, Magus, 0)
 WorldMapDisplayMapSprite(0x2, 0, 70, 70, 16)
@@ -59,4 +61,4 @@ TEXTEND
 WM_WAITFORSPRITES 0x0 0xFFFF 0xFFFF
 FADI 16
 SKIPWN
-ENDA
+ENDA*/
