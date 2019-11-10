@@ -1,11 +1,17 @@
-# 0x0793 RLMapTheme
+# 0x078B RLMapTheme
 Girl of the Spirit Forest[X]
 
-# 0x0794 PJMapTheme
+## PJMapTheme
 Tempest of Seasons[X]
 
-# 0x0795 ABMapTheme
+## ABMapTheme
 Fodlan Winds[X]
 
-# 0x07C0 BattlePrepTheme
+## BattlePrepTheme
 Team Making[X]
+
+## FireEmblemTheme
+Main Theme[X]
+
+## BearTheme
+With My Bear Hands[X]

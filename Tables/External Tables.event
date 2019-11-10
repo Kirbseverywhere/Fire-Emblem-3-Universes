@@ -102,6 +102,10 @@ BattleQuote(AnyCharacter, Borgas, 1, BossFoughtFlag, BorgasBattleQuote)
 BattleQuote(Rodin, Alva, 2, 0xC, AlvaVsRodin)
 BattleQuote(AnyCharacter, Alva, 2, BossFoughtFlag, AlvaBattleQuote)
 BattleQuote(Alva, AnyCharacter, 2, BossFoughtFlag, AlvaBattleQuote)
+BattleQuote(Vergil, Yanndahl, 16, 0x10, PJ1YanndahlVsVergil)
+BattleQuote(Yanndahl, AnyCharacter, 16, BossFoughtFlag, PJ1YanndahlBattleQuote)//placeholder any chapter until i define each route's chapters
+BattleQuote(AnyCharacter, Yanndahl, 16, BossFoughtFlag, PJ1YanndahlBattleQuote)
+
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
 

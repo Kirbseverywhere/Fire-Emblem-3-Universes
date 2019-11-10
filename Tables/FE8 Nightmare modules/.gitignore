@@ -1,3 +1,5 @@
 
 # table events
 *.event
+# openoffice locks
+*.csv#

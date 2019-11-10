@@ -142,7 +142,11 @@ POP
   
   // If uncommented, Raid will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
-  // #include "Raid/Raid.event"
+  //  #include "Raid/Raid.event"
+  
+  //Modular Supply
+  //Not playing nice, no supply for you
+  //#include "ModularSupply/ModularSupply.event"
   
   //Forging And Equip Items System
   #include "ForgingAndItemEquip/Installer.event"
