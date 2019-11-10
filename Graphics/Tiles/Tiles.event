@@ -28,7 +28,9 @@ POIN FE3HMenuTilesPalette //Prep Screen
 ORG 0x36D2C
 POIN FE3HMenuTilesPalette
 ORG 0x36D34
-POIN FE3HMenuTilesPalette+0x20 //Battle Preview
+POIN FE3HMenuTilesPalette+0x20 
+ORG 0x36D3C
+POIN FE3HMenuTilesPalette+0x40 //Battle Preview
 
 #define MenuTile(tileID) "0x1000|tileID"
 ORG 0xDA380
@@ -99,6 +101,9 @@ POIN SoundRoomVolumeWindowTSA
 
 ORG 0xAF7CC
 POIN SoundRoomSongWindowTSA
+
+ORG 0xCEEFC
+POIN GuideMenuTSA
 POP
 
 ALIGN 4
@@ -214,3 +219,7 @@ SoundRoomVolumeWindowTSA:
 ALIGN 4
 SoundRoomSongWindowTSA:
 #incbin "SoundRoomSongWindowTSA.bin"
+
+ALIGN 4
+GuideMenuTSA:
+#incbin "GuideMenuTSA.bin"

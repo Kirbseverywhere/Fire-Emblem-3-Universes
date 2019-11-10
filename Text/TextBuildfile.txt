@@ -17,7 +17,8 @@ Learned  [X]
 #include "EngineHacks\StatScreenText.txt"
 
 #0x509 GauntletWeaponTypeName
-Gauntlet[X]
+#Gauntlet overflows
+Fists[X]
 
 ## ReasonWeaponTypeName
 Reason[X]
@@ -41,6 +42,16 @@ Boosts nearby units' Morale.[X]
 ## GauntletWeaponTypeDesc
 Gauntlet mastery level.[X]
 
+# 0x5C9 GuideSection1
+Changed[X]
+
+## GuideSection2
+What's New[X]
+
+## GuideSection3
+New Options[X]
+
+#include "Menu\SoundRoom.txt"
 
 #0xd4c FreeBlockBegins
 #first text ID in the free block
@@ -55,3 +66,5 @@ Gauntlet mastery level.[X]
 #include "Items\ItemText.txt"
 
 #include "Story\StoryBuildfile.txt"
+
+#include "Menu\GuideText.txt"

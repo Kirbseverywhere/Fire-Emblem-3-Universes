@@ -13,13 +13,22 @@ ORG 0x8472C
 POIN DeathQuoteTable
 POP
 
+// Battle quotes
+PUSH
+ORG 0x846AC
+POIN BattleQuoteTable
+POP
+
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN 0"
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID, Event) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN Event"
-
+#define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID) "SHORT Initiator Receiver Chapter Flag TextID 0; POIN 0"
+#define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID, Event) "SHORT Initiator Receiver Chapter Flag TextID 0; POIN Event"
 #define AnyChapter 0xFF
 #define AnyMode 0xFF
+#define AnyCharacter 0x00
 #define GameOverFlag 0x65
 #define BossKilledFlag 0x2
+#define BossFoughtFlag 0x1
 
 ALIGN 4
 DeathQuoteTable:
@@ -85,3 +94,44 @@ DeathQuote(Rynod, AnyMode, AnyChapter, BossKilledFlag, RynodDeathQuote)
 DeathQuote(Ilyron, AnyMode, AnyChapter, BossKilledFlag, IlyronDeathQuote)
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+BattleQuoteTable:
+BattleQuote(Rodin, Borgas, 1, 0x9, BorgasVsRodin)
+BattleQuote(Borgas, AnyCharacter, 1, BossFoughtFlag, BorgasBattleQuote)
+BattleQuote(AnyCharacter, Borgas, 1, BossFoughtFlag, BorgasBattleQuote)
+BattleQuote(Rodin, Alva, 2, 0xC, AlvaVsRodin)
+BattleQuote(AnyCharacter, Alva, 2, BossFoughtFlag, AlvaBattleQuote)
+BattleQuote(Alva, AnyCharacter, 2, BossFoughtFlag, AlvaBattleQuote)
+BattleQuote(Vergil, Yanndahl, 16, 0x10, PJ1YanndahlVsVergil)
+BattleQuote(Yanndahl, AnyCharacter, 16, BossFoughtFlag, PJ1YanndahlBattleQuote)//placeholder any chapter until i define each route's chapters
+BattleQuote(AnyCharacter, Yanndahl, 16, BossFoughtFlag, PJ1YanndahlBattleQuote)
+
+
+WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+
+ 
+// Stat Boosts
+ShieldStatBoosts:
+BYTE 0 0 0 (-2) 2 0 0 0 0 0 // Hp Str Skl Spd Def Res Luk Mov Con Mag
+ALIGN 4
+
+CaduceusStatBoosts:
+BYTE 0 0 0 0 0 0 0 0 0 3
+ALIGN 4
+
+// Guide
+PUSH
+ORG 0xCEF74
+SHORT 0x2200 // Prevent Sorting
+#define MainGuideEntry(sectionID, chapterID, entryName, entryContent, flagID, readFlagID) "BYTE sectionID chapterID; SHORT entryName entryContent flagID readFlagID 0"
+ORG 0xB19E0C
+MainGuideEntry(1, 0, GuideStrMagName, GuideStrMagDesc, 0xB4, 0xB5)
+MainGuideEntry(1, 0, GuideReasonFaithName, GuideReasonFaithDesc, 0xB6, 0xB7)
+MainGuideEntry(2, 0, GuideSkillSystemName, GuideSkillSystemDesc, 0xB8, 0xB9)
+MainGuideEntry(2, 0, GuideAccessoriesName, GuideAccessoriesDesc, 0xBA, 0xBB)
+MainGuideEntry(3, 0, GuideUnitColorName, GuideUnitColorDesc, 0xBC, 0xBD)
+MainGuideEntry(3, 0, GuideHpBarsName, GuideHpBarsDesc, 0xBE, 0xBF)
+MainGuideEntry(0xC, 0, 0, 0, 0, 0)
+WORD 0 0 0
+POP

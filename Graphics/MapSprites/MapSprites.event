@@ -1,4 +1,5 @@
 #define MovingMapSprite(classId, gfxPointer, apPointer) "PUSH; ORG (0x9A2DF8 + (classId * 8)); POIN gfxPointer apPointer; POP"
+#define StandingMapSprite(id, width, height, gfxPointer) "PUSH; ORG (0x8AF880 + (id * 8)); SHORT width height; POIN gfxPointer; POP"
 
 MovingMapSprite(Magus, 0x1D7E28, 0x1D8668)
 MovingMapSprite(GrandMagus, 0x1D91E4, 0x1D9B58)
@@ -94,5 +95,19 @@ MovingMapSprite(Fleet, 0x1EE6B0, 0x1EEC84)
 MovingMapSprite(DracoZombie, 0x1FB098, 0x1FBE5C)
 MovingMapSprite(ManaketeMorva, 0x1E21E0, 0x1E2F34)
 MovingMapSprite(ManaketeMyrrh, 0x1E308C, 0x1E39EC)
-MovingMapSprite(Bear, 0x1E640C, 0x1E6DF4)
+MovingMapSprite(Bear, BearMovingMapSpriteGFX, 0x1E2F34)
 MovingMapSprite(Wyvern, 0x1D32EC, 0x1D403C)
+
+StandingMapSprite(0x2F, 3, 2, BearStandingMapSpriteGFX)
+
+ALIGN 4
+BearMovingMapSpriteGFX:
+#incext Png2Dmp "BearMoving.png" --lz77
+
+ALIGN 4
+BearStandingMapSpriteGFX:
+#incext Png2Dmp "BearStanding.png" --lz77
+
+ALIGN 4
+BearMapSpritePalette:
+#incext Png2Dmp "BearStanding.png" --palette-only

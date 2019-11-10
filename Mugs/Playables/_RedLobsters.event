@@ -1,6 +1,6 @@
 
 #define RODIN_PRETIMESKIP_PORTRAIT Rodin
-setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 2, 5, 3, 3) 
+setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 3, 5, 3, 3) 
 KyuPreTimeskip:
 #incext PortraitFormatter "Kyu_PreTimeskip.png"
 
@@ -35,7 +35,7 @@ JonathenPreTimeskip:
 #incext PortraitFormatter "Jonathen_PreTimeskip.png"
 
 #define KAIDEN_PRETIMESKIP_PORTRAIT Kaiden
-setMugEntry(KAIDEN_PRETIMESKIP_PORTRAIT, KaidenPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(KAIDEN_PRETIMESKIP_PORTRAIT, KaidenPreTimeskip, 2, 6, 2, 4) 
 KaidenPreTimeskip:
 #incext PortraitFormatter "Kaiden_PreTimeskip.png"
 

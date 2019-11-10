@@ -1,122 +1,193 @@
 ## RodinDeathQuote
-[OpenMidRight][LoadFace][0x01][0x01]RodinDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x01][0x01]
+Gaaaah...! My people...[N]
+my dear countrymen...[AN]
+I will meet you on the[N]
+other side...[A][X]
 
 ## MichaelDeathQuote
-[OpenMidRight][LoadFace][0x02][0x01]MichaelDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x02][0x01]
+No...  This is it.[N]
+I did... what I could...[AN]
+for the empire... For[N]
+all of Novingale...[A][X]
 
 ## EricDeathQuote
-[OpenMidRight][LoadFace][0x03][0x01]EricDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x03][0x01]
+Is this really...[N]
+how it ends?...[AN]
+Rodin, you gave me[N]
+a chance...[A] And I've[N]
+failed you...[A][X]
 
 ## KellyDeathQuote
-[OpenMidRight][LoadFace][0x04][0x01]KellyDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x04][0x01]
+Not here... not yet![N]
+I can't... see...[A][X]
 
 ## QuaSahntDeathQuote
-[OpenMidRight][LoadFace][0x05][0x01]QuaSahntDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x05][0x01]
+This is not... where it's[N]
+supposed to end... No...[A][X]
 
 ## InnardsDeathQuote
-[OpenMidRight][LoadFace][0x06][0x01]InnardsDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x06][0x01]
+GRIIFIIIIIIISSS![A][X]
 
 ## JonathenDeathQuote
-[OpenMidRight][LoadFace][0x07][0x01]JonathenDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x07][0x01]
+...Ah, so this is the end...[N]
+But...[A] I've so much yet[N]
+to do...[A][X]
 
 ## KaidenDeathQuote
-[OpenMidRight][LoadFace][0x08][0x01]KaidenDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x08][0x01]
+I don't...[N]
+don't want to...[A][X]
 
 ## CleoDeathQuote
-[OpenMidRight][LoadFace][0x09][0x01]CleoDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x09][0x01]
+So... after everything...[N]
+this is where I'll lie.[AN]
+I should have...[N]
+given... more.[A][X]
 
 ## RedsDeathQuote
-[OpenMidRight][LoadFace][0x0A][0x01]RedsDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0A][0x01]
+Ugh... I had... a good run...[N]
+Sorry, guys...[A][X]
 
 ## MimiDeathQuote
-[OpenMidRight][LoadFace][0x0B][0x01]MimiDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0B][0x01]
+I guess... I failed[N]
+everybody...[A][X]
 
 ## ZoruaDeathQuote
-[OpenMidRight][LoadFace][0x0C][0x01]ZoruaDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0C][0x01]
+This text is a placeholder![A][X]
 
 ## VergilDeathQuote
 [OpenMidRight][LoadFace][0x0D][0x01]VergilDeathQuote[A][X]
 
 ## XenithDeathQuote
-[OpenMidRight][LoadFace][0x0E][0x01]XenithDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0E][0x01]
+All this work... all this time...[N]
+only to fail here... [A][X]
 
 ## TrayDeathQuote
-[OpenMidRight][LoadFace][0x0F][0x01]TrayDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0F][0x01]
+I-It hurts... I don't...[N]
+w-want to go just yet...Ve-[A][X]
 
 ## HorusDeathQuote
 [OpenMidRight][LoadFace][0x10][0x01]HorusDeathQuote[A][X]
 
 ## GlacDeathQuote
-[OpenMidRight][LoadFace][0x11][0x01]GlacDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x11][0x01]
+And to think... I could've[N]
+been doing anything else...[A][X]
 
 ## DaffDeathQuote
-[OpenMidRight][LoadFace][0x12][0x01]DaffDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x12][0x01]
+I knew I wasn't cut out[N]
+for this... Heh...[A][X]
 
 ## SmeglindeDeathQuote
 [OpenMidRight][LoadFace][0x13][0x01]SmeglindeDeathQuote[A][X]
 
 ## KabbyDeathQuote
-[OpenMidRight][LoadFace][0x14][0x01]KabbyDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x14][0x01]
+Oh, so you're just going to kill[N]
+me off like that?[A] Fine then,[N]
+see if I care, stinky.[A][X]
 
 ## StephenDeathQuote
-[OpenMidRight][LoadFace][0x15][0x01]StephenDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x15][0x01]
+A noble death?[N]
+This joke... isn't funny...[A][X]
 
 ## AnthonyDeathQuote
 [OpenMidRight][LoadFace][0x16][0x01]AnthonyDeathQuote[A][X]
 
 ## MystDeathQuote
-[OpenMidRight][LoadFace][0x17][0x01]MystDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x17][0x01]
+Looks like even I have my...[N]
+limits. See you all in hell...![A][X]
 
 ## LeoDeathQuote
-[OpenMidRight][LoadFace][0x18][0x01]LeoDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x18][0x01]
+I haven't done enough...[N]
+just to die now...[A][X]
 
 ## DianaDeathQuote
-[OpenMidRight][LoadFace][0x19][0x01]DianaDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x19][0x01]
+This is cliche, but... My friends...[N]
+I let you all down...[A][X]
 
 ## ZaneDeathQuote
 [OpenMidRight][LoadFace][0x1A][0x01]ZaneDeathQuote[A][X]
 
 ## AdamminnDeathQuote
-[OpenMidRight][LoadFace][0x1B][0x01]AdamminnDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1B][0x01]
+It's the end... but the moment[N]
+has been prepared for...[A][X]
 
 ## WilliamDeathQuote
-[OpenMidRight][LoadFace][0x1C][0x01]WilliamDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1C][0x01]
+H-heh, guess I got a little...[N]
+big for my b-britches...[A][X]
 
 ## NobodyDeathQuote
-[OpenMidRight][LoadFace][0x1D][0x01]NobodyDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1D][0x01]
+At least I'm worth[N]
+remembering now eh?[A][X]
 
 ## JackDeathQuote
-[OpenMidRight][LoadFace][0x1E][0x01]JackDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1E][0x01]
+Gah..! I can...[N]
+keep going...[A][X]
 
 ## LazulDeathQuote
-[OpenMidRight][LoadFace][0x1F][0x01]LazulDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1F][0x01]
+I'm not strong enough...![A][X]
 
 ## PaulDeathQuote
 [OpenMidRight][LoadFace][0x20][0x01]PaulDeathQuote[A][X]
 
 ## ReginaldDeathQuote
-[OpenMidRight][LoadFace][0x21][0x01]ReginaldDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x21][0x01]
+Damn... so this is how it ends...[N]
+no family left to mourn.[A][X]
 
 ## VollsterDeathQuote
-[OpenMidRight][LoadFace][0x22][0x01]VollsterDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x22][0x01]
+So, this is how it ends, huh...[A][X]
 
 ## GregDeathQuote
-[OpenMidRight][LoadFace][0x23][0x01]GregDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x23][0x01]
+Cyrus... my son... stay strong...[N]
+for Daddy...[A][X]
 
 ## OccamDeathQuote
 [OpenMidRight][LoadFace][0x24][0x01]OccamDeathQuote[A][X]
 
 ## BorgasDeathQuote
-[OpenMidRight][LoadFace][0x40][0x01]BorgasDeathQuote[A][X]
+[OpenMidLeft][LoadFace][0x40][0x01]
+G-guh... Wh-why'm I...[N]
+seein' things...[A][X]
 
 ## AlvaDeathQuote
-[OpenMidRight][LoadFace][0x41][0x01]AlvaDeathQuote[A][X]
+[MidLeft][LoadFace][0x41][0x01]#Alva
+Agh! No! Let go of me, child![N]
+What do you think you're doing?![A][X]
 
 ## WyvernBossDeathQuote
 [OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
 
 ## YanndahlDeathQuote
-[OpenMidRight][LoadFace][0x50][0x01]YanndahlDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x50][0x01]
+Gah! That hurts like hell...![N]
+Boys, we're getting out of here![A][X]
 
 ## BrucknerDeathQuote
 [OpenMidRight][LoadFace][0x51][0x01]BrucknerDeathQuote[A][X]
@@ -128,7 +199,9 @@
 [OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
 
 ## KajarnDeathQuote
-[OpenMidRight][LoadFace][0x60][0x01]KajarnDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x60][0x01]
+No, I...I can't leave them now.[N]
+They still...need me...[A][X]
 
 ## RynodDeathQuote
 [OpenMidRight][LoadFace][0x61][0x01]RynodDeathQuote[A][X]

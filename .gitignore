@@ -21,6 +21,7 @@ $RECYCLE.BIN/
 *.gba
 *.sav
 *.sgm
+*.ups
 
 # python cache
 __pycache__
@@ -55,3 +56,4 @@ Temporary Items
 .apdisk
 FireEmblem3Universes.gba
 FE8_clean.gba
+FireEmblem3Universes_**.png

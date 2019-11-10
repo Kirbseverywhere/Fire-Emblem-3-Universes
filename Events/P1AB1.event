@@ -1,6 +1,6 @@
 EventPointerTable(32, PointerList)
 // definitions so i don't die
-#define Rebel 0x72
+#define Rebel 0x82
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -105,9 +105,15 @@ LOAD1 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
+MUSC Tension
+Text(Town_Day,AB1Opening)
+NoFade
 ENDA
 
 EndingScene:
+MUSC Into_the_Shadow_of_Victory
+Text(Town_Day,AB1Ending1)
+Text(0x10,AB1Ending2)//some random background get a more fitting one later
 MNC2 32
 NoFade
 ENDA

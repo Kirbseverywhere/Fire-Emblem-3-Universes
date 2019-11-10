@@ -25,15 +25,19 @@ int GetItemUses(int item) {
 
 int GetItemMight(int item) {
 	int mightBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		mightBonus = GetItemForgeBonuses(item)->mightBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) mightBonus = GetItemForgeBonuses(item)->mightBonus;
+		else mightBonus = 1;
+	}
 	return GetItemData(ITEM_INDEX(item))->might + mightBonus;
 }
 
 int GetItemHit(int item) {
 	int hitBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		hitBonus = GetItemForgeBonuses(item)->hitBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) hitBonus = GetItemForgeBonuses(item)->hitBonus;
+		else hitBonus = 5;
+	}
 	return GetItemData(ITEM_INDEX(item))->hit + hitBonus;
 }
 
@@ -44,8 +48,10 @@ void ComputeBattleUnitHitRate(struct BattleUnit* bu) {
 
 int GetItemCrit(int item) {
 	int critBonus = 0;
-	if(ITEM_FORGED(item) && GetItemForgeBonuses(item) != 0)
-		critBonus = GetItemForgeBonuses(item)->critBonus;
+	if(ITEM_FORGED(item)) {
+		if (GetItemForgeBonuses(item) != 0) critBonus = GetItemForgeBonuses(item)->critBonus;
+		else critBonus = 5;
+	}
 	return GetItemData(ITEM_INDEX(item))->crit + critBonus;
 }
 
@@ -147,4 +153,54 @@ u16 GetItemAfterUse(int item) {
         return 0; // return no item if uses < 0
 
     return item; // return used item
+}
+
+/*int DrawItemDescBoxInfo(u16 item) {
+	struct TextHandle* text = (struct TextHandle*)0x203E7AC;
+	Text_InsertString(text, 0, 8, GetWeaponTypeDisplayString(GetItemType(item)));
+	
+}*/
+
+int DrawItemDescBoxStats(u16 item) {
+	struct TextHandle* text = (struct TextHandle*)0x203E7AC;
+	
+	// Weapon Rank
+	Text_InsertString(text, 32, 7, GetItemDisplayRankString(item));
+	
+	// Range
+	Text_InsertString(text, 0x43, 7, GetItemDisplayRangeString2(item));
+	
+	// Weight
+	Text_InsertNumberOr2Dashes(text, 0x81, 7, GetItemWeight(item));
+	
+	text = (struct TextHandle*)(0x203E7AC + 8);
+	
+	
+	if(ITEM_FORGED(item)) {
+		// Might
+		Text_InsertNumberOr2Dashes(text, 0x20, 8, GetItemMight(item));
+	
+		// Hit
+		Text_InsertNumberOr2Dashes(text, 0x51, 8, GetItemHit(item));
+	
+		// Crit
+		Text_InsertNumberOr2Dashes(text, 0x81, 8, GetItemCrit(item));
+	}
+	else {
+		// Might
+		Text_InsertNumberOr2Dashes(text, 0x20, 7, GetItemMight(item));
+	
+		// Hit
+		Text_InsertNumberOr2Dashes(text, 0x51, 7, GetItemHit(item));
+	
+		// Crit
+		Text_InsertNumberOr2Dashes(text, 0x81, 7, GetItemCrit(item));
+	}
+}
+
+void ForgeActiveUnitEquippedWeaponASMC() {
+	int item = GetUnitEquippedWeapon(gActiveUnit);
+	if(item) {
+		gActiveUnit->items[GetUnitEquippedWeaponSlot(gActiveUnit)] = (item | 0x4000);
+	}
 }

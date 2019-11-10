@@ -86,4 +86,16 @@ SHORT KnightUnarmedAnimID
 SHORT 0 0
 
 ALIGN 4
+
+#define VergilSwordAnimID 0x01
+#define VergilUnarmedAnimID 0x01
+//yay, time crunch!
+
+VergilLordAnimationList:
+BYTE Swords 1
+SHORT VergilSwordAnimID
+BYTE 0x9 1
+SHORT VergilUnarmedAnimID
+SHORT 0 0
+
 #include "AnimationInstaller.event"
