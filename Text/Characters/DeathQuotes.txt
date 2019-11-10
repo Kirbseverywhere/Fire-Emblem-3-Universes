@@ -185,7 +185,9 @@ What do you think you're doing?![A][X]
 [OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
 
 ## YanndahlDeathQuote
-[OpenMidRight][LoadFace][0x50][0x01]YanndahlDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x50][0x01]
+Gah! That hurts like hell...![N]
+Boys, we're getting out of here![A][X]
 
 ## BrucknerDeathQuote
 [OpenMidRight][LoadFace][0x51][0x01]BrucknerDeathQuote[A][X]
@@ -197,7 +199,9 @@ What do you think you're doing?![A][X]
 [OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
 
 ## KajarnDeathQuote
-[OpenMidRight][LoadFace][0x60][0x01]KajarnDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x60][0x01]
+No, I...I can't leave them now.[N]
+They still...need me...[A][X]
 
 ## RynodDeathQuote
 [OpenMidRight][LoadFace][0x61][0x01]RynodDeathQuote[A][X]

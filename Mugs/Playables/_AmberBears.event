@@ -47,7 +47,7 @@ VollsterPreTimeskip:
 #incext PortraitFormatter "Vollster_PreTimeskip.png"
 
 #define GREG_PRETIMESKIP_PORTRAIT Greg 
-setMugEntry(GREG_PRETIMESKIP_PORTRAIT, GregPreTimeskip, 4, 6, 3, 4) 
+setMugEntry(GREG_PRETIMESKIP_PORTRAIT, GregPreTimeskip, 3, 6, 3, 3) 
 GregPreTimeskip:
 #incext PortraitFormatter "Greg_PreTimeskip.png"
 

@@ -43,3 +43,47 @@ Now shoo![A]
 [Clear][MidRight][LoadRodin]
 Cease your nonsense, mongrel.[A][X]
 
+## PJ1YanndahlBattleQuote
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+#Yanndahl:
+So my men couldn't handle[N]
+you, huh? Then I'll finish[AN]
+the job myself![A][X]
+
+## PJ1YanndahlVsVergil
+
+[MR][LoadVergil]
+#Vergil:
+Yanndahl!? What is the meaning[N]
+of this treachery? You are[AN]
+sworn to serve the rulers[N]
+of Seraphyn![A]
+
+#Yanndahl:
+[MidLeft][LoadFace][0x50][0x01]#Yanndahl
+That's a question you won't[N]
+get the answer to, princeling.[AN]
+All you need to do is say[N]
+your last words... and die.[A][X]
+
+
+## KajarnVsDiana
+B: Halt! I won't allow this to go on!
+D: Are you the head of the village?
+B: I am Kajarn, the chieftain. For too long we have suffered from the Council's deliberate ignorance to our plight. Poachers plague our forests, gluttonously slaughtering all the game they can find. We've been on the brink of starvation for years. Years!
+D: That's not my problem.
+B: Yes, I know, Blade of the Council. I know all about your despicable deeds.
+D: ....
+B: I swore I would never slaughter a human being, but prepare to die![X]
+
+## KajarnVsReginald
+R: So you're the one spearheading this insurrection!
+B: Indeed! It is my duty as chieftain to ensure my people are taken care of. And your beloved Council has done nothing for our plight!
+R: I cannot speak for the Council, but violence is not the answer!
+B: Ha! You are one to talk. That wench you follow is hardly more than a harbinger of death herself. I know all about her various misdeeds.
+R: So you wish to stain the road with your blood then. You shall pay for those words dearly![X]
+
+## KajarnVsLazul
+#Might take some of this monologue and make it generic
+B: Oh? One of the Blade's subordinates approaches? I am Kajarn, chieftain of Jacquine village! While we have struggled for years to survive with the poachers copiously slaughtering all our game, your beloved Council turned a blind eye to our struggle! And now you come to us, sent by them to silence us for voicing our sorrow. I swore to never lay harm to another human being, but I will warn you now: This will not stop until one of us is dead.
+L: ...Why is he monologing like that?[X]
