@@ -225,13 +225,14 @@ What is going on here?! Damned[N]
 cowards! As Prince of Seraphyn,[AN]
 I'll never forgive you if you[N]
 lay so much as a finger on the[AN]
-other caravans![A]
+other caravans![AN]
 
 #*The caravans attempt to escape to the right, only to be cut off by the sudden appearance of Yanndahl and his men, and are killed.*
 
 What? They've cut the caravans[N]
 off?! You dastards, you'll all[AN]
 pay with your blood![A]
+[Clear]
 
 [FR][LoadXenith]
 [Right][LoadMyst]
