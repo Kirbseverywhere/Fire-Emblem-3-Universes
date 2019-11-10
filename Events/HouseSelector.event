@@ -101,6 +101,8 @@ ENUT 0xBA
 ENUT 0xBC
 ENUT 0xBE
 
+MUSC M_TeamMaking
+
 SetBackground(0x2F)
 ASMC CreateHouseSelectionMenu
 
