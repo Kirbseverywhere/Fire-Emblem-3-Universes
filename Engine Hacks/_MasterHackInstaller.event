@@ -25,6 +25,9 @@ PUSH
   
   /*ORG 0x72886
   SHORT 0 0*/
+  
+  ORG 0x24D8E
+  BYTE 0xC0
 POP
 
 
