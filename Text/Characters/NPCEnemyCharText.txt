@@ -12,6 +12,47 @@ Alva[X]
 A count in the Novingale Empire.[N]
 Known to treat his subjects poorly.[X]
 
+## WildWyvernName
+Wyvern[X]
+
+## WildWyvernDesc
+A ferocious wild wyvern.[X]
+
+## YanndahlName
+Yanndahl[X]
+
+## YanndahlDesc
+An army deserter turned assassin.[N]
+Wants to plunge Ternon into chaos.[X]
+
+## BrucknerName
+Bruckner[X]
+
+## BrucknerDesc
+One of Arxhat's loyalists. Eager to[N]
+prove his worth to his superiors.[X]
+
+## BearName
+Bear[X]
+
+## BearBossDesc
+A wild bear roaming the cave Vergil[N]
+is trapped in. Will attack anything.[X]
+
+## KajarnName
+Kajarn[X]
+
+## KajarnDesc
+Chieftan of Jaquine. Desperate[N]
+for justice for his village.[X]
+
+## RynodName
+Rynod[X]
+
+## RynodDesc
+Leader of a gang of bandits in[N]
+Hervusa's north. Blunt and harsh.[X]
+
 ## RL2HostageName
 Hostage[X]
 
@@ -31,3 +72,24 @@ Alva's[X]
 ## AlvaArmyDesc
 A soldier loyal to Count Alva, a[N]
 notorious nobleman known for cruelty.[X]
+
+## ArxhatArmyName
+Arxhat's[X]
+
+## ArxhatArmyDesc
+A soldier under the command of Arxhat,[N]
+attempting to overthrow Vergil.[X]
+
+## AssassinName
+Assassin[X]
+
+## PJ1AssassinDesc
+An assassin underneath Yanndahl,[N]
+notorious deserter.[X]
+
+## RebelName
+Rebel[X]
+
+## AB1RebelDesc
+Villagers of Jaquine, fighting[N]
+against Hervusan misrule.[X]

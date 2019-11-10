@@ -4,7 +4,7 @@ Rodin,10,55
 Michael,0,0
 Eric,0,15
 Kelly,6,45
-QuaSahnt,9,45
+QuaSahnt,9,40
 Innards,3,20
 Jonathen,6,35
 Kaiden,8,50
@@ -14,30 +14,30 @@ Mimi,8,55
 Zorua,9,50
 Vergil,3,30
 Xenith,0,0
-Tray,2,0
-Horus,10,0
-Glac,0,60
-Daff,0,0
+Tray,1,15
+Horus,10,60
+Glac,4,15
+Daff,6,35
 Smeglinde,6,35
-Kabby,0,0
-Stephen,6,0
-Anthony,2,15
-Myst,0,0
-Leo,0,0
+Kabby,4,35
+Stephen,6,15
+Anthony,2,0
+Myst,5,15
+Khris,7,30
 Diana,0,15
 Zane,10,55
-Adamminn,0,0
+Adamminn,3,30
 William,0,20
 Nobody,5,25
-Jack,8,40
-Lazul,0,0
-Paul,0,25
-Reginald,0,30
-Vollster,0,40
+Jack,7,40
+Lazul,6,40
+Paul,4,25
+Reginald,3,30
+Vollster,5,40
 Greg,6,30
-Occam,0,10
+Occam,1,10
 Augustus,7,45
-Selena,10,40
+Lenato,0,15
 Valter,2,10
 Riev,10,45
 Caellach,2,5
@@ -63,8 +63,8 @@ Lyon's Summon,0,0
 #NAME?,0,0
 Knoll's Summon,0,0
 Ewan's Summon,0,0
-Lyon (Ch 17),13,50
-Morva (Ch 20),6,85
+Lyon (Ch 17),0,50
+Morva (Ch 20),3,85
 Orson (Ch 5x),3,10
 Valter (Ch 15),2,5
 Selena (Ch 10B +ACY- 13B),10,40

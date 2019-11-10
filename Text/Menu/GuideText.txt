@@ -1,0 +1,90 @@
+## GuideStrMagName
+Str/Mag Split[X]
+
+## GuideStrMagDesc
+Tale of Ternon includes the[N]
+Strength and Magic Split.[N]
+This means all units have[N]
+both strength and magic,[N]
+with physical and magical[N]
+attacks being powered up[N]
+respectively. This ensures[N]
+hybrid units work correctly.[X]
+
+## GuideReasonFaithName
+Reason and Faith[X]
+
+## GuideReasonFaithDesc
+Rather than use traditional[N]
+tomes and staves, Tale of[N]
+Ternon uses traditional[N]
+tomes and staves, but with[N]
+the Three Houses names to[N]
+look more unique. We hope[N]
+to implement actual Three[N]
+Houses magic in the future.[N]
+Reason magic = Anima and Dark.[N]
+Faith magic = Light and Staff.[X]
+
+## GuideSkillSystemName
+Skill System[X]
+
+## GuideSkillSystemDesc
+The Circleseverywhere Skill[N]
+System is included in Tale of[N]
+Ternon. Each unit has a unique[N]
+skill, and may have an additional[N]
+skill tied to their class.[N]
+No skills are gained by level.[X]
+
+## GuideAccessoriesName
+Accessories[X]
+
+## GuideAccessoriesDesc
+Like in Three Houses, units in[N]
+Tale of Ternon may equip one[N]
+accessory. These bring a range[N]
+of benefits and drawbacks to[N]
+the unit. For example, the Shield[N]
+increases defence by 2, but also[N]
+lowers speed by 2. Classes such[N]
+as Armour Knights would like it.[X]
+
+## GuideUnitColorName
+Unit Color[X]
+
+## GuideUnitColorDesc
+The three routes of Tale of[N]
+Ternon each have their own[N]
+banner and colours. In order[N]
+to immerse the player in the[N]
+experience, these colours are[N]
+represented on the map.[N]
+Red: Red Lobsters[N]
+Purple: Purple Jaguars[N]
+Yellow: Amber Bears, Neutral[N]
+Black: Enemy[N]
+[N]
+Some people dislike colours[N]
+being changed from their[N]
+traditional positions. Setting[N]
+Unit Colour to Off restores[N]
+the series's traditional[N]
+colour scheme.[N]
+Blue = Player[N]
+Red = Enemy[N]
+Green = Neutral[N]
+[X]
+
+## GuideHpBarsName
+HP Bars[X]
+
+## GuideHpBarsDesc
+Health bars are used to[N]
+show a units health at a[N]
+quick glance. This is[N]
+a common source of lag on[N]
+larger maps, however.[N]
+In such circumstances,[N]
+disabling the bars may[N]
+improve performance.[X]

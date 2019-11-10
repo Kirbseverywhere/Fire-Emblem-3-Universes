@@ -69,22 +69,22 @@ UNIT
 
 GuardSquad:
 UNIT Rynod Hero Rynod Level(1, Enemy, False) [6,12] 0x00 0x00 0x0 0x00 [SteelSword,HandAxe] NeverMoveAI
-UNIT Rebel Mercenary Rynod Level(10, Enemy, True) [8,0] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
-UNIT Rebel Fighter Rynod Level(9, Enemy, True) [9,3] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
-UNIT Rebel Soldier Rynod Level(11, Enemy, True) [16,5] 0x2 0x00 0x00 0x0  [Axereaver] AttackInRangeAI
-UNIT Rebel LanceKnight Rynod Level(10, Enemy, True) [18,6] 0x00 0x00 0x00 0x0 [SteelLance] AttackInRangeAI
-UNIT Rebel DarkMage_F Rynod Level(11, Enemy, True) [16,9] 0x2 0x00 0x00 0x0 [Nosferatu] PursueWithoutHeedAI
-UNIT Rebel LanceKnight_F Rynod Level(9, Enemy, True) [15,11] 0x00 0x00 0x00 0x0 [Javelin, IronLance] PursueWithoutHeedAI
-UNIT Rebel Thief Rynod Level(10, Enemy, True) [12,12] 0x2 0x00 0x00 0x0 [SteelSword, RedGem] StealingThiefAI
-UNIT Rebel Archer Rynod Level(10, Enemy, True) [10,11] 0x00 0x00 0x00 0x0 [Longbow] PursueWithoutHeedAI
-UNIT Rebel Deacon Rynod Level(12, Enemy, True) [9,10] 0x2 0x00 0x00 0x0 [Mend,Shine] [0x0E,0x12]
-UNIT Rebel LanceArmor Rynod Level(10, Enemy, True) [6,10] 0x00 0x00 0x00 0x0 [Javelin] NeverMoveAI
-UNIT Rebel Horseman Rynod Level(1, Enemy, True) [4,6] 0x00 0x00 0x00 0x0 [IronBow] AttackInRangeAI
-UNIT Rebel SwordKnight_F Rynod Level(10, Enemy, True) [4,1] 0x00 0x00 0x00 0x0 [SteelSword] AttackInRangeAI
-UNIT Rebel DarkMage_F Rynod Level(10, Enemy, True) [9,3] 0x00 0x00 0x00 0x0 [Flux] AttackInRangeAI
-UNIT Rebel Archer Rynod Level(11, Enemy, True) [11,2] 0x00 0x00 0x00 0x0 [Longbow] AttackInRangeAI
-UNIT Rebel Myrmidon Rynod Level(10, Enemy, True) [7,7] 0x00 0x00 0x00 0x0 [KillingEdge] AttackInRangeAI
-UNIT 0x73  Brigand Rynod Level(10, Enemy, True) [1,4] 0x00 0x00 0x00 0x0 [Swordreaver] BrigandAI
+UNIT 0x83 Mercenary Rynod Level(10, Enemy, True) [8,0] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
+UNIT 0x83 Fighter Rynod Level(9, Enemy, True) [9,3] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT 0x83 Soldier Rynod Level(11, Enemy, True) [16,5] 0x2 0x00 0x00 0x0  [Axereaver] AttackInRangeAI
+UNIT 0x83 LanceKnight Rynod Level(10, Enemy, True) [18,6] 0x00 0x00 0x00 0x0 [SteelLance] AttackInRangeAI
+UNIT 0x83 DarkMage_F Rynod Level(10, Enemy, True) [16,9] 0x2 0x00 0x00 0x0 [Flux] PursueWithoutHeedAI
+UNIT 0x83 LanceKnight_F Rynod Level(9, Enemy, True) [15,11] 0x00 0x00 0x00 0x0 [Javelin, IronLance] PursueWithoutHeedAI
+UNIT 0x83 Thief Rynod Level(10, Enemy, True) [12,12] 0x2 0x00 0x00 0x0 [SteelSword, RedGem] StealingThiefAI
+UNIT 0x83 Archer Rynod Level(10, Enemy, True) [10,11] 0x00 0x00 0x00 0x0 [Longbow] PursueWithoutHeedAI
+UNIT 0x83 Deacon Rynod Level(12, Enemy, True) [9,10] 0x2 0x00 0x00 0x0 [Mend,Shine] [0x0E,0x12]
+UNIT 0x83 LanceArmor Rynod Level(10, Enemy, True) [6,10] 0x00 0x00 0x00 0x0 [Javelin] NeverMoveAI
+UNIT 0x83 BowKnight Rynod Level(1, Enemy, True) [4,6] 0x00 0x00 0x00 0x0 [IronBow] AttackInRangeAI
+UNIT 0x83 SwordKnight_F Rynod Level(10, Enemy, True) [4,1] 0x00 0x00 0x00 0x0 [SteelSword] AttackInRangeAI
+UNIT 0x83 DarkMage_F Rynod Level(10, Enemy, True) [9,3] 0x00 0x00 0x00 0x0 [Flux] AttackInRangeAI
+UNIT 0x83 Archer Rynod Level(11, Enemy, True) [11,2] 0x00 0x00 0x00 0x0 [Longbow] AttackInRangeAI
+UNIT 0x83 Myrmidon Rynod Level(10, Enemy, True) [7,7] 0x00 0x00 0x00 0x0 [IronSword] AttackInRangeAI
+UNIT 0x73 Brigand Rynod Level(10, Enemy, True) [1,4] 0x00 0x00 0x00 0x0 [Swordreaver] BrigandAI
 UNIT 0x73 Brigand Rynod Level(9, Enemy, True) [1,9] 0x00 0x00 0x00 0x0 [IronAxe] BrigandAI
 UNIT 0x73 Brigand Rynod Level(8, Enemy, True) [2,10] 0x00 0x00 0x00 0x0 [SteelAxe] BrigandAI
 UNIT 

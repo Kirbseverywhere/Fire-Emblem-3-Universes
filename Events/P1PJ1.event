@@ -1,5 +1,6 @@
 
 EventPointerTable(17, PointerList)
+EventPointerTable(18, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -15,9 +16,12 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(7, EndingScene, 8)
+TurnEventEnemy(0, YanndahlBackup1, 3)
+TurnEventEnemy(0, YanndahlBackup2, 5)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,HorusVergilConvo,Horus,Vergil)
 END_MAIN
 
 LocationBasedEvents:
@@ -51,20 +55,34 @@ UNIT Myst 0 0x00 Level(1, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 EnemyUnits:
-UNIT Yanndahl Berserker 0x00 Level(1, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [KillerAxe] GuardTileAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [20,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Brigand 0x00 Level(10, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x71 Mercenary 0x00 Level(10, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x71 Mercenary 0x00 Level(10, Enemy, 1) [19,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x71 Mercenary 0x00 Level(10, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x71 Archer 0x00 Level(10, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x71 Archer 0x00 Level(10, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT Yanndahl Soldier 0x00 Level(14, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [20,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [19,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x81 Archer 0x00 Level(10, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
+UNIT 0x81 Archer 0x00 Level(10, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
 UNIT
+
+PegKnights:
+UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [7,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [15,0] 0x02 0x00 0x0 0x00 [IronLance, PrecisionRing] PursueWithoutHeedAI 
+UNIT 
+
+Turn5Spawns:
+UNIT 0x81 LanceKnight 0x00 Level(10, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x81 SwordKnight 0x00 Level(10, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x81 LanceKnight 0x00 Level(10, Enemy, 1) [20,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x81 AxeKnight 0x00 Level(10, Enemy, 1) [20,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 
 
 Traps1:
 ENDTRAP
@@ -79,6 +97,19 @@ REMU Kabby
 REMU Stephen
 REMU Anthony
 REMU Leo
+SetBackground(Black)
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+MUSC The_Beginning
+TEXTSHOW PJ1Narration
+TEXTEND
+ClearBackground
+MUSC Advance
+Text(Riverside,PJ1OpeningBeforeAttack)
+MUSC Solve_the_Riddle
+Text(Plain,PJ1OpeningYanndahlRuna)
+MUSC Tension
+Text(Riverside,PJ1OpeningAttack)
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
@@ -86,6 +117,34 @@ ENUN
 ENDA
 
 EndingScene:
+MUSC Raid
+Text(PJ1EndingCaravan)
+Text(Riverside,PJ1EndingOrionSpotted)
+Text(Riverside,PJ1EndingRunaOrion)
+Text(Riverside,PJ1EndingRunaOrion2)
+Text(Riverside,PJ1EndingDeadParentsFound)
+Text(Riverside,PJ1EndingRunaSoloLine)
+Text(Woodland_Night,PJ1EndingForestScene)
+Text(Woodland_Night,PJ1EndingArxhatMenAppear)
+Text(Castle_Room,PJ1EndingArxhatYanndahl)
 MNC2 17
+NoFade
+ENDA
+
+YanndahlBackup1:
+Text(PJ1Turn3EnemyScene)
+ReinforcementEvent(PegKnights)
+ENDA
+
+YanndahlBackup2:
+Text(PJ1Turn5EnemyScene)
+ReinforcementEvent(Turn5Spawns)
+SETVAL 0x1 0x00000100
+//how do you change AI??? Charge, Yanndahl!
+CHAI Yanndahl
+ENDA
+
+HorusVergilConvo:
+Text(PJ1HorusVergilTalk)
 NoFade
 ENDA

@@ -22,6 +22,12 @@ PUSH
     ORG 0x000AD8   // this is somewhere in the startup routine
       BL(0x01C090) // Call the debug startup menu
   #endif
+  
+  /*ORG 0x72886
+  SHORT 0 0*/
+  
+  ORG 0x24D8E
+  BYTE 0xC0
 POP
 
 
@@ -136,7 +142,11 @@ POP
   
   // If uncommented, Raid will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
-  // #include "Raid/Raid.event"
+  //  #include "Raid/Raid.event"
+  
+  //Modular Supply
+  //Not playing nice, no supply for you
+  //#include "ModularSupply/ModularSupply.event"
   
   //Forging And Equip Items System
   #include "ForgingAndItemEquip/Installer.event"
@@ -189,10 +199,16 @@ POP
   //#include "LazberianTurnFlow/LazberianTurnFlow.event"
 
   ALIGN 4
-  #include "MapSpritePalettes/Installer.event"
+  #include "FactionPalettes/Installer.event"
   
   ALIGN 4
   #include "WalkingSoundsFix/WalkingSounds.event"
+  
+  ALIGN 4
+  #include "DenyStatScreen/DenyStatScreen.event"
+  
+  ALIGN 4
+  #include "DenyCounter/NoCountering.event"
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
