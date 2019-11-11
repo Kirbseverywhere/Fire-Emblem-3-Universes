@@ -1,6 +1,6 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Rodin,CharismaID
+Rodin,FocusID
 Michael,AcrobatID
 Eric,BreathOfLifeID
 Kelly,VoiceOfPeaceID
