@@ -1,9 +1,9 @@
 INLINE ClassSkillTable,Skill
 None,0x0
-Magus,0x0
-Grand Magus,0x0
-Lord,0x0
-High Lord,0x0
+Magus,CharismaID
+Grand Magus,CharismaID
+Lord,CharismaID
+High Lord,CharismaID
 Lady,CantoID
 Sky Lord,CantoID
 Sword Knight,CantoID
