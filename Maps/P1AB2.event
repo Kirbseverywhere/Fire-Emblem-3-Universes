@@ -2,6 +2,21 @@
 
 #include eastdlib.event
 
-SetChapterData(32,SnowObjType,0,SnowPalette1,SnowTileConfig,32,Map,5,0,0)
+SetChapterData(32,SnowObjType,0,SnowPalette1,SnowTileConfig,32,Map,5,0,32)
+MapChangesPointerTable(32, MapChanges)
 Map:
 #incbin "P1AB2_data.dmp"
+
+MapChanges:
+TileMap(1,10,3,3,3,VillageDestroyed)
+TileMap(2,11,5,1,1,VillageSaved)
+TileMapEnd
+
+VillageDestroyed:
+SHORT 0xc1c 0xc20 0xc24 0xc9c 0xca0 0xca4 0xd1c 0x80 0xd24 
+ALIGN 4
+
+VillageSaved:
+SHORT 0x80 
+ALIGN 4
+
