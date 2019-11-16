@@ -16,7 +16,7 @@
 	#include "Mugs\_MasterPortraitInstaller.event"
 	
 	//Music
-	#include "Music/MusicInstaller.event"
+	#include "Music/_MusicInstaller.event"
 
     //CSV tables
     #include "Tables/Table Installer.event"

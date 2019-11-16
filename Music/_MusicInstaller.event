@@ -5,8 +5,10 @@ NativeInstrumentMap1:
 #incbin "NIMAP1.bin"
 
 ALIGN 4
+voicegroup000:
 NativeInstrumentMap2:
 #incbin "NIMAP2.bin"
+
 
 #define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
 #define BattleMusicGroup 0
@@ -15,39 +17,69 @@ NativeInstrumentMap2:
 
 ALIGN 4
 #define M_MainTheme 0x43
+{
 #include "MainTheme.event"
 SongTable(M_MainTheme,MainTheme,0)
-
+}
 #define M_TeamMaking 0x34
+{
 #include "TeamMaking.event"
 SongTable(M_TeamMaking,TeamMaking,MapMusicGroup)
-
+}
 
 // Girl of a spirit forest(P1 RL EarlyGame)
 #define M_GirlOfTheSpiritForest 9
+{
 #include "GirlOfTheSpiritForest.event"
 SongTable(M_GirlOfTheSpiritForest,GirlOfTheSpiritForest,MapMusicGroup)
-
+}
 #define M_PJEarlyGameTheme 10
+{
 #include "TempestOfSeasons.event"
 SongTable(M_PJEarlyGameTheme,TempestOfSeasons,MapMusicGroup)
-
+}
 #define M_FodlanWinds 11 // AB Early Game
+{
 #include "FodlanWinds.event"
 SongTable(M_FodlanWinds,FodlanWinds,MapMusicGroup)
-
+}
 #define M_WithMyBearHands 22 //Bear theme
+{
 #include "WithMyBearHands.event"
 SongTable(M_WithMyBearHands,WithMyBearHands,MapMusicGroup)
-
+}
 #define M_MountHorn 27 //Boss theme
+{
 #include "MountHorn.event"
 SongTable(M_MountHorn,MountHorn,BattleMusicGroup)
-
+}
 #define M_UnlimitedSagaBattle1 48 //Recruitment theme
+{
 #include "UnlimitedSagaBattle1.event"
-SongTable(M_UnlimitedSagaBattle1,UnlimitedSagaBattle1,0)
-
+SongTable(M_UnlimitedSagaBattle1,UnlimitedSagaBattle1,MapMusicGroup)
+}
 #define M_VergilsMadness 30 //Vergil boss theme, probably won't be used for a *long* time
+{
 #include "VergilsMadness.event"
 SongTable(M_VergilsMadness,VergilsMadness,BattleMusicGroup)
+}
+#define M_CourageAndPride 17 //Boss theme
+{
+#include "CourageAndPride.event" 
+SongTable(M_CourageAndPride,song10,BattleMusicGroup)
+}
+#define M_CuttingEdge 12 //PJ Map theme
+{
+#include "CuttingEdge.event"
+SongTable(M_CuttingEdge,song11,MapMusicGroup)
+}
+#define M_HandCombat 13 //RL Map theme
+{
+#include "HandCombat.event"
+SongTable(M_HandCombat,song0F,MapMusicGroup)
+}
+#define M_Justice 14 //AB Map theme
+{
+#include "Justice.event"
+SongTable(M_Justice,song13,MapMusicGroup)
+}
