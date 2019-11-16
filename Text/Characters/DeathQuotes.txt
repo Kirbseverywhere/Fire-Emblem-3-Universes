@@ -182,7 +182,8 @@ Agh! No! Let go of me, child![N]
 What do you think you're doing?![A][X]
 
 ## WyvernBossDeathQuote
-[OpenMidRight][LoadFace][0x42][0x01]WyvernBossDeathQuote[A][X]
+[ML][LoadFace][0x42][0x01]
+Khhh... grrrrr... rrrh.[A][X]
 
 ## YanndahlDeathQuote
 [OpenMidRight][LoadFace][0x50][0x01]

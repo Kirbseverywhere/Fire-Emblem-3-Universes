@@ -1,0 +1,367 @@
+## RL3OpeningNarration
+Having slain Alva and liberated the[N]
+late count's lands, Rodin has[AN]
+amassed support from the populace.[N]
+Deciding to stay home at Argalia[AN]
+Palace, Rodin pursues his own[N]
+agenda by planning his next move.[AN]
+However, wild shrieks from the[N]
+heavens say otherwise, as northern[AN]
+Novingale budges under the might[N]
+of migrating wyverns...[A][X]
+
+## RL3OpeningPalace
+# Inside Argalia
+[MR][LoadRodin]
+[ML][LoadFace][0x45][0x01]#some placeholder for Aurea[N]
+[MR]#Rodin:
+...Mother.[N]
+[ML]#Aurea:
+Oh, my dear boy. It warms my heart to see[N]
+you back home unharmed, my child.[AN]
+[MR]#Rodin:
+Cease the pleasantries,[N]
+wretch. You know you[AN]
+wouldn't have minded had[N]
+Alva slit my throat.[AN]
+[ML]#Aurea:
+Pardon?[AN]
+[MR]#Rodin:
+Do not take me for a fool, Mother.[N]
+I thought you wiser than that.[AN]
+[ML]#Aurea:
+Mind your manners, young man. Know[N]
+to whom it is that you speak.[AN]
+[MR]#Rodin:
+Tch. Stating the obvious is the[N]
+fool's hallmark. Now, any other[AN]
+drivel you should bother me with?[AN]
+[ML]#Aurea:
+Why, you little...![AN]
+[MR]#Rodin:
+Do not bar my path, Mother.[N]
+Your blatherings and visage[AN]
+plague me both.[AN]
+[ML]#Aurea:
+You have no grasp of what I intend[N]
+to accomplish for our nation, Rodin.[AN]
+If only you understood... then this[N]
+would all be so much easier.[AN]
+[MR]#Rodin:
+I know well enough what[N]
+it is you desire.[AN]
+[ML]#Aurea:
+Then why do you continue to oppose[N]
+me when our goals align? Why must[AN]
+you always make things so damned[N]
+difficult for me?[AN]
+[MR]#Rodin:
+You turn a blind eye to the[N]
+destitute. I will never serve[AN]
+anyone with such despicable[N]
+views. Now begone.[AN]
+[ML]#Aurea:
+Despicable-[AN]
+[MR][MoveFarFarLeft][ML][MoveFarLeft]
+#(is pushed to the side)
+[FL]
+Agh...! Speak for yourself, son![N]
+Calling me despicable, yet[AN]
+shoving his own mother aside...[A][X]
+
+## RL3OpeningStudy
+# In a study
+[ML][LoadRodin][MR][LoadCleo]
+[MR]#Cleo (R):
+Hey, Rodin? Looks like something[N]
+happened. I can tell.[AN]
+[ML]#Rodin (L):
+Hm? Oh, pay me no heed, Cleo.[N]
+It is nothing important.[AN]
+[MR]#Cleo:
+Well, your furrowed brow [N]
+says otherwise. Tell me,[AN]
+what's going on?[AN]
+[ML]#Rodin:
+You see right through me,[N]
+don't you? Well, I crossed[AN]
+paths with my mother. That[N]
+should speak for itself.[AN]
+[MR]#Cleo:
+Yeah, I see now... Mind telling[N]
+me what happened this time?[AN]
+[ML]#Rodin:
+She approached me with false[N]
+pleasantries, which was irritating[AN]
+enough. When I put her in her[N]
+place, she reacted with even more[AN]
+vitriol and claimed I was ignorant.[AN]
+[MR]#Cleo:
+I think I know where things are[N]
+going next. She lamented that[AN]
+you were working against her,[N]
+didn't she?[AN]
+[ML]#Rodin:
+Yes, exactly. It has been the same[N]
+song and dance for years.[AN]
+[MR]#Cleo:
+You know, I'm glad I can say all[N]
+of this to you where nobody else[AN]
+can hear me. Even then, who knows[N]
+if one of the Empress's spies is[AN]
+concealing themselves here...[AN]
+[ML]#Rodin:
+You can never rest easy around that[N]
+woman, unless you happen to be part[AN]
+of her inner circle. Pardon me, her[N]
+pathetic little clique of bootlickers.[AN]
+[MR]#Cleo:
+Uh, you okay, Rodin?[AN]
+[ML]#Rodin:
+Ugh... I apologize, my[N]
+friend. You did not need[AN]
+to be subjected to those[N]
+ramblings.[AN]
+[MR]#Cleo:
+Hey, don't worry about it.[N]
+You're the reason I can even[AN]
+tolerate noble life at all.[A]
+#(Rodin shifts to right as a soldier enters the room)[N]
+[ML][Clear][MR][MoveFarRight][Right][LoadRodin][FFL][LoadFace][0x6A][0x01][MoveMidLeft]
+#Soldier (L):
+My Prince! Migrating wyverns[N]
+have been reported near the[AN]
+village of Rietveld![AN]
+[Right]#Rodin (R):
+Tell me, are they targeting[N]
+the village itself?[AN]
+[ML]#Soldier:
+Yes, milord. The people are in a[N]
+panic, but not everyone's houses[AN]
+will hold at this rate. What are[N]
+your orders, Sire?[AN]
+[Right]#Rodin:
+You know what comes next, Cleo.[AN]
+[FR]#Cleo:
+Yeah. We'll make sure Rietveld[N]
+is secured from the wyvern[AN]
+migration! No time to lose, Rodin![AN]
+[Right]#Rodin:
+We ride![A][X]
+
+## RL3OpeningWyverns
+#IN RIETVELD
+[Left][LoadRodin][Right][LoadMimi]
+[Left]#Rodin (L):
+We've arrived. That at least[N]
+went somewhat smoothly...[AN]
+#(insert wyvern screech if possible)[N]
+[Right]#Mimi (R):
+Ooh, are those wyverns I hear?[N]
+Do you hear them, Rodin?[AN]
+[Left]#Rodin:
+Loud and clear. Normally, it is[N]
+a fool's errand to interrupt[AN]
+a wyvern migration, much less[N]
+strike during one.[AN]
+[Right]#Mimi:
+Doesn't sound like you've[N]
+got much of a choice.[AN]
+[Left]#Rodin:
+Precisely. We must protect[N]
+Rietveld before the wyverns[AN]
+can claim any lives here.[AN]
+[FR][LoadMichael][FL][LoadEric]
+[FR]#Michael (R):
+Your orders, milord?[AN]
+[Left]#Rodin:
+Defend the villages from any[N]
+attacking wyverns. Subdue[AN]
+them should they engage us.[AN]
+[FL]#Eric (L):
+You've heard the Boss.[N]
+Let's move, folks![A][X]
+
+
+## RL3InnardsMichaelTalk
+[ML][LoadInnards][MR][LoadMichael]
+[ML]#Innards (L):
+...[A]
+[MR]#Michael (R):
+Sir Innards, you are wearing[N]
+a particular grimace.[A]
+[ML]#Innards:
+These wyverns seem[N]
+like fine sport.[A]
+[MR]#Michael:
+I've noticed you indulge yourself[N]
+in the thrill of battle. Am I[AN]
+right in presuming so?[A]
+[ML]#Innards:
+Yes.[A]
+[MR]#Michael:
+Hmm... That look in your eyes tells[N]
+me battle is more than that to you.[AN]
+I won't pry, however.[A]
+[ML]#Innards:
+Battle is what keeps me going.[N]
+It keeps me alive.[A]
+[MR]#Michael:
+I fight for my liege and my country.[N]
+You have an equally valid reason[AN]
+to brandish your sword. All that[N]
+being said, may I continue to count[AN]
+on you, Sir Innards?[AN]
+[ML]#Innards:
+I guess.[A]
+[MR]#Michael:
+Thank you. Now, let us away![A]
+#(leaves from view)
+[Clear]
+[ML]#Innards:
+Hm.[A][X]
+
+
+## RL3LeftVillage
+[ML][LoadFace][0x59][0x01]
+[MR][LoadCurrent]
+[ML]
+#Villager (old male):
+Oh, we're saved! I swear, every[N]
+time we hear one o' those winged[AN]
+terrors screamin', we seem closer[N]
+to our doom... We can't help ya[AN]
+fight, so please do take this 'ere[N]
+sword! She's a real tough one. [AN]
+Tough enough to cleave wyvern scales,[N]
+lemme tell ya! Bless you, warriors![A][X]
+
+## RL3LenatoVillage
+[ML][LoadLenato]
+[ML]#Lenato:
+Right, I'll be off now. I'll[N]
+see you around, everyone.[A]
+[MR][LoadCurrent]
+[ML]#Lenato:
+Hm? Oh, hello there. Are you [N]
+also here to subdue the wyvern threat?[A]
+[MR]#current
+Yes.[A]
+[ML]#Lenato:
+What a nice coincidence.[N]
+I was just about to[AN]
+engage those reptiles myself.[A]
+[MR]#current
+What's your name?[A]
+[ML]#Lenato:
+My name's Lenato. I believe you[N]
+may find me of use. After all,[AN]
+my bow will prove particularly[N]
+effective against flying[AN]
+adversaries. Now, let's move,[N]
+shall we? Better to waste[AN]
+no more time.[A][X]
+
+## RL3LenatoVillageRodin
+[ML][LoadLenato]
+#Lenato (L):
+Right, I'll be off now. I'll[N]
+see you around, everyone.[AN]
+[MR][LoadRodin]
+#Rodin (R):
+Oh, pardon me.[A]
+[ML]#Lenato:
+Hm? Ah, you must be Prince Rodin.[N]
+To what do I owe you the honors?[AN]
+[MR]#Rodin:
+No honor in particular. I am[N]
+simply here to protect my[AN]
+citizens from wyvern aggression.[A]
+[ML]#Lenato:
+How quaint. It seems we've[N]
+got the same goal, then.[AN]
+[MR]#Rodin:
+Would you be willing to offer[N]
+us your strength? I assure you[AN]
+will be compensated adequately[N]
+for your hard work.[AN]
+[ML]#Lenato:
+Sure. My name is Lenato,[N]
+for the record.[AN]
+[MR]#Rodin:
+The pleasure is mine, Lenato.[N]
+Thank you for aiding us.[AN]
+[ML]#Lenato:
+Consider it no problem.[A]
+#(Rodin leaves)
+[MR][Clear]
+[ML]#Lenato:
+It might not be a bad idea to[N]
+stick around. Let's see where[AN]
+this will take me.[A][X]
+
+## RL3Ending
+[ML][LoadRodin][MR][LoadFace][0x70][0x01]
+[MR]#Soldier (R):
+Your Highness, Sir! We have successfully[N]
+chased the remaining wyverns away![AN]
+Rietveld is safe, Sir![AN]
+[ML]#Rodin (L):
+Excellent! Well done, soldiers.[N]
+Take pride in your accomplishment.[AN]
+[MR]#Soldier:
+Yes, Sir![A]
+[ML]#Rodin:
+If you have the time, then go[N]
+visit your families.[A]
+[MR]#Soldier:
+Your Highness?[A]
+[ML]#Rodin:
+I will need all of you in peak condition[N]
+soon, so ease your minds before you[AN]
+return. With clear minds, we are one[N]
+step closer to tomorrow's victory.[AN]
+[MR]#Soldier:
+Your generosity is much appreciated,[N]
+Your Highness. Thank you so much![A]
+[Clear]
+# (leaves)[N]
+[Right][LoadMichael]
+#Michael (R):
+Lord Rodin, we have captured[N]
+the leader of the wyvern[AN]
+horde, as per your request.[AN]
+[ML]#Rodin:
+Thank you, Michael.[A]
+[Right]#Michael:
+If you do not mind me asking,[N]
+milord, why did you order[AN]
+for the wyvern to be captured[N]
+and not killed?[A]
+[ML]#Rodin:
+Long have I dreamt of taking to[N]
+the skies astride a wyvern.[AN]
+I know this request of mine was[N]
+very selfish, so I apologize[AN]
+for making you heed my[N]
+self-indulgence.[A]
+[Right]#Michael:
+Not a problem at all, my liege.[N]
+Come to think of it, did your[AN]
+distant ancestor not fight[N]
+astride a wyvern as well?[AN]
+[ML]#Rodin:
+That he did. My venerable ancestor,[N]
+Gildias Novingale, was seldom seen[AN]
+without his trusted wyvern companion,[N]
+Altair. I could go into more details,[AN]
+but now is not the time.[A]
+[FR][LoadCleo]
+#Cleo (R):
+Rodin, reporting some pretty[N]
+strong leads. It's about[AN]
+your mother's allies.[A]
+[ML]#Rodin:
+We will discuss that behind[N]
+closed walls. Come, everyone.[AN]
+Let us make haste for the home front.[A][X]
