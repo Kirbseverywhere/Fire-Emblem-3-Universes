@@ -15,3 +15,12 @@ Main Theme[X]
 
 ## BearTheme
 With My Bear Hands[X]
+
+## BossTheme
+Mount Horn[X]
+
+## RecruitmentTheme
+Battle 1 - Unlimited Saga[X]
+
+## VergilBossTheme
+Vergil's Madness[X]

@@ -78,7 +78,7 @@ ENDA
 // Units
 Bad:
 UNIT Bruckner LanceKnight 0x00 Level(15, Enemy, 0) [18,3] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NeverMoveAI 
-UNIT BearBoss Bear 0x00 Level(11, Enemy, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
+UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [17,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 

@@ -39,3 +39,15 @@ SongTable(M_FodlanWinds,FodlanWinds,MapMusicGroup)
 #define M_WithMyBearHands 22 //Bear theme
 #include "WithMyBearHands.event"
 SongTable(M_WithMyBearHands,WithMyBearHands,MapMusicGroup)
+
+#define M_MountHorn 27 //Boss theme
+#include "MountHorn.event"
+SongTable(M_MountHorn,MountHorn,BattleMusicGroup)
+
+#define M_UnlimitedSagaBattle1 48 //Recruitment theme
+#include "UnlimitedSagaBattle1.event"
+SongTable(M_UnlimitedSagaBattle1,UnlimitedSagaBattle1,0)
+
+#define M_VergilsMadness 30 //Vergil boss theme, probably won't be used for a *long* time
+#include "VergilsMadness.event"
+SongTable(M_VergilsMadness,VergilsMadness,BattleMusicGroup)
