@@ -140,7 +140,7 @@ UnitMenuTable:
 
   UM_Item
   UM_Trade
-  UM_Supply
+  MenuCommand(0x68F, 0x6D5, GreenText, SupplyUsability, 0x23FB9)
   UM_Wait
 
   UM_Separator 

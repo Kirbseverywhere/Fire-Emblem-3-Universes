@@ -15,3 +15,25 @@ Main Theme[X]
 
 ## BearTheme
 With My Bear Hands[X]
+
+## BossTheme
+Mount Horn[X]
+
+## RecruitmentTheme
+Battle 1 - Unlimited Saga[X]
+
+## VergilBossTheme
+Vergil's Madness[X]
+
+## BossTheme2
+Courage and Pride - Sword of Mana[X]
+
+## PJMapTheme2
+Cutting Edge of Notion - Star Ocean[X]
+
+## RLMapTheme2
+Hand Combat - Skies of Arcadia[X]
+
+## ABMapTheme2
+Justice - Lunar 2[X]
+

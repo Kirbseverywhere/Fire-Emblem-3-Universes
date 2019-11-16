@@ -1,0 +1,23 @@
+## CaduceusUseDesc
+Magic +3[N]
+Cannot attack at[N]
+1 range[X]
+
+## NormalShieldUseDesc
+Defence +2[N]
+Speed -2[X]
+
+## AegisShieldUseDesc
+Grants Aegis[N]
+Defence +2[N]
+Speed -2[X]
+
+## ExpShareUseDesc
+Gives EXP to adjacent[N]
+allies after combat.[X]
+
+## SkillRingUseDesc
+Accuracy +10[X]
+
+## LegRingUseDesc
+Move +1[X]

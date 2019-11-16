@@ -65,6 +65,8 @@ New Options[X]
 
 #include "Items\ItemText.txt"
 
+#include "Items\UseItemDescs.txt"
+
 #include "Story\StoryBuildfile.txt"
 
 #include "Menu\GuideText.txt"

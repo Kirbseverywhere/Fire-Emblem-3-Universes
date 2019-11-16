@@ -17,11 +17,13 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x9,InnardsMichaelConvo,Michael,Innards)
 END_MAIN
 
 LocationBasedEvents:
 Village(7,Village1Event,3,4)
 Village(8,Village2Event,10,4)
+House(0,EmptyHouse,13,2)
 END_MAIN
 
 MiscBasedEvents:
@@ -79,7 +81,7 @@ UNIT 0x7F Mage WyvernBoss Level(10, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [Fire] 
 UNIT
 
 NewGuyWhoDis:
-UNIT Lenato Horseman 0x0 Level(1, Ally, 0) [10,5] 0x00 0x00 0x0 0x00 [IronBow] NoAI
+UNIT Lenato Horseman_F 0x0 Level(1, Ally, 0) [10,5] 0x00 0x00 0x0 0x00 [IronBow] NoAI
 UNIT 
 
 Traps1:
@@ -91,6 +93,18 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+SetBackground(Black)
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+MUSC The_Beginning
+TEXTSHOW RL3OpeningNarration
+TEXTEND
+MUSC Indignation
+Text(Castle_Room,RL3OpeningPalace)
+MUSC LyonTheme
+Text(Castle_Hall_3_Night,RL3OpeningStudy)
+MUSC Tension
+Text(Outside_Village_Day,RL3OpeningWyverns)
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
@@ -99,15 +113,30 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC Victory
+Text(Outside_Village_Evening,RL3Ending)
 Text(EndOfDemo)
 MNC2 0x4
 NoFade
 ENDA
 
 Village1Event:
-SVAL 3 KillingEdge; GIVEITEMTO 0xFFFF
+Text(Town_Day,RL3LeftVillage)
+SVAL 3 Wyrmslayer; GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 Village2Event:
+Text(Town_Day,RL3LenatoVillage)
 LOAD1 0x1 NewGuyWhoDis
+NoFade
+ENDA
+
+InnardsMichaelConvo:
+Text(RL3InnardsMichaelTalk)
+NoFade
+ENDA
+
+EmptyHouse:
+Text(PlaceholderText)
 ENDA

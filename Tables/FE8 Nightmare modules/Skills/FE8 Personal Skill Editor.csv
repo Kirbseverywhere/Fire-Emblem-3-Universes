@@ -1,30 +1,30 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Rodin,CharismaID
+Rodin,FocusID
 Michael,AcrobatID
 Eric,BreathOfLifeID
 Kelly,VoiceOfPeaceID
 QuaSahnt,RenewalID
 Innards,FieryBloodID
-Jonathen,MirrorStanceID
-Kaiden,AxefaireID
+Jonathen,ThunderstormID
+Kaiden,CertainBlowID
 Cleo,LockTouchID
 Reds,AmaterasuID
-Mimi,RenewalID
-Zoura,TomefaireID
-"Vergil  //I don't think ""Divine Lightning"" is in the skill system",RightfulArchID
-Xenith,SaviorID
+Mimi,SpurStrID
+Zoura,EvenRhythmID
+"Vergil  //I don't think ""Divine Lightning"" is in the skill system",WrathID
+Xenith,CharismaID
 Tray,SaviorID
 Horus  //no skill defined ,SpurSpdID
 Glac,PerfectionistID
 Daff,OpportunistID
 Smeglinde,LockTouchID
 Kabby,StealID
-Stephen,SturdyStanceID
+Stephen,ChivalryID
 Anthony,BowRangeUpID
 Myst,FuryID
 Leo,PassID
-Diana  //of course someone has it,NiceThighsID
+Diana  //of course someone has it,CharismaID
 Zane,PatienceID
 Adamminn,SavageBlowID
 William,BarricadeID
@@ -35,7 +35,7 @@ Paul,PursuitID
 Reginald  //there's no weight -3 and you love your bolting so get the skill that shares its japanese name,ThunderstormID
 Vollster,PoisonStrikeID
 Greg,FrenzyID
-Occam,ReMoveID
+Occam,RepositionID
 Augustus,AcrobatID
 Selena,0x0
 Valter,CharmID

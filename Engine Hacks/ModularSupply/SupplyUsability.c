@@ -1,6 +1,6 @@
 
 #include <stddef.h>
-#include "FE-CLib-master/include/gbafe.h"
+#include "FE-CLib/include/gbafe.h"
 
 extern u8* SupplyUsabilityTable[];
 extern u8* SupplyUsabilityPhantomIDLink;

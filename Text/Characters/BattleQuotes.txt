@@ -43,6 +43,33 @@ Now shoo![A]
 [Clear][MidRight][LoadRodin]
 Cease your nonsense, mongrel.[A][X]
 
+## WyvernBossBattleQuote
+[ML][LoadFace][0x42][0x01]#some class card, for science!
+#Wyvern:
+Kshaaaaaaah![A][X]
+
+## WyvernVsRodin
+[ML][LoadFace][0x42][0x01]
+#Wyvern:
+Grrrhhh...[A]
+[Clear][MR][LoadRodin]
+#Rodin:
+I can tell you are the leader[N]
+of this pack. Should I defeat[AN]
+you, I will grant you a name.[A]
+[Clear][ML][LoadFace][0x42][0x01]
+#Wyvern:
+...Rrrh...[A]
+#Rodin (smiling):
+[Clear][MR][LoadRodin][Smile]
+I have long wished to befriend[N]
+a wyvern. Very well! Show me[AN]
+what you're capable of![A]
+[Clear][ML][LoadFace][0x42][0x01]
+#Wyvern:
+Rrraaaaaaagh![A][X]
+
+
 ## PJ1YanndahlBattleQuote
 [MidLeft][LoadFace][0x50][0x01]#Yanndahl
 #Yanndahl:

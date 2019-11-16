@@ -4,10 +4,11 @@
 	#define MODULAR_SUPPLY
 	
 	ALIGN 4
-	#inctext lyn "SupplyUsability.o" "Definitions.o"
+	#include "SupplyUsability.event"
 	ALIGN 4
 	SupplyUsabilityPhantomIDLink:
 	BYTE 0x00
+	
 	
 	ALIGN 4
 	//NormalSupplyList:
@@ -18,5 +19,7 @@
 	BYTE Vergil 0x00
 	ABSupplyList:
 	BYTE Diana 0x00
+	
+	ALIGN 4
 	
 #endif // MODULAR_SUPPLY
