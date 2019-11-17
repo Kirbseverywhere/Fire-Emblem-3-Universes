@@ -137,7 +137,7 @@ A cutthroat mercenary hired[N]
 by Rodin. Brooding and sarcastic.[X]
 
 ## JonathenDescTextID
-A mercenary hired by the church.[N]
+A mercenary hired by Rodin.[N]
 Laid-back but fierce in battle.[X]
 
 ## KaidenDescTextID
@@ -217,7 +217,7 @@ arts. Craves arcane knowledge.[X]
 
 ## AdamminnDescTextID
 A brigand belonging to the nobility.[N]
-Fights instead of paying a fine.[X]
+Fights to avoid paying a fine.[X]
 
 ## WilliamDescTextID
 A young man from the countryside.[N]
@@ -240,7 +240,7 @@ A reckless man. Often plays with[N]
 fire, without much fear.[X]
 
 ## ReginaldDescTextID
-Retainer to Diana. Eccentric, but[N]
+(OUTDATED) Eccentric, but[N]
 loyal to a fault and self-assured.[X]
 
 ## VollsterDescTextID
@@ -253,7 +253,7 @@ Ended up under the Amber Bears.[X]
 
 ## OccamDescTextID
 A lazy traveler from the land of[N]
-(NAME). Means well in his actions.[X]
+Belfar. Means well in his actions.[X]
 
 ## AugustusDescTextID
 A vagabond with a charming smile.[N]
