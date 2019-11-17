@@ -67,11 +67,11 @@ Anthony[X]
 ## MystNameTextID
 Myst[X]
 
-## LeoNameTextID
+## KhrisNameTextID
 Khris[X]
 
-## DianaNameTextID
-Diana[X]
+## ElleNameTextID
+Elle[X]
 
 ## ZaneNameTextID
 Zane[X]
@@ -204,13 +204,12 @@ drawing. Also likes eating food.[X]
 A member of the House. Lives to[N]
 eclipse his rival, Glac.[X]
 
-## LeoDescTextID
+## KhrisDescTextID
 A confused wanderer. Not sure what[N]
 his purpose in the world is.[X]
 
-## DianaDescTextID
-The dreaded Blade of the Council[N]
-of Hevursa. Cares for her subordinates.[X]
+## ElleDescTextID
+THIS TEXT IS A PLACEHOLDER[X]
 
 ## ZaneDescTextID
 A devout follower of ancient[N]
@@ -254,7 +253,7 @@ Ended up under the Amber Bears.[X]
 
 ## OccamDescTextID
 A lazy traveler from the land of[N]
-Dagda. Means well in his actions.[X]
+(NAME). Means well in his actions.[X]
 
 ## AugustusDescTextID
 A vagabond with a charming smile.[N]

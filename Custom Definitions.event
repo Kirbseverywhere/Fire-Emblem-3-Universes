@@ -65,10 +65,10 @@
 #define Stephen 21
 #define Anthony 22
 #define Myst 23
-#define Leo 24
+#define Khris 24
 
 //Amber Bears
-#define Diana 25
+#define Elle 25
 #define Zane 26
 #define Adamminn 27
 #define William 28
@@ -84,6 +84,10 @@
 //Neutrals
 #define Augustus 37
 #define Lenato 38
+
+//Backwards Compatibility
+#define Leo Khris
+#define Diana Elle
 
 // Bosses
 
@@ -107,8 +111,8 @@
 
 #define PrecisionRing 0x7D
 #define MovRing 0x7E
-#define Caduceus 0xBC 
-#define NormalShield 0xBD  
+#define Caduceus 0xBC
+#define NormalShield 0xBD
 #define AegisShield 0xBE
 #define ExpShare 0xBF
 
