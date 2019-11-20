@@ -8,6 +8,11 @@ setMugEntry(ALVA_PORTRAIT, AlvaMug, 3, 5, 3, 3)
 AlvaMug:
 #incext PortraitFormatter "Alva.png"
 
+#define WYVERN_PORTRAIT WyvernBoss
+setMugEntry(WYVERN_PORTRAIT, WyvernMug, 1, 7, 4, 3)
+WyvernMug:
+#incext PortraitFOrmatter "Wyvern.png"
+
 #define YANNDAHL_PORTRAIT Yanndahl
 setMugEntry(YANNDAHL_PORTRAIT, YanndahlMug, 3, 5, 3, 3) 
 YanndahlMug:

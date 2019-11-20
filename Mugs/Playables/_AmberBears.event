@@ -1,8 +1,8 @@
 
-#define DIANA_PRETIMESKIP_PORTRAIT Diana
-setMugEntry(DIANA_PRETIMESKIP_PORTRAIT, DiaPreTimeskip, 3, 6, 3, 4) 
-DiaPreTimeskip:
-#incext PortraitFormatter "Dia_PreTimeskip.png"
+#define ELLE_PRETIMESKIP_PORTRAIT Elle
+setMugEntry(ELLE_PRETIMESKIP_PORTRAIT, EllePreTimeskip, 2, 6, 3, 4) 
+EllePreTimeskip:
+#incext PortraitFormatter "Elle_PreTimeskip.png"
 
 #define ZANE_PRETIMESKIP_PORTRAIT Zane
 setMugEntry(ZANE_PRETIMESKIP_PORTRAIT, ZanePreTimeskip, 2, 5, 3, 3) 
