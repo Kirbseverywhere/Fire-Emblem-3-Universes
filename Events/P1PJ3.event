@@ -1,0 +1,123 @@
+#include EAstdlib.event
+
+EventPointerTable(19,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+Units:
+UNIT Vergil SwordKnight 0x00 Level(1, Ally, 0) [4,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [3,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [3,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [5,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [6,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [6,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [2,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [7,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEvent(10,AugustusGet,0,Augustus)
+CharacterEvent(11,LenatoGet,0,Lenato)
+END_MAIN
+
+LocationBasedEvents:
+Seize(0x3,EndingScene,15,1)
+Chest(Swordreaver,15,10)
+Chest(BlueGem,16,11)
+Chest(KillerAxe,17,12)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 Units
+LOAD1 0x1 Prisoners
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+Text(EndOfDemo)
+MNCH 20
+ENDA
+
+// Events
+AugustusGet:
+//Text(PlaceholderText)
+TurnAlly(Augustus)
+ENDA
+
+LenatoGet:
+//Text(PlaceholderText)
+TurnAlly(Lenato)
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Bad:
+UNIT Darach AxeArmor 0x00 Level(15, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] GuardTileAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [IronLance, HandAxe] ChaseOnceApproachedAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [IronLance, HandAxe] ChaseOnceApproachedAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [13,6] 0x00 0x00 0x0 0x00 [IronLance] GuardTileAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT 0x85 Mage Darach Level(13, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
+UNIT 0x85 Mage Darach Level(13, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
+UNIT 0x85 Mage Darach Level(13, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
+UNIT 0x85 Thief Darach Level(13, Enemy, 1) [1,4] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI 
+UNIT 0x85 Thief Darach Level(13, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI 
+UNIT 0x85 BowArmor Darach Level(13, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x85 BowArmor Darach Level(13, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x85 BowArmor Darach Level(13, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI 
+UNIT 0x85 BowArmor Darach Level(13, Enemy, 1) [14,6] 0x00 0x00 0x0 0x00 [SteelBow] GuardTileAI 
+UNIT 0x85 Mercenary Darach Level(13, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x85 Mercenary Darach Level(13, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x85 SwordKnight Darach Level(13, Enemy, 1) [4,6] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x85 SwordKnight Darach Level(13, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [IronBlade] ChaseOnceApproachedAI 
+UNIT 0x85 SwordKnight Darach Level(13, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [IronSword] ChaseOnceApproachedAI 
+UNIT 0x85 LanceArmor Darach Level(13, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x85 LanceArmor Darach Level(13, Enemy, 1) [8,5] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x85 AxeArmor Darach Level(13, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x85 AxeArmor Darach Level(13, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT
+
+Prisoners:
+UNIT Augustus Priest 0x00 Level(12, NPC, 0) [14,15] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] GuardTileAI
+UNIT Lenato Horseman_F 0x00 Level(1, NPC, 0) [16,15] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] GuardTileAI
+UNIT
+
+
+// Shop Data
+
+MESSAGE Events end at offset currentOffset
