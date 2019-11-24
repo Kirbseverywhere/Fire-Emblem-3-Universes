@@ -219,7 +219,9 @@ ObjTypePalettePointerTable(SnowPalette1, SnowPalette1Data)
 #define CaveTileAnims 1
 TileAnimPointerTable(CaveTileAnims, CaveTileAnimsData)
 
-TileAnimPointerTable(5, 0x59D498)
+#define SnowTileAnims 2
+TileAnimPointerTable(SnowTileAnims, FE6WaterTileAnimsData)
+
 TileAnimPointerTable(5, 0x59D498)
 TileAnimPointerTable(0x12, 0x0859D568)
 TileAnimPointerTable(0x1C, 0x0859D6F8)
@@ -268,5 +270,7 @@ SnowObjTypeData:
 ALIGN 4
 SnowPalette1Data:
 #incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --palette-only
+
+#include "Tilesets/Snow/TileAnims.event"
 
 ALIGN 4

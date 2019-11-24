@@ -63,7 +63,7 @@
 #define Smeglinde 19
 #define Kabby 20
 #define Stephen 21
-#define Anthony 22
+#define Anton 22
 #define Myst 23
 #define Khris 24
 
@@ -88,6 +88,7 @@
 //Backwards Compatibility
 #define Leo Khris
 #define Diana Elle
+#define Anthony Anton
 
 // Bosses
 
