@@ -204,3 +204,8 @@ void ForgeActiveUnitEquippedWeaponASMC() {
 		gActiveUnit->items[GetUnitEquippedWeaponSlot(gActiveUnit)] = (item | 0x4000);
 	}
 }
+
+int CanUnitSeize(Unit *unit) {
+	if(unit->pCharacterData->attributes & CA_LORD != 0 || unit->pClassData->attributes & CA_LORD != 0) return 1;
+	return 0;
+}
