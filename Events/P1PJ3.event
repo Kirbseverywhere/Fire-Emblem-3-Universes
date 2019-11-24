@@ -36,9 +36,11 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(0x3,EndingScene,15,1)
-Chest(Swordreaver,15,10)
-Chest(BlueGem,16,11)
-Chest(KillerAxe,17,12)
+Chest(Swordreaver,16,10)
+Chest(BlueGem,17,11)
+Chest(KillerAxe,15,12)
+Door(0,7)
+Door(13,13)
 END_MAIN
 
 MiscBasedEvents:
