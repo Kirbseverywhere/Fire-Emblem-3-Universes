@@ -1,20 +1,20 @@
 ## AB1Opening
-[MidRight][LoadDiana]
+[MidRight][LoadElle]
 [FarLeft][LoadLazul]
 [Left][LoadReginald]
 #*enters map*
-Lady Diana, I believe[N]
+Lady Elle, I believe[N]
 we've arrived.[A]
-[MidRight]#Diana
+[MidRight]#Elle
 Ugh, smoke! There's so much[N]
 smoke everywhere![A]
 [FarLeft]#Lazul
 D-Do you want me to get you[N]
 a honey-infused handkerchief?[A]
-[MidRight]#Diana
+[MidRight]#Elle
 No, it's fine.[A]
 [MidRight][ClearFace][NearLeft][Clear][FarLeft][Clear]
-[ML][LoadDiana][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
+[ML][LoadElle][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
 [Right]
 We're not stopping until Hevursa does[N]
 something about those poachers![A]
@@ -52,16 +52,16 @@ I-I said I'm with you![A][X]
 ## AB1FirstKillQuotesCUT
 After defeating first opponent
 #Probably not viable to display in-game
-[MidRight]#Diana You're fortunate your heart still beats.
-R: Hmph. I shan't let you get in Lady Diana's way.
+[MidRight]#Elle You're fortunate your heart still beats.
+R: Hmph. I shan't let you get in Lady Elle's way.
 L: Oh, wow. I...actually won?[X]
 
 ## AB1Ending1
-[MidLeft][LoadDiana][Right][LoadReginald][FR][LoadLazul]
-[ML]#Diana
+[MidLeft][LoadElle][Right][LoadReginald][FR][LoadLazul]
+[ML]#Elle
 ...[A]
 [Right]#Reginald
-Lady Diana, our work here is done.[N]
+Lady Elle, our work here is done.[N]
 I know that Kajarn's death wasn't[AN]
 our goal, but there's nothing to[N]
 be done about it now.[A]
@@ -69,7 +69,7 @@ be done about it now.[A]
 Um, I think you two[N]
 should see this.[A]
 [FR][Clear][Right][Clear][ML][Clear]
-[FL][LoadReginald][Left][LoadDiana][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
+[FL][LoadReginald][Left][LoadElle][Right][LoadFace][0x5D][0x01][FarRight][LoadFace][0x5E][0x01]
 [Right]
 The Blade of the Council killed[N]
 Kajarn! Is this what the Council[AN]
@@ -99,8 +99,8 @@ Let's go. Now.
 Very well.[A][X]
 
 ## AB1Ending2
-[MidRight][LoadDiana][FL][LoadReginald][Left][LoadLazul]
-[MidRight]#Diana
+[MidRight][LoadElle][FL][LoadReginald][Left][LoadLazul]
+[MidRight]#Elle
 So much for garnering the Council's[N]
 favor. No doubt I'm going to be[AN]
 reprimanded when we return.[A]
@@ -125,7 +125,7 @@ to say right now.[OpenEyes] What I will say,[AN]
 though, is that we still accomplished[N]
 our main objective: to subdue the[AN]
 rebellion. We should take pride in that.[A]
-[MidRight]#Diana
+[MidRight]#Elle
 ...[A] 
 [Left]#Lazul
 ...[A]
@@ -135,14 +135,14 @@ I'll go scout ahead.[A]
 [ClearFace]
 [Left]#Lazul
 Dia? Is everything okay?[A]
-[MidRight]#Diana
+[MidRight]#Elle
 What? Of course, Lazul.[N]
 No need to worry over me.[A]
 [Left]#Lazul
 Right, of course. Sorry for[N]
 bothering you...[A]
 [Clear]
-[MidRight]#Diana
+[MidRight]#Elle
 ...
 [CloseEyes]Why did that fool[N]
 insist on dying?[A][X]
@@ -152,7 +152,7 @@ R: Lapis!
 L: Eep! Y-You scared me, Reginald.
 R: You say that every time I speak to you though.
 L: I...guess you're right about that.
-R: Anyway, I approached you because I heard from Diana that you were wondering how I'm so imposing when I speak.
+R: Anyway, I approached you because I heard from Elle that you were wondering how I'm so imposing when I speak.
 L: *closes eyes* Those conversations were...supposed to be private...
 R: Pardon?
 L: *open eyes* Um, nothing.
