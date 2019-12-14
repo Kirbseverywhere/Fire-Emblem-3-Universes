@@ -1,0 +1,9 @@
+
+ALIGN 4
+NewSeizeCheck:
+#incbin "NewSeizeCheck.dmp"
+POIN CanSeizeList
+
+ALIGN 4
+CanSeizeList:
+BYTE Rodin Vergil Diana 0
