@@ -35,7 +35,7 @@ END_MAIN
 LocationBasedEvents:
 House(0x3,EndingScene,19,3) //can't seize the floor
 Chest(LightBrand,8,0)
-Chest(Javelin,16,15)
+Chest(Hammer,16,15)
 END_MAIN
 
 MiscBasedEvents:

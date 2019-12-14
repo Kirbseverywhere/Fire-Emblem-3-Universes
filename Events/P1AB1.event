@@ -15,6 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 BanditsAppear[6,0] 0x0
+TurnEventPlayer(0, AB1NeedsMoreUnits, 4)
 END_MAIN
 
 BanditsAppear:
@@ -71,8 +72,8 @@ UNIT Reginald 0x0 0x1 Level(10, Ally, 0)   [3,9] 0b 0x0 0x0 0x0 [0] [0x0,0x0,0x0
 UNIT
 
 EnemyUnits:
-UNIT Kajarn Mercenary 0x1 Level(10, Enemy, 0)   [13,1] 0b 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
-UNIT Rebel Fighter Pablo Level(8, Enemy, 1)   [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
+UNIT Kajarn Mercenary 0x00 Level(10, Enemy, 0) [13,1] 0x00 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
+UNIT Rebel Fighter Pablo Level(8, Enemy, 1) [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
 UNIT Rebel Mercenary Pablo Level(10, Enemy, 1)  [8,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
 UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronLance] NeverMoveAI
 UNIT Rebel Soldier Pablo Level(7, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
@@ -82,6 +83,12 @@ UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [IronAxe] Gu
 UNIT Rebel AxeKnight Pablo Level(11, Enemy, 1) [8,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT Rebel Mercenary Pablo Level(11, Enemy, 1) [13,5] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
 UNIT
+
+BackupUnits:
+UNIT Zane 0x0 0x1 Level(10, Ally, 0) [3,9] 0b 0x0 0x0 0x0 [0] [0x0,0x0,0x0,0x0] 
+UNIT Adamminn 0x0 0x1 Level(10, Ally, 0) [1,8] 0b 0x0 0x0 0x0 [0] [0x0,0x0,0x0,0x0] 
+UNIT
+
  
 Traps1:
 ENDTRAP
@@ -116,4 +123,11 @@ Text(Town_Day,AB1Ending1)
 Text(0x10,AB1Ending2)//some random background get a more fitting one later
 MNC2 32
 NoFade
+ENDA
+
+AB1NeedsMoreUnits:
+LOAD1 0x1 BackupUnits
+CAM1 Zane
+FlashCursor(Zane,60)
+Text(PlaceholderText)
 ENDA

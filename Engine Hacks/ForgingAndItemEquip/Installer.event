@@ -8,6 +8,9 @@ BYTE Faith
 
 ORG 0x23BA4
 BYTE Faith
+
+ORG 0x89DAC
+SHORT 0x50A
 POP
 
 #define gItemData ItemTable

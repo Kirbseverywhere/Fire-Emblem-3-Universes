@@ -1,0 +1,68 @@
+ALIGN 4
+FE6WaterTileAnimsData:
+MapAnimsTiles(28,0x1000,FE6Water1)
+MapAnimsTiles(28,0x1000,FE6Water2)
+MapAnimsTiles(28,0x1000,FE6Water3)
+MapAnimsTiles(28,0x1000,FE6Water4)
+MapAnimsTiles(28,0x1000,FE6Water5)
+MapAnimsTiles(28,0x1000,FE6Water6)
+MapAnimsTiles(28,0x1000,FE6Water7)
+MapAnimsTiles(28,0x1000,FE6Water8)
+MapAnimsTiles(28,0x1000,FE6Water9)
+MapAnimsTiles(28,0x1000,FE6Water10)
+MapAnimsTiles(28,0x1000,FE6Water11)
+MapAnimsTiles(28,0x1000,FE6Water12)
+MapAnimsTiles(28,0x1000,FE6Water13)
+MapAnimsTiles(28,0x1000,FE6Water14)
+MapAnimsTiles(28,0x1000,FE6Water15)
+MapAnimsTiles(28,0x1000,FE6Water16)
+WORD 0x00 0x00
+
+ALIGN 4
+FE6Water1:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_000.png"
+ALIGN 4
+FE6Water2:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_001.png"
+ALIGN 4
+FE6Water3:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_002.png"
+ALIGN 4
+FE6Water4:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_003.png"
+ALIGN 4
+FE6Water5:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_004.png"
+ALIGN 4
+FE6Water6:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_005.png"
+ALIGN 4
+FE6Water7:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_006.png"
+ALIGN 4
+FE6Water8:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_007.png"
+ALIGN 4
+FE6Water9:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_008.png"
+ALIGN 4
+FE6Water10:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_009.png"
+ALIGN 4
+FE6Water11:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_010.png"
+ALIGN 4
+FE6Water12:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_011.png"
+ALIGN 4
+FE6Water13:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_012.png"
+ALIGN 4
+FE6Water14:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_013.png"
+ALIGN 4
+FE6Water15:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_014.png"
+ALIGN 4
+FE6Water16:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_015.png"

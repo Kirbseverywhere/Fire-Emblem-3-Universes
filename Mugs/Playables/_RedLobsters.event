@@ -1,16 +1,16 @@
 
 #define RODIN_PRETIMESKIP_PORTRAIT Rodin
-setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, KyuPreTimeskip, 3, 5, 3, 3) 
-KyuPreTimeskip:
-#incext PortraitFormatter "Kyu_PreTimeskip.png"
+setMugEntry(RODIN_PRETIMESKIP_PORTRAIT, RodinPreTimeskip, 3, 5, 3, 3) 
+RodinPreTimeskip:
+#incext PortraitFormatter "Rodin_PreTimeskip.png"
 
 #define MICHAEL_PRETIMESKIP_PORTRAIT Michael
-setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(MICHAEL_PRETIMESKIP_PORTRAIT, MichaelPreTimeskip, 3, 5, 3, 3) 
 MichaelPreTimeskip:
 #incext PortraitFormatter "Michael_PreTimeskip.png"
 
 #define ERIC_PRETIMESKIP_PORTRAIT Eric
-setMugEntry(ERIC_PRETIMESKIP_PORTRAIT, EricPreTimeskip, 3, 5, 3, 3) 
+setMugEntry(ERIC_PRETIMESKIP_PORTRAIT, EricPreTimeskip, 2, 5, 2, 3) 
 EricPreTimeskip:
 #incext PortraitFormatter "Eric_PreTimeskip.png"
 

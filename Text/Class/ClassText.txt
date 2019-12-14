@@ -23,16 +23,16 @@ High Lord[X]
 High Lord[X]
 
 ## LadyClassName
-Lady[X]
+Blade[X]
 
 ## LadyClassDesc
-Lady[X]
+Blade[X]
 
 ## SkyLordClassName
-Sky Lord[X]
+Overlord[X]
 
 ## SkyLordClassDesc
-Sky Lord[X]
+Overlord[X]
 
 ## SwordKnightClassName
 Sword Knight[X]

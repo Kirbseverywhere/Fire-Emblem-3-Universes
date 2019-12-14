@@ -27,8 +27,8 @@ I can't... see...[A][X]
 
 ## QuaSahntDeathQuote
 [OpenMidRight][LoadFace][0x05][0x01]
-This is not... where it's[N]
-supposed to end... No...[A][X]
+I guess that dream...[N]
+won't come true, huh...[A][X]
 
 ## InnardsDeathQuote
 [OpenMidRight][LoadFace][0x06][0x01]
@@ -64,7 +64,8 @@ everybody...[A][X]
 
 ## ZoruaDeathQuote
 [OpenMidRight][LoadFace][0x0C][0x01]
-This text is a placeholder![A][X]
+N-no... Please...[N]
+Not now...[A][X]
 
 ## VergilDeathQuote
 [OpenMidRight][LoadFace][0x0D][0x01]VergilDeathQuote[A][X]
@@ -76,8 +77,10 @@ only to fail here... [A][X]
 
 ## TrayDeathQuote
 [OpenMidRight][LoadFace][0x0F][0x01]
-I-It hurts... I don't...[N]
-w-want to go just yet...Ve-[A][X]
+
+T-this isn't so bad... I can[N]
+finally... see you... again...
+[A][X]
 
 ## HorusDeathQuote
 [OpenMidRight][LoadFace][0x10][0x01]HorusDeathQuote[A][X]
@@ -107,7 +110,9 @@ A noble death?[N]
 This joke... isn't funny...[A][X]
 
 ## AnthonyDeathQuote
-[OpenMidRight][LoadFace][0x16][0x01]AnthonyDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x16][0x01]
+Lord Vergil... It was an honor[N]
+to... fight with you.[A][X]
 
 ## MystDeathQuote
 [OpenMidRight][LoadFace][0x17][0x01]
@@ -121,11 +126,12 @@ just to die now...[A][X]
 
 ## DianaDeathQuote
 [OpenMidRight][LoadFace][0x19][0x01]
-This is cliche, but... My friends...[N]
-I let you all down...[A][X]
+PLACEHOLDER[A][X]
 
 ## ZaneDeathQuote
-[OpenMidRight][LoadFace][0x1A][0x01]ZaneDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x1A][0x01]
+I guess I've got one foot[N]
+in the grave, huh?[A][X]
 
 ## AdamminnDeathQuote
 [OpenMidRight][LoadFace][0x1B][0x01]
@@ -152,7 +158,9 @@ keep going...[A][X]
 I'm not strong enough...![A][X]
 
 ## PaulDeathQuote
-[OpenMidRight][LoadFace][0x20][0x01]PaulDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x20][0x01]
+I thought... I was prepared...[N]
+for this...[A][X]
 
 ## ReginaldDeathQuote
 [OpenMidRight][LoadFace][0x21][0x01]
@@ -169,7 +177,9 @@ Cyrus... my son... stay strong...[N]
 for Daddy...[A][X]
 
 ## OccamDeathQuote
-[OpenMidRight][LoadFace][0x24][0x01]OccamDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x24][0x01]
+I died the way I lived...[N]
+godamn worthless...[A][X]
 
 ## BorgasDeathQuote
 [OpenMidLeft][LoadFace][0x40][0x01]
@@ -200,7 +210,7 @@ Boys, we're getting out of here![A][X]
 [OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
 
 ## KajarnDeathQuote
-[OpenMidRight][LoadFace][0x60][0x01]
+[OpenMidRight][LoadFace][0x4F][0x01]
 No, I...I can't leave them now.[N]
 They still...need me...[A][X]
 

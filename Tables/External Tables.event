@@ -19,10 +19,17 @@ ORG 0x846AC
 POIN BattleQuoteTable
 POP
 
+// Boss music
+PUSH
+ORG 0x72908
+POIN BossMusicTable
+POP
+
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN 0"
 #define DeathQuote(Character, Mode, Chapter, Flag, TextID, Event) "SHORT Character; BYTE Mode Chapter Flag 0; SHORT TextID; POIN Event"
 #define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID) "SHORT Initiator Receiver Chapter Flag TextID 0; POIN 0"
 #define BattleQuote(Initiator, Receiver, Chapter, Flag, TextID, Event) "SHORT Initiator Receiver Chapter Flag TextID 0; POIN Event"
+#define BossMusic(Boss, Music) "WORD Boss Music"
 #define AnyChapter 0xFF
 #define AnyMode 0xFF
 #define AnyCharacter 0x00
@@ -111,6 +118,19 @@ BattleQuote(AnyCharacter, Yanndahl, 16, BossFoughtFlag, PJ1YanndahlBattleQuote)
 
 
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+BossMusicTable:
+BossMusic(Borgas, M_MountHorn)
+BossMusic(Alva, M_MountHorn)
+BossMusic(WyvernBoss, M_MountHorn)
+BossMusic(Yanndahl, M_MountHorn)
+BossMusic(Bruckner, M_MountHorn)
+BossMusic(BearBoss, M_MountHorn)
+BossMusic(Darach, M_MountHorn)
+BossMusic(Kajarn, M_MountHorn)
+BossMusic(Rynod, M_MountHorn)
+BossMusic(Ilyron, M_MountHorn)
+WORD 0xFFFFFFFF 0xFFFFFFFF
 
 
  
