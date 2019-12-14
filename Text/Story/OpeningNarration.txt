@@ -5,7 +5,7 @@ three rival powers.[AN]
 To the north lies the Empire of[N]
 Novingale, ruled by Empress Aurea.[AN]
 She and her son, Rodin, head of the[N]
-Red Lobsters, are on poor terms.[AN]
+Crimson Wolves, are on poor terms.[AN]
 To the south lies the Kingdom of[N]
 Seraphyn, ruled by King Curtis.[AN]
 His son, Vergil, on a diplomatic trip,[N]
@@ -13,7 +13,7 @@ heads the Purple Jaguars.[AN]
 And to the east, lies the Republic[N]
 of Hevursa, ruled by a council.[AN]
 The council contracted out the Amber[N]
-Bears' leader, Diana, for assassinations.[AN]
+Bears' leader, Elle, for assassinations.[AN]
 The three realms each have different goals.[N]
 Which one will ultimately prevail?[AN][X]
 
@@ -46,7 +46,7 @@ have decided to join forces with Arch.[A]
 
 ## PlaceholderText
 [OpenRight][LoadPortrait][0x01][0x01]
-This Text is a placeholder![X]
+This Text is a placeholder![A][X]
 
 ## EndOfDemo
 [Right][LoadFace][0x01][0x01]

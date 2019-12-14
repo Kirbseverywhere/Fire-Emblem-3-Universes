@@ -1,8 +1,8 @@
 
 #define VERGIL_PRETIMESKIP_PORTRAIT Vergil
-setMugEntry(VERGIL_PRETIMESKIP_PORTRAIT, ArchPreTimeskip, 3, 5, 3, 3) 
-ArchPreTimeskip:
-#incext PortraitFormatter "Arch_PreTimeskip.png"
+setMugEntry(VERGIL_PRETIMESKIP_PORTRAIT, VergilPreTimeskip, 3, 5, 3, 3) 
+VergilPreTimeskip:
+#incext PortraitFormatter "Vergil_PreTimeskip.png"
 
 #define XENITH_PRETIMESKIP_PORTRAIT Xenith
 setMugEntry(XENITH_PRETIMESKIP_PORTRAIT, XenithPreTimeskip, 3, 5, 3, 3) 
@@ -54,7 +54,7 @@ setMugEntry(MYST_PRETIMESKIP_PORTRAIT, MystPreTimeskip, 3, 5, 3, 3)
 MystPreTimeskip:
 #incext PortraitFormatter "Myst_PreTimeskip.png"
 
-#define LEO_PRETIMESKIP_PORTRAIT Leo 
-setMugEntry(LEO_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 3, 5, 3, 3) 
+#define KHRIS_PRETIMESKIP_PORTRAIT Khris 
+setMugEntry(KHRIS_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 3, 5, 3, 3) 
 KhrisPreTimeskip:
 #incext PortraitFormatter "Khris_PreTimeskip.png"

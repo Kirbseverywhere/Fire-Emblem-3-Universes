@@ -123,6 +123,7 @@ LOAD1 0x1 GuardSquad
 ENUN
 GotoPrepScreen
 ENDA
+
 EndingScene:
 MoveToChapter(0x34)
 ENDA

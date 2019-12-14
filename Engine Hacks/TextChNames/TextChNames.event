@@ -14,6 +14,10 @@
   PUSH
     ORG $89624
       jumpToHack(Chname)
+	  
+	ORG $20790
+	  SHORT 0x7B80
+	  SHORT 0
   POP
 
   Chname:

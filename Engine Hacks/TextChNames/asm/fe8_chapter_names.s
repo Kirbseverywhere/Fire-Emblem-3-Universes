@@ -6,7 +6,7 @@
 sub_8082308:
 @r0 is 0xb40 (position?)
 @r1 is chapter number. 0x54 is no data?
-@r2 is a bool; true for save screen and false otherwise. The purpose of this is so that you cannot see the chapter's name from the save screen; instead, you put something generic like 'Chapter 1' and then the actual name appears on the fancy intro thingy. Idea courtesy of PwnageKirby.
+@r2 is a bool; true for save screen and false otherwise. The purpose of this is so that you cannot see the chapters name from the save screen; instead, you put something generic like 'Chapter 1' and then the actual name appears on the fancy intro thingy. Idea courtesy of PwnageKirby.
 
 push    {r4-r7,r14}               @@ 08082308 B5F0     
 mov     r7,r8               @@ 0808230A 4647     

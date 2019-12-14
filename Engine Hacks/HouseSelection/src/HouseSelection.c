@@ -81,19 +81,9 @@ void HouseSelectionMenuSetup(struct HouseSelectionProc *currentProc) {
 
 void HouseSelectionMenuLoop(struct HouseSelectionProc *currentProc) {
 	Text_InitFont();
-	if ((sInput.newPress & InputStart) != 0) {
-		//EndFaceById(0);
-		if(currentProc->houseCounter == 0) {
-			gChapterData.chapterModeIndex = currentProc->houseCounter;
-			BreakProcLoop((struct Proc *)currentProc);
-		}
-	}
-	if ((sInput.newPress & InputSelect) != 0) {
-		//EndFaceById(0);
-		if(currentProc->houseCounter > 0) {
-			gChapterData.chapterModeIndex = currentProc->houseCounter;
-			BreakProcLoop((struct Proc *)currentProc);
-		}
+	if ((sInput.newPress & (InputStart|InputSelect|InputA)) != 0) {
+		gChapterData.chapterModeIndex = currentProc->houseCounter;
+		BreakProcLoop((struct Proc *)currentProc);
 	}
 	else {
 		SetupBG(0);
