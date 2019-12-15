@@ -67,7 +67,13 @@ UnitMenuTable:
   //MenuCommand(DualAtkTxtID,DualAtkDescId,0,DualAtkCheck,DualAtkSelected) 
 
   //UM_Seize
-  MenuCommand($67A,$6CC,BlueText,NewSeizeCheck,$08023021)
+  MenuCommand(0x67A, 0x6CC, BlueText, $08022FDD, $8023021)
+  // UM_Seize
+  #ifdef ESCAPE_ARRIVE
+    MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
+  #endif // ESCAPE_ARIVE
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags

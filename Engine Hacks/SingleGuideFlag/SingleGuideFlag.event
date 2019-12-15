@@ -1,0 +1,121 @@
+//Guide data is a series of lists; contained within these lists are the flags to use for unlock and read for each entry
+//This sets all of those flags to the same flag, effectively freeing up all of the guide flags for other uses
+
+PUSH
+ORG 0xB19E12
+//SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+//SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+//SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+ORG CURRENTOFFSET+8
+SHORT UnlockGuideFlag UnlockGuideFlag
+POP
+
+//bonus: disable select button sort feature in guide menu (fixes most problems that come from editing the guide)
+PUSH
+ORG 0xCEF7C 
+SHORT 0xE001
+POP

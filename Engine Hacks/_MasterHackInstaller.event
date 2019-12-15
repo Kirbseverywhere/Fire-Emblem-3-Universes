@@ -213,6 +213,12 @@ POP
   #include "SeizeFix/SeizeFix.event"
   
   ALIGN 4
+  #include "SingleGuideFlag/SingleGuideFlag.event"
+  
+  ALIGN 4
+  #include "Escape-Arrive/EscapeInstaller.event"
+  
+  ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
