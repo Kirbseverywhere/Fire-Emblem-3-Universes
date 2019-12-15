@@ -36,7 +36,6 @@ LocationBasedEvents:
 Escape(19,3)
 Chest(LightBrand,8,0)
 Chest(Hammer,16,15)
-Escape(3,12)
 END_MAIN
 
 MiscBasedEvents:
