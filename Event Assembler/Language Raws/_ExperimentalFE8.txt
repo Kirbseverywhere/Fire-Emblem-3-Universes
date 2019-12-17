@@ -1,6 +1,3 @@
-TUTORIAL_CALL, 0xA40, 8, -game:FE8 -indexMode:8
-	0xFFFFFFFF, 4, 4, -fixed
-
 _MUSICSOMETHING, 0x1321, 4, -game:FE8 -indexMode:8
 	Something, 2, 2, -preferredBase:10 -signed
 
@@ -31,15 +28,6 @@ _0x2141, 0x2141, 8, -game:FE8 -indexMode:8
 #Sounds the same as 1326
 _0x1328, 0x1328, 4, -game:FE8 -indexMode:8
 	Value1, 2, 2
-
-
-#Camera codes?
-_0x2620, 0x2620, 4, -game:FE8 -indexMode:8
-	Value1, 2, 2
-
-_0x2629, 0x2629, 4, -game:FE8 -indexMode:8
-	Value1, 2, 2
-
 
 _0x2B20, 0x2B20, 4, -game:FE8 -indexMode:8
 #In ruins. Called before loading units?
@@ -114,15 +102,10 @@ _0xAB40, 0xAB40, 8, -game:FE8 -indexMode:8
 
 _0xC220, 0xC220, 4, -game:FE8 -indexMode:8
 
-
 #Uni condition codes
 #Can hang the game, don't use this
 _0x3427, 0x3427, 4, -game:FE8 -indexMode:8
 	Character, 2, 2
-
-#backwards compatibility, use SMOD instead
-SLOTS_UNKNOWN, 0x0624, 4, -game:FE8 -indexMode:8 -noDisassembly
-	Slots, 2, 2
 
 #Stores parameter to $03000010.
 STORETOSOMETHING, 0x1120, 4, -game:FE8 -indexMode:8

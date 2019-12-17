@@ -83,7 +83,7 @@ jumpToHack(LiveToServe)
 ORG $18744
 callHack_r3(Lunge)
 ORG $187b0
-jumpToHack(LungeUpdate)
+//jumpToHack(LungeUpdate) //integrated into post-action loop
 ORG $3a094
 jumpToHack(LungeAI)
 

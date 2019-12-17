@@ -1,14 +1,20 @@
 
-#Stores value as a word to $030004B8 + (memory slot*4). Maximum memory slot is 0xD.
-#Memory slots are very important for fe8 events!
-#Memory slot 0x0 always has a value of zero - don't bother setting it otherwise.
-#Memory slot 0xB is where coordinates for many commands are read from.
-#Memory slot 0xC is where conditional values are stored - booleans, character IDs, gold count, etc
-#Memory slot 0xD indicates the size of a queue (see below); don't modify it with SETVAL
+# ===============
+# = EVENT SLOTS =
+# ===============
+
+# One of the best features of FE8 eventing
+# Allows you to set, get and manipulate temporary values
+# There are 14 of them
+# the first one (s0) holds a constant 0 and the last 3 (sB, sC, sD) often having special meaning.
+# Those are not kept between events and suspends (unlike eids or counters).
+# Many codes can read from them (usually s1, s2, s3 or sB) which is where those are most useful.
+
+## Sets slot value
 SVAL, 0x0540, 8, -game:FE8 -indexMode:8
-#Aliases
-	Memory slot, 2, 2
-	Value to store, 4, 4
+	Slot, 2, 2
+	Value, 4, 4
+# SVAL Aliases
 SETVAL, 0x0540, 8, -game:FE8 -indexMode:8
 	Memory slot, 2, 2
 	Value to store, 4, 4
@@ -16,88 +22,168 @@ SMOV, 0x0540, 8, -game:FE8 -indexMode:8
 	Memory slot, 2, 2
 	Value to store, 4, 4
 
-#0x062X series performs mathematical operations between memory slots.
-#Using macros for these is recommended.
-#Format for parameters is 0x0XYZ, where X and Y are the memory slots that supply the arguments for the equation,
-#and Z is the memory slot that the results are stored to.
+## Sets slot value to an address
+SPTR, 0x0540, 8, -game:FE8 -indexMode:8
+	Slot, 2, 2
+	Offset, 4, 4, -pointer
 
-#This can be used to transfer a value from one slot to another; just use 0x0YZ as the parameter.
+## Sets slot value to a set of coordinates
+SCOORD, 0x540, 8, -game:FE8 -indexMode:8
+	Slot, 2, 2
+	Coords, 4, 4, -coordinates:2 -preferredBase:10
+
+## Add slot values
+SADD, 0x0620, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Substract slot values
+SSUB, 0x0621, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Multiply slot values
+SMUL, 0x0622, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Divide slot values
+SDIV, 0x0623, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Modulus (?) slot values
+SMOD, 0x0624, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Bitwise And slot values
+SAND, 0x0625, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Bitwise Or slot values
+SORR, 0x0626, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Bitwise Exclusive Or slot values
+SXOR, 0x0627, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Bitwise Left shift slot values
+SLSL, 0x0628, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+## Bitwise Right shift slot values
+SLSR, 0x0629, 32, -game:FE8
+	SlotDest, 16, 4
+	SlotSrc1, 20, 4
+	SlotSrc2, 24, 4
+
+# Add slot values (compat format)
 SADD, 0x0620, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Subtracts value at X from value at Y.
+# Substract slot values (compat format)
 SSUB, 0x0621, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
+# Multiply slot values (compat format)
 SMUL, 0x0622, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Divides Y's value by X's value.
+# Divide slot values (compat format)
 SDIV, 0x0623, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Modulo of values in slots X and Y
+# Modulus (?) slot values (compat format)
 SMOD, 0x0624, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Binary AND of slots X and Y.
+# Bitwise And slot values (compat format)
 SAND, 0x0625, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Inclusive OR of X and Y.
+# Bitwise Or slot values (compat format)
 SORR, 0x0626, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Exclusive OR of X and Y.
+# Bitwise Exclusive Or slot values (compat format)
 SXOR, 0x0627, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
 
-#Shifts value at slot Y left by X bits.
+# Bitwise Left shift slot values (compat format)
 SLSL, 0x0628, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
-SLOTS_LEFTSHIFT, 0x0628, 4, -game:FE8 -indexMode:8
-	Slots, 2, 2
 
-#Shifts value at slot Y right by X bits.
+# Bitwise Right shift slot values (compat format)
 SLSR, 0x0629, 4, -game:FE8 -indexMode:8
 	Slots, 2, 2
-SLOTS_RIGHTSHIFT, 0x0629, 4, -game:FE8 -indexMode:8
-	Slots, 2, 2
 
+# ====================
+# = EVENT SLOT QUEUE =
+# ====================
 
-#Shifts first value in queue to memory slot indicated and shifts the rest down. Used with SAVETOQUEUE.
-#Parameter controls which memory slot to store the first value to, usually 0x2 or 0xB.
-SLOTS_SETFROMQUEUE, 0x0722, 4, -game:FE8 -indexMode:8
-	Memory Slot, 2, 2
+# Those codes operate on the event slot queue.
+# It can be used with several event codes
+# typicially when you need to declare some kind of list
+# Like slots, the event queue is temporary and isn't kept between events and suspends.
 
+## Enqueues given slot value
+SENQUEUE, 0x0720, 4, -game:FE8 -indexMode:8
+	SlotIndex, 2, 2
 
-#Stores word located at Memory slot 0x1 to location at $030004F0 + (4*number of words already stored there)
-#Register at $030004EC indicates how many words are stored.
-SAVETOQUEUE, 0x721, 4, -game:FE8 -indexMode:8
+## Enqueues slot 1 value
+SENQUEUE, 0x0721, 4, -game:FE8 -indexMode:8
 
-#Stores word from any memory slot to the queue.
-STQFROMSLOT, 0x720, 4, -game:FE8 -indexMode:8
-	Memory Slot, 2, 2
+## Dequeues value into given slot
+SDEQUEUE, 0x0722, 4, -game:FE8 -indexMode:8
+	SlotIndex, 2, 2
 
+# ==================
+# = EVENT COUNTERS =
+# ==================
 
-#These commands can initialize, add from, subtract, and store to memory slot 0xC
-#a counter value. Pretty useful.
+# A very underrated component of FE8 eventing
+# Those "counters" can be used to store small values (from 0 to 15)
+# Unlike slots, those are kept between events and suspends (same as local eids).
+# There is a total of 8 counters.
 
-#Stores value in counter to memory slot 0xC.
+## Get value of given counter into slot C
 COUNTER_CHECK, 0x0F20, 4, -game:FE8 -indexMode:8
-	value1, 2, 2,
+	Id, 2, 1
 
+## Sets value of given counter (range: 0-15)
 COUNTER_SET, 0x0F21, 4, -game:FE8 -indexMode:8
-#Amount to bitshift left the counter value by. Usually zero.
-	Bitshift value, 2, 1
-	Counter value, 3, 1
+	Id, 2, 1
+	Value, 3, 1
 
-#Add and subtract value at counter by (Base operand)*(2^Bistshift Value).
+## Increments value of given counter (max 15, won't overflow)
+COUNTER_INC, 0x0F22, 4, -language:FE8 -indexMode:8
+	Id, 2, 1
+
+## Decrements value of given counter (min 0, won't underflow)
+COUNTER_DEC, 0x0F23, 4, -language:FE8 -indexMode:8
+	Id, 2, 1
+
+# Provided for compat, but does not work as intended (use CONTOUT_INC instead)
 COUNTER_ADD, 0x0F22, 4, -game:FE8 -indexMode:8
-	Bitshift value, 2, 1
-	Base operand, 3, 1
+	Id, 2, 1
+	Unused, 3, 1
 
+# Provided for compat, but does not work as intended (use COUNTER_DEC instead)
 COUNTER_SUBTRACT, 0x0F23, 4, -game:FE8 -indexMode:8
-	Bitshift value, 2, 1
-	Base operand, 3, 1
-
+	Id, 2, 1
+	Unused, 3, 1

@@ -1,0 +1,40 @@
+.thumb
+.align 4
+
+push {r14}
+
+
+ldr	r0,=#0x800D07C		@event engine thingy
+mov	lr, r0
+ldr	r0, EscapeEvent	@the text part
+mov	r1, #0x01		@0x01 = wait for events
+.short	0xF800
+
+@grab action struct 
+ldr r0,=#0x203A958
+
+@set X coord in action struct (+0x0E)
+@mov r1,#0xFF
+@strb r1,[r0,#0xE]
+
+@set last used command to Wait
+mov r1,#1
+strb r1,[r0,#0x11]
+
+@set flag to denote escape should be triggered
+ldr r0,=#0x2040000
+ldrb r1,[r0]
+mov r2,#0x4
+orr r1,r2
+strb r1,[r0]
+
+pop {r0}
+bx r0
+
+.ltorg
+.align 4
+EscapeEvent:
+
+
+
+@praise uhh whoever wrote despoil
