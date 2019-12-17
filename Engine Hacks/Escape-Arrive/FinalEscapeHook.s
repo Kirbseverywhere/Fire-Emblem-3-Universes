@@ -59,7 +59,7 @@ bx	r0
 @ This has been incorporated into the Post-Action calc loop.
 @ r0 = character struct.
 mov r3, r0
-ldr r0,=#0x03005274
+ldr r0,=#0x2040000
 mov r2,r0
 ldrb r0,[r0]
 mov r1,#0x4
