@@ -71,7 +71,7 @@ UnitMenuTable:
   // UM_Seize
   #ifdef ESCAPE_ARRIVE
     MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCheck|IsPointer, $8023021)
-    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, $8023021)
+    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeLordUsability|IsPointer, EscapeLordEffect|IsPointer)
     MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeGeneralUsability|IsPointer, EscapeGeneralEffect|IsPointer)
   #endif // ESCAPE_ARIVE
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
