@@ -177,5 +177,5 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
 
 void ComputeArcanaShieldAttackReduction(struct BattleUnit* attacker, struct BattleUnit* defender) {
 	if (IsWeaponMagic(ITEM_INDEX(attacker->weapon)) && AccessoryEffectTester((Unit *)defender, AE_ArcanaShieldID)) 
-		attacker->battleAttack = attacker->battleAttack - (attacker->battleAttack/4);
+		attacker->battleAttack = attacker->battleAttack - ((attacker->battleAttack - defender->battleDefense)/4);
 }
