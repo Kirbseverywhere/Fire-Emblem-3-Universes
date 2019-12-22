@@ -148,3 +148,34 @@ void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Def
 	
 }
 
+s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** outDefender) {
+    if (gBattleTarget.battleSpeed > 250)
+        return FALSE;
+
+	if (AccessoryEffectTester((Unit *)&gBattleActor, AE_PursuitRingID)) {
+		if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < 1)
+			return FALSE;
+	}
+	else {
+		if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < 4)
+			return FALSE;
+	}
+
+    if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
+        *outAttacker = &gBattleActor;
+        *outDefender = &gBattleTarget;
+    } else {
+        *outAttacker = &gBattleTarget;
+        *outDefender = &gBattleActor;
+    }
+
+    if (GetItemWeaponEffect((*outAttacker)->weaponBefore) == WPN_EFFECT_HPHALVE)
+        return FALSE;
+
+    return TRUE;
+}
+
+void ComputeArcanaShieldAttackReduction(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	if (IsWeaponMagic(ITEM_INDEX(attacker->weapon)) && AccessoryEffectTester((Unit *)defender, AE_ArcanaShieldID)) 
+		attacker->battleAttack = attacker->battleAttack - (attacker->battleAttack/4);
+}

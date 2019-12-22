@@ -15,4 +15,7 @@ extern const AccessoryLocks gAccessoryLocksLookupTable[];
 extern u16 CannotEquipAccessoryText;
 extern const u32 ExpShareEvent[];
 extern u8 AE_ExpShareID;
+extern u8 AE_PursuitRingID;
+extern u8 AE_ArcanaShieldID;
 extern struct ProcInstruction event_proc_bin[];
+extern int SkillTester(struct Unit *unit, int skillId);

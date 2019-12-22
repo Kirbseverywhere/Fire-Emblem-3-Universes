@@ -222,6 +222,7 @@ int GetConvoyItemCostSum(void); //! FE8U = 0x801737D
 
 void SetItemUnsealedForCharacter(int item, u8 charId);
 s8 IsItemUnsealedForUnit(struct Unit* unit, int item);
+s8 IsWeaponMagic(int item);
 
 u8 GetItemIndex(int item); //! FE8U = 0x80174ED
 char* GetItemName(int item); //! FE8U = 0x80174F5

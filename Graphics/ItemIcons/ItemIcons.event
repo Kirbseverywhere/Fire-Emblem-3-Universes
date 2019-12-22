@@ -8,12 +8,14 @@ SetItemIcon(NormalShield)
 SetItemIcon(AegisShield)
 #incext Png2Dmp "AegisShield.png"
 
+SetItemIcon(ArcanaShield)
+#incext Png2Dmp "ArcanaShield.png"
+
 
 // Weapon Icons
 SetItemIcon(0x70)
 #incext Png2Dmp "WRankIcons.png"
 
-// Weapon Icons
 SetItemIcon(0x81)
 #incext Png2Dmp "MountTypeIcons.png"
 

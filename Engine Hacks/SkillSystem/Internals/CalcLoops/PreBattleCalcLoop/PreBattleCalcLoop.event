@@ -33,6 +33,7 @@ POIN LethalitySkill Bane
 #else
 POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
+POIN ComputeArcanaShieldAttackReduction
 // Because of how killing machine works, critical check should always be done last
 POIN CriticalCheck
 

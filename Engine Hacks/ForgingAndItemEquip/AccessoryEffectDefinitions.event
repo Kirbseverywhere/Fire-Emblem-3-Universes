@@ -4,3 +4,6 @@
 #define AE_ExpShare 0x4
 #define AE_PrecisionRing 0x5
 #define AE_MovRing 0x6
+#define AE_PursuitRing 0x7
+#define AE_ArcanaShield 0x8
+#define AE_RuneShifter 0x9

@@ -38,3 +38,21 @@ Movement Ring[X]
 ## MovRingDescText
 Grants +1 movement.[X]
 
+## PursuitRingNameText
+Pursuit Ring[X]
+
+## PursuitRingDescText
+Changes doubling threshold to 1 AS.[X]
+
+## KnightRingNameText
+Knight Ring[X]
+
+## KnightRingDescText
+Grants Canto+.[X]
+
+## ArcanaShieldNameText
+Arcana Shield[X]
+
+## ArcanaShieldDescText
+Damage Taken - 25% against Magic.[X]
+

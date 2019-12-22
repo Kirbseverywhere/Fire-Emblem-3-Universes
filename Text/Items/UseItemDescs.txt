@@ -21,3 +21,13 @@ Accuracy +10[X]
 
 ## LegRingUseDesc
 Move +1[X]
+
+## PursuitRingUseDesc
+Changes doubling threshold to 1 AS.[X]
+
+## KnightRingUseDesc
+Grants Canto+.[X]
+
+## ArcanaShieldUseDesc
+Damage Taken - 25%[N]
+against Magic.[X]

@@ -98,3 +98,9 @@ AE_ExpShareID:
 BYTE AE_ExpShare
 
 ALIGN 4
+AE_PursuitRingID:
+BYTE AE_PursuitRing
+
+ALIGN 4
+AE_ArcanaShieldID:
+BYTE AE_ArcanaShield
