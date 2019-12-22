@@ -33,7 +33,7 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-House(0x3,EndingScene,19,3) //can't seize the floor
+Escape(19,3)
 Chest(LightBrand,8,0)
 Chest(Hammer,16,15)
 END_MAIN
@@ -66,6 +66,19 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+
+EscapeCapturedCheck(Xenith,XenithCapturedFlag)
+EscapeCapturedCheck(Tray,TrayCapturedFlag)
+EscapeCapturedCheck(Horus,HorusCapturedFlag)
+EscapeCapturedCheck(Glac,GlacCapturedFlag)
+EscapeCapturedCheck(Daff,DaffCapturedFlag)
+EscapeCapturedCheck(Smeglinde,SmeglindeCapturedFlag)
+EscapeCapturedCheck(Kabby,KabbyCapturedFlag)
+EscapeCapturedCheck(Stephen,StephenCapturedFlag)
+EscapeCapturedCheck(Anton,AntonCapturedFlag)
+EscapeCapturedCheck(Myst,MystCapturedFlag)
+EscapeCapturedCheck(Khris,KhrisCapturedFlag)
+
 MNC2 18
 ENDA
 
@@ -98,7 +111,4 @@ UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Ir
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT
 
-
 // Shop Data
-
-MESSAGE Events end at offset currentOffset

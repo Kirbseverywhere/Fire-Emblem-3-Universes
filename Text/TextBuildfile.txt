@@ -51,6 +51,20 @@ What's New[X]
 ## GuideSection3
 New Options[X]
 
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[NL]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[NL]
+by having this unit arrive.[X]
+
 #include "Menu\SoundRoom.txt"
 
 #0xd4c FreeBlockBegins

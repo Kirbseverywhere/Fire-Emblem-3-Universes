@@ -30,128 +30,179 @@ UnitCustomizerEntry(Myst, Swords, Swords, Reason, SwordKnight, IronSword, Vulner
 UnitCustomizerEntry(Daff, Reason, Faith, Lances, DarkMage_F, Flux, Vulnerary, Troubadour, Heal, Vulnerary, Archer_F, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, DaffUnitCustomizerDesc)
 UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief_F, IronSword, Lockpick, Archer_F, IronBow, Vulnerary, Cleric, Heal, Vulnerary, Mage_F, Fire, Vulnerary, SmeglindeUnitCustomizerDesc)
 UnitCustomizerEntry(Kabby, Gauntlets, Reason, Axes, Brigand, IronAxe, Vulnerary, Fighter, IronAxe, Vulnerary, DarkMage, Flux, Vulnerary, Priest, Heal, Vulnerary, KabbyUnitCustomizerDesc)
-UnitCustomizerEntry(Stephen, Swords, Axes, Faith, Mercenary, IronSword, Vulnerary, Pirate, IronAxe, Vulnerary, SwordArmor, IronSword, Vulnerary, PriestBuff, Heal, Lightning, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Anthony, Bows, Lances, Axes, Archer, IronBow, Vulnerary, LanceKnight, IronLance, Vulnerary, LanceArmor, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Leo, Swords, Bows, Reason, Myrmidon, IronSword, Vulnerary, BowKnight, IronBow, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, GenericUnitCustomizerDesc)
+UnitCustomizerEntry(Stephen, Swords, Axes, Faith, Mercenary, IronSword, Vulnerary, Pirate, IronAxe, Vulnerary, SwordArmor, IronSword, Vulnerary, PriestBuff, Heal, Lightning, StephenUnitCustomizerDesc)
+UnitCustomizerEntry(Anthony, Bows, Lances, Axes, Archer, IronBow, Vulnerary, LanceKnight, IronLance, Vulnerary, LanceArmor, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, AntonUnitCustomizerDesc)
+UnitCustomizerEntry(Leo, Swords, Bows, Reason, Myrmidon, IronSword, Vulnerary, BowKnight, IronBow, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, KhrisUnitCustomizerDesc)
 
 // AMBER BEARS
 UnitCustomizerEntry(Zane, Lances, Axes, Faith, Priest, Heal, Caduceus, Mage, Fire, Caduceus, AxeArmor, IronAxe, Vulnerary, Pirate, SteelAxe, Vulnerary, ZaneUnitCustomizerDesc)
 UnitCustomizerEntry(Adamminn, Lances, Axes, Faith, Brigand, IronAxe, AegisShield, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, SwordKnight, IronSword, Vulnerary, AdamminnUnitCustomizerDesc)
 UnitCustomizerEntry(Reginald, Axes, Lances, Reason, AxeKnight, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, Fighter, IronAxe, Vulnerary, ReginaldUnitCustomizerDesc)
 UnitCustomizerEntry(Lazul, Swords, Lances, Faith, Thief_F, IronSword, Lockpick, Cleric, Heal, Vulnerary, Myrmidon_F, IronSword, Vulnerary, PegasusKnight, IronLance, Vulnerary, LazulUnitCustomizerDesc)
-UnitCustomizerEntry(William, Lances, Axes, Bows, LanceArmor, IronLance, Vulnerary, AxeArmor, IronAxe, Vulnerary, WyvernRider, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Nobody, Axes, Bows, Reason, BowKnight, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, Deacon, Heal, Lightning, LanceKnight, IronLance, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Jack, Swords, Faith, Lances, Thief, SlimSword, Lockpick, Priest, Heal, Lightning, Mage, Fire, Vulnerary, PegasusKnight, IronLance, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Paul, Swords, Reason, Axes, Myrmidon, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Vollster, Reason, Swords, Gauntlets, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, Priest, Heal, Lightning, SwordArmor, IronSword, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Greg, Axes, Lances, Reason, WyvernRider, IronLance, Vulnerary, Brigand, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, GenericUnitCustomizerDesc)
-UnitCustomizerEntry(Occam, Bows, Swords, Lances, Archer, IronBow, Vulnerary, Thief, SlimSword, Lockpick, BowKnight, IronBow, Vulnerary, BowArmor, IronBow, Vulnerary, GenericUnitCustomizerDesc)
+UnitCustomizerEntry(William, Lances, Axes, Bows, LanceArmor, IronLance, Vulnerary, AxeArmor, IronAxe, Vulnerary, WyvernRider, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, WilliamUnitCustomizerDesc)
+UnitCustomizerEntry(Nobody, Axes, Bows, Reason, BowKnight, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, Deacon, Heal, Lightning, LanceKnight, IronLance, Vulnerary, NobodyUnitCustomizerDesc)
+UnitCustomizerEntry(Jack, Swords, Faith, Lances, Thief, SlimSword, Lockpick, Priest, Heal, Lightning, Mage, Fire, Vulnerary, PegasusKnight, IronLance, Vulnerary, JackUnitCustomizerDesc)
+UnitCustomizerEntry(Paul, Swords, Reason, Axes, Myrmidon, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, PaulUnitCustomizerDesc)
+UnitCustomizerEntry(Vollster, Reason, Swords, Gauntlets, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, Priest, Heal, Lightning, SwordArmor, IronSword, Vulnerary, VollsterUnitCustomizerDesc)
+UnitCustomizerEntry(Greg, Axes, Lances, Reason, WyvernRider, IronLance, Vulnerary, Brigand, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, GregUnitCustomizerDesc)
+UnitCustomizerEntry(Occam, Bows, Swords, Lances, Archer, IronBow, Vulnerary, Thief, SlimSword, Lockpick, BowKnight, IronBow, Vulnerary, BowArmor, IronBow, Vulnerary, OccamUnitCustomizerDesc)
 
 SHORT 0
 
 ALIGN 4
 MichaelUnitCustomizerDesc:
-String("Michael: Probably too drunk to fight")
+String("Michael Marus")
 BYTE 0
 
 EricUnitCustomizerDesc:
-String("Eric: Oh wait THIS is chair")
+String("Eric")
 BYTE 0
 
 KellyUnitCustomizerDesc:
-String("Kelly: Best and only cook in all of Ternon!")
+String("Kelly MacKinnon")
 BYTE 0
 
 QuaSahntUnitCustomizerDesc:
-String("Qua: Best and only cook in all of Ternon!")
+String("Qua Sahnt Croisant")
 BYTE 0
 
 InnardsUnitCustomizerDesc:
-String("Innards: Had the guts to show up")
+String("Innards")
 BYTE 0
 
 JonathenUnitCustomizerDesc:
-String("Jonathen Mitford: always with ford")
+String("Jonathen Mitford")
 BYTE 0
 
 KaidenUnitCustomizerDesc:
-String("Kaiden: Some misunderstood performer.")
+String("Kaiden")
 BYTE 0
 
 CleoUnitCustomizerDesc:
-String("Cleo: Don't dress like a spy.")
+String("Cleo")
 BYTE 0
 
 RedsUnitCustomizerDesc:
-String("Reds: He'll work in any class.")
+String("Reds")
 BYTE 0
 
 MimiUnitCustomizerDesc:
-String("Mimi Reife: A sentient ragdoll. Yep.")
+String("Mimi Reife")
 BYTE 0
 
 ZoruaUnitCustomizerDesc:
-String("Zorua: Tiny but mighty! ...Or not.")
+String("Zorua")
 BYTE 0
 
 ALIGN 4
 XenithUnitCustomizerDesc:
-String("Xenith:")
+String("Xenith")
 BYTE 0
 
 MystUnitCustomizerDesc:
-String("Myst: Literally unwatchable")
+String("Myst")
 BYTE 0
 
 ALIGN 4
 TrayUnitCustomizerDesc:
-String("Tray: Really, I have no joke here")
+String("Tray Ragaeusa")
 BYTE 0
 
 ALIGN 4
 HorusUnitCustomizerDesc:
-String("I cause a game over because I'm in charge")
+String("Horus")
 BYTE 0
 
 ALIGN 4
 GlacUnitCustomizerDesc:
-String("Gregg")
+String("Glac")
 BYTE 0
 
 ALIGN 4
 DaffUnitCustomizerDesc:
-String("Daff von Morgana: You look tired.")
+String("Daff von Morgana")
 BYTE 0
 
 ALIGN 4
 SmeglindeUnitCustomizerDesc:
-String("Smeglinde: Has the role gauntlet")
+String("Smeglinde")
 BYTE 0
 
 ALIGN 4
 KabbyUnitCustomizerDesc:
-String("Kabby: Feet")
+String("Kabby")
+BYTE 0
+
+ALIGN 4
+StephenUnitCustomizerDesc:
+String("Stephen Redharr")
+BYTE 0
+
+ALIGN 4
+AntonUnitCustomizerDesc:
+String("Anton Beaumont")
+BYTE 0
+
+ALIGN 4
+KhrisUnitCustomizerDesc:
+String("Khris Lucion")
 BYTE 0
 
 ALIGN 4
 ZaneUnitCustomizerDesc:
-String("Zane: Always one bone away from perfection")
+String("Zane")
 BYTE 0
 
 ALIGN 4
 AdamminnUnitCustomizerDesc:
-String("GOD NO I AM NOT DOING A DESC FOR ADAM")
+String("Adamminn")
 BYTE 0
 
 ALIGN 4
 ReginaldUnitCustomizerDesc:
-String("Reginald: :dlanigeR")
+String("Reginald")
 BYTE 0
 
 ALIGN 4
 LazulUnitCustomizerDesc:
-String("Lazul: I'm blue dabedeedabeda")
+String("Lazul")
 BYTE 0
+
+ALIGN 4
+WilliamUnitCustomizerDesc:
+String("William")
+BYTE 0
+
+ALIGN 4
+NobodyUnitCustomizerDesc:
+String("Nobody")
+BYTE 0
+
+ALIGN 4
+JackUnitCustomizerDesc:
+String("Jack")
+BYTE 0
+
+ALIGN 4
+PaulUnitCustomizerDesc:
+String("Paul")
+BYTE 0
+
+ALIGN 4
+VollsterUnitCustomizerDesc:
+String("Vollster")
+BYTE 0
+
+ALIGN 4
+GregUnitCustomizerDesc:
+String("Greg")
+BYTE 0
+
+ALIGN 4
+OccamUnitCustomizerDesc:
+String("Occam")
+BYTE 0
+
 
 ALIGN 4
 GenericUnitCustomizerDesc:

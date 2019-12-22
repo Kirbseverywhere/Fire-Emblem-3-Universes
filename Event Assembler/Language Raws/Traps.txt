@@ -24,7 +24,7 @@ FIRE, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod
 	Size, 4, 2, -coordinates:2 -preferredBase:10
 
 ##Gas trap
-GAST, 0, 6, -language:FE7 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
+GAST, 0, 6, -language:FE7:FE8 -unsafe -priority:ballista -indexMode:8 -offsetMod:1
 	5, 0, 1, -fixed 
 ##Position of the trap
 	Position, 1, 2, -coordinates:2 -preferredBase:10

@@ -36,6 +36,8 @@
 
 #define __TERNONDEBUG__
 
+#define  ESCAPE_ARRIVE
+
 // Characters
 
 // Red Lobsters
@@ -134,3 +136,25 @@
 #define LightAffin 8
 #define DarkAffin 9
 #define HeavenAffin 10
+
+// Global Flags
+
+#define UnlockGuideFlag 0xCB
+
+// Red Lobsters
+
+// Purple Jaguars
+
+#define XenithCapturedFlag 0xC0
+#define TrayCapturedFlag 0xC1
+#define HorusCapturedFlag 0xC2
+#define GlacCapturedFlag 0xC3
+#define DaffCapturedFlag 0xC4
+#define SmeglindeCapturedFlag 0xC5
+#define KabbyCapturedFlag 0xC6
+#define StephenCapturedFlag 0xC7
+#define AntonCapturedFlag 0xC8
+#define MystCapturedFlag 0xC9
+#define KhrisCapturedFlag 0xCA
+
+// Amber Bears
