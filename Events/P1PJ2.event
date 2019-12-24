@@ -26,7 +26,9 @@ UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [4,13] 0x00 0x00 0x0 0x00 [0x00] No
 UNIT
 
 
+
 TurnBasedEvents:
+TurnEventPlayer(0, EventAfterPrep, 1)
 END_MAIN
 
 CharacterBasedEvents:
@@ -56,12 +58,20 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+SetBackground(Black)
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+MUSC The_Beginning
+TEXTSHOW PJ2Narration
+TEXTEND
 REVEAL Kabby
 REVEAL Stephen
 REVEAL Anthony
 REVEAL Leo
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
+Text(PJ2OpeningScouting)
+Text(PJ2OpeningCave)
 GotoPrepScreen
 ENDA
 
@@ -83,6 +93,12 @@ MNC2 18
 ENDA
 
 // Events
+EventAfterPrep:
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+TEXTSHOW EscapeWarning
+TEXTEND
+ENDA
 
 // Manual Movement
 
