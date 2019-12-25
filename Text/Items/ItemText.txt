@@ -56,3 +56,45 @@ Arcana Shield[X]
 ## ArcanaShieldDescText
 Damage Taken - 25% against Magic.[X]
 
+## RenewalRingNameText
+Renewal Ring[X]
+
+## RenewalRingDescText
+Grants Renewal.[X]
+
+## RuneShifterNameText
+Rune Shifter[X]
+
+## RuneShifterDescText
+Swaps Strength and Magic.[X]
+
+## WhetstoneNameText
+Whetstone[X]
+
+## WhetstoneDescText
+Changes Effectiveness Multiplier.[X]
+
+## AngelRingNameText
+Angel Ring[X]
+
+## AngelRingDescText
+All +1 are +2.[X]
+
+## SailNameText
+Sail[X]
+
+## SailDescText
+Yar Har.[X]
+
+## FakeWingsNameText
+Fake Wings[X]
+
+## FakeWingsDescText
+Allows Anyone to fly.[X]
+
+## VampiresFangNameText
+Vampire's Fang[X]
+
+## VampiresFangDescText
+Recover damage given[NL]
+as HP.[X]

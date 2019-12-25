@@ -104,3 +104,11 @@ BYTE AE_PursuitRing
 ALIGN 4
 AE_ArcanaShieldID:
 BYTE AE_ArcanaShield
+
+ALIGN 4
+AE_WhetstoneID:
+BYTE AE_Whetstone
+
+ALIGN 4
+AE_AngelRingID:
+BYTE AE_AngelRing

@@ -77,6 +77,8 @@ Proc_StealHP:
 #incbin "proc_stealhp.dmp"
 POIN SkillTester
 WORD LiquidOozeID
+POIN AccessoryEffectTester
+WORD AE_VampiresFang
 
 Proc_Sureshot:
 #incbin "proc_sureshot.dmp"

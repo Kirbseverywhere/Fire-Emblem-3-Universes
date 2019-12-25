@@ -599,10 +599,8 @@
 .macro draw_affinity_icon_at, tile_x, tile_y
   ldr r4, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
   mov r0, r8
-  blh AffinityGetter
-  mov     r1, #0x2
-  lsl     r1, #0x8 @ 0x200
-  orr     r1, r0
+  blh 0x80286D4
+  mov     r1, r0
   mov     r2,#0xA0       
   lsl     r2,r2,#0x7      
   mov     r0,r4    

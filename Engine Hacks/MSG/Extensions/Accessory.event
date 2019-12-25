@@ -25,6 +25,5 @@ GetItemMovBonus:
 POIN ItemTable
 
 #define prGetItemMovBonus GetItemMovBonus
-	MESSAGE prGetItemMovBonus
 
 #endif // MSG_EXT_ACCESSORY_EVENT

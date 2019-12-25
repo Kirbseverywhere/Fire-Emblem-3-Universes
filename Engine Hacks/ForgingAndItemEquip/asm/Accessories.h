@@ -17,5 +17,7 @@ extern const u32 ExpShareEvent[];
 extern u8 AE_ExpShareID;
 extern u8 AE_PursuitRingID;
 extern u8 AE_ArcanaShieldID;
+extern u8 AE_WhetstoneID;
+extern u8 AE_AngelRingID;
 extern struct ProcInstruction event_proc_bin[];
 extern int SkillTester(struct Unit *unit, int skillId);

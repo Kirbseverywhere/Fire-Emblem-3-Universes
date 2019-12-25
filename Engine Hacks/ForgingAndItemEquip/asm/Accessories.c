@@ -106,44 +106,24 @@ int AccessorySkillGetter(struct Unit *unit) {
 	return 0;
 }
 
+void ExpShareAddExpIfPossible(struct Unit *UnitToCheck) {
+	if(UnitToCheck) {
+		if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
+			if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
+		}
+	}
+}
+
 void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Defender) {
 	struct Unit *PlayerUnit;
 	Proc *BattleProc = Proc_Find((struct ProcInstruction *)0x0859AAD8);
 	if(UNIT_FACTION(&Attacker->unit) == FACTION_BLUE) PlayerUnit = &Attacker->unit;
 	if(UNIT_FACTION(&Defender->unit) == FACTION_BLUE) PlayerUnit = &Defender->unit;
 	if (AccessoryEffectTester(PlayerUnit, AE_ExpShareID)) {
-		
-		struct Unit *UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos+1][PlayerUnit->xPos]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos+1]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos-1][PlayerUnit->xPos]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos-1]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos+1][PlayerUnit->xPos]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos+1]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos-1][PlayerUnit->xPos]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos-1]));
 	}
 	
 }
@@ -175,7 +155,46 @@ s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** o
     return TRUE;
 }
 
+void ComputePrecisionRingHitBoost(struct BattleUnit* bu) {
+	if(AccessoryEffectTester(&bu->unit, 5)) 
+		bu->battleHitRate += 10;
+}
+
 void ComputeArcanaShieldAttackReduction(struct BattleUnit* attacker, struct BattleUnit* defender) {
-	if (IsWeaponMagic(ITEM_INDEX(attacker->weapon)) && AccessoryEffectTester((Unit *)defender, AE_ArcanaShieldID)) 
+	if (IsWeaponMagic(ITEM_INDEX(attacker->weapon)) && AccessoryEffectTester(&defender->unit, AE_ArcanaShieldID)) 
 		attacker->battleAttack = attacker->battleAttack - ((attacker->battleAttack - defender->battleDefense)/4);
+}
+
+void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    short attack;
+
+    attacker->battleAttack = GetItemMight(attacker->weapon) + attacker->wTriangleDmgBonus;
+    attack = attacker->battleAttack;
+
+    if (IsUnitEffectiveAgainst(&attacker->unit, &defender->unit))
+        attack = attacker->battleAttack * 3;
+
+    if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit)) {
+		attack = attacker->battleAttack;
+		if(AccessoryEffectTester(&attacker->unit, AE_WhetstoneID)) attack *= 4;
+        else attack *= 3;
+    }
+
+    attacker->battleAttack = attack;
+    attacker->battleAttack += attacker->unit.pow;
+}
+
+int GetStatIncreaseWithAngelRing(int growth, struct Unit* unit) {
+    int result = 0;
+
+    while (growth > 100) {
+        result++;
+        growth -= 100;
+    }
+
+    if (Roll1RN(growth)) {
+        result++;
+		if(AccessoryEffectTester(unit, AE_AngelRingID)) result++;
+	}
+    return result;
 }

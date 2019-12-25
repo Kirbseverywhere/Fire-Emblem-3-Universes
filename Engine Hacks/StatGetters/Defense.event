@@ -4,14 +4,19 @@
 #include "_Common.event"
 
 pDefenseModifiers: // Defense
-	POIN prAddUnitDefense prHalveIfCapturing prDebuffDef prAddEquipDefense prAddAccessoryDefense prItemPassiveDefense prRallyDef prLifeAndDeathMinus VigorDanceCheck prSkillFury prFortressDefenseDef
+	POIN prAddUnitDefenseNoRuneShifter prAddUnitDefenseRuneShifter prHalveIfCapturing prDebuffDef prAddEquipDefense prAddAccessoryDefense prItemPassiveDefense prRallyDef prLifeAndDeathMinus VigorDanceCheck prSkillFury prFortressDefenseDef
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
 WORD 0
 
-prAddUnitDefense:
-	rAdd(rSByteAt(UNIT_DEFENSE))
+prAddUnitDefenseNoRuneShifter:
+	rIfUnitHasNotAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_DEFENSE))
+
+prAddUnitDefenseRuneShifter:
+	rIfUnitHasAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_RESISTANCE))
 	
 prAddEquipDefense:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemDefBonus)))

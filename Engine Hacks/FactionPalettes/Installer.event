@@ -1,8 +1,6 @@
 #include "src/MapSpritesPalette.event"
 
 PUSH 
-ORG 0x26664
-SHORT 0 0
 
 ORG 0x90ED2
 BYTE 0x20
