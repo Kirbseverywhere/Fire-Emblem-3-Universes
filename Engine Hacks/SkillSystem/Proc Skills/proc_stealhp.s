@@ -5,6 +5,8 @@
   .short 0xf800
 .endm
 .equ CounterID, SkillTester+4
+.equ AccessoryEffectTester, CounterID+4
+.equ VampiresFangID, AccessoryEffectTester+4
 .equ d100Result, 0x802a52c
 @ r0 is attacker, r1 is defender, r2 is current buffer, r3 is battle data
 push {r4-r7,lr}
@@ -34,8 +36,19 @@ ldr	r1,=0x080177C0	@has table pointer
 ldr	r1,[r1]
 ldrb	r0,[r1,r0]	@weapon effect
 cmp	r0,#2		@steal hp effect
-bne	End
+bne	CheckAccessory
+b Continue
 
+CheckAccessory:
+ldr r0, AccessoryEffectTester
+mov lr, r0
+mov r0, r4 @attacker data
+ldr r1, VampiresFangID
+.short 0xf800
+cmp r0, #0
+beq	End
+
+Continue:
 @make sure damage > 0
 mov	r0,#4
 ldrsh	r0,[r7,r0]
@@ -43,7 +56,7 @@ cmp	r0,#0
 ble	End
 
 @check for devil
-ldr     r0,[r2]           @r0 = battle buffer                @ 0802B40A 6800     
+ldr     r0,[r6]           @r0 = battle buffer                @ 0802B40A 6800     
 lsl     r0,r0,#0xD                @ 0802B40C 0340     
 lsr     r0,r0,#0xD        @Without damage data                @ 0802B40E 0B40     
 mov	r1,#0x82 @miss + devil
@@ -147,3 +160,5 @@ b	End
 SkillTester:
 @POIN SkillTester
 @WORD CounterID
+@POIN AccessoryEffectTester
+@WORD VampiresFangID

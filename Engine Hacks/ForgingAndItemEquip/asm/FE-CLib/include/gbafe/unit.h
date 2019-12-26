@@ -484,4 +484,6 @@ void UnitRemoveItem(struct Unit*, int slot); //! FE8U = 0x8019485
 
 int CanUnitCrossTerrain(const struct Unit*, u8 terrain); //! FE8U = 0x801949D
 
+int IsUnitEffectiveAgainst(const struct Unit*, const struct Unit*);
+
 #endif // GBAFE_UNIT_H

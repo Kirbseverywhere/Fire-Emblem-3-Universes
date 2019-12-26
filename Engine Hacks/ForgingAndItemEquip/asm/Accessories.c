@@ -86,6 +86,22 @@ int EquippedAccessoryGetter(struct Unit *unit) {
 	return 0; // if no equipped item return nothing
 }
 
+void DepleteEquippedAccessoryUse(struct Unit *unit) {
+	for(int i = 0; i < 5; i++) {
+		if(ITEM_EQUIPPED(unit->items[i])) { // i is the id of the equipped accessory
+			if (ITEM_USES(unit->items[i]) - 1 == 0) {
+				if (i == 4) unit->items[5] = 0; // if the item is the last in inventory, clear that
+				else { // else shift every item's placement by 1
+					for(int o = i; o < 4; o++) {
+						unit->items[o] = unit->items[o+1];
+					}
+				}
+			}
+			else unit->items[i] = (unit->items[i] & 0xC0FF) | ((ITEM_USES(unit->items[i]) - 1) << 8);
+		}
+	}
+}
+
 int AccessoryEffectGetter(struct Unit *unit) {
 	int item = EquippedAccessoryGetter(unit);
 	if (!item) return 0;
@@ -106,45 +122,136 @@ int AccessorySkillGetter(struct Unit *unit) {
 	return 0;
 }
 
+void ExpShareAddExpIfPossible(struct Unit *UnitToCheck) {
+	if(UnitToCheck) {
+		if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
+			if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
+		}
+	}
+}
+
 void ExpShareAccessoryEffect(struct BattleUnit *Attacker, struct BattleUnit *Defender) {
 	struct Unit *PlayerUnit;
 	Proc *BattleProc = Proc_Find((struct ProcInstruction *)0x0859AAD8);
 	if(UNIT_FACTION(&Attacker->unit) == FACTION_BLUE) PlayerUnit = &Attacker->unit;
 	if(UNIT_FACTION(&Defender->unit) == FACTION_BLUE) PlayerUnit = &Defender->unit;
 	if (AccessoryEffectTester(PlayerUnit, AE_ExpShareID)) {
-		
-		struct Unit *UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos+1][PlayerUnit->xPos]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos+1]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos-1][PlayerUnit->xPos]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
-		
-		UnitToCheck = GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos-1]);
-		
-		if(UnitToCheck) {
-			if(UNIT_FACTION(UnitToCheck) == FACTION_BLUE) {
-				if(UnitToCheck->exp + 10 < 100) UnitToCheck->exp += 10; else UnitToCheck->exp = 99;
-			}
-		}
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos+1][PlayerUnit->xPos]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos+1]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos-1][PlayerUnit->xPos]));
+		ExpShareAddExpIfPossible(GetUnit(gMapUnit[PlayerUnit->yPos][PlayerUnit->xPos-1]));
 	}
 	
 }
 
+s8 BattleGetFollowUpOrder(struct BattleUnit** outAttacker, struct BattleUnit** outDefender) {
+    if (gBattleTarget.battleSpeed > 250)
+        return FALSE;
+
+	if (AccessoryEffectTester((Unit *)&gBattleActor, AE_PursuitRingID)) {
+		if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < 1)
+			return FALSE;
+	}
+	else {
+		if (ABS(gBattleActor.battleSpeed - gBattleTarget.battleSpeed) < 4)
+			return FALSE;
+	}
+
+    if (gBattleActor.battleSpeed > gBattleTarget.battleSpeed) {
+        *outAttacker = &gBattleActor;
+        *outDefender = &gBattleTarget;
+    } else {
+        *outAttacker = &gBattleTarget;
+        *outDefender = &gBattleActor;
+    }
+
+    if (GetItemWeaponEffect((*outAttacker)->weaponBefore) == WPN_EFFECT_HPHALVE)
+        return FALSE;
+
+    return TRUE;
+}
+
+void ComputePrecisionRingHitBoost(struct BattleUnit* bu) {
+	if(AccessoryEffectTester(&bu->unit, 5)) 
+		bu->battleHitRate += 10;
+}
+
+void ComputeArcanaShieldAttackReduction(struct BattleUnit* attacker, struct BattleUnit* defender) {
+	if (IsWeaponMagic(ITEM_INDEX(attacker->weapon)) && AccessoryEffectTester(&defender->unit, AE_ArcanaShieldID)) 
+		attacker->battleAttack = attacker->battleAttack - ((attacker->battleAttack - defender->battleDefense)/4);
+}
+
+void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* defender) {
+    short attack;
+
+    attacker->battleAttack = GetItemMight(attacker->weapon) + attacker->wTriangleDmgBonus;
+    attack = attacker->battleAttack;
+
+    if (IsUnitEffectiveAgainst(&attacker->unit, &defender->unit))
+        attack = attacker->battleAttack * 3;
+
+    if (IsItemEffectiveAgainst(attacker->weapon, &defender->unit)) {
+		attack = attacker->battleAttack;
+		if(AccessoryEffectTester(&attacker->unit, AE_WhetstoneID)) attack *= 4;
+        else attack *= 3;
+    }
+
+    attacker->battleAttack = attack;
+    attacker->battleAttack += attacker->unit.pow;
+}
+
+int GetStatIncreaseWithAngelRing(int growth, struct Unit* unit) {
+    int result = 0;
+
+    while (growth > 100) {
+        result++;
+        growth -= 100;
+    }
+
+    if (Roll1RN(growth)) {
+        result++;
+		if(AccessoryEffectTester(unit, AE_AngelRingID)) result++;
+	}
+    return result;
+}
+
+void Proc_CheckForAccessory(struct BattleUnit* attacker, struct BattleUnit* defender, struct BattleHit* roundData) {
+	if (!(roundData->attributes & BATTLE_HIT_ATTR_MISS)) { // if attack didn't miss 
+		int accessory = EquippedAccessoryGetter(&defender->unit);
+		if(accessory) { // if the defender has an accessory equipped
+			if (GetItemAttributes(accessory) & IA_DEPLETEUSESONDEFENSE) {
+				DepleteEquippedAccessoryUse(&defender->unit);
+			}
+		}
+	}
+}
+
+
+int UnitAddItem(struct Unit* unit, u16 item) {
+    int i;
+	
+	if ((GetItemAttributes(ITEM_INDEX(item)) & IA_ACCESSORY) && !(EquippedAccessoryGetter(unit))) item |= 0x8000; // Auto-Equip accessory if there is none currently equipped
+
+    for (i = 0; i < 5; ++i) {
+        if (unit->items[i] == 0) {
+            unit->items[i] = item;
+            return TRUE;
+        }
+    }
+
+    return FALSE;
+}
+
+void ComputeBattleUnitSpeed(struct BattleUnit* bu) {
+    int effWt = GetItemWeight(bu->weaponBefore) + GetItemWeight(EquippedAccessoryGetter(&bu->unit));
+
+    effWt -= bu->unit.conBonus;
+
+    if (effWt < 0)
+        effWt = 0;
+
+    bu->battleSpeed = bu->unit.spd - effWt;
+
+    if (bu->battleSpeed < 0)
+        bu->battleSpeed = 0;
+}

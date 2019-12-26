@@ -4,14 +4,19 @@
 #include "_Common.event"
 
 pMagicModifiers: // Magic
-	POIN prAddUnitMagic prAddEquipMagic prAddAccessoryMagic prDebuffMag-1 prRallyMag-1 prSkillFury  prFortressDefensePow prFortressResistancePow prItemPassiveMag VigorDanceCheck prLifeAndDeathBonus
+	POIN prAddUnitMagicNoRuneShifter prAddUnitMagicRuneShifter prAddEquipMagic prAddAccessoryMagic prDebuffMag-1 prRallyMag-1 prSkillFury  prFortressDefensePow prFortressResistancePow prItemPassiveMag VigorDanceCheck prLifeAndDeathBonus
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
 WORD 0 // Many of these are recycled from Power.event.
 
-prAddUnitMagic:
-	rAdd(rSByteAt(UNIT_MAGIC))
+prAddUnitMagicNoRuneShifter:
+	rIfUnitHasNotAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_MAGIC))
+
+prAddUnitMagicRuneShifter:
+	rIfUnitHasAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_POWER))
 
 prAddEquipMagic:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemMagBonus)))

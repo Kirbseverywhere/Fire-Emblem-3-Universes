@@ -2,6 +2,7 @@
 .org 0x0	@not necessary if 0, but I put it anyway out of habit
 
 @setting up the literal pool
+.equ Class_Level_Cap_Table, Calc_Level_Up+4
 .equ Get_Hp_Growth, Class_Level_Cap_Table+4
 .equ Get_Str_Growth, Class_Level_Cap_Table+8
 .equ Get_Skl_Growth, Class_Level_Cap_Table+12
@@ -364,13 +365,11 @@ bx		r0					@ and branch to it
 .align
 Can_Gain_Exp:
 .long 0x0802B9F4
-Calc_Level_Up:
-.long 0x0802B9A0
 Get_Char_Data:
 .long 0x08019430
 Check_Caps_Func:
 .long 0x0802BF24
 Check_Event_ID:
 .long 0x08083DA8
-Class_Level_Cap_Table:
+Calc_Level_Up:
 @

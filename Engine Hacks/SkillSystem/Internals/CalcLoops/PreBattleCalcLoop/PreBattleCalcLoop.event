@@ -33,6 +33,8 @@ POIN LethalitySkill Bane
 #else
 POIN LethalitySkill NonGBALethalitySkill Bane
 #endif
+// Accessory Boosts(Putting them all here)
+POIN ComputePrecisionRingHitBoost ComputeArcanaShieldAttackReduction
 // Because of how killing machine works, critical check should always be done last
 POIN CriticalCheck
 

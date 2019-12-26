@@ -39,7 +39,7 @@ void CreateHouseSelectionMenu(struct Proc *EventEngine) {
 }
 
 void HouseSelectMenuDrawRLInfo(struct HouseSelectionProc *currentProc) {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Rodin in his quest for Justice.");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Rodin in fulfilling his grand plan.");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Amber Bears");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 17, 2), 3, 0, 12, "Purple Jaguars ->");
 	
@@ -51,8 +51,8 @@ void HouseSelectMenuDrawRLInfo(struct HouseSelectionProc *currentProc) {
 }
 
 void HouseSelectMenuDrawPJInfo(struct HouseSelectionProc *currentProc) {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 9, "<- Red Lobsters");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Vergil in his quest for revenge.");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 9, "<- Crimson Wolves");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Amber Bears ->");
 
 	Decompress(PJSmallBannerGraphics, (void *)0x6002C00);
@@ -63,9 +63,9 @@ void HouseSelectMenuDrawPJInfo(struct HouseSelectionProc *currentProc) {
 }
 
 void HouseSelectMenuDrawABInfo(struct HouseSelectionProc *currentProc) {
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Unavailable in the FEE3 Demo!");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Lady Elle in her quest for reform.");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 12, "<- Purple Jaguars");
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Red Lobsters ->");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Crimson Wolves ->");
 	
 	Decompress(ABSmallBannerGraphics, (void *)0x6002C00);
 	CopyToPaletteBuffer(ABSmallBannerPalette, 0xA0, 0x20);

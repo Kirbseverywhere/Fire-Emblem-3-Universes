@@ -58,6 +58,13 @@ ORG FreeSpaceBLRange //defined in custom definitions
 	#include "Strmag/BL Range.event"
   
   #endif // USE_STRMAG_SPLIT
+  
+  ALIGN 4
+  //Angel Ring
+  Wrapper_GetStatIncreaseWithAngelRing:
+  SHORT 0xB500 0x1C39
+  callHack_r3(GetStatIncreaseWithAngelRing)
+  SHORT 0xBC02 0x4708
 	
 #undef inBLRange
 POP
@@ -217,6 +224,9 @@ POP
   
   ALIGN 4
   #include "Escape-Arrive/EscapeInstaller.event"
+  
+  ALIGN 4
+  #include "FastLevelUps/FastLevelUps.event"
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons

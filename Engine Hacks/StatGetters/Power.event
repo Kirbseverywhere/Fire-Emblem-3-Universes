@@ -4,14 +4,19 @@
 #include "_Common.event"
 
 pPowerModifiers: // Power
-	POIN prAddUnitPower prHalveIfCapturing prDebuffStr prAddEquipPower prAddAccessoryPower prItemPassivePow prRallyStr prLifeAndDeathBonus prSkillFury prFortressDefensePow VigorDanceCheck prFortressResistancePow
+	POIN prAddUnitPowerNoRuneShifter prAddUnitPowerRuneShifter prHalveIfCapturing prDebuffStr prAddEquipPower prAddAccessoryPower prItemPassivePow prRallyStr prLifeAndDeathBonus prSkillFury prFortressDefensePow VigorDanceCheck prFortressResistancePow
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
 WORD 0
+	
+prAddUnitPowerNoRuneShifter:
+	rIfUnitHasNotAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_POWER))
 
-prAddUnitPower:
-	rAdd(rSByteAt(UNIT_POWER))
+prAddUnitPowerRuneShifter:
+	rIfUnitHasAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_MAGIC))
 	
 prAddEquipPower:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemPowBonus)))

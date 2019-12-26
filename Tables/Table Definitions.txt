@@ -55,6 +55,7 @@
   #define AthosLock 0x20
 #endif
   #define IsAccessory 0x40
+  #define Accessory_DepleteUsesOnDefense 0x80
 
 //Weapon Ability 4 definitions
 #define CannotDoubleEffect 0xC
