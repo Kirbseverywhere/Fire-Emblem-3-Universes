@@ -241,3 +241,17 @@ int UnitAddItem(struct Unit* unit, u16 item) {
 
     return FALSE;
 }
+
+void ComputeBattleUnitSpeed(struct BattleUnit* bu) {
+    int effWt = GetItemWeight(bu->weaponBefore) + GetItemWeight(EquippedAccessoryGetter(&bu->unit));
+
+    effWt -= bu->unit.conBonus;
+
+    if (effWt < 0)
+        effWt = 0;
+
+    bu->battleSpeed = bu->unit.spd - effWt;
+
+    if (bu->battleSpeed < 0)
+        bu->battleSpeed = 0;
+}
