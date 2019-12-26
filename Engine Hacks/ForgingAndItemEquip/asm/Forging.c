@@ -67,7 +67,7 @@ void DrawItemMenuLine(struct TextHandle* text, int item, s8 isUsable, u16* mapOu
 
     Text_Display(text, mapOut + 2);
 	
-	if (!isItemAnAccessory) DrawUiNumberOrDoubleDashes(mapOut + 11, isUsable ? TEXT_COLOR_BLUE : TEXT_COLOR_GRAY, GetItemUses(item));
+	if (!(GetItemAttributes(item) & IA_ACCESSORY) || (GetItemAttributes(item) & (IA_DEPLETEUSESONDEFENSE | IA_DEPLETEUSESONATTACK))) DrawUiNumberOrDoubleDashes(mapOut + 11, isUsable ? TEXT_COLOR_BLUE : TEXT_COLOR_GRAY, GetItemUses(item));
 
     DrawIcon(mapOut, GetItemIconId(item), 0x4000);
 }
@@ -88,7 +88,7 @@ void DrawItemMenuLineLong(struct TextHandle* text, int item, s8 isUsable, u16* m
 
     Text_Display(text, mapOut + 2);
 
-	if(!isItemAnAccessory) {
+	if (!(GetItemAttributes(item) & IA_ACCESSORY) || (GetItemAttributes(item) & (IA_DEPLETEUSESONDEFENSE | IA_DEPLETEUSESONATTACK))) {
 		DrawUiNumberOrDoubleDashes(mapOut + 10, isUsable ? TEXT_COLOR_BLUE : TEXT_COLOR_GRAY, GetItemUses(item));
 		DrawUiNumberOrDoubleDashes(mapOut + 13, isUsable ? TEXT_COLOR_BLUE : TEXT_COLOR_GRAY, GetItemMaxUses(item));
 		DrawSpecialUiChar(mapOut + 11, isUsable ? TEXT_COLOR_NORMAL : TEXT_COLOR_GRAY, 0x16); // draw special character?
@@ -104,7 +104,7 @@ void DrawItemMenuLineNoColor(struct TextHandle* text, int item, u16* mapOut) {
 
     Text_Display(text, mapOut + 2);
 
-	if(!(ITEM_EQUIPPED(item))) {
+	if (!(GetItemAttributes(item) & IA_ACCESSORY) || (GetItemAttributes(item) & (IA_DEPLETEUSESONDEFENSE | IA_DEPLETEUSESONATTACK))) {
 		DrawSpecialUiChar(mapOut + 11, Text_GetColorId(text), GetItemUses(item));
 	}
 	
@@ -125,7 +125,7 @@ void DrawItemStatScreenLine(struct TextHandle* text, int item, int nameColor, u1
     Text_DrawString(text, GetItemName(item));
 	if(ITEM_FORGED(item)) Text_DrawString(text, "+");
 
-	if(!isItemAnAccessory) {
+	if (!(GetItemAttributes(item) & IA_ACCESSORY) || (GetItemAttributes(item) & (IA_DEPLETEUSESONDEFENSE | IA_DEPLETEUSESONATTACK))) {
 		color = (nameColor == TEXT_COLOR_GRAY) ? TEXT_COLOR_GRAY : TEXT_COLOR_NORMAL;
 		DrawSpecialUiChar(mapOut + 12, color, 0x16);
 

@@ -86,6 +86,22 @@ int EquippedAccessoryGetter(struct Unit *unit) {
 	return 0; // if no equipped item return nothing
 }
 
+void DepleteEquippedAccessoryUse(struct Unit *unit) {
+	for(int i = 0; i < 5; i++) {
+		if(ITEM_EQUIPPED(unit->items[i])) { // i is the id of the equipped accessory
+			if (ITEM_USES(unit->items[i]) - 1 == 0) {
+				if (i == 4) unit->items[5] = 0; // if the item is the last in inventory, clear that
+				else { // else shift every item's placement by 1
+					for(int o = i; o < 4; o++) {
+						unit->items[o] = unit->items[o+1];
+					}
+				}
+			}
+			else unit->items[i] = (unit->items[i] & 0xC0FF) | ((ITEM_USES(unit->items[i]) - 1) << 8);
+		}
+	}
+}
+
 int AccessoryEffectGetter(struct Unit *unit) {
 	int item = EquippedAccessoryGetter(unit);
 	if (!item) return 0;
@@ -197,4 +213,31 @@ int GetStatIncreaseWithAngelRing(int growth, struct Unit* unit) {
 		if(AccessoryEffectTester(unit, AE_AngelRingID)) result++;
 	}
     return result;
+}
+
+void Proc_CheckForAccessory(struct BattleUnit* attacker, struct BattleUnit* defender, struct BattleHit* roundData) {
+	if (!(roundData->attributes & BATTLE_HIT_ATTR_MISS)) { // if attack didn't miss 
+		int accessory = EquippedAccessoryGetter(&defender->unit);
+		if(accessory) { // if the defender has an accessory equipped
+			if (GetItemAttributes(accessory) & IA_DEPLETEUSESONDEFENSE) {
+				DepleteEquippedAccessoryUse(&defender->unit);
+			}
+		}
+	}
+}
+
+
+int UnitAddItem(struct Unit* unit, u16 item) {
+    int i;
+	
+	if ((GetItemAttributes(ITEM_INDEX(item)) & IA_ACCESSORY) && !(EquippedAccessoryGetter(unit))) item |= 0x8000; // Auto-Equip accessory if there is none currently equipped
+
+    for (i = 0; i < 5; ++i) {
+        if (unit->items[i] == 0) {
+            unit->items[i] = item;
+            return TRUE;
+        }
+    }
+
+    return FALSE;
 }
