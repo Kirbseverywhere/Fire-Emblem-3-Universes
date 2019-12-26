@@ -10,7 +10,7 @@ XenithPreTimeskip:
 #incext PortraitFormatter "Xenith_PreTimeskip.png"
 
 #define TRAY_PRETIMESKIP_PORTRAIT Tray
-setMugEntry(TRAY_PRETIMESKIP_PORTRAIT, TrayPreTimeskip, 4, 6, 3, 4) 
+setMugEntry(TRAY_PRETIMESKIP_PORTRAIT, TrayPreTimeskip, 3, 6, 3, 4) 
 TrayPreTimeskip:
 #incext PortraitFormatter "Tray_PreTimeskip.png"
 

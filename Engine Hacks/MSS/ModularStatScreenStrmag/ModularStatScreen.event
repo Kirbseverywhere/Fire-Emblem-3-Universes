@@ -165,7 +165,8 @@
   
   ALIGN 4
   MSS_page2:
-    #incbin "asm/mss_page2_original.dmp"
+    #incbin "asm/mss_page2_morestats.dmp"
+	WORD SS_DdgText SS_AvoText
 
   ALIGN 4
   MSS_page3:
