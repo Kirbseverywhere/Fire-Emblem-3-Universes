@@ -94,7 +94,7 @@
 
 // Bosses
 
-// Red Lobsters
+// Crimson Wolves
 #define Borgas 0x40
 #define Alva 0x41
 #define WyvernBoss 0x42
