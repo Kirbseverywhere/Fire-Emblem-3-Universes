@@ -197,7 +197,8 @@ void ComputeBattleUnitAttack(struct BattleUnit* attacker, struct BattleUnit* def
     }
 
     attacker->battleAttack = attack;
-    attacker->battleAttack += attacker->unit.pow;
+	if(attacker->weaponAttributes & IA_MAGIC) attacker->battleAttack += attacker->unit.unk3A; // unk3A = mag in skillsystem
+    else attacker->battleAttack += attacker->unit.pow;
 }
 
 int GetStatIncreaseWithAngelRing(int growth, struct Unit* unit) {
