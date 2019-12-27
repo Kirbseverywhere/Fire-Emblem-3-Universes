@@ -35,7 +35,7 @@ LazulPreTimeskip:
 #incext PortraitFormatter "Lazul_PreTimeskip.png"
 
 #define PAUL_PRETIMESKIP_PORTRAIT Paul 
-setMugEntry(PAUL_PRETIMESKIP_PORTRAIT, PaulPreTimeskip, 2, 0, 2, 0) 
+setMugEntry(PAUL_PRETIMESKIP_PORTRAIT, PaulPreTimeskip, 3, 5, 3, 3) 
 PaulPreTimeskip:
 #incext PortraitFormatter "Paul_PreTimeskip.png"
 
