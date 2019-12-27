@@ -34,3 +34,9 @@ Sum of this unit's stats.[X]
 
 ## SS_ItemsText
  ->[X]
+ 
+## SS_DdgText
+Ddg[X]
+ 
+## SS_AvoText
+Avo[X]

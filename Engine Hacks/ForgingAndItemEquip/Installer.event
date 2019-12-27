@@ -17,7 +17,7 @@ POP
 #include "asm/Forging.event"
 ALIGN 4
 #include "asm/Accessories.event"
-MESSAGE ExpShareAccessoryEffect
+MESSAGE Arcana Shield at ComputeArcanaShieldAttackReduction
 
 ALIGN 4
 CannotEquipAccessoryText:
@@ -98,3 +98,17 @@ AE_ExpShareID:
 BYTE AE_ExpShare
 
 ALIGN 4
+AE_PursuitRingID:
+BYTE AE_PursuitRing
+
+ALIGN 4
+AE_ArcanaShieldID:
+BYTE AE_ArcanaShield
+
+ALIGN 4
+AE_WhetstoneID:
+BYTE AE_Whetstone
+
+ALIGN 4
+AE_AngelRingID:
+BYTE AE_AngelRing

@@ -1,8 +1,6 @@
 #include "src/MapSpritesPalette.event"
 
 PUSH 
-ORG 0x26664
-SHORT 0 0
 
 ORG 0x90ED2
 BYTE 0x20
@@ -27,7 +25,7 @@ POP
 
 ALIGN 4
 MapSpritePalettesFactions:
-#incbin "MapSpritePalettesFactions.bin"
+#incext Png2Dmp "FactionPalettes.png" --palette-only
 
 ALIGN 4
 MapSpritePalettesVanilla:

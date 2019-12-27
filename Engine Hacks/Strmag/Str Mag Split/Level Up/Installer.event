@@ -145,6 +145,49 @@ PUSH
 	//Add mag boost in battle struct
 	ORG $2BB44
 	callHack_r3(Write_Mag_Growth)
+	
+	// Angel Ring "Hooks"
+	ORG 0x2BAA4
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BABA
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BAD2
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BAEA
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB04
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB1C
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB34
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB5E
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB70
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB82
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BB96
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BBAA
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BBBC
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
+	
+	ORG 0x2BBD2
+	BL(Wrapper_GetStatIncreaseWithAngelRing)
 POP
 
 ALIGN 4
@@ -259,6 +302,8 @@ POIN Mov_Text_ID_Pointer
 ALIGN 4
 Write_Mag_Growth:
 #incbin "Write Mag Growth.dmp"
+POIN Wrapper_GetStatIncreaseWithAngelRing
+POIN 0x19430
 POIN MagCharTable
 POIN MagClassTable
 	

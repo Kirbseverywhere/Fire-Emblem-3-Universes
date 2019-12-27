@@ -4,14 +4,19 @@
 #include "_Common.event"
 
 pResistanceModifiers: // Resistance
-	POIN prAddUnitResistance prHalveIfCapturing prDebuffRes prAddEquipResistance prAddAccessoryResistance prItemPassiveResistance prRallyRes prAddPureWaterBarrierMod prLifeAndDeathMinus prSkillFury prFortressResistanceRes
+	POIN prAddUnitResistanceNoRuneShifter prAddUnitResistanceRuneShifter prHalveIfCapturing prDebuffRes prAddEquipResistance prAddAccessoryResistance prItemPassiveResistance prRallyRes prAddPureWaterBarrierMod prLifeAndDeathMinus prSkillFury prFortressResistanceRes
 	#ifdef __DebuffMinZero__
 	POIN prMinZero
 	#endif
 WORD 0
 
-prAddUnitResistance:
-	rAdd(rSByteAt(UNIT_RESISTANCE))
+prAddUnitResistanceNoRuneShifter:
+	rIfUnitHasNotAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_RESISTANCE))
+
+prAddUnitResistanceRuneShifter:
+	rIfUnitHasAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_DEFENSE))
 
 prAddEquipResistance:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemResBonus)))

@@ -114,10 +114,14 @@
 
 #define PrecisionRing 0x7D
 #define MovRing 0x7E
+#define RenewalRing 0x80
 #define Caduceus 0xBC
 #define NormalShield 0xBD
 #define AegisShield 0xBE
 #define ExpShare 0xBF
+#define PursuitRing 0xC0
+#define KnightRing 0xC1
+#define ArcanaShield 0xC2
 
 #include "ClassDefinitions.event"
 

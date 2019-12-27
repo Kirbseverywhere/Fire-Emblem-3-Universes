@@ -82,6 +82,8 @@ enum
 	IA_LOCK_6		 = (1 << 20),
 	IA_LOCK_7		 = (1 << 21),
 	IA_ACCESSORY      = (1 << 22),
+	IA_DEPLETEUSESONDEFENSE      = (1 << 23),
+	IA_DEPLETEUSESONATTACK      = (1 << 24),
 
 	// Helpers
 	IA_REQUIRES_WEXP = (IA_WEAPON | IA_STAFF),
@@ -222,6 +224,7 @@ int GetConvoyItemCostSum(void); //! FE8U = 0x801737D
 
 void SetItemUnsealedForCharacter(int item, u8 charId);
 s8 IsItemUnsealedForUnit(struct Unit* unit, int item);
+s8 IsWeaponMagic(int item);
 
 u8 GetItemIndex(int item); //! FE8U = 0x80174ED
 char* GetItemName(int item); //! FE8U = 0x80174F5

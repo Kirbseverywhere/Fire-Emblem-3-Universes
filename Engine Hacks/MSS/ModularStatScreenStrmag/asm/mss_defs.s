@@ -599,10 +599,8 @@
 .macro draw_affinity_icon_at, tile_x, tile_y
   ldr r4, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
   mov r0, r8
-  blh AffinityGetter
-  mov     r1, #0x2
-  lsl     r1, #0x8 @ 0x200
-  orr     r1, r0
+  blh 0x80286D4
+  mov     r1, r0
   mov     r2,#0xA0       
   lsl     r2,r2,#0x7      
   mov     r0,r4    
@@ -771,6 +769,18 @@
   ble     loc_0x8087660        @08087670
 .endm
 
+.macro load_stat_box_tsa 
+  ldr     r0,=#0x8A02204        @stat box TSA
+  ldr     r4,=#0x2020188        @buffer
+  mov     r1,r4       
+  blh      #0x8012F50       @CopyDataWithPossibleUncomp
+  ldr     r0,=#0x20049EE        @gbmFrameTmap1+TILEMAP_INDEX(1, 11)
+  mov     r2,#0xC1        
+  lsl     r2,r2,#0x6      @ 0x3040  bytes  
+  mov     r1,r4       
+  blh      #0x80D74A0       @CallARM_FillTileRect
+.endm
+ 
 .macro draw_items_text
   push {r7}
   mov r7, r8

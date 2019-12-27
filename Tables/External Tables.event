@@ -158,3 +158,16 @@ MainGuideEntry(3, 0, GuideHpBarsName, GuideHpBarsDesc, 0xBE, 0xBF)
 MainGuideEntry(0xC, 0, 0, 0, 0, 0)
 WORD 0 0 0
 POP
+
+ALIGN 4
+#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+VergilSupports:
+CharacterSupport(Rodin, Horus, Stephen, Myst, Glac, 0, 0)
+SupportBases(100, 100, 100, 100, 100, 0, 0)
+SupportGrowths(8, 8, 8, 8, 8, 8, 8)
+BYTE 5 //5 Support
+BYTE 0 0 
+
+ALIGN 4

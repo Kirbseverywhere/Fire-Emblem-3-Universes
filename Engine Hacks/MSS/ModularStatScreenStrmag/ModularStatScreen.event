@@ -144,7 +144,10 @@
       POIN RText_Page4
 	  
 	ORG 0x87784 
-	  WORD 0x2003CB4
+	  WORD 0x2003D74
+	  
+	ORG 0x286DC
+	  SHORT 0x2102 0x0209 0x1840
 
 	ORG 0x286C6
 	  SHORT 0x3801 // Remove the +0x79 for icons 
@@ -162,7 +165,8 @@
   
   ALIGN 4
   MSS_page2:
-    #incbin "asm/mss_page2_original.dmp"
+    #incbin "asm/mss_page2_morestats.dmp"
+	WORD SS_DdgText SS_AvoText
 
   ALIGN 4
   MSS_page3:
@@ -289,7 +293,7 @@
   	ALIGN 4
 	Write_Growths_To_Battle_Struct:
 	#incbin "asm/Write_Growths_To_Battle_Struct.dmp"
-	POIN Class_Level_Cap_Table Get_Hp_Growth Get_Str_Growth Get_Skl_Growth Get_Spd_Growth Get_Def_Growth Get_Res_Growth Get_Mag_Growth Get_Luk_Growth
+	POIN Wrapper_GetStatIncreaseWithAngelRing Class_Level_Cap_Table Get_Hp_Growth Get_Str_Growth Get_Skl_Growth Get_Spd_Growth Get_Def_Growth Get_Res_Growth Get_Mag_Growth Get_Luk_Growth
 	WORD Growth_Options
 	
 	ALIGN 4

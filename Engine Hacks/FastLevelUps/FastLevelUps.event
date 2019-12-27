@@ -1,0 +1,9 @@
+PUSH
+ORG 0x741D8
+jumpToHack(CheckIfSkipStatUpWait)
+POP
+
+ALIGN 4
+CheckIfSkipStatUpWait:
+#incbin "asm\CheckIfSkipStatUpWait.dmp"
+
