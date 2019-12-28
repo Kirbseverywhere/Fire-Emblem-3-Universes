@@ -82,7 +82,7 @@ Especially him...[AN]
 [....]
 
 [MR]#Horus:
-Everyone! We march due east![N]
+Everyone! We march due east![A]
 
 #Fade to black.
 [X]
@@ -93,11 +93,11 @@ Everyone! We march due east![N]
 [FL][LoadKabby]
 [ToggleSmile]
 Oh? Ohohoho! Isn't today my lucky day![NL]
-The missing prince is making his[A][NL]
+The missing prince is making his[AN]
 way towards my caves.[.....] I cordially[NL]
-invite you into my web,[....] Vergil. Mm,[A][NL]
+invite you into my web,[....] Vergil. Mm,[AN]
 the safety of your princely personage[NL]
-is very[ToggleMouthMove]...[ToggleMouthMove][.......] valuable to me.[A]
+is very[ToggleMouthMove]...[ToggleMouthMove][.......] valuable to me.[A][ToggleSmile]
 
 #Clear Kabby
 [Clear]
@@ -122,9 +122,10 @@ I need some time to[N]
 think things through.[AN]
 
 #Clear Horus and Tray. Load Vergil [FarRight] (facing right).
+[Clear][Left][Clear]
 [Left][LoadVergil][.....][MoveFarRight][FFL][LoadDaff]
 [FR]#Vergil:
- ...
+...[A]
 
 [FFL]#Daff (Offscreen):
 Umm...
@@ -152,6 +153,7 @@ alone, don't forget that...[AN]
 Silence![AN]
 
 #Daff moves to [MidLeft]
+[Left][MoveMidLeft]
 
 [ML]#Daff:
 Aaaah![A]
@@ -261,218 +263,472 @@ all of you.[AN]
 
 #Clear Kabby and Vergil, Load Horus [FarFarRight]
 [FR][LoadHorus]
-
-Horus:
+#Horus:
 Wait, who's... Bagel?[AN]
 #Clear Horus
 [X]
 
 ## PJ2OpeningGrilling
 
-Offscreen to the left: Hey! Let me GO!
-
-Load Myst [FarFarLeft]
-
-Myst: Settle down, unless you wanna get hurt. Don't make this harder for yourself than it needs to be.
-
-Anton enters from off-screen to [FarLeft]
-
-Anton: I said... Let GO! Ugh! I need to see Lord Vergil. 
-
-Myst: Ah, yes! Let's give two armed strangers an audience with Prince "Hounded-down-by-everyone" Vergil. A wonderful idea! Whatever could go wrong?
-
-Clear Myst and Anton. Load Khris [FarLeft] and Glac [MidLeft].
-
-Khris: Can you please stop grabbing my hand that hard? You're crushing it.
-
-Glac: Yeah, whatever. Just make sure you keep your sword in its sheath.
-
-Clear Khris and Glac. Load Horus [MidLeft] and Vergil [FarFarLeft].
-
-Xenith enters from off-screen to [Right].
-
-Xenith: Horus! We've subdued two shady figures claiming to be allies of the Prince. Mind checking in?
-
-Horus: Hm? Ah. That would be Anton-
-
-Load Anton [FarRight] and Khris [FarFarRight].
-
-Anton: Lord Vergil! Oh, I'm so relieved to see you safe and sound!
-
-Horus (eyes closed): Of course, go ahead and interrupt me. Right.
-
-Vergil moves to [FarLeft].
-
-Vergil: Anton? Is that really you?
-
-Horus: You know what? You two can talk. I'm going back to inspect the rest of the cave.
-
-Clear Horus.
-
-Vergil: How is the situation at the capital, Anton?
-
-Anton: It's a really big mess, milord, but before I elaborate, would you kindly tell your men to release me and my companion? I'd rather not suffer any further injuries.
-
-Vergil: Of course. At peace, friends.
-
-Clear Xenith.
-
-Anton: As I was saying... The capital is in turmoil, milord. I came as quickly as I could. This is my companion, Khris. I was in need of a helping hand throughout my journey. He can be trusted.
-
-Khris: Oh, hi. Yeah, nice to meet you, I guess.
-
-Vergil: Any help is appreciated, but what news can you tell me?
-
-Khris: Well, uh... I'm not much for politics, my lord? But things got pretty heated when the news came that the royal family was assassinated as soon as they left.
-
-Anton: With news that the royals were gone, chaos ensued until Arxhat took the throne by force in a coup. Initially, we were told that the entire royal family was purged. We were relieved to hear that you had survived after all, but... Arxhat claimed you were the one who killed your parents, with the aid of the Novingale Empire.
-
-Vergil: So, Arxhat uses Empress Aurea against me... that damned dastard. Do you believe what he says?
-
-Anton: #[Jumps in place]
- Certainly not! If that were the case, I wouldn't be here in the first place.
-
-Khris: No offense, my lord, but I've seen my fair share of killers and murderers. You don't seem the type. This Arxhat, on the other hand...
-
-Anton moves to [MidRight].
-
-Anton: He is a fiend, true and through! The countrymen are in need for a proper leader, milord! As it is, things will only get worse. We need your help! 
-
-Vergil: Can I even do anything? Everyone else in that convoy... they're all dead. Slaughtered like pigs. Arxhat's won. He has the entire military at his disposal.
-
-Anton: Milord... that's a whole lot of nonsense! You are the last beacon for our people. While there may be those allied with Arxhat, do know that there are still loyalists who do not believe his lies!
-
-Vergil: ...Do tell me more.
-
-Screen fades to map, with Kabby and Bruckner at the top right/escape point.
-
-Load Kabby [MidLeft] and Bruckner [MidRight].
-
-Kabby: Well, that took you long enough. You're my contact, I presume. Please, follow me. Vergil's small group is right down this pathway. 
-
-Bruckner: Well done, Kabby. King Arxhat will reward you handsomely for your services.
-
-Kabby: Oh, no worries about that, my good sirs. The only compensation I require out of this is a... ‘minimal' one. Now, allow me to go on ahead and lure them out.
-
-Bruckner: In that case, you, the red-haired sellsword. Go with him.
-
-Load Stephen [FarLeft].
-
-Stephen: Aha! A chance to prove my worth, to hear the masses gasp my heroic name! Stephen Redharr-
-
-Bruckner: Bah, shut up already! Nobody cares who you say you are. You're just a sword for hire we picked up on the way. Not much worth from your kind, is there? Only the loyal and distinguished soldiers of the kingdom, such as I, will be able to shape our kingdom's future!
-
-Stephen: Hmmm, I see. Your helmet has made you blind. No worries, I shall prove my worth! Let us be off then!
-
-Kabby and Stephen walk towards the group.
-
-Load Kabby [MidRight].
-
-Kabby: Hide behind that pillar over there. I'll handle things from here. 
-
-Stephen stops behind a pillar. Kabby continues walking to the PJs.
-
-Load Kabby [MidRight].
-
-Kabby: Excuse me, Prince Vergi- Hold on. When did you guys grow twice in number-
-
-Load Vergil [MidLeft].
-
-Vergil: What is it, Kabby?
-
-Kabby: I... uhh... Bah, modern problems require modern solutions, right? *Ahem* Prince Vergil! Look out! There's enemies lying in ambush in this cave! There's one behind that pillar right there! 
-
-Vergil: What?! On your guards, everyone!
-
-*Stephen comes out from behind the pillar*
-
-Load Vergil [MidLeft]. Stephen enters from off-screen to [MidRight].
-
-Stephen: Oh, my prince! I heard you were dead! ...are you truly Vergil von Siegfried, heir to the crown? Then those men I was with... must be villains!
-
-Vergil: Everyone, to arms!
-
-Stephen moves to [FarRight].
-
-Stephen: WHOA, WHOA, WHOA! All of you, calm down! I'm on your side, I swear!
-
-Vergil: ...Halt, everyone! If you really are on our side, then speak up. Who are you, and why should I believe you aren't another of Arxhat's cronies?
-
-Stephen: Let me begin from the start. I am Stephen, of the Redharr family.
-
-Load Horus [FarLeft].
-
-Horus: Known traitors to the crown, Prince Vergil.
-
-Stephen moves to [MidRight].
-
-Stephen: Those are lies! They were framed! Regardless, I have worked to redeem my family's honor ever since. If you are alive, then the capital should be overjoyed!
-
-Vergil: #[Eyes closed] I guess we have being framed in common. 
-#[Opens eyes] Those snakes at the capital claim I killed my own parents. They'd be overjoyed - at the prospect of killing me. Now surrender unless you are here to fight.
-
-Stephen: I told you already, I am not! I would never think of doing something as despicable as that!
-
-Vergil: Then prove your loyalty to us right now.
-
-Stephen: Right, right... no need to fear, my Prince! My memory is just as flawless as my peerless strength and beauty, and-
-
-Vergil moves to [Left].
-
-Vergil: I said, RIGHT NOW!
-
-Stephen: 
+#Offscreen to the left:
+[FFL][LoadAnton]
+Hey! Let me GO![A]
+
+#Load Myst [FarFarLeft]
+[FL][LoadMyst]
+#Myst:
+Settle down, unless you wanna[N]
+get hurt. Don't make this[AN]
+harder for yourself than[N]
+it needs to be.[AN]
+
+#Anton enters from off-screen to [FarLeft]
+[FFL][MoveLeft]
+#Anton:
+I said... Let GO! Ugh! I[N]
+need to see Lord Vergil.[AN]
+
+[FL]#Myst:
+Ah, yes! Let's give two armed[N]
+strangers an audience with[AN]
+Prince "Hounded-down-by-everyone"[N]
+Vergil. A wonderful idea![AN]
+Whatever could go wrong?[AN]
+
+#Clear Myst and Anton. Load Khris [FarLeft] and Glac [MidLeft].
+[Clear][Left][Clear]
+[FL][LoadGlac][Left][LoadKhris]
+#Khris:
+Can you please stop grabbing my hand[N]
+that hard? You're crushing it.[AN]
+[FL]
+#Glac:
+Yeah, whatever. Just make sure you[N]
+keep your sword in its sheath.[AN]
+
+#Clear Khris and Glac. Load Horus [MidLeft] and Vergil [FarFarLeft].
+[Clear][ML][Clear]
+[Left][LoadHorus][FL][LoadVergil]
+#Xenith enters from off-screen to [Right].
+[FFR][LoadXenith][MoveRight]
+
+#Xenith:
+Horus! We've subdued two[N]
+shady figures claiming[AN]
+to be allies of the Prince.[N]
+Mind checking in?[AN]
+
+[Left]#Horus:
+Hm? Ah. That would be Anton-[A]
+
+#Load Anton [FarRight] and Khris [FarFarRight].
+#That's five portraits. Clearing Xenith early.
+[Right][Clear][LoadAnton][FR][LoadKhris]
+
+[Right]#Anton:
+Lord Vergil! Oh, I'm so relieved[N]
+to see you safe and sound![AN]
+
+#Horus (eyes closed):
+[Left][CloseEyes]
+Of course, go ahead and[N]
+interrupt me. Right.[AN]
+
+#Vergil moves to [FarLeft].
+[FL][MoveMidLeft]
+
+[ML]#Vergil:
+Anton? Is that really you?[A]
+
+[Left]#Horus:
+You know what? You two[N]
+can talk. I'm going[AN]
+back to inspect the rest[N]
+of the cave.[AN]
+
+#Clear Horus.
+[Left][Clear]
+
+[ML]#Vergil:
+How is the situation at[N]
+the capital, Anton?[AN]
+
+[Right]#Anton:
+It's a really big mess, milord, but[N]
+before I elaborate, would you[AN]
+kindly tell your men to release me[N]
+and my companion? I'd rather not[AN]
+suffer any further injuries.[AN]
+
+[ML]#Vergil:
+Of course. At peace, friends.[A]
+
+#Clear Xenith.
+
+[Right]#Anton:
+As I was saying... The capital is in[N]
+turmoil, milord. I came as quickly[AN]
+as I could. This is my companion,[N]
+Khris. I was in need of a helping[AN]
+hand throughout my journey. He can[N]
+be trusted.[AN]
+
+[FR]#Khris:
+Oh, hi. Yeah, nice to[N]
+meet you, I guess.[AN]
+
+[ML]#Vergil:
+Any help is appreciated, but what[N]
+news can you tell me?[AN]
+
+[FR]#Khris:
+Well, uh... I'm not much for politics,[N]
+my lord? But things got pretty heated[AN]
+when the news came that the royal family[N]
+was assassinated as soon as they left.[AN]
+
+[Right]#Anton:
+With news that the royals were gone,[N]
+chaos ensued until Arxhat took the[AN]
+throne by force in a coup. Initially,[N]
+we were told that the entire royal[AN]
+family was purged. We were relieved[N]
+to hear that you had survived after all,[AN]
+but... Arxhat claimed you were the one[N]
+who killed your parents, with the aid[AN]
+of the Novingale Empire.[AN]
+
+[ML]#Vergil:
+So, Arxhat uses Empress Aurea[N]
+against me... that damned dastard.[AN]
+Do you believe what he says?[AN]
+
+[Right]#Anton:
+#[Jumps in place]
+Certainly not! If that were the case,[N]
+I wouldn't be here in the first place.[AN]
+
+[FR]#Khris:
+No offense, my lord, but I've[N]
+seen my fair share of killers[AN]
+and murderers. You don't seem[N]
+the type. This Arxhat, on the[AN]
+other hand...[AN]
+
+#Anton moves to [MidRight].
+
+[Right]#Anton:
+He is a fiend, through and through![N]
+The countrymen are in need for[AN]
+a proper leader, milord! As it is,[N]
+things will only get worse.[AN]
+We need your help![AN]
+
+[ML]#Vergil:
+Can I even do anything? Everyone[N]
+else in that convoy... they're[AN]
+all dead. Slaughtered like pigs.[N]
+Arxhat's won. He has the entire[AN]
+military at his disposal.[AN]
+
+[Right]#Anton:
+Milord... that's a whole lot of[N]
+nonsense! You are the last[AN]
+beacon for our people. While[N]
+there may be those allied with[AN]
+Arxhat, do know that there are[N]
+still loyalists who do not[AN]
+believe his lies![AN]
+
+[ML]#Vergil:
+...Do tell me more.[A][X]
+
+## PJ2OpeningBetraying
+
+#Screen fades to map, with Kabby and Bruckner at the top right/escape point.
+
+#Load Kabby [MidLeft] and Bruckner [MidRight].
+[ML][LoadKabby][MR][LoadBruckner]
+
+[ML]#Kabby:
+Well, that took you long enough.[N]
+You're my contact, I presume.[AN]
+Please, follow me. Vergil's small[N]
+group is right down this pathway.[AN]
+
+[MR]#Bruckner:
+Well done, Kabby. King Arxhat will reward[N]
+you handsomely for your services.[AN]
+
+[ML]#Kabby:
+Oh, no worries about that,[N]
+my good sirs. The only[AN]
+compensation I require out[N]
+of this is a... "minimal"[AN]
+one. Now, allow me to go on[N]
+ahead and lure them out.[AN]
+
+[MR]#Bruckner:
+In that case, you, the red-haired[N]
+sellsword. Go with him.[AN]
+
+#Load Stephen [FarLeft].
+[FL][LoadStephen]
+#Stephen:
+Aha! A chance to prove my worth,[N]
+to hear the masses gasp my[AN]
+heroic name! Stephen Redharr-[A]
+
+[MR]#Bruckner:
+Bah, shut up already! Nobody cares[N]
+who you say you are. You're just[AN]
+a sword for hire we picked up on[N]
+the way. Not much worth from your[AN]
+kind, is there? Only the loyal and[N]
+distinguished soldiers of the[AN]
+kingdom, such as I, will be able to[N]
+shape our kingdom's future![AN]
+
+[FL]#Stephen:
+Hmmm, I see. Your helmet has made[N]
+you blind. No worries, I shall[AN]
+prove my worth! Let us be off then![A][X]
+
+## PJ2OpeningPillar
+#Kabby and Stephen walk towards the group.
+[MR][LoadKabby]
+#Load Kabby [MidRight].
+
+#Kabby:
+Hide behind that pillar over there.[N]
+I'll handle things from here.[AN]
+
+#Stephen stops behind a pillar. Kabby continues walking to the PJs.
+
+#Load Kabby [MidRight].
+
+[MR]#Kabby:
+Excuse me, Prince Vergi- Hold on. When[N]
+did you guys grow twice in number-[AN]
+
+#Load Vergil [MidLeft].
+[ML][LoadVergil]
+
+#Vergil:
+What is it, Kabby?[A]
+
+[MR]#Kabby:
+I... uhh... Bah, modern problems[N]
+require modern solutions, right?[AN]
+*Ahem* Prince Vergil! Look out![N]
+There's enemies lying in ambush[AN]
+in this cave! There's one behind[N]
+that pillar right there![AN]
+
+[ML]#Vergil:
+What?! On your guards, everyone![A]
+
+#*Stephen comes out from behind the pillar*
+
+#Load Vergil [MidLeft]. Stephen enters from off-screen to [MidRight].
+[MR][Clear][FFR][LoadStephen][MoveMidRight]
+
+[MR]#Stephen:
+Oh, my prince! I heard you were dead![N]
+...Are you truly Vergil von Siegfried,[AN]
+heir to the crown? Then those men I[N]
+was with... must be villains![AN]
+
+[ML]#Vergil:
+Everyone, to arms![A]
+
+#Stephen moves to [FarRight].
+[MR][MoveFarRight]
+
+[FR]#Stephen:
+WHOA, WHOA, WHOA![N]
+All of you, calm[AN]
+down! I'm on your[N]
+side, I swear![AN]
+
+[ML]#Vergil:
+...Halt, everyone! If you[N]
+really are on our side,[AN]
+then speak up. Who are you,[N]
+and why should I believe[AN]
+you aren't another of[N]
+Arxhat's cronies?[A]
+
+[FR]#Stephen:
+Let me begin from the start. I am[N]
+Stephen, of the Redharr family.[AN]
+
+#Load Horus [FarLeft].
+[FL][LoadHorus]
+#Horus:
+Known traitors to the[N]
+crown, Prince Vergil.[AN]
+
+#Stephen moves to [MidRight].
+[FR][MoveMidRight]
+
+[MR]#Stephen:
+Those are lies! They were framed![N]
+Regardless, I have worked to[AN]
+redeem my family's honor ever since.[N]
+If you are alive, then the capital[AN]
+should be overjoyed![A]
+
+[ML]#Vergil:
+#[Eyes closed]
+[CloseEyes]
+I guess we have being framed in common.[AN]
+#[Opens eyes]
+[OpenEyes]
+Those snakes at the capital claim I[N]
+killed my own parents. They'd be [AN]
+overjoyed - at the prospect of killing[N]
+me. Now surrender unless you are[AN]
+here to fight.[AN]
+
+[MR]#Stephen:
+I told you already, I am not![N]
+I would never think of doing[AN]
+something as despicable as that![A]
+
+[ML]#Vergil:
+Then prove your loyalty[N]
+to us right now.[A]
+
+[MR]#Stephen:
+Right, right... no need to fear,[N]
+my Prince! My memory is just as[AN]
+flawless as my peerless strength[N]
+and beauty, and-[A]
+
+#Vergil moves to [Left].
+[ML][MoveLeft]
+#Vergil:
+I said RIGHT NOW![A]
+
+#Stephen: 
 #[jumps in place]
- Alright, alright! No need to rush me... I was recently hired, and was only told we were going after traitors. But if I recall correctly, the commander of the forces here is called Bruckner. It should be easy to identify him - he's a poor judge of talent with garish white hair. He commands a search party of roughly fifteen men, all very determined it seems for your head. There is also an exit to the north east, from where we came from. It also smells very strange in part of this cave. Is that enough?
+[MR][MoveMidRight]
+Alright, alright! No need to rush[N]
+me... I was recently hired, and[AN]
+was only told we were going after[N]
+traitors. But if I recall correctly,[AN]
+the commander of the forces here is[N]
+called Bruckner. It should be easy[AN]
+to identify him - he's a poor judge[N]
+of talent with garish white hair.[AN]
+He commands a search party of roughly[N]
+fifteen men, all very determined it[AN]
+seems for your head. There is also an[N]
+exit to the north east, from where we[AN]
+came from. It also smells very strange[N]
+in part of this cave. Is that enough?[AN]
 
-Vergil: ... 
+[Left]#Vergil:
+...[A]
 
-Horus: His info matches Anton's, Lord Vergil. I would consider accepting his offer to aid us.
+[FL]#Horus:
+His info matches Anton's,[N]
+Lord Vergil. I would[AN]
+consider accepting his[N]
+offer to aid us.[AN]
 
-Vergil: Alright, Stephen. I trust you.
+[Left]#Vergil:
+Alright, Stephen. I trust you.[A]
 
-Stephen: Wonderful! I am your sword now, my prince. A Redharr never breaks his word! It's a good thing you brought me to help, hooded one!
+[MR]#Stephen:
+Wonderful! I am your sword now,[N]
+my prince. A Redharr never[AN]
+breaks his word! It's a good[N]
+thing you brought me to help,[AN]
+hooded one![AN]
 
-Load Kabby [FarRight]
+#Load Kabby [FarRight]
+[FR][LoadKabby]
 
-Kabby: Eh? Oh, uh, yes. That's what I meant to do, my lord. Just here to lend a hand to the rightful, exquisite prince. No need to thank me.
+#Kabby:
+Eh? Oh, uh, yes. That's what I meant[N]
+to do, my lord. Just here to lend a[AN]
+hand to the rightful, exquisite[N]
+prince. No need to thank me.[AN]
 
-Vergil: Hmph. Now, how do we get out of this sticky situation...
+[Left]#Vergil:
+Hmph. Now, how do we get out[N]
+of this sticky situation...[A]
 
-Horus: That's easy, Lord Vergil. I have a plan just for this situation.
+[FL]#Horus:
+That's easy, Lord Vergil. I have[N]
+a plan just for this situation.[AN][X]
 
-Horus gallops for the exit, only for it to be caved in.
+## PJ2OpeningCaveIn
+#Horus gallops for the exit, only for it to be caved in.
 
-Load Horus [MidRight].
+#Load Horus [MidRight].
+[Right][LoadHorus][FFL][LoadKabby]
+[Right]#Horus:
+Lord Vergil, the plan...[N]
+let's just say, failed.[A]
 
-Horus: Lord Vergil, the plan... let's just say, failed.
+#Kabby darts across the screen to [FarFarRight].
+[FFL][MoveFarRight]
+[FR]#Kabby:
+Huh. I was sure I disabled[N]
+that trap... I mean, what?[AN]
+Apologies, my web is very[N]
+unstable. The only safe[AN]
+way back is back whence we[N]
+came from. Do be careful![AN][X]
 
-Kabby darts across the screen to [FarFarRight].
+## PJ2OpeningBruckner
 
-Kabby: Huh. I was sure I disabled that trap... I mean, what? Apologies, my web is very unstable. The only safe way back is back whence we came from. Do be careful!
+#Camera moves to Bruckner. Cursor on Bruckner.
 
-Camera moves to Bruckner. Cursor on Bruckner.
+#Load Bruckner [MidRight].
+[MR][LoadBruckner]
 
-Load Bruckner [MidRight].
+#Bruckner:
+What could be taking them so long?[N]
+Could it be... they were found[AN]
+out by the former Prince? Damnit![N]
+To arms, men! Storm the cave![AN]
+Don't let any of the traitors escape![AN][X]
 
-Bruckner: What could be taking them so long? Could it be... they were found out by the former Prince? Damnit! To arms, men! Storm the cave! Don't let any of the traitors escape!
+## PJ2OpeningLastScene
 
-Camera moves to units. Daff and Sme run back to Vergil.
+#Camera moves to units. Daff and Sme run back to Vergil.
 
-Load Vergil [MidLeft], Daff [MidRight] and Sme [FarRight].
+#Load Vergil [MidLeft], Daff [MidRight] and Sme [FarRight].
+[Left][LoadVergil][Right][LoadDaff][FR][LoadSmeglinde]
 
-Daff: Lord Vergil, it's horrible! Arxhat's men! They... They're swarming the cave!
+[Right]#Daff:
+Lord Vergil, it's horrible![N]
+Arxhat's men! They...[AN]
+They're swarming the cave![A]
 
-Sme: W-we have to get out of here, now! Do we have an escape route?
+[FR]#Sme:
+W-we have to get out of here,[N]
+now! Do we have an escape route?[A]
 
-Load Horus [FarFarLeft].
+#Load Horus [FarFarLeft].
+[FL][LoadHorus]
+#Horus:[eyes closed]
+[CloseEyes]
+We... don't.[A]
 
-Horus: #[eyes closed]
- We... don't.
+[Left]#Vergil:
+I see. There's no other choice, then.[N]
+We have to fight our way through[AN]
+Arxhat's men. These usurpers, traitors[N]
+to the crown of Seraphyn! Massacre them![A]
+#*Unit deployment screen*
+[X]
 
-Vergil: I see. There's no other choice, then. We have to fight our way through Arxhat's men - These usurpers, traitors to the crown of Seraphyn! Massacre them!
-
-*Unit deployment screen*
+## PJ2TheRest
 
 ------
 

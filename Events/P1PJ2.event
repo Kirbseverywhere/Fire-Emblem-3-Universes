@@ -70,8 +70,19 @@ REVEAL Anthony
 REVEAL Leo
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
-Text(PJ2OpeningScouting)
-Text(PJ2OpeningCave)
+MUSC LyonTheme
+Text(Forest_Dense,PJ2OpeningScouting)
+//MUSC Solve_the_Riddle
+Text(Volcano,PJ2OpeningCave) //because the cave background isn't in FE8
+MUSC Tension
+Text(Volcano,PJ2OpeningGrilling)
+MUSC Solve_the_Riddle
+Text(Volcano,PJ2OpeningBetraying)
+Text(Volcano,PJ2OpeningPillar)
+MUSC Raid
+Text(Volcano,PJ2OpeningCaveIn)
+Text(Volcano,PJ2OpeningBruckner)
+Text(Volcano,PJ2OpeningLastScene)
 GotoPrepScreen
 ENDA
 
