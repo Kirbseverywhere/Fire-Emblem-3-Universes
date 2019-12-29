@@ -116,7 +116,8 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC2 35
+Text(EndOfDemo)
+MNC2 34
 ENDA
 
 Rein1Event:
