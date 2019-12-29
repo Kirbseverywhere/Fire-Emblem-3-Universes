@@ -29,6 +29,8 @@ UNIT
 
 TurnBasedEvents:
 TurnEventPlayer(0, EventAfterPrep, 1)
+//TurnEventNPC(0, BearReveal, 2) //stupid macro broke, shoved after bear phase instead
+TurnEventPlayer(0, BearReveal, 3)
 END_MAIN
 
 CharacterBasedEvents:
@@ -64,14 +66,25 @@ TUTORIALTEXTBOXSTART
 MUSC The_Beginning
 TEXTSHOW PJ2Narration
 TEXTEND
-REVEAL Kabby
+//REVEAL Kabby
 REVEAL Stephen
 REVEAL Anthony
 REVEAL Leo
 LOAD2 0x1 Units
 LOAD1 0x1 Bad
-Text(PJ2OpeningScouting)
-Text(PJ2OpeningCave)
+MUSC LyonTheme
+Text(Forest_Dense,PJ2OpeningScouting)
+//MUSC Solve_the_Riddle
+Text(Volcano,PJ2OpeningCave) //because the cave background isn't in FE8
+MUSC Tension
+Text(Volcano,PJ2OpeningGrilling)
+MUSC Solve_the_Riddle
+Text(Volcano,PJ2OpeningBetraying)
+Text(Volcano,PJ2OpeningPillar)
+MUSC Raid
+Text(Volcano,PJ2OpeningCaveIn)
+Text(Volcano,PJ2OpeningBruckner)
+Text(Volcano,PJ2OpeningLastScene)
 GotoPrepScreen
 ENDA
 
@@ -89,15 +102,28 @@ EscapeCapturedCheck(Anton,AntonCapturedFlag)
 EscapeCapturedCheck(Myst,MystCapturedFlag)
 EscapeCapturedCheck(Khris,KhrisCapturedFlag)
 
+MUSC Victory
+Text(PJ2Ending)
 MNC2 18
 ENDA
 
 // Events
 EventAfterPrep:
+REVEAL Kabby
+LOAD2 0x1 Creep
+CAM1 Kabby
+FlashCursor(Kabby,60)
+Text(PJ2AfterPrep)
 SETVAL 0xB 0xFFFFFFFF
 TUTORIALTEXTBOXSTART
 TEXTSHOW EscapeWarning
 TEXTEND
+ENDA
+
+BearReveal:
+CAM1 BearBoss
+FlashCursor(BearBoss,60)
+Text(PJ2Turn2Bear)
 ENDA
 
 // Manual Movement
@@ -125,6 +151,10 @@ UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [Iron
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT
+
+Creep:
+UNIT Kabby LanceKnight 0x00 Level(1, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 // Shop Data

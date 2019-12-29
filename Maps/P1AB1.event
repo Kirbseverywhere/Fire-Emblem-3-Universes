@@ -3,28 +3,25 @@
 #include eastdlib.event
 
 SetChapterData(31,VillageObjType,0,VillagePalette1,VillageTileConfig,31,Map,5,0,31)
+EventPointerTable(31, MapChanges)
 MapChangesPointerTable(31, MapChanges)
 Map:
 #incbin "P1AB1_data.dmp"
 
 MapChanges:
-TileMap(7,11,10,1,1,House1Closed)
-TileMap(10,10,9,3,2,House1Destroyed)
-TileMap(8,10,5,1,1,House2Closed)
-TileMap(11,9,4,3,2,House2Destroyed)
-TileMap(9,1,1,1,1,House3Closed)
-TileMap(12,0,0,3,2,House3Destroyed)
+TileMap(1,0,0,3,2,House1Destroyed)
+TileMap(2,1,1,1,1,House1Closed)
+TileMap(3,9,4,3,2,House2Destroyed)
+TileMap(4,10,5,1,1,House2Closed)
+TileMap(5,10,9,3,2,House3Destroyed)
+TileMap(6,11,10,1,1,House3Closed)
 TileMapEnd
-
-House1Closed:
-SHORT 0x80 
-ALIGN 4
 
 House1Destroyed:
 SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
 ALIGN 4
 
-House2Closed:
+House1Closed:
 SHORT 0x80 
 ALIGN 4
 
@@ -32,11 +29,15 @@ House2Destroyed:
 SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
 ALIGN 4
 
-House3Closed:
+House2Closed:
 SHORT 0x80 
 ALIGN 4
 
 House3Destroyed:
 SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
+ALIGN 4
+
+House3Closed:
+SHORT 0x80 
 ALIGN 4
 

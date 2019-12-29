@@ -4,8 +4,8 @@ Cannot attack at[N]
 1 range[X]
 
 ## NormalShieldUseDesc
-Defence +2[N]
-Speed -2[X]
+Defence +4[N]
+Speed -4[X]
 
 ## AegisShieldUseDesc
 Grants Aegis[N]

@@ -37,15 +37,15 @@ Village(0x9,Village3,11,10)
 END_MAIN
 
 Village1:
-VillageEventItem(PlaceholderText,0x5,NormalShield) 
+VillageEventItem(AB1VillageText1,0x5,NormalShield) 
 ENDA
 
 Village2:
-VillageEventItem(PlaceholderText,0x5,RedGem)
+VillageEventItem(ABVillageText2,0x5,RedGem)
 ENDA
 
 Village3:
-VillageEventItem(PlaceholderText,0x5,KillingEdge)
+VillageEventItem(AB1VillageText3,0x5,KillingEdge)
 ENDA
 
 MiscBasedEvents:

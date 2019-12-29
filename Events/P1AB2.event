@@ -125,7 +125,7 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MoveToChapter(0x34)
+MNC2 33
 ENDA
 
 
