@@ -64,7 +64,8 @@ BeginningScene:
 LOAD2 0x1 Units
 LOAD1 0x1 Prisoners
 LOAD1 0x1 Bad
-GotoPrepScreen
+CALL $591FD8 //GotoPrepScreen but without the forced ENDA
+CALL ReloadInCapturedUnits
 ENDA
 
 EndingScene:
@@ -121,4 +122,149 @@ UNIT
 
 
 // Shop Data
+
+
+ALIGN 4
+ReloadInCapturedUnits:
+CHECK_EVENTID XenithCapturedFlag
+BEQ 1 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Xenith
+	LOAD1 0 PrisonerXenith
+	ENUN
+LABEL 1
+CHECK_EVENTID TrayCapturedFlag
+BEQ 2 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Tray
+	LOAD1 0 PrisonerTray
+	ENUN
+LABEL 2
+CHECK_EVENTID HorusCapturedFlag
+BEQ 3 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Horus
+	LOAD1 0 PrisonerHorus
+	ENUN
+LABEL 3
+CHECK_EVENTID GlacCapturedFlag
+BEQ 4 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Glac
+	LOAD1 0 PrisonerGlac
+	ENUN
+LABEL 4
+CHECK_EVENTID DaffCapturedFlag
+BEQ 5 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Daff
+	LOAD1 0 PrisonerDaff
+	ENUN
+LABEL 5
+CHECK_EVENTID SmeglindeCapturedFlag
+BEQ 6 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Smeglinde
+	LOAD1 0 PrisonerSmeglinde
+	ENUN
+LABEL 6
+CHECK_EVENTID KabbyCapturedFlag
+BEQ 7 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Kabby
+	LOAD1 0 PrisonerKabby
+	ENUN
+LABEL 7
+CHECK_EVENTID StephenCapturedFlag
+BEQ 8 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Stephen
+	LOAD1 0 PrisonerStephen
+	ENUN
+LABEL 8
+CHECK_EVENTID AntonCapturedFlag
+BEQ 9 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Anton
+	LOAD1 0 PrisonerAnton
+	ENUN
+LABEL 9
+CHECK_EVENTID MystCapturedFlag
+BEQ 10 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Myst
+	LOAD1 0 PrisonerMyst
+	ENUN
+LABEL 10
+CHECK_EVENTID KhrisCapturedFlag
+BEQ 11 0 0xC
+	//If captured, do things here
+	ENUT 0x28
+	REVEAL Khris
+	LOAD1 0 PrisonerKhris
+	ENUN
+LABEL 11
+
+CHECK_EVENTID 0x28
+BEQ 12 0 0xC
+	Text(PlaceholderText) //Text for if there are any captured units reappearing
+	ENUF 0x28 //reset this flag for reuse
+LABEL 12
+NoFade
+ENDA
+
+
+PrisonerXenith:
+UNIT Xenith 0 0 Level(0,Ally,0) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerTray:
+UNIT Tray 0 0 Level(0,Ally,0) [15,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerHorus:
+UNIT Horus 0 0 Level(0,Ally,0) [17,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerGlac:
+UNIT Glac 0 0 Level(0,Ally,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerDaff:
+UNIT Daff 0 0 Level(0,Ally,0) [16,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerSmeglinde:
+UNIT Smeglinde 0 0 Level(0,Ally,0) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerKabby:
+UNIT Kabby 0 0 Level(0,Ally,0) [14,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerStephen:
+UNIT Stephen 0 0 Level(0,Ally,0) [13,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerAnton:
+UNIT Anton 0 0 Level(0,Ally,0) [1,6] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerMyst:
+UNIT Myst 0 0 Level(0,Ally,0) [1,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+PrisonerKhris:
+UNIT Khris 0 0 Level(0,Ally,0) [0,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
 
