@@ -133,7 +133,8 @@ int DrawClassSMS(struct MenuProc *menuProc, struct MenuStuff *menuInfo) {
 
 int backDownIfPossible() {
 	struct UnitCustomizerMenuProc *proc = (struct UnitCustomizerMenuProc *)ProcFind(UnitCustomizerMenuProcCode);
-	if(proc->UnitPoolIndex != 1) proc->UnitPoolIndex -= 2; else proc->UnitPoolIndex = 0;
+	//if(proc->UnitPoolIndex != 1) proc->UnitPoolIndex -= 2; else proc->UnitPoolIndex = 0;
+	if(proc->UnitPoolIndex > 1) proc->UnitPoolIndex -= 2;
 	EndFaceById(0);
 }
 

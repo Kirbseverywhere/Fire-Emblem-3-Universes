@@ -162,3 +162,39 @@ R: Well, you know, it's to ease stress. Stress can be dangerous on the battlefie
 L: Do you actually...care about me?
 R: Hm? Whatever it was you said, I didn't hear it, Lapis.
 L: *closes eyes* My name is Lazul...[X]
+
+## AB1VillageText1
+[LoadCurrent][ML][MR][LoadFace][0x5D][0x01]
+[MidRight]#Villager
+A-ah! T-the Council! Please don't harm[NL]
+us, we aren't with the rebels![AN]
+D-don't hurt us please...[AN]
+There are a few folks like us who[NL]
+aren't against the Council and all.[AN]
+Kajarn and his thugs are the ones who[NL]
+are causing all the trouble 'round here.[AN]
+We really don't mean y'all any harm.[NL]
+T-take this as a sign of our loyalty![A][X]
+
+## ABVillageText2
+[LoadCurrent][ML][MR][LoadFace][0x61][0x01]
+[MidRight]#Villager
+I don't dabble much in Hevursan[AN]
+politics n' all, but if yer here[NL]
+to stop all the ruckus I support ye.[AN]
+This gem is all I have, but maybe[NL]
+you'll find it useful.[A][X]
+
+## AB1VillageText3
+[LoadCurrent][ML][MR][LoadFace][0x5C][0x01]
+[MidRight]#Villager
+You youngsters having trouble with[NL]
+Kajarn and his surly crew?[AN]
+That lot has been in the village[NL]
+causin' trouble for too long![AN]
+I'm glad the Council has finally[NL]
+done something for once.[AN]
+Take this sword, it may help[NL]
+you get rid of them quickly.[AN]
+Go on now! I don't have all day[N]
+yer know?![A][X]

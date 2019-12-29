@@ -769,6 +769,18 @@
   ble     loc_0x8087660        @08087670
 .endm
 
+.macro load_stat_box_tsa 
+  ldr     r0,=#0x8A02204        @stat box TSA
+  ldr     r4,=#0x2020188        @buffer
+  mov     r1,r4       
+  blh      #0x8012F50       @CopyDataWithPossibleUncomp
+  ldr     r0,=#0x20049EE        @gbmFrameTmap1+TILEMAP_INDEX(1, 11)
+  mov     r2,#0xC1        
+  lsl     r2,r2,#0x6      @ 0x3040  bytes  
+  mov     r1,r4       
+  blh      #0x80D74A0       @CallARM_FillTileRect
+.endm
+ 
 .macro draw_items_text
   push {r7}
   mov r7, r8
