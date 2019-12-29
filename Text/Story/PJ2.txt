@@ -728,53 +728,90 @@ to the crown of Seraphyn! Massacre them![A]
 #*Unit deployment screen*
 [X]
 
-## PJ2TheRest
 
-------
+## PJ2AfterPrep
 
-Turn 1, Player Phase
+#Load Kabby [MidLeft].
+[ML][LoadKabby]#Kabby:
+This might turn ugly... If my sponsors-[N]
+uh, "these ruffians", continue making[AN]
+this much noise, Bagel won't be too happy[N]
+once he wakes up. Please, my prince,[AN]
+allow me to stand guard by your side,[N]
+should that occur. Eheheheh...[AN]
 
-Load Kabby [MidLeft].
+#Clear Kabby. Load Horus [FarLeft].
+[Clear][FL][LoadHorus]
 
-Kabby: This might turn ugly... If my sponsors- uh, ‘these ruffians', continue making this much noise, Bagel won't be too happy once he wakes up. Please, my prince, allow me to stand guard by your side, should that occur. Eheheheh..
+#Horus:
+Seriously, who IS Bagel?[A]
 
-Clear Kabby. Load Horus [FarLeft].
+#Kabby is recruited into the Purple Jaguars. (Force-deployed, without breaking the unit limit :weSmart:)
+[X]
 
-Horus: Seriously, who IS Bagel?
+## PJ2Turn2Bear
+#Turn 2, BEAR Phase
 
-Kabby is recruited into the Purple Jaguars. (Force-deployed, without breaking the unit limit :weSmart:)
+#Cursor on generic Axe Knight next to the Bearserker.
 
-Turn 2, BEAR Phase
+#Load Axe Knight [MidRight].
+[MR][LoadFace][0x6A][0x01]#generic soldier
 
-Cursor on generic Axe Knight next to the Bearserker.
+#Axe Knight:
+Isn't this just lovely. This[N]
+cave system extends so deep[AN]
+in - who knows what ambushes[N]
+or traps lie in waiting?[AN]
 
-Load Axe Knight [MidRight].
+[FFL]
+#Bagel (offscreen):
+Grrrrrgh... Raargh![A]
 
-Axe Knight: Isn't this just lovely. This cave system extends so deep in - who knows what ambushes or traps lie in waiting?
+[MR]#Axe Knight:
+What in the devil was that?
 
-Bagel (offscreen): Grrrrrgh... Raargh!
+#Bagel moves out of its stationary spot and attacks the Axe Knight.
 
-Axe Knight: What in the devil was that?
+[FFL]
+#Bagel:
+RaaaaRRGH![A]
 
-Bagel moves out of its stationary spot and attacks the Axe Knight.
+[MR]
+#Axe Knight:
+Oh, GODS! WHY IS THERE[N]
+A BEAR IN HERE?![AN]
 
-Bagel: RaaaaRRGH!
+#Bagel crits Axe Knight, killing him.
+[Clear]
 
-Axe Knight: Oh, GODS! WHY IS THERE A BEAR IN HERE?!
+#Camera moves to Kabby.
 
-Bagel crits Axe Knight, killing him.
+#Load Kabby [MidLeft] and Vergil [MidRight].
 
-Camera moves to Kabby.
+[ML][LoadKabby][MR][LoadVergil]
+[ML]#Kabby:
+Oh... that's nasty. It seems that Bagel[N]
+has woken up... and he's very hungry[AN]
+too. How about we treat this as a trap[N]
+for those enemies?[AN]
 
-Load Kabby [MidLeft] and Vergil [MidRight].
+[MR]#Vergil:
+And, pray tell, is there anything stopping[N]
+that bear from mauling our own men?[A]
 
-Kabby: Oh... that's nasty. It seems that Bagel has woken up... and he's very hungry too. How about we treat this as a trap for those enemies?
+[ML]#Kabby:
+Of course not. What, you think[N]
+I took the time to TRAIN Bagel?[AN]
+I may be a merchant, but even I[N]
+have limits.[AN]
 
-Vergil: And, pray tell, is there anything stopping that bear from mauling our own men?
+[MR]#Vergil:
+In that case, everyone, stay away[N]
+from the bear unless you can[AN]
+kill it! Let it have some fun with[N]
+Bruckner's soldiers first![AN][X]
 
-Kabby: Of course not. What, you think I took the time to TRAIN Bagel? I may be a merchant, but even I have limits.
-
-Vergil: In that case, everyone, stay away from the bear unless you can kill it! Let it have some fun with Bruckner's soldiers first!
+## PJ2BossQuotes
 
 BOSS QUOTES:
 BRUCKNER
@@ -828,104 +865,259 @@ Kabby v. Bear
 
 Kabby: I probably should have trained you after all. I'm sorry, my Bagel! I must crush you!
 
-Bear: Roar!
+Bear: Roar![X]
 
-------
-ENDING EVENT
+## PJ2Ending
 
-Cave BG. Load Stephen [Left].
+#Cave BG. Load Stephen [Left].
 
-Stephen: The traitors have been routed! Rejoice, everyone! Stephen Redharr lives yet another day!
+[Left][LoadStephen]
+#Stephen:
+The traitors have been routed![N]
+Rejoice, everyone! Stephen[AN]
+Redharr lives yet another day![AN]
 
-Load Horus [MidRight].
+#Load Horus [MidRight].
+[MR][LoadHorus]
+[MR]#Horus:
+Now is not the time for[N]
+celebrations, Stephen.[AN]
+Our hideout has been[N]
+compromised. We must[AN]
+leave and find another[N]
+location. Bruckner was[AN]
+just one commander. Who[N]
+knows how many more[AN]
+zealots Arxhat has under[N]
+his command?[AN]
 
-Horus: Now is not the time for celebrations, Stephen. Our hideout has been compromised. We must leave and find another location. Bruckner was just one commander. Who knows how many more zealots Arxhat has under his command?
+#Load Khris [FarLeft].
+[FL][LoadKhris]
+#Khris:
+We're moving elsewhere already?[N]
+I was just starting to like[AN]
+the atmosphere. Well, where[N]
+are we heading?[A]
 
-Load Khris [FarLeft].
+[MR]#Horus:
+We need to go somewhere remote...[N]
+and hope that Arxhat's men don't[AN]
+find us there. I was thinking--[A]
 
-Khris: We're moving elsewhere already? I was just starting to like the atmosphere. Well, where are we heading?
+[FFL]
+#Vergil (offscreen):
+No, I disagree.[A]
 
-Horus: We need to go somewhere remote... and hope that Arxhat's men don't find us there. I was thinking--
+[Left][Clear][FL][Clear][ML][LoadVergil]
+#Clear Stephen and Khris. Load Vergil [MidLeft].
 
-Vergil (offscreen): No, I disagree.
+[ML]#Vergil:
+We shouldn't be hiding[N]
+any longer, Horus.[AN]
 
-Clear Stephen and Khris. Load Vergil [MidLeft].
+[MR]#Horus:
+...Huh? Lord Vergil,[N]
+I don't understand.[A]
 
-Vergil: We shouldn't be hiding any longer, Horus.
+[ML]#Vergil:
+Horus. We've been forced to run and[N]
+hide from our own countrymen, like[AN]
+we're some rats. We've spent weeks[N]
+lurking in our homeland, living in[AN]
+fear of encountering more and more[N]
+of Arxhat's search parties.[A]
 
-Horus: ...Huh? Lord Vergil, I don't understand.
+[MR]#Horus:
+But we have to! The moment we[N]
+show ourselves, he'll send[AN]
+the full might of the Seraphyn[N]
+army upon us![A]
 
-Vergil: Horus. We've been forced to run and hide from our own countrymen, like we're some rats. We've spent weeks lurking in our homeland, living in fear of encountering more and more of Arxhat's search parties.
+[ML]#Vergil:
+My point is that what we're doing[N]
+doesn't solve anything. We've[AN]
+crossed blades with his cronies[N]
+multiple times already, and with[AN]
+each confrontation, we lose more[N]
+and more morale. All we're doing[AN]
+is delaying our deaths.[N]
+I'm sick of it.[A]
 
-Horus: But we have to! The moment we show ourselves, he'll send the full might of the Seraphyn army upon us!
+[MR]#Horus:
+In that case, what would you suggest[N]
+we do, Lord Vergil? We can't just[AN]
+surrender, or exile ourselves to[N]
+Novingale or Hevursa.[A]
 
-Vergil: My point is that what we're doing doesn't solve anything. We've crossed blades with his cronies multiple times already, and with each confrontation, we lose more and more morale. All we're doing is delaying our deaths. I'm sick of it.
+[ML]#Vergil:
+We take the fight to Arxhat. Look[N]
+at what we've done to all these[AN]
+search parties. We are more than[N]
+capable of fighting him.[AN]
 
-Horus: In that case, what would you suggest we do, Lord Vergil? We can't just surrender, or exile ourselves to Novingale or Hevursa.
+[MR]#Horus:
+W-what? Pardon me?! The[N]
+twelve of us, against the[AN]
+rest of Seraphyn? Have you[N]
+gone mad, my lord?![AN]
 
-Vergil: We take the fight to Arxhat. Look at what we've done to all these search parties. We are more than capable of fighting him.
+[ML]#Vergil:
+I'm not suggesting that we lay[N]
+siege to an entire country by[AN]
+ourselves. Arxhat's rule is a[N]
+controversial one. Many of our[AN]
+people refuse to accept his bid[N]
+to rule Seraphyn. The people[AN]
+will inevitably support us.[AN]
 
-Horus: W-what? Pardon me?! The twelve of us, against the rest of Seraphyn? Have you gone mad, my lord?!
+[MR]#Horus:
+If that's the case, where[N]
+do we go, then? The capital?[AN]
+With a bunch of peasants[N]
+behind us?[AN]
 
-Vergil: I'm not suggesting that we lay siege to an entire country by ourselves. Arxhat's rule is a controversial one. Many of our people refuse to accept his bid to rule Seraphyn. The people will inevitably support us.
+[ML]#Vergil:
+...Not yet. Bruckner was a fool,[N]
+but how many more of my people[AN]
+might believe Arxhat's lies?[N]
+Traitors are one thing, but a[AN]
+simple man believing what he is[N]
+told can be even more dangerous.[AN]
+I must show my people that they[N]
+have been deceived. We, the Purple[AN]
+Jaguars, must show them Arxhat's[N]
+true colours.[AN]
 
-Horus: If that's the case, where do we go, then? The capital? With a bunch of peasants behind us?
+[MR]#Horus:
+Just as stubborn as your parents,[N]
+but just as inspiring as they were,[AN]
+huh. Heh. You've swayed my opinion,[N]
+Vergil. I'll join your conquest.[AN]
 
-Vergil: ...not yet. Bruckner was a fool, but how many more of my people might believe Arxhat's lies? Traitors are one thing, but a simple man believing what he is told can be even more dangerous. I must show my people that they have been deceived. We, the Purple Jaguars, must show them Arxhat's true colours.
+[FFL]#Tray (offscreen):
+Verg- Lord Vergil![A]
 
-Horus: Just as stubborn as your parents, but just as inspiring as they were, huh. Heh. You've swayed my opinion, Vergil. I'll join your conquest.
+#Vergil warps to [Right]. Load Tray [MidLeft].
+[MR][Clear][ML][Clear][Right][LoadVergil][ML][LoadTray]
 
-Tray (offscreen): Verg- Lord Vergil!
+#Tray:
+I heard the entire thing. Please,[N]
+let me join in too! Arxhat...[AN]
+he was responsible for the deaths[N]
+of my brothers. I must avenge them.[AN]
+I may be young, Lord Vergil, but[N]
+please, allow me to stand by your side![AN]
 
-Vergil warps to [Right]. Load Tray [MidLeft].
+[Right]#Vergil:
+Glad to see that your zeal[N]
+has returned. Of course I'll[AN]
+let you join in this crusade.[N]
+What about the others?[AN]
 
-Tray: I heard the entire thing. Please, let me join in too! Arxhat... he was responsible for the deaths of my brothers. I must avenge them. I may be young, Lord Vergil, but please, allow me to stand by your side!
+#Clear Tray. Load Xenith [MidLeft].
+[ML][Clear][LoadXenith]
+#Xenith:
+We share the same sentiments you do,[N]
+Your Highness. Glac, Myst and I,[AN]
+we might not be from Seraphyn, but[N]
+for the rightful king, we will fight[AN]
+with you until the bitter end.[AN]
+[Clear]
 
-Vergil: Glad to see that your zeal has returned. Of course I'll let you join in this crusade. What about the others?
+#Clear Xenith. Load Myst [MidLeft] and Glac [FarLeft].
 
-Clear Tray. Load Xenith [MidLeft].
+[Left][LoadMyst][FL][LoadGlac]
+#Glac:
+Mhm. We're not letting Arxhat[N]
+destroy your homeland, what[AN]
+your family worked so hard[N]
+to build.[AN]
 
-Xenith: We share the same sentiments you do, Your Highness. Glac, Myst and I, we might not be from Seraphyn, but for the rightful king, we will fight with you until the bitter end.
+[Left]
+#Myst:
+We'll go to the capital and[N]
+teach him a lesson he won't[AN]
+forget! Because he'll be[N]
+dead by then, of course![AN]
+[Clear][FL][Clear]
+#Clear Myst and Glac. Load Daff [MidLeft].
 
-Clear Xenith. Load Myst [MidLeft] and Glac [FarLeft].
+[ML][LoadDaff]
+#Daff:
+Still, do be careful! I can't[N]
+watch over all of you![AN]
 
-Glac: Mhm. We're not letting Arxhat destroy your homeland, what your family worked so hard to build.
+#Clear Daff. Load Sme [MidLeft].
 
-Myst: We'll go to the capital and teach him a lesson he won't forget! Because he'll be dead by then, of course!
+[Clear][ML][LoadSmeglinde]
+#Sme:
+I-I'm not sure if I can be of much[N]
+help, but... I'll try my best![AN]
 
-Clear Myst and Glac. Load Daff [MidLeft].
+#Clear Sme. Load Stephen [MidLeft] and Kabby [FarLeft].
 
-Daff: Still, do be careful! I can't watch over all of you!
+[Clear][FL][LoadKabby][Left][LoadStephen]
 
-Clear Daff. Load Sme [MidLeft].
+#Stephen:
+Now this is an unexpected[N]
+development! But I, Stephen[AN]
+Redharr, will remain a stalwart[N]
+supporter of your cause![AN]
 
-Sme: I-I'm not sure if I can be of much help, but... I'll try my best!
+[FL]
+#Kabby:
+Eheh... of course I'll join[N]
+you too, milord Vergil. My...[AN]
+objective remains incomplete.[A]
 
-Clear Sme. Load Stephen [MidLeft] and Kabby [FarLeft].
+#Clear Stephen and Kabby. Load Khris [FarLeft] and Anton [MidLeft].
+[Clear][Left][Clear]
+[FL][LoadKhris][Left][LoadAnton]
 
-Stephen: Now this is an unexpected development! But I, Stephen Redharr, will remain a stalwart supporter of your cause!
+#Anton:
+As you can see, Lord Vergil,[N]
+you have many trustworthy[AN]
+allies for the long road ahead.[AN]
 
-Kabby: Eheh... of course I'll join you too, milord Vergil. My... objective remains incomplete.
+[FL]
+#Khris:
+We won't let him trample over[N]
+the people of Seraphyn.[A]
 
-Clear Stephen and Kabby. Load Khris [FarLeft] and Anton [MidLeft].
+[Right]#Vergil:
+Thank you all, my friends. Before[N]
+we start picking up momentum, we[AN]
+have to free some of our loyalist[N]
+friends from imprisonment. Anton,[AN]
+do you have an idea where our[N]
+allies are kept at?[AN]
 
-Anton: As you can see, Lord Vergil, you have many trustworthy allies for the long road ahead.
+[Left]#Anton:
+If I'm not wrong, the resistance[AN]
+force I was in contact with is[N]
+locked up at Fort Theronca.[AN]
 
-Khris: We won't let him trample over the people of Seraphyn.
+#Clear Khris. Load Horus [FarLeft].
+[Clear][FL][Clear][LoadHorus]
 
-Vergil: Thank you all, my friends. Before we start picking up momentum, we have to free some of our loyalist friends from imprisonment. Anton, do you have an idea where our allies are kept at?
+#Horus:
+Theronca... that's nearby our[N]
+current location. It's not a[AN]
+big fort, either. It's the[N]
+ideal choice for our first...[AN]
+grand reveal.[AN]
 
-Anton: If I'm not wrong, the resistance force I was in contact with is locked up at Fort Theronca.
+[Right]#Vergil: 
+I see. Purple Jaguars! At dawn[N]
+tomorrow, we march to Fort[AN]
+Theronca! Let the liberation[N]
+of Seraphyn begin![A]
 
-Clear Khris. Load Horus [FarLeft].
+#*fade to black*
+[X]
 
-Horus: Theronca... that's nearby our current location. It's not a big fort, either. It's the ideal choice for our first... grand reveal.
+## PJ2OptionalTalks
 
-Vergil: I see. Purple Jaguars! At dawn tomorrow, we march to Fort Theronca! Let the liberation of Seraphyn begin!
-
-*fade to black*
-
-------
 Talk Conversations
 Tray and Xenith
 Load Tray [Left].
