@@ -6,7 +6,7 @@
 
 push	{r4,r14}
 mov		r4,r0
-add 	r1, #40
+add 	r4, #40
 mul		r4,r1
 ldr		r0,Growth_Options
 mov		r1,#0x1		@ is fixed mode even available
