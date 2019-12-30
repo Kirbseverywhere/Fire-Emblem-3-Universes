@@ -201,10 +201,13 @@ Gah! That hurts like hell...![N]
 Boys, we're getting out of here![A][X]
 
 ## BrucknerDeathQuote
-[OpenMidRight][LoadFace][0x51][0x01]BrucknerDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x51][0x01]
+Arxhat... Vergil... Will[N]
+someone save Seraphyn?[A][X]
 
 ## BearBossDeathQuote
-[OpenMidRight][LoadFace][0x52][0x01]BearBossDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x52][0x01]
+ROAR![A][X]
 
 ## DarachDeathQuote
 [OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
