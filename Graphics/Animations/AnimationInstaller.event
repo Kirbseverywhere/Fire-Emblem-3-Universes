@@ -31,5 +31,21 @@
 #include "Knight/BowKnight.event"
 }
 {
+#include "Knight/LanceKnight.event"
+}
+{
+#include "Knight/UnarmedKnight.event"
+}
+{
 #include "Vergil Lord/Vergil.event"
 }
+{
+#include "Vergil Lord/Vergil2.event"
+}
+{
+#include "FThief/FThief.event"
+}
+{
+#include "Bear/Bear.event"
+}
+
