@@ -198,3 +198,28 @@ Take this sword, it may help[NL]
 you get rid of them quickly.[AN]
 Go on now! I don't have all day[N]
 yer know?![A][X]
+
+## BanditsAppearText
+[LoadFace][0x4C][FL]
+[FL]Hehehe! This is the perfect oppourtunity[NL]
+to ransack them silly houses![AN]
+C'mon let's go![A][X]
+
+## AB1NeedsMoreUnitsText
+[OpenMidLeft][LoadZane][OpenFarFarLeft][LoadAdamminn]
+[OpenMidLeft]Ah! It's Lady Elle! Quickly Adam,[AN]
+we must join the fight![AN][MoveFarFarRight][ClearFace]
+[OpenFarFarLeft][MoveLeft]
+[OpenLeft]H-hey! I'm not ready! Wait up![AN]
+Ugh, this sucks... I told Zane[NL]
+we should of left earlier...[AN]
+Welp, what matters now is defeating[NL]
+all of the rebels![A]
+[OpenLeft][MoveFarFarRight][X]
+
+## KajarnTriggered
+[OpenFarRight][LoadKajarn]Damn it! These Council puppets[NL]
+are stronger than expected![AN]
+Don't give up men! We won't let the[N]
+wicked Council control us anymore![AN]
+For justice!!![A][X]
