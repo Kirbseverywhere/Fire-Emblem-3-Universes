@@ -138,4 +138,14 @@ ORG $8AF4FE
 SHORT ClericUnarmedAnimID
 POP
 
+#define PriestStaffAnimID 0x7F
+#define PriestUnarmedAnimID 0x7E
+
+PriestAnimationList:
+BYTE Faith 1
+SHORT PriestStaffAnimID
+BYTE 0x9 1
+SHORT PriestUnarmedAnimID
+SHORT 0 0
+
 #include "AnimationInstaller.event"
