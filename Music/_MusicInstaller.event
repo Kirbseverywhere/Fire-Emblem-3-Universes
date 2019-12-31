@@ -41,7 +41,7 @@ SongTable(M_PJEarlyGameTheme,TempestOfSeasons,MapMusicGroup)
 #define M_FodlanWinds 11 // AB Early Game
 {
 #include "FodlanWinds.event"
-SongTable(M_FodlanWinds,FodlanWinds,MapMusicGroup)
+SongTable(M_FodlanWinds,m,MapMusicGroup)
 }
 #define M_WithMyBearHands 22 //Bear theme
 {
