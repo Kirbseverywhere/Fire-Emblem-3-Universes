@@ -200,8 +200,8 @@ Go on now! I don't have all day[N]
 yer know?![A][X]
 
 ## BanditsAppearText
-[LoadFace][0x4C][FL]
-[FL]Hehehe! This is the perfect oppourtunity[NL]
+[OpenFarLeft][LoadFace][0x4C][0x01]
+[OpenFarLeft]Hehehe! This is the perfect oppourtunity[NL]
 to ransack them silly houses![AN]
 C'mon let's go![A][X]
 
