@@ -88,7 +88,7 @@ SHORT 0 0
 ALIGN 4
 
 #define VergilSwordAnimID 0x01
-#define VergilUnarmedAnimID 0x01
+#define VergilUnarmedAnimID 0x02
 //yay, time crunch!
 
 VergilLordAnimationList:
@@ -96,6 +96,29 @@ BYTE Swords 1
 SHORT VergilSwordAnimID
 BYTE 0x9 1
 SHORT VergilUnarmedAnimID
+SHORT 0 0
+
+#define FThiefAnimID 0x8A
+
+PUSH
+ORG 0x8AF0A6
+SHORT 0x89 //free up an anim slot for f!thief
+POP
+
+ThiefFAnimationList:
+BYTE Swords 1
+SHORT FThiefAnimID
+BYTE 0x9 1
+SHORT FThiefAnimID
+SHORT 0 0
+
+#define BearAnimID 0xA5
+
+BearAnimationList:
+BYTE 0xB 0x01
+SHORT BearAnimID
+BYTE 0x9 0x01
+SHORT BearAnimID
 SHORT 0 0
 
 #include "AnimationInstaller.event"

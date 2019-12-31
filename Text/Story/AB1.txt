@@ -87,12 +87,12 @@ will not be in vain![A]
 [FarLeft]#Reg
 I'll do something about[N]
 their treacherous words.[A]
-[Left]#Dia
+[Left]#Elle
 Reginald. ...I think it's best[N]
 we go before things worsen.[A]
 [FarLeft]#Reg
 But-[A]
-[Left]#Dia
+[Left]#Elle
 Let's go. Now.
 [....]
 [FarLeft]#Reg
@@ -134,7 +134,7 @@ rebellion. We should take pride in that.[A]
 I'll go scout ahead.[A]
 [ClearFace]
 [Left]#Lazul
-Dia? Is everything okay?[A]
+Elle? Is everything okay?[A]
 [MidRight]#Elle
 What? Of course, Lazul.[N]
 No need to worry over me.[A]
