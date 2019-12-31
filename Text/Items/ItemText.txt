@@ -9,8 +9,8 @@ cannot attack at 1 range.[X]
 Shield[X]
 
 ## NormalShieldDescText
-Grants +2 defence[N]
-at the cost of -2 speed.[X]
+Grants +4 defence[N]
+at the cost of -4 speed.[X]
 
 ## AegisShieldNameText
 Aegis Shield[X]
@@ -33,7 +33,7 @@ Skill Ring[X]
 Grants +10 accuracy.[X]
 
 ## MovRingNameText
-Movement Ring[X]
+Leg Ring[X]
 
 ## MovRingDescText
 Grants +1 movement.[X]
@@ -42,59 +42,66 @@ Grants +1 movement.[X]
 Pursuit Ring[X]
 
 ## PursuitRingDescText
-Changes doubling threshold to 1 AS.[X]
+Reduces the amount of AS required[N]
+to double an enemy from 4 to 1.[X]
 
 ## KnightRingNameText
 Knight Ring[X]
 
 ## KnightRingDescText
-Grants Canto+.[X]
+Grants Canto+:[N]
+Move again after all actions.[X]
 
 ## ArcanaShieldNameText
 Arcana Shield[X]
 
 ## ArcanaShieldDescText
-Damage Taken - 25% against Magic.[X]
+Reduces all magical damage[N]
+received by 25%.[X]
 
 ## RenewalRingNameText
 Renewal Ring[X]
 
 ## RenewalRingDescText
-Grants Renewal.[X]
+Grants Renewal:[N]
+Restore 30% of max HP a turn.[X]
 
 ## RuneShifterNameText
 Rune Shifter[X]
 
 ## RuneShifterDescText
-Swaps Strength and Magic.[X]
+Swaps physical and magical[N]
+attack and defence.[X]
 
 ## WhetstoneNameText
 Whetstone[X]
 
 ## WhetstoneDescText
-Changes Effectiveness Multiplier.[X]
+Effective weapons have a 4x[N]
+multiplier on might.[X]
 
 ## AngelRingNameText
 Angel Ring[X]
 
 ## AngelRingDescText
-All +1 are +2.[X]
+All level up gains are doubled.[N]
++1 becomes +2, +2 becomes +4.[X]
 
 ## SailNameText
 Sail[X]
 
 ## SailDescText
-Yar Har.[X]
+Unit can cross water.[X]
 
 ## FakeWingsNameText
 Fake Wings[X]
 
 ## FakeWingsDescText
-Allows Anyone to fly.[X]
+Unit becomes capable of flight.[X]
 
 ## VampiresFangNameText
 Vampire's Fang[X]
 
 ## VampiresFangDescText
-Recover damage given[NL]
-as HP.[X]
+Drain enemy's HP and heals[N]
+the user for all damage dealt.[X]

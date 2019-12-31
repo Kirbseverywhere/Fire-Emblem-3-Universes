@@ -122,4 +122,6 @@
 
 //default AB slots overwrite used villagers
 [LoadKajarn] = [LoadFace][0x4F][0x01]
+
+[LoadPlaceholder] = [LoadFace][0xFF][0x01]
 [ResumeEvent] = [LoadOverworldFaces]

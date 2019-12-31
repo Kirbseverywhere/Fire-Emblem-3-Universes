@@ -2,19 +2,22 @@
 Magus[X]
 
 ## MagusClassDesc
-Magus[X]
+A wizard who harnesses the power[N]
+of dark magic to fight his foes.[X]
 
 ## GrandMagusClassName
 Grand Magus[X]
 
 ## GrandMagusClassDesc
-Grand Magus[X]
+A mage who has tamed a dragon and[N]
+has taken to the skies with a lance.[X]
 
 ## LordClassName
 Lord[X]
 
 ## LordClassDesc
-Lord[X]
+A noble in high society. Fights[N]
+gracefully with a sword.[X]
 
 ## HighLordClassName
 High Lord[X]
@@ -26,7 +29,8 @@ High Lord[X]
 Blade[X]
 
 ## LadyClassDesc
-Blade[X]
+The Blade of the Council of Hevursa.[N]
+Supports allies with staves.[X]
 
 ## SkyLordClassName
 Overlord[X]
@@ -38,22 +42,22 @@ Overlord[X]
 Sword Knight[X]
 
 ## SwordKnightClassDesc
-Knights on horseback that[N]
-use swords in battle.[X]
+Knights on horseback that use swords[N]
+in battle. Manouvers swiftly.[X]
 
 ## LanceKnightClassName
 Lance Knight[X]
 
 ## LanceKnightClassDesc
-Knights on horseback that[N]
-use lances in battle.[X]
+Knights on horseback that use lances[N]
+in battle. Well balanced.[X]
 
 ## AxeKnightClassName
 Axe Knight[X]
 
 ## AxeKnightClassDesc
-Knights on horseback that[N]
-use axes in battle.[X]
+Knights on horseback that use axes[N]
+in battle. Known for durability.[X]
 
 ## BowKnightClassName
 Bow Knight[X]

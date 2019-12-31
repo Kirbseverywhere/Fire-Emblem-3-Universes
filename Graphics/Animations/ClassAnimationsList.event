@@ -112,13 +112,23 @@ BYTE 0x9 1
 SHORT FThiefAnimID
 SHORT 0 0
 
-#define BearAnimID 0xA5
+#define BearAnimID 0xAE
 
 BearAnimationList:
 BYTE 0xB 0x01
 SHORT BearAnimID
 BYTE 0x9 0x01
 SHORT BearAnimID
+SHORT 0 0
+
+#define ElleMagicAnimID 0xAF
+#define ElleStaffAnimID 0xB0
+
+ElleLordAnimationList:
+BYTE Faith 1
+SHORT ElleStaffAnimID
+BYTE 0x9 1
+SHORT ElleMagicAnimID
 SHORT 0 0
 
 #include "AnimationInstaller.event"
