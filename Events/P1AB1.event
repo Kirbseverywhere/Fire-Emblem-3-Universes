@@ -30,6 +30,8 @@ BanditsAppear:
 LOAD1 0x1 Wave
 ENUN
 CUMO [0,5]
+STAL 20
+CURE
 Text(BanditsAppearText)
 NoFade
 ENDA
@@ -109,7 +111,6 @@ UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] N
 UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT Rebel LanceKnight Pablo Level(10, Enemy, 1) [11,11] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
 UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT Rebel AxeKnight Pablo Level(11, Enemy, 1) [8,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT Rebel Mercenary Pablo Level(11, Enemy, 1) [13,5] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
 UNIT
 
