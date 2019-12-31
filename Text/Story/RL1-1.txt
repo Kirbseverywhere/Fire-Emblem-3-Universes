@@ -53,7 +53,7 @@ hunger will be takin' us 'fore long.[A]
 ## RL1OpeningBandits
 #(Cut to different scene, bandits approaching the villagers)
 [MidRight][LoadFace][0x4C][0x01]
-[MidLeft][LoadFace][0x40][0x01]#Borgas, I hope
+[MidLeft][LoadBorgas]
 [MidRight]
 Hey, Boss! When we gettin' our[N]
 paycheck from Lord Alva?[A]
@@ -99,7 +99,7 @@ in some coin...[A][X]
 #(Cut to Borgas talking to villagers)
 [FarLeft][LoadFace][0x5A][0x01]
 [Left][LoadFace][0x58][0x01]
-[MidRight][LoadFace][0x40][0x01]#Borgas, I hope
+[MidRight][LoadBorgas]
 Fork over yer goods,[N]
 ya good-for-nothings![AN]
 [Left]

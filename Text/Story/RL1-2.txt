@@ -122,7 +122,7 @@ We shall break through![A][X]
 #==(SHIFT TO ALVA)==
 #might break for prep screen here
 [MidLeft][LoadFace][0x6A][0x01]#goon
-[MidRight][LoadFace][0x41][0x01]#Alva
+[MidRight][LoadAlva]#Alva
 Hmhmhm...[AN]
 Sounds like the little brat got[N]
 himself tangled up in the web![A]
@@ -184,7 +184,7 @@ So this is the end of it...[A][X]
 
 ## RL2EndingAlvaFight
 [MidLeft][LoadRodin]
-[MidRight][LoadFace][0x41][0x01]#Alva
+[MidRight][LoadAlva]#Alva
 [MidLeft]
 Alright, you will speak up.[A]
 [MidRight]
