@@ -217,6 +217,33 @@ Welp, what matters now is defeating[NL]
 all of the rebels![A]
 [OpenLeft][MoveFarFarRight][X]
 
+## AdamTalkElleText
+[OpenMidLeft][LoadAdamminn][OpenMidRight][LoadElle]
+[OpenMidLeft]Lady Elle! I'm sorry we couldn't make[NL]
+it in time I-[AN]
+[OpenMidRight]Adam! There you are![AN]
+What on earth took you so long?![AN]
+You were supposed to be here much,[NL]
+much earlier! Well, what matters now[AN]
+is that we subdue the rebels as[NL]
+quickly as possible. Understood?[A]
+[OpenMidLeft]Yes![A]
+[OpenMidRight]Thank you. Now let's get moving.[A]
+[OpenMidRight][MoveFarFarRight]
+[OpenMidLeft][MoveMidLeft]P-phew[ToggleMouthMove]...[ToggleMouthMove]I thought I was done for[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+## ZaneTalkElleText
+[OpenMidLeft][LoadZane][OpenMidRight][LoadElle]
+[OpenMidRight]Ah, Zane, there you are.[A]
+[OpenMidLeft]Sorry we arrived late.[AN]
+Adam and I had some unfinished business[NL]
+to take care of in a nearby village.[A]
+[OpenMidRight]That's fine. What matters now is[NL]
+that you're here to help, I appreciate that.[AN]
+Let us subdue these rebels quickly now.[A]
+[OpenMidLeft]Right![A][X]
+
 ## KajarnTriggered
 [OpenFarRight][LoadKajarn]Damn it! These Council puppets[NL]
 are stronger than expected![AN]

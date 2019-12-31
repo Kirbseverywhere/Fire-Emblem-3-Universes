@@ -14,21 +14,50 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 BanditsAppear[6,0] 0x0
-TurnEventPlayer(0, AB1NeedsMoreUnits, 4)
+TurnEventPlayer(0x13, BanditsAppear, 7)
+TurnEventPlayer(0, AB1NeedsMoreUnits, 2)
+TurnEventPlayer(0x12, LateReinforccments,10)
 END_MAIN
 
+
+LateReinforccments:
+Text(KajarnTriggered)
+LOAD1 0x1 FinalReinforcements
+ENUN
+ENDA
+
 BanditsAppear:
-ReinforcementEvent(Wave)
-//insert brigand text "haha fools fighting lets loot village!"
-//note to self: make sure to change brigand char id so something that says brigand
+LOAD1 0x1 Wave
+ENUN
+CUMO [0,5]
+Text(BanditsAppearText)
+NoFade
+ENDA
+
 Wave:
-UNIT Rebel Brigand Pablo Level(5, Enemy, 1) [0,5] 0x0 0x0 0x0 0x0 [SteelAxe] BrigandAI
-UNIT Rebel Brigand Pablo Level(5, Enemy, 1) [0,4] 0x0 0x0 0x0 0x0 [SteelAxe] BrigandAI
+UNIT Rebel Brigand Pablo Level(10, Enemy, 1) [0,5] 0x0 0x0 0x0 0x0 [SteelAxe] BrigandAI
+UNIT Rebel Brigand Pablo Level(10, Enemy, 1) [0,4] 0x0 0x0 0x0 0x0 [SteelAxe] BrigandAI
+UNIT
+
+FinalReinforcements:
+UNIT Rebel Mage Pablo Level(11, Enemy, 1) [0,10] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT Rebel Archer Pablo Level(10, Enemy, 1) [0,11] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
 UNIT
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x10,ZaneTalkElle,Zane,Diana)
+CharacterEventBothWays(0x11,AdamTalkElle,Adamminn,Diana)
 END_MAIN
+
+AdamTalkElle:
+Text(AdamTalkElleText)
+NoFade
+ENDA
+
+ZaneTalkElle:
+Text(ZaneTalkElleText)
+NoFade
+ENDA
 
 LocationBasedEvents:
 Village(0x7,Village1,1,1)
@@ -72,14 +101,14 @@ UNIT Reginald 0x0 0x1 Level(10, Ally, 0)   [3,9] 0b 0x0 0x0 0x0 [0] [0x0,0x0,0x0
 UNIT
 
 EnemyUnits:
-UNIT Kajarn Mercenary 0x00 Level(10, Enemy, 0) [13,1] 0x00 0x2 0x0 0x0 [SteelSword,NormalShield] NeverMoveAI
-UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] GuardTileAI
+UNIT Kajarn Mercenary 0x00 Level(10, Enemy, 0) [13,1] 0x00 0x2 0x0 0x0 [SteelSword] NeverMoveAI
+UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [1,2] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
 UNIT Rebel Mercenary Pablo Level(11, Enemy, 1)  [8,10] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
 UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [4,6] 0x0 0x2 0x0 0x0 [IronLance] NeverMoveAI
 UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,6] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
-UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [IronLance, NormalShield] PursueWithoutHeedAI
-UNIT Rebel LanceKnight Pablo Level(10, Enemy, 1) [11,11] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
-UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [IronAxe] GuardTileAI
+UNIT Rebel Soldier Pablo Level(10, Enemy, 1) [5,11] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Rebel LanceKnight Pablo Level(10, Enemy, 1) [11,11] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Rebel Fighter Pablo Level(10, Enemy, 1) [10,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT Rebel AxeKnight Pablo Level(11, Enemy, 1) [8,4] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT Rebel Mercenary Pablo Level(11, Enemy, 1) [13,5] 0x0 0x0 0x0 0x0 [IronBlade] AttackInRangeAI
 UNIT
@@ -131,5 +160,7 @@ REVEAL Adamminn
 LOAD1 0x1 BackupUnits
 CAM1 Zane
 FlashCursor(Zane,60)
-Text(PlaceholderText)
+MUSS Comrades
+Text(AB1NeedsMoreUnitsText)
+MURE 30
 ENDA
