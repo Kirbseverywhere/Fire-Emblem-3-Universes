@@ -121,9 +121,12 @@ TEXTEND
 ENDA
 
 BearReveal:
+CHECK_ALIVE BearBoss
+BEQ 0 0 0xC
 CAM1 BearBoss
 FlashCursor(BearBoss,60)
 Text(PJ2Turn2Bear)
+LABEL 0
 ENDA
 
 // Manual Movement
