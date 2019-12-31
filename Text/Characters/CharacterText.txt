@@ -62,7 +62,7 @@ Kabby[X]
 Stephen[X]
 
 ## AnthonyNameTextID
-Anthony[X]
+Anton[X]
 
 ## MystNameTextID
 Myst[X]
@@ -189,8 +189,8 @@ A shy person. Paranoid about[N]
 being bullied.[X]
 
 ## KabbyDescTextID
-A spy for hire. Sells suspicious things[N]
-on the black market.[X]
+A spy for hire. Sells suspicious[N]
+things on the black market.[X]
 
 ## StephenDescTextID
 A gloryhound fan of himself and puns.[N]
@@ -209,7 +209,8 @@ A confused wanderer. Not sure what[N]
 his purpose in the world is.[X]
 
 ## ElleDescTextID
-THIS TEXT IS A PLACEHOLDER[X]
+The distant leader of the Amber Bears.[N]
+Serves the Council for her own interests.[X]
 
 ## ZaneDescTextID
 A devout follower of ancient[N]
@@ -240,8 +241,8 @@ A reckless man. Often plays with[N]
 fire, without much fear.[X]
 
 ## ReginaldDescTextID
-(OUTDATED) Eccentric, but[N]
-loyal to a fault and self-assured.[X]
+The fierce successor to House Hielvann.[N]
+Eccentric and self-assured.[X]
 
 ## VollsterDescTextID
 A commoner easily excited by magic.[N]
