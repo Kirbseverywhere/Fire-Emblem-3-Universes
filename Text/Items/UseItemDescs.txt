@@ -40,7 +40,7 @@ Swaps Str/Mag[N]
 Swaps Def/Res[X]
 
 ## WhetstoneUseDesc
-Effectiveness x4
+Effectiveness x4[X]
 
 ## AngelRingUseDesc
 Double stat gains[X]
