@@ -42,7 +42,7 @@ UNIT Rebel Brigand Pablo Level(10, Enemy, 1) [0,4] 0x0 0x0 0x0 0x0 [SteelAxe] Br
 UNIT
 
 FinalReinforcements:
-UNIT Rebel Mage Pablo Level(11, Enemy, 1) [0,10] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT Rebel Mage Pablo Level(11, Enemy, 1) [0,10] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
 UNIT Rebel Archer Pablo Level(10, Enemy, 1) [0,11] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
 UNIT
 
