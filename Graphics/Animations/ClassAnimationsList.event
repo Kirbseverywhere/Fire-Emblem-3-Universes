@@ -131,4 +131,11 @@ BYTE 0x9 1
 SHORT ElleMagicAnimID
 SHORT 0 0
 
+#define ClericUnarmedAnimID 0xB1
+
+PUSH
+ORG $8AF4FE
+SHORT ClericUnarmedAnimID
+POP
+
 #include "AnimationInstaller.event"
