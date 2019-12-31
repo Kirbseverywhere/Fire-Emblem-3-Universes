@@ -50,6 +50,9 @@ ORG $88638
 POIN StatScreen
 ORG $88640
 POIN StatScreenPal 
+
+ORG $95DF74
+POIN CaveBGImg CaveBGTSA CaveBGPal
 POP
 
 ALIGN 4
@@ -79,6 +82,18 @@ StatScreen:
 ALIGN 4
 StatScreenPal:
 #incext Png2Dmp "StatScreen.png" --palette-only
+
+ALIGN 4
+CaveBGImg:
+#incbin "CaveBGImg.dmp"
+
+ALIGN 4
+CaveBGTSA:
+#incbin "CaveBGTSA.dmp"
+
+ALIGN 4
+CaveBGPal:
+#incbin "CaveBGPal.dmp"
 
 #include "Tiles/Tiles.event"
 #include "TitleScreen/TitleScreen.event"

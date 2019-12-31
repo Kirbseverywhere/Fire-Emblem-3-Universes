@@ -118,6 +118,7 @@ SETVAL 0xB 0xFFFFFFFF
 TUTORIALTEXTBOXSTART
 TEXTSHOW EscapeWarning
 TEXTEND
+NoFade
 ENDA
 
 BearReveal:
@@ -127,6 +128,7 @@ CAM1 BearBoss
 FlashCursor(BearBoss,60)
 Text(PJ2Turn2Bear)
 LABEL 0
+NoFade
 ENDA
 
 // Manual Movement
