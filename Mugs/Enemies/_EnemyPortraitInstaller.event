@@ -23,6 +23,11 @@ setMugEntry(BRUCKNER_PORTRAIT, BrucknerMug, 3, 5, 3, 3)
 BrucknerMug:
 #incext PortraitFormatter "Bruckner.png"
 
+#define BEAR_PORTRAIT Bear
+setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 4, 0)
+BearMug:
+#incext PortraitFormatter "Bear.png"
+
 #define KAJARN_PORTRAIT 0x4F
 //something at the tail end of RL bosses for now since AB bosses overwrite villagers used elsewhere
 setMugEntry(KAJARN_PORTRAIT, KajarnMug, 3, 5, 3, 3)

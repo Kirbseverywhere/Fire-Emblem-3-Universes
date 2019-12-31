@@ -20,20 +20,20 @@ With My Bear Hands[X]
 Mount Horn[X]
 
 ## RecruitmentTheme
-Battle 1 - Unlimited Saga[X]
+Battle 1: Unlimited Saga[X]
 
 ## VergilBossTheme
 Vergil's Madness[X]
 
 ## BossTheme2
-Courage and Pride - Sword of Mana[X]
+Courage and Pride[X]
 
 ## PJMapTheme2
-Cutting Edge of Notion - Star Ocean[X]
+Cutting Edge of Notion[X]
 
 ## RLMapTheme2
-Hand Combat - Skies of Arcadia[X]
+Hand Combat[X]
 
 ## ABMapTheme2
-Justice - Lunar 2[X]
+Justice[X]
 

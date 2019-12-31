@@ -40,12 +40,12 @@ PaulPreTimeskip:
 #incext PortraitFormatter "Paul_PreTimeskip.png"
 
 #define REGINALD_PRETIMESKIP_PORTRAIT Reginald 
-setMugEntry(REGINALD_PRETIMESKIP_PORTRAIT, ReginaldPreTimeskip, 2, 6, 3, 4) 
+setMugEntry(REGINALD_PRETIMESKIP_PORTRAIT, ReginaldPreTimeskip, 3, 4, 3, 2) 
 ReginaldPreTimeskip:
 #incext PortraitFormatter "Reginald_PreTimeskip.png"
 
 #define VOLLSTER_PRETIMESKIP_PORTRAIT Vollster 
-setMugEntry(VOLLSTER_PRETIMESKIP_PORTRAIT, VollsterPreTimeskip, 2, 6, 2, 4) 
+setMugEntry(VOLLSTER_PRETIMESKIP_PORTRAIT, VollsterPreTimeskip, 2, 6, 3, 4) 
 VollsterPreTimeskip:
 #incext PortraitFormatter "Vollster_PreTimeskip.png"
 
