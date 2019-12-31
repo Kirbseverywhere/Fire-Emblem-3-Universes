@@ -126,7 +126,7 @@ just to die now...[A][X]
 
 ## DianaDeathQuote
 [OpenMidRight][LoadFace][0x19][0x01]
-PLACEHOLDER[A][X]
+Unacceptable...[A][X]
 
 ## ZaneDeathQuote
 [OpenMidRight][LoadFace][0x1A][0x01]
@@ -179,7 +179,7 @@ for Daddy...[A][X]
 ## OccamDeathQuote
 [OpenMidRight][LoadFace][0x24][0x01]
 I died the way I lived...[N]
-godamn worthless...[A][X]
+goddamn worthless...[A][X]
 
 ## BorgasDeathQuote
 [OpenMidLeft][LoadFace][0x40][0x01]

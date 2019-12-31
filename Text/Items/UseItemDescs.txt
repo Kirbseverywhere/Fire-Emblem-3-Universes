@@ -23,37 +23,34 @@ Accuracy +10[X]
 Move +1[X]
 
 ## PursuitRingUseDesc
-Changes doubling threshold to 1 AS.[X]
+1 AS to double[X]
 
 ## KnightRingUseDesc
 Grants Canto+.[X]
 
 ## ArcanaShieldUseDesc
-Damage Taken - 25%[N]
-against Magic.[X]
+-25% magic damage[N]
+received[X]
 
 ## RenewalRingUseDesc
 Grants Renewal.[X]
 
 ## RuneShifterUseDesc
-Swaps Str. and Mag.[X]
+Swaps Str/Mag[N]
+Swaps Def/Res[X]
 
 ## WhetstoneUseDesc
-Changes Effectiveness[NL]
-Multiplier from[NL]
-x3 to x4.[X]
+Effectiveness x4
 
 ## AngelRingUseDesc
-All +1 are +2.[X]
+Double stat gains[X]
 
 ## SailUseDesc
-Allows Anyone[NL]
-to Waterwalk.[X]
+Can walk on water[X]
 
 ## FakeWingsUseDesc
-Allows Anyone[NL]
-to fly.[X]
+Cross all terrain[X]
 
 ## VampiresFangUseDesc
-Recover damage[NL]
-given as HP.[X]
+Absorb enemy HP[N]
+on hit[X]
