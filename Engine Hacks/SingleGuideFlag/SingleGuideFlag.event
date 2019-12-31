@@ -3,17 +3,17 @@
 
 PUSH
 ORG 0xB19E12
-//SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockStrMagSplit GuideReadStrMagSplit
 ORG CURRENTOFFSET+8
-//SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockReasonFaith GuideReadReasonFaith
 ORG CURRENTOFFSET+8
-//SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockSkillSystem GuideReadSkillSystem
 ORG CURRENTOFFSET+8
-SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockAccessories GuideReadAccessories
 ORG CURRENTOFFSET+8
-SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockUnitColor GuideReadUnitColor
 ORG CURRENTOFFSET+8
-SHORT UnlockGuideFlag UnlockGuideFlag
+SHORT GuideUnlockHPBars GuideReadHPBars
 ORG CURRENTOFFSET+8
 SHORT UnlockGuideFlag UnlockGuideFlag
 ORG CURRENTOFFSET+8

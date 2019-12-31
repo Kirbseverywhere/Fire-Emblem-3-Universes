@@ -92,14 +92,14 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-ENUT 0xB4
-ENUT 0xB6
+ENUT GuideUnlockStrMagSplit
+ENUT GuideUnlockReasonFaith
 
-ENUT 0xB8
-ENUT 0xBA
+ENUT GuideUnlockSkillSystem
+ENUT GuideUnlockAccessories
 
-ENUT 0xBC
-ENUT 0xBE
+ENUT GuideUnlockUnitColor
+ENUT GuideUnlockHPBars
 
 MUSC M_TeamMaking
 

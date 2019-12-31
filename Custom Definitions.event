@@ -141,6 +141,19 @@
 // Global Flags
 
 #define UnlockGuideFlag 0xCB
+#define GuideUnlockStrMagSplit 0xCB
+#define GuideReadStrMagSplit 0xCC
+#define GuideUnlockReasonFaith 0xCD
+#define GuideReadReasonFaith 0xCE
+#define GuideUnlockSkillSystem 0xCF
+#define GuideReadSkillSystem 0xD0
+#define GuideUnlockAccessories 0xD1
+#define GuideReadAccessories 0xD2
+#define GuideUnlockUnitColor 0xD3
+#define GuideReadUnitColor 0xD4
+#define GuideUnlockHPBars 0xD5
+#define GuideReadHPBars 0xD6
+
 
 // Red Lobsters
 
@@ -159,3 +172,4 @@
 #define KhrisCapturedFlag 0xCA
 
 // Amber Bears
+
