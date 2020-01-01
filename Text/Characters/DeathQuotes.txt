@@ -213,10 +213,10 @@ ROAR![A][X]
 
 ## DarachDeathQuote
 [OpenMidLeft][LoadFace][0x53][0x01]
-It’s all futile.[A][N]
+It's all futile.[A][N]
 King Arxhat[ToggleMouthMove]...[ToggleMouthMove][A][N]
 His war grows,[N]
-and it won’t stop[ToggleMouthMove]...[ToggleMouthMove][A][X]
+and it won't stop[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## KajarnDeathQuote
 [OpenMidLeft][LoadFace][0x4F][0x01]
@@ -228,10 +228,10 @@ They still...need me...[A][X]
 This isn't right.[A][N]
 How could I[ToggleMouthMove]...[ToggleMouthMove][N]
 have been beaten[ToggleMouthMove]...?[ToggleMouthMove][A]
-[ClearFace][LoadFace][0x6B][0x1] @generic red soldier
+[ClearFace][LoadFace][0x6B][0x1] #generic red soldier
 Rynod's been defeated![N]
 Every man for himself![A][X]
-[X]
+
 
 ## IlyronDeathQuote
 [OpenMidRight][LoadFace][0x62][0x01]
