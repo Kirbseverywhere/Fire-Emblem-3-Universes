@@ -96,7 +96,9 @@ I knew I wasn't cut out[N]
 for this... Heh...[A][X]
 
 ## SmeglindeDeathQuote
-[OpenMidRight][LoadFace][0x13][0x01]SmeglindeDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x13][0x01]
+[CloseEyes]No[ToggleMouthMove]...[ToggleMouthMove][A]
+Not like[ToggleMouthMove]...[ToggleMouthMove] this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## KabbyDeathQuote
 [OpenMidRight][LoadFace][0x14][0x01]
