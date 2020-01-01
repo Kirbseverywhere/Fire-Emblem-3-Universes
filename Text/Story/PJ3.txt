@@ -1,0 +1,704 @@
+## PJ3OpeningNarration
+During the absence of the von[N]
+Siegfrieds, Seraphyn has been[N]
+going through rough times.[A][N]
+Arxhat's intention to declare[N]
+war on the Novingale Empire split[N]
+the Seraphs in twain. With Arxhat's[N]
+dominion over the Seraphyn military,[A][N]
+Vergil's loyalists have been imprisoned[N]
+or executed. The Purple Jaguars head to[N]
+Theronca, a loyalist town recently[N]
+subjugated by Arxhat's forces,[A][N]
+hoping to finally turn the tide[N]
+against Arxhat...[A][X]
+
+
+## PJ3Opening1
+[OpenMidLeft][LoadDarach][OpenMidRight][LoadRedSoldier]
+Commander Darach![A][N]
+Lieutenant Bruckner has gone missing,[A][N]
+and his search party has[N]
+not reported back in two days.[A]
+
+[OpenMidLeft]
+So he's been defeated.[A][N]
+Damn that Vergil![N]
+How are his men so slippery?[A]
+
+[OpenMidRight]
+I don't know, Commander.[A][N]
+We've sent out squad[N]
+after squad after him,[A][N]
+but the Prince still[N]
+manages to evade capture.[A]
+
+[OpenMidLeft]
+Well, it matters not.[A][N]
+Bruckner was gullible, nothing[N]
+more than a deluded minion.[A][N]
+Losing him doesn't change anything[N]
+in the grand scheme of things.[A][N]
+[Beat]In the meantime,[N]
+what are the peasants up to?[A][N]
+Do they still resist King Arxhat's rule?[A]
+
+[OpenMidRight]
+They're still quite adamant about that.[A]
+However, capturing their little resistance[N]
+group certainly helped to shut them up.[A]
+
+[OpenMidLeft][ToggleSmile]
+Theronca still refuses to[N]
+accept Arxhat's new Seraphyn.[A][N]
+How regretful.[A][N]
+They'll soon see,[N]
+those beguiled plebs.[A][ToggleSmile]
+
+[OpenMidRight]
+By the way, Commander.[A][N]
+It seems that the resistance[N]
+believes that Vergil is still alive,[A][N]
+lurking in the nearby forests.[A]
+
+[OpenMidLeft]
+Hmph.[A][N]
+They might have some[N]
+valuable information[Beat][A][N]
+Have you interrogated them yet?[A]
+
+[OpenMidRight]
+No, Commander,[N]
+but why do you ask?[A]
+
+[OpenMidLeft]
+Good. Bring me to them.[A]
+
+[OpenMidRight]
+Yes, sir![A][X]
+
+
+## PJ3Opening2
+[OpenFarLeft][LoadDarach][OpenLeft][LoadRedSoldier]
+
+Here they are, Commander.[A][N]
+It was hard squeezing all[N]
+these dissidents into the cells.[A][N]
+Hell, one of them's from Novingale![A]
+
+[OpenFarLeft]
+Oh? Which one?[A]
+
+[OpenLeft]
+That girl in the[N]
+hunter's garb, right there.[A]
+
+[OpenFarLeft]
+Girl? I don't see-[.......]
+
+[OpenMidRight][LoadLenato]
+Right here, Seraph.[A]
+
+[OpenLeft][ClearFace]
+
+[OpenFarLeft][MoveMidLeft]
+[Beat]Oh, you're the one.[A][N]
+So, you resistance forces are[N]
+sheltering the former Prince Vergil.[A][N]
+Novingale scum.[N]
+You'd better tell me where he is.[A]
+
+[OpenMidRight]
+I can't.[A]
+
+[OpenMidLeft]
+You refuse to reveal his whereabouts?[N]
+You're testing my patience, wench![A]
+
+[OpenMidRight]
+None of us know any better[N]
+than you soldiers do -[A][N]
+After all, Prince Vergil[N]
+is killing them.[A][N]
+Don't bother asking us.[A]
+
+[OpenMidLeft]
+You think you can[N]
+make a fool out of me?[A][N]
+I'll warn you one more time.[A][N]
+Once I'm back, you rebels[N]
+better give me a proper answer.[A][N]
+You won't like what[N]
+will happen if you don't.[A]
+
+[LoadOverworldFaces]
+[OpenMidLeft][ClearFace][OpenMidRight]
+
+[Beat][A][ClearFace]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft][LoadDarach][OpenMidRight][LoadAugustus]
+Hey, you![A][N]
+You're leading these brutes, right?[A][N]
+Let me out of here![A]
+
+[OpenMidLeft]
+What in the- who are you?[A]
+
+[LoadOverworldFaces]
+
+[OpenMidLeft][MoveLeft][OpenFarLeft][LoadRedSoldier]
+That boy?[A][N]
+We found him lurking about the fort[N]
+just the other day and captured him.[A][N]
+Just look at him![A][N]
+That's certainly not[N]
+someone from Seraphyn.[A][N]
+I think he's a spy from Novingale.[A]
+
+[OpenMidRight]
+Novingale?[....] Spy?[....][N]
+You're kidding, aren't you?[A][N]
+I'm just a travelling priest.[N]
+I'm innocent![A]
+
+[OpenFarLeft]
+Make this simple for us, boy.[N]
+Where are you from?[A]
+
+[OpenMidRight]
+That[Beat][N]
+I'm not sure.[A]
+
+[OpenFarLeft]
+[Beat]Are you trying to be funny?[A][N]
+You claim you're a travelling priest,[N]
+but you don't know where you came from?[A][N]
+How do you expect us to[N]
+believe such a bad lie?[A]
+
+[OpenMidRight]
+Well, I can't remember-[A][N][CloseEyes] 
+Sheesh, I'm going back to bed.[N]
+I'm tired of arguing with you savages.[A]
+[OpenEyes][ClearFace]
+
+[OpenFarLeft]
+Tch[Beat] Something's[N]
+off about that boy.[A][N]
+Novingale spy or not,[N]
+he's suspicious enough.[A][N]
+Continue detaining him,[N]
+until he gives up his little act.[A]
+
+[OpenLeft]
+As for the rebels, sir?[A][N]
+What if they do relent and[N]
+give us the information we need?[A]
+
+[OpenFarLeft]
+Kill them anyway![A][N]
+That Novingale wench[N]
+thinks she's so clever -[A][N]
+it'll be a great[N]
+pleasure killing her![A]
+
+[OpenLeft]
+Understood, Commander.[A][N]
+I'll be making arrangements[N]
+for their execution, then.[A][X]
+
+
+## PJ3Opening3
+
+[OpenMidLeft][LoadBelmonte][OpenRight][LoadLenato][OpenFarRight][LoadPurpleSoldier]
+That damned Darach![A][N]
+None of us know anything about[N]
+Prince Vergil's whereabouts![A][N]
+What are we supposed to do?![A]
+
+[OpenMidLeft]
+Even if we did know,[N]
+it's not like he'd spare us.[A]
+
+[OpenRight]
+Belmonte, you know the[N]
+Prince's whereabouts?[A]
+
+[OpenMidLeft]
+Well, I guessed he was in the[N]
+cave systems in the nearby forests.[A][N]
+I wasn't sure if I was correct,[A][N]
+but I still told the boy to[N]
+go check there, since he kept[A][N]
+pressuring me for information.[A]
+
+[OpenFarRight]
+Anton?[A][N]
+It's been nearly a week now.[N]
+He's probably dead.[A]
+
+[OpenRight]
+Or he actually found the Prince.[A]
+
+[OpenMidLeft]
+If that's the case,[N]
+score one for me, then.[A]
+
+[OpenFarRight]
+And what use is that?[N]
+We're going to die, regardless.[A][N]
+Unless a miracle happens[Beat][A][X]
+
+## PJ3Opening4
+[OpenFarLeft][LoadStephen][OpenLeft][LoadKhris][OpenFarRight][LoadVergil][OpenRight][LoadHorus]
+We've arrived at Fort[N]
+Theronca, Lord Vergil.[A][N]
+Seems like the loyalists are[N] 
+still being kept inside.[A][N]
+Stephen, Khris.[A][N]
+Do you have anything[N]
+we should know?[A]
+
+[OpenLeft]
+I know nothing of sorts.[A][N]
+Maybe you should ask someone[N]
+who's familiar with this area[A][N]
+instead of a wanderer like me.[A]
+
+[OpenFarLeft]
+Well, I know that there[N]
+are foes inside the fort![A][N]
+Is that good enough?[A]
+
+[OpenRight]
+[CloseEyes][Beat][A]
+
+[OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidLeft][LoadAnton]
+
+Well, for starters,[N]
+Darach has to be inside.[A][N]
+He'd never pass up the chance[N]
+to terrorise his victims.[A]
+
+[OpenRight][OpenEyes]
+Darach?[A]
+
+[OpenMidLeft]
+Yes, well[Beat][A][N]
+He's the commander in[N]
+charge of Theronca.[A]
+
+[MoveLeft][OpenFarLeft][LoadKhris]
+You seem to be quite[N]
+familiar with him, Anton.[A]
+
+[OpenLeft]
+He's hated by the peasants here.[A][N]
+Following Arxhat's coup,[N]
+he forced the villagers to[A][N]
+levy heavy taxes for a[N]
+large-scale war against Novingale.[A][N]
+If they refuse, they die.[A]
+
+[OpenFarRight]
+How loathsome[Beat][A][N]
+So most of the people here[N]
+should be supporting us?[A]
+
+[OpenLeft]
+Correct. When we've liberated[N]
+Theronca from its oppressors,[A][N]
+I imagine the people will be[N]
+more than happy to aid our cause.[A][N]
+It'll be our first step to[N]
+retaking your birthright.[A]
+
+[OpenFarRight]
+So this is the perfect time[N]
+to show ourselves, then?[A][N]
+I like the sound of that.[A][N]
+Purple Jaguars! Storm the fort![A][X]
+
+## PJ3Opening5
+[OpenMidLeft][LoadDarach][OpenMidRight][LoadRedSoldier]
+Commander Darach![A]
+
+[OpenMidLeft]
+What is it now?[A]
+
+[OpenMidRight]
+It's the Prince![A][N]
+His forces are[N]
+attacking the fortress![A]
+
+[OpenMidLeft]
+Oh? Bahahaha! What fools![A][N]
+Our prey, walking[N]
+right into our jaws?![A][N]
+They must be longing for death![A][N]
+Very well, then![A][N]
+All troops, to formation![A][X]
+
+## PJ3Opening6
+
+[OpenMidLeft][LoadVergil][OpenMidRight][LoadHorus]
+Lord Vergil, it's paramount that[N]
+we free the loyalists quickly.[A][N]
+They might be willing to fight for us,[N]
+and if we had some spare weapons[Beat][A]
+
+[OpenMidLeft]
+Perhaps the armory has some,[A][N]
+or we can simply take[N]
+the weapons off our foes.[A][N]
+But our highest priority currently[N]
+is to ensure the loyalists' safety![A][N]
+Move out, everyone![A][X]
+
+
+## PJ3PostPrepScreenCaptured
+[OpenMidRight][LoadVergil]
+Not all of us managed to[N]
+escape that damned cave,[A][N]
+but they might have been brought[N]
+here for interrogation[Beat][A][X]
+
+## PJ3Turn1NPCPhase
+#Turn 1, NPC Phase:
+
+#*Camera moves to Rebel #1*
+
+#(Show REBEL [MidLeft], Belmonte [MidRight], Lenato [Right])
+
+#Rebel #1: What's with the commotion? The guards are all on high alert...
+
+#Belmonte: Seems like someone's attacking the fortress. Are they trying to rescue us? Heh. It's a valiant effort.
+
+#Lenato: Who could it be, though...? I don't think the others have the manpower to besiege an entire fort.
+
+[X]
+
+## PJ3DarachBossQuoteVergil
+#Darach v. Vergil
+#Darach: What are you doing, Vergil? Have you gone mad?! Do you truly think #your band of rebels can take this fortress?
+
+#Vergil: I would never resort to this, but this is about the villages. You've abused your power long enough, Darach!
+
+#Darach: Abuse? You're a naive one, aren't you? Such a shame. I thought you'd be smarter than Curtis.
+
+[X]
+
+## PJ3DarachBossQuoteLenato
+
+[X]
+
+## PJ3DarachBossQuoteAgustus
+
+[X]
+
+## PJ3DarachBossQuoteAnton
+
+[X]
+
+## PJ3Ending1
+#*Screen fades to black. Vergil and Horus are seen in the throne room, with Darach beside the throne*
+
+#(Show VERGIL [MidLeft] and Darach [MidRight]
+
+#Darach: [eyes half-closed] Guh... 
+
+#Vergil: Commander Darach. Do you truly believe that you fight for a better Seraphyn?
+
+#Darach: What kind of question... is that? ‘Course I do. Arxhat is the King we need...
+
+#(Show HORUS [FarLeft])
+
+#Horus: The King that Seraphyn needs? What good king would justify abusing his own subjects?!
+
+#Vergil: Horus, peace! I need more answers out of him.
+
+#Darach: Kid, you don't get it, do you...? None of you do... Novingale's aggression grows with every passing day. And what does your father do, Vergil? He refused to stand up... to their insult.
+
+#Vergil: He didn't want to force a meaningless war. Doesn't Arxhat intend on razing Novingale to the ground?
+
+#Darach: ...He does. But he's not a madman... Heh. There are many others who support him. [closes eyes] You just won't understand. You're too sheltered to... ...
+
+#(Clear DARACH and his body)
+
+#Vergil: ...he's dead.
+
+#Horus: [eyes closed] And we still have so many questions... 
+
+#Vergil: ...Arxhat, just what do you want? My parents, Orion, and the people... how many more have to die to see your vision through?
+
+#Horus: At this rate, who knows anymore?
+
+#Xenith (offscreen): Lord Vergil!
+
+#(Horus moves to [FarRight], Vergil moves to [MidRight]. Xenith runs on-screen to [MidLeft])
+
+#Horus: Xenith. What are you doing here?
+
+#Xenith: It appears the villagers want to see your face? They're quite restless.
+
+#Horus: Milord?
+
+#Vergil: ...I see. Well, I can't blame them. It's been two months since that awful incident - they must be sick of staring at Arxhat's ugly mug.
+
+#Xenith: Rightfully so... [closes eyes] I lose my appetite even thinking about him in regal garb.
+
+#(Vergil, Horus, Xenith leave off-screen, and screen turns black.)
+
+[X]
+
+
+## PJ3Ending2
+#*Scene changes to outside Fort Theronca. Vergil leaves the fortress to see an audience of civilians.*
+
+#(Show CIVILIAN #1 [MidLeft], CIVILIAN #2 [FarLeft], VERGIL [MidRight])
+
+#Civilian #1 [money man]: He's here! The rightful prince, he's come to save us!
+
+#Civilian #2 [old lady]: It's a miracle! Arxhat's goons attack our town, and Prince Vergil sends them running back to the capital?
+
+#Vergil: Well, I...
+
+#(Show HORUS [FarRight])
+
+#Horus: Don't get your tongue tied up, milord. [smiles] It's your time to shine.
+
+#Vergil: Yes, of course. [.] My people, we have all suffered under Arxhat's reign - a reign built from our corpses. Arxhat claims to be leading Seraphyn to a new era, but the path he wishes to take will only drive us to ruin! He knew that we true Seraphs would oppose him, so he hired assassins to kill my parents, and from there, sneaked his way into our Sacred Throne! Fellow Seraphs! Together, we can put an end to Arxhat's lunacy!
+
+#Civilian #2: Uh, well, ‘together'? What can we villagers do? We're just a buncha rebels.
+
+#(STEPHEN appears [FarRight], replacing HORUS)
+
+#Stephen: Fate has finally shifted in favour of the loyalists! In this war, we are no longer rebels! We are heroes of Seraphyn!
+
+#Civilian #1: Hey, I remember your face... aren't you from that dishonored house? Redharr, I think? What's a traitor doing here?
+
+#(XENITH replaces STEPHEN.)
+
+#Xenith: For now, it matters not. We may come from different realms, or from different classes, but we are all united by our desire to free Seraphyn from Arxhat's clutches.
+
+#Vergil: Indeed. The Purple Jaguars have proven their loyalty to the cause, and I know I can trust them. We might not have the equipment of the Seraph knights. However, we have one thing Arxhat lacks: the support of the masses. I know there are many other towns disgruntled by Arxhat's tyranny. My people, if we combine all our forces, we can form an army Arxhat will fear!
+
+[X]
+
+
+## PJ3Ending3BelmonteSaved
+#[BRANCH: ONLY IF BELMONTE AND REBEL #1 WERE SAVED]
+
+#(Belmonte replaces Civilian #1)
+
+#Belmonte: Well spoken, Lord Vergil! Long live the resistance!
+
+#Civilian #2: Yeah, what he said! Down with Arxhat!
+
+[X]
+
+
+## PJ3Ending3BelmonteNotSaved
+#[BRANCH: ONLY IF BELMONTE AND REBEL #1 WERE NOT SAVED]
+
+#(Civilian #3 [old dude] replaces Civilian #1)
+
+#Civilian #3: Well said, Your Highness! Long live the resistance! Down with Arxhat!
+
+[X]
+
+
+## PJ3Ending4BelmonteNotSaved
+
+#*Screen fades to black. Vergil and the PJs are shown inside the fortress.*
+
+#[IF BELMONTE AND REBEL #1 WERE NOT SAVED]
+
+#Lenato: ...Commander...
+
+#Vergil: We're sorry for what happened to Belmonte. If only we got to the cells faster...
+
+#Lenato: No, it's okay. He died believing in your cause, prince. A few lives lost to save many more... it's not a bad exchange.
+
+#Vergil: Still, had we been able to rescue him, the resistance would be strengthened.
+
+#Lenato: The Seraphs' dream won't die so easily, prince.
+
+[X]
+
+
+## PJ3TalkAugustusRecruitKhris
+[OpenMidRight][LoadAugustus][OpenMidLeft][LoadKhris]
+Is someone here?[N]
+You're free now![A]
+
+[OpenMidRight]
+[Beat]Huh?[A][ToggleSmile][N]
+Aren't you the heroic type?[N]
+Thank you for rescuing me![A][N]
+Finally, I'm free[N]
+from this wretched place.[A][N]
+My name is Augustus or you[N]
+can call me Gus for short.[A][N]
+I know my way with magic but[N]
+I can repay you back someday.[A]
+
+[OpenMidLeft]
+I-I'm not that heroic[Beat][A][N]
+But thank you anyway.[A][N]
+Make sure to grab[N]
+anything for self-defense![A][ClearFace]
+
+[OpenMidRight][ToggleSmile]
+Now that I'm free,[A][N]
+I'd like to give them[N]
+a piece of my mind later.[A][X]
+
+## PJ3TalkAgustusRecruit
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadAugustus]
+[Beat]Huh?[A][ToggleSmile][N]
+Aren't you the heroic type?[N]
+Thank you for rescuing me![A][N]
+Finally, I'm free[N]
+from this wretched place.[A][N]
+My name is Augustus or you[N]
+can call me Gus for short.[A][N]
+I can aid you guys with healing[N]
+magic as repayment for rescuing me.[A][X]
+
+## PJ3TalkLenatoRecruitVergil
+[OpenMidLeft][LoadVergil][OpenMidRight][LoadLenato]
+Aren't you the missing Prince Vergil?[A]
+
+[OpenMidLeft]
+That I am.[A][N]
+I'm here to liberate Theronca.[A]
+
+[OpenMidRight]
+Today must be our lucky day, then![A][N]
+If you came any later,[N]
+we'd probably be dead by then.[A][N]
+Many thanks, Prince Vergil.[A]
+
+[OpenMidLeft]
+It's no problem.[A][N]
+You must be tired -[A][N]
+leave the fighting to[N]
+me and my men, um[Beat][A]
+
+[OpenMidRight]
+Lenato.[A][N]
+And please, let me fight with you.[A][N]
+My weapons were confiscated[N]
+when we were imprisoned,[A][N]
+but they should be stored[N]
+somewhere within the fort.[A][N]
+I'll help your cause[N]
+out any way I can.[A][X]
+
+## PJ3TalkLenatoRecruit
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadLenato]
+So you're the group rescuing us?[N]
+Today must be our lucky day.[A][N]
+Call me Lenato.[A][N]
+If you want, I'll help you[N]
+out with these soldiers.[A][N]
+My weapons were confiscated[N]
+when we were imprisoned,[A][N]
+but they should be stored[N]
+somewhere within the fort.[A][X]
+
+## PJ3TalkRebel1Rescued
+#Rebel #1 Rescued:
+
+#Rebel #1: We're saved! And by the prince's men, no less? Thank you so much! I can't fight right now, but I won't forget what you did for us!
+
+[X]
+
+## PJ3Rebel1DeathQuote
+#Rebel #1 Death:
+
+#Rebel #1: Gah! Long live... the rightful Prince…
+
+[X]
+
+## PJ3TalkBelmonteVergil
+#Vergil and Belmonte (Belmonte Rescued):
+
+#Belmonte: Prince Vergil, it's an honor to meet you.
+
+#Vergil: And you are?
+
+#Belmonte: Belmonte. I lead the resistance forces here in Theronca. For two months we've been fighting against Arxhat's outrageous demands, but... heh, we got captured.
+
+#Vergil: No worries about that. You're in no condition to fight right now. Please, escape while you can. It should be safe outside.
+
+#Belmonte: How thoughtful of you, milord. I'll repay you one day, Your Highness!
+
+[X]
+
+## PJ3TalkBelmonteAnton
+#Anton and Belmonte:
+
+#Belmonte: Well, well, well. It's good to see you again, Anton.
+
+#Anton: Commander Belmonte! Your directions were correct - I managed to find Prince Vergil!
+
+#Belmonte: The Prince, you say? Guess I'm a prophet, then. If you would, please let me speak to him.
+
+[X]
+
+## PJ3BelmonteDeathQuote
+#Belmonte Death:
+
+#Belmonte: M-my death changes nothing... Vergil will retake the throne from Arxhat's claws...
+
+[X]
+
+## PJ3TalkVergilHorus
+#Vergil and Horus
+
+#Vergil: [eyes closed] ...
+
+#Horus: Milord Vergil. Are you still thinking about Arxhat's war?
+
+#Vergil: Not necessarily... it's more about the villagers. Why does Arxhat condone such cruelty to his people? A war against Novingale would destroy both countries, and he knows that.
+
+#Horus: He's just bad at governing, I guess.
+
+#WIP OOF
+
+[X]
+
+## PJ3TalkHorusStephen
+#Horus and Stephen
+#Horus: Anton gave us valuable information about Darach's forces... do you seriously have nothing for us?
+
+#Stephen: I, uh... they say he's like a tree trunk? Look, I don't know what you were expecting? I was only hired by that white haired buffoon and his band, not the whole damned army.
+
+##Horus: Still, as a former noble...
+
+#Stephen: You're Vinny's tactician, and you've forgotten already? The Redharrs were denounced long ago - I know nothing about Seraphyn's inner workings!
+
+#Horus: I see. ...Wait, you call Lord Vergil "Vinny"?
+
+#Stephen: It's his hip new nickname, like you being called "Horseface"!
+
+#Horus: ...Who called me that?!
+
+#Stephen: Oh uh, it definitely was somebody that wasn't me! Probably that Glacone person, or his cadre? I, uh, gotta go!
+
+[X]
+
+## PJ3TalkDaffMyst
+#Daff and Myst
+
+#Daff: Myst! Stop running from me everytime I try to help you!
+
+#myst: damn woman, do you think i care
+
+[X]
+
+

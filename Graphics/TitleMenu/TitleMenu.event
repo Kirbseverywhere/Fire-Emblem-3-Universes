@@ -26,6 +26,10 @@ POIN NewSaveMenu
 ORG $AA43C
 POIN NewSaveMenu
 
+//difficulty select image compressed at pointers to 0x8A28A0C
+//difficulty select active palettes at 8A29518, 8A29498, 8A294D8
+//difficutly select inactive palettes at 8A29518, 8A294B8, 8A294F8
+
 POP
 
 ALIGN 4
