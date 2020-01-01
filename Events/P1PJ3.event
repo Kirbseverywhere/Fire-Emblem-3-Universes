@@ -70,10 +70,10 @@ UNIT 128 Soldier 0 Level(0,Enemy,0) [12,12] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 OpeningCutscenePrisoners:
-UNIT 129 Horseman_F 0 Level(0,NPC,0) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Lenato Horseman_F 0 Level(0,NPC,0) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI //Lenato
 UNIT 129 Soldier 0 Level(0,NPC,0) [16,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT 129 Soldier 0 Level(0,NPC,0) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Augustus Priest 0 Level(0,NPC,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Augustus Priest 0 Level(0,NPC,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI //Augustus, note wonky colours
 UNIT
 
 
@@ -129,6 +129,9 @@ TEXTEND
 MOVE 0 Darach [10,5]
 MOVE 0 128 [10,5]
 ENUN
+
+TEXTCONT
+TEXTEND
 
 FADI 10
 DISA Darach
