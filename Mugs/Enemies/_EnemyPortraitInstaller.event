@@ -11,7 +11,12 @@ AlvaMug:
 #define WYVERN_PORTRAIT WyvernBoss
 setMugEntry(WYVERN_PORTRAIT, WyvernMug, 1, 7, 4, 3)
 WyvernMug:
-#incext PortraitFOrmatter "Wyvern.png"
+#incext PortraitFormatter "Wyvern.png"
+
+#define AUREA_PORTRAIT 0x45
+setMugEntry(AUREA_PORTRAIT, AureaMug, 3, 5, 3, 3)
+AureaMug:
+#incext PortraitFormatter "Aurea.png"
 
 #define YANNDAHL_PORTRAIT Yanndahl
 setMugEntry(YANNDAHL_PORTRAIT, YanndahlMug, 3, 5, 3, 3) 
@@ -33,6 +38,11 @@ BearMug:
 setMugEntry(KAJARN_PORTRAIT, KajarnMug, 3, 5, 3, 3)
 KajarnMug:
 #incext PortraitFormatter "Kajarn.png"
+
+#define ORION_PORTRAIT 0xFE
+setMugEntry(ORION_PORTRAIT, OrionMug, 3, 5, 3, 3)
+OrionMug:
+#incext PortraitFormatter "Orion.png"
 
 #define PLACEHOLDER_PORTRAIT 0xFF
 setMugEntry(PLACEHOLDER_PORTRAIT, PlaceholderMug, 2, 5, 0, 0)

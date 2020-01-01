@@ -35,7 +35,7 @@ UnitCustomizerEntry(Anthony, Bows, Lances, Axes, Archer, IronBow, Vulnerary, Lan
 UnitCustomizerEntry(Leo, Swords, Bows, Reason, Myrmidon, IronSword, Vulnerary, BowKnight, IronBow, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, KhrisUnitCustomizerDesc)
 
 // AMBER BEARS
-UnitCustomizerEntry(Zane, Lances, Axes, Faith, Priest, Heal, Caduceus, Mage, Fire, Caduceus, AxeArmor, IronAxe, Vulnerary, Pirate, SteelAxe, Vulnerary, ZaneUnitCustomizerDesc)
+UnitCustomizerEntry(Zane, Faith, Reason, Axes, Monk, Lightning, Caduceus, Mage, Fire, Caduceus, AxeArmor, IronAxe, Vulnerary, Pirate, SteelAxe, Vulnerary, ZaneUnitCustomizerDesc)
 UnitCustomizerEntry(Adamminn, Lances, Axes, Faith, Brigand, IronAxe, AegisShield, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, SwordKnight, IronSword, Vulnerary, AdamminnUnitCustomizerDesc)
 UnitCustomizerEntry(Reginald, Axes, Lances, Reason, AxeKnight, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, Fighter, IronAxe, Vulnerary, ReginaldUnitCustomizerDesc)
 UnitCustomizerEntry(Lazul, Swords, Lances, Faith, Thief_F, IronSword, Lockpick, Cleric, Heal, Vulnerary, Myrmidon_F, IronSword, Vulnerary, PegasusKnight, IronLance, Vulnerary, LazulUnitCustomizerDesc)
@@ -160,7 +160,7 @@ BYTE 0
 
 ALIGN 4
 ReginaldUnitCustomizerDesc:
-String("Reginald")
+String("Reginald Hielvann")
 BYTE 0
 
 ALIGN 4
