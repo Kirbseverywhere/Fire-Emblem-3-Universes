@@ -40,3 +40,8 @@ Ddg[X]
  
 ## SS_AvoText
 Avo[X]
+
+## DodgeRText
+Ability to prevent enemy critical blows.[N]
+Affects enemy's crit %.[X]
+
