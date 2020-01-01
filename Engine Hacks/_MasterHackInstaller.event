@@ -229,6 +229,9 @@ POP
   #include "FastLevelUps/FastLevelUps.event"
   
   ALIGN 4
+  #include "ASMC/ASMC.event"
+  
+  ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 

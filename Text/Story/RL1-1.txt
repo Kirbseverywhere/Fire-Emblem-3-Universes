@@ -228,9 +228,21 @@ We'll fight with ya in spirit![A][X]
 Here to save us from Evil, heh?[A][N]
 How 'bout I polish up your weapons?[A][N]
 They're looking pretty rusty,[N]
-if you ask me![A][N]
+if you ask me![A][X]
+
+## RL1ForgeHouseYesNo
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
 200 Gold and I'll give them[N]
 a new life![Yes][X]
+
+## RL1ForgeHouseNoWeapon
+[MidRight][LoadCurrent]
+[MidLeft][LoadFace][0x5B][0x01]
+Hm? You don't have[N]
+anything I can forge![A][N]
+Come back when you[N]
+have a weapon![A][X]
 
 ## RL1ForgeHouseYesEnoughMoney
 [MidRight][LoadCurrent]

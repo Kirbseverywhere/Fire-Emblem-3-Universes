@@ -300,6 +300,11 @@ It might not be a bad idea to[N]
 stick around. Let's see where[AN]
 this will take me.[A][X]
 
+## RL3EmptyHouse
+[OpenMidRight][LoadFace][0xFF][0xFF]
+Hm? There doesn't[N]
+seem to be anyone here.[A][X]
+
 ## RL3Ending
 [ML][LoadRodin][MR][LoadFace][0x70][0x01]
 [MR]#Soldier (R):

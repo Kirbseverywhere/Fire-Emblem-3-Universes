@@ -34,6 +34,8 @@ ThraciaEscapeProcessor: //gets passed a char ID and a flag ID in the event queue
 SDEQUEUE 2
 CHECK_DEPLOYED (-3) //uses value in s2
 BEQ 776 0 0xC //go back if unit is not deployed
+CHECK_ALIVE (-3) //uses value in s2
+BEQ 776 0 0xC //go back if unit died this chapter
 REMU (-3) //otherwise, they got captured
 SDEQUEUE 2 //get global flag to set
 ENUT_SLOT2 //set flag

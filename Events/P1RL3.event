@@ -138,5 +138,5 @@ NoFade
 ENDA
 
 EmptyHouse:
-Text(PlaceholderText)
+Text(RL3EmptyHouse)
 ENDA

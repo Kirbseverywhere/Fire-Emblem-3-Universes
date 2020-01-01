@@ -96,7 +96,9 @@ I knew I wasn't cut out[N]
 for this... Heh...[A][X]
 
 ## SmeglindeDeathQuote
-[OpenMidRight][LoadFace][0x13][0x01]SmeglindeDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x13][0x01]
+[CloseEyes]No[ToggleMouthMove]...[ToggleMouthMove][A]
+Not like[ToggleMouthMove]...[ToggleMouthMove] this[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## KabbyDeathQuote
 [OpenMidRight][LoadFace][0x14][0x01]
@@ -196,30 +198,44 @@ What do you think you're doing?![A][X]
 Khhh... grrrrr... rrrh.[A][X]
 
 ## YanndahlDeathQuote
-[OpenMidRight][LoadFace][0x50][0x01]
+[OpenMidLeft][LoadFace][0x50][0x01]
 Gah! That hurts like hell...![N]
 Boys, we're getting out of here![A][X]
 
 ## BrucknerDeathQuote
-[OpenMidRight][LoadFace][0x51][0x01]
+[OpenMidLeft][LoadFace][0x51][0x01]
 Arxhat... Vergil... Will[N]
 someone save Seraphyn?[A][X]
 
 ## BearBossDeathQuote
-[OpenMidRight][LoadFace][0x52][0x01]
+[OpenMidLeft][LoadFace][0x52][0x01]
 ROAR![A][X]
 
 ## DarachDeathQuote
-[OpenMidRight][LoadFace][0x53][0x01]This can't be! How are you... this strong?[A][X]
+[OpenMidLeft][LoadFace][0x53][0x01]
+It's all futile.[A][N]
+King Arxhat[ToggleMouthMove]...[ToggleMouthMove][A][N]
+His war grows,[N]
+and it won't stop[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ## KajarnDeathQuote
-[OpenMidRight][LoadFace][0x4F][0x01]
+[OpenMidLeft][LoadFace][0x4F][0x01]
 No, I...I can't leave them now.[N]
 They still...need me...[A][X]
 
 ## RynodDeathQuote
-[OpenMidRight][LoadFace][0x61][0x01]How could I lose to you lot...?[A][X]
+[OpenMidLeft][LoadFace][0x61][0x01]
+This isn't right.[A][N]
+How could I[ToggleMouthMove]...[ToggleMouthMove][N]
+have been beaten[ToggleMouthMove]...?[ToggleMouthMove][A]
+[ClearFace][LoadFace][0x6B][0x1] #generic red soldier
+Rynod's been defeated![N]
+Every man for himself![A][X]
 
 ## IlyronDeathQuote
-[OpenMidRight][LoadFace][0x62][0x01]Urgh... I didn't get paid enough for this...[A][X]
+[OpenMidRight][LoadFace][0x62][0x01]
+What[ToggleMouthMove]...?[ToggleMouthMove][A][N]
+To be defeated[N]
+by mere rats, I[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
 

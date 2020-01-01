@@ -184,24 +184,33 @@ ENDA
 HouseEvent:
 SetBackground(0)
 Text(RL1ForgeHouse)
-REMA
-SVAL 7 1
-BNE 1 0xC 7
-	// Yes
-	CHECK_MONEY
-	SVAL 7 200
-	BLT 2 0xC 7
-		Text(RL1ForgeHouseYesEnoughMoney)
-		ASMC ForgeActiveUnitEquippedWeaponASMC
-		SVAL 0x3 200
-		GIVETOSLOT3 // Take 200 Gold
+EVBIT_MODIFY 4
+ASMC CheckEquippedWeaponASMC
+BEQ 6 0 0xC 
+	Text(RL1ForgeHouseYesNo)
+	EVBIT_MODIFY 0
+	REMA
+	SVAL 7 1
+	BNE 1 0xC 7
+		// Yes
+		CHECK_MONEY
+		SVAL 7 200
+		BLT 2 0xC 7
+			Text(RL1ForgeHouseYesEnoughMoney)
+			ASMC ForgeActiveUnitEquippedWeaponASMC
+			SVAL 0x3 200
+			GIVETOSLOT3 // Take 200 Gold
+			GOTO 5
+		LABEL 2
+			Text(RL1ForgeHouseYesNotEnoughMoney)
+			GOTO 5
+	LABEL 1
+		// No
+		Text(RL1ForgeHouseNo)
 		GOTO 5
-	LABEL 2
-		Text(RL1ForgeHouseYesNotEnoughMoney)
-		GOTO 5
-LABEL 1
-	// No
-	Text(RL1ForgeHouseNo)
+LABEL 6
+	EVBIT_MODIFY 0
+	Text(RL1ForgeHouseNoWeapon)
 LABEL 5 // End
 ClearBackground
 NoFade
