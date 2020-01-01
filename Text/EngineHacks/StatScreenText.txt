@@ -40,3 +40,7 @@ Ddg[X]
  
 ## SS_AvoText
 Avo[X]
+
+## DodgeRText
+DodgeRText[X]
+
