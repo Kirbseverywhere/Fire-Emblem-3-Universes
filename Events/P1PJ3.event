@@ -58,30 +58,147 @@ WORD $00
 TrapData:
 END_MAIN
 
-ALIGN 4
 
+OpeningCutsceneDarach:
+UNIT 128 AxeArmor 0 Level(0,Enemy,0) [15,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier 0 Level(0,Enemy,0) [17,6] 0x0 0x0 0x1 REDA15R3 NoItems NoAI
+UNIT
+
+OpeningCutsceneDarach2:
+UNIT Darach AxeArmor 0 Level(0,Enemy,0) [13,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier 0 Level(0,Enemy,0) [12,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningCutscenePrisoners:
+UNIT 129 Horseman_F 0 Level(0,NPC,0) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [16,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Augustus Priest 0 Level(0,NPC,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+
+ALIGN 4
 BeginningScene:
-LOAD2 0x1 Units
+
+SetBackground(Black)
+SETVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+MUSC The_Beginning
+TEXTSHOW PJ3OpeningNarration
+TEXTEND
+
+FADI 10
+MUSC 0x2C
+CAM1 [15,1]
+EndConvo
+LOAD1 0x1 OpeningCutsceneDarach
+ENUN
+
+CUMO [15,1]
+STAL 40
+CURE
+
+Text(PJ3Opening1)
+
+FADI 10
+CAM1 [13,12]
+CLEE 0
+LOAD1 0x1 OpeningCutsceneDarach2
+ENUN
+LOAD1 0x1 OpeningCutscenePrisoners
+ENUN
+FADU 10
+
+TEXTSTART
+TEXTSHOW PJ3Opening2
+TEXTEND
+
+MOVE 0 Darach [13,10]
+ENUN
+MOVE 0 Augustus [13,14]
+ENUN
+
+TEXTCONT
+TEXTEND
+
+MOVE 0 128 [12,10]
+
+TEXTCONT
+TEXTEND
+
+MOVE 0 Darach [10,5]
+MOVE 0 128 [10,5]
+ENUN
+
+FADI 10
+DISA Darach
+DISA Augustus
+CLEE 0
+CLEN 0
+SetBackground($17)
+FADU 10
+Text(PJ3Opening3)
+FADI 10
+SetBackground($15)
+FADU 10
+Text(PJ3Opening4)
+FADI 10
 LOAD1 0x1 Prisoners
+ENUN
 LOAD1 0x1 Bad
+ENUN
+CAM1 [3,12]
+MUSC Tension
+EndConvo
+LOAD2 0x1 Units
+ENUN
+CAM1 [15,1]
+ENUN
+CUMO Darach
+STAL 40
+CURE
+Text(PJ3Opening5)
+
+CAM1 Horus
+ENUN
+Text(PJ3Opening6)
+
 CALL $591FD8 //GotoPrepScreen but without the forced ENDA
 CALL ReloadInCapturedUnits
+NoFade
 ENDA
 
 EndingScene:
 Text(EndOfDemo)
-MNCH 20
+MNC2 20
+NoFade
 ENDA
 
 // Events
 AugustusGet:
-//Text(PlaceholderText)
+CHECK_ACTIVE
+SVAL 1 Khris
+BNE 1 1 0xC
+	Text(PJ3TalkAugustusRecruitKhris)
+GOTO 2
+LABEL 1
+	Text(PJ3TalkAgustusRecruit)
+LABEL 2
 TurnAlly(Augustus)
+NoFade
 ENDA
 
 LenatoGet:
-//Text(PlaceholderText)
+CHECK_ACTIVE
+SVAL 1 Vergil
+BNE 1 1 0xC
+	Text(PJ3TalkLenatoRecruitVergil)
+GOTO 2
+LABEL 1
+	Text(PJ3TalkLenatoRecruit)
+LABEL 2
 TurnAlly(Lenato)
+NoFade
 ENDA
 
 // Manual Movement
@@ -217,7 +334,7 @@ LABEL 11
 
 CHECK_EVENTID 0x28
 BEQ 12 0 0xC
-	Text(PlaceholderText) //Text for if there are any captured units reappearing
+	Text(PJ3PostPrepScreenCaptured) //Text for if there are any captured units reappearing
 	ENUF 0x28 //reset this flag for reuse
 LABEL 12
 NoFade

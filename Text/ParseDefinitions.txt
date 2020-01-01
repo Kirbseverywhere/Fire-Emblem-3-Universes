@@ -125,3 +125,10 @@
 
 [LoadPlaceholder] = [LoadFace][0xFF][0x01]
 [ResumeEvent] = [LoadOverworldFaces]
+[LoadRedSoldier] = [LoadFace][0x6B][0x1]
+[LoadBlueSoldier] = [LoadFace][0x6A][0x1]
+[LoadGreenSoldier] = [LoadFace][0x6F][0x1]
+[LoadPurpleSoldier] = [LoadFace][0x70][0x1]
+[LoadWhiteSoldier] = [LoadFace][0x71][0x1]
+[LoadBelmonte] = [LoadPlaceholder]
+
