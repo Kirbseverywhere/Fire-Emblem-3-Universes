@@ -42,5 +42,6 @@ Ddg[X]
 Avo[X]
 
 ## DodgeRText
-DodgeRText[X]
+Ability to prevent enemy critical blows.[N]
+Affects enemy's crit %.[X]
 
