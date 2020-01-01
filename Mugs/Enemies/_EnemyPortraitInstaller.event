@@ -24,7 +24,7 @@ BrucknerMug:
 #incext PortraitFormatter "Bruckner.png"
 
 #define BEAR_PORTRAIT BearBoss
-setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 4, 0)
+setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 5, 0)
 BearMug:
 #incext PortraitFormatter "Bear.png"
 
