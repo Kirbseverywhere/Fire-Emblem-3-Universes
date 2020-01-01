@@ -384,7 +384,7 @@ What is it, Daff?[A]
 Who's that coming[N]
 to us? Is that...[A]
 
-[ML][LoadPlaceholder]#random number, no Orion portrait
+[ML][LoadOrion]
 #while I'm at it: I need NPC portrait space and I need to not clobber vanilla villagers
 #Orion:
 You... what are you[N]
@@ -394,7 +394,7 @@ doing here?![A][X]
 #*camera moves up to Runa and Orion.*
 
 [MidLeft][LoadPlaceholder]#some random portrait, placeholder Runa
-[MR][LoadPlaceholder]#random number, no Orion portrait
+[MR][LoadOrion]
 [ML]
 #Runa:
 And that's that. The Tyrant[N]
@@ -423,7 +423,7 @@ THEY WILL BE AVENGED![A]
 
 ## PJ1EndingRunaOrion2
 [MidLeft][LoadPlaceholder]#some random portrait, placeholder Runa
-[MR][LoadPlaceholder]#random number, no Orion portrait
+[MR][LoadOrion]
 
 [MR]
 #Orion:
