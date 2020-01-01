@@ -116,8 +116,8 @@ UNIT 0x85 AxeArmor Darach Level(13, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [SteelAx
 UNIT
 
 Prisoners:
-UNIT Augustus Priest 0x00 Level(12, NPC, 0) [14,15] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] GuardTileAI
-UNIT Lenato Horseman_F 0x00 Level(1, NPC, 0) [16,15] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] GuardTileAI
+UNIT Augustus Priest 0x00 Level(12, NPC, 0) [14,15] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] [6,3,0,0]
+UNIT Lenato Horseman_F 0x00 Level(1, NPC, 0) [16,15] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] [6,3,0,0]
 UNIT
 
 
