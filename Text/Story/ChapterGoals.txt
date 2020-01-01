@@ -28,7 +28,8 @@ Defeat Count Alva,[N]
 corrupt nobleman[X]
 
 ## P1RL3Goal
-Defeat wild wyvern[X]
+Tame the wyvern[N]
+by defeating it[X]
 
 ## P1PJ1Goal
 Survive Yanndahl's[N]
@@ -38,6 +39,10 @@ murder attempt[X]
 Escape the foul[N]
 cave Vergil's in[X]
 
+## P1PJ3Goal
+Break out prisoners[N]
+and seize throne[X]
+
 ## P1AB1Goal
 Put down the revolt[N]
 by killing Kajarn[X]
@@ -45,3 +50,7 @@ by killing Kajarn[X]
 ## P1AB2Goal
 Defeat Rynod, the[N]
 bandit leader[X]
+
+## P1AB3Goal
+Run away from your[N]
+foes and get out[X]

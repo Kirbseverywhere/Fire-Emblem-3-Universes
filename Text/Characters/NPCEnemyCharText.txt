@@ -39,6 +39,12 @@ Bear[X]
 A wild bear roaming the cave Vergil[N]
 is trapped in. Will attack anything.[X]
 
+## DarachName
+Darach[X]
+
+## DarachDesc
+Captain of Fort Theronca.[X]
+
 ## KajarnName
 Kajarn[X]
 
@@ -52,6 +58,12 @@ Rynod[X]
 ## RynodDesc
 Leader of a gang of bandits in[N]
 Hervusa's north. Blunt and harsh.[X]
+
+## IlryonName
+Ilryon[X]
+
+## IlryonDesc
+A soldier of Hervusa.[X]
 
 ## RL2HostageName
 Hostage[X]
