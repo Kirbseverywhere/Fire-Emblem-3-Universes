@@ -68,7 +68,7 @@ N-no... Please...[N]
 Not now...[A][X]
 
 ## VergilDeathQuote
-[OpenMidRight][LoadFace][0x0D][0x01]VergilDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x0D][0x01]I can't die just yet, not until I-[A][X]
 
 ## XenithDeathQuote
 [OpenMidRight][LoadFace][0x0E][0x01]
@@ -83,7 +83,7 @@ finally... see you... again...
 [A][X]
 
 ## HorusDeathQuote
-[OpenMidRight][LoadFace][0x10][0x01]HorusDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x10][0x01]Guess my luck has...ran out...[A][X]
 
 ## GlacDeathQuote
 [OpenMidRight][LoadFace][0x11][0x01]
@@ -210,7 +210,7 @@ someone save Seraphyn?[A][X]
 ROAR![A][X]
 
 ## DarachDeathQuote
-[OpenMidRight][LoadFace][0x53][0x01]DarachDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x53][0x01]This can't be! How are you... this strong?[A][X]
 
 ## KajarnDeathQuote
 [OpenMidRight][LoadFace][0x4F][0x01]
@@ -218,8 +218,8 @@ No, I...I can't leave them now.[N]
 They still...need me...[A][X]
 
 ## RynodDeathQuote
-[OpenMidRight][LoadFace][0x61][0x01]RynodDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x61][0x01]How could I lose to you lot...?[A][X]
 
 ## IlyronDeathQuote
-[OpenMidRight][LoadFace][0x62][0x01]IlyronDeathQuote[A][X]
+[OpenMidRight][LoadFace][0x62][0x01]Urgh... I didn't get paid enough for this...[A][X]
 
