@@ -8,6 +8,7 @@
 .equ FlierMoveCostTable, FakeWingsID+4
 @r0=movement cost table. Function originally at 1A4CC, now jumped to here (jumpToHack)
 push  {r4-r7,r14}
+sub sp, #4
 mov   r4,r0
 mov r7, r2
 ldr   r0,AccessoryEffectTester
@@ -35,7 +36,8 @@ mov r0, r7
 NoDZ2:
 ldr   r1,AcrobatID
 .short  0xF800
-mov r8, r0
+mov r1, sp
+str r0, [r1]
 mov   r6,#0x0       @counter
 ldr   r5,MoveCostLoc
 Loop1:
@@ -43,7 +45,8 @@ Loop1:
 add   r2,r4,r6
 add   r3,r5,r6
 ldrb  r2,[r2]
-mov r0, r8
+mov r1, sp
+ldr r0, [r1]
 cmp   r0,#0x0
 beq   NoAcrobat
 cmp   r2,#0xFF
@@ -97,6 +100,7 @@ add r6, #1
 NoSail:
 cmp   r6,#0x40
 ble   Loop1
+add sp, #4
 pop   {r4-r7}
 pop   {r0}
 bx    r0
