@@ -5,6 +5,8 @@
 #define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
 #define GiveGold(money) "SVAL 0x3 money; GIVEITEMTOMAIN 0"
 #define EndConvo "CALL $9EE2C4"
+#define ClearAllUnits "CLEA 0x0; CLEE 0x0; CLEN 0x0"
+#define FadeOutMusic "MUSCMID 0x7FFF"
 // end of useful macros
 
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
@@ -109,6 +111,10 @@
 #define Kajarn 0x60
 #define Rynod 0x61
 #define Ilyron 0x62
+
+//Event Battle Stuff
+#define Orion 0x70
+#define Runa 0x71
 
 // Items
 

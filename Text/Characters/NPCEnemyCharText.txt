@@ -105,3 +105,9 @@ Rebel[X]
 ## AB1RebelDesc
 Villagers of Jaquine, fighting[N]
 against Hervusan misrule.[X]
+
+## OrionName
+Orion[X]
+
+## RunaName
+Runa[X]
