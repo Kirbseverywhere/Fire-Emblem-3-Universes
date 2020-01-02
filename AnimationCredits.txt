@@ -1,40 +1,40 @@
-Magus - 
-Grand Magus - 
+Magus - Beta Owen - Eldritch Abomination
+Aether Magus - 
 Lord - Ephraim Sword/Unarmed - DerTheVaporeon
-High Lord - 
-Blade - L95 custom anim
+High Lord - Hector Brave - Nuramon
+Blade - Custom anim - L95
 Overlord - 
-Sword Knight - SalvCav Sword/Unarmed
-Sword Knight (F) - 
-Lance Knight - SalvCav Lance/Unarmed
-Lance Knight (F) - 
-Axe Knight - SalvCav Axe/Handaxe/Unarmed
-Axe Knight (F) - 
+Sword Knight - SalvCav Sword/Unarmed - Team SALVAGED
+Sword Knight (F) - F!SalvCav Sword/Unarmed - Team SALVAGED/flasuban
+Lance Knight - SalvCav Lance/Unarmed - Team SALVAGED
+Lance Knight (F) - F!SalvCav Lance/Unarmed - Team SALVAGED/flasuban
+Axe Knight - SalvCav Axe/Handaxe/Unarmed - Team SALVAGED
+Axe Knight (F) - F!SalvCav Axe/Handaxe/Unarmed - Team SALVAGED/flasuban
 Bow Knight - 
 Bow Knight (F) - 
-Paladin - 
-Paladin (F) - 
-Sword Armor - SalvKnight Sword/Unarmed
-Lance Armor - SalvKnight Lance/Unarmed
-Axe Armor - SalvKnight Axe/Handaxe/Unarmed
-Bow Armor - SalvKnight Bow/Unarmed
-General - 
-Great Knight - 
-Thief - 
-Thief (F) - Leila thief
+Paladin - SalvPal - Team SALVAGED
+Paladin (F) - F!SalvPal - Team SALVAGED/HGS/flasuban
+Sword Armor - SalvKnight Sword/Unarmed - Team SALVAGED
+Lance Armor - SalvKnight Lance/Unarmed - Team SALVAGED
+Axe Armor - SalvKnight Axe/Handaxe/Unarmed - Team SALVAGED
+Bow Armor - SalvKnight Bow/Unarmed - Team SALVAGED
+General - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon
+Great Knight - Repalette - Skitty
+Thief - Matthew Repalette - Eldritch Abomination
+Thief (F) - Leila Repalette - Eldritch Abomination
 Assassin - 
-Rogue - 
-Rogue (F) - 
+Rogue -  Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan
+Rogue (F) - F!Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan
 Myrmidon - 
 Myrmidon (F) - 
 Swordmaster - 
 Swordmaster (F) - 
-Mercenary - 
-Hero - 
-Archer - 
-Archer (F) - 
-Sniper - 
-Sniper (F) - 
+Mercenary - Armored Mercenary - Alusq
+Hero - Armored Hero - Nuramon
+Archer - Dercher - DerTheVaporeon
+Archer (F) - Dercher - DerTheVaporeon
+Sniper - Quiver - Nuramon
+Sniper (F) - Quiver - Nuramon
 Horseman - 
 Horseman (F) - 
 Wyvern Rider - 
@@ -46,8 +46,8 @@ Sage -
 Sage (F) - 
 Mage Knight - 
 Mage Knight (F) - 
-Mage Fighter - 
-Mage Fighter (F) - 
+Mage Fighter - Dread Fighter - Nuramon
+Mage Fighter (F) - F!Dread Fighter - Nuramon
 Dark Mage - 
 Dark Mage (F) - 
 Warlock - 
@@ -58,33 +58,33 @@ Dark Bishop -
 Dark Bishop (F) - 
 Figher - 
 Brigand - 
-Pirate - 
+Pirate - DS Pirate - DerTheVaporeon
 Warrior - 
-Berserker - 
+Berserker - Derzerker - DerTheVaporeon
 Monk - 
-Priest - 
-Cleric - 
-Deacon - 
-Troubadour - 
+Priest - Repalette - Eldritch Abomination
+Cleric - Repalette - Eldritch Abomination 
+Deacon - Deacon Repalette + Sword, Magic - Pikmin1211/GabrielKnight/Maiser6/Lisandra_Brave/TBA
+Troubadour - Ponytail Repalette - Pikmin1211/Maiser6/Lisandra_Brave/TBA
 Bishop - 
 Bishop (F) - 
-Holy Knight - 
-Holy Knight (F) - 
-Dark Knight - 
-War Monk - 
-War Cleric - 
+Holy Knight - Master Knight - St jack
+Holy Knight (F) - F!Master Knight - St jack
+Dark Knight - 3DS-Style - Pikmin1211/Jj09/DerTheVaporeon
+War Monk - War Monk - DerTheVaporeon/Pikmin1211
+War Cleric - War Cleric - Leo_link/DerTheVaporeon/Pikmin1211
 Templar - 
 Valkyrie - 
-Pegasus Rider - 
-Falcoknight - 
-Dancer (M) - 
-Dancer (F) - 
-Soldier - 
-Halberdier - 
-Dragoon - 
+Pegasus Rider - Outfit Repalette - Jeorge_Reds
+Falcoknight - Outfit Repalette +Weapons - Jeorge_Reds/ShadowOfChaos
+Dancer (M) - Dancer - L95
+Dancer (F) - Larum - IS
+Soldier - Improved 2.0 - Alusq
+Halberdier - 2.0 - Black Mage
+Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6
 Knight Lord - 
 Swordsman - 
 Legend - 
 King - 
-Bear - 
+Bear - Bear - Grated Shtick
 Wyvern - 
