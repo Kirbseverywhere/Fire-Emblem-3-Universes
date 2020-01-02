@@ -55,6 +55,7 @@ RandomWizard		Portraits
 Raymond			Portraits, Purple Jaguar Dialogue
 Dethraxx		For Providing New Fodlan Winds 
 Peerless		Idea Guy
+Runa/Unuesu		Music
 
 Character contributors:
 Bloopy
@@ -66,7 +67,7 @@ Daff
 Kabby
 BuskHusker
 Levin
-Zane Avernarthy
+Zane Avernathy
 Adammnin
 Auto
 Snakey1
