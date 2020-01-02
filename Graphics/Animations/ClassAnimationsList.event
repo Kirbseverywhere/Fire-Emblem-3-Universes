@@ -134,6 +134,8 @@ SHORT 0 0
 #define ClericUnarmedAnimID 0xB1
 
 PUSH
+ORG $8AF4F8
+BYTE 6
 ORG $8AF4FE
 SHORT ClericUnarmedAnimID
 POP
