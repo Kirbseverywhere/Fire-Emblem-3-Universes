@@ -1,6 +1,8 @@
 EphraimLordSkillList:
 // BYTE 1 OddRhythmID
 //BYTE 10 BondID
+BYTE 01 ShoveID
+BYTE 01 SupplyID
 BYTE 10 HeroesDeathBlowID
 BYTE 20 AetherID
 BYTE 00 00
@@ -9,12 +11,14 @@ ALIGN 4
 EirikaLordSkillList:
 //BYTE 255 MoonbowID
 // BYTE 10 EvenRhythmID
+BYTE 01 SupplyID
 BYTE 10 AetherID
 BYTE 20 BondID
 BYTE 00 00
 ALIGN 4
 
 EphraimGreatLordSkillList:
+BYTE 255 SupplyID
 BYTE 255 BondID
 BYTE 255 AetherID //255 means "automatically given to prepromotes"
 // BYTE 255 SmiteID
@@ -24,6 +28,7 @@ BYTE 00 00
 ALIGN 4
 
 EirikaGreatLordSkillList:
+BYTE 255 SupplyID
 BYTE 255 BondID
 BYTE 255 AetherID
 // BYTE 255 SmiteID
@@ -62,8 +67,8 @@ BYTE 00 00
 ALIGN 4
 
 ThiefSkillList:
-BYTE 1 StealID
-BYTE 1 CunningID
+BYTE 15 AcrobatID
+BYTE 1 DespoilID
 BYTE 00 00
 ALIGN 4
 
@@ -196,8 +201,10 @@ BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
-BYTE 255 StealID
-BYTE 255 CunningID
+BYTE 255 DespoilID
+BYTE 255 AcrobatID
+BYTE 5 LungeID
+BYTE 15 CelerityID
 BYTE 00 00
 ALIGN 4
 

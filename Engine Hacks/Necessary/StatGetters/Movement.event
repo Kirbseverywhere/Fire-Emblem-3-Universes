@@ -1,0 +1,47 @@
+#ifndef MODULAR_GETTER_MOVEMENT_EVENT
+#define MODULAR_GETTER_MOVEMENT_EVENT
+
+#include "_Common.event"
+
+pMovModifiers: // Movement
+	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck prAddAccessoryMovement
+	#ifdef STAIRS_ASM
+	POIN StairsMoveDebuff-1
+	#endif
+	POIN prNullifyIfFreeze
+	#ifdef DEBUFFS_MIN_ZERO
+	POIN prMinZero
+	#endif
+WORD 0
+
+prAddUnitBaseMov: // byte 0x12 in ROM class data is base class movement
+	rAdd(rForWordAt(UNIT_ROMCLASS, rSByteAt(0x12))) 
+
+prAddUnitMovBonus:
+	rAdd(rSByteAt(UNIT_MOV_BONUS))
+
+prSkillCelerity:
+	rIfUnitHasSkill(CelerityID)
+		rAddConst(2)
+		
+prSkillPoise:
+	rIfUnitHasSkill(PoiseID)
+		rAddConst(1)
+
+prNullifyIfGuardAI:
+	rIfUnitHasNotAllegience(UA_BLUE)
+		rIfUnitHasGuardAI
+			rConstant(0)
+
+prNullifyIfFreeze:
+	rIfUnitHasStatus(0x9)
+		rConstant(0)
+
+prRallyMov:
+	#incbin "_asm/RallyMov.bin"
+	WORD DebuffTable
+	
+prAddAccessoryMovement:
+	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemMovBonus)))
+
+#endif // MODULAR_GETTER_MOVEMENT_EVENT
