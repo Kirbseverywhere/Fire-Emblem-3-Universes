@@ -35,6 +35,7 @@ mov r0, r7
 NoDZ2:
 ldr   r1,AcrobatID
 .short  0xF800
+mov r8, r0
 mov   r6,#0x0       @counter
 ldr   r5,MoveCostLoc
 Loop1:
@@ -42,6 +43,7 @@ Loop1:
 add   r2,r4,r6
 add   r3,r5,r6
 ldrb  r2,[r2]
+mov r0, r8
 cmp   r0,#0x0
 beq   NoAcrobat
 cmp   r2,#0xFF
