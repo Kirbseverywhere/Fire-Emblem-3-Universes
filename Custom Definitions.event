@@ -32,13 +32,11 @@
 #define PassiveBoosts 0x80
 
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
-#include "Engine Hacks/ForgingAndItemEquip/AccessoryEffectDefinitions.event"
+#include "Engine Hacks/ToT/ForgingAndItemEquip/AccessoryEffectDefinitions.event"
  
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 #define __TERNONDEBUG__
-
-#define  ESCAPE_ARRIVE
 
 // Characters
 
