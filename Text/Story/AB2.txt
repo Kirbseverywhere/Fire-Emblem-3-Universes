@@ -19,13 +19,13 @@ If I may, Councilwoman.[A]
 What is it, Councilwoman Nouveau?[A]
 
 [OpenFarRight]
-Please, we’ve been over this,[N]
+Please, we've been over this,[N]
 just refer to me as Albinia.[A][N]
 [Beat].[A][N]
 Anyway, I just wanted to add that[N]
-we mustn’t be too hard on her.[A][N]
-She’s always worked hard for us.[A][N]
-Isn’t that right, Elle?[A]
+we mustn't be too hard on her.[A][N]
+She's always worked hard for us.[A][N]
+Isn't that right, Elle?[A]
 
 [OpenRight]
 Er, yes, Councilwo[Beat][A]
@@ -57,7 +57,7 @@ shot for the Council seat.[A]
 
 [OpenFarFarRight][LoadBarrymore]
 Wrong.[A][N]
-They’ll never overlook[N]
+They'll never overlook[N]
 your grievous blunder.[A][N]
 [OpenFarRight][ClearFace]
 [OpenFarFarRight][MoveFarRight]
@@ -69,16 +69,16 @@ Councilman Barrymore.[N]
 What are you doing here?[A]
 
 [OpenFarRight]
-I just thought I’d come see how[N]
-you’re faring, Blade of the Council.[A][N]
-It’s a right shame your[N]
+I just thought I'd come see how[N]
+you're faring, Blade of the Council.[A][N]
+It's a right shame your[N]
 mission went the way it did.[A]
 
 [OpenMidLeft]
 Forgive my mistrust,[A][N]
-but you’ve never been one to pay[N]
+but you've never been one to pay[N]
 any attention to my Amber Bears.[A][N]
-I don’t see what’s so[N]
+I don't see what's so[N]
 intriguing all of a sudden.[A]
 
 [OpenFarRight]
@@ -88,19 +88,19 @@ I have a little bit[N]
 of an offer for you.[A]
 
 [OpenMidLeft]
-I’m listening.[A]
+I'm listening.[A]
 
 [OpenFarRight]
 With your current resources,[A][N]
-you’ll never be able to[N]
+you'll never be able to[N]
 secure a spot on the Council.[A]
 
 [OpenMidLeft]
 Please tell me something[N]
-I don’t already know.[A]
+I don't already know.[A]
 
 [OpenFarRight]
-However, it’s only impossible with[N]
+However, it's only impossible with[N]
 your current resources at hand.[A][N]
 House Barrymore has quite a[N]
 lot of resources, as you know.[A][N]
@@ -111,16 +111,16 @@ end a fortnight ago.[A]
 
 [OpenMidLeft]
 So you are using a secret proxy.[N]
-That’s against the law, Councilman.[A]
+That's against the law, Councilman.[A]
 
 [OpenFarRight]
-I’m very much aware.[A][N]
+I'm very much aware.[A][N]
 Though, tell me, what[N]
 exactly can you do to me?[A][N]
 Tell the Council[N]
-I’m using proxies?[A][N]
-It’s your word against mine;[A][N]
-they’ll just see you as bitter and[N]
+I'm using proxies?[A][N]
+It's your word against mine;[A][N]
+they'll just see you as bitter and[N]
 desperate in light of your failure.[A]
 	
 [OpenMidLeft]
@@ -134,9 +134,9 @@ You want a seat on the Council,[N]
 and I would like another one.[A]
 
 [OpenMidLeft]
-What’s the point of being on the[N]
-Council if I’m to obey your every whim?[A][N]
-I’d just be your dog.[A]
+What's the point of being on the[N]
+Council if I'm to obey your every whim?[A][N]
+I'd just be your dog.[A]
 
 [OpenFarRight]
 You already are.[A][N]
@@ -144,26 +144,26 @@ When the Council tells[N]
 you to do something,[A][N]
 you do it with no questions asked.[A][N]
 Tell me, Miss Alfbern,[A][N]
-if that isn’t what you’d[N]
+if that isn't what you'd[N]
 consider to be a dog, what is?[A]
 
 [OpenRight]
-All right, that’s enough.[A][N]
+All right, that's enough.[A][N]
 I will not stand around and let--[A]
 
 [OpenMidLeft]
-Reginald.[...] It’s fine.[A]
+Reginald.[...] It's fine.[A]
 
 [OpenRight]
 Beat.[A]
 
 [OpenMidLeft]
 So?[A][N]
-Let’s say I agree to your terms.[A][N]
+Let's say I agree to your terms.[A][N]
 What will you have me do?[A]
 
 [OpenFarRight]	
-It’s simple enough, really.[A][N]
+It's simple enough, really.[A][N]
 There have been rumors of[N]
 rebellion in [very cold northern region].[A]
 
@@ -173,9 +173,9 @@ to send me off again,[A][N]
 despite what happened the last time?[A]
 
 [OpenFarRight]
-Oh, please. This won’t be nearly as public.[A][N]
+Oh, please. This won't be nearly as public.[A][N]
 You can massacre the lot, as far as I care.[A][N]
-The Council won’t catch wind of it.[A]
+The Council won't catch wind of it.[A]
 
 [OpenMidLeft]
 [Beat][A][N]
@@ -187,7 +187,7 @@ I accept your terms.[A][X]
 
 [OpenFarLeft][LoadElle][OpenLeft][LoadReginald]
 Lady Elle, this journey shall be more[N]
-grueling than those we’ve had before.[A][N]
+grueling than those we've had before.[A][N]
 [northern area] is much further[N]
 away from the Council headquarters.[A][N]
 I suggest that we find some[N]
@@ -198,7 +198,7 @@ You were saying?[A]
 
 [OpenFarLeft]
 Ah, Nobody.[A][N]
-I’m taking it you’re joining us?[A]
+I'm taking it you're joining us?[A]
 
 [OpenRight]
 Not just me. Occam too.[A]
@@ -207,13 +207,13 @@ Not just me. Occam too.[A]
 Yes?[A]
 
 [OpenLeft]
-Ah, it’s good to see you two.[A]
+Ah, it's good to see you two.[A]
 
 [OpenRight]
 Likewise.[A][N]
-Butternut’s colic[N]
+Butternut's colic[N]
 seems to be cured,[A][N]
-so I’m now free to[N]
+so I'm now free to[N]
 return to my side duties.[A]
 
 [OpenLeft]
@@ -238,13 +238,13 @@ visit when we get back.[A][X]
 [OpenMidRight][LoadElle]
 [OpenFarLeft][LoadReginald]
 [OpenLeft][LoadLazul]
-Oh, it’s so cold[Beat][A]
+Oh, it's so cold[Beat][A]
 
 [OpenMidRight]
 Agreed.[A][N]
-But there’s nothing[N]
+But there's nothing[N]
 to be done about it.[A][N]
-Let’s get this finished[N]
+Let's get this finished[N]
 quick so we can go back home.[A]
 
 [OpenFarLeft]
@@ -254,14 +254,14 @@ Cold? I feel nothing.[A]
 You maintain heat[N]
 like a bear, Reginald.[A][N]
 Though before we leave,[A][N]
-I’d like to check[N]
+I'd like to check[N]
 something out.[A]
 
 [OpenLeft]
 Hm?[A]
 
 [OpenMidRight]
-There’s supposed to be a[N]
+There's supposed to be a[N]
 gorgeous frozen lake nearby.[A][N]
 You can see glimmering lights in[N]
 the water through the ice, apparently.[A]
@@ -271,91 +271,169 @@ R-really?![A][N]
 Wow, that sounds amazing.[A]
 
 [OpenFarLeft]
-It’s just a view.[A][N]
-There’s no need to get excited.[A]
+It's just a view.[A][N]
+There's no need to get excited.[A]
 
 [OpenLeft][CloseEyes]
-Yes[Beat]you’re right.[A][N]
+Yes[Beat]you're right.[A][N]
 S-sorry[Beat][A]
 
 [OpenMidRight]
-Hm? We’ve arrived, you two.[A][X]
+Hm? We've arrived, you two.[A][X]
 
 ## AB2Opening5
 
-Boss: At arms, men! Why are you all looking so tired?
-Grunt: Just manning our posts, sir.
-Boss: Bah! A bunch of whoresons, you are. Listen up! If you see anyone who’s an outsider, attack first, ask questions later. Am I clear?
-Grunt: Sir, yes sir!
+[OpenMidRight][LoadRedSoldier][OpenMidLeft][LoadRynod]
+At arms, men![A][N]
+Why are you all looking so tired?[A]
 
-E: What’s this? This sleepy village is really nursing a rebellion?
-R: Lady Elle, it looks like the villagers are actually at the mercy of a group of unsavory folk.
-E: What in damnation is Barrymore playing at? *close eyes* That dastard[Beat]. *open eyes* Regardless, he told us we can slaughter the lot, and I am a woman of my word. It’s not like their lives hold any meaning.
-R: *eyes closed* [Beat].
+[OpenMidRight]
+Just manning our posts, sir.[A]
 
-*Vollster enters from a house on the map*
-V: That’s it, I can’t take it any longer! Come at me, you barbarians! I could use a bit of a warm up!
+[OpenMidLeft]
+Bah! A bunch of whoresons, you are.[A][N]
+Listen up![A][N]
+If you see anyone who's an outsider,[N]
+attack first, ask questions later.[A][N]
+Am I clear?[A]
 
-R: Lady Elle, there appears to be a lone villager fighting off the bandits.
-E: Hm, leave him be. He’ll die a fool’s death.
-L: E-Elle! Please, we can’t just let him fight them alone.
-E: It’s none of our business, Lazul. He made his decision; we have a job to do.
+[OpenMidRight]
+Sir, yes sir![A][X]
 
-V: C’mon, give me a warmup!
+## AB2Opening6
+[OpenMidLeft][LoadElle]
+What's this?[A][N]
+This sleepy village is[N]
+really nursing a rebellion?[A]
+
+[OpenMidRight][LoadReginald]
+Lady Elle,[A][N]
+it looks like the villagers are actually[N]
+at the mercy of a group of unsavory folk.[A]
+
+[OpenMidLeft]
+What in damnation is[N]
+Barrymore playing at?[A][N]
+[CloseEyes]
+That dastard[Beat].[A][N]
+[OpenEyes]
+Regardless,[....][N]
+he told us we can slaughter the lot,[A][N]
+and I am a woman of my word.[A][N]
+It's not like their[N]
+lives hold any meaning.[A]
+
+[OpenMidRight][CloseEyes]
+[Beat].[A][X]
+
+
+## AB2Opening7
+[OpenMidLeft][LoadVollster]
+That's it, I can't take it any longer![A][N]
+Come at me, you barbarians![A][N]
+I could use a bit of a warm up![A][X]
+
+## AB2Opening8
+[OpenMidLeft][LoadElle][OpenMidRight][LoadReginald]
+Lady Elle, there appears to be a lone[N]
+villager fighting off the bandits.[A]
+
+[OpenMidLeft]
+Hm, leave him be.[N]
+He'll die a fool's death.[A]
+
+[OpenFarFarRight][LoadLazul][OpenMidRight][MoveRight][OpenFarFarRight][MoveFarRight]
+E-Elle![A][N]
+Please, we can't just[N]
+let him fight them alone.[A]
+
+[OpenMidLeft]
+It's none of our business, Lazul.[A][N]
+He made his decision;[N]
+we have a job to do.[A][X]
+
+## AB2Opening9
+[OpenMidRight][LoadVollster]
+C'mon, give me a warmup![A][X]
+
 *scripted fight begins. Bandit attacks Vollster and misses, Vollster crits bandit and OHKOs*
-V: Heh, if I had known you were this pathetic, I would’ve picked up my tome a long time ago.
 
-R: He looks strong. Lady Elle, forgive my impertinence, but I don’t think we can engage him in combat without sustaining serious injuries.
-E: Tell me, Reginald, what do you suggest?
-R: We should talk to him. Convince him to join our side. You should be the one to do it, though. Lapis cannot approach men, and I am[Beat]not known for my exceptional conversation skills.
-E: Very well. Let us embark.
+## AB2Opening10
+Heh![A][N]
+If I had known you[N]
+were this pathetic,[A][N]
+I would've picked up my[N]
+tome a long time ago.[A][X]
+
+## AB2Opening11
+[OpenMidLeft][LoadElle][OpenMidRight][LoadReginald]
+He looks strong.[A][N]
+Lady Elle, forgive my impertinence,[A][N]
+but I don't think we can engage him in[N]
+combat without sustaining serious injuries.[A]
+
+[OpenMidLeft]
+Tell me, Reginald,[N]
+what do you suggest?[A]
+
+[OpenMidRight]
+We should talk to him.[A][N]
+Convince him to join our side.[A][N]
+You should be the one to do it, though.[A][N]
+Lapis cannot approach men,[A][N]
+and I am[Beat]not known for my[N]
+exceptional conversation skills.[A]
+
+[OpenMidLeft]
+Very well.[A][N]
+Let us embark.[A][X]
 
 	After killing the first enemy
-	B: They’re strong[Beat] Men! We need some hostages!
+	B: They're strong[Beat] Men! We need some hostages!
 
 	If selecting “Talk” with Vollster
-	V: Hmm, you don’t look to be with the bandits. You here to join in on the beatdown? Please, ladies first.
+	V: Hmm, you don't look to be with the bandits. You here to join in on the beatdown? Please, ladies first.
 
 	If Vollster is defeated
-	V: Damn, I must’ve not trained enough[Beat]! I refuse to let it all end here! *Vollster will then flee inside a house on the map*
+	V: Damn, I must've not trained enough[Beat]! I refuse to let it all end here! *Vollster will then flee inside a house on the map*
 
 Boss dialogue
-B: Heh, you’re just a little runt. Sure is interesting to see a woman not dressed from head to toe in furs. Gets awfully boring around here.
-E: It’s men like you that I relish killing.
+B: Heh, you're just a little runt. Sure is interesting to see a woman not dressed from head to toe in furs. Gets awfully boring around here.
+E: It's men like you that I relish killing.
 
-B: Oh, my, you’re absolutely stunning.
+B: Oh, my, you're absolutely stunning.
 L: Eep! St-stay away from me!
-B: C’mere, I can’t kill you without getting closer.
+B: C'mere, I can't kill you without getting closer.
 L: *eyes closed* I[Beat]need to stand my ground[Beat]
 
 *for any other unit*
 B: Hurry up and die!
 
 Boss death
-B: This isn’t right. How could I[Beat]have been beaten[Beat]?
-G: [BOSS NAME]’s been defeated! Every man for himself!
+B: This isn't right. How could I[Beat]have been beaten[Beat]?
+G: [BOSS NAME]'s been defeated! Every man for himself!
 
 Post-map
-E: Hmph. Cowards. Soon as their leader’s killed, they flee like the dastards they are.
+E: Hmph. Cowards. Soon as their leader's killed, they flee like the dastards they are.
 R: It appears the village really was under siege from a foreign bandit troupe. They are free now.
 E: Good. Though that begs the question[Beat]who sent them here? This is certainly not a place one just stumbles upon.
-L: Perhaps it’s just pure chance? What would anyone want with a village as nondescript as this?
+L: Perhaps it's just pure chance? What would anyone want with a village as nondescript as this?
 R: I am inclined to agree with Lapis, as much as it pains me to admit.
 L: “Pains”[Beat]?
 R: I can see no reason why their presence would be required here. Not to mention they were weak. Perhaps they were driven out of the southern territory by stronger bandits, and came here as a result.
 E: Hmm...
 
 Post-map cutscene
-V: Ah, so we finally have a chance to properly speak. The name’s Vollster. I have to wonder, though, what a bunch of outsiders are doing at a place like this. You seem too strong to be a bunch of vagabonds.
-E: Indeed, we’re not. I am Elle Alfbern. I was sent here on assignment from the Council.
-V: The Blade of the Council? I thought you were just a scary story mothers told their misbehaving children! *winking* You’re not here to kill me, are you? Heh.
+V: Ah, so we finally have a chance to properly speak. The name's Vollster. I have to wonder, though, what a bunch of outsiders are doing at a place like this. You seem too strong to be a bunch of vagabonds.
+E: Indeed, we're not. I am Elle Alfbern. I was sent here on assignment from the Council.
+V: The Blade of the Council? I thought you were just a scary story mothers told their misbehaving children! *winking* You're not here to kill me, are you? Heh.
 E: No. Do you know why those bandits were here?
-V: Hmm, ‘fraid not. They’ve been here for the last week or so. None of us knew why they were here, but we pretty much had to accommodate them against our will. Oh, but I found this the night before! Their boss dropped it while passing by my house, and I decided to swipe it.
+V: Hmm, ‘fraid not. They've been here for the last week or so. None of us knew why they were here, but we pretty much had to accommodate them against our will. Oh, but I found this the night before! Their boss dropped it while passing by my house, and I decided to swipe it.
 E: A letter[Beat]. This has the wax crest of House Nouveau stamped on it.
-V: House new-what? Look, that’s all fine and dandy, but that fight made me realize something. I’m way weaker than I thought. Could I maybe join your group?
+V: House new-what? Look, that's all fine and dandy, but that fight made me realize something. I'm way weaker than I thought. Could I maybe join your group?
 E: You wish to join the Amber Bears Strike Force? You do know of us, right? How we kill people under request of the Council.
 V: [Beat].
-E: Don’t misconstrue my words; you’re welcome to join. But just know that if you do, you will be expected to work. To bleed, if it comes to that.
-V: I[Beat]don’t really have much of a choice. Not like I’m gonna get stronger staying here. I’ll follow you now, Leader. *leaves*
+E: Don't misconstrue my words; you're welcome to join. But just know that if you do, you will be expected to work. To bleed, if it comes to that.
+V: I[Beat]don't really have much of a choice. Not like I'm gonna get stronger staying here. I'll follow you now, Leader. *leaves*
 Beat.
 E: *solemn* We must hurry back. I have the most dreadful feeling.

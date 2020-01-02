@@ -134,4 +134,4 @@
 [LoadPurpleSoldier] = [LoadFace][0x70][0x1]
 [LoadWhiteSoldier] = [LoadFace][0x71][0x1]
 [LoadBelmonte] = [LoadPlaceholder]
-
+[LoadRynod] = [LoadPlaceholder]
