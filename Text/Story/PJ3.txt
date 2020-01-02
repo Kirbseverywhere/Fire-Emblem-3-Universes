@@ -15,7 +15,8 @@ against Arxhat...[A][X]
 
 
 ## PJ3Opening1
-[OpenMidLeft][LoadDarach][OpenMidRight][LoadRedSoldier]
+[OpenMidLeft][LoadDarach]
+[OpenMidRight][LoadRedSoldier]
 Commander Darach![A][N]
 Lieutenant Bruckner has gone missing,[A][N]
 and his search party has[N]
@@ -44,7 +45,7 @@ what are the peasants up to?[A][N]
 Do they still resist King Arxhat's rule?[A]
 
 [OpenMidRight]
-They're still quite adamant about that.[A]
+They're still quite adamant about that.[AN]
 However, capturing their little resistance[N]
 group certainly helped to shut them up.[A]
 
@@ -79,7 +80,8 @@ Yes, sir![A][X]
 
 
 ## PJ3Opening2
-[OpenFarLeft][LoadDarach][OpenLeft][LoadRedSoldier]
+[OpenFarLeft][LoadDarach]#Darach
+[OpenLeft][LoadRedSoldier]
 
 Here they are, Commander.[A][N]
 It was hard squeezing all[N]
@@ -102,7 +104,7 @@ Right here, Seraph.[A]
 [OpenLeft][ClearFace]
 
 [OpenFarLeft][MoveMidLeft]
-[Beat]Oh, you're the one.[A][N]
+[Beat] Oh, you're the one.[A][N]
 So, you resistance forces are[N]
 sheltering the former Prince Vergil.[A][N]
 Novingale scum.[N]
@@ -163,7 +165,7 @@ You're kidding, aren't you?[A][N]
 I'm just a travelling priest.[N]
 I'm innocent![A]
 
-[OpenFarLeft]
+[OpenLeft]
 Make this simple for us, boy.[N]
 Where are you from?[A]
 
@@ -171,7 +173,7 @@ Where are you from?[A]
 That[Beat][N]
 I'm not sure.[A]
 
-[OpenFarLeft]
+[OpenLeft]
 [Beat]Are you trying to be funny?[A][N]
 You claim you're a travelling priest,[N]
 but you don't know where you came from?[A][N]
@@ -179,12 +181,12 @@ How do you expect us to[N]
 believe such a bad lie?[A]
 
 [OpenMidRight]
-Well, I can't remember-[A][N][CloseEyes] 
+Well, I can't remember-[A][N][CloseEyes]
 Sheesh, I'm going back to bed.[N]
 I'm tired of arguing with you savages.[A]
 [OpenEyes][ClearFace]
 
-[OpenFarLeft]
+[OpenLeft]
 Tch[Beat] Something's[N]
 off about that boy.[A][N]
 Novingale spy or not,[N]
@@ -192,19 +194,19 @@ he's suspicious enough.[A][N]
 Continue detaining him,[N]
 until he gives up his little act.[A]
 
-[OpenLeft]
+[OpenFarLeft]
 As for the rebels, sir?[A][N]
 What if they do relent and[N]
 give us the information we need?[A]
 
-[OpenFarLeft]
+[OpenLeft]
 Kill them anyway![A][N]
 That Novingale wench[N]
 thinks she's so clever -[A][N]
 it'll be a great[N]
 pleasure killing her![A]
 
-[OpenLeft]
+[OpenFarLeft]
 Understood, Commander.[A][N]
 I'll be making arrangements[N]
 for their execution, then.[A][X]

@@ -61,6 +61,7 @@
 
 [CurrentPortrait] = [0xFF][0xFF]
 [LoadCurrent] = [LoadFace][0xFF][0xFF]
+[LoadPlaceholder] = [LoadFace][0xFF][0x01]
 
 [LoadRodin] = [LoadFace][0x01][0x01]
 [LoadMichael] = [LoadFace][0x02][0x01]
@@ -119,13 +120,13 @@
 [LoadYanndahl] = [LoadFace][0x50][0x01]
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
-[LoadDarach] = [LoadFace][0x53][0x01]
+[LoadRuna] = [LoadFace][0x54][0x1]
+[LoadDarach] = [LoadPlaceholder]
 [LoadOrion] = [LoadFace][0xFE][0x01]
 
 //default AB slots overwrite used villagers
 [LoadKajarn] = [LoadFace][0x4F][0x01]
 
-[LoadPlaceholder] = [LoadFace][0xFF][0x01]
 [ResumeEvent] = [LoadOverworldFaces]
 [LoadRedSoldier] = [LoadFace][0x6B][0x1]
 [LoadBlueSoldier] = [LoadFace][0x6A][0x1]

@@ -25,58 +25,51 @@ Minor graphical issues also appear in some menus. This does not affect the
 game in any significant way.
 
 Credits:
-	User	Roles				
-	Kirb	The Man With The Plan (ASM, Eventing, Bug Fixing)				
-	Kyu	Playtesting, CW Narrative, Worldbuilding, Lore, and Dialogue				
-	Darr	Eventing, Enemy Placement, QoL Changes, Formatting Dialogue, and Bug Fixing				
-	Chair	Music Insertion & The Bear Theme				
-	Gamma	Mugs, UI Graphics, ASM Provider				
-	Pretsel	Mugs				
-	Bloopy	-				
-	MiiK	Battle Sprite Palettes				
-	Kaiden	Gameplay, Unit Placement, Unit Growths, and Enemy Stats				
-	Cale	Narrative, Unit Placement, Unit Growths, Enemy Stats				
-	Jeorge Reds	Mugs				
-	Feier	Mugs, Map Sprite Palettes, Playtesting				
-	Zorua	Mugs				
-	Arch	PJ Concepts				
-	Ganzap	Eventing, Writing, and Proofreader				
-	Xenith					
-	Glac	Mugs & Battle Sprite Palettes				
-	Myst	Scriptwriter & Dialogue				
-	Dabb/Daff	Writing				
-	Sme	Eventing, ASM, Music, Map Design				
-	Kab	-				
-	Shep	Lore, Worldbulding, Spriter				
-	Busk	Portrait Artist (Clean up and possible full stuff for my homies.)				
-	Levin	Portrait Artist				
-	L95	Lord, Spriter, Bear Mug				
-	Zane	ASM, misc. art, maps, events if needed				
-	Adam	A Mug				
-	Bors	General Balancing				
-	Nobody	Mugs & Battle Sprite Palettes				
-	Auto	Mugs				
-	Theri	AB Narrative, Scriptwriter, and Dialogue				
-	Snek	Events, Maps, ASM if necessary				
-	Ruffles	Writing, Lore, and Worldbuilding				
-	MVP	Portraits & Graphics				
-	Shtick	Writing, Map Design, and Mugs				
-	Smoked	Mugs				
-	Circles	-				
-	Colorz	-				
-	Lenh	Mugs, Bear Map Sprite				
-	Xigdar	Map Design, Gameplay Balancing, Spriter, Villain				
-	Der	Animations, Spriter, and Map Tilesets				
-	Boi46	Writing (Supports, Chapters, Whatever)				
-	Blade	Playtester, Spriter, Battle Sprite Palettes, UI Palettes				
-	Card	Exists				
-	Ash3wl	-				
-	serif	Writing				
-	Pandan	Map Design				
-	Doc					
-	RandomWizard	Mugs & Map Design				
-	Fling					
-	Raymond	Scriptwriting, Mugs, and Playtesting				
-	unuesu	Music				
-	Peerless	Ghost (or is he?)				
-	Laurent					
+Kirb			Project Lead, ASM, Misc. Hacking
+Kyuzeth			Crimson Wolves Story and Dialogue
+Darrman			Chapter Eventing, Formatting Dialogue, Misc. Hacking
+A Reliable Chair	Music Composition
+HyperGammaSpaces	UI Graphic Design
+Pretsel			Portraits
+MiiK			Portraits
+Cale			Balancing
+Feier			Map Sprite Palettes
+Arch			Purple Jaguars Story
+Ganzap			Chapter Eventing, Misc. Hacking
+Glaceo			Portraits
+Mystletainn		Purple Jaguars Dialogue
+Sme			Music, Misc. Hacking
+ErrantDShephard		Worldbuilding
+L95			Portraits
+BorsDeep		Balancing
+Nobody			Portraits
+Theri			Amber Bears Story and Dialogue
+Ruffles			Amber Bears Story
+MVP			House Banners
+Lenh			Bear Map Sprite, Wyvern Portrait
+Xigdar			Balancing, Map Design, Portraits
+DerTheVaporeon		Portraits
+Blade			Playtesting, Portraits
+Pandan			Map Design
+RandomWizard		Portraits
+Raymond			Portraits, Purple Jaguar Dialogue
+Dethraxx		For Providing New Fodlan Winds 
+Peerless		Idea Guy
+Runa/Unuesu		Music
+
+Character contributors:
+Bloopy
+Kaiden
+Jeorge Reds
+Zorua
+Xenith
+Daff
+Kabby
+BuskHusker
+Levin
+Zane Avernathy
+Adammnin
+Auto
+Snakey1
+GratedShtick
+Smoked
