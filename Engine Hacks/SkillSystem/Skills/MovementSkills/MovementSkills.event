@@ -17,6 +17,10 @@ AcrobatCheck:
 #incbin "Acrobat/Acrobat.dmp"
 POIN SkillTester
 WORD AcrobatID
+POIN AccessoryEffectTester
+WORD AE_Sail
+WORD AE_FakeWings
+POIN 0x80BB96 // Flier Movement Cost
 
 ALIGN 4
 PassCheck:

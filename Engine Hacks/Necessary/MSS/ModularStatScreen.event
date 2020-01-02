@@ -15,7 +15,7 @@
   #define Trv_Icon_X 0xB8
   #define Trv_Icon_Y 0x2E
   
-  #include "DisplayGrowthsOptions/DisplayGrowthsOptions.event"
+  #include "Display Growths Options/Display Growths Options.txt"
  
   PUSH
     ORG 0x205b24 //24 for stat screen
@@ -112,37 +112,6 @@
   
   ALIGN 4
   MSS_page1:
-    #ifdef LEADERSHIP_STARS
-        #incbin "asm/mss_page1_skills_leadership.dmp"
-		POIN SkillIcons
-		POIN Skill_Getter
-		POIN SkillTester
-		WORD SaviorID
-		WORD CelerityID
-		WORD SS_SkillsText
-		WORD SS_TalkText
-		WORD Growth_Options
-		POIN Growth_Getter_Table
-		POIN Get_Palette_Index
-		POIN GetLeadershipStarCount
-	#endif //LEADERSHIP_STARS
-	
-	#ifdef BIORHYTHM
-		#incbin "asm/mss_page1_skills_biorhythm.dmp"
-		POIN SkillIcons
-		POIN Skill_Getter
-		POIN SkillTester
-		WORD SaviorID
-		WORD CelerityID
-		WORD SS_SkillsText
-		WORD SS_TalkText
-		WORD Growth_Options
-		POIN Growth_Getter_Table
-		POIN Get_Palette_Index		
-		WORD SS_BiorhythmText
-		POIN BiorhythmNameGetter
-	#endif //BIORHYTHM
-
     #incbin "asm/mss_page1_skills.dmp"
     POIN SkillIcons
     POIN Skill_Getter
@@ -154,8 +123,6 @@
     WORD Growth_Options
     POIN Growth_Getter_Table
     POIN Get_Palette_Index
-
-	
   
   ALIGN 4
   MSS_page2:
@@ -171,8 +138,7 @@
 
   ALIGN 4
   NewPageNameGraphic:
-    //#incext Png2Dmp "asm/pagenamegraphic.png" --lz77
-    #incbin "asm/pagenamegraphic.dmp"
+    #incext Png2Dmp "asm/pagenamegraphic.png" --lz77
 
   ALIGN 4
   NewPageNameLayout:
@@ -189,6 +155,51 @@
   ALIGN 4
   Button_Branch:
     #incbin "asm/Button Branch.dmp"
+
+  ALIGN 4
+  Growth_Getter_Table:
+    POIN Get_Hp_Growth Get_Str_Growth Get_Skl_Growth Get_Spd_Growth Get_Luk_Growth Get_Def_Growth Get_Res_Growth
+
+  ALIGN 4
+  Get_Hp_Growth:
+    #incbin "asm/Growth Getters/Get_Hp_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Str_Growth:
+    #incbin "asm/Growth Getters/Get_Str_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Skl_Growth:
+    #incbin "asm/Growth Getters/Get_Skl_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Spd_Growth:
+    #incbin "asm/Growth Getters/Get_Spd_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Def_Growth:
+    #incbin "asm/Growth Getters/Get_Def_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Res_Growth:
+    #incbin "asm/Growth Getters/Get_Res_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Get_Luk_Growth:
+    #incbin "asm/Growth Getters/Get_Luk_Growth.dmp"
+    POIN Extra_Growth_Boosts|1
+
+  ALIGN 4
+  Extra_Growth_Boosts:
+    #incbin "asm/Growth Getters/Extra_Growth_Boosts.dmp"
+    WORD Growth_Options
+    POIN ItemTable
 
   ALIGN 4
   Load_Page:
@@ -226,11 +237,9 @@
     WORD Growth_Options
 
   ALIGN 4
-/*
-  This has been moved to a CSV
   Class_Level_Cap_Table:
     #incbin "Display Growths Options/Class_Level_Cap_Table.dmp"
-*/
+
   ALIGN 4
   Enemy_Autolevel:
     #incbin "asm/Enemy_Autolevel.dmp"
@@ -243,15 +252,15 @@
 
   ALIGN 4
   Growth_Color_Table:
-    #include "DisplayGrowthsOptions/GrowthColorsTable.event"
+    #include "Display Growths Options/Growth Colors Table.txt"
 
   ALIGN 4
   New_Palettes:
-    #include "DisplayGrowthsOptions/NewPalette.event"
+    #include "Display Growths Options/New Palette.txt"
 
   ALIGN 4
   TxtData0x0D4B:
-    String("Donate to Circles")
+    String(Donate to Circles)
     BYTE 0
 
   setText(0x0D4B,TxtData0x0D4B)
@@ -346,14 +355,7 @@
     RMenu(ST_Aid,ST_Affin,ST_Skl,0,0xa6,0x28,0x550)
 
   ST_Affin:
-    #ifdef LEADERSHIP_STARS
-       RMenu(ST_Trv,ST_Cond,ST_Spd,0,0xa6,0x38,LeadRText)
-    #endif //LEADERSHIP_STARS
-	#ifdef BIORHYTHM
-	   RMenu(ST_Trv,ST_Cond,ST_Spd,0,0xa6,0x38,SS_BiorhythmRText)
-	#endif //BIORHYTHM
-       RMenu(ST_Trv,ST_Cond,ST_Spd,0,0xa6,0x38,0x551)
-    
+    RMenu(ST_Trv,ST_Cond,ST_Spd,0,0xa6,0x38,0x551)
 
   ST_Cond:
     RMenu(ST_Affin,ST_Talk,ST_Luck,0,0xA6,0x48,0x552,ConditionGetter)
