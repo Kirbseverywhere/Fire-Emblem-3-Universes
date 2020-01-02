@@ -56,7 +56,7 @@ Raymond			Portraits, Purple Jaguar Dialogue
 Dethraxx		For Providing New Fodlan Winds 
 Peerless		Idea Guy
 Runa/Unuesu		Music
-GratedShtick	Animations
+GratedShtick  	Animations
 
 Character contributors:
 Bloopy
