@@ -2,7 +2,7 @@
 ALIGN 4
 AxefaithHit:
 #incbin "AxeFaith/AxeFaith.dmp"
-POIN SkillTester
+POIN SkillTester|1
 WORD AxeFaithID
 
 ALIGN 4

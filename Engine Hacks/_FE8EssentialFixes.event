@@ -20,9 +20,15 @@ PUSH
     BYTE 0xD2
 POP
 */
-//Fix MNC2 Freezing glitch (breaks skirmishes!)
-  ORG $BD070
-  SHORT $E0B8
+//Allows MNC2 To jump to any chapter ID.
+ORG 0xBD070
+SHORT 0xE0B8
+//Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+ORG 0x897B2
+SHORT 0 0
+//Fixes the game considering some chapters postgame.
+ORG 0x897C4
+SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
 
 //Set Default Options
   ORG $30d8a  //animations type 2
@@ -131,10 +137,6 @@ ORG $015D66
 // Don't draw portrait on item select menu if unit is generic (hypergammaspaces)
 ORG $22BE8
   SHORT $6808 $88C0 $2800
-
-//Add a check for r0=0 in the decompression routine so that no$gba doesn't crash when trying to decompress something it shouldn't (Tequila)
-ORG $12F52
-  SHORT $2800 $D014 $22FA $0612 $1852 $4B0A $2501 $429A $D800 $2500 $4A09 $7803 $24F0 $4023 $08DB $195B $009B $18D2 $6812 $46C0 $46C0
 
 #include "Extensions/Hack Installation.txt"
 //Anti-Huffman Patch, by Hextator and Nintenlord

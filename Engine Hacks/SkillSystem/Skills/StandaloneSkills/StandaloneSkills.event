@@ -42,7 +42,7 @@ jumpToHack(VigorDanceReset) //unset it when the turn starts again
 
 //Wary Fighter
 ORG $2AF94
-jumpToHack(WaryFighter)
+//jumpToHack(WaryFighter)
 
 #ifndef VANILLA_TRIANGLE_ATTACK
 //Triangle Attack
