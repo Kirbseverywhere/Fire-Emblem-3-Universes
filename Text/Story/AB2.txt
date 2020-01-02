@@ -388,30 +388,60 @@ exceptional conversation skills.[A]
 Very well.[A][N]
 Let us embark.[A][X]
 
-	After killing the first enemy
-	B: They're strong[Beat] Men! We need some hostages!
+## AB2AfterKillingFirstEnemy
+[OpenMidLeft][LoadRynod]
+They're strong[Beat][A][N]
+Men! We need some hostages![A][X]
 
-	If selecting “Talk” with Vollster
-	V: Hmm, you don't look to be with the bandits. You here to join in on the beatdown? Please, ladies first.
+## AB2TalkVollsterElle
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadVollster]
+Hmm, you don't look to[N]
+be with the bandits.[A][N]
+You here to join in[N]
+on the beatdown?[A][N]
+Please, ladies first.[A][X]
 
-	If Vollster is defeated
-	V: Damn, I must've not trained enough[Beat]! I refuse to let it all end here! *Vollster will then flee inside a house on the map*
+## AB2VollsterNPCDeathQuote
+Damn, I must've not[N]
+trained enough[Beat]![A][N]
+I refuse to let[N]
+it all end here![A][X]
 
-Boss dialogue
-B: Heh, you're just a little runt. Sure is interesting to see a woman not dressed from head to toe in furs. Gets awfully boring around here.
-E: It's men like you that I relish killing.
+*Vollster will then flee inside a house on the map*
 
-B: Oh, my, you're absolutely stunning.
-L: Eep! St-stay away from me!
-B: C'mere, I can't kill you without getting closer.
-L: *eyes closed* I[Beat]need to stand my ground[Beat]
+## AB2BossQuoteElle
+[OpenMidLeft][LoadRynod]
+Heh, you're just[N]
+a little runt.[A][N]
+Sure is interesting to[N]
+see a woman not dressed[A][N]
+from head to toe in furs.[A][N]
+Gets awfully[N]
+boring around here.[A]
 
-*for any other unit*
-B: Hurry up and die!
+[ClearFace][OpenMidRight][LoadElle]
+It's men like you[N]
+that I relish killing.[A][X]
 
-Boss death
-B: This isn't right. How could I[Beat]have been beaten[Beat]?
-G: [BOSS NAME]'s been defeated! Every man for himself!
+## AB2BossQuoteLazul
+[OpenMidLeft][LoadRynod]
+Oh, my, you're[N]
+absolutely stunning.[A]
+[ClearFace][OpenMidRight][LoadLazul]
+Eep![A][N]
+St-stay away from me![A]
+[ClearFace][OpenMidLeft][LoadRynod]
+C'mere, I can't kill you[N]
+without getting closer.[A]
+[ClearFace][OpenMidRight][LoadLazul]
+[CloseEyes]
+I[Beat]need to[N]
+stand my ground[Beat][A][X]
+
+## AB2BossQuote
+[OpenMidLeft][LoadRynod]
+Hurry up and die![A][X]
+
 
 Post-map
 E: Hmph. Cowards. Soon as their leader's killed, they flee like the dastards they are.
