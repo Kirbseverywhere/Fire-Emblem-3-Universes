@@ -1,0 +1,90 @@
+Magus - 
+Grand Magus - 
+Lord - Ephraim Sword/Unarmed - DerTheVaporeon
+High Lord - 
+Blade - L95 custom anim
+Overlord - 
+Sword Knight - SalvCav Sword/Unarmed
+Sword Knight (F) - 
+Lance Knight - SalvCav Lance/Unarmed
+Lance Knight (F) - 
+Axe Knight - SalvCav Axe/Handaxe/Unarmed
+Axe Knight (F) - 
+Bow Knight - 
+Bow Knight (F) - 
+Paladin - 
+Paladin (F) - 
+Sword Armor - SalvKnight Sword/Unarmed
+Lance Armor - SalvKnight Lance/Unarmed
+Axe Armor - SalvKnight Axe/Handaxe/Unarmed
+Bow Armor - SalvKnight Bow/Unarmed
+General - 
+Great Knight - 
+Thief - 
+Thief (F) - Leila thief
+Assassin - 
+Rogue - 
+Rogue (F) - 
+Myrmidon - 
+Myrmidon (F) - 
+Swordmaster - 
+Swordmaster (F) - 
+Mercenary - 
+Hero - 
+Archer - 
+Archer (F) - 
+Sniper - 
+Sniper (F) - 
+Horseman - 
+Horseman (F) - 
+Wyvern Rider - 
+Wyvern Lord - 
+Malig Knight - 
+Mage - 
+Mage (F) - 
+Sage - 
+Sage (F) - 
+Mage Knight - 
+Mage Knight (F) - 
+Mage Fighter - 
+Mage Fighter (F) - 
+Dark Mage - 
+Dark Mage (F) - 
+Warlock - 
+Warlock (F) - 
+Summoner - 
+Summoner (F) - 
+Dark Bishop - 
+Dark Bishop (F) - 
+Figher - 
+Brigand - 
+Pirate - 
+Warrior - 
+Berserker - 
+Monk - 
+Priest - 
+Cleric - 
+Deacon - 
+Troubadour - 
+Bishop - 
+Bishop (F) - 
+Holy Knight - 
+Holy Knight (F) - 
+Dark Knight - 
+War Monk - 
+War Cleric - 
+Templar - 
+Valkyrie - 
+Pegasus Rider - 
+Falcoknight - 
+Dancer (M) - 
+Dancer (F) - 
+Soldier - 
+Halberdier - 
+Dragoon - 
+Knight Lord - 
+Swordsman - 
+Legend - 
+King - 
+Bear - 
+Wyvern - 
