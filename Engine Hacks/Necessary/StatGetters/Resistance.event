@@ -1,0 +1,47 @@
+#ifndef MODULAR_GETTER_RESISTANCE_EVENT
+#define MODULAR_GETTER_RESISTANCE_EVENT
+
+#include "_Common.event"
+
+pResistanceModifiers: // Resistance
+	POIN prAddUnitResistanceNoRuneShifter prAddUnitResistanceRuneShifter  prHalveIfCapturing prDebuffRes prAddEquipResistance prAddAccessoryResistance prItemPassiveResistance prRallyRes prAddPureWaterBarrierMod prLifeAndDeathMinus prSkillFury prFortressResistanceRes prDefiantRes prPushRes
+	#ifdef __DebuffMinZero__
+	POIN prMinZero
+	#endif
+WORD 0
+
+prAddUnitResistanceNoRuneShifter:
+	rIfUnitHasNotAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_RESISTANCE))
+
+prAddUnitResistanceRuneShifter:
+	rIfUnitHasAccessoryEffect(AE_RuneShifter)
+		rAdd(rSByteAt(UNIT_DEFENSE))
+
+prAddEquipResistance:
+	rAdd(rForUnitEquipped(rCallExternal(prGetItemResBonus)))
+	
+prAddAccessoryResistance:
+	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemResBonus)))
+
+prAddPureWaterBarrierMod: // Upper part of byte 0x31 in unit struct is current pure water/barrier bonus duration
+	rAdd(rUpperHalfByteOf(rUByteAt(0x31)))
+
+prDebuffRes:
+	#incbin "_asm/DebuffRes.bin"
+	WORD DebuffTable
+
+prRallyRes:
+	#incbin "_asm/RallyRes.bin"
+	WORD DebuffTable
+
+prLifeAndDeathMinus:
+_testSkill(HeroesLifeAndDeathID,0,5)
+
+prFortressResistanceRes:
+	_testSkill(FortressResistanceID,5,0)
+
+prItemPassiveResistance:
+	rPassiveStatBoosts(STAT_RESISTANCE)
+
+#endif // MODULAR_GETTER_RESISTANCE_EVENT
