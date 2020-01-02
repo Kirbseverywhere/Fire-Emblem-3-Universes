@@ -143,6 +143,31 @@
 #define negateByte(byte) "0x100-byte"
 #define IsPointer 0x8000000
 
+#define PlainsBattleBG 0
+#define SnowBattleBG 1
+#define VolcanoBattleBG 2
+#define TownBattleBG 3
+#define Plains2BattleBG 4
+#define FortBattleBG 5
+#define Town2BattleBG 6
+#define Town3BattleBG 7
+#define ShipBattleBG 8
+#define DesertBattleBG 9
+#define Fort2BattleBG 10
+#define ValniBattleBG 11
+#define JehannaBattleBG 12
+#define ForestBattleBG 13
+#define RenaisNightBattleBG 14
+#define CastleBattleBG 15
+#define Castle2BattleBG 16
+#define CastleNightBattleBG 17
+#define MountainBattleBG 18
+#define PortTownBattleBG 19
+#define SwampBattleBG 20
+#define CaveBattleBG VolcanoBattleBG //we're overwriting this image with cave
+
+
+
   #define defWTAAdvantage(attackingType, defendingType) "BYTE attackingType defendingType"//"BYTE attackingType defendingType 0x0F 0x01"
   #define defWTADisadvantage(attackingType, defendingType) "BYTE defendingType attackingType" //"BYTE attackingType defendingType 0xF1 0xFF"
   #define endWTATable "BYTE 0xFF 0xFF"
