@@ -153,7 +153,7 @@ STAL 30
 MUSS 0x0
 StartBattle
 MissedAttack(0,0)
-CriticalHit(1,33)
+CriticalHit(1,39)
 SetScriptedBattle(55,12,0,90,13,35)
 FIG1 Orion Runa 0x0
 MURE 0x2
