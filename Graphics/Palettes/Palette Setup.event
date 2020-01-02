@@ -175,3 +175,7 @@
 // PaulMyrmidonPalette
 	setPalette(0x2B,PaulMyrmidonPalette)
 	setCBSP(0x2B,Paul, 0x0, Myrmidon)
+
+// RunaBowKnightPalette
+	setPalette(0x2C,RunaBowKnightPalette)
+	setCBSP(0x2C,Runa, 0x0, BowKnight_F)

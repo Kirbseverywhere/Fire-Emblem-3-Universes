@@ -17,6 +17,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(7, EndingScene, 8)
 TurnEventEnemy(0, YanndahlBackup1, 3)
+TurnEventPlayer(0, YanndahlChange, 5)
 TurnEventEnemy(0, YanndahlBackup2, 5)
 END_MAIN
 
@@ -202,8 +203,12 @@ ENDA
 YanndahlBackup2:
 Text(PJ1Turn5EnemyScene)
 ReinforcementEvent(Turn5Spawns)
+NoFade
+ENDA
+
+YanndahlChange:
 SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
-CHAI Yanndahl // changes the ai of 0x80
+CHAI [14,13] // changes the ai of this coordinate
 NoFade
 ENDA
 
