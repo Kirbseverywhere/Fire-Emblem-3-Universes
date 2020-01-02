@@ -537,7 +537,7 @@ than anything. Now GO![A]
 [X]
 
 ## PJ1EndingRunaSoloLine
-[MidLeft][LoadFace][0x54][0x01]
+[MidLeft][LoadRuna]
 #Runa:
 Hah. You made the right choice,[N]
 Dark Prince. How smart of you.[AN]
