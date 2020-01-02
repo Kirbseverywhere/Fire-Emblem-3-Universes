@@ -120,6 +120,7 @@
 [LoadYanndahl] = [LoadFace][0x50][0x01]
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
+[LoadRuna] = [LoadFace][0x54][0x1]
 [LoadDarach] = [LoadPlaceholder]
 [LoadOrion] = [LoadFace][0xFE][0x01]
 

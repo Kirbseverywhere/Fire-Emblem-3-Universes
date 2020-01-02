@@ -165,7 +165,7 @@ Quickly! To arms![A][X]
 
 #*Yanndahl appears on the screen. Runa approaches him.*
 [MidLeft][LoadYanndahl]#Yanndahl
-[MidRight][LoadPlaceholder]#some random portrait, placeholder Runa
+[MidRight][LoadRuna]#some random portrait, placeholder Runa
 
 [MR]#Runa:
 Sir Yanndahl, I presume?[A]
@@ -393,7 +393,7 @@ doing here?![A][X]
 ## PJ1EndingRunaOrion
 #*camera moves up to Runa and Orion.*
 
-[MidLeft][LoadPlaceholder]#some random portrait, placeholder Runa
+[MidLeft][LoadRuna]#some random portrait, placeholder Runa
 [MR][LoadOrion]
 [ML]
 #Runa:
@@ -422,7 +422,7 @@ THEY WILL BE AVENGED![A]
 
 
 ## PJ1EndingRunaOrion2
-[MidLeft][LoadPlaceholder]#some random portrait, placeholder Runa
+[MidLeft][LoadRuna]#some random portrait, placeholder Runa
 [MR][LoadOrion]
 
 [MR]
@@ -478,7 +478,7 @@ want us to just leave this be?![N]
 What sort of "plan" involves[AN]
 LEAVING MY PARENTS ROTTING[N]
 ON THE GROUND?![AN]
-[Right][MoveFarRight][Left][Clear][Right][LoadVergil][MidLeft][LoadPlaceholder]
+[Right][MoveFarRight][Left][Clear][Right][LoadVergil][MidLeft][LoadRuna]
 
 #Runa:
 Hmm? The princeling is still alive,[N]
@@ -537,7 +537,7 @@ than anything. Now GO![A]
 [X]
 
 ## PJ1EndingRunaSoloLine
-[MidLeft][LoadFace][0x54][0x01]
+[MidLeft][LoadRuna]
 #Runa:
 Hah. You made the right choice,[N]
 Dark Prince. How smart of you.[AN]

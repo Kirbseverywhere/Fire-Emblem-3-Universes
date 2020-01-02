@@ -39,6 +39,11 @@ setMugEntry(KAJARN_PORTRAIT, KajarnMug, 3, 5, 3, 3)
 KajarnMug:
 #incext PortraitFormatter "Kajarn.png"
 
+#define RUNA_PORTRAIT 0x54
+setMugEntry(RUNA_PORTRAIT, RunaMug, 2, 6, 3, 4)
+RunaMug:
+#incext PortraitFormatter "Runa.png"
+
 #define ORION_PORTRAIT 0xFE
 setMugEntry(ORION_PORTRAIT, OrionMug, 3, 5, 3, 3)
 OrionMug:
