@@ -19,6 +19,18 @@
 #include "Cavalier/MaleUnarmedCav.event"
 }
 {
+#include "Cavalier/FemaleBowCav.event"
+}
+{
+#include "Cavalier/FemaleBowCavUnarmed.event"
+}
+{
+#include "Cavalier/MaleBowCav.event"
+}
+{
+#include "Cavalier/MaleBowCavUnarmed.event"
+}
+{
 #include "Knight/SwordKnight.event"
 }
 {
