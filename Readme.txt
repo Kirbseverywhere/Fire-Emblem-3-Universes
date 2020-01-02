@@ -55,7 +55,7 @@ RandomWizard		Portraits
 Raymond			Portraits, Purple Jaguar Dialogue
 Dethraxx		For Providing New Fodlan Winds 
 Peerless		Idea Guy
-Runa/Unuesu		Music
+Runa/Unuesu		Music, Eventing
 
 Character contributors:
 Bloopy
