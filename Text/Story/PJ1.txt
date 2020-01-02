@@ -208,10 +208,10 @@ Prince's men start to[AN]
 show up.[A]
 
 #*Runa leaves.*
-[Clear]
+[Clear][......]
 
 [ML]#Yanndahl:
-Gah, who does that brat think she[N]
+Gah,[MoveMidLeft] who does that brat think she[N]
 is, doubting me? We're plenty[AN]
 good enough to handle some brat[N]
 prince and his riff-raff gang.[AN][X]
@@ -448,7 +448,7 @@ That's enough of you.[A][N]
 
 #*Runa throws Orion off the bridge*
 [MR][Clear]
-[ML]
+[ML][LoadOverworldFaces][.......]
 #Runa:
 Now, how does our[N]
 princeling fare?[A][X]
@@ -533,11 +533,12 @@ than anything. Now GO![A]
 [Right]
 #Tray:
 ...Got it, Horus.[A]
+[Right][ClearFace][FarRight][ClearFace]
 #*some people get rescued and they all run offscreen*
 [X]
 
 ## PJ1EndingRunaSoloLine
-[MidLeft][LoadRuna]
+[MidLeft][LoadRuna][.......]
 #Runa:
 Hah. You made the right choice,[N]
 Dark Prince. How smart of you.[AN]

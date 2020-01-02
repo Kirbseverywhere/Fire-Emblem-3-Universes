@@ -130,6 +130,7 @@ BossMusic(Darach, M_MountHorn)
 BossMusic(Kajarn, M_MountHorn)
 BossMusic(Rynod, M_MountHorn)
 BossMusic(Ilyron, M_MountHorn)
+BossMusic(Runa, 0x1C)
 WORD 0xFFFFFFFF 0xFFFFFFFF
 
 
