@@ -16,6 +16,8 @@ Learned  [X]
 
 #include "EngineHacks\StatScreenText.txt"
 
+#include "Menu\Difficulty.txt"
+
 #0x509 GauntletWeaponTypeName
 #Gauntlet overflows
 Fists[X]
@@ -84,3 +86,4 @@ by having this unit arrive.[X]
 #include "Story\StoryBuildfile.txt"
 
 #include "Menu\GuideText.txt"
+

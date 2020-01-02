@@ -53,6 +53,14 @@ POIN StatScreenPal
 
 ORG $95DF74
 POIN CaveBGImg CaveBGTSA CaveBGPal
+
+ORG $75AA28
+POIN CaveBattleBGImg
+ORG $75AA2C
+POIN CaveBattleBGTSA
+ORG $75AA30
+POIN CaveBattleBGPal
+
 POP
 
 ALIGN 4
@@ -95,6 +103,18 @@ ALIGN 4
 CaveBGPal:
 #incbin "CaveBGPal.dmp"
 
+ALIGN 4
+CaveBattleBGImg:
+#incbin "CaveBattleBGImg.dmp"
+
+ALIGN 4
+CaveBattleBGTSA:
+#incbin "CaveBattleBGTSA.dmp"
+
+ALIGN 4
+CaveBattleBGPal:
+#incbin "CaveBattleBGPal.dmp"
+
 #include "Tiles/Tiles.event"
 #include "TitleScreen/TitleScreen.event"
 #include "TitleMenu/TitleMenu.event"
@@ -104,3 +124,4 @@ CaveBGPal:
 #include "MapSprites/MapSprites.event"
 #include "Animations/ClassAnimationsList.event"
 #include "BattleFrame/BattleFrameInstaller.event"
+#include "Palettes/Palette Setup.event"

@@ -56,6 +56,7 @@ Raymond			Portraits, Purple Jaguar Dialogue
 Dethraxx		For Providing New Fodlan Winds 
 Peerless		Idea Guy
 Runa/Unuesu		Music, Eventing
+GratedShtick		Animations
 
 Character contributors:
 Bloopy
@@ -68,8 +69,7 @@ Kabby
 BuskHusker
 Levin
 Zane Avernathy
-Adammnin
+Adammninn
 Auto
 Snakey1
-GratedShtick
 Smoked
