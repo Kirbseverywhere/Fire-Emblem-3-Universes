@@ -1,0 +1,17 @@
+# 0x149 DifficultyEasyText
+There are no[N]
+differences[N]
+based on[N]
+difficulty.[X]
+
+## DifficultyNormalText
+There are no[N]
+differences[N]
+based on[N]
+difficulty.[X]
+
+##DifficultyHardText
+There are no[N]
+differences[N]
+based on[N]
+difficulty.[X]
