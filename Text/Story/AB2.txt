@@ -165,7 +165,7 @@ What will you have me do?[A]
 [OpenFarRight]	
 It's simple enough, really.[A][N]
 There have been rumors of[N]
-rebellion in [very cold northern region].[A]
+rebellion in Olenvard.[A]
 
 [OpenMidLeft]	
 Are you really so willing[N]
@@ -188,8 +188,8 @@ I accept your terms.[A][X]
 [OpenFarLeft][LoadElle][OpenLeft][LoadReginald]
 Lady Elle, this journey shall be more[N]
 grueling than those we've had before.[A][N]
-[northern area] is much further[N]
-away from the Council headquarters.[A][N]
+Olenvard is much further away[N]
+from the Council headquarters.[A][N]
 I suggest that we find some[N]
 additional allies to aid us.[A]
 	
@@ -443,27 +443,129 @@ stand my ground[Beat][A][X]
 Hurry up and die![A][X]
 
 
-Post-map
-E: Hmph. Cowards. Soon as their leader's killed, they flee like the dastards they are.
-R: It appears the village really was under siege from a foreign bandit troupe. They are free now.
-E: Good. Though that begs the question[Beat]who sent them here? This is certainly not a place one just stumbles upon.
-L: Perhaps it's just pure chance? What would anyone want with a village as nondescript as this?
-R: I am inclined to agree with Lapis, as much as it pains me to admit.
-L: “Pains”[Beat]?
-R: I can see no reason why their presence would be required here. Not to mention they were weak. Perhaps they were driven out of the southern territory by stronger bandits, and came here as a result.
-E: Hmm...
+## AB2Ending1
+[OpenRight][LoadLazul][OpenFarRight][LoadReginald]
+[OpenMidLeft][LoadElle]
+Hmph.[...] Cowards.[....][A][N]
 
-Post-map cutscene
-V: Ah, so we finally have a chance to properly speak. The name's Vollster. I have to wonder, though, what a bunch of outsiders are doing at a place like this. You seem too strong to be a bunch of vagabonds.
-E: Indeed, we're not. I am Elle Alfbern. I was sent here on assignment from the Council.
-V: The Blade of the Council? I thought you were just a scary story mothers told their misbehaving children! *winking* You're not here to kill me, are you? Heh.
-E: No. Do you know why those bandits were here?
-V: Hmm, ‘fraid not. They've been here for the last week or so. None of us knew why they were here, but we pretty much had to accommodate them against our will. Oh, but I found this the night before! Their boss dropped it while passing by my house, and I decided to swipe it.
-E: A letter[Beat]. This has the wax crest of House Nouveau stamped on it.
-V: House new-what? Look, that's all fine and dandy, but that fight made me realize something. I'm way weaker than I thought. Could I maybe join your group?
-E: You wish to join the Amber Bears Strike Force? You do know of us, right? How we kill people under request of the Council.
-V: [Beat].
-E: Don't misconstrue my words; you're welcome to join. But just know that if you do, you will be expected to work. To bleed, if it comes to that.
-V: I[Beat]don't really have much of a choice. Not like I'm gonna get stronger staying here. I'll follow you now, Leader. *leaves*
-Beat.
-E: *solemn* We must hurry back. I have the most dreadful feeling.
+Soon as their leader's killed,[N]
+they flee like the dastards they are.[A]
+
+[OpenFarRight]
+It appears the village really was under[N]
+siege from a foreign bandit troupe.[A][N]
+They are free now.[A]
+
+[OpenMidLeft]
+Good.[A][N]
+Though that begs the question[Beat][A][N]
+Who sent them here?[A][N]
+This is certainly not a[N]
+place one just stumbles upon.[A]
+
+[OpenRight]
+Perhaps it's just pure chance?[A][N]
+What would anyone want with a[N]
+village as nondescript as this?[A]
+
+[OpenFarRight]
+I am inclined to agree with Lapis,[N]
+as much as it pains me to admit.[A]
+
+[OpenRight]
+"Pains"[Beat]?[A]
+
+[OpenFarRight]
+I can see no reason why their[N]
+presence would be required here.[A][N]
+Not to mention they were weak.[A][N]
+Perhaps they were driven out of the[N]
+southern territory by stronger bandits,[A][N]
+and came here as a result.[A]
+
+[OpenMidLeft]
+Hmm[Beat][A][X]
+
+
+## ABEnding2
+[OpenMidLeft][LoadElle][OpenMidRight][LoadVollster]
+Ah, so we finally have a[N]
+chance to properly speak.[A][N]
+The name's Vollster.[A][N]
+I have to wonder, though,[A][N]
+what a bunch of outsiders[N]
+are doing at a place like this.[A][N]
+You seem too strong to[N]
+be a bunch of vagabonds.[A]
+
+[OpenMidLeft]
+Indeed, we're not.[A][N]
+I am Elle Alfbern.[A][N]
+I was sent here on[N]
+assignment from the Council.[A]
+
+[OpenMidRight]
+The Blade of the Council?[A][N]
+I thought you were just a scary story[N]
+mothers told their misbehaving children![A][N]
+[Wink]You're not here to kill me, are you?[A][N]
+Heh.[A]
+
+[OpenMidLeft]
+No.[A][N]
+Do you know why those[N]
+bandits were here?[A]
+
+[OpenMidRight]
+Hmm, 'fraid not.[A][N]
+They've been here for[N]
+the last week or so.[A][N]
+None of us knew why they were here,[A][N]
+but we pretty much had to[N]
+accommodate them against our will.[A][N]
+Oh, but I found this the night before![A][N]
+Their boss dropped it[N]
+while passing by my house,[A][N]
+and I decided to swipe it.[A]
+
+[OpenMidLeft]
+A letter[Beat].[A][N]
+This has the wax crest of[N]
+House Nouveau stamped on it.[A]
+
+[OpenMidRight]
+House new-what?[A][N]
+Look, that's all fine and dandy,[N]
+but that fight made me realize something.[A][N]
+I'm way weaker than I thought.[A][N]
+Could I maybe join your group?[A]
+
+[OpenMidLeft]
+You wish to join the[N]
+Amber Bears Strike Force?[A][N]
+You do know of us, right?[A][N]
+How we kill people under[N]
+request of the Council.[A]
+
+[OpenMidRight]
+[Beat].[A]
+
+[OpenMidLeft]
+Don't misconstrue my words;[N]
+you're welcome to join.[A][N]
+But just know that if you do,[N]
+you will be expected to work.[A][N]
+To bleed, if it comes to that.[A]
+
+[OpenMidRight]
+I[Beat]don't really[N]
+have much of a choice.[A][N]
+Not like I'm gonna get[N]
+stronger staying here.[A][N]
+I'll follow you now, Leader.[A]
+[ClearFace]
+
+[OpenMidLeft]
+[Beat]We must hurry back.[A][N]
+I have the most dreadful feeling.[A][X]
+
