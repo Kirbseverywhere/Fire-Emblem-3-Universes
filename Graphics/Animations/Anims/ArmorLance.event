@@ -1,7 +1,7 @@
 ///////Animation Install.event///////
     
 PUSH
-AnimTableEntry(KnightLanceAnimID) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
+AnimTableEntry(ArmorLanceAnimID) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
 WORD 0 0 0 //empty name field, who cares
 POIN Anim_Lance_sectiondata
 POIN Anim_Lance_framedata
