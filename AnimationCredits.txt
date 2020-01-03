@@ -39,7 +39,7 @@ Horseman - Vanilla Ranger - IS (for now)
 Horseman (F) - Vanilla Ranger - IS (for now)
 Wyvern Rider - Vanilla - IS
 Wyvern Lord - Armored - Nuramon
-Malig Knight - 
+Malig Knight - Malig Knight - -Pikmin1211/Jj09
 Mage - Vanilla - IS
 Mage (F) - Vanilla - IS
 Sage - Vanilla - IS
@@ -50,12 +50,12 @@ Mage Fighter - Dread Fighter - Nuramon
 Mage Fighter (F) - F!Dread Fighter - Nuramon
 Dark Mage - Shaman - IS
 Dark Mage (F) - Shaman - IS
-Warlock - Druid - IS
-Warlock (F) - Druid - IS
+Warlock - Necromancer Generic - Eldritch Abomination/Shin19
+Warlock (F) - Necromancer Generic - Eldritch Abomination/Shin19
 Summoner - Vanilla - IS
 Summoner (F) - Female - Velvet Kitsune
-Dark Bishop - 
-Dark Bishop (F) - 
+Dark Bishop - Druid - IS
+Dark Bishop (F) - F!Druid - IS
 Fighter - Vanilla - IS
 Brigand - Vanilla - IS
 Pirate - DS Pirate - DerTheVaporeon
@@ -83,7 +83,7 @@ Dancer (F) - Larum - IS
 Soldier - Improved 2.0 - Alusq
 Halberdier - 2.0 - Black Mage
 Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6
-Knight Lord - 
+Knight Lord - Eliwood Repalette - Temp/sniper_zero
 Swordsman - 
 Legend - 
 King - Zephiel King - IS
