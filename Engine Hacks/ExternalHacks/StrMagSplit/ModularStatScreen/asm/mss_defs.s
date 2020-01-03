@@ -17,6 +17,7 @@
 .equ LuckGetter, 0x8019298
 .equ DefGetter, 0x8019250
 .equ ResGetter, 0x8019270
+.equ GetItemHit, 0x080175F4
 .equ DrawIcon, 0x80036BC
 .equ WriteTrvText, 0x80193E8
 .equ WriteStatusText, 0x8019414
@@ -72,7 +73,7 @@
   bx r0 
 .endm
 
-.macro draw_textID_at tile_x, tile_y, textID=0, width=3, colour=3, growth_func=-1		@growth func is # of growth getter in growth_getters_table; 0=hp, 1=str, 2=skl, etc
+.macro draw_textID_at tile_x, tile_y, textID=0, width=3, colour=3, growth_func=-1, pixel_index=0		@growth func is # of growth getter in growth_getters_table; 0=hp, 1=str, 2=skl, etc
   mov r3, r7
   mov r1, #\width
   @r3 is current buffer location, r1 is width.
@@ -109,7 +110,7 @@
   .endif
   mov r0, r7
   ldr r1, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
-  mov r3, #0
+  mov r3, #\pixel_index
   blh DrawText, r4
   .ifge \growth_func
   ldr r1,[sp,#0x14]
@@ -598,8 +599,8 @@
 .macro draw_affinity_icon_at, tile_x, tile_y
   ldr r4, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
   mov r0, r8
-  blh AffinityGetter
-  mov     r1,r0      
+  blh 0x80286D4
+  mov     r1, r0
   mov     r2,#0xA0       
   lsl     r2,r2,#0x7      
   mov     r0,r4    
@@ -640,9 +641,9 @@
   ldr     r0,[r6,#0xC]        @0808753E
   ldr     r0,[r0,#0x4]        @08087540
   ldrb    r0,[r0,#0x4]        @08087542
-  cmp     r0,#0x62        @08087544
+  cmp     r0,#0        @08087544
   beq     loc_0x80875F8        @08087546
-  cmp     r0,#0x34        @08087548
+  cmp     r0,#0        @08087548
   beq     loc_0x808757C        @0808754A
   cmp     r4,#0x0       @0808754C
   blt     loc_0x808757C        @0808754E
@@ -671,9 +672,9 @@
   ldr     r0,[r0,#0xC]        @0808757E
   ldr     r0,[r0,#0x4]        @08087580
   ldrb    r0,[r0,#0x4]        @08087582
-  cmp     r0,#0x62        @08087584
+  cmp     r0,#0        @08087584
   beq     loc_0x80875F8        @08087586
-  cmp     r0,#0x34        @08087588
+  cmp     r0,#0        @08087588
   beq     loc_0x80875F8        @0808758A
   ldr     r4,=#0x200407C        @0808758C
   ldr     r6,=#0x203A4EC        @0808758E
@@ -768,6 +769,18 @@
   ble     loc_0x8087660        @08087670
 .endm
 
+.macro load_stat_box_tsa 
+  ldr     r0,=#0x8A02204        @stat box TSA
+  ldr     r4,=#0x2020188        @buffer
+  mov     r1,r4       
+  blh      #0x8012F50       @CopyDataWithPossibleUncomp
+  ldr     r0,=#0x20049EE        @gbmFrameTmap1+TILEMAP_INDEX(1, 11)
+  mov     r2,#0xC1        
+  lsl     r2,r2,#0x6      @ 0x3040  bytes  
+  mov     r1,r4       
+  blh      #0x80D74A0       @CallARM_FillTileRect
+.endm
+ 
 .macro draw_items_text
   push {r7}
   mov r7, r8
@@ -778,7 +791,7 @@
   ldrb    r0,[r0,#0x4]        @080874AC
   cmp     r0,#0x62        @080874AE
   beq     loc_0x8087532       @080874B0
-  cmp     r0,#0x34        @080874B2
+  cmp     r0,#0        @080874B2
   beq     loc_0x8087532       @080874B4
   mov     r4,#0x0       @080874B6
   ldrh    r5,[r1,#0x1E]       @080874B8
