@@ -447,3 +447,7 @@
 {
 #include "Anims/WyvernRiderHandAxe.event"
 }
+{
+#include "Anims/GeneralBow.event"
+}
+
