@@ -11,7 +11,7 @@ unitCustomizerClassList:
 // RED LOBSTERS
 UnitCustomizerEntry(Michael, Swords, Axes, Lances, Mercenary, IronSword, Vulnerary, Brigand, IronAxe, Vulnerary, Soldier, IronLance, Vulnerary, SwordArmor, IronSword, Vulnerary, MichaelUnitCustomizerDesc)
 UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, Pirate, IronAxe, Vulnerary, AxeKnight, IronAxe, Vulnerary, EricUnitCustomizerDesc)
-UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Deacon, Lightning, Heal, Priest, Heal, Vulnerary, Archer, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
+UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Deacon, Lightning, Heal, Priest, Heal, Vulnerary, LanceKnight, IronLance, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
 UnitCustomizerEntry(QuaSahnt, Reason, Reason, Axes, Mage, Fire, Vulnerary, DarkMage, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, AxeArmor, IronAxe, Vulnerary, QuaSahntUnitCustomizerDesc)
 UnitCustomizerEntry(Innards, Axes, Reason, Bows, WyvernRider, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, InnardsUnitCustomizerDesc)
 UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulnerary, Mage, Fire, Vulnerary, DarkMage, Flux, Vulnerary, SwordArmor, IronSword, Vulnerary, JonathenUnitCustomizerDesc)
