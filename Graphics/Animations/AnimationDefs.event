@@ -1,0 +1,272 @@
+#define MagusMagicAnimID 
+
+#define AetherMagusLanceAnimID 
+#define AetherMagusMagicAnimID 
+
+#define LordSwordAnimID
+#define LordUnarmedAnimID
+
+#define HighLordSwordAnimID
+#define HighLordMagicAnimID
+
+#define BladeMagicAnimID
+
+#define OverlordAxeAnimID
+#define OverlordHandAxeAnimID
+#define OverlordMagicAnimID
+
+#define KnightSwordAnimID
+#define KnightLanceAnimID
+#define KnightAxeAnimID
+#define KnightHandAxeAnimID
+#define KnightUnarmedAnimID
+
+#define KnightFSwordAnimID
+#define KnightFLanceAnimID
+#define KnightFAxeAnimID
+#define KnightFHandAxeAnimID
+#define KnightFUnarmedAnimID
+
+#define BowKnightBowAnimID
+#define BowKnightUnarmedAnimID
+
+#define BowKnightFBowAnimID
+#define BowKnightFUnarmedAnimID
+
+#define PaladinSwordAnimID
+#define PaladinLanceAnimID
+#define PaladinAxeAnimID
+#define PaladinHandAxeAnimID
+#define PaladinUnarmedAnimID
+
+#define PaladinFSwordAnimID
+#define PaladinFLanceAnimID
+#define PaladinFAxeAnimID
+#define PaladinFHandAxeAnimID
+#define PaladinFUnarmedAnimID
+
+#define ArmorSwordAnimID
+#define ArmorLanceAnimID
+#define ArmorAxeAnimID
+#define ArmorHandAxeAnimID
+#define ArmorBowAnimID
+#define ArmorUnarmedAnimID
+
+#define GeneralSwordAnimID
+#define GeneralLanceAnimID
+#define GeneralAxeAnimID
+#define GeneralHandAxeAnimID
+#define GeneralBowAnimID
+#define GeneralUnarmedAnimID
+
+#define GreatKnightSwordAnimID
+#define GreatKnightLanceAnimID
+#define GreatKnightAxeAnimID
+#define GreatKnightHandAxeAnimID
+#define GreatKnightUnarmedAnimID
+
+#define ThiefSwordAnimID
+
+#define ThiefFSwordAnimID
+
+#define AssassinSwordAnimID
+#define AssassinUnarmedAnimID
+
+#define RogueSwordAnimID
+#define RogueUnarmedAnimID
+
+#define RogueFSwordAnimID
+#define RogueFStaffAnimID
+#define RogueFUnarmedAnimID
+
+#define MyrmidonSwordAnimID
+#define MyrmidonUnarmedAnimID
+
+#define MyrmidonFSwordAnimID
+#define MyrmidonFUnarmedAnimID
+
+#define SwordmasterSwordAnimID
+#define SwordmasterUnarmedAnimID
+
+#define SwordmasterFSwordAnimID
+#define SwordmasterFUnarmedAnimID
+
+#define MercenarySwordAnimID
+#define MercenaryUnarmedAnimID
+
+#define HeroSwordAnimID
+#define HeroAxeAnimID
+#define HeroHandAxeAnimID
+#define HeroUnarmedAnimID
+
+#define ArcherBowAnimID
+#define ArcherUnarmedAnimID
+
+#define ArcherFBowAnimID
+#define ArcherFUnarmedAnimID
+
+#define SniperBowAnimID
+#define SniperUnarmedAnimID
+
+#define SniperFBowAnimID
+#define SniperFUnarmedAnimID
+
+#define HorsemanSwordAnimID
+#define HorsemanBowAnimID
+#define HorsemanUnarmedAnimID
+
+#define HorsemanFSwordAnimID
+#define HorsemanFBowAnimID
+#define HorsemanFUnarmedAnimID
+
+#define WyvernRiderAxeAnimID
+#define WyvernRiderHandAxeAnimID
+#define WyvernRiderUnarmedAnimID
+
+#define WyvernLordLanceAnimID
+#define WyvernLordAxeAnimID
+#define WyvernLordHandAxeAnimID
+#define WyvernLordUnarmedAnimID
+
+#define MaligKnightAxeAnimID
+#define MaligKnightHandAxeAnimID
+#define MaligKnightMagicAnimID
+
+#define MageMagicAnimID
+
+#define MageFMagicAnimID
+
+#define SageMagicAnimID
+
+#define SafeFMagicAnimID
+
+#define MageKnightMagicAnimID
+
+#define MageKnightFMagicAnimID
+
+#define MageFighterSwordAnimID
+#define MageFighterMagicAnimID
+
+#define MageFighterFSwordAnimID
+#define MageFighterFMagicAnimID
+
+#define DarkMageMagicAnimID
+
+#define DarkMageFMagicAnimID
+
+#define WarlockMagicAnimID
+
+#define WarlockFMagicAnimID
+
+#define SummonerMagicAnimID
+
+#define SummonerFMagicAnimID
+
+#define DarkBishopMagicAnimID
+
+#define DarkBishopFMagicAnimID
+
+#define FighterAxeAnimID
+#define FighterHandAxeAnimID
+#define FighterUnarmedAnimID
+
+#define BrigandAxeAnimID
+#define BrigandHandAxeAnimID
+#define BrigandUnarmedAnimID
+
+#define PirateAxeAnimID
+#define PirateHandAxeAnimID
+#define PirateUnarmedAnimID
+
+#define WarriorAxeAnimID
+#define WarriorHandAxeAnimID
+#define WarriorBowAnimID
+#define WarriorUnarmedAnimID
+
+#define BerserkerAxeAnimID
+#define BerserkerHandAxeAnimID
+#define BerserkerUnarmedAnimID
+
+#define MonkMagicAnimID
+
+#define PriestMagicAnimID
+
+#define BuffPriestMagicAnimID
+
+#define ClericMagicAnimID
+
+#define DeaconMagicAnimID
+
+#define TroubadourMagicAnimID
+
+#define BishopMagicAnimID
+
+#define BishopFMagicAnimID
+
+#define HolyKnightLanceAnimID
+#define HolyKnightMagicAnimID
+
+#define HolyKnightFLanceAnimID
+#define HolyKnightFMagicAnimID
+
+#define DarkKnightSwordAnimID
+#define DarkKnightMagicAnimID
+
+#define WarMonkAxeAnimID
+#define WarMonkHandAxeAnimID
+#define WarMonkMagicAnimID
+
+#define WarClericAxeAnimID
+#define WarClearicHandAxeAnimID
+#define WarClericMagicAnimID
+
+#define TemplarMagicAnimID
+
+#define ValkyrieMagicAnimID
+
+#define PegasusRiderLanceAnimID
+#define PegasusRiderUnarmedAnimID
+
+#define FalcoknightSwordAnimID
+#define FalcoknightLanceAnimID
+#define FalcoknightUnarmedAnimID
+
+#define DancerMMagicAnimID
+#define DancerMDanceAnimID
+
+#define DancerFSwordAnimID
+#define DancerFDanceAnimID
+
+#define SoldierLanceAnimID
+#define SoldierUnarmedAnimID
+
+#define HalberdierLanceAnimID
+#define HalberdierUnarmedAnimID
+
+#define DragoonLanceAnimID
+#define DragoonUnarmedAnimID
+
+#define KnightLordSwordAnimID
+#define KnightLordLanceAnimID
+#define KnightLordUnarmedAnimID
+
+#define SwordsmanSwordAnimID
+#define SwordsmanUnarmedAnimID
+
+#define LegendSwordAnimID
+#define LegendUnarmedAnimID
+
+#define KingSwordAnimID
+#define KingUnarmedAnimID
+
+#define FleetBowAnimID
+
+#define DracoZombieAttackAnimID
+
+#define ManaketeMorvaAttackAnimID
+
+#define ManaketeMyrrhAttackAnimID
+
+#define BearAttackAnimID
+
+#define WyvernAttackAnimID

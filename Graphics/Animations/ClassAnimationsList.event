@@ -1,167 +1,657 @@
+#include "AnimationDefs.event"
 #include "VanillaAnimationList.event" // Oh you know asides from a few
 // Free Anims Start at 0xA0
 
-// Anim Fixes
-PUSH
-ORG 0x8AF504
-BYTE Faith
+//////////////////////////////////////////////
 
-POP
+#define Item 9
+#define Spears 1
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define LanceAnim(Animation) "BYTE Spears 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation; BYTE ShortAxe 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define ReasonAnim(Animation) "BYTE Reason 0x01 ; SHORT Animation"
+#define FaithAnim(Animation) "BYTE Faith 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Item 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+#define MonsterAnim(Animation) "BYTE 0xB 0x01; SHORT Animation"
 
-ALIGN 4
-#define MaleCavalierSwordAnimID 0xA0
-#define MaleCavalierLanceAnimID 0xA1
-#define MaleCavalierAxeAnimID 0xA2
-#define MaleCavalierHandAxeAnimID 0xA3
-#define MaleCavalierUnarmedAnimID 0xA4
-MaleCavalierAnimationList:
-BYTE Swords 1
-SHORT MaleCavalierSwordAnimID
-BYTE Lances 1
-SHORT MaleCavalierLanceAnimID
-BYTE Axes 1
-SHORT MaleCavalierAxeAnimID
-BYTE 0x28 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x29 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x2C 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x9 1
-SHORT MaleCavalierUnarmedAnimID
-SHORT 0 0
+///////////////////////////////////////////////
 
 ALIGN 4
-#define MaleCavalierBowAnimID 0x2F
-#define MaleCavalierBowUnarmedAnimID 0x30
-MaleCavalierBowAnimationList:
-BYTE Bows 1
-SHORT MaleCavalierBowAnimID
-BYTE 0x9 1
-SHORT MaleCavalierBowUnarmedAnimID
-SHORT 0 0
+MagusAnimationList:
+ReasonAnim(MagusMagicAnimID)
+UnarmedAnim(MagusMagicAnimID)
+WORD 0
 
 ALIGN 4
-#define FemaleCavalierSwordAnimID 0xA5
-#define FemaleCavalierLanceAnimID 0xA6
-#define FemaleCavalierAxeAnimID 0xA7
-#define FemaleCavalierUnarmedAnimID 0xA8
-FemaleCavalierAnimationList:
-BYTE Swords 1
-SHORT MaleCavalierSwordAnimID
-BYTE Lances 1
-SHORT MaleCavalierLanceAnimID
-BYTE Axes 1
-SHORT MaleCavalierAxeAnimID
-BYTE 0x28 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x29 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x2C 0
-SHORT MaleCavalierHandAxeAnimID
-BYTE 0x9 1
-SHORT MaleCavalierUnarmedAnimID
-SHORT 0 0
+AetherMagusAnimationList:
+LanceAnim(AetherMagusLanceAnimID)
+ReasonAnim(AetherMagusMagicAnimID)
+UnarmedAnim(AetherMagusMagicAnimID)
+WORD 0
 
 ALIGN 4
-#define FemaleCavalierBowAnimID 0x32
-#define FemaleCavalierBowUnarmedAnimID 0x33
-FemaleCavalierBowAnimationList:
-BYTE Bows 1
-SHORT FemaleCavalierBowAnimID
-BYTE 0x9 1
-SHORT FemaleCavalierBowUnarmedAnimID
-SHORT 0 0
+LordAnimationList:
+SwordAnim(LordSwordAnimID)
+UnarmedAnim(LordUnarmedAnimID)
+WORD 0
 
 ALIGN 4
-#define KnightSwordAnimID 0xA9
-#define KnightLanceAnimID 0x40
-#define KnightAxeAnimID 0xAB
-#define KnightHandAxeAnimID 0xAC
-#define KnightBowAnimID 0xAD
-#define KnightUnarmedAnimID 0x41
-KnightAnimationList:
-BYTE Swords 1
-SHORT KnightSwordAnimID
-BYTE Lances 1
-SHORT KnightLanceAnimID
-BYTE Axes 1
-SHORT KnightAxeAnimID
-BYTE 0x28 0
-SHORT KnightHandAxeAnimID
-BYTE 0x29 0
-SHORT KnightHandAxeAnimID
-BYTE 0x2C 0
-SHORT KnightHandAxeAnimID
-BYTE Bows 1
-SHORT KnightBowAnimID
-BYTE 0x9 1
-SHORT KnightUnarmedAnimID
-SHORT 0 0
+HighLordAnimationList:
+SwordAnim(HighLordSwordAnimID)
+ReasonAnim(HighLordMagicAnimID)
+UnarmedAnim(HighLordMagicAnimID)
+WORD 0
 
 ALIGN 4
+BladeAnimationList:
+FaithAnim(BladeMagicAnimID)
+UnarmedAnim(BladeMagicAnimID)
+WORD 0
 
-#define VergilSwordAnimID 0x01
-#define VergilUnarmedAnimID 0x02
-//yay, time crunch!
+ALIGN 4
+OverlordAnimationList:
+AxeAnim(OverlordAxeAnimID)
+HandAxeAnim(OverlordHandAxeAnimID)
+FaithAnim(OverlordMagicAnimID)
+UnarmedAnim(OverlordMagicAnimID)
+WORD 0
 
-VergilLordAnimationList:
-BYTE Swords 1
-SHORT VergilSwordAnimID
-BYTE 0x9 1
-SHORT VergilUnarmedAnimID
-SHORT 0 0
+ALIGN 4
+SwordKnightAnimationList:
+SwordAnim(KnightSwordAnimID)
+UnarmedAnim(KnightUnarmedAnimID)
+WORD 0
 
-#define FThiefAnimID 0x8A
+ALIGN 4
+SwordKnightFAnimationList:
+SwordAnim(KnightFSwordAnimID)
+UnarmedAnim(KnightFUnarmedAnimID)
+WORD 0
 
-PUSH
-ORG 0x8AF0A6
-SHORT 0x89 //free up an anim slot for f!thief
-POP
+ALIGN 4
+LanceKnightAnimationList:
+LanceAnim(KnightLanceAnimID)
+UnarmedAnim(KnightUnarmedAnimID)
+WORD 0
 
+ALIGN 4
+LanceKnightFAnimationList:
+LanceAnim(KnightFLanceAnimID)
+UnarmedAnim(KnightFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+AxeKnightAnimationList:
+AxeAnim(KnightAxeAnimID)
+HandAxeAnim(KnightHandAxeAnimID)
+UnarmedAnim(KnightUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+AxeKnightFAnimationList:
+AxeAnim(KnightFAxeAnimID)
+HandAxeAnim(KnightFHandAxeAnimID)
+UnarmedAnim(KnightFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+BowKnightAnimationList:
+BowAnim(BowKnightBowAnimID)
+UnarmedAnim(BowKnightUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+BowKnightFAnimationList:
+BowAnim(BowKnightFBowAnimID)
+UnarmedAnim(BowKnightFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+PaladinAnimationList:
+SwordAnim(PaladinSwordAnimID)
+LanceAnim(PaladinLanceAnimID)
+AxeAnim(PaladinAxeAnimID)
+HandAxeAnim(PaladinHandAxeAnimID)
+UnarmedAnim(PaladinUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+PaladinFAnimationList:
+SwordAnim(PaladinFSwordAnimID)
+LanceAnim(PaladinFLanceAnimID)
+AxeAnim(PaladinFAxeAnimID)
+HandAxeAnim(PaladinFHandAxeAnimID)
+UnarmedAnim(PaladinFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+SwordArmorAnimationList:
+SwordAnim(ArmorSwordAnimID)
+UnarmedAnim(ArmorUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+LanceArmorAnimationList:
+LanceAnim(ArmorLanceAnimID)
+UnarmedAnim(ArmorUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+AxeArmorAnimationList:
+AxeAnim(ArmorAxeAnimID)
+HandAxeAnim(ArmorHandAxeAnimID)
+UnarmedAnim(ArmorUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+BowArmorAnimationList:
+BowAnim(ArmorBowAnimID)
+UnarmedAnim(ArmorUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+GeneralAnimationList:
+SwordAnim(GeneralSwordAnimID)
+LanceAnim(GeneralLanceAnimID)
+AxeAnim(GeneralAxeAnimID)
+HandAxeAnim(GeneralHandAxeAnimID)
+BowAnim(GeneralBowAnimID)
+UnarmedAnim(GeneralUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+GreatKnightAnimationList:
+SwordAnim(GreatKnightSwordAnimID)
+LanceAnim(GreatKnightLanceAnimID)
+AxeAnim(GreatKnightAxeAnimID)
+HandAxeAnim(GreatKnightHandAxeAnimID)
+UnarmedAnim(GreatKnightUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+ThiefAnimationList:
+SwordAnim(ThiefSwordAnimID)
+UnarmedAnim(ThiefSwordAnimID)
+WORD 0
+
+ALIGN 4
 ThiefFAnimationList:
-BYTE Swords 1
-SHORT FThiefAnimID
-BYTE 0x9 1
-SHORT FThiefAnimID
-SHORT 0 0
+SwordAnim(ThiefFSwordAnimID)
+UnarmedAnim(ThiefFSwordAnimID)
+WORD 0
 
-#define BearAnimID 0xAE
+ALIGN 4
+AssassinAnimationList:
+SwordAnim(AssassinSwordAnimID)
+UnarmedAnim(AssassinUnarmedAnimID)
+WORD 0
 
-BearAnimationList:
-BYTE 0xB 0x01
-SHORT BearAnimID
-BYTE 0x9 0x01
-SHORT BearAnimID
-SHORT 0 0
+ALIGN 4
+RogueAnimationList:
+SwordAnim(RogueSwordAnimID)
+UnarmedAnim(RogueUnarmedAnimID)
+WORD 0
 
-#define ElleMagicAnimID 0xAF
-#define ElleStaffAnimID 0xB0
+ALIGN 4
+RogueFAnimationList:
+SwordAnim(RogueFSwordAnimID)
+FaithAnim(RogueFStaffAnimID)
+UnarmedAnim(RogueFUnarmedAnimID)
+WORD 0
 
-ElleLordAnimationList:
-BYTE Faith 1
-SHORT ElleStaffAnimID
-BYTE 0x9 1
-SHORT ElleMagicAnimID
-SHORT 0 0
+ALIGN 4
+MyrmidonAnimationList:
+SwordAnim(MyrmidonSwordAnimID)
+UnarmedAnim(MyrmidonUnarmedAnimID)
+WORD 0
 
-#define ClericUnarmedAnimID 0xB1
+ALIGN 4
+MyrmidonFAnimationList:
+SwordAnim(MyrmidonFSwordAnimID)
+UnarmedAnim(MyrmidonFUnarmedAnimID)
+WORD 0
 
-PUSH
-ORG $8AF4F8
-BYTE 6
-ORG $8AF4FE
-SHORT ClericUnarmedAnimID
-POP
+ALIGN 4
+SwordmasterAnimationList:
+SwordAnim(SwordmasterSwordAnimID)
+UnarmedAnim(SwordmasterUnarmedAnimID)
+WORD 0
 
-#define PriestStaffAnimID 0x7F
-#define PriestUnarmedAnimID 0x7E
+ALIGN 4
+SwordmasterFAnimationList:
+SwordAnim(SwordmasterFSwordAnimID)
+UnarmedAnim(SwordmasterFUnarmedAnimID)
+WORD 0
 
+ALIGN 4
+MercenaryAnimationList:
+SwordAnim(MercenarySwordAnimID)
+UnarmedAnim(MercenaryUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+MercenaryFAnimationList:
+SwordAnim(MercenarySwordAnimID)
+UnarmedAnim(MercenaryUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+HeroAnimationList:
+SwordAnim(HeroSwordAnimID)
+AxeAnim(HeroAxeAnimID)
+HandAxeAnim(HeroHandAxeAnimID)
+UnarmedAnim(HeroUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+ArcherAnimationList:
+BowAnim(ArcherBowAnimID)
+UnarmedAnim(ArcherUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+ArcherFAnimationList:
+BowAnim(ArcherFBowAnimID)
+UnarmedAnim(ArcherFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+SniperAnimationList:
+BowAnim(SniperBowAnimID)
+UnarmedAnim(SniperUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+SniperFAnimationList:
+BowAnim(SniperFBowAnimID)
+UnarmedAnim(SniperFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+HorsemanAnimationList:
+SwordAnim(HorsemanSwordAnimID)
+BowAnim(HorsemanBowAnimID)
+UnarmedAnim(HorsemanUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+HorsemanFAnimationList:
+SwordAnim(HorsemanFSwordAnimID)
+BowAnim(HorsemanFBowAnimID)
+UnarmedAnim(HorsemanFUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+WyvernRiderAnimationList:
+AxeAnim(WyvernRiderAxeAnimID)
+HandAxeAnim(WyvernRiderHandAxeAnimID)
+UnarmedAnim(WyvernRiderUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+WyvernLordAnimationList:
+LanceAnim(WyvernLordLanceAnimID)
+AxeAnim(WyvernLordAxeAnimID)
+HandAxeAnim(WyvernLordHandAxeAnimID)
+UnarmedAnim(WyvernLordUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+MaligKnightAnimationList:
+AxeAnim(MaligKnightAxeAnimID)
+HandAxeAnim(MaligKnightHandAxeAnimID)
+ReasonAnim(MaligKnightMagicAnimID)
+UnarmedAnim(MaligKnightMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageAnimationList:
+ReasonAnim(MageMagicAnimID)
+UnarmedAnim(MageMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageFAnimationList:
+ReasonAnim(MageFMagicAnimID)
+UnarmedAnim(MageFMagicAnimID)
+WORD 0
+
+ALIGN 4
+SageAnimationList:
+ReasonAnim(SageMagicAnimID)
+FaithAnim(SageMagicAnimID)
+UnarmedAnim(SageMagicAnimID)
+WORD 0
+
+ALIGN 4
+SageFAnimationList:
+ReasonAnim(SageFMagicAnimID)
+FaithAnim(SageFMagicAnimID)
+UnarmedAnim(SageFMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageKnightAnimationList:
+ReasonAnim(MageKnightMagicAnimID)
+FaithAnim(MageKnightMagicAnimID)
+UnarmedAnim(MageKnightMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageKnightFAnimationList:
+ReasonAnim(MageKnightFMagicAnimID)
+FaithAnim(MageKnightFMagicAnimID)
+UnarmedAnim(MageKnightFMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageFighterAnimationList:
+SwordAnim(MageFighterSwordAnimID)
+ReasonAnim(MageFighterMagicAnimID)
+UnarmedAnim(MageFighterMagicAnimID)
+WORD 0
+
+ALIGN 4
+MageFighterFAnimationList:
+SwordAnim(MageFighterFSwordAnimID)
+ReasonAnim(MageFighterFMagicAnimID)
+UnarmedAnim(MageFighterFMagicAnimID)
+WORD 0
+
+ALIGN 4
+DarkMageAnimationList:
+ReasonAnim(DarkMageMagicAnimID)
+UnarmedAnim(DarkMageMagicAnimID)
+WORD 0
+
+ALIGN 4
+DarkMageFAnimationList:
+ReasonAnim(DarkMageFMagicAnimID)
+UnarmedAnim(DarkMageFMagicAnimID)
+WORD 0
+
+ALIGN 4
+WarlockAnimationList:
+ReasonAnim(WarlockMagicAnimID)
+FaithAnim(WarlockMagicAnimID)
+UnarmedAnim(WarlockMagicAnimID)
+WORD 0
+
+ALIGN 4
+WarlockFAnimationList:
+ReasonAnim(WarlockFMagicAnimID)
+FaithAnim(WarlockFMagicAnimID)
+UnarmedAnim(WarlockFMagicAnimID)
+WORD 0
+
+ALIGN 4
+SummonerAnimationList:
+ReasonAnim(SummonerMagicAnimID)
+FaithAnim(SummonerMagicAnimID)
+UnarmedAnim(SummonerMagicAnimID)
+WORD 0
+
+ALIGN 4
+SummonerFAnimationList:
+ReasonAnim(SummonerFMagicAnimID)
+FaithAnim(SummonerFMagicAnimID)
+UnarmedAnim(SummonerFMagicAnimID)
+WORD 0
+
+ALIGN 4
+DarkBishopAnimationList:
+ReasonAnim(DarkBishopMagicAnimID)
+FaithAnim(DarkBishopMagicAnimID)
+UnarmedAnim(DarkBishopMagicAnimID)
+WORD 0
+
+ALIGN 4
+DarkBishopFAnimationList:
+ReasonAnim(DarkBishopFMagicAnimID)
+FaithAnim(DarkBishopFMagicAnimID)
+UnarmedAnim(DarkBishopFMagicAnimID)
+WORD 0
+
+ALIGN 4
+FighterAnimationList:
+AxeAnim(FighterAxeAnimID)
+HandAxeAnim(FighterHandAxeAnimID)
+UnarmedAnim(FighterUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+BrigandAnimationList:
+AxeAnim(BrigandAxeAnimID)
+HandAxeAnim(BrigandHandAxeAnimID)
+UnarmedAnim(BrigandUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+PirateAnimationList:
+AxeAnim(PirateAxeAnimID)
+HandAxeAnim(PirateHandAxeAnimID)
+UnarmedAnim(PirateUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+WarriorAnimationList:
+AxeAnim(WarriorAxeAnimID)
+HandAxeAnim(WarriorHandAxeAnimID)
+BowAnim(WarriorBowAnimID)
+UnarmedAnim(WarriorUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+BerserkerAnimationList:
+AxeAnim(BerserkerAxeAnimID)
+HandAxeAnim(BerserkerHandAxeAnimID)
+UnarmedAnim(BerserkerUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+MonkAnimationList:
+FaithAnim(MonkMagicAnimID)
+UnarmedAnim(MonkMagicAnimID)
+WORD 0
+
+ALIGN 4
 PriestAnimationList:
-BYTE Faith 1
-SHORT PriestStaffAnimID
-BYTE 0x9 1
-SHORT PriestUnarmedAnimID
-SHORT 0 0
+FaithAnim(PriestMagicAnimID)
+UnarmedAnim(PriestMagicAnimID)
+WORD 0
+
+ALIGN 4
+BuffPriestAnimationList:
+FaithAnim(BuffPriestMagicAnimID)
+UnarmedAnim(BuffPriestMagicAnimID)
+WORD 0
+
+ALIGN 4
+ClericAnimationList:
+FaithAnim(ClericMagicAnimID)
+UnarmedAnim(ClericMagicAnimID)
+WORD 0
+
+ALIGN 4
+DeaconAnimationList:
+FaithAnim(DeaconMagicAnimID)
+UnarmedAnim(DeaconMagicAnimID)
+WORD 0
+
+ALIGN 4
+TroubadourAnimationList:
+FaithAnim(TroubadourMagicAnimID)
+UnarmedAnim(TroubadourMagicAnimID)
+WORD 0
+
+ALIGN 4
+BishopAnimationList:
+FaithAnim(BishopMagicAnimID)
+ReasonAnim(BishopMagicAnimID)
+UnarmedAnim(BishopMagicAnimID)
+WORD 0
+
+ALIGN 4
+BishopFAnimationList:
+FaithAnim(BishopFMagicAnimID)
+ReasonAnim(BishopFMagicAnimID)
+UnarmedAnim(BishopFMagicAnimID)
+WORD 0
+
+ALIGN 4
+HolyKnightAnimationList:
+LanceAnim(HolyKnightLanceAnimID
+FaithAnim(HolyKnightMagicAnimID)
+UnarmedAnim(HolyKnightMagicAnimID)
+WORD 0
+
+ALIGN 4
+HolyKnightFAnimationList:
+LanceAnim(HolyKnightFLanceAnimID
+FaithAnim(HolyKnightFMagicAnimID)
+UnarmedAnim(HolyKnightFMagicAnimID)
+WORD 0
+
+ALIGN 4
+DarkKnightAnimationList:
+SwordAnim(DarkKnightSwordAnimID)
+ReasonAnim(DarkKnightMagicAnimID)
+UnarmedAnim(DarkKnightMagicAnimID)
+WORD 0
+
+ALIGN 4
+WarMonkAnimationList:
+AxeAnim(WarMonkAxeAnimID)
+HandAxeAnim(WarMonkHandAxeAnimID)
+FaithAnim(WarMonkMagicAnimID)
+UnarmedAnim(WarMonkMagicAnimID)
+WORD 0
+
+ALIGN 4
+WarClericAnimationList:
+AxeAnim(WarMonkFAxeAnimID)
+HandAxeAnim(WarMonkFHandAxeAnimID)
+FaithAnim(WarMonkFMagicAnimID)
+UnarmedAnim(WarMonkFMagicAnimID)
+WORD 0
+
+ALIGN 4
+TemplarAnimationList:
+FaithAnim(TemplarMagicAnimID)
+ReasonAnim(TemplarMagicAnimID)
+UnarmedAnim(TemplarMagicAnimID)
+WORD 0
+
+ALIGN 4
+ValkyrieAnimationList:
+FaithAnim(ValkyrieMagicAnimID)
+ReasonAnim(ValkyrieMagicAnimID)
+UnarmedAnim(ValkyrieMagicAnimID)
+WORD 0
+
+ALIGN 4
+PegasusRiderAnimationList:
+LanceAnim(PegasusRiderLanceAnimID)
+UnarmedAnim(PegasusRiderUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+FalcoknightAnimationList:
+SwordAnim(FalcoknightSwordAnimID)
+LanceAnim(FalcoknightLanceAnimID)
+UnarmedAnim(FalcoknightUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+DancerMAnimationList:
+FaithAnim(DancerMMagicAnimID)
+UnarmedAnim(DancerMDanceAnimID)
+WORD 0
+
+ALIGN 4
+DancerFAnimationList:
+SwordAnim(DancerFSwordAnimID)
+UnarmedAnim(DancerFDanceAnimID)
+WORD 0
+
+ALIGN 4
+SoldierAnimationList:
+LanceAnim(SoldierLanceAnimID)
+UnarmedAnim(SoldierUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+HalberdierAnimationList:
+LanceAnim(HalberdierLanceAnimID)
+UnarmedAnim(HalberdierUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+DragoonAnimationList:
+LanceAnim(DragoonLanceAnimID)
+UnarmedAnim(DragoonUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+KnightLordAnimationList:
+SwordAnim(KnightLordSwordAnimID)
+LanceAnim(KnightLordLanceAnimID)
+UnarmedAnim(KnightLordUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+SwordsmanAnimationList:
+SwordAnim(SwordsmanSwordAnimID)
+UnarmedAnim(SwordsmanUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+LegendAnimationList:
+SwordAnim(LegendSwordAnimID)
+UnarmedAnim(LegendUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+KingAnimationList:
+SwordAnim(KingSwordAnimID)
+UnarmedAnim(KingUnarmedAnimID)
+WORD 0
+
+ALIGN 4
+FleetAnimationList:
+BowAnim(FleetBowAnimID)
+UnarmedAnim(FleetBowAnimID)
+WORD 0
+
+ALIGN 4
+DracoZombieAnimationList:
+SpecialAnim(DracoZombieAttackAnimID,WretchedAir)
+UnarmedAnim(DracoZombieAttackAnimID)
+WORD 0
+
+ALIGN 4
+ManaketeMorvaAnimationList:
+SpecialAnim(ManaketeMorvaAttackAnimID,WretchedAir)
+UnarmedAnim(ManaketeMorvaAttackAnimID)
+WORD 0
+
+ALIGN 4
+ManaketeMyrrhAnimationList:
+SpecialAnim(ManaketeMyrrhAttackAnimID,Dragonstone)
+UnarmedAnim(ManaketeMyrrhAttackAnimID)
+WORD 0
+
+ALIGN 4
+BearAnimationList:
+MonsterAnim(BearAttackAnimID)
+WORD 0
+
+ALIGN 4
+WyvernAnimationList:
+MonsterAnim(WyvernAttackAnimID)
+WORD 0
 
 #include "AnimationInstaller.event"

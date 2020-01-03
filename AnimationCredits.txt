@@ -1,7 +1,7 @@
 Magus - Battle Sage
 Aether Magus - 
 Lord - Ephraim Sword/Unarmed - DerTheVaporeon
-High Lord - Hector Brave - Nuramon
+High Lord - Hector Brave - Nuramon !!! Magic Anim Does Not Exist !!!
 Blade - Custom anim - L95
 Overlord - 
 Sword Knight - SalvCav Sword/Unarmed - Team SALVAGED
@@ -18,7 +18,7 @@ Sword Armor - SalvKnight Sword/Unarmed - Team SALVAGED
 Lance Armor - SalvKnight Lance/Unarmed - Team SALVAGED
 Axe Armor - SalvKnight Axe/Handaxe/Unarmed - Team SALVAGED
 Bow Armor - SalvKnight Bow/Unarmed - Team SALVAGED
-General - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon
+General - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon !!! Bow Anim Does Not Exist !!!
 Great Knight - Repalette - Skitty
 Thief - Matthew Repalette - Eldritch Abomination
 Thief (F) - Leila Repalette - Eldritch Abomination
@@ -39,7 +39,7 @@ Horseman - Vanilla Ranger - IS (for now)
 Horseman (F) - Vanilla Ranger - IS (for now)
 Wyvern Rider - Vanilla - IS
 Wyvern Lord - Armored - Nuramon
-Malig Knight - Malig Knight - -Pikmin1211/Jj09
+Malig Knight - Malig Knight - Pikmin1211/Jj09
 Mage - Vanilla - IS
 Mage (F) - Vanilla - IS
 Sage - Vanilla - IS
@@ -62,7 +62,7 @@ Pirate - DS Pirate - DerTheVaporeon
 Warrior - Repalette - helmfried
 Berserker - Derzerker - DerTheVaporeon
 Monk - Repalette - Teraspark
-Priest - Repalette - Eldritch Abomination
+Priest - Repalette - Eldritch Abomination/flasuban/Sme
 Buff Priest - Buff Generic Repalette - Vilkalizer
 Cleric - Repalette - Eldritch Abomination 
 Deacon - Deacon Repalette + Sword, Magic - Pikmin1211/GabrielKnight/Maiser6/Lisandra_Brave/TBA
@@ -78,14 +78,14 @@ Templar - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211
 Valkyrie - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211
 Pegasus Rider - Outfit Repalette - Jeorge_Reds
 Falcoknight - Outfit Repalette +Weapons - Jeorge_Reds/ShadowOfChaos
-Dancer (M) - Dancer - L95
-Dancer (F) - Larum - IS
+Dancer (M) - Dancer - L95 !!! Magic Anim Does Not Exist !!!
+Dancer (F) - Larum - IS !!! Sword Anim Does Not Exist !!!
 Soldier - Improved 2.0 - Alusq
 Halberdier - 2.0 - Black Mage
 Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6
 Knight Lord - Eliwood Repalette - Temp/sniper_zero
 Swordsman - 
 Legend - 
-King - Zephiel King - IS
+King - Baron Cape - Leo_link, Nuramon, Iscaneus
 Bear - Bear - Grated Shtick
 Wyvern - Wild Wyvern - Mercenary Lord/FaerieFruit (unless someone makes it better)
