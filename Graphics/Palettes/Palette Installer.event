@@ -130,3 +130,6 @@ AugusutusDancerPalette:
 PaulMyrmidonPalette:
 	#incbin "./_palettes/PaulMyrmidonPalette.lzpal" 
 
+RunaBowKnightPalette:
+	#incbin "./_palettes/RunaBowKnightPalette.lzpal" 
+

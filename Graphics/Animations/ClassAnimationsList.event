@@ -12,7 +12,6 @@ ALIGN 4
 #define MaleCavalierSwordAnimID 0xA0
 #define MaleCavalierLanceAnimID 0xA1
 #define MaleCavalierAxeAnimID 0xA2
-#define MaleCavalierBowAnimID 0x2F
 #define MaleCavalierHandAxeAnimID 0xA3
 #define MaleCavalierUnarmedAnimID 0xA4
 MaleCavalierAnimationList:
@@ -28,17 +27,24 @@ BYTE 0x29 0
 SHORT MaleCavalierHandAxeAnimID
 BYTE 0x2C 0
 SHORT MaleCavalierHandAxeAnimID
+BYTE 0x9 1
+SHORT MaleCavalierUnarmedAnimID
+SHORT 0 0
+
+ALIGN 4
+#define MaleCavalierBowAnimID 0x2F
+#define MaleCavalierBowUnarmedAnimID 0x30
+MaleCavalierBowAnimationList:
 BYTE Bows 1
 SHORT MaleCavalierBowAnimID
 BYTE 0x9 1
-SHORT MaleCavalierUnarmedAnimID
+SHORT MaleCavalierBowUnarmedAnimID
 SHORT 0 0
 
 ALIGN 4
 #define FemaleCavalierSwordAnimID 0xA5
 #define FemaleCavalierLanceAnimID 0xA6
 #define FemaleCavalierAxeAnimID 0xA7
-#define FemaleCavalierBowAnimID 0x32
 #define FemaleCavalierUnarmedAnimID 0xA8
 FemaleCavalierAnimationList:
 BYTE Swords 1
@@ -53,10 +59,18 @@ BYTE 0x29 0
 SHORT MaleCavalierHandAxeAnimID
 BYTE 0x2C 0
 SHORT MaleCavalierHandAxeAnimID
-BYTE Bows 1
-SHORT MaleCavalierBowAnimID
 BYTE 0x9 1
 SHORT MaleCavalierUnarmedAnimID
+SHORT 0 0
+
+ALIGN 4
+#define FemaleCavalierBowAnimID 0x32
+#define FemaleCavalierBowUnarmedAnimID 0x33
+FemaleCavalierBowAnimationList:
+BYTE Bows 1
+SHORT FemaleCavalierBowAnimID
+BYTE 0x9 1
+SHORT FemaleCavalierBowUnarmedAnimID
 SHORT 0 0
 
 ALIGN 4

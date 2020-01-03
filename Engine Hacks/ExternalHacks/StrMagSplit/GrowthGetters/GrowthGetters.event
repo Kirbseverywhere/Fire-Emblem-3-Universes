@@ -17,6 +17,7 @@
 	#incbin "Get_Mag_Growth.dmp"
 	POIN Extra_Growth_Boosts|1
 	POIN MagCharTable
+	POIN MagClassTable
 	ALIGN 4
 	
 	Get_Skl_Growth:

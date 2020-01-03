@@ -299,3 +299,9 @@
 	auto
 	auto
 	
+# char{0x2C} "RunaBowKnightPalette" set{Runa, 0x0, BowKnight_F} auto{0}
+	344FCD41F566DE7BF431FE3EFF5BA5140F00940C19190D119121CA087015162A
+	auto
+	auto
+	auto
+	auto
