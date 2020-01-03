@@ -4,8 +4,6 @@
 
 @cd %~dp0
 
-@cd "%~dp0convert"
-
-@dir *.dmp /b > files.txt
+@dir *.event /b > files.txt
 
 @pause
