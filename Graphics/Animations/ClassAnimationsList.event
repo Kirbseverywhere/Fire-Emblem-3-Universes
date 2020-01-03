@@ -9,7 +9,7 @@
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define LanceAnim(Animation) "BYTE Spears 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation; BYTE ShortAxe 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
 #define ReasonAnim(Animation) "BYTE Reason 0x01 ; SHORT Animation"
 #define FaithAnim(Animation) "BYTE Faith 0x01 ; SHORT Animation"
@@ -47,7 +47,7 @@ WORD 0
 
 ALIGN 4
 BladeAnimationList:
-FaithAnim(BladeMagicAnimID)
+FaithAnim(BladeStaffAnimID)
 UnarmedAnim(BladeMagicAnimID)
 WORD 0
 
@@ -286,6 +286,7 @@ WORD 0
 
 ALIGN 4
 WyvernRiderAnimationList:
+LanceAnim(WyvernRiderLanceAnimID)
 AxeAnim(WyvernRiderAxeAnimID)
 HandAxeAnim(WyvernRiderHandAxeAnimID)
 UnarmedAnim(WyvernRiderUnarmedAnimID)
@@ -460,57 +461,57 @@ WORD 0
 ALIGN 4
 PriestAnimationList:
 FaithAnim(PriestMagicAnimID)
-UnarmedAnim(PriestMagicAnimID)
+UnarmedAnim(PriestUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 BuffPriestAnimationList:
 FaithAnim(BuffPriestMagicAnimID)
-UnarmedAnim(BuffPriestMagicAnimID)
+UnarmedAnim(BuffPriestUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 ClericAnimationList:
 FaithAnim(ClericMagicAnimID)
-UnarmedAnim(ClericMagicAnimID)
+UnarmedAnim(ClericUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 DeaconAnimationList:
 FaithAnim(DeaconMagicAnimID)
-UnarmedAnim(DeaconMagicAnimID)
+UnarmedAnim(DeaconUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 TroubadourAnimationList:
 FaithAnim(TroubadourMagicAnimID)
-UnarmedAnim(TroubadourMagicAnimID)
+UnarmedAnim(TroubadourUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 BishopAnimationList:
 FaithAnim(BishopMagicAnimID)
 ReasonAnim(BishopMagicAnimID)
-UnarmedAnim(BishopMagicAnimID)
+UnarmedAnim(BishopUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 BishopFAnimationList:
 FaithAnim(BishopFMagicAnimID)
 ReasonAnim(BishopFMagicAnimID)
-UnarmedAnim(BishopFMagicAnimID)
+UnarmedAnim(BishopFUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 HolyKnightAnimationList:
-LanceAnim(HolyKnightLanceAnimID
+LanceAnim(HolyKnightLanceAnimID)
 FaithAnim(HolyKnightMagicAnimID)
 UnarmedAnim(HolyKnightMagicAnimID)
 WORD 0
 
 ALIGN 4
 HolyKnightFAnimationList:
-LanceAnim(HolyKnightFLanceAnimID
+LanceAnim(HolyKnightFLanceAnimID)
 FaithAnim(HolyKnightFMagicAnimID)
 UnarmedAnim(HolyKnightFMagicAnimID)
 WORD 0
@@ -526,28 +527,28 @@ ALIGN 4
 WarMonkAnimationList:
 AxeAnim(WarMonkAxeAnimID)
 HandAxeAnim(WarMonkHandAxeAnimID)
-FaithAnim(WarMonkMagicAnimID)
-UnarmedAnim(WarMonkMagicAnimID)
+FaithAnim(WarMonkStaffAnimID)
+UnarmedAnim(WarMonkUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 WarClericAnimationList:
-AxeAnim(WarMonkFAxeAnimID)
-HandAxeAnim(WarMonkFHandAxeAnimID)
-FaithAnim(WarMonkFMagicAnimID)
-UnarmedAnim(WarMonkFMagicAnimID)
+AxeAnim(WarClericAxeAnimID)
+HandAxeAnim(WarClericHandAxeAnimID)
+FaithAnim(WarClericStaffAnimID)
+UnarmedAnim(WarClericUnarmedAnimID)
 WORD 0
 
 ALIGN 4
 TemplarAnimationList:
-FaithAnim(TemplarMagicAnimID)
+FaithAnim(TemplarStaffAnimID)
 ReasonAnim(TemplarMagicAnimID)
 UnarmedAnim(TemplarMagicAnimID)
 WORD 0
 
 ALIGN 4
 ValkyrieAnimationList:
-FaithAnim(ValkyrieMagicAnimID)
+FaithAnim(ValkyrieStaffAnimID)
 ReasonAnim(ValkyrieMagicAnimID)
 UnarmedAnim(ValkyrieMagicAnimID)
 WORD 0
