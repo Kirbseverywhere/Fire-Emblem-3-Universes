@@ -18,7 +18,7 @@ Sword Armor - SalvKnight Sword/Unarmed - Team SALVAGED
 Lance Armor - SalvKnight Lance/Unarmed - Team SALVAGED
 Axe Armor - SalvKnight Axe/Handaxe/Unarmed - Team SALVAGED
 Bow Armor - SalvKnight Bow/Unarmed - Team SALVAGED
-General - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon !!! Bow Anim Does Not Exist !!!
+General - Baron Cape - Leo_link, Nuramon, Iscaneus
 Great Knight - Repalette - Skitty
 Thief - Matthew Repalette - Eldritch Abomination
 Thief (F) - Leila Repalette - Eldritch Abomination
@@ -86,6 +86,6 @@ Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6
 Knight Lord - Eliwood Repalette - Temp/sniper_zero
 Swordsman - 
 Legend - 
-King - Baron Cape - Leo_link, Nuramon, Iscaneus
+King - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon
 Bear - Bear - Grated Shtick
 Wyvern - Wild Wyvern - Mercenary Lord/FaerieFruit (unless someone makes it better)
