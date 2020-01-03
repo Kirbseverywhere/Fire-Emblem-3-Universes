@@ -211,8 +211,8 @@ ENDA
 // Units
 Bad:
 UNIT Darach AxeArmor 0x00 Level(15, Enemy, 0) [15,1] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] GuardTileAI 
-UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [IronLance, HandAxe] ChaseOnceApproachedAI 
-UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [IronLance, HandAxe] ChaseOnceApproachedAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [14,3] 0x00 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI 
+UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI 
 UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [13,6] 0x00 0x00 0x0 0x00 [IronLance] GuardTileAI 
 UNIT 0x85 Soldier Darach Level(13, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
 UNIT 0x85 Mage Darach Level(13, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI 
