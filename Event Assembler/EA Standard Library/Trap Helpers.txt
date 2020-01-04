@@ -2,10 +2,10 @@
 //#define RealTrap Lucius
 
 #ifdef _FE7_
-#define Ballista(XX,YY) "BLST 0x34 [XX,YY]"
-#define NormalBallista(XX,YY) "BLST 0x34 [XX,YY]"
-#define IronBallista(XX,YY) "BLST 0x35 [XX,YY]"
-#define KillerBallista(XX,YY) "BLST 0x36 [XX,YY]"
+#define Ballista(XX,YY) "BLST [XX,YY] 0x34"
+#define NormalBallista(XX,YY) "BLST [XX,YY] 0x34"
+#define IronBallista(XX,YY) "BLST [XX,YY] 0x35"
+#define KillerBallista(XX,YY) "BLST [XX,YY] 0x36 "
 
 #define FireTrap(XX,YY) "FIRE [XX,YY] 0x0 [1,1]"
 #define GasTrap(XX,YY,direction) "GAST [XX,YY] direction [1,1]"
@@ -14,7 +14,7 @@
 #endif
 
 #ifdef _FE8_
-#define NormalBallista(XX,YY) "BLST 0x34 [XX,YY]"
-#define IronBallista(XX,YY) "BLST 0x35 [XX,YY]"
-#define KillerBallista(XX,YY) "BLST 0x36 [XX,YY]"
+#define NormalBallista(XX,YY) "BLST [XX,YY] 0x34"
+#define IronBallista(XX,YY) "BLST [XX,YY] 0x35"
+#define KillerBallista(XX,YY) "BLST [XX,YY] 0x36 "
 #endif
