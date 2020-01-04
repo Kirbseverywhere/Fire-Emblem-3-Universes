@@ -1,91 +1,91 @@
-Magus - Battle Sage
+Magus - Battle Sage - St jack - Map Sprite by Smug_Mug
 Aether Magus - 
-Lord - Ephraim Sword/Unarmed - DerTheVaporeon
-High Lord - Hector Brave - Nuramon !!! Magic Anim Does Not Exist !!!
-Blade - Custom anim - L95
+Lord - Ephraim Sword/Unarmed - DerTheVaporeon - Map Sprite by Teraspark 
+High Lord - Hector Brave - Nuramon !!! Magic Anim Does Not Exist !!! - Map Sprite By IS
+Blade - Custom anim - L95 - Map Sprite by flasuban
 Overlord - 
-Sword Knight - SalvCav Sword/Unarmed - Team SALVAGED
-Sword Knight (F) - F!SalvCav Sword/Unarmed - Team SALVAGED/flasuban
-Lance Knight - SalvCav Lance/Unarmed - Team SALVAGED
-Lance Knight (F) - F!SalvCav Lance/Unarmed - Team SALVAGED/flasuban
-Axe Knight - SalvCav Axe/Handaxe/Unarmed - Team SALVAGED
-Axe Knight (F) - F!SalvCav Axe/Handaxe/Unarmed - Team SALVAGED/flasuban
-Bow Knight - Nomad Non-Sacaen Repalette - Pikmin1211/Maiser6/eCut
-Bow Knight (F) - Nomad Non-Sacaen Repalette - Pikmin1211/Maiser6/eCut
-Paladin - SalvPal - Team SALVAGED
-Paladin (F) - F!SalvPal - Team SALVAGED/HGS/flasuban
-Sword Armor - SalvKnight Sword/Unarmed - Team SALVAGED
-Lance Armor - SalvKnight Lance/Unarmed - Team SALVAGED
-Axe Armor - SalvKnight Axe/Handaxe/Unarmed - Team SALVAGED
-Bow Armor - SalvKnight Bow/Unarmed - Team SALVAGED
-General - Baron Cape - Leo_link, Nuramon, Iscaneus
-Great Knight - Repalette - Skitty
-Thief - Matthew Repalette - Eldritch Abomination
-Thief (F) - Leila Repalette - Eldritch Abomination
-Assassin - Jaffar Vanilla - IS
-Rogue -  Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan
-Rogue (F) - F!Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan
-Myrmidon - Vanilla - IS
-Myrmidon (F) - Vanilla - IS
-Swordmaster - Vanilla - IS
-Swordmaster (F) - Vanilla - IS
-Mercenary - Armored Mercenary - Alusq
-Hero - Armored Hero - Nuramon
-Archer - Dercher - DerTheVaporeon
-Archer (F) - Dercher - DerTheVaporeon
-Sniper - Quiver - Nuramon
-Sniper (F) - Quiver - Nuramon
-Horseman - Vanilla Ranger - IS (for now)
-Horseman (F) - Vanilla Ranger - IS (for now)
-Wyvern Rider - Vanilla - IS
-Wyvern Lord - Armored - Nuramon
-Malig Knight - Malig Knight - Pikmin1211/Jj09
-Mage - Vanilla - IS
-Mage (F) - Vanilla - IS
-Sage - Vanilla - IS
-Sage (F) - Vanilla - IS
-Mage Knight - Vanilla - IS
-Mage Knight (F) - Vanilla - IS
-Mage Fighter - Dread Fighter - Nuramon
-Mage Fighter (F) - F!Dread Fighter - Nuramon
-Dark Mage - Shaman - IS
-Dark Mage (F) - Shaman - IS
-Warlock - Necromancer Generic - Eldritch Abomination/Shin19
-Warlock (F) - Necromancer Generic - Eldritch Abomination/Shin19
-Summoner - Vanilla - IS
-Summoner (F) - Female - Velvet Kitsune
-Dark Bishop - Druid - IS
-Dark Bishop (F) - F!Druid - IS
-Fighter - Vanilla - IS
-Brigand - Vanilla - IS
-Pirate - DS Pirate - DerTheVaporeon
-Warrior - Repalette - helmfried
-Berserker - Derzerker - DerTheVaporeon
-Monk - Repalette - Teraspark
-Priest - Repalette - Eldritch Abomination/flasuban/Sme
-Buff Priest - Buff Generic Repalette - Vilkalizer
-Cleric - Repalette - Eldritch Abomination 
-Deacon - Deacon Repalette + Sword, Magic - Pikmin1211/GabrielKnight/Maiser6/Lisandra_Brave/TBA
-Troubadour - Ponytail Repalette - Pikmin1211/Maiser6/Lisandra_Brave/TBA
-Bishop - Repalette - Eldritch Abomination
-Bishop (F) - Repalette - Eldritch Abomination
-Holy Knight - Master Knight - St jack
-Holy Knight (F) - F!Master Knight - St jack
-Dark Knight - 3DS-Style - Pikmin1211/Jj09/DerTheVaporeon
-War Monk - War Monk - DerTheVaporeon/Pikmin1211
-War Cleric - War Cleric - Leo_link/DerTheVaporeon/Pikmin1211
-Templar - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211
-Valkyrie - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211
-Pegasus Rider - Outfit Repalette - Jeorge_Reds
-Falcoknight - Outfit Repalette +Weapons - Jeorge_Reds/ShadowOfChaos
-Dancer (M) - Dancer - L95 !!! Magic Anim Does Not Exist !!!
-Dancer (F) - Larum - IS !!! Sword Anim Does Not Exist !!!
-Soldier - Improved 2.0 - Alusq
-Halberdier - 2.0 - Black Mage
-Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6
-Knight Lord - Eliwood Repalette - Temp/sniper_zero
+Sword Knight - SalvCav Sword/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Sword Knight (F) - F!SalvCav Sword/Unarmed - Team SALVAGED/flasuban - Map Sprite by Team SALVAGED/flasuban - Class Card by RobertFPY/flasuban
+Lance Knight - SalvCav Lance/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Lance Knight (F) - F!SalvCav Lance/Unarmed - Team SALVAGED/flasuban - Map Sprite by Team SALVAGED/flasuban - Class Card by RobertFPY/flasuban
+Axe Knight - SalvCav Axe/Handaxe/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Axe Knight (F) - F!SalvCav Axe/Handaxe/Unarmed - Team SALVAGED/flasuban - Map Sprite by Team SALVAGED/flasuban - Class Card by RobertFPY/flasuban
+Bow Knight - Nomad Non-Sacaen Repalette - Pikmin1211/Maiser6/eCut - Map Sprite by flasuban - Class Card by IS
+Bow Knight (F) - Nomad Non-Sacaen Repalette - Pikmin1211/Maiser6/eCut - Map Sprite by flasuban - Class Card by IS
+Paladin - SalvPal - Team SALVAGED - Map Sprite by Pikmin1211 - Class Card by RobertFPY/flasuban
+Paladin (F) - F!SalvPal - Team SALVAGED/HGS/flasuban - Map Sprite by L95 - Class Card by RobertFPY/flasuban
+Sword Armor - SalvKnight Sword/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Lance Armor - SalvKnight Lance/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Axe Armor - SalvKnight Axe/Handaxe/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+Bow Armor - SalvKnight Bow/Unarmed - Team SALVAGED - Map Sprite by Team SALVAGED - Class Card by Team SALVAGED
+General - Baron Cape - Leo_link, Nuramon, Iscaneus - Map Sprite by Nuramon - Class Card by IS
+Great Knight - Repalette - Skitty - Map Sprite by IS - Class Card by IS
+Thief - Matthew Repalette - Eldritch Abomination - Map Sprite by IS - Class Card by IS
+Thief (F) - Leila Repalette - Eldritch Abomination - Map Sprite by Rasdel - Class Card by L95
+Assassin - Jaffar Vanilla - IS - Map Sprite by IS - Class Card by IS
+Rogue -  Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan - Map Sprite by IS - Class Card by IS
+Rogue (F) - F!Repalette Upgrade - Pikmin1211/Maiser6/Ukelele/SD9k/Temp/Black Mage/Wan - Map Sprite by Unknown - Class Card by L95
+Myrmidon - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Myrmidon (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Swordmaster - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Swordmaster (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Mercenary - Armored Mercenary - Alusq - Map Sprite by Unknown - Class Card by IS
+Hero - Armored Hero - Nuramon - Map Sprite by IS - Class Card by IS
+Archer - Dercher - DerTheVaporeon - Map Sprite by IS - Class Card by IS
+Archer (F) - Dercher - DerTheVaporeon - Map Sprite by IS - Class Card by IS
+Sniper - Quiver - Nuramon - Map Sprite by IS - Class Card by IS
+Sniper (F) - Quiver - Nuramon - Map Sprite by IS - Class Card by IS
+Horseman - Vanilla Ranger - IS (for now) - Map Sprite by IS - Class Card by IS
+Horseman (F) - Vanilla Ranger - IS (for now) - Map Sprite by IS - Class Card by IS
+Wyvern Rider - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Wyvern Lord - Armored - Nuramon - Map Sprite by IS - Class Card by IS
+Malig Knight - Malig Knight - Pikmin1211/Jj09 - Map Sprite by Pikmin1211 - Class Card by Pikmin1211
+Mage - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Mage (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Sage - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Sage (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Mage Knight - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Mage Knight (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Mage Fighter - Dread Fighter - Nuramon - Map Sprite by Nuramon - Class Card by Nuramon
+Mage Fighter (F) - F!Dread Fighter - Nuramon - Map Sprite by Nuramon - Class Card by Nuramon
+Dark Mage - Shaman - IS - Map Sprite by IS - Class Card by IS
+Dark Mage (F) - Shaman - IS - Map Sprite by IS - Class Card by IS
+Warlock - Necromancer Generic - Eldritch Abomination/Shin19 - Map Sprite by Unknown - Class Card by IS
+Warlock (F) - Necromancer Generic - Eldritch Abomination/Shin19 - Map Sprite by Unknown - Class Card by IS
+Summoner - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Summoner (F) - Female - Velvet Kitsune - Map Sprite by Unknown - Class Card by IS
+Dark Bishop - Druid - IS - Map Sprite by IS - Class Card by IS
+Dark Bishop (F) - F!Druid - IS - Map Sprite by IS - Class Card by IS
+Fighter - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Brigand - Vanilla - IS - Map Sprite by IS - Class Card by IS
+Pirate - DS Pirate - DerTheVaporeon - Map Sprite by IS - Class Card by IS
+Warrior - Repalette - helmfried - Map Sprite by IS - Class Card by IS
+Berserker - Derzerker - DerTheVaporeon - Map Sprite by IS - Class Card by IS
+Monk - Repalette - Teraspark - Map Sprite by IS - Class Card by IS
+Priest - Repalette - Eldritch Abomination/flasuban/Sme - Map Sprite by IS - Class Card by IS
+Buff Priest - Buff Generic Repalette - Vilkalizer - Map Sprite by flasuban - Class Card by IS
+Cleric - Repalette - Eldritch Abomination  - Map Sprite by IS - Class Card by IS
+Deacon - Deacon Repalette + Sword, Magic - Pikmin1211/GabrielKnight/Maiser6/Lisandra_Brave/TBA - Map Sprite by Unknown - Class Card by IS
+Troubadour - Ponytail Repalette - Pikmin1211/Maiser6/Lisandra_Brave/TBA - Map Sprite by IS - Class Card by IS
+Bishop - Repalette - Eldritch Abomination - Map Sprite by IS - Class Card by IS
+Bishop (F) - Repalette - Eldritch Abomination - Map Sprite by IS - Class Card by IS
+Holy Knight - Master Knight - St jack - Map Sprite by HyperGammaSpaces - Class Card by flasuban
+Holy Knight (F) - F!Master Knight - St jack - Map Sprite by HyperGammaSpaces - Class Card by flasuban
+Dark Knight - 3DS-Style - Pikmin1211/Jj09/DerTheVaporeon - Map Sprite by Pikmin/Nuramon/DerTheVaporeon - Class Card by Pikmin1211
+War Monk - War Monk - DerTheVaporeon/Pikmin1211 - Map Sprite by DerTheVaporeon - Class Card by DerTheVaporeon
+War Cleric - War Cleric - Leo_link/DerTheVaporeon/Pikmin1211 - Map Sprite by DerTheVaporeon - Class Card by DerTheVaporeon
+Templar - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211 - Map Sprite by DerTheVaporeon - Class Card by DerTheVaporeon
+Valkyrie - Non-Religious - DerTheVaporeon/Isaac/Pikmin1211 - Map Sprite by DerTheVaporeon - Class Card by DerTheVaporeon
+Pegasus Rider - Outfit Repalette - Jeorge_Reds - Map Sprite by IS - Class Card by IS
+Falcoknight - Outfit Repalette +Weapons - Jeorge_Reds/ShadowOfChaos - Map Sprite by IS - Class Card by IS
+Dancer (M) - Dancer - L95 !!! Magic Anim Does Not Exist !!! - Map Sprite by L95
+Dancer (F) - Larum - IS !!! Sword Anim Does Not Exist !!! - Map Sprite by IS
+Soldier - Improved 2.0 - Alusq - Map Sprite by Alusq - Class Card by IS
+Halberdier - 2.0 - Black Mage - Map Sprite by Unknown - Class Card by Unknown
+Dragoon - Dragoon v2 - Mercenary Lord/NYZGamer/Pikmin1211/Maiser6 - Map Sprite by Pikmin1211/Unknown - Class Card by Pikmin1211/Unknown
+Knight Lord - Eliwood Repalette - Temp/sniper_zero - Map Sprite by IS
 Swordsman - 
 Legend - 
-King - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon
-Bear - Bear - Grated Shtick
-Wyvern - Wild Wyvern - Mercenary Lord/FaerieFruit (unless someone makes it better)
+King - Shield v2 +Cape - TBA/DerTheVaporeon/Nuramon - Map Sprite by IS
+Bear - Bear - Grated Shtick - Map Sprite by Lenh
+Wyvern - Wild Wyvern - Mercenary Lord/FaerieFruit (unless someone makes it better) - !!! Map Sprite Needed !!!
