@@ -57,7 +57,7 @@ ArmoredClassesList:
 BYTE ArmorClasses 0 // ArmorClasses defined in Master Skill Installer
 
 ALIGN 4
-#define MagicClasses "Magus GrandMagus Mage Mage_F Sage Sage_F MageKnight MageKnight_F Priest Cleric Bishop Bishop_F Deacon Troubadour DarkMage DarkMage_F"
+#define MagicClasses "Magus GrandMagus Mage Mage_F Sage Sage_F MageKnight MageKnight_F Priest Cleric Bishop Bishop_F Deacon Troubadour DarkMage DarkMage_F Monk"
 MagicClassesList:
 BYTE MagicClasses 0
 

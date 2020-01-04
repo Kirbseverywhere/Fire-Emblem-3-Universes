@@ -52,7 +52,7 @@ void HouseSelectMenuDrawRLInfo(struct HouseSelectionProc *currentProc) {
 
 void HouseSelectMenuDrawPJInfo(struct HouseSelectionProc *currentProc) {
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 16), 0, 0, 26, "Join Prince Vergil in his quest for revenge.");
-	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 9, "<- Crimson Wolves");
+	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 3, 2), 3, 0, 10, "<- Crimson Wolves");
 	DrawTextInline(0, BGLoc((int)gBg0MapBuffer, 18, 2), 3, 0, 12, "Amber Bears ->");
 
 	Decompress(PJSmallBannerGraphics, (void *)0x6002C00);

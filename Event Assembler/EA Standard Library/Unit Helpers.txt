@@ -69,6 +69,16 @@
 #define DunnoFlag2 8
 #endif
 
+#ifdef _FE8_
+
+// LOAD parameters
+
+#define LoadAlive    0
+#define LoadAll      1
+#define LoadCutscene 2
+
+#endif
+
 //Unit condition helpers
 #ifdef _FE7_
 #define Visible 1
@@ -127,26 +137,26 @@
 
 #ifdef _FE8_
 #define StartBattle                           "SVAL 0xD 0x0"
-#define NormalDamage(combatantNumber,damage)  "SVAL 1 combatantNumber+damage*0x100;            SENQUEUE"
-#define CriticalHit(combatantNumber,damage)   "SVAL 1 combatantNumber+damage*0x100+0x00010000; SENQUEUE"
-#define MissedAttack(combatantNumber,damage)  "SVAL 1 combatantNumber+damage*0x100+0x00020000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00040000; SENQUEUE"
-#define Silencer(combatantNumber,damage)      "SVAL 1 combatantNumber+damage*0x100+0x00080000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00100000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00200000; SENQUEUE"
-#define SureShot(combatantNumber,damage)      "SVAL 1 combatantNumber+damage*0x100+0x00400000; SENQUEUE"
-#define Poison(combatantNumber,damage)        "SVAL 1 combatantNumber+damage*0x100+0x00400000; SENQUEUE"
-#define DevilReversal(combatantNumber,damage) "SVAL 1 combatantNumber+damage*0x100+0x00800000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x01000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x02000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x04000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x08000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x10000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x20000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x40000000; SENQUEUE"
-//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x80000000; SENQUEUE"
-#define Pierce(combatantNumber,damage)        "SVAL 1 combatantNumber+damage*0x100+0xC0000000; SENQUEUE"
-#define EndAttack                             "SVAL 1 0xFFFFFFFF;                              SENQUEUE"
+#define NormalDamage(combatantNumber,damage)  "SVAL 1 combatantNumber+damage*0x100;            SAVETOQUEUE"
+#define CriticalHit(combatantNumber,damage)   "SVAL 1 combatantNumber+damage*0x100+0x00010000; SAVETOQUEUE"
+#define MissedAttack(combatantNumber,damage)  "SVAL 1 combatantNumber+damage*0x100+0x00020000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00040000; SAVETOQUEUE"
+#define Silencer(combatantNumber,damage)      "SVAL 1 combatantNumber+damage*0x100+0x00080000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00100000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x00200000; SAVETOQUEUE"
+#define SureShot(combatantNumber,damage)      "SVAL 1 combatantNumber+damage*0x100+0x00400000; SAVETOQUEUE"
+#define Poison(combatantNumber,damage)        "SVAL 1 combatantNumber+damage*0x100+0x00400000; SAVETOQUEUE"
+#define DevilReversal(combatantNumber,damage) "SVAL 1 combatantNumber+damage*0x100+0x00800000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x01000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x02000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x04000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x08000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x10000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x20000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x40000000; SAVETOQUEUE"
+//#define Unknown(combatantNumber,damage)     "SVAL 1 combatantNumber+damage*0x100+0x80000000; SAVETOQUEUE"
+#define Pierce(combatantNumber,damage)        "SVAL 1 combatantNumber+damage*0x100+0xC0000000; SAVETOQUEUE"
+#define EndAttack                             "SVAL 1 0xFFFFFFFF;                              SAVETOQUEUE"
 #endif
 
 //Battle data helpers
