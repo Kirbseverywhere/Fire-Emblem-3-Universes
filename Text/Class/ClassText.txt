@@ -114,3 +114,54 @@ Deacon[X]
 ## DeaconClassDesc
 Healers on horseback, capable[N]
 of using staves to aid allies.[X]
+
+## DarkMageClassName
+Dark Mage[X]
+
+## WarlockClassName
+Warlock[X]
+
+## DarkBishopClassName
+Dark Bishop[X]
+
+## HolyKnightClassName
+Holy Knight[X]
+
+## DarkKnightClassName
+Dark Knight[X]
+
+## WarMonkClassName
+War Monk[X]
+
+## WarClericClassName
+War Cleric[X]
+
+## TemplarClassName
+Templar[X]
+
+## PegasusRiderClassName
+Peg. Rider[X]
+
+## HalberdierClassName
+Halberdier[X]
+
+## DragoonClassName
+Dragoon[X]
+
+## KnightLordClassName
+Knight Lord[X]
+
+## SwordsmanClassName
+Swordsman[X]
+
+## LegendClassName
+Legend[X]
+
+## KingClassName
+King[X]
+
+## NecrodragonClassName
+Necrodragon[X]
+
+## WyvernClassName
+Wyvern[X]
