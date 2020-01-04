@@ -4,74 +4,450 @@
 //////////////Installed animations go here:
 
 {
-#include "Cavalier/MaleSwordCav.event"
+#include "Anims/ArcherBow.event"
 }
 {
-#include "Cavalier/MaleLanceCav.event"
+#include "Anims/ArcherFBow.event"
 }
 {
-#include "Cavalier/MaleAxeCav.event"
+#include "Anims/ArcherFUnarmed.event"
 }
 {
-#include "Cavalier/MaleHandAxeCav.event"
+#include "Anims/ArcherUnarmed.event"
 }
 {
-#include "Cavalier/MaleUnarmedCav.event"
+#include "Anims/ArmorAxe.event"
 }
 {
-#include "Cavalier/FemaleBowCav.event"
+#include "Anims/ArmorBow.event"
 }
 {
-#include "Cavalier/FemaleBowCavUnarmed.event"
+#include "Anims/ArmorHandAxe.event"
 }
 {
-#include "Cavalier/MaleBowCav.event"
+#include "Anims/ArmorLance.event"
 }
 {
-#include "Cavalier/MaleBowCavUnarmed.event"
+#include "Anims/ArmorSword.event"
 }
 {
-#include "Knight/SwordKnight.event"
+#include "Anims/ArmorUnarmed.event"
 }
 {
-#include "Knight/AxeKnight.event"
+#include "Anims/AssassinSword.event"
 }
 {
-#include "Knight/HandAxeKnight.event"
+#include "Anims/AssassinUnarmed.event"
 }
 {
-#include "Knight/BowKnight.event"
+#include "Anims/BearAttack.event"
 }
 {
-#include "Knight/LanceKnight.event"
+#include "Anims/BerserkerAxe.event"
 }
 {
-#include "Knight/UnarmedKnight.event"
+#include "Anims/BerserkerHandAxe.event"
 }
 {
-#include "Vergil Lord/Vergil.event"
+#include "Anims/BerserkerUnarmed.event"
 }
 {
-#include "Vergil Lord/Vergil2.event"
+#include "Anims/BishopFMagic.event"
 }
 {
-#include "FThief/FThief.event"
+#include "Anims/BishopFUnarmed.event"
 }
 {
-#include "Bear/Bear.event"
+#include "Anims/BishopMagic.event"
 }
 {
-#include "Elle Lord/Magic.event"
+#include "Anims/BishopUnarmed.event"
 }
 {
-#include "Elle Lord/Staff.event"
+#include "Anims/BladeMagic.event"
 }
 {
-#include "ClericUnarmed.event"
+#include "Anims/BladeStaff.event"
 }
 {
-#include "PriestMagic.event"
+#include "Anims/BowKnightBow.event"
 }
 {
-#include "ClericMagic.event"
+#include "Anims/BowKnightFBow.event"
 }
+{
+#include "Anims/BowKnightFUnarmed.event"
+}
+{
+#include "Anims/BowKnightUnarmed.event"
+}
+{
+#include "Anims/BuffPriestStaff.event"
+}
+{
+#include "Anims/BuffPriestUnarmed.event"
+}
+{
+#include "Anims/ClericStaff.event"
+}
+{
+#include "Anims/ClericUnarmed.event"
+}
+{
+#include "Anims/DancerFRefresh.event"
+}
+{
+#include "Anims/DancerMRefresh.event"
+}
+{
+#include "Anims/DarkKnightMagic.event"
+}
+{
+#include "Anims/DarkKnightSword.event"
+}
+{
+#include "Anims/DeaconMagic.event"
+}
+{
+#include "Anims/DeaconStaff.event"
+}
+{
+#include "Anims/DragoonLance.event"
+}
+{
+#include "Anims/DragoonUnarmed.event"
+}
+{
+#include "Anims/FalcoknightLance.event"
+}
+{
+#include "Anims/FalcoknightSword.event"
+}
+{
+#include "Anims/FalcoknightUnarmed.event"
+}
+{
+#include "Anims/GeneralAxe.event"
+}
+{
+#include "Anims/GeneralHandAxe.event"
+}
+{
+#include "Anims/GeneralLance.event"
+}
+{
+#include "Anims/GeneralSword.event"
+}
+{
+#include "Anims/GeneralUnarmed.event"
+}
+{
+#include "Anims/GreatKnightAxe.event"
+}
+{
+#include "Anims/GreatKnightHandAxe.event"
+}
+{
+#include "Anims/GreatKnightLance.event"
+}
+{
+#include "Anims/GreatKnightSword.event"
+}
+{
+#include "Anims/GreatKnightUnarmed.event"
+}
+{
+#include "Anims/HalberdierLance.event"
+}
+{
+#include "Anims/HalberdierUnarmed.event"
+}
+{
+#include "Anims/HeroAxe.event"
+}
+{
+#include "Anims/HeroHandAxe.event"
+}
+{
+#include "Anims/HeroSword.event"
+}
+{
+#include "Anims/HeroUnarmed.event"
+}
+{
+#include "Anims/HighLordSword.event"
+}
+{
+#include "Anims/HighLordUnarmed.event"
+}
+{
+#include "Anims/HolyKnightFLance.event"
+}
+{
+#include "Anims/HolyKnightFMagic.event"
+}
+{
+#include "Anims/HolyKnightLance.event"
+}
+{
+#include "Anims/HolyKnightMagic.event"
+}
+{
+#include "Anims/KingSword.event"
+}
+{
+#include "Anims/KingUnarmed.event"
+}
+{
+#include "Anims/KnightAxe.event"
+}
+{
+#include "Anims/KnightFAxe.event"
+}
+{
+#include "Anims/KnightFHandAxe.event"
+}
+{
+#include "Anims/KnightFLance.event"
+}
+{
+#include "Anims/KnightFSword.event"
+}
+{
+#include "Anims/KnightFUnarmed.event"
+}
+{
+#include "Anims/KnightHandAxe.event"
+}
+{
+#include "Anims/KnightLance.event"
+}
+{
+#include "Anims/KnightLordLance.event"
+}
+{
+#include "Anims/KnightLordSword.event"
+}
+{
+#include "Anims/KnightLordUnarmed.event"
+}
+{
+#include "Anims/KnightSword.event"
+}
+{
+#include "Anims/KnightUnarmed.event"
+}
+{
+#include "Anims/LordSword.event"
+}
+{
+#include "Anims/LordUnarmed.event"
+}
+{
+#include "Anims/MageFighterFMagic.event"
+}
+{
+#include "Anims/MageFighterFSword.event"
+}
+{
+#include "Anims/MageFighterMagic.event"
+}
+{
+#include "Anims/MageFighterSword.event"
+}
+{
+#include "Anims/MagusMagic.event"
+}
+{
+#include "Anims/MaligKnightAxe.event"
+}
+{
+#include "Anims/MaligKnightHandAxe.event"
+}
+{
+#include "Anims/MaligKnightMagic.event"
+}
+{
+#include "Anims/MercenarySword.event"
+}
+{
+#include "Anims/MercenaryUnarmed.event"
+}
+{
+#include "Anims/MonkMagic.event"
+}
+{
+#include "Anims/PaladinAxe.event"
+}
+{
+#include "Anims/PaladinFAxe.event"
+}
+{
+#include "Anims/PaladinFHandAxe.event"
+}
+{
+#include "Anims/PaladinFLance.event"
+}
+{
+#include "Anims/PaladinFSword.event"
+}
+{
+#include "Anims/PaladinFUnarmed.event"
+}
+{
+#include "Anims/PaladinHandAxe.event"
+}
+{
+#include "Anims/PaladinLance.event"
+}
+{
+#include "Anims/PaladinSword.event"
+}
+{
+#include "Anims/PaladinUnarmed.event"
+}
+{
+#include "Anims/PegasusRiderLance.event"
+}
+{
+#include "Anims/PegasusRiderUnarmed.event"
+}
+{
+#include "Anims/PirateAxe.event"
+}
+{
+#include "Anims/PirateHandAxe.event"
+}
+{
+#include "Anims/PirateUnarmed.event"
+}
+{
+#include "Anims/PriestStaff.event"
+}
+{
+#include "Anims/PriestUnarmed.event"
+}
+{
+#include "Anims/RogueFStaff.event"
+}
+{
+#include "Anims/RogueFSword.event"
+}
+{
+#include "Anims/RogueFUnarmed.event"
+}
+{
+#include "Anims/RogueSword.event"
+}
+{
+#include "Anims/RogueUnarmed.event"
+}
+{
+#include "Anims/SniperBow.event"
+}
+{
+#include "Anims/SniperFBow.event"
+}
+{
+#include "Anims/SniperFUnarmed.event"
+}
+{
+#include "Anims/SniperUnarmed.event"
+}
+{
+#include "Anims/SoldierLance.event"
+}
+{
+#include "Anims/SoldierUnarmed.event"
+}
+{
+#include "Anims/SummonerFMagic.event"
+}
+{
+#include "Anims/TemplarMagic.event"
+}
+{
+#include "Anims/TemplarStaff.event"
+}
+{
+#include "Anims/ThiefFSword.event"
+}
+{
+#include "Anims/ThiefSword.event"
+}
+{
+#include "Anims/TroubadourStaff.event"
+}
+{
+#include "Anims/TroubadourUnarmed.event"
+}
+{
+#include "Anims/ValkyrieMagic.event"
+}
+{
+#include "Anims/ValkyrieStaff.event"
+}
+{
+#include "Anims/WarClericAxe.event"
+}
+{
+#include "Anims/WarClericHandAxe.event"
+}
+{
+#include "Anims/WarClericStaff.event"
+}
+{
+#include "Anims/WarClericUnarmed.event"
+}
+{
+#include "Anims/WarlockMagic.event"
+}
+{
+#include "Anims/WarMonkAxe.event"
+}
+{
+#include "Anims/WarMonkHandAxe.event"
+}
+{
+#include "Anims/WarMonkMagic.event"
+}
+{
+#include "Anims/WarMonkUnarmed.event"
+}
+{
+#include "Anims/WarriorAxe.event"
+}
+{
+#include "Anims/WarriorBow.event"
+}
+{
+#include "Anims/WarriorHandAxe.event"
+}
+{
+#include "Anims/WarriorUnarmed.event"
+}
+{
+#include "Anims/WyvernAttack.event"
+}
+{
+#include "Anims/WyvernLordAxe.event"
+}
+{
+#include "Anims/WyvernLordHandAxe.event"
+}
+{
+#include "Anims/WyvernLordLance.event"
+}
+{
+#include "Anims/WyvernLordUnarmed.event"
+}
+{
+#include "Anims/WyvernRiderAxe.event"
+}
+{
+#include "Anims/WyvernRiderHandAxe.event"
+}
+{
+#include "Anims/GeneralBow.event"
+}
+
