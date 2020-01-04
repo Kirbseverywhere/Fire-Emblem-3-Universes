@@ -1,0 +1,345 @@
+
+ALIGN 4
+AxeCavFMovingGFX:
+#incext Png2Dmp "AxeCavFMoving.png" --lz77
+
+ALIGN 4
+AxeCavFStandingGFX:
+#incext Png2Dmp "AxeCavFStanding.png" --lz77
+
+ALIGN 4
+AxeCavMovingGFX:
+#incext Png2Dmp "AxeCavMoving.png" --lz77
+
+ALIGN 4
+AxeCavStandingGFX:
+#incext Png2Dmp "AxeCavStanding.png" --lz77
+
+ALIGN 4
+AxeKnightMovingGFX:
+#incext Png2Dmp "AxeKnightMoving.png" --lz77
+
+ALIGN 4
+AxeKnightStandingGFX:
+#incext Png2Dmp "AxeKnightStanding.png" --lz77
+
+ALIGN 4
+BearMovingGFX:
+#incext Png2Dmp "BearMoving.png" --lz77
+
+ALIGN 4
+BearStandingGFX:
+#incext Png2Dmp "BearStanding.png" --lz77
+
+ALIGN 4
+BladeMovingGFX:
+#incext Png2Dmp "BladeMoving.png" --lz77
+
+ALIGN 4
+BladeStandingGFX:
+#incext Png2Dmp "BladeStanding.png" --lz77
+
+ALIGN 4
+BowArmorMovingGFX:
+#incext Png2Dmp "BowArmorMoving.png" --lz77
+
+ALIGN 4
+BowArmorStandingGFX:
+#incext Png2Dmp "BowArmorStanding.png" --lz77
+
+ALIGN 4
+BowKnightFMovingGFX:
+#incext Png2Dmp "BowKnightFMoving.png" --lz77
+
+ALIGN 4
+BowKnightFStandingGFX:
+#incext Png2Dmp "BowKnightFStanding.png" --lz77
+
+ALIGN 4
+BowKnightMovingGFX:
+#incext Png2Dmp "BowKnightMoving.png" --lz77
+
+ALIGN 4
+BowKnightStandingGFX:
+#incext Png2Dmp "BowKnightStanding.png" --lz77
+
+ALIGN 4
+BuffPriestMovingGFX:
+#incext Png2Dmp "BuffPriestMoving.png" --lz77
+
+ALIGN 4
+BuffPriestStandingGFX:
+#incext Png2Dmp "BuffPriestStanding.png" --lz77
+
+ALIGN 4
+DancerFMovingGFX:
+#incext Png2Dmp "DancerFMoving.png" --lz77
+
+ALIGN 4
+DancerFStandingGFX:
+#incext Png2Dmp "DancerFStanding.png" --lz77
+
+ALIGN 4
+DancerMMovingGFX:
+#incext Png2Dmp "DancerMMoving.png" --lz77
+
+ALIGN 4
+DancerMStandingGFX:
+#incext Png2Dmp "DancerMStanding.png" --lz77
+
+ALIGN 4
+DarkKnightMovingGFX:
+#incext Png2Dmp "DarkKnightMoving.png" --lz77
+
+ALIGN 4
+DarkKnightStandingGFX:
+#incext Png2Dmp "DarkKnightStanding.png" --lz77
+
+ALIGN 4
+DeaconMovingGFX:
+#incext Png2Dmp "DeaconMoving.png" --lz77
+
+ALIGN 4
+DeaconStandingGFX:
+#incext Png2Dmp "DeaconStanding.png" --lz77
+
+ALIGN 4
+DragoonMovingGFX:
+#incext Png2Dmp "DragoonMoving.png" --lz77
+
+ALIGN 4
+DragoonStandingGFX:
+#incext Png2Dmp "DragoonStanding.png" --lz77
+
+ALIGN 4
+GeneralMovingGFX:
+#incext Png2Dmp "GeneralMoving.png" --lz77
+
+ALIGN 4
+GeneralStandingGFX:
+#incext Png2Dmp "GeneralStanding.png" --lz77
+
+ALIGN 4
+HalberdierMovingGFX:
+#incext Png2Dmp "HalberdierMoving.png" --lz77
+
+ALIGN 4
+HalberdierStandingGFX:
+#incext Png2Dmp "HalberdierStanding.png" --lz77
+
+ALIGN 4
+HighLordMovingGFX:
+#incext Png2Dmp "HighLordMoving.png" --lz77
+
+ALIGN 4
+HighLordStandingGFX:
+#incext Png2Dmp "HighLordStanding.png" --lz77
+
+ALIGN 4
+HolyKnightMovingGFX:
+#incext Png2Dmp "HolyKnightMoving.png" --lz77
+
+ALIGN 4
+HolyKnightStandingGFX:
+#incext Png2Dmp "HolyKnightStanding.png" --lz77
+
+ALIGN 4
+KingMovingGFX:
+#incext Png2Dmp "KingMoving.png" --lz77
+
+ALIGN 4
+KingStandingGFX:
+#incext Png2Dmp "KingStanding.png" --lz77
+
+ALIGN 4
+KnightLordMovingGFX:
+#incext Png2Dmp "KnightLordMoving.png" --lz77
+
+ALIGN 4
+KnightLordStandingGFX:
+#incext Png2Dmp "KnightLordStanding.png" --lz77
+
+ALIGN 4
+LanceCavFMovingGFX:
+#incext Png2Dmp "LanceCavFMoving.png" --lz77
+
+ALIGN 4
+LanceCavFStandingGFX:
+#incext Png2Dmp "LanceCavFStanding.png" --lz77
+
+ALIGN 4
+LanceCavMovingGFX:
+#incext Png2Dmp "LanceCavMoving.png" --lz77
+
+ALIGN 4
+LanceCavStandingGFX:
+#incext Png2Dmp "LanceCavStanding.png" --lz77
+
+ALIGN 4
+LanceKnightMovingGFX:
+#incext Png2Dmp "LanceKnightMoving.png" --lz77
+
+ALIGN 4
+LanceKnightStandingGFX:
+#incext Png2Dmp "LanceKnightStanding.png" --lz77
+
+ALIGN 4
+LordMovingGFX:
+#incext Png2Dmp "LordMoving.png" --lz77
+
+ALIGN 4
+LordStandingGFX:
+#incext Png2Dmp "LordStanding.png" --lz77
+
+ALIGN 4
+MageFighterFMovingGFX:
+#incext Png2Dmp "MageFighterFMoving.png" --lz77
+
+ALIGN 4
+MageFighterFStandingGFX:
+#incext Png2Dmp "MageFighterFStanding.png" --lz77
+
+ALIGN 4
+MageFighterMovingGFX:
+#incext Png2Dmp "MageFighterMoving.png" --lz77
+
+ALIGN 4
+MageFighterStandingGFX:
+#incext Png2Dmp "MageFighterStanding.png" --lz77
+
+ALIGN 4
+MagusMovingGFX:
+#incext Png2Dmp "MagusMoving.png" --lz77
+
+ALIGN 4
+MagusStandingGFX:
+#incext Png2Dmp "MagusStanding.png" --lz77
+
+ALIGN 4
+MaligKnightMovingGFX:
+#incext Png2Dmp "MaligKnightMoving.png" --lz77
+
+ALIGN 4
+MaligKnightStandingGFX:
+#incext Png2Dmp "MaligKnightStanding.png" --lz77
+
+ALIGN 4
+MercenaryMovingGFX:
+#incext Png2Dmp "MercenaryMoving.png" --lz77
+
+ALIGN 4
+MercenaryStandingGFX:
+#incext Png2Dmp "MercenaryStanding.png" --lz77
+
+ALIGN 4
+PaladinFMovingGFX:
+#incext Png2Dmp "PaladinFMoving.png" --lz77
+
+ALIGN 4
+PaladinFStandingGFX:
+#incext Png2Dmp "PaladinFStanding.png" --lz77
+
+ALIGN 4
+PaladinMovingGFX:
+#incext Png2Dmp "PaladinMoving.png" --lz77
+
+ALIGN 4
+PaladinStandingGFX:
+#incext Png2Dmp "PaladinStanding.png" --lz77
+
+ALIGN 4
+RogueFMovingGFX:
+#incext Png2Dmp "RogueFMoving.png" --lz77
+
+ALIGN 4
+RogueFStandingGFX:
+#incext Png2Dmp "RogueFStanding.png" --lz77
+
+ALIGN 4
+SoldierMovingGFX:
+#incext Png2Dmp "SoldierMoving.png" --lz77
+
+ALIGN 4
+SoldierStandingGFX:
+#incext Png2Dmp "SoldierStanding.png" --lz77
+
+ALIGN 4
+SummonerFMovingGFX:
+#incext Png2Dmp "SummonerFMoving.png" --lz77
+
+ALIGN 4
+SummonerFStandingGFX:
+#incext Png2Dmp "SummonerFStanding.png" --lz77
+
+ALIGN 4
+SwordCavFMovingGFX:
+#incext Png2Dmp "SwordCavFMoving.png" --lz77
+
+ALIGN 4
+SwordCavFStandingGFX:
+#incext Png2Dmp "SwordCavFStanding.png" --lz77
+
+ALIGN 4
+SwordCavMovingGFX:
+#incext Png2Dmp "SwordCavMoving.png" --lz77
+
+ALIGN 4
+SwordCavStandingGFX:
+#incext Png2Dmp "SwordCavStanding.png" --lz77
+
+ALIGN 4
+SwordKnightMovingGFX:
+#incext Png2Dmp "SwordKnightMoving.png" --lz77
+
+ALIGN 4
+SwordKnightStandingGFX:
+#incext Png2Dmp "SwordKnightStanding.png" --lz77
+
+ALIGN 4
+TemplarMovingGFX:
+#incext Png2Dmp "TemplarMoving.png" --lz77
+
+ALIGN 4
+TemplarStandingGFX:
+#incext Png2Dmp "TemplarStanding.png" --lz77
+
+ALIGN 4
+ThiefFMovingGFX:
+#incext Png2Dmp "ThiefFMoving.png" --lz77
+
+ALIGN 4
+ThiefFStandingGFX:
+#incext Png2Dmp "ThiefFStanding.png" --lz77
+
+ALIGN 4
+ValkyrieMovingGFX:
+#incext Png2Dmp "ValkyrieMoving.png" --lz77
+
+ALIGN 4
+ValkyrieStandingGFX:
+#incext Png2Dmp "ValkyrieStanding.png" --lz77
+
+ALIGN 4
+WarClericMovingGFX:
+#incext Png2Dmp "WarClericMoving.png" --lz77
+
+ALIGN 4
+WarClericStandingGFX:
+#incext Png2Dmp "WarClericStanding.png" --lz77
+
+ALIGN 4
+WarlockMovingGFX:
+#incext Png2Dmp "WarlockMoving.png" --lz77
+
+ALIGN 4
+WarlockStandingGFX:
+#incext Png2Dmp "WarlockStanding.png" --lz77
+
+ALIGN 4
+WarMonkMovingGFX:
+#incext Png2Dmp "WarMonkMoving.png" --lz77
+
+ALIGN 4
+WarMonkStandingGFX:
+#incext Png2Dmp "WarMonkStanding.png" --lz77
+
