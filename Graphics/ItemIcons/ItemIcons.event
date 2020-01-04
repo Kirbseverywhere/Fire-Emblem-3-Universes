@@ -43,7 +43,7 @@ ALIGN 4
 
 WeaponIconsPal:
 #incbin "WeaponIconsPal.bin"
-MESSAGE Weapon Icon Palette is at WeaponIconsPal
+//MESSAGE Weapon Icon Palette is at WeaponIconsPal
 
 ALIGN 4
 

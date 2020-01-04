@@ -5,345 +5,345 @@ BearMapSpritePalette:
 
 ALIGN 4
 AxeCavFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeCavFMoving.png" --lz77
+#incbin "Sprites/AxeCavFMoving.dmp" 
 
 ALIGN 4
 AxeCavFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeCavFStanding.png" --lz77
+#incbin "Sprites/AxeCavFStanding.dmp" 
 
 ALIGN 4
 AxeCavMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeCavMoving.png" --lz77
+#incbin "Sprites/AxeCavMoving.dmp" 
 
 ALIGN 4
 AxeCavStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeCavStanding.png" --lz77
+#incbin "Sprites/AxeCavStanding.dmp" 
 
 ALIGN 4
 AxeKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeKnightMoving.png" --lz77
+#incbin "Sprites/AxeKnightMoving.dmp" 
 
 ALIGN 4
 AxeKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/AxeKnightStanding.png" --lz77
+#incbin "Sprites/AxeKnightStanding.dmp" 
 
 ALIGN 4
 BearMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BearMoving.png" --lz77
+#incbin "Sprites/BearMoving.dmp" 
 
 ALIGN 4
 BearStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BearStanding.png" --lz77
+#incbin "Sprites/BearStanding.dmp" 
 
 ALIGN 4
 BladeMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BladeMoving.png" --lz77
+#incbin "Sprites/BladeMoving.dmp" 
 
 ALIGN 4
 BladeStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BladeStanding.png" --lz77
+#incbin "Sprites/BladeStanding.dmp" 
 
 ALIGN 4
 BowArmorMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowArmorMoving.png" --lz77
+#incbin "Sprites/BowArmorMoving.dmp" 
 
 ALIGN 4
 BowArmorStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowArmorStanding.png" --lz77
+#incbin "Sprites/BowArmorStanding.dmp" 
 
 ALIGN 4
 BowKnightFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowKnightFMoving.png" --lz77
+#incbin "Sprites/BowKnightFMoving.dmp" 
 
 ALIGN 4
 BowKnightFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowKnightFStanding.png" --lz77
+#incbin "Sprites/BowKnightFStanding.dmp" 
 
 ALIGN 4
 BowKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowKnightMoving.png" --lz77
+#incbin "Sprites/BowKnightMoving.dmp" 
 
 ALIGN 4
 BowKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BowKnightStanding.png" --lz77
+#incbin "Sprites/BowKnightStanding.dmp" 
 
 ALIGN 4
 BuffPriestMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BuffPriestMoving.png" --lz77
+#incbin "Sprites/BuffPriestMoving.dmp" 
 
 ALIGN 4
 BuffPriestStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/BuffPriestStanding.png" --lz77
+#incbin "Sprites/BuffPriestStanding.dmp" 
 
 ALIGN 4
 DancerFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DancerFMoving.png" --lz77
+#incbin "Sprites/DancerFMoving.dmp" 
 
 ALIGN 4
 DancerFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DancerFStanding.png" --lz77
+#incbin "Sprites/DancerFStanding.dmp" 
 
 ALIGN 4
 DancerMMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DancerMMoving.png" --lz77
+#incbin "Sprites/DancerMMoving.dmp" 
 
 ALIGN 4
 DancerMStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DancerMStanding.png" --lz77
+#incbin "Sprites/DancerMStanding.dmp" 
 
 ALIGN 4
 DarkKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DarkKnightMoving.png" --lz77
+#incbin "Sprites/DarkKnightMoving.dmp" 
 
 ALIGN 4
 DarkKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DarkKnightStanding.png" --lz77
+#incbin "Sprites/DarkKnightStanding.dmp" 
 
 ALIGN 4
 DeaconMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DeaconMoving.png" --lz77
+#incbin "Sprites/DeaconMoving.dmp" 
 
 ALIGN 4
 DeaconStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DeaconStanding.png" --lz77
+#incbin "Sprites/DeaconStanding.dmp" 
 
 ALIGN 4
 DragoonMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DragoonMoving.png" --lz77
+#incbin "Sprites/DragoonMoving.dmp" 
 
 ALIGN 4
 DragoonStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/DragoonStanding.png" --lz77
+#incbin "Sprites/DragoonStanding.dmp" 
 
 ALIGN 4
 GeneralMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/GeneralMoving.png" --lz77
+#incbin "Sprites/GeneralMoving.dmp" 
 
 ALIGN 4
 GeneralStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/GeneralStanding.png" --lz77
+#incbin "Sprites/GeneralStanding.dmp" 
 
 ALIGN 4
 HalberdierMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HalberdierMoving.png" --lz77
+#incbin "Sprites/HalberdierMoving.dmp" 
 
 ALIGN 4
 HalberdierStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HalberdierStanding.png" --lz77
+#incbin "Sprites/HalberdierStanding.dmp" 
 
 ALIGN 4
 HighLordMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HighLordMoving.png" --lz77
+#incbin "Sprites/HighLordMoving.dmp" 
 
 ALIGN 4
 HighLordStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HighLordStanding.png" --lz77
+#incbin "Sprites/HighLordStanding.dmp" 
 
 ALIGN 4
 HolyKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HolyKnightMoving.png" --lz77
+#incbin "Sprites/HolyKnightMoving.dmp" 
 
 ALIGN 4
 HolyKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/HolyKnightStanding.png" --lz77
+#incbin "Sprites/HolyKnightStanding.dmp" 
 
 ALIGN 4
 KingMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/KingMoving.png" --lz77
+#incbin "Sprites/KingMoving.dmp" 
 
 ALIGN 4
 KingStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/KingStanding.png" --lz77
+#incbin "Sprites/KingStanding.dmp" 
 
 ALIGN 4
 KnightLordMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/KnightLordMoving.png" --lz77
+#incbin "Sprites/KnightLordMoving.dmp" 
 
 ALIGN 4
 KnightLordStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/KnightLordStanding.png" --lz77
+#incbin "Sprites/KnightLordStanding.dmp" 
 
 ALIGN 4
 LanceCavFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceCavFMoving.png" --lz77
+#incbin "Sprites/LanceCavFMoving.dmp" 
 
 ALIGN 4
 LanceCavFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceCavFStanding.png" --lz77
+#incbin "Sprites/LanceCavFStanding.dmp" 
 
 ALIGN 4
 LanceCavMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceCavMoving.png" --lz77
+#incbin "Sprites/LanceCavMoving.dmp" 
 
 ALIGN 4
 LanceCavStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceCavStanding.png" --lz77
+#incbin "Sprites/LanceCavStanding.dmp" 
 
 ALIGN 4
 LanceKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceKnightMoving.png" --lz77
+#incbin "Sprites/LanceKnightMoving.dmp" 
 
 ALIGN 4
 LanceKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LanceKnightStanding.png" --lz77
+#incbin "Sprites/LanceKnightStanding.dmp" 
 
 ALIGN 4
 LordMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LordMoving.png" --lz77
+#incbin "Sprites/LordMoving.dmp" 
 
 ALIGN 4
 LordStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/LordStanding.png" --lz77
+#incbin "Sprites/LordStanding.dmp" 
 
 ALIGN 4
 MageFighterFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MageFighterFMoving.png" --lz77
+#incbin "Sprites/MageFighterFMoving.dmp" 
 
 ALIGN 4
 MageFighterFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MageFighterFStanding.png" --lz77
+#incbin "Sprites/MageFighterFStanding.dmp" 
 
 ALIGN 4
 MageFighterMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MageFighterMoving.png" --lz77
+#incbin "Sprites/MageFighterMoving.dmp" 
 
 ALIGN 4
 MageFighterStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MageFighterStanding.png" --lz77
+#incbin "Sprites/MageFighterStanding.dmp" 
 
 ALIGN 4
 MagusMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MagusMoving.png" --lz77
+#incbin "Sprites/MagusMoving.dmp" 
 
 ALIGN 4
 MagusStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MagusStanding.png" --lz77
+#incbin "Sprites/MagusStanding.dmp" 
 
 ALIGN 4
 MaligKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MaligKnightMoving.png" --lz77
+#incbin "Sprites/MaligKnightMoving.dmp" 
 
 ALIGN 4
 MaligKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MaligKnightStanding.png" --lz77
+#incbin "Sprites/MaligKnightStanding.dmp" 
 
 ALIGN 4
 MercenaryMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MercenaryMoving.png" --lz77
+#incbin "Sprites/MercenaryMoving.dmp" 
 
 ALIGN 4
 MercenaryStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/MercenaryStanding.png" --lz77
+#incbin "Sprites/MercenaryStanding.dmp" 
 
 ALIGN 4
 PaladinFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/PaladinFMoving.png" --lz77
+#incbin "Sprites/PaladinFMoving.dmp" 
 
 ALIGN 4
 PaladinFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/PaladinFStanding.png" --lz77
+#incbin "Sprites/PaladinFStanding.dmp" 
 
 ALIGN 4
 PaladinMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/PaladinMoving.png" --lz77
+#incbin "Sprites/PaladinMoving.dmp" 
 
 ALIGN 4
 PaladinStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/PaladinStanding.png" --lz77
+#incbin "Sprites/PaladinStanding.dmp" 
 
 ALIGN 4
 RogueFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/RogueFMoving.png" --lz77
+#incbin "Sprites/RogueFMoving.dmp" 
 
 ALIGN 4
 RogueFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/RogueFStanding.png" --lz77
+#incbin "Sprites/RogueFStanding.dmp" 
 
 ALIGN 4
 SoldierMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SoldierMoving.png" --lz77
+#incbin "Sprites/SoldierMoving.dmp" 
 
 ALIGN 4
 SoldierStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SoldierStanding.png" --lz77
+#incbin "Sprites/SoldierStanding.dmp" 
 
 ALIGN 4
 SummonerFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SummonerFMoving.png" --lz77
+#incbin "Sprites/SummonerFMoving.dmp" 
 
 ALIGN 4
 SummonerFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SummonerFStanding.png" --lz77
+#incbin "Sprites/SummonerFStanding.dmp" 
 
 ALIGN 4
 SwordCavFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordCavFMoving.png" --lz77
+#incbin "Sprites/SwordCavFMoving.dmp" 
 
 ALIGN 4
 SwordCavFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordCavFStanding.png" --lz77
+#incbin "Sprites/SwordCavFStanding.dmp" 
 
 ALIGN 4
 SwordCavMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordCavMoving.png" --lz77
+#incbin "Sprites/SwordCavMoving.dmp" 
 
 ALIGN 4
 SwordCavStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordCavStanding.png" --lz77
+#incbin "Sprites/SwordCavStanding.dmp" 
 
 ALIGN 4
 SwordKnightMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordKnightMoving.png" --lz77
+#incbin "Sprites/SwordKnightMoving.dmp" 
 
 ALIGN 4
 SwordKnightStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/SwordKnightStanding.png" --lz77
+#incbin "Sprites/SwordKnightStanding.dmp" 
 
 ALIGN 4
 TemplarMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/TemplarMoving.png" --lz77
+#incbin "Sprites/TemplarMoving.dmp" 
 
 ALIGN 4
 TemplarStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/TemplarStanding.png" --lz77
+#incbin "Sprites/TemplarStanding.dmp" 
 
 ALIGN 4
 ThiefFMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/ThiefFMoving.png" --lz77
+#incbin "Sprites/ThiefFMoving.dmp" 
 
 ALIGN 4
 ThiefFStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/ThiefFStanding.png" --lz77
+#incbin "Sprites/ThiefFStanding.dmp" 
 
 ALIGN 4
 ValkyrieMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/ValkyrieMoving.png" --lz77
+#incbin "Sprites/ValkyrieMoving.dmp" 
 
 ALIGN 4
 ValkyrieStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/ValkyrieStanding.png" --lz77
+#incbin "Sprites/ValkyrieStanding.dmp" 
 
 ALIGN 4
 WarClericMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarClericMoving.png" --lz77
+#incbin "Sprites/WarClericMoving.dmp" 
 
 ALIGN 4
 WarClericStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarClericStanding.png" --lz77
+#incbin "Sprites/WarClericStanding.dmp" 
 
 ALIGN 4
 WarlockMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarlockMoving.png" --lz77
+#incbin "Sprites/WarlockMoving.dmp" 
 
 ALIGN 4
 WarlockStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarlockStanding.png" --lz77
+#incbin "Sprites/WarlockStanding.dmp" 
 
 ALIGN 4
 WarMonkMovingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarMonkMoving.png" --lz77
+#incbin "Sprites/WarMonkMoving.dmp" 
 
 ALIGN 4
 WarMonkStandingMapSpriteGFX:
-#incext Png2Dmp "Sprites/WarMonkStanding.png" --lz77
+#incbin "Sprites/WarMonkStanding.dmp" 
 

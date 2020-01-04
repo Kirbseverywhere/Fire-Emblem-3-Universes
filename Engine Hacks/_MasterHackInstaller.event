@@ -291,3 +291,11 @@ POP
 
   ALIGN 4
   #include "ToT/savemenu.event"
+
+  //Change sound room song title text color
+  ALIGN 4
+  PUSH
+    ORG $B0064
+    BYTE 1
+  POP
+
