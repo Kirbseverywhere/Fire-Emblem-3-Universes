@@ -102,7 +102,7 @@ resources to deal with it privately,[A][N]
 if you decide not to go public.[A]
 [MoveFarFarRight][ClearFace]
 
-[OpenLeft][MoveMidLeft]	
+[OpenLeft][MoveMidLeft]
 Urgh, that minx.[A]
 
 [OpenMidRight]
@@ -115,10 +115,11 @@ Let's not dwell on it;[A][N]
 tell me what it is you've[N]
 had weighing on your tongue.[A][X]
 
-	Fade out
-	Fade in
+Fade out
+Fade in
 
 ## AB3Opening3
+[OpenFarRight][LoadReginald]
 [OpenRight][LoadElle]
 [OpenMidLeft][LoadBarrymore][CloseEyes]
 I'm afraid this could be major.[A]
@@ -150,191 +151,839 @@ her rank to be talking to a servant[A][N]
 unless it's something she[N]
 wants to keep under wraps.[A]
 
+[OpenFarRight]
+Well, what are we to do now?[A]
 
-	R: Well what are we to do now?
-	CB: It would be foolish to act in haste. We'd best just stay on our guard. For now, return to your normal routines. I will send word when I need something else done.
+[OpenMidLeft]
+It would be foolish[N]
+to act in haste.[A][N]
+We'd best just[N]
+stay on our guard.[A][N]
+For now, return to[N]
+your normal routines.[A][N]
+I will send word when I [N]
+need something else done.[A][X]
 
-	In castle cutscene
-	R: Lady Elle! Why have we been summoned by the Council?
-	E: I don't know, Reginald. We'll have to wait and see.
 
-	In Council room cutscene
-	Councilwoman Mandel: Miss Alfbern.
-	E: Yes, Councilwoman?
-	CM: We've summoned you today to answer some questions for the Council.
-	E: May I ask what brought this on?
-	CM: Councilwoman Nouveau has brought something to our attention. Councilwoman?
-	A: Yes. Miss Elle, are you familiar with this brooch?
-	E: [Beat] 
-	A: Ahem. I asked if you're familiar with this brooch.
-	E: *eyes closed* That is[Beat]Mikey's brooch, Councilwoman.
-	A: Indeed. One of the servants found it whilst cleaning your quarters. As you know, Mikey, bless his heart, was murdered some two weeks ago. Do you have anything to say?
-	E: [Beat]No.
-	A: What was that? Speak up.
-	E: *opens eyes* I said no. However you found this evidence, it was planted.
-	A: Ha! You're a funny one. While it's true that the brooch could've been planted, it's a bit hard to prove your innocence when there's traces of the poison used to kill him on your boots.
-	R: Lies! You speak lies, Albinia!
-	CM: Reginald Hielvann! How dare you raise your voice in this room? And to a member of the Council, no less!
-	R: I shall not apologize when my lady is being slandered like--
-	E: Reginald. Silence.
-	R: *eyes closed* [Beat]Very well.
-E: What leads you to believe it wasn't planted as well, along with the brooch?
-A: The poison is from [rural area in Hevursa]. At the time of Mikey's murder, you had recently returned from that very same place three days prior. No one else here has been there any time recently.
-A: I think that is sufficient, Councilwoman Mandel?
-CB: Councilwoman Mandel, if I may. There is no damning evidence that connects Miss Alfbern with the murder. As someone whose House always had a close relationship with Mikey, you know I am as eager to get vengeance as anyone. Yet I just can't believe--
-A: Why not? She is an assassin, remember? The Blade of the Council. Turning around and killing one of our own is hardly unexpected.
-CM: Enough! Councilman Barrymore, I am afraid I cannot take your word as sufficient evidence to consider Miss Alfbern innocent.
-CB: May I ask why?
-CM: That harlot sorceress is in her company. To be brief, I cannot trust the opinion of any man in this room.
-L: *eyes closed* [Beat]
-CM: The Council finds Miss Alfbern guilty of the murder of Mikey [LAST NAME]! Guards! Come escort them to the dungeons!
-Guard: Yes, ma'am!
+## ABOpening4
+[OpenMidLeft][LoadElle]
+[OpenMidRight][LoadReginald]
+Lady Elle![A][N]
+Why have we been[N]
+summoned by the Council?[A]
 
-In dungeons cutscene
-E: Damn! We fell right into her trap! And to make matters worse, we're separated from the other Bears.
-R: Lady Elle, I fear they will not come to our rescue.
-E: And why is that?
-R: They have no reason to side with us in this conflict. It's much easier for them to cut their losses, since only the three of us have been indicted.
-E: I should've known. That's what I get for trusting others. Worthless, all of them.
-L: Elle, I'm so sorry for hindering you like that, back in the Council room!
-L: *close eyes* I will volunteer to be executed first. It is only right.
-E: Hold on, no one is dying. We can still get out of this. Right, Reginald?
-R: Honestly, I'd say our chances are--
-E: *eyes half closed* Right, Reginald?
-R: Y-Yes, of course. Fear not, Lapis, we shall escape.
-L: *opens eyes* I hope you're right.
-CB: Hello there.
-E: Councilman Barrymore. What are you doing here?
-CB: Your friends brought me.
-Jack: Heya!
-William: What's good?
-E: Jack! William! You really came for us?
-J: Of course! You're our leader, are you not? We can't just abandon you in your time of need.
-CB: Yes, yes, fine and dandy, but I'm afraid we're rather short on time. Here, the keys.
-E: Where are you taking us?
-CB: I'm not taking you anywhere. I am merely opening the door to freedom. How you go about seizing it is up to you, Blade of the Council.
-W: The other Bears are waiting for us outside.
-R: You mean everyone's here?
-W: Of course. You can't be a coward and be in the Amber Bears.
-J: *suddenly appearing behind Lazul* Ahem.
-L: *eyes closed* EEEK!!
-J: Haha! Well, William's right for the most part. Now come on: freedom awaits!
-	Fade out
-	Fade in
-	E: Reginald, Lazul, William, Jack, you all go first.
-	R: But--
-	E: No buts. I'm your leader; it's my responsibility to assure my subordinate' safety my own. Now go.
-	Beat.
-	R: So be it, Lady Elle. I shall be waiting for you outside the castle walls. *leaves*
-           J: An order is an order, I guess. Who am I to disobey? *leaves*
-         W: You mustn't dawdle. These dastards could come after us any minute. *leaves*
-	L: Elle, please, I can't be without you. I'm[Beat]scared. So scared.
-	CB: Miss Lazul, you will be okay. Here, let me--
-	L: Eep! Get away from me! Ack, I'm outta here! *leaves*
-	E: Hmph. Clever trick you did there. I almost have respect for you. Most men would've done more than just speak to her. The enchantment of her Crest is a strong one indeed.
-	CB: I do have to admit, it's not as if I feel nothing looking at her. Yet it feels oddly hollow. Certainly nothing like the perplexing feeling I get when looking at-- *close eyes* Er, do not mind me.
-	E: Now tell me the catch.
-	CB: Pardon?
-	E: The catch for saving us. Your payment. People do not help me unless they want something in return.
-	CB: Oh. Well, I ask nothing in return.
-	E: I respectfully request you do not lie to me. There's always a price. What is your motivation?
-	CB: Ah, there's that real side of you. I like it a lot more than that fake, genial mask you wear.
-	CB: You question my motives, despite having been nobly saved by your Bears. Let's just call my motivation sentiment, hm? Now go, before the both of us are caught and it's my head on the chopping block.
-	E: I do not believe you[Beat]but I'm not in a position to question it.
-	Beat.
-	E: Thank you, Lucian.
+[OpenMidLeft]
+I don't know, Reginald.[N]
+We'll have to wait and see.[A][X]
 
-	Outside cutscene
-	R: It appears all of us have reunited in one piece.
-	L: I'm pretty good at hiding, actually.
-	E: Everyone truly is...here. They're actually here.
-          Adam: Careful, Elle. If you're not careful, you might actually end up shedding a tear.
-	Albinia: Not so fast. Guards! They're over here!
-	E: Damn, we've been found out. There's no way we can win with our paltry numbers.
-	Z: If I may...might I suggest we make our way towards the mountain range? Our smaller numbers allow us greater mobility than Albinia's forces.
-	E: A tactical genius as always, Zane. Everyone, to the mountain range.
 
-	Map cutscene
-	E: They have us surrounded. We'll have to break our way past.
-	Z: That man over there. I believe if we can defeat him, we should have a clear path to the mountain range.
-          Vollster: Sounds like a good adversary. I will challenge him first!
-	L: Are you sure? He doesn't look like any old guard to me. I'm starting to get nervous.
-	E: You're right; he doesn't. But we don't have a choice, I'm afraid.
+## ABOpening5
+[OpenMidRight][LoadElle]
+[OpenMidLeft][LoadMandel]
 
-	Upon selecting start battle
-Boss (Ilyron): Hmph. So these are the despicable killers who did away with Mikey. It's unfortunate Lucian isn't here to see this, but no matter; I'll make sure to bring their heads back on pikes. For both my brother and Mikey.
+Miss Alfbern.[A]
 
-Boss dialogue
-B: I've been waiting for you, Blade of the Council. I'll relish tearing you apart and showing your remains to Mikey's family and my brother. Your treachery ends here.
-E: You're not the first to wish me six feet under, and you certainly won't be the last. But if I had listened to them, we wouldn't be having this conversation. Don't waste your time thinking I'll listen to you, either.
+[OpenMidRight]
+Yes, Councilwoman?[A]
 
-B: Get out of my way, you scum. Only Elle's head is fit to bring back to my brother!
+[OpenMidLeft]
+We've summoned you today to answer[N]
+some questions for the Council.[A]
 
-B: What[Beat]? To be defeated by mere rats, I[Beat] 
+[OpenMidRight]
+May I ask what brought this on?[A]
 
-Post-map cutscene
-E: Everyone, the lynchpin has been defeated. Quickly, to the mountain range.
-A: Wait! I won't let you get away!
+[OpenMidLeft]
+Councilwoman Nouveau has brought[N]
+something to our attention.[A][N]
+Councilwoman?[A]
 
-Mountain range cutscene
-E: Huff[Beat]huff[Beat] I think we lost them.
-R: It appears so. For the time being, we are safe.
-L: But what are we to do now? We have no place to call home anymore. We're criminals!
-R: Calm yourself, Lapis. Surely Lady Elle has a plan.
-D: *eyes closed* [Beat] 
-Z: You do have a plan, right?
-E: *eyes open* Of course I do. First, we prove ourselves innocent. Then, we get a seat on the Council.
-Greg: While that is all fine and dandy, what is our first step toward that goal? I'm starting to get irritated.
-W: Me too. Please tell me you actually have a plan.
-E: *eyes closed* I, um[Beat] 
-L: First we should rest!
-Beat.
-L: I mean, um, I suggest that we rest. Look[Beat]there's a village over there. One of us should go ask.
-E: Adam. You should go. You're the most charismatic of our group.
-A: Understood. *leaves*
-Beat.
-E: What led you to take charge?
-L: What?
-E: You said we should rest and go to the village. You seem[Beat]oddly calm in the face of this unexpected situation.
-L: One step at a time. Worry about today, not tomorrow. I[Beat]had to teach myself that before coming here. Sometimes, when you're so inundated with problems that you can't even think, you just shut it all out and focus on one thing: living. For now, we just need to survive. And while we do that, we can think about what to do next.
-E: I see. Lazul, I never did ask you the details about--
-	A: *enters* All right. The elder was kind enough to allow us shelter for the time being. It will certainly be better than braving the wilderness. Lady Elle, do you want to lead?
-          R: I'll take the lead. Come, let's go. *the two leave*
-	L: Elle[Beat] 
-E: What is it, Lazul?
-L: Thank you. Because of meeting you, I can look forward to more than just when my next meal is, or where I'm going to sleep for the night. You keep trying to distance yourself from everybody, but all of the Amber Bears care about you!
-E: *eyes closed* Oh, Lazul, I[Beat]
-L: [Beat]?
-E: *eyes open* It's nothing. We should rest; there's a north wind coming.
+[MoveLeft][OpenFarFarLeft][LoadNoveau][MoveFarLeft]
+Yes.[A][N]
+Miss Elle, are you familiar[N]
+with this brooch?[A]
 
-Inside castle cutscene
-Generic messenger: Sir! I bear news!
-Councilman Barrymore: You may speak.
-GM: It's your younger brother, sir, Lord Barrymore. He[Beat]was killed trying to apprehend the Blade of the Council.
-CB: You may go.
-GM: Sir! *leaves*
-Beat.
-CB: *eyes closed* Oh, Ilyron, you damned fool. How many times have I told you not to play the hero?
-A: *enters* My, am I interrupting something?
-CB: *opens eyes* Albinia. I'm afraid I am rather occupied at the moment. If you would please leave me be.
-A: Yes, I've heard the news. It's a shame about Ilyron. You two were always so close. 
-CB: Don't speak his name, you wench! You're the one who sent him to his death!
-A: I may have been the one who called for reinforcements, but it was Ilyron who insisted on throwing himself into the fray. Not to mention it was Elle who dealt the finishing blow. You must hate her, no? The girl who stole away not only a close family friend, but now your baby brother.
-CB: I[Beat]
-A: Even more so a shame that you're the one who helped her.
-CB: What? You speak lies!
-A: No, I don't. I know you did it, Lucian. There is no doubt in my mind.
-CB: Even if it were true, you have no proof.
-A: That's the thing: I don't need it. You're no fool, Lucian. It's easy to see the unease in the air. You have no alibi at the time of the incident. The Council is looking for someone to blame their woes on. You'll have to prove yourself innocent, rather than guilty. So you have just as much proof as I do.
-CB: [Beat] 
-A: But your secret's safe with me. After all, this is so much more fun.
-CB: What is?
-A: Watching you lose everything by your own hand. First you lost Mikey by telling him to investigate me. Then you lost Elle by sending her to [VILLAGE NAME]. Then last but not least, by freeing them, you inadvertently sent your brother to his death. Oh, yes, this is way more fun than simply destroying you.
-CB: I[Beat] 
-A: Anyway, I've come here to say my piece. Ciao.
-CB: *eyes closed* Wait.
-A: [Beat] 
-CB: *eyes open* How did you know that it was me who helped her? I surely can't have been the only one without an alibi.
-A: Ah, it's true. Under normal circumstances, you would've left them to die after they failed you so. They're of no use to you anymore. But I knew you weren't going to act the same this time.
-Beat.
-A: Your taste in women hasn't changed one bit, Lucian. You look at her how you used to look at me.
+[OpenMidRight]
+[Beat][A] 
+
+[OpenFarLeft]
+Ahem.[A][N]
+I asked if you're[N]
+familiar with this brooch.[A]
+
+[OpenMidRight][CloseEyes]
+That is[Beat][....][A][N]
+Mikey's brooch, Councilwoman.[A]
+
+[OpenFarLeft]
+Indeed.[A][N]
+One of the servants found it[N]
+whilst cleaning your quarters.[A][N]
+As you know, Mikey,[....] bless his heart,[...][N]
+was murdered some two weeks ago.[A][N]
+Do you have anything to say?[A]
+
+[OpenMidRight]
+[Beat]No.[A]
+
+[OpenFarLeft]
+What was that?[....][N]
+Speak up.[A]
+
+[OpenMidRight][OpenEyes]
+I said no.[A][N]
+However you found this[N]
+evidence, it was planted.[A]
+
+[OpenFarLeft]
+Ha! You're a funny one.[A][N]
+While it's true that the[N]
+brooch could've been planted,[A][N]
+it's a bit hard to prove your[N]
+innocence when there's traces[A][N]
+of the poison used to[N]
+kill him on your boots.[A]
+
+[OpenMidRight][MoveRight]
+[OpenFarFarRight][LoadReginald][MoveFarRight]
+Lies![A][N]
+You speak lies, Albinia![A]
+
+[OpenLeft]
+Reginald Hielvann![A][N]
+How dare you raise[N]
+your voice in this room?[A][N]
+And to a member of[N]
+the Council, no less![A]
+
+[OpenFarRight]
+I shall not apologize when my[N]
+lady is being slandered like--[...][A]
+
+[OpenRight]
+Reginald.[....][N]
+Silence.[A]
+
+[OpenFarRight][CloseEyes]
+[Beat]Very well.[A][ClearFace]
+
+[OpenRight][MoveMidRight]
+What leads you to believe[N]
+it wasn't planted as well,[A][N]
+along with the brooch?[A]
+
+[OpenFarLeft]
+
+The poison is from Nalonga.[A][N]
+At the time of Mikey's murder,[A][N]
+you had recently returned from that[N]
+very same place three days prior.[A][N]
+No one else here has been[N]
+there any time recently.[A][N]
+
+I think that is sufficient,[N]
+Councilwoman Mandel?[A]
+
+[OpenMidRight][MoveFarRight][OpenLeft][LoadBarrymore]
+Councilwoman Mandel, if I may.[A][N]
+There is no damning evidence that[N]
+connects Miss Alfbern with the murder.[A][N]
+As someone whose House always[N]
+had a close relationship with Mikey,[A][N]
+you know I am as eager[N]
+to get vengeance as anyone.[A][N]
+Yet I just can't believe--[A]
+
+[OpenFarLeft]
+Why not?[A][N]
+She is an assassin, remember?[A][N]
+The Blade of the Council.[A][N]
+Turning around and killing one[N]
+of our own is hardly unexpected.[A]
+
+[OpenLeft]
+Enough![A]
+
+[OpenFarLeft][ClearFace][OpenLeft]
+Councilman Barrymore,[N]
+I am afraid I cannot take your word[A][N]
+as sufficient evidence to[N]
+consider Miss Alfbern innocent.[A]
+
+[OpenRight]
+May I ask why?[A]
+
+[OpenLeft]
+That harlot sorceress[N]
+is in her company.[A][N]
+To be brief,[A][N]
+I cannot trust the opinion[N]
+of any man in this room.[A]
+
+[OpenFarRight][ClearFace][LoadLazul][CloseEyes]
+[Beat][A]
+
+[ClearFace][OpenRight][ClearFace][OpenLeft]
+
+The Council finds Miss Alfbern guilty[N]
+of the murder of Mikey Mortis![A][N]
+Guards![A][N]
+Come escort them to the dungeons![A]
+
+[OpenFarLeft][LoadWhiteSoldier]
+Yes, ma'am![A]
+
+[MoveFarFarRight][.....][X]
+
+## AB3Opening6
+
+[OpenFarLeft][LoadLazul]
+[OpenMidRight][LoadReginald]
+[OpenLeft][LoadElle]
+
+Damn![A][N]
+We fell right[N]
+into her trap![A][N]
+And to make[N]
+matters worse,[A][N] 
+we're separated from[N]
+the other Bears.[A]
+
+[OpenMidRight]
+Lady Elle, I fear they will[N]
+not come to our rescue.[A]
+
+[OpenLeft]
+And why is that?[A]
+
+[OpenMidRight]
+They have no reason to side[N]
+with us in this conflict.[A][N]
+It's much easier for[N]
+them to cut their losses,[A][N]
+since only the three of[N]
+us have been indicted.[A]
+
+[OpenLeft]
+I should've known.[A][N]
+That's what I get[N]
+for trusting others.[A][N]
+Worthless, all of them.[A]
+
+[OpenFarLeft]
+Elle, I'm so sorry for[N]
+hindering you like that,[A][N]
+back in the Council room![A][N][CloseEyes]
+I will volunteer to[N]
+be executed first.[A][N]
+It is only right.[A]
+
+[OpenLeft]
+Hold on, no one is dying.[A][N]
+We can still get out of this.[A][N]
+Right, Reginald?[A]
+
+[OpenMidRight]
+Honestly,[....][N]
+I'd say our chances are--[A]
+
+[OpenLeft]
+[HalfCloseEyes]Right, Reginald?[A][OpenEyes]
+
+[OpenMidRight]
+Y-Yes, of course.[A][N]
+Fear not, Lapis,[N]
+we shall escape.[A]
+
+[OpenFarLeft][OpenEyes]
+I hope you're right.[A]
+
+[OpenFarFarRight][LoadBarrymore]
+Hello there.[A]
+
+[OpenMidRight][ClearFace][OpenFarLeft][ClearFace][OpenLeft][MoveMidLeft][OpenFarFarRight][MoveMidRight][OpenMidLeft]
+Councilman Barrymore.[A][N]
+What are you doing here?[A]
+
+[OpenMidRight]
+Your friends brought me.[A]
+
+[MoveRight][OpenFarRight][LoadJack]
+Heya![A]
+
+[ClearFace][OpenFarRight][LoadWilliam]
+What's good?[A]
+
+[OpenMidLeft]
+Jack![....] William![....][N]
+You really came for us?[A]
+
+[OpenFarRight][ClearFace][LoadJack]
+Of course![A][N]
+You're our leader,[N]
+are you not?[A][N]
+We can't just abandon you[N]
+in your time of need.[A]
+
+[OpenRight]
+Yes, yes, fine and dandy,[A][N]
+but I'm afraid we're[N]
+rather short on time.[A][N]
+Here, the keys.[A]
+
+[OpenMidLeft]
+Where are you taking us?[A]
+
+[OpenRight]
+I'm not taking you anywhere.[A][N]
+I am merely opening[N]
+the door to freedom.[A][N]
+How you go about seizing[N]
+it is up to you,[A][N]
+Blade of the Council.[A]
+
+[OpenFarRight][ClearFace][LoadWilliam]
+The other Bears are[N]
+waiting for us outside.[A]
+
+[OpenMidLeft][ClearFace][LoadReginald]
+You mean everyone's here?[A]
+
+[OpenFarRight]
+Of course.[A][N]
+You can't be a coward and[N]
+be in the Amber Bears.[A]
+
+[OpenMidLeft][ClearFace][LoadLazul][CloseEyes][OpenFarLeft][LoadJack]
+Ahem.[A]
+
+[OpenMidLeft]
+EEEK!![A]
+[MoveLeft]
+
+[OpenFarLeft]
+Haha![A][N]
+Well, William's right[N]
+for the most part.[A][N]
+Now come on:[N]
+freedom awaits![A][X]
+
+
+# AB3Opening7
+[OpenFarLeft][LoadBarrymore]
+[OpenMidRight][LoadReginald]
+[OpenLeft][LoadElle]
+Reginald,[....] Lazul,[....][N] 
+William,[....] Jack,[....][A][N]
+you all go first.[A]
+
+[OpenMidRight]
+But--[A]
+
+[OpenLeft]
+No buts.[A][N]
+I'm your leader;[A][N]
+it's my responsibility to assure[N]
+my subordinates' safety before my own.[A][N]
+Now go.[A]
+
+[OpenMidRight]
+[Beat][A][N]
+So be it, Lady Elle.[A][N]
+I shall be waiting for you[N]
+outside the castle walls.[A][CloseSpeechSlow]
+
+[ClearFace][LoadJack]
+An order is an order, I guess.[A][N]
+Who am I to disobey?[A][CloseSpeechSlow]
+
+[ClearFace][LoadWilliam]
+You mustn't dawdle.[A][N]
+These dastards could[N]
+come after us any minute.[A][CloseSpeechSlow]
+
+[ClearFace][LoadLazul]
+Elle, please, I can't be without you.[A][N]
+I'm[Beat]scared.[....] So scared.[A]
+
+[OpenFarLeft]
+Miss Lazul, you will be okay.[A][N]
+Here, let me--[A]
+
+[OpenMidRight]
+Eep! Get away from me![A][N]
+Ack, I'm outta here![A]
+
+[ClearFace][OpenLeft][MoveMidRight][OpenFarLeft][MoveMidLeft][OpenMidRight]
+Hmph.[N]
+Clever trick you did there.[A][N]
+I almost have respect for you.[A][N]
+Most men would've done more[N]
+than just speak to her.[A][N]
+The enchantment of her Crest[N]
+is a strong one indeed.[A]
+
+[OpenMidLeft]
+I do have to admit, it's not as[N]
+if I feel nothing looking at her.[A][N]
+Yet it feels oddly hollow.[A][N]
+Certainly nothing like the perplexing[N]
+feeling I get when looking at--[A][N][CloseEyes]
+Er, do not mind me.[A]
+
+[OpenMidRight]
+Now tell me the catch.[A]
+
+[OpenMidLeft]
+Pardon?[A]
+
+[OpenMidRight]
+The catch for saving us.[A][N]
+Your payment.[A][N]
+People do not help me unless[N]
+they want something in return.[A]
+
+[OpenMidLeft]
+Oh.[A][N]
+Well, I ask[N]
+nothing in return.[A]
+
+[OpenMidRight]
+I respectfully request[N]
+you do not lie to me.[A][N]
+There's always a price.[A][N]
+What is your motivation?[A]
+
+[OpenMidLeft]
+Ah, there's that real side of you.[A][N]
+I like it a lot more than that[N]
+fake, genial mask you wear.[A][N]
+You question my motives, despite[N]
+having been nobly saved by your Bears.[A][N]
+Let's just call my motivation sentiment, hm?[A][N]
+Now go, before the both of us are caught[N]
+and it's my head on the chopping block.[A]
+
+[OpenMidRight]
+I do not believe you[Beat][A][N]
+But I'm not in a[N]
+position to question it.[A][N]
+[Beat][A][N]
+Thank you, Lucian.[A][X]
+
+
+## AB3Opening8
+[OpenMidLeft][LoadElle]
+[OpenFarRight][LoadLazul]
+[OpenRight][LoadReginald]
+It appears all of us have[N]
+reunited in one piece.[A]
+
+[OpenFarRight]
+I'm pretty good at[N]
+hiding, actually.[A]
+
+[OpenMidLeft]
+Everyone truly is[Beat][....] here.[N]
+They're actually here.[A]
+
+[OpenRight][ClearFace][OpenFarRight][ClearFace][OpenMidRight][LoadAdam]
+Careful, Elle.[A]
+If you're not careful,[A][N]
+you might actually end[N]
+up shedding a tear.[A][CloseSpeechSlow]
+
+[ClearFace][LoadAlbinia]
+Not so fast.[A][N]
+Guards![....][N]
+They're over here![A][ClearFace]
+
+[OpenMidLeft]
+Damn, we've been found out.[A][N]
+There's no way we can win[N]
+with our paltry numbers.[A]
+
+[OpenMidRight][LoadZane]
+If I may[Beat][A][N]
+Might I suggest we make our[N]
+way towards the mountain range?[A][N]
+Our smaller numbers allow us greater[N]
+mobility than Albinia's forces.[A]
+
+[OpenMidLeft]
+A tactical genius as always, Zane.[A][N]
+Everyone, to the mountain range.[A][X]
+
+
+## AB3Opening9
+[OpenRight][LoadZane]
+[OpenMidLeft][LoadElle]
+They have us surrounded.[A][N]
+We'll have to break our way past.[A]
+
+[OpenRight]
+That man over there.[A}[N]
+I believe if we can defeat him,[A][N]
+we should have a clear path[N]
+to the mountain range.[A]
+
+[OpenFarRight][LoadVollster]
+Sounds like a good adversary.[N]
+I will challenge him first![A]
+
+[OpenRight][ClearFace][LoadLazul]
+Are you sure?[A][N]
+He doesn't look like[N]
+any old guard to me.[A][N]
+I'm starting to get nervous.[A]
+
+[OpenMidLeft]
+You're right; he doesn't.[A][N]
+But we don't have[N]
+a choice, I'm afraid.[A][X]
+
+
+## AB3Turn1Start
+[OpenMidLeft][LoadIlyron]
+Hmph.[A][N]
+So these are the despicable[N]
+killers who did away with Mikey.[A][N]
+It's unfortunate Lucian isn't[N]
+here to see this, but no matter;[A][N]
+I'll make sure to bring[N]
+their heads back on pikes.[A][N]
+For both my brother and Mikey.[A][X]
+
+## AB3BossQuoteElle
+[OpenMidLeft][LoadIlyron]
+I've been waiting for you,[N]
+Blade of the Council.[A][N]
+I'll relish tearing you apart[A][N]
+and showing your remains to[N]
+Mikey's family and my brother.[A][N]
+Your treachery ends here.[A]
+
+[ClearFace][OpenMidRight][LoadElle]
+You're not the first[N]
+to wish me six feet under,[A][N]
+and you certainly[N]
+won't be the last.[A][N]
+But if I had[N]
+listened to them,[A][N]
+we wouldn't be having[N]
+this conversation.[A][N]
+Don't waste your time[A][N] 
+thinking I'll listen[N]
+to you, either.[A][X]
+
+
+## AB3BossQuote
+[OpenMidLeft][LoadIlyron]
+Get out of my[N]
+way, you scum.[A][N]
+Only Elle's head[A][N]
+is fit to bring[N]
+back to my brother![A][X]
+
+
+## AB3BossDeathQuote
+[OpenMidLeft][LoadIlyron]
+What[Beat]?[A][N]
+To be defeated[N]
+by mere rats, I[Beat][A][X]
+
+
+## AB3Ending1
+[OpenMidRight][LoadElle]
+Everyone, the lynchpin[N]
+has been defeated.[A][N]
+Quickly, to the mountain range.[A]
+
+[ClearFace][OpenMidLeft][LoadAlbinia]
+Wait![....] I won't let you get away![A][X]
+
+
+## AB3Ending2
+[OpenRight][LoadReginald][OpenFarRight][LoadLazul]
+[OpenMidLeft][LoadElle]
+Huff[Beat][....]huff[Beat][....][A][N]
+I think we lost them.[A]
+
+[OpenRight]
+It appears so.[A][N]
+For the time being, we are safe.[A]
+
+[OpenFarRight]
+But what are we to do now?[A][N]
+We have no place to[N]
+call home anymore.[A][N]
+We're criminals![A]
+
+[OpenRight]
+Calm yourself, Lapis.[A][N]
+Surely Lady Elle has a plan.[A]
+
+[OpenMidLeft][CloseEyes]
+[Beat][A]
+
+[OpenRight][ClearFace][LoadZane]
+You do have a plan, right?[A]
+
+[OpenMidLeft][OpenEyes]
+Of course I do.[A][N]
+First, we prove ourselves innocent.[A][N]
+Then, we get a seat on the Council.[A][N]
+
+[OpenFarRight][ClearFace][LoadGreg]
+While that is all fine and dandy,[A][N]
+what is our first[N]
+step toward that goal?[A][N]
+I'm starting to get irritated.[A]
+
+[OpenRight][ClearFace][LoadWilliam]
+Me too. Please tell me[N]
+you actually have a plan.[A]
+
+[OpenMidLeft][CloseEyes]
+I, um[Beat][A]
+
+[OpenFarRight][ClearFace][LoadLazul]
+First we should rest![A][N]
+[Beat][A][N]
+I mean, um, I suggest that we rest.[A][N]
+Look[Beat]there's a village over there.[A][N]
+One of us should go ask.[A]
+
+[OpenMidLeft][OpenEyes]
+Adam. You should go.[A][N]
+You're the most[N]
+charismatic of our group.[A]
+
+[OpenRight][ClearFace][LoadAdam]
+Understood.[A][ClearFace]
+
+[OpenFarRight][MoveMidRight][OpenMidLeft]
+What led you to take charge?[A]
+
+[OpenMidRight]
+What?[A]
+
+[OpenMidLeft]
+You said we should rest[N]
+and go to the village.[A][N]
+You seem[Beat][A][N]
+oddly calm in the face of[N]
+this unexpected situation.[A]
+
+[OpenMidRight]
+One step at a time.[A][N]
+Worry about today, not tomorrow.[A][N]
+I[Beat]had to teach myself[N]
+that before coming here.[A][N]
+Sometimes, when you're so inundated[N]
+with problems that you can't even think,[A][N]
+you just shut it all out and[N]
+focus on one thing: living.[A][N]
+For now, we just need to survive.[A][N]
+And while we do that,[N]
+we can think about what to do next.[A]
+
+[OpenMidLeft]
+I see.[A][N]
+Lazul, I never did ask[N]
+you the details about--[A]
+
+[OpenMidRight][MoveRight][OpenFarFarRight][LoadAdam][MoveFarRight]
+All right.[A][N]
+The elder was kind enough to allow[N]
+us shelter for the time being.[A][N]
+It will certainly be better[N]
+than braving the wilderness.[A][N]
+Lady Elle, do you want to lead?[A]
+
+[OpenMidLeft][MoveLeft][OpenFarLeft][LoadReginald]
+I'll take the lead.[A][N]
+Come, let's go.[A]
+
+[MoveFarFarRight][ClearFace][OpenFarRight][MoveFarFarRight][ClearFace][OpenLeft][MoveMidLeft][OpenRight][MoveMidRight]
+Elle[Beat][A]
+
+[OpenMidLeft]
+What is it, Lazul?[A]
+
+[OpenMidRight]
+Thank you.[A][N]
+Because of meeting you,[A][N]
+I can look forward to more[N]
+than just when my next meal is,[A][N]
+or where I'm going to[N]
+sleep for the night.[A][N]
+You keep trying to distance[N]
+yourself from everybody,[A][N]
+but all of the Amber[N]
+Bears care about you![A]
+
+[OpenMidLeft][CloseEyes]
+Oh, Lazul, I[Beat][A]
+
+[OpenMidRight]
+[Beat]?[A]
+
+[OpenMidLeft][OpenEyes]
+It's nothing.[A][N]
+We should rest;[A][N]
+there's a north[N]
+wind coming.[A][X]
+
+
+## AB3Ending2
+[OpenMidLeft][LoadBarrymore][OpenMidRight][LoadWhiteSoldier]
+Sir! I bear news![A]
+
+[OpenMidLeft]
+You may speak.[A]
+
+[OpenMidRight]
+It's your younger brother,[N]
+sir, Lord Barrymore.[A][N]
+He[Beat][A][N]
+was killed trying to apprehend[N]
+the Blade of the Council.[A]
+
+[OpenMidLeft]
+You may go.[A]
+
+[OpenMidRight]
+Sir![A][ClearFace]
+
+[OpenMidLeft][CloseEyes]
+[Beat]Oh, Ilyron, you damned fool.[A][N]
+How many times have I told[N]
+you not to play the hero?[A]
+
+[OpenMidRight][LoadAlbinia]
+My, am I interrupting something?[A]
+
+[OpenMidLeft][OpenEyes]
+Albinia.[A][N]
+I'm afraid I am rather[N]
+occupied at the moment.[A][N]
+If you would please[N]
+leave me be.[A]
+
+[OpenMidRight]
+Yes, I've heard the news.[A][N]
+It's a shame about Ilyron.[A][N]
+You two were always so close.[A]
+
+[OpenMidLeft]
+Don't speak his[N]
+name, you wench![A][N]
+You're the one who[N]
+sent him to his death![A]
+
+[OpenMidRight]
+I may have been the one who[N]
+called for reinforcements,[A][N]
+but it was Ilyron who insisted[N]
+on throwing himself into the fray.[A][N]
+Not to mention it was Elle[N]
+who dealt the finishing blow.[A][N]
+You must hate her, no?[A][N]
+The girl who stole away not[N]
+only a close family friend,[A][N]
+but now your baby brother.[A]
+
+[OpenMidLeft]
+I[Beat][A]
+
+[OpenMidRight]
+Even more so a shame that[N] 
+you're the one who helped her.[A]
+
+[OpenMidLeft]
+What?[....] You speak lies![A]
+
+[OpenMidRight]
+No, I don't.[A][N]
+I know you did it, Lucian.[A][N]
+There is no doubt in my mind.[A]
+
+[OpenMidLeft]
+Even if it were true,[N]
+you have no proof.[A]
+
+[OpenMidRight]
+That's the thing:[....][N]
+I don't need it.[A][N]
+You're no fool, Lucian.[A][N]
+It's easy to see the[N]
+unease in the air.[A][N]
+You have no alibi at the[N]
+time of the incident.[A][N]
+The Council is looking for[N]
+someone to blame their woes on.[A][N]
+You'll have to prove yourself[N]
+innocent, rather than guilty.[A][N]
+So you have just as[N]
+much proof as I do.[A]
+
+[OpenMidLeft]
+[Beat][A]
+
+[OpenMidRight]
+But your secret's safe with me.[A][N]
+After all, this is so much more fun.[A]
+
+[OpenMidLeft]
+What is?[A]
+
+[OpenMidRight]
+Watching you lose[N]
+everything by your own hand.[A][N]
+First you lost Mikey by telling[N]
+him to investigate me.[A][N]
+Then you lost Elle by[N]
+sending her to Olenvard.[A][N]
+Then last but not least,[A][N]
+by freeing them, you inadvertently[N]
+sent your brother to his death.[A][N]
+Oh, yes, this is way more[N]
+fun than simply destroying you.[A]
+
+[OpenMidLeft]
+I[Beat][A]
+
+[OpenMidRight]
+Anyway, I've come here[N]
+to say my piece.[....] Ciao.[A]
+
+[OpenMidLeft][CloseEyes]
+Wait.[A]
+
+[OpenMidRight]
+[Beat][A]
+
+[OpenMidLeft][OpenEyes]
+How did you know that it[N]
+was me who helped her?[A][N]
+I surely can't have been the[N]
+only one without an alibi.[A]
+
+[OpenMidRight]
+Ah, it's true.[A][N]
+Under normal circumstances,[A][N]
+you would've left them to die[N]
+after they failed you so.[A][N]
+They're of no use to you anymore.[A][N]
+But I knew you weren't going[N]
+to act the same this time.[A]
+
+[OpenMidLeft]
+[Beat][A]
+
+[OpenMidRight]
+Your taste in women hasn't[N]
+changed one bit, Lucian.[A][N]
+You look at her how you[N]
+used to look at me.[A][X]
