@@ -122,7 +122,7 @@ I'm using proxies?[A][N]
 It's your word against mine;[A][N]
 they'll just see you as bitter and[N]
 desperate in light of your failure.[A]
-	
+
 [OpenMidLeft]
 [Beat][A]
 
@@ -152,7 +152,7 @@ All right, that's enough.[A][N]
 I will not stand around and let--[A]
 
 [OpenMidLeft]
-Reginald.[...] It's fine.[A]
+Reginald.[....] It's fine.[A]
 
 [OpenRight]
 Beat.[A]
@@ -162,12 +162,12 @@ So?[A][N]
 Let's say I agree to your terms.[A][N]
 What will you have me do?[A]
 
-[OpenFarRight]	
+[OpenFarRight]
 It's simple enough, really.[A][N]
 There have been rumors of[N]
 rebellion in Olenvard.[A]
 
-[OpenMidLeft]	
+[OpenMidLeft]
 Are you really so willing[N]
 to send me off again,[A][N]
 despite what happened the last time?[A]
@@ -192,7 +192,7 @@ Olenvard is much further away[N]
 from the Council headquarters.[A][N]
 I suggest that we find some[N]
 additional allies to aid us.[A]
-	
+
 [OpenFarFarRight][LoadNobody][MoveRight]
 You were saying?[A]
 
@@ -356,8 +356,6 @@ we have a job to do.[A][X]
 [OpenMidRight][LoadVollster]
 C'mon, give me a warmup![A][X]
 
-*scripted fight begins. Bandit attacks Vollster and misses, Vollster crits bandit and OHKOs*
-
 ## AB2Opening10
 Heh![A][N]
 If I had known you[N]
@@ -407,8 +405,6 @@ trained enough[Beat]![A][N]
 I refuse to let[N]
 it all end here![A][X]
 
-*Vollster will then flee inside a house on the map*
-
 ## AB2BossQuoteElle
 [OpenMidLeft][LoadRynod]
 Heh, you're just[N]
@@ -446,7 +442,7 @@ Hurry up and die![A][X]
 ## AB2Ending1
 [OpenRight][LoadLazul][OpenFarRight][LoadReginald]
 [OpenMidLeft][LoadElle]
-Hmph.[...] Cowards.[....][A][N]
+Hmph.[....] Cowards.[....][A][N]
 
 Soon as their leader's killed,[N]
 they flee like the dastards they are.[A]
