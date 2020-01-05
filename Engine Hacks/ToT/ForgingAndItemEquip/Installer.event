@@ -17,7 +17,7 @@ POP
 #include "asm/Forging.event"
 ALIGN 4
 #include "asm/Accessories.event"
-MESSAGE Arcana Shield at ComputeArcanaShieldAttackReduction
+//MESSAGE Arcana Shield at ComputeArcanaShieldAttackReduction
 
 ALIGN 4
 CannotEquipAccessoryText:
@@ -91,7 +91,7 @@ WORD 0xA000D4B; POIN ASMC_GiveUnitExp|1
 NoFade
 ENDA
 
-MESSAGE Give Unit Exp ASMC_GiveUnitExp
+//MESSAGE Give Unit Exp ASMC_GiveUnitExp
 
 ALIGN 4
 AE_ExpShareID:

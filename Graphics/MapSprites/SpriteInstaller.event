@@ -1,0 +1,349 @@
+ALIGN 4
+BearMapSpritePalette:
+#incext Png2Dmp "Sprites/BearStanding.png" --palette-only
+
+
+ALIGN 4
+AxeCavFMovingMapSpriteGFX:
+#incbin "Sprites/AxeCavFMoving.dmp" 
+
+ALIGN 4
+AxeCavFStandingMapSpriteGFX:
+#incbin "Sprites/AxeCavFStanding.dmp" 
+
+ALIGN 4
+AxeCavMovingMapSpriteGFX:
+#incbin "Sprites/AxeCavMoving.dmp" 
+
+ALIGN 4
+AxeCavStandingMapSpriteGFX:
+#incbin "Sprites/AxeCavStanding.dmp" 
+
+ALIGN 4
+AxeKnightMovingMapSpriteGFX:
+#incbin "Sprites/AxeKnightMoving.dmp" 
+
+ALIGN 4
+AxeKnightStandingMapSpriteGFX:
+#incbin "Sprites/AxeKnightStanding.dmp" 
+
+ALIGN 4
+BearMovingMapSpriteGFX:
+#incbin "Sprites/BearMoving.dmp" 
+
+ALIGN 4
+BearStandingMapSpriteGFX:
+#incbin "Sprites/BearStanding.dmp" 
+
+ALIGN 4
+BladeMovingMapSpriteGFX:
+#incbin "Sprites/BladeMoving.dmp" 
+
+ALIGN 4
+BladeStandingMapSpriteGFX:
+#incbin "Sprites/BladeStanding.dmp" 
+
+ALIGN 4
+BowArmorMovingMapSpriteGFX:
+#incbin "Sprites/BowArmorMoving.dmp" 
+
+ALIGN 4
+BowArmorStandingMapSpriteGFX:
+#incbin "Sprites/BowArmorStanding.dmp" 
+
+ALIGN 4
+BowKnightFMovingMapSpriteGFX:
+#incbin "Sprites/BowKnightFMoving.dmp" 
+
+ALIGN 4
+BowKnightFStandingMapSpriteGFX:
+#incbin "Sprites/BowKnightFStanding.dmp" 
+
+ALIGN 4
+BowKnightMovingMapSpriteGFX:
+#incbin "Sprites/BowKnightMoving.dmp" 
+
+ALIGN 4
+BowKnightStandingMapSpriteGFX:
+#incbin "Sprites/BowKnightStanding.dmp" 
+
+ALIGN 4
+BuffPriestMovingMapSpriteGFX:
+#incbin "Sprites/BuffPriestMoving.dmp" 
+
+ALIGN 4
+BuffPriestStandingMapSpriteGFX:
+#incbin "Sprites/BuffPriestStanding.dmp" 
+
+ALIGN 4
+DancerFMovingMapSpriteGFX:
+#incbin "Sprites/DancerFMoving.dmp" 
+
+ALIGN 4
+DancerFStandingMapSpriteGFX:
+#incbin "Sprites/DancerFStanding.dmp" 
+
+ALIGN 4
+DancerMMovingMapSpriteGFX:
+#incbin "Sprites/DancerMMoving.dmp" 
+
+ALIGN 4
+DancerMStandingMapSpriteGFX:
+#incbin "Sprites/DancerMStanding.dmp" 
+
+ALIGN 4
+DarkKnightMovingMapSpriteGFX:
+#incbin "Sprites/DarkKnightMoving.dmp" 
+
+ALIGN 4
+DarkKnightStandingMapSpriteGFX:
+#incbin "Sprites/DarkKnightStanding.dmp" 
+
+ALIGN 4
+DeaconMovingMapSpriteGFX:
+#incbin "Sprites/DeaconMoving.dmp" 
+
+ALIGN 4
+DeaconStandingMapSpriteGFX:
+#incbin "Sprites/DeaconStanding.dmp" 
+
+ALIGN 4
+DragoonMovingMapSpriteGFX:
+#incbin "Sprites/DragoonMoving.dmp" 
+
+ALIGN 4
+DragoonStandingMapSpriteGFX:
+#incbin "Sprites/DragoonStanding.dmp" 
+
+ALIGN 4
+GeneralMovingMapSpriteGFX:
+#incbin "Sprites/GeneralMoving.dmp" 
+
+ALIGN 4
+GeneralStandingMapSpriteGFX:
+#incbin "Sprites/GeneralStanding.dmp" 
+
+ALIGN 4
+HalberdierMovingMapSpriteGFX:
+#incbin "Sprites/HalberdierMoving.dmp" 
+
+ALIGN 4
+HalberdierStandingMapSpriteGFX:
+#incbin "Sprites/HalberdierStanding.dmp" 
+
+ALIGN 4
+HighLordMovingMapSpriteGFX:
+#incbin "Sprites/HighLordMoving.dmp" 
+
+ALIGN 4
+HighLordStandingMapSpriteGFX:
+#incbin "Sprites/HighLordStanding.dmp" 
+
+ALIGN 4
+HolyKnightMovingMapSpriteGFX:
+#incbin "Sprites/HolyKnightMoving.dmp" 
+
+ALIGN 4
+HolyKnightStandingMapSpriteGFX:
+#incbin "Sprites/HolyKnightStanding.dmp" 
+
+ALIGN 4
+KingMovingMapSpriteGFX:
+#incbin "Sprites/KingMoving.dmp" 
+
+ALIGN 4
+KingStandingMapSpriteGFX:
+#incbin "Sprites/KingStanding.dmp" 
+
+ALIGN 4
+KnightLordMovingMapSpriteGFX:
+#incbin "Sprites/KnightLordMoving.dmp" 
+
+ALIGN 4
+KnightLordStandingMapSpriteGFX:
+#incbin "Sprites/KnightLordStanding.dmp" 
+
+ALIGN 4
+LanceCavFMovingMapSpriteGFX:
+#incbin "Sprites/LanceCavFMoving.dmp" 
+
+ALIGN 4
+LanceCavFStandingMapSpriteGFX:
+#incbin "Sprites/LanceCavFStanding.dmp" 
+
+ALIGN 4
+LanceCavMovingMapSpriteGFX:
+#incbin "Sprites/LanceCavMoving.dmp" 
+
+ALIGN 4
+LanceCavStandingMapSpriteGFX:
+#incbin "Sprites/LanceCavStanding.dmp" 
+
+ALIGN 4
+LanceKnightMovingMapSpriteGFX:
+#incbin "Sprites/LanceKnightMoving.dmp" 
+
+ALIGN 4
+LanceKnightStandingMapSpriteGFX:
+#incbin "Sprites/LanceKnightStanding.dmp" 
+
+ALIGN 4
+LordMovingMapSpriteGFX:
+#incbin "Sprites/LordMoving.dmp" 
+
+ALIGN 4
+LordStandingMapSpriteGFX:
+#incbin "Sprites/LordStanding.dmp" 
+
+ALIGN 4
+MageFighterFMovingMapSpriteGFX:
+#incbin "Sprites/MageFighterFMoving.dmp" 
+
+ALIGN 4
+MageFighterFStandingMapSpriteGFX:
+#incbin "Sprites/MageFighterFStanding.dmp" 
+
+ALIGN 4
+MageFighterMovingMapSpriteGFX:
+#incbin "Sprites/MageFighterMoving.dmp" 
+
+ALIGN 4
+MageFighterStandingMapSpriteGFX:
+#incbin "Sprites/MageFighterStanding.dmp" 
+
+ALIGN 4
+MagusMovingMapSpriteGFX:
+#incbin "Sprites/MagusMoving.dmp" 
+
+ALIGN 4
+MagusStandingMapSpriteGFX:
+#incbin "Sprites/MagusStanding.dmp" 
+
+ALIGN 4
+MaligKnightMovingMapSpriteGFX:
+#incbin "Sprites/MaligKnightMoving.dmp" 
+
+ALIGN 4
+MaligKnightStandingMapSpriteGFX:
+#incbin "Sprites/MaligKnightStanding.dmp" 
+
+ALIGN 4
+MercenaryMovingMapSpriteGFX:
+#incbin "Sprites/MercenaryMoving.dmp" 
+
+ALIGN 4
+MercenaryStandingMapSpriteGFX:
+#incbin "Sprites/MercenaryStanding.dmp" 
+
+ALIGN 4
+PaladinFMovingMapSpriteGFX:
+#incbin "Sprites/PaladinFMoving.dmp" 
+
+ALIGN 4
+PaladinFStandingMapSpriteGFX:
+#incbin "Sprites/PaladinFStanding.dmp" 
+
+ALIGN 4
+PaladinMovingMapSpriteGFX:
+#incbin "Sprites/PaladinMoving.dmp" 
+
+ALIGN 4
+PaladinStandingMapSpriteGFX:
+#incbin "Sprites/PaladinStanding.dmp" 
+
+ALIGN 4
+RogueFMovingMapSpriteGFX:
+#incbin "Sprites/RogueFMoving.dmp" 
+
+ALIGN 4
+RogueFStandingMapSpriteGFX:
+#incbin "Sprites/RogueFStanding.dmp" 
+
+ALIGN 4
+SoldierMovingMapSpriteGFX:
+#incbin "Sprites/SoldierMoving.dmp" 
+
+ALIGN 4
+SoldierStandingMapSpriteGFX:
+#incbin "Sprites/SoldierStanding.dmp" 
+
+ALIGN 4
+SummonerFMovingMapSpriteGFX:
+#incbin "Sprites/SummonerFMoving.dmp" 
+
+ALIGN 4
+SummonerFStandingMapSpriteGFX:
+#incbin "Sprites/SummonerFStanding.dmp" 
+
+ALIGN 4
+SwordCavFMovingMapSpriteGFX:
+#incbin "Sprites/SwordCavFMoving.dmp" 
+
+ALIGN 4
+SwordCavFStandingMapSpriteGFX:
+#incbin "Sprites/SwordCavFStanding.dmp" 
+
+ALIGN 4
+SwordCavMovingMapSpriteGFX:
+#incbin "Sprites/SwordCavMoving.dmp" 
+
+ALIGN 4
+SwordCavStandingMapSpriteGFX:
+#incbin "Sprites/SwordCavStanding.dmp" 
+
+ALIGN 4
+SwordKnightMovingMapSpriteGFX:
+#incbin "Sprites/SwordKnightMoving.dmp" 
+
+ALIGN 4
+SwordKnightStandingMapSpriteGFX:
+#incbin "Sprites/SwordKnightStanding.dmp" 
+
+ALIGN 4
+TemplarMovingMapSpriteGFX:
+#incbin "Sprites/TemplarMoving.dmp" 
+
+ALIGN 4
+TemplarStandingMapSpriteGFX:
+#incbin "Sprites/TemplarStanding.dmp" 
+
+ALIGN 4
+ThiefFMovingMapSpriteGFX:
+#incbin "Sprites/ThiefFMoving.dmp" 
+
+ALIGN 4
+ThiefFStandingMapSpriteGFX:
+#incbin "Sprites/ThiefFStanding.dmp" 
+
+ALIGN 4
+ValkyrieMovingMapSpriteGFX:
+#incbin "Sprites/ValkyrieMoving.dmp" 
+
+ALIGN 4
+ValkyrieStandingMapSpriteGFX:
+#incbin "Sprites/ValkyrieStanding.dmp" 
+
+ALIGN 4
+WarClericMovingMapSpriteGFX:
+#incbin "Sprites/WarClericMoving.dmp" 
+
+ALIGN 4
+WarClericStandingMapSpriteGFX:
+#incbin "Sprites/WarClericStanding.dmp" 
+
+ALIGN 4
+WarlockMovingMapSpriteGFX:
+#incbin "Sprites/WarlockMoving.dmp" 
+
+ALIGN 4
+WarlockStandingMapSpriteGFX:
+#incbin "Sprites/WarlockStanding.dmp" 
+
+ALIGN 4
+WarMonkMovingMapSpriteGFX:
+#incbin "Sprites/WarMonkMoving.dmp" 
+
+ALIGN 4
+WarMonkStandingMapSpriteGFX:
+#incbin "Sprites/WarMonkStanding.dmp" 
+

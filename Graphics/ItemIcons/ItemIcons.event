@@ -3,21 +3,21 @@
 
 PUSH
 SetItemIcon(NormalShield)
-#incext Png2Dmp "Shield.png"
+#incbin "Shield.dmp"
 
 SetItemIcon(AegisShield)
-#incext Png2Dmp "AegisShield.png"
+#incbin "AegisShield.dmp"
 
 SetItemIcon(ArcanaShield)
-#incext Png2Dmp "ArcanaShield.png"
+#incbin "ArcanaShield.dmp"
 
 
 // Weapon Icons
 SetItemIcon(0x70)
-#incext Png2Dmp "WRankIcons.png"
+#incbin "WRankIcons.dmp"
 
 SetItemIcon(0x81)
-#incext Png2Dmp "MountTypeIcons.png"
+#incbin "MountTypeIcons.dmp"
 
 //Weapon Icons Palette
 ORG 0x35D0
@@ -43,12 +43,12 @@ ALIGN 4
 
 WeaponIconsPal:
 #incbin "WeaponIconsPal.bin"
-MESSAGE Weapon Icon Palette is at WeaponIconsPal
+//MESSAGE Weapon Icon Palette is at WeaponIconsPal
 
 ALIGN 4
 
 AffinityIcons:
-#incext Png2Dmp "AffinityIcons.png"
+#incbin "AffinityIcons.dmp"
 
 
 ALIGN 4

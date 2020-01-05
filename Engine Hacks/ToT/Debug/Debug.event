@@ -1,0 +1,7 @@
+#ifdef __TERNONDEBUG__
+
+#include "MainMenu.event"
+
+#include "DebugOMatic/WinButton.event"
+
+#endif // __TERNONDEBUG__

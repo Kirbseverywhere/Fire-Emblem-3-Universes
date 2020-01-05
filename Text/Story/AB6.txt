@@ -1,140 +1,154 @@
 Hallway cutscene
-D: Is everything ready?
-	CB: *enters* Diana, wait.
-	D: Councilman Barrymore. You shouldn't be roaming about; you're confined to the infirmary, remember?
+E: Is everything ready?
+	CB: *enters* Elle, wait.
+	E: Councilman Barrymore. You shouldn’t be roaming about; you’re confined to the infirmary, remember?
 	CB: Yes, I know, I know.
 	Beat.
-	CB: You're going after Albinia, aren't you?
-	D: *eyes closed* Yes. *eyes open*
+	CB: You’re going after Albinia, aren’t you?
+	E: *eyes closed* Yes. *eyes open*
 	CB: Listen closely and listen carefully, for I will not repeat myself: Take me with you.
-	D: What?
-	CB: *eyes closed* I...wasn't honest yesterday, when I said I didn't know Albinia's motives.
-	CB: *eyes open* We...used to have a relationship. I won't bore you with the details, but in the end I was forced to break it off--against her wishes, I might add. So I'm afraid she holds a fair bit of animosity towards me.
-	D: And the Council? Why does she want to overthrow it?
-	CB: That I don't know.
-	D: Her revenge against you perhaps?
-	CB: I doubt that. Her grievances with the Council aren't limited to matters concerning myself. However, I'm afraid only Albinia herself knows why.
+	E: ….
+	CB: *eyes closed* I…wasn’t honest yesterday, when I said I didn’t know Albinia’s motives.
+	CB: *eyes open* We…used to have a relationship. I won’t bore you with the details, but in the end I was forced to break it off--against her wishes, I might add. So I’m afraid she holds a fair bit of animosity towards me.
+	E: And the Council? Why does she want to overthrow it?
+	CB: That I don’t know.
+	E: Her revenge against you perhaps?
+	CB: I doubt that. Her grievances with the Council aren’t limited to matters concerning myself. However, I’m afraid only Albinia herself knows why.
 	Beat.
-	D: Well, thank you for filling in the missing details.
-	CB: You can't just leave! Not without taking me. 
-	D: ....
-	CB: I'm no slouch in a fight, I swear. If it comes to that, I won't be a hindrance.
-	D: *eyes closed* You can come with.
-D: *eyes open* But you will stay out of the fight unless necessary. Agreed?
+	E: Well, thank you for filling in the missing details.
+	CB: You can’t just leave! Not without taking me. 
+	E: ….
+	CB: I’m no slouch in a fight, I swear. If it comes to that, I won’t be a hindrance.
+	E: *eyes closed* You can come with.
+E: *eyes open* But you will stay out of the fight unless necessary. Agreed?
 CB: Agreed.
 
 Plains cutscene
-Kriemhild: My Lady, would you like to rest a moment? We've been traveling nonstop since yesterday.
-A: That's okay, Kriemhild. I don't need to rest, but we can stop if you're feeling tired.
+Kriemhild: My Lady, would you like to rest a moment? We’ve been traveling nonstop since yesterday.
+A: That’s okay, Kriemhild. I don’t need to rest, but we can stop if you’re feeling tired.
 K: Oh, no, I--
-A: You don't have to hide it. It's fine.
+A: You don’t have to hide it. It’s fine.
 Beat.
 K: My Lady, your eyes are still red. Are you okay?
-A: Yes, yes, I'm fine. Just...emotionally fatigued.
-K: Please cheer up. At least you're finally free, like you've always wanted. Look, nothing around us but open plains and the mountains in the distance.
-A: I won't be for long.
+A: Yes, yes, I’m fine. Just…emotionally fatigued.
+K: Please cheer up. At least you’re finally free, like you’ve always wanted. Look, nothing around us but open plains and the mountains in the distance.
+A: I won’t be for long.
 K: Pardon?
-A: It's funny. I always dreamed of running away. From my family, from the Council, from my obligations. But now that I'm finally doing just that, I don't feel very happy.
-K: I don't know what to say....
+A: It’s funny. I always dreamed of running away. From my family, from the Council, from my obligations. But now that I’m finally doing just that, I don’t feel very happy.
+K: I don’t know what to say….
 A: Kriemhild, I have an order for you. One you absolutely must obey.
-K: ....
-A: When Diana comes, do not raise your weapon. You are here only to ensure my last will and testament.
+K: ….
+A: When Elle comes, do not raise your weapon. You are here only to ensure my last will and testament.
 K: My Lady, I--
-A: That's an order. I shall fight her to the death. If I am truly meant to prevail, the gods will ensure my victory.
-K: ....
-A: ....
+A: That’s an order. I shall fight her to the death. If I am truly meant to prevail, the gods will ensure my victory.
+K: ….
+A: ….
 Beat.
-A: Thank you, Kriemhild. You're the best attendant I could've ever had.
-K: Lady Albinia....
+A: Thank you, Kriemhild. You’re the best attendant I could’ve ever had.
+K: Lady Albinia….
 
 Map cutscene
-D: *enters* Albinia! Your treachery ends here!
+E: *enters* Albinia. Your treachery ends here.
 A: Blade of the Council! Now is as good a time as ever to settle our dispute, steel to steel!
-R: Remain cautious, Lady Diana. Her sudden change in tactics makes me suspect an ambush.
-L: I don't know.... She doesn't look like she has any sort of plan ready.
-D: Whatever it is, we shall deal with it. Let us embark.
+R: Remain cautious, Lady Elle. Her sudden change in tactics makes me suspect an ambush.
+L: I don’t know…. She doesn’t look like she has any sort of plan ready.
+E: Whatever it is, we shall deal with it. Let us embark.
 
 Boss dialogue
 Albinia (boss): I had always wanted to escape the obligations of my family and the Council. I guess in the end I could not free myself from those chains.
 
-B: The freedom I always craved...beckons to me.... 
+B: The freedom I always craved…beckons to me…. 
 
 Plains cutscene post-map
-A: *eyes closed* I suppose...I wasn't meant to win.
-D: That's what happens when you get in my way.
+A: *eyes closed* I suppose…I wasn’t meant to win.
+E: That’s what happens when you get in my way.
 A: The gods look upon you awfully favorably.
-D: I don't need the support of any god. I'll reach out and take what I want with my own two hands.
-A: Ha! No...arguing with that tenacity.... Doesn't it make you feel old...Lucian?
-CB: Oh, Albinia...what have you done?
-A: Why are you crying? I thought...you didn't love me.
-CB: I broke things off because your new position as a Council member made our relationship dangerous. I...I never stopped loving you. Not for a moment.
-A: Awfully pointless of you. Confessing to a dying woman....
-CB: Diana.
-D: What?
-CB: *eyes closed* Please...let me give the last blow. Put her out of her misery. I owe this to her for my mistakes.
-D: ....
+E: I don’t need the support of any god. I’ll reach out and take what I want with my own two hands.
+A: Ha! No…arguing with that tenacity…. Doesn’t it make you feel old…Lucian?
+CB: Oh, Albinia…what have you done?
+A: Why are you crying? I thought…you didn’t love me.
+CB: I broke things off because your new position as a Council member made our relationship dangerous. I…I never stopped loving you. Not for a moment.
+A: Awfully pointless of you. Confessing to a dying woman….
+CB: Elle.
+E: What?
+CB: *eyes closed* Please…let me give the last blow. Put her out of her misery. I owe this to her for my mistakes.
+E: ….
 Choose who delivers the last blow
-	>Barrymore						>Diana
+	>Barrymore						>Elle
 If Barrymore:
-D: All right. I see no reason to deny a man something so important to him.
+E: All right. I see no reason to deny a man something so important to him.
 CB: Thank you.
 CB: *eyes open* I never imagined it would end this way.
-A: My personal attendant, Kriemhild.... She's on standby roughly 100 yards over, past the crest of the hill. She will not fight; please do not harm her.
-CB: You have my word. Are there...any last things you want to say?
-A: *eyes closed* Ha.... I suppose so....
+A: My personal attendant, Kriemhild…. She’s on standby roughly 100 yards over, past the crest of the hill. She will not fight; please do not harm her.
+CB: You have my word. Are there…any last things you want to say?
+A: *eyes closed* Ha…. I suppose so….
 Beat.
-A: The two of us...are a couple of selfish dastards, aren't we?
+A: The two of us…are a couple of selfish dastards, aren’t we?
 CB: *eyes closed* ...We are. Farewell.
 
-	If Diana:
-	D: I'm afraid I can't let you do that. This vendetta is my own to bear, and I must see it through to its end.
-	CB: *eyes open* I...I see. It isn't my place to protest.
-	D: So you just wanted to be free, huh?
-	A: ...Perhaps. My whole life...I longed to go where I wished...without a care. Yet I could never escape...the Nouveau name.... 
-	D: So what stopped you?
-	A: ...?
-	D: What stopped you from just leaving? They wouldn't have looked for you too hard if you left.
-	A: *eyes closed* Hm.... I suppose...nothing at all.
-	D: So you were a coward. Too afraid to leave behind your family, so instead you cursed everyone else around you except yourself.
-	A: Lucian...sure knows how to pick them. He always...did like tenacious girls.
-	D: Farewell, Councilwoman.
+	If Elle:
+	E: I’m afraid I can’t let you do that. This vendetta is my own to bear, and I must see it through to its end.
+	CB: *eyes open* I…I see. It isn’t my place to protest.
+	E: So you just wanted to be free, hm?
+	A: …Perhaps. My whole life…I longed to go where I wished…without a care. Yet I could never escape…the Nouveau name…. 
+	E: So what stopped you?
+	A: …?
+	E: What stopped you from just leaving? They wouldn’t have looked for you too hard if you left.
+	A: *eyes closed* Hm…. I suppose…nothing at all.
+	E: So you were a coward. Too afraid to leave behind your family, so instead you cursed everyone else around you except yourself.
+	A: Lucian…sure knows how to pick them. He always…did like tenacious girls.
+	E: Farewell, Councilwoman.
 
 	Council cutscene
 	Councilwoman Mandel: ...which ended in the death of Albinia Nouveau. Is that correct?
-	D: Yes, Councilwoman Mandel.
-	CwM: Miss [DIANA LAST NAME] has certainly gone above and beyond. Not only did she prove her innocence, but she also put an end to the discord welling up within our own ranks. As Council head, I nominate House [DIANA LAST NAME] to take House Nouveau's former seat. All those in favor?
-	Councilman Morimer: Aye.
+	E: Yes, Councilwoman Mandel.
+	CwM: Miss Alfbern has certainly gone above and beyond. Not only did she prove her innocence, but she also put an end to the discord welling up within our own ranks. As Council head, I nominate House Alfbern to take House Nouveau’s former seat. All those in favor?
+	Councilman Mortimer: Aye.
 	Councilman Verlaine: Nay.
 	Councilwoman Randou: Nay.
 	Councilman Novicien: Aye.
 	Councilman Ovieri: Nay.
 	CwM: Councilman Barrymore?
 	CB: Aye.
-	CwM: Then it is settled. House [DIANA LAST NAME] is now the eighth seat on the Council. And just in time for the annual summit as well. Adjourned!
+	CwM: Then it is settled. House Alfbern is now the eighth seat on the Council. And just in time for the annual summit as well. Adjourned!
 
 	Reception hall cutscene
 	CB: Congratulations. You far surpassed my expectations.
-	D: Thank you.
+	E: Thank you.
 	CB: Where are your two retainers?
-	D: Reginald's by the banquet table getting drunk. He's tired after all the customary dancing. And Lazul's hiding away in her quarters. Celebrations are not her thing.
-	CB: I take it they're not your thing either?
-	D: Too many distractions. It makes it difficult for me to stay completely aware of my surroundings. Besides, should you really be out here talking?
+	E: Reginald’s by the banquet table getting drunk. He’s tired after all the customary dancing. Paul’s also getting drunk, and probably making a fool of himself while he’s at it. William’s, er, actually I don’t know where he is. And I’m guessing Nobody is with his favorite horse at the stables.
+	CB: Nobody? Did someone really name their child that?
+	E: Well I would assume that’s not his name. He just showed up one day, and when we asked him what his name was, he just said it didn’t matter, as he was nobody. So we just started calling him Nobody. And as for Lazul, she’s hiding away in her quarters. Social gatherings aren’t her cup of tea. In fact, most of the Amber Bears don’t flourish in these sorts of settings.
+	CB: I take it they’re not your thing either?
+	E: Too many distractions. It makes it difficult for me to stay completely aware of my surroundings. Besides, should you really be out here talking?
 	CB: What do you mean?
-	D: Your eyes are twitchy and bloodshot from exhaustion. Your hair, while still neat, is much more unkempt compared to usual. Not to mention you're distracted.
+	E: Your eyes are twitchy and bloodshot from exhaustion. Your hair, while still neat, is much more unkempt compared to usual. Not to mention you’re distracted.
 	CB: How could you tell?
-	D: It's what assassins do. We use our observational skills.
-	CB: There's no longer a need to call yourself that. You're a Council member now. Councilwoman [DIANA LAST NAME].
-	D: The plain truth of the matter is that I will always be an assassin. Even if I wear the skin of an upstanding noble, killing is woven into my blood. Just now, I thought of three different ways to kill you. They're intrusive thoughts, but they're still there nonetheless.
+	E: It’s what assassins do. We use our observational skills.
+	CB: There’s no longer a need to call yourself that. You’re a Council member now. Councilwoman Alfbern.
+	E: The plain truth of the matter is that I will always be an assassin. Even if I wear the skin of an upstanding noble, killing is woven into my blood. Just now, I thought of three different ways to kill you. They’re intrusive thoughts, but they’re still there nonetheless.
 	CB: I see.
-	D: *close eyes* My apologies; this isn't making for a very festive conversation.
-	CB: No, it's fine.
-	D: *open eyes*
-	CB: I haven't had a moment's rest since yesterday's showdown with Albinia. Upon our return, I had to tend to matters regarding her will.
-	D: Her will?
+	E: *close eyes* My apologies; this isn’t making for a very festive conversation.
+	CB: No, it’s fine.
+	E: *open eyes*
+	CB: I haven’t had a moment’s rest since yesterday’s showdown with Albinia. Upon our return, I had to tend to matters regarding her will.
+	E: Her will?
 	CB: Yes, her attendant, Kriemhild, served as witness.
-	D: Wouldn't that task be left to her family?
-	CB: *eyes closed* Er...a lot of it pertains to me.
-	D: I see. Well, it's getting late. I'd best return to my quarters.
+	E: Wouldn’t that task be left to her family?
+	CB: *eyes closed* Er…a lot of it pertains to me.
+	E: I see. Well, it’s getting late. I’d best return to my quarters.
 	CB: *eyes open* Are you not going to press me regarding the details?
-	D: I see no point. It's none of my business, and it's apparent you feel uncomfortable talking about it. Goodbye, Councilman Barrymore.
-	CB: Er, goodbye...Diana.
+	E: I see no point. It’s none of my business, and it’s apparent you feel uncomfortable talking about it. Goodbye, Councilman Barrymore.
+	CB: Er, goodbye…Elle.
+	Beat.
+	E: *eyes closed* That is not my real name.
+	CB: Your name…isn’t Elle?
+	E: *eyes open* That’s a nickname. An abridged version given to me by the previous generation of Council members. No one remembers my real name--the name my mother gave me.
+	CB: Not even you?
+	E: No, I do. But it’s a dead name. It holds no meaning if no one else remembers it.
+	CB: Then I’ll remember it for you. Please, tell me.
+Beat.
+	E: My name is Labelle. Labelle Alfbern.
+	CB: That’s a very beautiful name. I’ll keep it with me always, so it won’t be forgotten.
+	E: I…thank you. Erm, I should go. Have a good night, Councilman Barrymore.
+	CB: Likewise.

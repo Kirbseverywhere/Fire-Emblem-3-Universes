@@ -175,7 +175,7 @@
     WORD CelerityID
     WORD SS_SkillsText
 	POIN AccessorySkillGetter
-	MESSAGE MSS_page3
+	//MESSAGE MSS_page3
 
   ALIGN 4
   MSS_page4:

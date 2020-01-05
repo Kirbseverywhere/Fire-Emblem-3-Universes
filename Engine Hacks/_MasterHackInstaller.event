@@ -235,6 +235,11 @@ POP
   //New CHAI
   ALIGN 4
   #include "ToT/NewCHAI/New_Chai.event"
+  
+  ALIGN 4
+  #include "ToT/Debug/Debug.event"
+  
+  
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"
@@ -291,3 +296,11 @@ POP
 
   ALIGN 4
   #include "ToT/savemenu.event"
+
+  //Change sound room song title text color
+  ALIGN 4
+  PUSH
+    ORG $B0064
+    BYTE 1
+  POP
+

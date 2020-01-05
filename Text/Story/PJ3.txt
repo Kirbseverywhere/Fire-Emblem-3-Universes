@@ -372,15 +372,21 @@ here for interrogation[Beat][A][X]
 
 #*Camera moves to Rebel #1*
 
-#(Show REBEL [MidLeft], Belmonte [MidRight], Lenato [Right])
+[OpenFarRight][LoadBelmonte][OpenRight][LoadLenato][OpenMidLeft][LoadPurpleSoldier]
 
-#Rebel #1: What's with the commotion? The guards are all on high alert...
+What's with the commotion?[N]
+The guards are all on high alert[Beat][A]
 
-#Belmonte: Seems like someone's attacking the fortress. Are they trying to rescue us? Heh. It's a valiant effort.
+[OpenFarRight]
+Seems like someone's[N]
+attacking the fortress.[A][N]
+Are they trying to rescue us?[A][N]
+Heh. It's a valiant effort.[A]
 
-#Lenato: Who could it be, though...? I don't think the others have the manpower to besiege an entire fort.
-
-[X]
+[OpenRight]
+Who could it be, though[Beat]?[A][N] 
+I don't think the others have the[N] 
+manpower to besiege an entire fort.[A][X]
 
 ## PJ3DarachBossQuoteVergil
 #Darach v. Vergil

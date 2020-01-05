@@ -1,79 +1,79 @@
 	Plains cutscene
-	D: Be careful. Remember, we need stealth more than speed.
-	L: Does anyone else have an ominous feeling...?
-	R: Most likely you're just experiencing nerves. A fight likely lies ahead of us.
-	D: We'll be there within the hour, should there be no distractions. Come on, let's go.
+	E: Be careful. Remember, we need stealth more than speed.
+	L: Does anyone else have an ominous feeling…?
+	R: Most likely you’re just experiencing nerves. A fight likely lies ahead of us.
+	E: We’ll be there within the hour, should there be no distractions. Come on, let’s go.
 
-	Barrymore's room cutscene
-	CB: *eyes closed* ...
+	Barrymore’s room cutscene
+	CB: *eyes closed* …
 	CB: *eyes open* All finished watering the flowers. Now to finish this paperwork.
 	A: *enters* Hello, Lucian.
 	CB: Er, Albinia, what brings you to my quarters?
 	A: Not very happy to see me, hm?
-	CB: I can't say I am, considering you said you wanted me to suffer the last time our paths crossed.
-	A: Oh, you remembered my earlier statement, I'm flattered. Speaking of which, I come here today regarding the same matter.
-	CB: What is it? Have you sought out my mother and father as well? You ought to know more than anyone that they're not a weak spot.
-	A: That's not it at all, Lucian. Not at all.
-	CB: You can't harm me anymore with your tricks, Albinia. There are no more loose threads for you to tug at.
+	CB: I can’t say I am, considering you said you wanted me to suffer the last time our paths crossed.
+	A: Oh, you remembered my earlier statement; I’m flattered. Speaking of which, I come here today regarding the same matter.
+	CB: What is it? Have you sought out my mother and father as well? You ought to know more than anyone that they’re not a weak spot.
+	A: That’s not it at all, Lucian. Not at all.
+	CB: You can’t harm me anymore with your tricks, Albinia. There are no more loose threads for you to tug at.
 	A: Oh, are you really so sure of that? Right when the Blade of the Council is in exile?
-	CB: You stay away from her! She's gone, for good. There's no use in wasting time hunting her down. 
-	A: You two really haven't been in contact, then. Good.
+	CB: You stay away from her! She’s gone, for good. There’s no use in wasting time hunting her down. 
+	A: You two really haven’t been in contact, then. Good.
 	CB: Just what are you getting at?
-	A: Diana. She's here. Right now. My scouts saw her.
+	A: Elle. She’s here. Right now. My scouts saw her.
 	CB: Why would she be here?
-	A: To confront me. Did you really expect her to just turn tail and run? You've always had a thing for prideful girls.
+	A: To confront me. Did you really expect her to just turn tail and run? You’ve always had a thing for prideful girls.
 	CB: No, I cannot allow this, I--
-	CB: *eyes closed* Hrrk...!
-	A: Finally, the poison's kicking in.
-	CB: *eyes open* What did you...give to me...?
-A: Nothing fatal. Just something to keep you on the floor for a while. I don't want you to fight while I slit your throat.
-CB: Albinia, how could you...*eyes closed* do this...?
-A: Careful, don't stumble.
+	CB: *eyes closed* Hrrk…!
+	A: Finally, the poison’s kicking in.
+	CB: *eyes open* What did you…give to me…?
+A: Nothing fatal. Just something to keep you on the floor for a while. I don’t want you to fight while I slit your throat.
+CB: Albinia, how could you…*eyes closed* do this…?
+A: Careful, don’t stumble.
 CB: *eyes open* Ack!
-A: Aw, you knocked your little vase over. The one you were tending to earlier. What are they, flowers...?
-A: ... 
-CB: *eyes closed* They're...lilacs....
+A: Aw, you knocked your little vase over. The one you were tending to earlier. What are they, flowers…?
+A: … 
+CB: *eyes closed* They’re…lilacs….
 
 Flashback cutscene--gardens
 Younger Barrymore: Ah, we meet again, my dear. You look absolutely breathtaking this evening.
-Younger Albinia: Please, enough of your flattery. Haven't you had enough of my rejections?
+Younger Albinia: Please, enough of your flattery. Haven’t you had enough of my rejections?
 Younger Barrymore: Come now, this visit is not for the purpose of harassing you. I just came to bring you something.
-YA: Lilacs....
+YA: Lilacs….
 YB: Indeed. I overheard your mother lamenting your pestering for her to import lilacs for your estate garden. It had previously left my mind until the gardener told me we mistakenly got lilacs instead of zinnias. Once I heard that, I thought that surely you would appreciate them.
 YA: Oh, Lucian, thank you.
 YB: I should be thanking you. I get to see these gorgeous flowers compliment your eyes.
 
-Barrymore's room cutscene
-A: *steps backwards* I....
-CB: *eyes half open* Aren't you going to...finish the job...?
+Barrymore’s room cutscene
+A: *steps backwards* I….
+CB: *eyes half open* Aren’t you going to…finish the job…?
 A: I need to go. Before she gets here. *leaves*
-CB: *eyes closed* She's...just as sentimental...as I recall....
+CB: *eyes closed* She’s…just as sentimental…as I recall….
 
 Map cutscene
-D: *party enters map* Albinia!
-A: I can't die today. Hamasu!
+E: *party enters map* Albinia!
+A: I can’t die today. Hamasu!
 Hamasu (boss): Yes?
 A: Deal with them! *leaves*
-D: Damn, she's fled. Oh well. We need to clear the way. Everyone, to me!
+E: Damn, she fled. Oh well. We need to clear the way. Everyone, to me!
 
 Boss dialogue
 B: Lady Albinia ordered me to ensure her escape. I shall obey that command till my last breath.
 
-B: *eyes closed* Lady Albinia, I....
+B: *eyes closed* Lady Albinia, I….
 
 Infirmary cutscene
-CB: Where...where am I?
-D: Oh, good. You've awoken. The poison's passed through your system.
-CB: Albinia....
-D: She got away, unfortunately.
-CB: Well, she can't stay here. Not after the stunt she just pulled. I assume everyone knows what took place?
-D: Yes, the whole Council knows of Albinia's treachery. House Nouveau has been cut off. Hopefully, someone will report a sighting of her soon.
-CB: Good. You know, a Council seat is no longer out of the question for you, now that you've uncovered Albinia's deceit.
-D: Which reminds me, er, why didn't she kill you? You were right at her mercy when we arrived.
-	CB: Oh, um....
+CB: Where…where am I?
+E: You’ve awoken. The poison’s passed through your system.
+CB: Albinia….
+E: She got away, unfortunately.
+CB: Well, she can’t stay here. Not after the stunt she just pulled. I assume everyone knows what took place?
+E: Yes, the whole Council knows of Albinia’s treachery. House Nouveau has been cut off. Hopefully, someone will report a sighting of her soon.
+CB: Good. You know, a Council seat is no longer out of the question for you, now that you’ve uncovered Albinia’s deceit.
+E: You’re hiding something from me. Why didn’t she kill you? You were right at her mercy when we arrived.
+	CB: Oh….
 	Beat.
-	CB: I don't exactly know, but I suspect it's because she saw you and opted not to risk it. She spared me to get an extra head start on your pursuit; she knew you would defeat any of her underlings.
-	D: I see.... Anyway, I have things to attend to. The medics said not to leave until tomorrow afternoon at the earliest.
-	CB: Wait, Diana. I'm...glad to see you back.
+	CB: I don’t exactly know, but I suspect it’s because she saw you and opted not to risk it. She spared me to get an extra head start on your pursuit; she knew you would defeat any of her underlings.
+	E: I see…. Anyway, I have things to attend to. The medics said not to leave until tomorrow afternoon at the earliest.
+	CB: Wait, Elle. I’m…glad to see you back.
 	Beat.
-	D: First time I've ever heard someone say that. *leaves*
+	E: First time I’ve ever heard someone say that. *leaves*

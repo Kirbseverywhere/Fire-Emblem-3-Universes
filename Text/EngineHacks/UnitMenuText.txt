@@ -81,3 +81,14 @@ that can attack a foe.[X]
 
 ## IM_UnequipAccessory
 Unequip[X]
+
+## UMText_Win
+ Win[X]
+
+## UMDesc_Win
+Win the chapter.[X]
+ 
+## UM_Debug
+ Debug[X]
+ 
+ 
