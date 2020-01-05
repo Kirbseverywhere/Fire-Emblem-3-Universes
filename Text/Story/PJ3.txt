@@ -378,7 +378,7 @@ What's with the commotion?[N]
 The guards are all on high alert[Beat][A]
 
 [OpenFarRight]
-Seems like someone's[B]
+Seems like someone's[N]
 attacking the fortress.[A][N]
 Are they trying to rescue us?[A][N]
 Heh. It's a valiant effort.[A]
