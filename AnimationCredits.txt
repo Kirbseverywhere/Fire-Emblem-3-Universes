@@ -29,7 +29,7 @@ Myrmidon - Vanilla - IS - Map Sprite by IS - Class Card by IS
 Myrmidon (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
 Swordmaster - Vanilla - IS - Map Sprite by IS - Class Card by IS
 Swordmaster (F) - Vanilla - IS - Map Sprite by IS - Class Card by IS
-Mercenary - Armored Mercenary - Alusq - Map Sprite by Unknown - Class Card by IS
+Mercenary - SALVAGED Mercenary - Nuramon - Map Sprite by Unknown - Class Card by IS
 Hero - Armored Hero - Nuramon - Map Sprite by IS - Class Card by IS
 Archer - Dercher - DerTheVaporeon - Map Sprite by IS - Class Card by IS
 Archer (F) - Dercher - DerTheVaporeon - Map Sprite by IS - Class Card by IS
