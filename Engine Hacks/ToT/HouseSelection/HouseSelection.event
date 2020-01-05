@@ -10,22 +10,22 @@ unitCustomizerClassList:
 
 // RED LOBSTERS
 UnitCustomizerEntry(Michael, Swords, Axes, Lances, Mercenary, IronSword, Vulnerary, Brigand, IronAxe, Vulnerary, Soldier, IronLance, Vulnerary, SwordArmor, IronSword, Vulnerary, MichaelUnitCustomizerDesc)
-UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, Pirate, IronAxe, Vulnerary, AxeKnight, IronAxe, Vulnerary, EricUnitCustomizerDesc)
+UnitCustomizerEntry(Eric, Lances, Axes, Faith, Soldier, IronLance, Vulnerary, WyvernRider, IronAxe, Vulnerary, Pirate, IronAxe, Vulnerary, AxeKnight, IronAxe, Vulnerary, EricUnitCustomizerDesc)
 UnitCustomizerEntry(Kelly, Faith, Bows, Lances, Deacon, Lightning, Heal, Priest, Heal, Vulnerary, LanceKnight, IronLance, Vulnerary, PegasusKnight, IronLance, Vulnerary, KellyUnitCustomizerDesc)
 UnitCustomizerEntry(QuaSahnt, Reason, Reason, Axes, Mage, Fire, Vulnerary, DarkMage, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, AxeArmor, IronAxe, Vulnerary, QuaSahntUnitCustomizerDesc)
-UnitCustomizerEntry(Innards, Axes, Reason, Bows, WyvernRider, IronLance, Vulnerary, Fighter, IronAxe, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, InnardsUnitCustomizerDesc)
+UnitCustomizerEntry(Innards, Axes, Reason, Bows, WyvernRider, IronAxe, Vulnerary, Fighter, IronAxe, Vulnerary, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, InnardsUnitCustomizerDesc)
 UnitCustomizerEntry(Jonathen, Reason, Swords, Axes, Mercenary, IronSword, Vulnerary, Mage, Fire, Vulnerary, DarkMage, Flux, Vulnerary, SwordArmor, IronSword, Vulnerary, JonathenUnitCustomizerDesc)
 UnitCustomizerEntry(Kaiden, Reason, Bows, Axes, DarkMage, Flux, Vulnerary, Fighter, IronAxe, Vulnerary, Archer, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, KaidenUnitCustomizerDesc)
-UnitCustomizerEntry(Cleo, Lances, Swords, Bows, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, CleoUnitCustomizerDesc)
-UnitCustomizerEntry(Reds, Swords, Lances, Bows, Myrmidon, IronSword, Vulnerary, WyvernRider, IronLance, Vulnerary, Archer, IronBow, Vulnerary, DarkMage, Flux, Vulnerary, RedsUnitCustomizerDesc)
+UnitCustomizerEntry(Cleo, Lances, Swords, Bows, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, WyvernRider, IronAxe, Vulnerary, Archer, IronBow, Vulnerary, CleoUnitCustomizerDesc)
+UnitCustomizerEntry(Reds, Swords, Lances, Bows, Myrmidon, IronSword, Vulnerary, WyvernRider, IronAxe, Vulnerary, Archer, IronBow, Vulnerary, DarkMage, Flux, Vulnerary, RedsUnitCustomizerDesc)
 UnitCustomizerEntry(Mimi, Reason, Faith, Swords, DarkMage, Flux, Vulnerary, Thief, SlimSword, Lockpick, Archer, IronBow, Vulnerary, Monk, Lightning, Vulnerary, MimiUnitCustomizerDesc)
 UnitCustomizerEntry(Zorua, Reason, Swords, Lances, Mage_F, Fire, Vulnerary, Mercenary_F, IronSword, Vulnerary, Cleric, Heal, Lightning, DarkMage_F, Flux, Vulnerary, ZoruaUnitCustomizerDesc)
 
 // PURPLE JAGUARS
-UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronLance, Vulnerary, PegasusKnight, SlimLance, Vulnerary, HorusUnitCustomizerDesc)
+UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronAxe, Vulnerary, PegasusKnight, SlimLance, Vulnerary, HorusUnitCustomizerDesc)
 UnitCustomizerEntry(Tray, Lances, Swords, Bows, PegasusKnight, IronLance, Vulnerary, Myrmidon, IronSword, Vulnerary, LanceArmor, IronLance, Vulnerary, Archer, IronBow, Vulnerary, TrayUnitCustomizerDesc)
 UnitCustomizerEntry(Xenith, Swords, Bows, Lances, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Archer, IronBow, Vulnerary, Soldier, IronLance, Vulnerary, XenithUnitCustomizerDesc)
-UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, Shamshir, Vulnerary, WyvernRider, IronLance, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
+UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, Shamshir, Vulnerary, WyvernRider, IronAxe, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
 UnitCustomizerEntry(Myst, Swords, Swords, Reason, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Myrmidon, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, MystUnitCustomizerDesc)
 UnitCustomizerEntry(Daff, Reason, Faith, Lances, DarkMage_F, Flux, Vulnerary, Troubadour, Heal, Vulnerary, Archer_F, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, DaffUnitCustomizerDesc)
 UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief_F, IronSword, Lockpick, Archer_F, IronBow, Vulnerary, Cleric, Heal, Vulnerary, Mage_F, Fire, Vulnerary, SmeglindeUnitCustomizerDesc)
@@ -39,12 +39,12 @@ UnitCustomizerEntry(Zane, Faith, Reason, Axes, Monk, Lightning, Caduceus, Mage, 
 UnitCustomizerEntry(Adamminn, Lances, Axes, Faith, Brigand, IronAxe, AegisShield, Mage, Fire, Vulnerary, Mercenary, IronSword, Vulnerary, SwordKnight, IronSword, Vulnerary, AdamminnUnitCustomizerDesc)
 UnitCustomizerEntry(Reginald, Axes, Lances, Reason, AxeKnight, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, Mage, Fire, Vulnerary, Fighter, IronAxe, Vulnerary, ReginaldUnitCustomizerDesc)
 UnitCustomizerEntry(Lazul, Swords, Lances, Faith, Thief_F, IronSword, Lockpick, Cleric, Heal, Vulnerary, Myrmidon_F, IronSword, Vulnerary, PegasusKnight, IronLance, Vulnerary, LazulUnitCustomizerDesc)
-UnitCustomizerEntry(William, Lances, Axes, Bows, LanceArmor, IronLance, Vulnerary, AxeArmor, IronAxe, Vulnerary, WyvernRider, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, WilliamUnitCustomizerDesc)
+UnitCustomizerEntry(William, Lances, Axes, Bows, LanceArmor, IronLance, Vulnerary, AxeArmor, IronAxe, Vulnerary, WyvernRider, IronAxe, Vulnerary, DarkMage, Flux, Vulnerary, WilliamUnitCustomizerDesc)
 UnitCustomizerEntry(Nobody, Axes, Bows, Reason, BowKnight, IronBow, Vulnerary, AxeKnight, IronAxe, Vulnerary, Deacon, Heal, Lightning, LanceKnight, IronLance, Vulnerary, NobodyUnitCustomizerDesc)
 UnitCustomizerEntry(Jack, Swords, Faith, Lances, Thief, SlimSword, Lockpick, Priest, Heal, Lightning, Mage, Fire, Vulnerary, PegasusKnight, IronLance, Vulnerary, JackUnitCustomizerDesc)
 UnitCustomizerEntry(Paul, Swords, Reason, Axes, Myrmidon, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, PaulUnitCustomizerDesc)
 UnitCustomizerEntry(Vollster, Reason, Swords, Gauntlets, DarkMage, Flux, Vulnerary, SwordKnight, IronSword, Vulnerary, Priest, Heal, Lightning, SwordArmor, IronSword, Vulnerary, VollsterUnitCustomizerDesc)
-UnitCustomizerEntry(Greg, Axes, Lances, Reason, WyvernRider, IronLance, Vulnerary, Brigand, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, GregUnitCustomizerDesc)
+UnitCustomizerEntry(Greg, Axes, Lances, Reason, WyvernRider, IronAxe, Vulnerary, Brigand, IronAxe, Vulnerary, LanceKnight, IronLance, Vulnerary, DarkMage, Flux, Vulnerary, GregUnitCustomizerDesc)
 UnitCustomizerEntry(Occam, Bows, Swords, Lances, Archer, IronBow, Vulnerary, Thief, SlimSword, Lockpick, BowKnight, IronBow, Vulnerary, BowArmor, IronBow, Vulnerary, OccamUnitCustomizerDesc)
 
 SHORT 0
