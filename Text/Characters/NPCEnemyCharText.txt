@@ -45,6 +45,12 @@ Darach[X]
 ## DarachDesc
 Captain of Fort Theronca.[X]
 
+## LarissaName
+Larissa[X]
+
+## LarissaDesc
+Larissa[X]
+
 ## KajarnName
 Kajarn[X]
 
