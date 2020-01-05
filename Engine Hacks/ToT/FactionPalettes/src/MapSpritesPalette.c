@@ -12,8 +12,10 @@ void LoadMapSpritePalettes() {
 unsigned GetUnitMapSpritePaletteIndex(struct Unit *unit) {
 	LoadMapSpritePalettes();
 	if (gChapterData.unitColorOption == 0 && unit->pCharacterData->unitMapSpritePalette != 0) { // if it's turned on AND the unit has a specific map sprite palette 
-		if(unit->pCharacterData->unitMapSpritePalette == 0xFF) // Choose Player Faction Color
+		if(unit->pCharacterData->unitMapSpritePalette == 0xFF && ((u8)(unit->index) >> 6) != 1) // Choose Player Faction Color
 			return 0xB + gChapterData.mode;
+		if (((u8)(unit->index) >> 6) == 1)
+			return 0xD; // NPCs
 		return 0xA + unit->pCharacterData->unitMapSpritePalette;
 	}
 	else if(gChapterData.unitColorOption == 0) {

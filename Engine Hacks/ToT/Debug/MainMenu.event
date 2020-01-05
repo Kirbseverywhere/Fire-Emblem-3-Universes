@@ -16,6 +16,7 @@
   MM_Dunno1
   MM_Dunno2
   MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
+  MenuCommand(UMText_Win, UMDesc_Win, GreenText, 0x4F449, Win_Effect)
   MM_Suspend
   MM_End
   MM_Separator

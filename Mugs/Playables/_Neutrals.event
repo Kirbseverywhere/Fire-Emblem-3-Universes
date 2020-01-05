@@ -7,3 +7,9 @@ AugustusPreTimeskip:
 setMugEntry(LENATO_PRETIMESKIP_PORTRAIT, LenatoPreTimeskip, 3, 6, 3, 4) 
 LenatoPreTimeskip:
 #incext PortraitFormatter "Lenato_PreTimeskip.png"
+
+#define KONATSU_PRETIMESKIP_PORTRAIT Konatsu
+setMugEntry(KONATSU_PRETIMESKIP_PORTRAIT, KonatsuPreTimeskip, 3, 5, 3, 3) 
+KonatsuPreTimeskip:
+#incext PortraitFormatter "Konatsu_PreTimeskip.png"
+

@@ -160,6 +160,8 @@ UnitMenuTable:
   MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
   #endif // __TERNONDEBUG__
   
+  MESSAGE Win_Usability
+  
   UM_Wait
 
   UM_Separator 

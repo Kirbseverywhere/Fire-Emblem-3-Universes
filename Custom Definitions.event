@@ -87,6 +87,7 @@
 //Neutrals
 #define Augustus 37
 #define Lenato 38
+#define Konatsu 39
 
 //Backwards Compatibility
 #define Leo Khris
@@ -105,6 +106,7 @@
 #define Bruckner 0x51
 #define BearBoss 0x52
 #define Darach 0x53
+#define Larissa 0x54
 
 //Amber Bears
 #define Kajarn 0x60

@@ -112,6 +112,9 @@ Augustus[X]
 ## LenatoNameTextID
 Lenato[X]
 
+## KonatsuNameTextID
+Konatsu[X]
+
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
@@ -263,6 +266,9 @@ Willing to lend a hand on one condition.[X]
 ## LenatoDescTextID
 A skilled archer. Travels Ternon[N]
 for opportunites to practice.[X]
+
+## KonatsuDescTextID
+Konatsu[X]
 
 #include NPCEnemyCharText.txt
 
