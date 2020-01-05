@@ -102,7 +102,7 @@ REVEAL William
 REVEAL Nobody
 REVEAL Jack
 REVEAL Paul
-REVEAL Vollster
+//REVEAL Vollster
 REVEAL Greg
 REVEAL Occam
 /*FADI 1
@@ -123,10 +123,73 @@ LOAD1 0x1 GuardSquad
 CALL $591FD8
 ENDA
 */
+
+MUSC Advance
+SetBackground($E)
+FADU 10
+Text(AB2Opening1)
+SetBackground($A)
+Text(AB2Opening2)
+FADI 10
+FADU 10
+Text(AB2Opening3)
+FADI 10
+SetBackground($31)
+FADU 10
+Text(AB2Opening4)
+FADI 10
+EndConvo
 LOAD1 0x1 GuardSquad
 ENUN
+LOAD3 0x1 Units
+ENUN
+CAM1 Rynod
+ENUN
+FADU 10
+MUSC Tension
+Text(AB2Opening5)
+CAM1 Elle
+ENUN
+Text(AB2Opening6)
+CUMO [11,5]
+STAL 40
+CURE
+REVEAL Vollster
+LOAD2 0x1  VollsterNPC
+ENUN
+TurnNPC(Vollster)
+Text(AB2Opening7)
+CAM1 Elle
+ENUN
+CUMO Elle
+STAL 40
+CURE
+Text(AB2Opening8)
+CAM1 Vollster
+ENUN
+CUMO Vollster
+STAL 40
+ENUN
+Text(AB2Opening9)
+MUSS 0x0
+StartBattle
+MissedAttack(0,0)
+CriticalHit(1,39)
+SetScriptedBattle(100,13,4,78,7,0) 
+FIG1 0x83 Vollster 0x0
+MURE 0x2
+Text(AB2Opening10)
+CAM1 Elle
+ENUN
+CUMO Elle
+STAL 40
+CURE
+Text(AB2Opening11)
+
 GotoPrepScreen
 ENDA
+
+
 
 EndingScene:
 MNC2 33
@@ -140,4 +203,7 @@ ThiefReinforcementsEvent:
 ReinforcementEvent(ThiefReinforcement)
 ENDA
 
+VollsterNPC:
+UNIT Vollster 0 0 Level(0,NPC,0) [11,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
 
