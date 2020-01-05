@@ -1,47 +1,51 @@
 	Mountain woods cutscene
-	L: *eyes closed* Huff...huff...  
-	Bandit: Huh? Oh, if it isn't a little girl dancing alone in the woods. Like those dryads you hear about growin' up. C'mere, cutie.
+	L: *eyes closed* Huff…huff…  
+	Bandit: Huh? Oh, if it isn’t a little girl dancing alone in the woods. Like those dryads you hear about growin’ up. C’mere, cutie.
 	L: Eep! Wh-who are you?!
-	B: Hmm, don't see no reason to call the boss over. I'd rather have you all to myself... 
-	L: No, stop...! Don't come any closer!
+	B: Wait, purple hair? You can’t be… 
+	L: No, stop…! Don’t come any closer!
 	R: *enters* Back, you fiend!
 	B: Ack! *vanishes*
 	L: R-Reginald!
 	R: Quick, Lapis! Back to the village!
 
 	Village cutscene
-	D: Reginald, Lazul! What's wrong? You two are out of breath.
-	R: We had a run-in with bandits outside the village. I fear they aren't far behind.
+	E: Reginald, Lazul, what’s wrong? You two are out of breath.
+	R: We had a run-in with bandits outside the village. I fear they aren’t far behind.
 	Off-screen: Oi, look, men! We found a here village!
 
 	Map cutscene
-	Gail: Well, well, well, I think we found the village Miss Nouveau was talking about. And that pink-haired girl she mentioned? The Dagger of the Council or whatever?
+	Boss (Gail): Well, well, well, I think we found the village Miss Nouveau was talking about. And that purple-haired girl she mentioned? The Dagger of the Council or whatever?
 	Bandit 1: Over there, boss!
-D: Damn, we've been found.
-R: What should be our course of action, Lady Diana?
-D: Save the villagers of course! I refuse to drag innocent Hevursans into our conflict.
+	G: What the-?! There are two! Nobody told me there would be two!
+E: Damn, we’ve been found.
+L: Eek, they’re all staring at me!
+R: What should be our course of action, Lady Elle?
+E: Kill them all. It’s not as if their lives have any meaning.
 G: You! Dagger Girl! You can make this quick or we can burn this whole village to the ground!
-D: You seem to be laboring under the delusion that I'm going to, what was the phrase, come quietly?
+E: You seem to be laboring under the delusion that I’m going to, what was the phrase, come quietly?
 
 Villager dialogue
 Old woman: Thank you, deary, for protecting the village. Here, this is the least I can give you in return.
 Obtained pure water
 
-Young man: Fighting for us, huh? I used to be a soldier. Didn't much like it, though, so I quit. Here. May it keep you safe as it did me.
+Young man: Fighting for us, huh? I used to be a soldier. Didn’t much like it, though, so I quit. Here. May it keep you safe as it did me.
 Obtained shield
 
 Boss dialogue
-G: Finally, a good fight. Once I'm done, I'll take you and your pathetic accomplices back to claim my reward. 
+*if Elle or Lazul*
+G: Finally, a good fight. Once I’m done, I’ll take you and your pathetic accomplices back to claim my reward. 
 
-G: Heh, it looks like...The Blade of the Council...really isn't all bark and no bite.
+*if anyone else*
+G: Heh, it looks like…The Blade of the Council…really isn’t all bark and no bite.
 
 Post-battle cutscene
-Village Head: L-Lady Diana! What is the meaning of this?
-D: My sincerest apologies. It seems House Nouveau's hired muscle has finally found us.
+Village Head: L-Lady Elle! What is the meaning of this?
+E: It seems House Nouveau’s hired muscle has finally found us.
 R: Thankfully, the damage has been kept to a minimum.
-VH: *eyes closed* I understand. However... *opens eyes* I cannot continue to shelter your party here if it comes at the cost of our health and safety.
-D: Of course. I wouldn't want to put any of you in danger. Besides, we already have a plan for our next course of action.
-VH: Just know that we support you. Not many people are willing to help the Blade of the Council, but we owe House [DIANA HOUSE] a great debt. And you are its last surviving member... 
-D: We have a plan. Just keep in mind that, when this is all over, Hevursa might be a bit tumultuous for a while. I fear this is something that can only be solved with bloodshed.
+VH: *eyes closed* I understand. However… *opens eyes* I cannot continue to shelter your party here if it comes at the cost of our health and safety.
+E: I cannot force your hand. Besides, we already have a plan for our next course of action.
+VH: Just know that we support you. Not many people are willing to help the Blade of the Council, but we owe House Alfbern a great debt. And you are its last surviving member… 
+E: We have a plan. We will emerge successful.
 VH: Very well. Here. We cannot provide you a place to stay, but we all pitched in to help you find lodgings and other necessities.
 Obtained 10000 G
