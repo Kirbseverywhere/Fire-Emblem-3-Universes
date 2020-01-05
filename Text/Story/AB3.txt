@@ -119,11 +119,11 @@ had weighing on your tongue.[A][X]
 	Fade in
 
 ## AB3Opening3
-[OpenMidRight][LoadElle]
+[OpenRight][LoadElle]
 [OpenMidLeft][LoadBarrymore][CloseEyes]
 I'm afraid this could be major.[A]
 
-[OpenMidRight]
+[OpenRight]
 What do you mean "could"?[A][N]
 It is![A]
 
@@ -135,7 +135,7 @@ already know about us.[A][N]
 We'd best be careful;[N]
 she's planning something.[A]
 
-[OpenMidRight]
+[OpenRight]
 Why did you send us there, though?[A][N]
 To Olenvard?[A]
 
@@ -149,6 +149,7 @@ there's no reason for a woman of[N]
 her rank to be talking to a servant[A][N]
 unless it's something she[N]
 wants to keep under wraps.[A]
+
 
 	R: Well what are we to do now?
 	CB: It would be foolish to act in haste. We'd best just stay on our guard. For now, return to your normal routines. I will send word when I need something else done.
