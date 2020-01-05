@@ -28,6 +28,9 @@
 #include "P1PJ3.event"
 }
 {
+#include "P1PJ4.event"
+}
+{
 #include "P1RL1.event"
 }
 {
