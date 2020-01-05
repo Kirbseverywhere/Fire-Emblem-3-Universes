@@ -88,3 +88,7 @@ Unequip[X]
 ## UMDesc_Win
 Win the chapter.[X]
  
+## UM_Debug
+ Debug[X]
+ 
+ 

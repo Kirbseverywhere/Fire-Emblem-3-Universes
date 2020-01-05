@@ -15,9 +15,7 @@
   MM_Options
   MM_Dunno1
   MM_Dunno2
-  #ifdef __DEBUG__
   MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
-  #endif // __DEBUG__
   MM_Suspend
   MM_End
   MM_Separator
