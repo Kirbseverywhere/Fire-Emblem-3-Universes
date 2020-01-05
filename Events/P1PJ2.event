@@ -29,8 +29,8 @@ UNIT
 
 TurnBasedEvents:
 TurnEventPlayer(0, EventAfterPrep, 1)
-//TurnEventNPC(0, BearReveal, 2) //stupid macro broke, shoved after bear phase instead
-TurnEventPlayer(0, BearReveal, 3)
+TurnEventNPC(0, BearReveal, 2) //stupid macro broke, shoved after bear phase instead
+//TurnEventPlayer(0, BearReveal, 3)
 END_MAIN
 
 CharacterBasedEvents:
@@ -122,12 +122,10 @@ NoFade
 ENDA
 
 BearReveal:
-CHECK_ALIVE BearBoss
-BEQ 0 0 0xC
+LOAD1 0x1 BearGroup
 CAM1 BearBoss
 FlashCursor(BearBoss,60)
 Text(PJ2Turn2Bear)
-LABEL 0
 NoFade
 ENDA
 
@@ -138,7 +136,6 @@ ENDA
 // Units
 Bad:
 UNIT Bruckner LanceKnight 0x00 Level(15, Enemy, 0) [18,3] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NeverMoveAI 
-UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [17,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
 UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
@@ -156,6 +153,10 @@ UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [Iron
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT
+
+BearGroup:
+UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
 UNIT
 
 Creep:
