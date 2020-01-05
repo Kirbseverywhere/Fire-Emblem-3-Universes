@@ -235,6 +235,11 @@ POP
   //New CHAI
   ALIGN 4
   #include "ToT/NewCHAI/New_Chai.event"
+  
+  ALIGN 4
+  #include "ToT/Debug/Debug.event"
+  
+  
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"

@@ -1,0 +1,8 @@
+#ifdef __DEBUG__
+#include "Main.event"
+
+//PUSH
+//ORG 0x59CF7C
+//POIN EndEffect
+//POP
+#endif
