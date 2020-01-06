@@ -71,6 +71,7 @@ UNIT
 
 GuardSquad:
 UNIT Rynod Hero Rynod Level(1, Enemy, False) [6,12] 0x00 0x00 0x0 0x00 [SteelSword,HandAxe] NeverMoveAI
+UNIT 0x83 Mercenary Rynod Level(10, Enemy, True) [10,5] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
 UNIT 0x83 Mercenary Rynod Level(10, Enemy, True) [8,0] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
 UNIT 0x83 Fighter Rynod Level(9, Enemy, True) [9,3] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
 UNIT 0x83 Soldier Rynod Level(11, Enemy, True) [16,5] 0x2 0x00 0x00 0x0  [Axereaver] AttackInRangeAI
@@ -169,13 +170,13 @@ CAM1 Vollster
 ENUN
 CUMO Vollster
 STAL 40
-ENUN
+CURE
 Text(AB2Opening9)
 MUSS 0x0
 StartBattle
 MissedAttack(0,0)
 CriticalHit(1,39)
-SetScriptedBattle(100,13,4,78,7,0) 
+SetScriptedBattle(78,7,0,100,13,4) 
 FIG1 0x83 Vollster 0x0
 MURE 0x2
 Text(AB2Opening10)

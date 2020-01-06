@@ -155,7 +155,7 @@ I will not stand around and let--[A]
 Reginald.[....] It's fine.[A]
 
 [OpenRight]
-Beat.[A]
+[Beat].[A]
 
 [OpenMidLeft]
 So?[A][N]
@@ -357,6 +357,7 @@ we have a job to do.[A][X]
 C'mon, give me a warmup![A][X]
 
 ## AB2Opening10
+[OpenMidRight][LoadVollster]
 Heh![A][N]
 If I had known you[N]
 were this pathetic,[A][N]
