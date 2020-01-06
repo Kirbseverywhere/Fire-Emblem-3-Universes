@@ -28,6 +28,10 @@ PUSH
   
   ORG 0x24D8E
   BYTE 0xC0
+   
+  ORG $4e70;
+    SHORT 0x1c20 //mov r0, r4
+    BL(SpeedUpAnims)
 POP
 
 
@@ -65,6 +69,9 @@ ORG FreeSpaceBLRange //defined in custom definitions
   SHORT 0xB500 0x1C39
   callHack_r3(GetStatIncreaseWithAngelRing)
   SHORT 0xBC02 0x4708
+  
+  ALIGN 4
+    #include "ToT/SpeedUpAnims/SpeedUpAnims.event" //SpeedUpAnims
 	
 #undef inBLRange
 POP
