@@ -25,7 +25,7 @@ UnitCustomizerEntry(Zorua, Reason, Swords, Lances, Mage_F, Fire, Vulnerary, Merc
 UnitCustomizerEntry(Horus, Faith, Swords, Reason, Deacon, Lightning, Heal, LanceKnight, IronLance, Vulnerary, WyvernRider, IronAxe, Vulnerary, PegasusKnight, SlimLance, Vulnerary, HorusUnitCustomizerDesc)
 UnitCustomizerEntry(Tray, Lances, Swords, Bows, PegasusKnight, IronLance, Vulnerary, Myrmidon, IronSword, Vulnerary, LanceArmor, IronLance, Vulnerary, Archer, IronBow, Vulnerary, TrayUnitCustomizerDesc)
 UnitCustomizerEntry(Xenith, Swords, Bows, Lances, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Archer, IronBow, Vulnerary, Soldier, IronLance, Vulnerary, XenithUnitCustomizerDesc)
-UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Myrmidon, Shamshir, Vulnerary, WyvernRider, IronAxe, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
+UnitCustomizerEntry(Glac, Axes, Swords, Faith, AxeKnight, IronAxe, Vulnerary, Swordsman, Shamshir, Vulnerary, WyvernRider, IronAxe, Vulnerary, Monk, Lightning, Vulnerary, GlacUnitCustomizerDesc)
 UnitCustomizerEntry(Myst, Swords, Swords, Reason, SwordKnight, IronSword, Vulnerary, Mercenary, IronSword, Vulnerary, Myrmidon, IronSword, Vulnerary, DarkMage, Flux, Vulnerary, MystUnitCustomizerDesc)
 UnitCustomizerEntry(Daff, Reason, Faith, Lances, DarkMage_F, Flux, Vulnerary, Troubadour, Heal, Vulnerary, Archer_F, IronBow, Vulnerary, PegasusKnight, IronLance, Vulnerary, DaffUnitCustomizerDesc)
 UnitCustomizerEntry(Smeglinde, Bows, Faith, Reason, Thief_F, IronSword, Lockpick, Archer_F, IronBow, Vulnerary, Cleric, Heal, Vulnerary, Mage_F, Fire, Vulnerary, SmeglindeUnitCustomizerDesc)
