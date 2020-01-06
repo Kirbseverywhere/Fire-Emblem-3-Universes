@@ -138,3 +138,4 @@
 [LoadMandel] = [LoadPlaceholder]
 [LoadAlbinia] = [LoadPlaceholder]
 [LoadBarrymore] = [LoadPlaceholder]
+[LoadBear] = [LoadFace][0x52][0x01]
