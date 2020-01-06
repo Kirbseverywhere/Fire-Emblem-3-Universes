@@ -92,7 +92,7 @@ A soldier loyal to Count Alva, a[N]
 notorious nobleman known for cruelty.[X]
 
 ## ArxhatArmyName
-Seraphim[X]
+Seraphyn[X]
 
 ## ArxhatArmyDesc
 A soldier under the command of Arxhat,[N]
