@@ -1,0 +1,835 @@
+/*
+Battle palette rework, by hypergammaspaces
+
+Implements custom palettes as a list of members that can be in each class.
+
+A .nmm is included to generate a table linking each class to this list of palettes (a pre-generated CSV is also included).
+*/
+
+#include "Extensions/Hack Installation.txt"
+
+#ifndef CharacterPaletteTable
+	#define CharacterPaletteTable $08EF7FF8 //entry 0 which is invalid is here
+#endif
+
+PUSH
+	ORG $5742C
+	callHack_r7(PaletteLoadReworkPt2)
+	
+	ORG $5746A
+	ALIGN 4
+	callHack_r7(PaletteLoadReworkPt1)
+	
+	ORG $CD108
+	callHack_r5(PaletteLoadReworkPromoBranch)
+POP
+
+PaletteLoadReworkPt1:
+#incbin "PaletteLoadReworkPart1.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+PaletteLoadReworkPt2:
+#incbin "PaletteLoadReworkPart2.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+PaletteLoadReworkPromoBranch:
+#incbin "PaletteLoadReworkPromoBranch.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+#define PaletteEntry(index) "(CharacterPaletteTable) + (index*$10)"
+#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index)"
+
+
+ALIGN 4
+EmptyPaletteList: //point here for anything that doesnt need custom palettes (lords included)
+WORD 0 0
+ALIGN 4
+
+
+MagusPaletteList:
+PaletteAssociationEntry(Rodin,RodinMagusPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+AetherMagusPaletteList:
+PaletteAssociationEntry(Rodin,RodinAetherMagusPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+LordPaletteList:
+PaletteAssociationEntry(Vergil,VergilLordPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HighLordPaletteList:
+PaletteAssociationEntry(Vergil,VergilHighLordPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BladePaletteList:
+PaletteAssociationEntry(Elle,ElleBladePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+OverlordPaletteList:
+PaletteAssociationEntry(Elle,ElleOverlordPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordKnightPaletteList:
+PaletteAssociationEntry(Xenith,XenithSwordKnightPaletteID)
+PaletteAssociationEntry(Myst,MystSwordKnightPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnSwordKnightPaletteID)
+PaletteAssociationEntry(Paul,PaulSwordKnightPaletteID)
+PaletteAssociationEntry(Vollster,VollsterSwordKnightPaletteID)
+PaletteAssociationEntry(Bruckner,BrucknerSwordKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordKnightFPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+LanceKnightPaletteList:
+PaletteAssociationEntry(Kelly,KellyLanceKnightPaletteID)
+PaletteAssociationEntry(Cleo,CleoLanceKnightPaletteID)
+PaletteAssociationEntry(Horus,HorusLanceKnightPaletteID)
+PaletteAssociationEntry(Anton,AntonLanceKnightPaletteID)
+PaletteAssociationEntry(Nobody,NobodyLanceKnightPaletteID)
+PaletteAssociationEntry(Reginald,ReginaldLanceKnightPaletteID)
+PaletteAssociationEntry(Greg,GregLanceKnightPaletteID)
+PaletteAssociationEntry(Alva,AlvaLanceKnightPaletteID)
+
+WORD 0 0
+ALIGN 4
+
+
+LanceKnightFPaletteList:
+PaletteAssociationEntry(Konatsu,LanceKnightPaletteID)
+PaletteAssociationEntry(Larissa,LanceKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+AxeKnightPaletteList:
+PaletteAssociationEntry(Eric,EricAxeKnightPaletteID)
+PaletteAssociationEntry(Kaiden,KaidenAxeKnightPaletteID)
+PaletteAssociationEntry(Glac,GlacAxeKnightPaletteID)
+PaletteAssociationEntry(Nobody,NobodyAxeKnightPaletteID)
+PaletteAssociationEntry(Reginald,ReginaldAxeKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+AxeKnightFPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+BowKnightPaletteList:
+PaletteAssociationEntry(Khris,KhrisBowKnightPaletteID)
+PaletteAssociationEntry(Nobody,NobodyBowKnightPaletteID)
+PaletteAssociationEntry(Occam,OccamBowKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BowKnightFPaletteList:
+PaletteAssociationEntry(Lenato,LenatoBowKnightFPaletteID)
+PaletteAssociationEntry(Runa,RunaBowKnightFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+PaladinPaletteList:
+PaletteAssociationEntry(Kaiden,KaidenPaladinPaletteID)
+PaletteAssociationEntry(Cleo,CleoPaladinPaletteID)
+PaletteAssociationEntry(Glac,GlacPaladinPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnPaladinPaletteID)
+PaletteAssociationEntry(Nobody,NobodyPaladinPaletteID)
+PaletteAssociationEntry(Paul,PaulPaladinPaletteID)
+PaletteAssociationEntry(Reginald,ReginaldPaladinPaletteID)
+PaletteAssociationEntry(Greg,GregPaladinPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+PaladinFPaletteList:
+PaletteAssociationEntry(Konatsu,KonatsuPaladinPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordArmorPaletteList:
+PaletteAssociationEntry(Michael,MichaelSwordArmorPaletteID)
+PaletteAssociationEntry(Jonathen,JonathenSwordArmorPaletteID)
+PaletteAssociationEntry(Stephen,StephenSwordArmorPaletteID)
+PaletteAssociationEntry(Vollster,VollsterSwordArmorPaletteID)
+PaletteAssociationEntry(Geraldo,GeraldoSwordArmorPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+LanceArmorPaletteList:
+PaletteAssociationEntry(Anton,AntonLanceArmorPaletteID)
+PaletteAssociationEntry(William,WilliamLanceArmorPaletteID)
+PaletteAssociationEntry(Ilyron,IlyronLanceArmorPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+AxeArmorPaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntAxeArmorPaletteID)
+PaletteAssociationEntry(Zane,ZaneAxeArmorPaletteID)
+PaletteAssociationEntry(William,WilliamAxeArmorPaletteID)
+PaletteAssociationEntry(Zuzka,ZuzkaAxeArmorPaletteID)
+PaletteAssociationEntry(Darach,DarachAxeArmorPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BowArmorPaletteList:
+PaletteAssociationEntry(Occam,OccamBowArmorPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+GeneralPaletteList:
+PaletteAssociationEntry(Michael,MichaelGeneralPaletteID)
+PaletteAssociationEntry(QuaSahnt,QuaSahntGeneralPaletteID)
+PaletteAssociationEntry(Jonathen,JonathenGeneralPaletteID)
+PaletteAssociationEntry(Stephen,StephenGeneralPaletteID)
+PaletteAssociationEntry(Anton,AntonGeneralPaletteID)
+PaletteAssociationEntry(Zane,ZaneGeneralPaletteID)
+PaletteAssociationEntry(William,WilliamGeneralPaletteID)
+PaletteAssociationEntry(Vollster,VollsterGeneralPaletteID)
+PaletteAssociationEntry(Occam,OccamGeneralPaletteID)
+PaletteAssociationEntry(Zuzka,ZuzkaGeneralPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+GreatKnightPaletteList:
+PaletteAssociationEntry(Eric,EricGreatKnightPaletteID)
+PaletteAssociationEntry(Anton,AntonGreatKnightPaletteID)
+PaletteAssociationEntry(William,WilliamGreatKnightPaletteID)
+PaletteAssociationEntry(Nobody,NobodyGreatKnightPaletteID)
+PaletteAssociationEntry(Geraldo,GeraldoGreatKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+ThiefPaletteList:
+PaletteAssociationEntry(Mimi,MimiThiefPaletteID)
+PaletteAssociationEntry(Jack,JackThiefPaletteID)
+PaletteAssociationEntry(Occam,OccamThiefPaletteID)
+PaletteAssociationEntry(Vollerent,VollerentThiefPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+ThiefFPaletteList:
+PaletteAssociationEntry(Smeglinde,SmeglindeThiefFPaletteID)
+PaletteAssociationEntry(Lazul,LazulThiefFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+AssassinPaletteList:
+PaletteAssociationEntry(Mimi,MimiAssassinPaletteID)
+PaletteAssociationEntry(Occam,OccamAssassinPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+RoguePaletteList:
+PaletteAssociationEntry(Jack,JackRoguePaletteID)
+PaletteAssociationEntry(Vollerent,VollerentRoguePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+RogueFPaletteList:
+PaletteAssociationEntry(Smeglinde,SmeglindeRogueFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MyrmidonPaletteList:
+PaletteAssociationEntry(Reds,RedsMyrmidonPaletteID)
+PaletteAssociationEntry(Tray,TrayMyrmidonPaletteID)
+PaletteAssociationEntry(Myst,MystMyrmidonPaletteID)
+PaletteAssociationEntry(Khris,KhrisMyrmidonPaletteID)
+PaletteAssociationEntry(Paul,PaulMyrmidonPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MyrmidonFPaletteList:
+PaletteAssociationEntry(Lazul,LazulMyrmidonFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordmasterPaletteList:
+PaletteAssociationEntry(Reds,RedsSwordmasterPaletteID)
+PaletteAssociationEntry(Tray,TraySwordmasterPaletteID)
+PaletteAssociationEntry(Khris,KhrisSwordmasterPaletteID)
+PaletteAssociationEntry(Paul,PaulSwordmasterPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordmasterFPaletteList:
+PaletteAssociationEntry(Lazul,LazulSwordmasterFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MercenaryPaletteList:
+PaletteAssociationEntry(Michael,MichaelMercenaryPaletteID)
+PaletteAssociationEntry(Innards,InnardsMercenaryPaletteID)
+PaletteAssociationEntry(Jonathen,JonathenMercenaryPaletteID)
+PaletteAssociationEntry(Zorua,ZoruaMercenaryFPaletteID)
+PaletteAssociationEntry(Xenith,XenithMercenaryPaletteID)
+PaletteAssociationEntry(Stephen,StephenMercenaryPaletteID)
+PaletteAssociationEntry(Myst,MystMercenaryPaletteID)
+PaletteAssociationEntry(Khris,KhrisMercenaryPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnMercenaryPaletteID)
+PaletteAssociationEntry(Paul,PaulMercenaryPaletteID)
+PaletteAssociationEntry(Kajarn,KajarnMercenaryPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HeroPaletteList:
+PaletteAssociationEntry(Michael,MichaelHeroPaletteID)
+PaletteAssociationEntry(Xenith,XenithHeroPaletteID)
+PaletteAssociationEntry(Stephen,StephenHeroPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnHeroPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+ArcherPaletteList:
+PaletteAssociationEntry(Kaiden,KaidenArcherPaletteID)
+PaletteAssociationEntry(Cleo,CleoArcherPaletteID)
+PaletteAssociationEntry(Reds,RedsArcherPaletteID)
+PaletteAssociationEntry(Mimi,MimiArcherPaletteID)
+PaletteAssociationEntry(Xenith,XenithArcherPaletteID)
+PaletteAssociationEntry(Tray,TrayArcherPaletteID)
+PaletteAssociationEntry(Anton,AntonArcherPaletteID)
+PaletteAssociationEntry(Occam,OccamArcherPaletteID)
+
+WORD 0 0
+ALIGN 4
+
+
+ArcherFPaletteList:
+PaletteAssociationEntry(Daff,DaffArcherFPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeArcherFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SniperPaletteList:
+PaletteAssociationEntry(Kaiden,KaidenSniperPaletteID)
+PaletteAssociationEntry(Reds,RedsSniperPaletteID)
+PaletteAssociationEntry(Mimi,MimiSniperPaletteID)
+PaletteAssociationEntry(Xenith,XenithSniperPaletteID)
+PaletteAssociationEntry(Tray,TraySniperPaletteID)
+PaletteAssociationEntry(Occam,OccamSniperPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SniperFPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+HorsemanPaletteList:
+PaletteAssociationEntry(Innards,InnardsHorsemanPaletteID)
+PaletteAssociationEntry(Cleo,CleoHorsemanPaletteID)
+PaletteAssociationEntry(Anton,AntonHorsemanPaletteID)
+PaletteAssociationEntry(Myst,MystHorsemanPaletteID)
+PaletteAssociationEntry(Khris,KhrisHorsemanPaletteID)
+PaletteAssociationEntry(Nobody,NobodyHorsemanPaletteID)
+PaletteAssociationEntry(Occam,OccamHorsemanPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HorsemanFPaletteList:
+PaletteAssociationEntry(Daff,DaffHorsemanFPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeHorsemanFPaletteID)
+PaletteAssociationEntry(Lenato,LenatoHorsemanFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WyvernRiderPaletteList:
+PaletteAssociationEntry(Eric,EricWyvernRiderPaletteID)
+PaletteAssociationEntry(Innards,InnardsWyvernRiderPaletteID)
+PaletteAssociationEntry(Cleo,CleoWyvernRiderPaletteID)
+PaletteAssociationEntry(Reds,RedsWyvernRiderPaletteID)
+PaletteAssociationEntry(Horus,HorusWyvernRiderPaletteID)
+PaletteAssociationEntry(Glac,GlacWyvernRiderPaletteID)
+PaletteAssociationEntry(William,WilliamWyvernRiderPaletteID)
+PaletteAssociationEntry(Greg,GregWyvernRiderPaletteID)
+PaletteAssociationEntry(Geoffroy,GeoffroyWyvernRiderPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WyvernLordPaletteList:
+PaletteAssociationEntry(Eric,EricWyvernLordPaletteID)
+PaletteAssociationEntry(Innards,InnardsWyvernLordPaletteID)
+PaletteAssociationEntry(Cleo,CleoWyvernLordPaletteID)
+PaletteAssociationEntry(Reds,RedsWyvernLordPaletteID)
+PaletteAssociationEntry(Horus,HorusWyvernLordPaletteID)
+PaletteAssociationEntry(Glac,GlacWyvernLordPaletteID)
+PaletteAssociationEntry(William,WilliamWyvernLordPaletteID)
+PaletteAssociationEntry(Greg,GregWyvernLordPaletteID)
+PaletteAssociationEntry(Geoffroy,GeoffroyWyvernLordPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MaligKnightPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+MagePaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntMagePaletteID)
+PaletteAssociationEntry(Innards,InnardsMagePaletteID)
+PaletteAssociationEntry(Jonathen,JonathenMagePaletteID)
+PaletteAssociationEntry(Cleo,CleoMagePaletteID)
+PaletteAssociationEntry(Reds,RedsMagePaletteID)
+PaletteAssociationEntry(Khris,KhrisMagePaletteID)
+PaletteAssociationEntry(Zane,ZaneMagePaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnMagePaletteID)
+PaletteAssociationEntry(Jack,JackMagePaletteID)
+PaletteAssociationEntry(Reginald,ReginaldMagePaletteID)
+PaletteAssociationEntry(Maxwell,MaxwellMagePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MageFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaMageFPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeMageFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SagePaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntSagePaletteID)
+PaletteAssociationEntry(Khris,KhrisSagePaletteID)
+PaletteAssociationEntry(Zane,ZaneSagePaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnSagePaletteID)
+PaletteAssociationEntry(Jack,JackSagePaletteID)
+PaletteAssociationEntry(Reginald,ReginaldSagePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SageFPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+MageKnightPaletteList:
+PaletteAssociationEntry(Innards,InnardsMageKnightPaletteID)
+PaletteAssociationEntry(Nobody,NobodyMageKnightPaletteID)
+PaletteAssociationEntry(Maxwell,MaxwellMageKnightPaletteID)
+
+WORD 0 0
+ALIGN 4
+
+
+MageKnightFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaMageKnightFPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeMageKnightFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MageFighterPaletteList:
+PaletteAssociationEntry(Jonathen,JonathenMageFighterPaletteID)
+PaletteAssociationEntry(Cleo,CleoMageFighterPaletteID)
+PaletteAssociationEntry(Khris,KhrisMageFighterPaletteID)
+PaletteAssociationEntry(Paul,PaulMageFighterPaletteID)
+
+WORD 0 0
+ALIGN 4
+
+
+MageFighterFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaMageFighterFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DarkMagePaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntDarkMagePaletteID)
+PaletteAssociationEntry(Jonathen,JonathenDarkMagePaletteID)
+PaletteAssociationEntry(Kaiden,KaidenDarkMagePaletteID)
+PaletteAssociationEntry(Reds,RedsDarkMagePaletteID)
+PaletteAssociationEntry(Mimi,MimiDarkMagePaletteID)
+PaletteAssociationEntry(Kabby,KabbyDarkMagePaletteID)
+PaletteAssociationEntry(Myst,MystDarkMagePaletteID)
+PaletteAssociationEntry(William,WilliamDarkMagePaletteID)
+PaletteAssociationEntry(Paul,PaulDarkMagePaletteID)
+PaletteAssociationEntry(Vollster,VollsterDarkMagePaletteID)
+PaletteAssociationEntry(Greg,GregDarkMagePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DarkMageFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaDarkMageFPaletteID)
+PaletteAssociationEntry(Daff,DaffDarkMageFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WarlockPaletteList:
+PaletteAssociationEntry(Kaiden,KaidenWarlockPaletteID)
+PaletteAssociationEntry(Reds,RedsWarlockPaletteID)
+PaletteAssociationEntry(Kabby,KabbyWarlockPaletteID)
+PaletteAssociationEntry(William,WilliamWarlockPaletteID)
+PaletteAssociationEntry(Greg,GregWarlockPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WarlockFPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+SummonerPaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntSummonerPaletteID)
+PaletteAssociationEntry(Jonathen,JonathenSummonerPaletteID)
+PaletteAssociationEntry(Mimi,MimiSummonerPaletteID)
+PaletteAssociationEntry(Myst,MystSummonerPaletteID)
+PaletteAssociationEntry(Vollster,VollsterSummonerPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SummonerFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaSummonerFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DarkBishopPaletteList:
+PaletteAssociationEntry(Paul,PaulDarkBishopPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DarkBishopFPaletteList:
+PaletteAssociationEntry(Daff,DaffDarkBishopFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+FighterPaletteList:
+PaletteAssociationEntry(QuaSahnt,QuaSahntFighterPaletteID)
+PaletteAssociationEntry(Innards,InnardsFighterPaletteID)
+PaletteAssociationEntry(Kaiden,KaidenFighterPaletteID)
+PaletteAssociationEntry(Kabby,KabbyFighterPaletteID)
+PaletteAssociationEntry(Anton,AntonFighterPaletteID)
+PaletteAssociationEntry(Reginald,ReginaldFighterPaletteID)
+PaletteAssociationEntry(Volta,VoltaFighterPaletteID)
+PaletteAssociationEntry(Rynod,RynodFighterPaletteID)
+PaletteAssociationEntry(Orion,OrionFighterPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BrigandPaletteList:
+PaletteAssociationEntry(Michael,MichaelBrigandPaletteID)
+PaletteAssociationEntry(Kabby,KabbyBrigandPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnBrigandPaletteID)
+PaletteAssociationEntry(Greg,GregBrigandPaletteID)
+PaletteAssociationEntry(Borgas,BorgasBrigandPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+PiratePaletteList:
+PaletteAssociationEntry(Eric,EricPiratePaletteID)
+PaletteAssociationEntry(Stephen,StephenPiratePaletteID)
+PaletteAssociationEntry(Zane,ZanePiratePaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WarriorPaletteList:
+PaletteAssociationEntry(Innards,InnardsWarriorPaletteID)
+PaletteAssociationEntry(Kaiden,KaidenWarriorPaletteID)
+PaletteAssociationEntry(Kabby,KabbyWarriorPaletteID)
+PaletteAssociationEntry(Anton,AntonWarriorPaletteID)
+PaletteAssociationEntry(Reginald,ReginaldWarriorPaletteID)
+PaletteAssociationEntry(Volta,VoltaWarriorPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BerserkerPaletteList:
+PaletteAssociationEntry(Michael,MichaelBerserkerPaletteID)
+PaletteAssociationEntry(Eric,EricBerserkerPaletteID)
+PaletteAssociationEntry(QuaSahnt,QuaSahntBerserkerPaletteID)
+PaletteAssociationEntry(Kabby,KabbyBerserkerPaletteID)
+PaletteAssociationEntry(Stephen,StephenBerserkerPaletteID)
+PaletteAssociationEntry(Zane,ZaneBerserkerPaletteID)
+PaletteAssociationEntry(Adamminn,AdamminnBerserkerPaletteID)
+PaletteAssociationEntry(Greg,GregBerserkerPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+MonkPaletteList:
+PaletteAssociationEntry(Mimi,MimiMonkPaletteID)
+PaletteAssociationEntry(Glac,GlacMonkPaletteID)
+PaletteAssociationEntry(Zane,ZaneMonkPaletteID)
+PaletteAssociationEntry(Ash,AshMonkPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+PriestPaletteList:
+PaletteAssociationEntry(Kelly,KellyPriestPaletteID)
+PaletteAssociationEntry(Kabby,KabbyPriestPaletteID)
+PaletteAssociationEntry(Jack,JackPriestPaletteID)
+PaletteAssociationEntry(Vollster,VollsterPriestPaletteID)
+PaletteAssociationEntry(Augustus,AugustusPriestPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BuffPriestPaletteList:
+PaletteAssociationEntry(Stephen,StephenBuffPriestPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+ClericPaletteList:
+PaletteAssociationEntry(Lazul,LazulClericPaletteID)
+PaletteAssociationEntry(Zorua,ZoruaClericPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeClericPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DeaconPaletteList:
+PaletteAssociationEntry(Kelly,KellyDeaconPaletteID)
+PaletteAssociationEntry(Horus,HorusDeaconPaletteID)
+PaletteAssociationEntry(Nobody,NobodyDeaconPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+TroubadourPaletteList:
+PaletteAssociationEntry(Daff,DaffTroubadourPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BishopPaletteList:
+PaletteAssociationEntry(Kelly,KellyBishopPaletteID)
+PaletteAssociationEntry(Mimi,MimiBishopPaletteID)
+PaletteAssociationEntry(Glac,GlacBishopPaletteID)
+PaletteAssociationEntry(Zane,ZaneBishopPaletteID)
+PaletteAssociationEntry(Jack,JackBishopPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BishopFPaletteList:
+PaletteAssociationEntry(Zorua,ZoruaBishopFPaletteID)
+PaletteAssociationEntry(Smeglinde,SmeglindeBishopFPaletteID)
+PaletteAssociationEntry(Lazul,LazulBishopFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HolyKnightPaletteList:
+PaletteAssociationEntry(Kelly,KellyHolyKnightPaletteID)
+PaletteAssociationEntry(Horus,HorusHolyKnightPaletteID)
+PaletteAssociationEntry(Ash,AshHolyKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HolyKnightFPaletteList:
+PaletteAssociationEntry(Daff,DaffHolyKnightFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DarkKnightPaletteList:
+PaletteAssociationEntry(Myst,MystDarkKnightPaletteID)
+PaletteAssociationEntry(Vollster,VollsterDarkKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WarMonkPaletteList:
+PaletteAssociationEntry(Kabby,KabbyWarMonkPaletteID)
+PaletteAssociationEntry(Stephen,StephenWarMonkPaletteID)
+PaletteAssociationEntry(Vollster,VollsterWarMonkPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WarClericPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+TemplarPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+ValkyriePaletteList:
+WORD 0 0
+ALIGN 4
+
+
+PegasusRiderPaletteList:
+PaletteAssociationEntry(Kelly,KellyPegasusKnightPaletteID)
+PaletteAssociationEntry(Tray,TrayPegasusKnightPaletteID)
+PaletteAssociationEntry(Horus,HorusPegasusKnightPaletteID)
+PaletteAssociationEntry(Daff,DaffPegasusKnightPaletteID)
+PaletteAssociationEntry(Jack,JackPegasusKnightPaletteID)
+PaletteAssociationEntry(Lazul,LazulPegasusKnightPaletteID)
+PaletteAssociationEntry(Colorz,ColorzPegasusKnightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+FalcoknightPaletteList:
+PaletteAssociationEntry(Kelly,KellyFalcoknightPaletteID)
+PaletteAssociationEntry(Tray,TrayFalcoknightPaletteID)
+PaletteAssociationEntry(Horus,HorusFalcoknightPaletteID)
+PaletteAssociationEntry(Daff,DaffFalcoknightPaletteID)
+PaletteAssociationEntry(Jack,JackFalcoknightPaletteID)
+PaletteAssociationEntry(Lazul,LazulFalcoknightPaletteID)
+PaletteAssociationEntry(Colorz,ColorzFalcoknightPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DancerMPaletteList:
+PaletteAssociationEntry(Augustus,AugustusDancerMPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DancerFPaletteList:
+PaletteAssociationEntry(Lazul,LazulDancerFPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SoldierPaletteList:
+PaletteAssociationEntry(Michael,MichaelSoldierPaletteID)
+PaletteAssociationEntry(Eric,EricSoldierPaletteID)
+PaletteAssociationEntry(Xenith,XenithSoldierPaletteID)
+PaletteAssociationEntry(Tray,TraySoldierPaletteID)
+PaletteAssociationEntry(Delam,DelamSoldierPaletteID)
+PaletteAssociationEntry(Yanndahl,YanndahlSoldierPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+HalberdierPaletteList:
+PaletteAssociationEntry(Michael,MichaelHalberdierPaletteID)
+PaletteAssociationEntry(Xenith,XenithHalberdierPaletteID)
+PaletteAssociationEntry(Tray,TrayHalberdierPaletteID)
+PaletteAssociationEntry(Delam,DelamHalberdierPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+DragoonPaletteList:
+PaletteAssociationEntry(Eric,EricDragoonPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+KnightLordPaletteList:
+PaletteAssociationEntry(Xenith,XenithKnightLordPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+SwordsmanPaletteList:
+PaletteAssociationEntry(Glac,GlacSwordsmanPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+LegendPaletteList:
+PaletteAssociationEntry(Glac,GlacLegendPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+KingPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+FleetPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+DracoZombiePaletteList:
+WORD 0 0
+ALIGN 4
+
+
+ManaketeMorvaPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+ManaketeMyrrhPaletteList:
+WORD 0 0
+ALIGN 4
+
+
+BearPaletteList:
+PaletteAssociationEntry(BearBoss,BearBossBearPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+WyvernPaletteList:
+PaletteAssociationEntry(WyvernBoss,WyvernBossWyvernPaletteID)
+WORD 0 0
+ALIGN 4
+
+
+BYTE $FF $FF $FF $FF $FF $FF $FF $FF
+ALIGN 4
