@@ -40,7 +40,7 @@ POIN PaletteAssociationTable
 POIN CharacterPaletteTable
 
 #define PaletteEntry(index) "(CharacterPaletteTable) + (index*$10)"
-#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index)"
+#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index-1)"
 
 
 ALIGN 4
