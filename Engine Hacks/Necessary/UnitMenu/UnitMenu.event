@@ -161,7 +161,7 @@ UnitMenuTable:
   
   #endif // __TERNONDEBUG__
   
-  MESSAGE Win_Usability
+  //MESSAGE Win_Usability
   
   UM_Wait
 

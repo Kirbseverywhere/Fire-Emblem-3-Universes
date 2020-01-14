@@ -4,6 +4,7 @@
 
 #define RodinMagusPaletteID 1
 #define RodinAetherMagusPaletteID 2
+
 #define MichaelMercenaryPaletteID 3
 #define MichaelHeroPaletteID 4
 #define MichaelBrigandPaletteID 5
@@ -12,6 +13,7 @@
 #define MichaelHalberdierPaletteID 8
 #define MichaelSwordArmorPaletteID 9
 #define MichaelGeneralPaletteID 10
+
 #define EricSoldierPaletteID 11
 #define EricDragoonPaletteID 12
 #define EricWyvernRiderPaletteID 13
@@ -20,6 +22,7 @@
 #define EricBerserkerPaletteID 16 
 #define EricAxeKnightPaletteID 17
 #define EricGreatKnightPaletteID 18
+
 #define KellyDeaconPaletteID 19
 #define KellyHolyKnightPaletteID 20
 #define KellyPriestPaletteID 21
@@ -27,6 +30,7 @@
 #define KellyLanceKnightPaletteID 23
 #define KellyPegasusKnightPaletteID 25
 #define KellyFalcoknightPaletteID 26
+
 #define QuaSahntMagePaletteID 27
 #define QuaSahntSagePaletteID 28
 #define QuaSahntDarkMagePaletteID 29
@@ -35,6 +39,7 @@
 #define QuaSahntBerserkerPaletteID 32
 #define QuaSahntAxeArmorPaletteID 33
 #define QuaSahntGeneralPaletteID 34
+
 #define InnardsWyvernRiderPaletteID 35
 #define InnardsWyvernLordPaletteID 36 //placeholder
 #define InnardsFighterPaletteID 37 //placeholder
@@ -43,6 +48,7 @@
 #define InnardsMageKnightPaletteID 40 //placeholder
 #define InnardsMercenaryPaletteID 41 //placeholder
 #define InnardsHorsemanPaletteID 42 //placeholder
+
 #define JonathenMercenaryPaletteID 43
 #define JonathenMageFighterPaletteID 44
 #define JonathenMagePaletteID 45
@@ -50,6 +56,7 @@
 #define JonathenSummonerPaletteID 48
 #define JonathenSwordArmorPaletteID 49
 #define JonathenGeneralPaletteID 50
+
 #define KaidenDarkMagePaletteID 51
 #define KaidenWarlockPaletteID 52
 #define KaidenFighterPaletteID 53
@@ -58,6 +65,7 @@
 #define KaidenSniperPaletteID 56
 #define KaidenAxeKnightPaletteID 57
 #define KaidenPaladinPaletteID 58
+
 #define CleoLanceKnightPaletteID 59
 #define CleoPaladinPaletteID 60
 #define CleoMagePaletteID 61
@@ -66,6 +74,7 @@
 #define CleoWyvernLordPaletteID 64
 #define CleoArcherPaletteID 65
 #define CleoHorsemanPaletteID 66
+
 #define RedsMyrmidonPaletteID 67
 #define RedsSwordmasterPaletteID 68
 #define RedsWyvernRiderPaletteID 69
@@ -74,6 +83,7 @@
 #define RedsSniperPaletteID 72
 #define RedsDarkMagePaletteID 73
 #define RedsWarlockPaletteID 74
+
 #define MimiDarkMagePaletteID 75
 #define MimiSummonerPaletteID 76
 #define MimiThiefPaletteID 77
@@ -82,11 +92,12 @@
 #define MimiSniperPaletteID 80
 #define MimiMonkPaletteID 81
 #define MimiBishopPaletteID 82
+
 #define ZoruaMageFPaletteID 83
 #define ZoruaMageKnightFPaletteID 84
 #define ZoruaMercenaryFPaletteID 85
 #define ZoruaMageFighterFPaletteID 86
-#define ZoruaClericFPaletteID 87
+#define ZoruaClericPaletteID 87
 #define ZoruaBishopFPaletteID 88
 #define ZoruaDarkMageFPaletteID 89
 #define ZoruaSummonerFPaletteID 90
@@ -94,6 +105,7 @@
 // Purple Jaguars
 #define VergilLordPaletteID 91
 #define VergilHighLordPaletteID 92
+
 #define XenithSwordKnightPaletteID 93
 #define XenithKnightLordPaletteID 94
 #define XenithMercenaryPaletteID 95
@@ -102,6 +114,7 @@
 #define XenithSniperPaletteID 98
 #define XenithSoldierPaletteID 99
 #define XenithHalberdierPaletteID 100
+
 #define TrayPegasusKnightPaletteID 101
 #define TrayFalcoknightPaletteID 102
 #define TrayMyrmidonPaletteID 103
@@ -110,6 +123,7 @@
 #define TrayHalberdierPaletteID 106
 #define TrayArcherPaletteID 107
 #define TraySniperPaletteID 108
+
 #define HorusDeaconPaletteID 109
 #define HorusHolyKnightPaletteID 110
 #define HorusLanceKnightPaletteID 111
@@ -117,6 +131,7 @@
 #define HorusWyvernLordPaletteID 114 //placeholder
 #define HorusPegasusKnightPaletteID 115
 #define HorusFalcoknightPaletteID 116
+
 #define GlacAxeKnightPaletteID 117
 #define GlacPaladinPaletteID 118
 #define GlacSwordsmanPaletteID 119
@@ -125,6 +140,7 @@
 #define GlacWyvernLordPaletteID 122
 #define GlacMonkPaletteID 123
 #define GlacBishopPaletteID 124 //placeholder
+
 #define DaffDarkMageFPaletteID 125
 #define DaffDarkBishopFPaletteID 126
 #define DaffTroubadourPaletteID 127
@@ -133,6 +149,7 @@
 #define DaffHorsemanFPaletteID 130
 #define DaffPegasusKnightPaletteID 131
 #define DaffFalcoknightPaletteID 132
+
 #define SmeglindeThiefFPaletteID 133
 #define SmeglindeRogueFPaletteID 134
 #define SmeglindeArcherFPaletteID 135
@@ -141,6 +158,7 @@
 #define SmeglindeBishopFPaletteID 138
 #define SmeglindeMageFPaletteID 139
 #define SmeglindeMageKnightFPaletteID 140
+
 #define KabbyBrigandPaletteID 141
 #define KabbyBerserkerPaletteID 142 //placeholder
 #define KabbyFighterPaletteID 143 //placeholder
@@ -149,6 +167,7 @@
 #define KabbyWarlockPaletteID 146 //placeholder
 #define KabbyPriestPaletteID 147 //placeholder
 #define KabbyWarMonkPaletteID 148 //placeholder
+
 #define StephenMercenaryPaletteID 149
 #define StephenHeroPaletteID 150
 #define StephenPiratePaletteID 151
@@ -157,6 +176,7 @@
 #define StephenGeneralPaletteID 154
 #define StephenBuffPriestPaletteID 155
 #define StephenWarMonkPaletteID 156
+
 #define AntonArcherPaletteID 157
 #define AntonHorsemanPaletteID 158
 #define AntonLanceKnightPaletteID 159
@@ -165,26 +185,29 @@
 #define AntonGeneralPaletteID 162
 #define AntonFighterPaletteID 163
 #define AntonWarriorPaletteID 164
+
 #define MystSwordKnightPaletteID 165
 #define MystDarkKnightPaletteID 166
 #define MystMercenaryPaletteID 167
 #define MystHorsemanPaletteID 168
 #define MystMyrmidonPaletteID 169
-#define MystSwordmassterPaletteID 170
+#define MystSwordmasterPaletteID 170
 #define MystDarkMagePaletteID 171
 #define MystSummonerPaletteID 172
+
 #define KhrisMyrmidonPaletteID 173
 #define KhrisSwordmasterPaletteID 174
 #define KhrisBowKnightPaletteID 175
 #define KhrisHorsemanPaletteID 176
 #define KhrisMagePaletteID 177
 #define KhrisSagePaletteID 178
-#define KhrisMercenaryPalette 179
-#define KhrisMageFighterPalette 180
+#define KhrisMercenaryPaletteID 179
+#define KhrisMageFighterPaletteID 180
 
 // Amber Bears
 #define ElleBladePaletteID 181
 #define ElleOverlordPaletteID 182
+
 #define ZaneMonkPaletteID 183
 #define ZaneBishopPaletteID 184
 #define ZaneMagePaletteID 185
@@ -193,6 +216,7 @@
 #define ZaneGeneralPaletteID 188
 #define ZanePiratePaletteID 189
 #define ZaneBerserkerPaletteID 190
+
 #define AdamminnBrigandPaletteID 191
 #define AdamminnBerserkerPaletteID 192
 #define AdamminnMagePaletteID 193
@@ -201,6 +225,7 @@
 #define AdamminnHeroPaletteID 196
 #define AdamminnSwordKnightPaletteID 197
 #define AdamminnPaladinPaletteID 198
+
 #define WilliamLanceArmorPaletteID 199
 #define WilliamGeneralPaletteID 200
 #define WilliamAxeArmorPaletteID 201
@@ -209,6 +234,7 @@
 #define WilliamWyvernLordPaletteID 204
 #define WilliamDarkMagePaletteID 205
 #define WilliamWarlockPaletteID 206
+
 #define NobodyBowKnightPaletteID 207
 #define NobodyHorsemanPaletteID 208
 #define NobodyAxeKnightPaletteID 209
@@ -217,6 +243,7 @@
 #define NobodyMageKnightPaletteID 212
 #define NobodyLanceKnightPaletteID 213
 #define NobodyPaladinPaletteID 214
+
 #define JackThiefPaletteID 215
 #define JackRoguePaletteID 216
 #define JackPriestPaletteID 217
@@ -225,6 +252,7 @@
 #define JackSagePaletteID 220
 #define JackPegasusKnightPaletteID 221
 #define JackFalcoknightPaletteID 222
+
 #define LazulThiefFPaletteID 223
 #define LazulDancerFPaletteID 224
 #define LazulClericPaletteID 225
@@ -233,6 +261,7 @@
 #define LazulSwordmasterFPaletteID 228
 #define LazulPegasusKnightPaletteID 229
 #define LazulFalcoknightPaletteID 230
+
 #define PaulMyrmidonPaletteID 231
 #define PaulSwordmasterPaletteID 232
 #define PaulMercenaryPaletteID 233
@@ -241,6 +270,7 @@
 #define PaulDarkBishopPaletteID 236
 #define PaulSwordKnightPaletteID 237
 #define PaulPaladinPaletteID 238
+
 #define ReginaldAxeKnightPaletteID 239
 #define ReginaldPaladinPaletteID 240
 #define ReginaldLanceKnightPaletteID 241
@@ -248,6 +278,7 @@
 #define ReginaldSagePaletteID 244
 #define ReginaldFighterPaletteID 245
 #define ReginaldWarriorPaletteID 246
+
 #define VollsterDarkMagePaletteID 247
 #define VollsterSummonerPaletteID 248
 #define VollsterSwordKnightPaletteID 249
@@ -256,6 +287,7 @@
 #define VollsterWarMonkPaletteID 252
 #define VollsterSwordArmorPaletteID 253
 #define VollsterGeneralPaletteID 254
+
 #define GregWyvernRiderPaletteID 255
 #define GregWyvernLordPaletteID 256
 #define GregBrigandPaletteID 257
@@ -264,6 +296,7 @@
 #define GregPaladinPaletteID 260
 #define GregDarkMagePaletteID 261
 #define GregWarlockPaletteID 262
+
 #define OccamArcherPaletteID 263
 #define OccamSniperPaletteID 264
 #define OccamThiefPaletteID 265
@@ -276,47 +309,71 @@
 // Neutrals
 #define LenatoBowKnightFPaletteID 271
 #define LenatoHorsemanFPaletteID 272
+
 #define AugustusPriestPaletteID 273
 #define AugustusDancerMPaletteID 274
+
 #define KonatsuLanceKnightPaletteID 275
 #define KonatsuPaladinPaletteID 276
+
 #define CirclesClass1PaletteID 277 //placeholder
 #define CirclesClass2PaletteID 278 //placeholder
+
 #define ColorzPegasusKnightPaletteID 279
 #define ColorzFalcoknightPaletteID 280
+
 #define GeoffroyWyvernRiderPaletteID 281
 #define GeoffroyWyvernLordPaletteID 282
+
 #define DelamSoldierPaletteID 283
 #define DelamHalberdierPaletteID 284
+
 #define MaxwellMagePaletteID 285
 #define MaxwellMageKnightPaletteID 286
+
 #define GeraldoSwordArmorPaletteID 287
 #define GeraldoGreatKnightPaletteID 288
+
 #define AshMonkPaletteID 289
 #define AshHolyKnightPaletteID 290
+
 #define VollerentThiefPaletteID 291
 #define VollerentRoguePaletteID 292
+
 #define VoltaFighterPaletteID 293
 #define VoltaWarriorPaletteID 294
+
 #define ZuzkaAxeArmorPaletteID 295 //placeholder
 #define ZuzkaGeneralPaletteID 296 //placeholder
+
 #define DocClass1PaletteID 297 //placeholder
 #define DocClass2PaletteID 298 //placeholder
 
 // Bosses
 #define BorgasBrigandPaletteID 299
+
 #define AlvaLanceKnightPaletteID 300
+
 #define WyvernBossWyvernPaletteID 301
+
 #define YanndahlSoldierPaletteID 302
+
 #define BrucknerSwordKnightPaletteID 303
+
 #define BearBossBearPaletteID 304
+
 #define DarachAxeArmorPaletteID 305
+
 #define LarissaLanceKnightPaletteID 306
+
 #define KajarnMercenaryPaletteID 307
+
 #define RynodFighterPaletteID 308
+
 #define IlyronLanceArmorPaletteID 309
+
 
 // Other
 #define OrionFighterPaletteID 310
-#define RunaBowKnightFPaletteID 311
 
+#define RunaBowKnightFPaletteID 311

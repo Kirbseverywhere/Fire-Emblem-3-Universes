@@ -1,307 +1,2121 @@
-# char{0x1} "EricSoldierPalette" set{Eric, 0x0, Soldier} auto{0}
-    4F46FF7F1C435922730DB709300589007B6F945AAD3DFA09FE14920C4B04A514
+# char{RodinMagusPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x2} "EricWyvernRiderPalette" set{Eric, 0x1, WyvernRider} auto{0}
-	5553FF7F920CFE14183A5922730D396FB13DFA5A797EF46D6D590B51C810A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x3} "EricPiratePalette" set{Eric, 0x2, Pirate} auto{0}
-	744D4B04920CFE147B6F945AAD3D292DA514CB08730D59221C430641A7614D7E
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x4} "EricAxeKnightPalette" set{Eric, 0x3, AxeKnight} auto{0}
-	344F7B6F945AAD3D5C57DA3AD3193005AA084A29E71C9F21FE14920C4B04A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x5} "JonathenMercenaryPalette" set{Jonathen, 0x0, Mercenary} auto{0}
-	007EFF7F4E19EF50CE515A77182A7421B56E5769DF5FD621D0181F4B6830A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x6} "JonathenMagePalette" set{Jonathen, 0x1, Mage} auto{0}
-	007EFF7FFF6B1F4B2E197256B525D018BA113309EB109C775769EF506830A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x7} "JonathenDarkMagePalette" set{Jonathen, 0x2, DarkMage} auto{0}
-	007EFF7FFF6B1F4B2E199D1BBF1E3105BA113309EB10DA7D3669CE4C672CA514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x8} "JonathenArmorPalette" set{Jonathen, 0x3, SwordArmor} auto{0}
-	344FBE7FB85AAE495C57DA3AD319B02909194A29E71CBA7EF6697261AB40A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x9} "KaidenDarkMagePalette" set{Kaiden, 0x0, DarkMage} auto{0}
-	5553FF7FFF6BDF2E2E19DA3E15226E15F814D310AE0CEE618A592845831CA514
+# char{RodinAetherMagusPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xA} "KaidenFighterPalette" set{Kaiden, 0x1, Fighter} auto{0}
-	5553FF7FFF6B1F4B2E19B1156E112C05972D75253577EA5EA55E6569654DA514
+# char{MichaelMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xB} "KaidenArcherPalette" set{Kaiden, 0x2, Archer} auto{0}
-	5553FF7FFF6BDF2E2E19DA3E15226E15F814D310AE0CEE618A592845831CA514
+# char{MichaelHeroPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xC} "RedsMyrmidonPalette" set{Reds, 0x0, Myrmidon} auto{0}
-	5553FF7FFF6B1F4B2E19793ED3294E1D55678F52C93DF81C8F184D000800A514
+# char{MichaelBrigandPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xD} "RedsWyvernRiderPalette" set{Reds, 0x1, WyvernRider} auto{0}
-	5553FF7F8F18F81C183A1E4BB02D5A4F312E5A3355676F52C93D4731C810A514
+# char{MichaelBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xE} "RedsDarkMagePalette" set{Reds, 0x2, DarkMage} auto{0}
-	5553FF7FFF6B1F4B2E19FF1B9E1A520955678F52C93DF81C8F184D000800A514
+# char{MichaelSoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0xF} "ZoruaMagePalette" set{Zorua, 0x0, Mage_F} auto{0}
-	5553FF7FFF6B1F4B2E19B4253015CC10D1394D29E91C392A797AD55D0F45A514
+# char{MichaelHalberdierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x10} "GlacAxeKnightPalette" set{Glac, 0x0, AxeKnight} auto{0}
-	5553FF7FFF5BFE3EF431FA7F3377CB5D2831E620A52A852D5B0E9411CB10A514
+# char{MichaelSwordArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x11} "GlacMyrmidonPalette" set{Glac, 0x1, Myrmidon} auto{0}
-	5553BF4FFF6B1F4B2E196A35E720A51CFE16FA191315051264150319A214A514
+# char{MichaelGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x12} "GlacWyvernRiderPalette" set{Glac, 0x2, WyvernRider} auto{0}
-	5553DF57B16AFD7F183A1E4B30215D1A5D1A151590290B21C91CA6188518A514
+# char{EricSoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x13} "SmeglindeThiefPalette" set{Smeglinde, 0x0, Thief_F} auto{0}
-	5553FF7FFF6B7C36E7286B45EA38C924567B6F5E8841EA486A55BB3E9129A514
+# char{EricDragoonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x14} "SmeglindeArcherPalette" set{Smeglinde, 0x1, Archer_F} auto{0}
-	5553FF7FFF6B1F4B2E196B45EA38C924BB3EB425777FBF251A15D4188D18A514
+# char{EricWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x15} "SmeglindeClericPalette" set{Smeglinde, 0x2, Cleric} auto{0}
-	5553BF77FF6B1F4B2E196B45EA38C924FB3E352AD26AFE7F577F0D66474DA514
+# char{EricWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x16} "SmeglindeMagePalette" set{Smeglinde, 0x3, Mage_F} auto{0}
-	5553FF7FFF6B1F4B2E196B45EA38C924BB3ED3252C21392A1A15D4188D18A514
+# char{EricPiratePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x17} "TrayPegasusKnightPalette" set{Tray, 0x0, PegasusKnight} auto{0}
-	5553FF7F70219E36FF6BFF3FAD081815C8106B7E656DD977946F2F6F22316310
+# char{EricBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x18} "KhrisMyrmidonPalette" set{Khris, 0x0, Myrmidon} auto{0}
-	5553FF7FFF6B1F4B2E196D3D0825861C567B4E5A8841104E4A3106258418A514
+# char{EricAxeKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x19} "KhrisMagePalette" set{Khris, 0x1, Mage} auto{0}
-	5553FF7FFF6B1F4B2E19392A6D3DE72410524A39A5241F4BD91893106D14A514
+# char{EricGreatKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{0x1A} "KhrisMercenaryPalette" set{Khris, 0x2, Mercenary} auto{0}
-	5553FF7F4E194A310C5298776D3D0825F36E104EDF5FD621861C1F4BA520A514
+# char{KellyDeaconPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyHolyKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KellyFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntSummonerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntAxeArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{QuaSahntGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsMageKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{InnardsHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenMageFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenSummonerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenSwordArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JonathenGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenWarlockPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenSniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenAxeKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KaidenPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x1B} "WilliamLanceArmorPalette" set{William, 0x0, LanceArmor} auto{0}
-	5553FF7FF65AEC495C57DA3AD319B02909194A29E71C1C2B771AF31DB209A514
+# char{CleoMageFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{CleoHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsMyrmidonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsSwordmasterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsSniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{RedsWarlockPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiSummonerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiThiefPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiAssassinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiSniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MimiBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaMageFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaMageKnightFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaMercenaryFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaMageFighterFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaClericPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaBishopFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaDarkMageFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZoruaSummonerFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VergilLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VergilHighLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithKnightLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithHeroPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithSniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithSoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{XenithHalberdierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TrayPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TrayFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TrayMyrmidonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TraySwordmasterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TraySoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TrayHalberdierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TrayArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{TraySniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusDeaconPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusHolyKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{HorusFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacAxeKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacSwordsmanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacLegendPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x1C} "WilliamAxeArmorPalette" set{William, 0x1, AxeArmor} auto{0}
-	5553FF7FF65AEC495C57DA3AD319B02909194A29E71C1C2B771AF31DB209A514
+# char{GlacWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GlacBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffDarkMageFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffDarkBishopFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffTroubadourPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffHolyKnightFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffArcherFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffHorsemanFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DaffFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeThiefFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeRogueFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeArcherFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeHorsemanFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeClericPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeBishopFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeMageFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{SmeglindeMageKnightFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyBrigandPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyWarlockPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KabbyWarMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenHeroPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenPiratePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenSwordArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenBuffPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{StephenWarMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonGreatKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonLanceArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AntonWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystDarkKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystMyrmidonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystSwordmasterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MystSummonerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisMyrmidonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisSwordmasterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisBowKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KhrisMageFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ElleBladePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x1D} "WilliamWyvernRiderPalette" set{William, 0x2, WyvernRider} auto{0}
-	5553FF63F3191C2B183A1E4BB02D5A4F312E194BAF3FE92628228515C810A514
+# char{ElleOverlordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneAxeArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZanePiratePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZaneBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnBrigandPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnHeroPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AdamminnPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamLanceArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamAxeArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamGreatKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WilliamWarlockPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyBowKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyAxeKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyGreatKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyDeaconPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyMageKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{NobodyPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackThiefPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackRoguePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{JackFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulThiefFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulDancerFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulClericPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulBishopFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulMyrmidonFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulSwordmasterFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LazulFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulMyrmidonPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulSwordmasterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulMageFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulDarkBishopPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{PaulPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldAxeKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x1E} "WilliamDarkMagePalette" set{William, 0x3, DarkMage} auto{0}
-	5553FF7FFF6BDF2E2E197B1B3A169321BF2F56128F0D0E4E493106296210A514
+# char{ReginaldLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldSagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ReginaldWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterSummonerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterDarkKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterWarMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterSwordArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollsterGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregBrigandPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregBerserkerPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregDarkMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GregWarlockPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamArcherPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamSniperPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamThiefPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamAssassinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamBowKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamHorsemanPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamBowArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{OccamGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LenatoBowKnightFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{LenatoHorsemanFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AugustusPriestPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AugustusDancerMPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KonatsuLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{KonatsuPaladinPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ColorzPegasusKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ColorzFalcoknightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GeoffroyWyvernRiderPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GeoffroyWyvernLordPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DelamSoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{DelamHalberdierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MaxwellMagePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{MaxwellMageKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GeraldoSwordArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{GeraldoGreatKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AshMonkPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AshHolyKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollerentThiefPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VollerentRoguePaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VoltaFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{VoltaWarriorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZuzkaAxeArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{ZuzkaGeneralPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{BorgasBrigandPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{AlvaLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{WyvernBossWyvernPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{YanndahlSoldierPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{BrucknerSwordKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
+	auto
+	auto
+	auto
+	auto
+
+# char{BearBossBearPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 	
-# char{0x1F} "NobodyAxeKnightPalette" set{Nobody, 0x0, AxeKnight} auto{0}
-	5553FF7FFF5BFF3EF431EF760956663D1609D00815126F1DF5625052AD39A514
+# char{DarachAxeArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x20} "NobodyDeaconPalette" set{Nobody, 0x1, Deacon} auto{0}
-	5553A514FF6BFE3E501DF5625052AD39FF7FBC1ED3092D151509D008E64D873D
+
+# char{LarissaLanceKnightPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x21} "NobodyLanceKnightPalette" set{Nobody, 0x2, LanceKnight} auto{0}
-	5553FF7FFF5BFF3EF431EF760956663D1609D00815126F1DF5625052AD39A514
+
+# char{KajarnMercenaryPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x22} "GregWyvernRiderPalette" set{Greg, 0x0, WyvernRider} auto{0}
-	5553FF7F08223147183A1E4BB02D5A4F312E5A4F7B5FB54A10328C214A11A514
+
+# char{RynodFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x23} "GregBrigandPalette" set{Greg, 0x1, Brigand} auto{0}
-	5553FF7FFF6B1D475A32D621310DCB08B97B14736F5E31112E3B8926672DA514
+
+# char{IlyronLanceArmorPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x24} "GregLanceKnightPalette" set{Greg, 0x2, LanceKnight} auto{0}
-	8076FF7FFF5BFE3EF43130432B2E46191001AA0094264B199842B0250A19A514
+
+# char{OrionFighterPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x25} "GregDarkMagePalette" set{Greg, 0x3, DarkMage} auto{0}
-	5553FF7FFF6BDF2E2E195C3E12196C18FF135A03310671476C32C8210411A514
+
+# char{RunaBowKnightFPaletteID} "Palette" auto{0}
+	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
-	
-# char{0x26} "YanndahlSoldierPalette" set{Yanndahl, 0x0, Soldier} auto{0}
-	4F46FF7FFF6B1F4BCF31CF394B29E81C966B145B2E3E323E8D5AC8412629A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x27} "BrucknerSwordKnightPalette" set{Bruckner, 0x0, SwordKnight} auto{0}
-	8076A43C6A557272F431FE3EFF5BFF7FA5140A19B0259842CA2CB455F55EDC7B
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x28} "BorgasBrigandPalette" set{Borgas, 0x0, Brigand} auto{0}
-	5553DD7FFF6B1D475A32D6215B11D30C14774F5A69392E193D2378166F15A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x29} "AugustusPriestPalette" set{Augustus, 0x0, Priest} auto{0}
-	5553FF7FFF6B1F472F19CE414A29EC241A16957BD066BF4BFB3E75018E00A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x2A} "AugusutusDancerPalette" set{Augustus, 0x1, Dancer} auto{0}
-	5553FF7F5D2ED6252E19CE414A29EC2489714745C330FF1BBA7F1067294EA514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x2B} "PaulMyrmidonPalette" set{Paul, 0x0, Myrmidon} auto{0}
-	5553FF7FFF6B1F4B2E1971210C19A918567B4E5A8841FB18B70C910C6D08A514
-	auto
-	auto
-	auto
-	auto
-	
-# char{0x2C} "RunaBowKnightPalette" set{Runa, 0x0, BowKnight_F} auto{0}
-	344FCD41F566DE7BF431FE3EFF5BA5140F00940C19190D119121CA087015162A
-	auto
-	auto
-	auto
-	auto
+
