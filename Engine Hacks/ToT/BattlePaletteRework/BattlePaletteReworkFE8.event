@@ -40,7 +40,7 @@ POIN PaletteAssociationTable
 POIN CharacterPaletteTable
 
 #define PaletteEntry(index) "(CharacterPaletteTable) + (index*$10)"
-#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index-1)"
+#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index)"
 
 
 ALIGN 4
@@ -713,8 +713,8 @@ ALIGN 4
 
 
 PegasusRiderPaletteList:
-PaletteAssociationEntry(Kelly,KellyPegasusKnightPaletteID)
 PaletteAssociationEntry(Tray,TrayPegasusKnightPaletteID)
+PaletteAssociationEntry(Kelly,KellyPegasusKnightPaletteID)
 PaletteAssociationEntry(Horus,HorusPegasusKnightPaletteID)
 PaletteAssociationEntry(Daff,DaffPegasusKnightPaletteID)
 PaletteAssociationEntry(Jack,JackPegasusKnightPaletteID)
