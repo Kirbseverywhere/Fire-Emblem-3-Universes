@@ -64,6 +64,9 @@ POIN CaveBattleBGPal
 ORG $95DF68
 POIN SnowForestBGImg SnowForestBGTSA SnowForestBGPal
 
+ORG $B1C74
+POIN FixedConfigGFX
+
 POP
 
 ALIGN 4
@@ -129,6 +132,10 @@ SnowForestBGTSA:
 ALIGN 4
 SnowForestBGPal:
 #incbin "SnowForestBGPal.dmp"
+
+ALIGN 4
+FixedConfigGFX:
+#incext Png2Dmp "Config.png" --lz77
 
 #include "Tiles/Tiles.event"
 #include "TitleScreen/TitleScreen.event"
