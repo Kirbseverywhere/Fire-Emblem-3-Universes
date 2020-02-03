@@ -158,7 +158,6 @@ CURE
 REVEAL Vollster
 LOAD2 0x1  VollsterNPC
 ENUN
-TurnNPC(Vollster)
 Text(AB2Opening7)
 CAM1 Elle
 ENUN
@@ -186,6 +185,7 @@ CUMO Elle
 STAL 40
 CURE
 Text(AB2Opening11)
+CLEA 0
 
 GotoPrepScreen
 ENDA
@@ -205,6 +205,6 @@ ReinforcementEvent(ThiefReinforcement)
 ENDA
 
 VollsterNPC:
-UNIT Vollster 0 0 Level(0,NPC,0) [11,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Vollster 0 0 Level(0,Ally,0) [11,5] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
