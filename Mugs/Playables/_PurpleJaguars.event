@@ -4,10 +4,10 @@ setMugEntry(VERGIL_PRETIMESKIP_PORTRAIT, VergilPreTimeskip, 3, 5, 3, 3)
 VergilPreTimeskip:
 #incext PortraitFormatter "Vergil_PreTimeskip.png"
 
-#define XENITH_PRETIMESKIP_PORTRAIT Xenith
-setMugEntry(XENITH_PRETIMESKIP_PORTRAIT, XenithPreTimeskip, 3, 5, 3, 3) 
-XenithPreTimeskip:
-#incext PortraitFormatter "Xenith_PreTimeskip.png"
+#define KONATSU_PRETIMESKIP_PORTRAIT Konatsu
+setMugEntry(KONATSU_PRETIMESKIP_PORTRAIT, KonatsuPreTimeskip, 3, 5, 3, 3) 
+KonatsuPreTimeskip:
+#incext PortraitFormatter "Konatsu_PreTimeskip.png"
 
 #define TRAY_PRETIMESKIP_PORTRAIT Tray
 setMugEntry(TRAY_PRETIMESKIP_PORTRAIT, TrayPreTimeskip, 3, 6, 3, 4) 
@@ -19,10 +19,10 @@ setMugEntry(HORUS_PRETIMESKIP_PORTRAIT, HorusPreTimeskip, 3, 6, 3, 4)
 HorusPreTimeskip:
 #incext PortraitFormatter "Horus_PreTimeskip.png"
 
-#define GLAC_PRETIMESKIP_PORTRAIT Glac
-setMugEntry(GLAC_PRETIMESKIP_PORTRAIT, GlacPreTimeskip, 3, 5, 3, 3) 
-GlacPreTimeskip:
-#incext PortraitFormatter "Glac_PreTimeskip.png"
+#define YANNDAHL_PRETIMESKIP_PORTRAIT Yanndahl
+setMugEntry(YANNDAHL_PRETIMESKIP_PORTRAIT, YanndahlPreTimeskip, 3, 5, 3, 3) 
+YanndahlPreTimeskip:
+#incext PortraitFormatter "Yanndahl_PreTimeskip.png"
 
 #define DAFF_PRETIMESKIP_PORTRAIT Daff
 setMugEntry(DAFF_PRETIMESKIP_PORTRAIT, DaffPreTimeskip, 3, 6, 3, 4) 
@@ -49,10 +49,10 @@ setMugEntry(ANTHONY_PRETIMESKIP_PORTRAIT, AntonPreTimeskip, 3, 5, 3, 3)
 AntonPreTimeskip:
 #incext PortraitFormatter "Anton_PreTimeskip.png"
 
-#define MYST_PRETIMESKIP_PORTRAIT Myst
-setMugEntry(MYST_PRETIMESKIP_PORTRAIT, MystPreTimeskip, 3, 5, 3, 3) 
-MystPreTimeskip:
-#incext PortraitFormatter "Myst_PreTimeskip.png"
+#define ZAIM_PRETIMESKIP_PORTRAIT Zaim
+setMugEntry(ZAIM_PRETIMESKIP_PORTRAIT, ZaimPreTimeskip, 2, 5, 3, 3) 
+ZaimPreTimeskip:
+#incext PortraitFormatter "Zaim_PreTimeskip.png"
 
 #define KHRIS_PRETIMESKIP_PORTRAIT Khris 
 setMugEntry(KHRIS_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 3, 5, 3, 3) 

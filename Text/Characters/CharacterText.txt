@@ -115,6 +115,15 @@ Lenato[X]
 ## KonatsuNameTextID
 Konatsu[X]
 
+## IrvineNameTextID
+Irvine[X]
+
+## ZaimNameTextID
+Zaim[X]
+
+## YanndahlNameTextID
+Yanndahl[X]
+
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
@@ -268,10 +277,23 @@ A skilled archer. Travels Ternon[N]
 for opportunites to practice.[X]
 
 ## KonatsuDescTextID
-Konatsu[X]
+An apprentice knight from Seraphyn.[N]
+Overdramatic, but zealous and kind.[X]
+
+## IrvineDescTextID
+A man of many hobbies but zero passions.[N]
+Has strong opinions.[X]
+
+## ZaimDescTextID
+Zaim[X]
+
+## YanndahlDescTextID
+A minor Seraphyn captain.[N]
+Loyal to his oaths.[X]
 
 #include NPCEnemyCharText.txt
 
 #include BattleQuotes.txt
 
 #include "DeathQuotes.txt"
+

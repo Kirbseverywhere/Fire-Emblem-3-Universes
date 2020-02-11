@@ -48,7 +48,8 @@
 #define Eric 3
 #define Kelly 4
 #define QuaSahnt 5
-#define Innards 6
+#define Irvine 6
+#define Innards Irvine
 #define Jonathen 7
 #define Kaiden 8
 #define Cleo 9
@@ -58,16 +59,19 @@
 
 // Purple Jaguars
 #define Vergil 13
-#define Xenith 14
+#define Konatsu 14
+#define Xenith Konatsu
 #define Tray 15
 #define Horus 16
-#define Glac 17
+#define Yanndahl 17
+#define Glac Yanndahl
 #define Daff 18
 #define Smeglinde 19
 #define Kabby 20
 #define Stephen 21
 #define Anton 22
-#define Myst 23
+#define Zaim 23
+#define Myst Zaim
 #define Khris 24
 
 //Amber Bears
@@ -87,7 +91,7 @@
 //Neutrals
 #define Augustus 37
 #define Lenato 38
-#define Konatsu 39
+#define KonatsuNPC 39
 
 //Backwards Compatibility
 #define Leo Khris
@@ -102,7 +106,7 @@
 #define WyvernBoss 0x42
 
 // Purple Jaguars
-#define Yanndahl 0x50
+#define YanndahlBoss 0x50
 #define Bruckner 0x51
 #define BearBoss 0x52
 #define Darach 0x53
@@ -166,7 +170,8 @@
 
 // Purple Jaguars
 
-#define XenithCapturedFlag 0xC0
+#define KonatsuCapturedFlag 0xC0
+#define XenithCapturedFlag KonatsuCapturedFlag
 #define TrayCapturedFlag 0xC1
 #define HorusCapturedFlag 0xC2
 #define GlacCapturedFlag 0xC3
@@ -175,7 +180,8 @@
 #define KabbyCapturedFlag 0xC6
 #define StephenCapturedFlag 0xC7
 #define AntonCapturedFlag 0xC8
-#define MystCapturedFlag 0xC9
+#define ZaimCapturedFlag 0xC9
+#define MystCapturedFlag ZaimCapturedFlag
 #define KhrisCapturedFlag 0xCA
 
 // Amber Bears

@@ -10,6 +10,12 @@ WorldMapPointerTable(1,WM_Events)
 #define WorldMapDisplayMapSprite(runtimeID, factionID, xCoords, yCoords, fadeInTime) "WM_PUTSPRITE 0 runtimeID factionID xCoords yCoords; WM_FADEINSPRITE 0x0 runtimeID fadeInTime"
 #define WorldMapMoveMapSprite(runtimeID, acceleration, startX, startY, destX, destY, moveTime, EID, delay) "WM_PUTMOVINGSPRITE 0x0 runtimeID acceleration startX startY destX destY moveTime EID delay 0x0"
 
+PUSH
+ORG 0x8B39F0
+POIN WM_Events
+POP
+PROTECT 0x8B39F0
+
 WM_Events:
 /*SKIPWN
 ENDA*/
