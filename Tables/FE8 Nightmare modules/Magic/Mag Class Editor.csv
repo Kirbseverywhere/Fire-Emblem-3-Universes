@@ -5,7 +5,7 @@ Grand Magus,7,10,20,0
 Lord,2,0,20,1
 High Lord,0,0,20,2
 Lady,3,10,20,0
-Sky Lord,0,0,20,0
+Sky Lord,4,10,20,0
 Sword Knight,0,0,20,2
 Sword Knight (F),0,0,20,2
 Lance Knight,0,0,20,0
@@ -34,7 +34,7 @@ Swordmaster (F),2,0,20,0
 Mercenary,0,0,20,0
 Mercenary (F),0,0,20,0
 Hero,1,0,20,0
-Archer,0,0,20,1
+Archer,1,0,20,1
 Archer (F),0,0,20,1
 Sniper,0,0,20,0
 Sniper (F),0,0,20,0
@@ -42,7 +42,7 @@ Horseman,0,0,20,1
 Horseman (F),0,0,20,1
 Wyvern Rider,0,0,20,2
 Wyvern Lord,0,0,20,2
-Malig Knight,6,10,20,2
+Malig Knight,0,0,20,2
 Mage,2,20,20,1
 Mage (F),2,20,20,0
 Sage,7,20,20,0
@@ -67,22 +67,22 @@ Berserker,0,0,20,0
 Monk,2,5,20,0
 Priest,2,10,20,0
 Priest (Buff),2,10,20,0
-Cleric,2,10,20,0
+Cleric,1,10,20,0
 Deacon,1,10,20,0
-Troubadour,1,10,20,0
+Troubadour,7,10,20,0
 Bishop,7,10,20,0
-Bishop (F),7,10,20,0
+Bishop (F),6,10,20,0
 Holy Knight,6,10,20,3
 Holy Knight (F),6,10,20,0
 Dark Knight,6,10,20,0
 War Monk,6,10,20,2
-War Cleric,6,10,20,0
+War Cleric,4,10,20,0
 Templar,4,10,20,0
-Valkyrie,4,10,20,0
+Valkyrie,0,0,20,0
 Pegasus Rider,0,0,20,0
-Falcon Knight,0,0,20,0
-Dancer (M),3,0,20,0
-Dancer (F),3,0,20,0
+Falcon Knight,3,5,20,0
+Dancer (M),3,5,20,0
+Dancer (F),0,0,20,0
 Soldier,0,0,20,0
 Halberdier,0,0,20,0
 Dragoon,0,0,20,0
@@ -94,15 +94,15 @@ Fleet,0,0,20,0
 Draco Zombie,0,0,20,0
 Manakete (Morva),0,0,20,0
 Manakete (Myrrh),0,0,20,0
-Bear,2,45,20,0
-Wyvern,6,55,20,0
-Gorgon,8,60,20,0
-Gorgon Egg,0,0,20,0
+Bear,0,0,20,0
+Wyvern,2,45,20,0
+Gorgon,6,55,20,0
+Gorgon Egg,8,60,20,0
 Gargoyle,0,0,20,0
 Deathgoyle,0,0,20,0
-Dracozombie,1,30,20,0
-Demon King,23,40,20,0
-Archer on Ballista,0,0,20,0
+Dracozombie,0,0,20,0
+Demon King,1,30,20,0
+Archer on Ballista,23,40,20,0
 Archer on Iron Ballista,0,0,20,0
 Archer on Killer Ballista,0,0,20,0
 Ballista,0,0,20,0
@@ -126,7 +126,8 @@ Dead Peer,0,0,20,0
 Cyclops,0,0,20,0
 Elder Bael,0,0,20,0
 Journeyman (2),0,0,20,0
-Pupil (2),2,55,20,1
+Pupil (2),0,0,20,1
+Ephraim Lord,2,55,20,0
 Ephraim Lord,1,10,20,0
 Ephraim Lord,1,10,20,0
 Ephraim Lord,1,10,20,0
@@ -254,4 +255,4 @@ Ephraim Lord,1,10,20,0
 Ephraim Lord,1,10,20,0
 Ephraim Lord,1,10,20,0
 Ephraim Lord,1,10,20,0
-Ephraim Lord,1,10,20,0
+,1,10,,
