@@ -26,6 +26,12 @@ POP
 ALIGN 4
 MapSpritePalettesFactions:
 #incext Png2Dmp "FactionPalettes.png" --palette-only
+//#incext Png2Dmp "Red_Lobsters.png" --palette-only
+//#incext Png2Dmp "Purple_Jaguars.png" --palette-only
+//#incext Png2Dmp "Amber_Bears.png" --palette-only
+//#incext Png2Dmp "Enemies.png" --palette-only
+//#incext Png2Dmp "Gray.png" --palette-only
+
 
 ALIGN 4
 MapSpritePalettesVanilla:
