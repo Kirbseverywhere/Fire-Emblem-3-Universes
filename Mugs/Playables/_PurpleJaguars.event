@@ -50,7 +50,7 @@ AntonPreTimeskip:
 #incext PortraitFormatter "Anton_PreTimeskip.png"
 
 #define ZAIM_PRETIMESKIP_PORTRAIT Zaim
-setMugEntry(ZAIM_PRETIMESKIP_PORTRAIT, ZaimPreTimeskip, 2, 5, 3, 3) 
+setMugEntry(ZAIM_PRETIMESKIP_PORTRAIT, ZaimPreTimeskip, 2, 5, 2, 3) 
 ZaimPreTimeskip:
 #incext PortraitFormatter "Zaim_PreTimeskip.png"
 
