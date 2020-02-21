@@ -750,7 +750,7 @@ ALIGN 4
 
 SoldierPaletteList:
 PaletteAssociationEntry(Michael,MichaelSoldierPaletteID)
-PaletteAssociationEntry(Eric,EricSoldierPaletteID)
+PaletteAssociationEntry(Eric,EricSoldierPaletteID-1)
 PaletteAssociationEntry(Xenith,XenithSoldierPaletteID)
 PaletteAssociationEntry(Tray,TraySoldierPaletteID)
 //PaletteAssociationEntry(Delam,DelamSoldierPaletteID)
