@@ -1,0 +1,15 @@
+#include "PaletteTableRepointer.event"
+
+#include "Palette Setup.event"
+
+/*
+=== HOW TO INSTALL NEW PALETTES ===
+1. Add a definition for the palette ID in Graphics/Palettes/CharPaletteDefs.event
+
+2. Add an entry in Graphics/Palettes/Palettes.txt with the palette hex using the defined palette ID
+
+3. Add an entry in Engine Hacks/ToT/BattlePaletteRework/BattlePaletteReworkFE8.event for the class the palette is designated to
+
+4. Add 1 to the definition of NumberOfCharPalettes for each palette you add
+
+*/

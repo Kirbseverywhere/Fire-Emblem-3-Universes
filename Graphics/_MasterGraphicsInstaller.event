@@ -146,4 +146,5 @@ FixedConfigGFX:
 #include "MapSprites/MapSprites.event"
 #include "Animations/ClassAnimationsList.event"
 #include "BattleFrame/BattleFrameInstaller.event"
-#include "Palettes/Palette Setup.event"
+#include "Palettes/MasterPaletteInstaller.event"
+

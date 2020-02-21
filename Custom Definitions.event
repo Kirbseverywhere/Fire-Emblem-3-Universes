@@ -34,6 +34,7 @@
 #include "Engine Hacks/SkillSystem/skill_definitions.event"
 #include "Engine Hacks/ToT/ForgingAndItemEquip/AccessoryEffectDefinitions.event"
 #include "Graphics/MapSprites/MapSpriteDefs.event"
+#include "Graphics/Palettes/CharPaletteDefs.event"
  
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
@@ -185,4 +186,5 @@
 #define KhrisCapturedFlag 0xCA
 
 // Amber Bears
+
 
