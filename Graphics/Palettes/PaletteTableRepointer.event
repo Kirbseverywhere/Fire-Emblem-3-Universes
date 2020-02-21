@@ -1,5 +1,7 @@
 
 PUSH
+ORG $59BFC
+POIN CharacterPaletteTable
 ORG $59C0C
 POIN CharacterPaletteTable
 ORG $59CD0
@@ -12,8 +14,10 @@ ORG $5A928
 POIN CharacterPaletteTable
 POP
 
-PaletteTable:
-ORG currentOffset+4
+MESSAGE currentOffset
+ALIGN 4
 CharacterPaletteTable:
-ORG currentOffset+($10*(NumberOfCharPalettes+1))
+ORG currentOffset-4
+PaletteTable:
+ORG currentOffset+($10*(NumberOfCharPalettes+1))+4
 

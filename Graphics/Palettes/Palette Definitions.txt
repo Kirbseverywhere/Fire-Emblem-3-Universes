@@ -31,7 +31,7 @@
 		#endif
 	#endif
 	
-	#define PaletteTable 0xEF8008+0xC
+	//#define PaletteTable 0xEF8008+0xC
 	
 
 	#define setPalette(index, palette) "PUSH; ORG (PaletteTable + index * 0x10); POIN palette; POP"
