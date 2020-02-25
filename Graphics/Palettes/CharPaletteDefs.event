@@ -40,14 +40,14 @@
 #define QuaSahntAxeArmorPaletteID 33
 #define QuaSahntGeneralPaletteID 34
 
-#define InnardsWyvernRiderPaletteID 35
-#define InnardsWyvernLordPaletteID 36 //placeholder
-#define InnardsFighterPaletteID 37 //placeholder
-#define InnardsWarriorPaletteID 38 //placeholder
-#define InnardsMagePaletteID 39 //placeholder
-#define InnardsMageKnightPaletteID 40 //placeholder
-#define InnardsMercenaryPaletteID 41 //placeholder
-#define InnardsHorsemanPaletteID 42 //placeholder
+#define IrvineBowKnightPaletteID 35
+#define IrvineHorsemanPaletteID 36 
+#define IrvineSwordKnightPaletteID 37 
+#define IrvinePaladinPaletteID 38 
+#define IrvineMercenaryPaletteID 39 
+#define IrvineHeroPaletteID 40 
+#define IrvineMyrmidonPaletteID 41 
+#define IrvineSwordmasterPaletteID 42 
 
 #define JonathenMercenaryPaletteID 43
 #define JonathenMageFighterPaletteID 44
@@ -106,14 +106,14 @@
 #define VergilLordPaletteID 91
 #define VergilHighLordPaletteID 92
 
-#define XenithSwordKnightPaletteID 93
-#define XenithKnightLordPaletteID 94
-#define XenithMercenaryPaletteID 95
-#define XenithHeroPaletteID 96
-#define XenithArcherPaletteID 97
-#define XenithSniperPaletteID 98
-#define XenithSoldierPaletteID 99
-#define XenithHalberdierPaletteID 100
+#define KonatsuLanceKnightPaletteID 93
+#define KonatsuPaladinPaletteID 94
+#define KonatsuClericPaletteID 95
+#define KonatsuWarClericPaletteID 96
+#define KonatsuSoldierPaletteID 97
+#define KonatsuHolyKnightPaletteID 98
+#define KonatsuAxeKnightPaletteID 99
+//#define KonatsuPaladinPaletteID 100
 
 #define TrayPegasusKnightPaletteID 101
 #define TrayFalcoknightPaletteID 102
@@ -356,7 +356,7 @@
 
 #define WyvernBossWyvernPaletteID 301
 
-#define YanndahlSoldierPaletteID 302
+#define AssegaiSoldierPaletteID 302
 
 #define BrucknerSwordKnightPaletteID 303
 

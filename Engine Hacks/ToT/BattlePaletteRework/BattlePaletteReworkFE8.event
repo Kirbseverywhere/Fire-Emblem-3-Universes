@@ -86,12 +86,12 @@ ALIGN 4
 
 
 SwordKnightPaletteList:
-PaletteAssociationEntry(Xenith,XenithSwordKnightPaletteID)
-PaletteAssociationEntry(Myst,MystSwordKnightPaletteID)
+
 PaletteAssociationEntry(Adamminn,AdamminnSwordKnightPaletteID)
 PaletteAssociationEntry(Paul,PaulSwordKnightPaletteID)
 PaletteAssociationEntry(Vollster,VollsterSwordKnightPaletteID)
 PaletteAssociationEntry(Bruckner,BrucknerSwordKnightPaletteID)
+PaletteAssociationEntry(Irvine,IrvineSwordKnightPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -123,9 +123,9 @@ ALIGN 4
 
 
 AxeKnightPaletteList:
+PaletteAssociationEntry(Yanndahl,YanndahlAxeKnightPaletteID)
 PaletteAssociationEntry(Eric,EricAxeKnightPaletteID)
 PaletteAssociationEntry(Kaiden,KaidenAxeKnightPaletteID)
-PaletteAssociationEntry(Glac,GlacAxeKnightPaletteID)
 PaletteAssociationEntry(Nobody,NobodyAxeKnightPaletteID)
 PaletteAssociationEntry(Reginald,ReginaldAxeKnightPaletteID)
 WORD 0 0
@@ -133,6 +133,7 @@ ALIGN 4
 
 
 AxeKnightFPaletteList:
+PaletteAssociationEntry(Konatsu,KonatsuAxeKnightPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -141,6 +142,7 @@ BowKnightPaletteList:
 PaletteAssociationEntry(Khris,KhrisBowKnightPaletteID)
 PaletteAssociationEntry(Nobody,NobodyBowKnightPaletteID)
 PaletteAssociationEntry(Occam,OccamBowKnightPaletteID)
+PaletteAssociationEntry(Irvine,IrvineBowKnightPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -153,14 +155,15 @@ ALIGN 4
 
 
 PaladinPaletteList:
+PaletteAssociationEntry(Yanndahl,YanndahlPaladinPaletteID)
 PaletteAssociationEntry(Kaiden,KaidenPaladinPaletteID)
 PaletteAssociationEntry(Cleo,CleoPaladinPaletteID)
-PaletteAssociationEntry(Glac,GlacPaladinPaletteID)
 PaletteAssociationEntry(Adamminn,AdamminnPaladinPaletteID)
 PaletteAssociationEntry(Nobody,NobodyPaladinPaletteID)
 PaletteAssociationEntry(Paul,PaulPaladinPaletteID)
 PaletteAssociationEntry(Reginald,ReginaldPaladinPaletteID)
 PaletteAssociationEntry(Greg,GregPaladinPaletteID)
+PaletteAssociationEntry(Irvine,IrvinePaladinPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -190,6 +193,7 @@ ALIGN 4
 
 
 AxeArmorPaletteList:
+PaletteAssociationEntry(Zaim,ZaimAxeArmorPaletteID)
 PaletteAssociationEntry(QuaSahnt,QuaSahntAxeArmorPaletteID)
 PaletteAssociationEntry(Zane,ZaneAxeArmorPaletteID)
 PaletteAssociationEntry(William,WilliamAxeArmorPaletteID)
@@ -206,6 +210,7 @@ ALIGN 4
 
 
 GeneralPaletteList:
+PaletteAssociationEntry(Zaim,ZaimGeneralPaletteID)
 PaletteAssociationEntry(Michael,MichaelGeneralPaletteID)
 PaletteAssociationEntry(QuaSahnt,QuaSahntGeneralPaletteID)
 PaletteAssociationEntry(Jonathen,JonathenGeneralPaletteID)
@@ -269,9 +274,9 @@ ALIGN 4
 MyrmidonPaletteList:
 PaletteAssociationEntry(Reds,RedsMyrmidonPaletteID)
 PaletteAssociationEntry(Tray,TrayMyrmidonPaletteID)
-PaletteAssociationEntry(Myst,MystMyrmidonPaletteID)
 PaletteAssociationEntry(Khris,KhrisMyrmidonPaletteID)
 PaletteAssociationEntry(Paul,PaulMyrmidonPaletteID)
+PaletteAssociationEntry(Irvine,IrvineMyrmidonPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -283,6 +288,7 @@ ALIGN 4
 
 
 SwordmasterPaletteList:
+PaletteAssociationEntry(Irvine,IrvineSwordmasterPaletteID)
 PaletteAssociationEntry(Reds,RedsSwordmasterPaletteID)
 PaletteAssociationEntry(Tray,TraySwordmasterPaletteID)
 PaletteAssociationEntry(Khris,KhrisSwordmasterPaletteID)
@@ -298,13 +304,11 @@ ALIGN 4
 
 
 MercenaryPaletteList:
+PaletteAssociationEntry(Irvine,IrvineMercenaryPaletteID)
 PaletteAssociationEntry(Michael,MichaelMercenaryPaletteID)
-PaletteAssociationEntry(Innards,InnardsMercenaryPaletteID)
 PaletteAssociationEntry(Jonathen,JonathenMercenaryPaletteID)
 PaletteAssociationEntry(Zorua,ZoruaMercenaryFPaletteID)
-PaletteAssociationEntry(Xenith,XenithMercenaryPaletteID)
 PaletteAssociationEntry(Stephen,StephenMercenaryPaletteID)
-PaletteAssociationEntry(Myst,MystMercenaryPaletteID)
 PaletteAssociationEntry(Khris,KhrisMercenaryPaletteID)
 PaletteAssociationEntry(Adamminn,AdamminnMercenaryPaletteID)
 PaletteAssociationEntry(Paul,PaulMercenaryPaletteID)
@@ -314,8 +318,8 @@ ALIGN 4
 
 
 HeroPaletteList:
+PaletteAssociationEntry(Irvine,IrvineHeroPaletteID)
 PaletteAssociationEntry(Michael,MichaelHeroPaletteID)
-PaletteAssociationEntry(Xenith,XenithHeroPaletteID)
 PaletteAssociationEntry(Stephen,StephenHeroPaletteID)
 PaletteAssociationEntry(Adamminn,AdamminnHeroPaletteID)
 WORD 0 0
@@ -327,7 +331,7 @@ PaletteAssociationEntry(Kaiden,KaidenArcherPaletteID)
 PaletteAssociationEntry(Cleo,CleoArcherPaletteID)
 PaletteAssociationEntry(Reds,RedsArcherPaletteID)
 PaletteAssociationEntry(Mimi,MimiArcherPaletteID)
-PaletteAssociationEntry(Xenith,XenithArcherPaletteID)
+
 PaletteAssociationEntry(Tray,TrayArcherPaletteID)
 PaletteAssociationEntry(Anton,AntonArcherPaletteID)
 PaletteAssociationEntry(Occam,OccamArcherPaletteID)
@@ -347,7 +351,6 @@ SniperPaletteList:
 PaletteAssociationEntry(Kaiden,KaidenSniperPaletteID)
 PaletteAssociationEntry(Reds,RedsSniperPaletteID)
 PaletteAssociationEntry(Mimi,MimiSniperPaletteID)
-PaletteAssociationEntry(Xenith,XenithSniperPaletteID)
 PaletteAssociationEntry(Tray,TraySniperPaletteID)
 PaletteAssociationEntry(Occam,OccamSniperPaletteID)
 WORD 0 0
@@ -360,13 +363,12 @@ ALIGN 4
 
 
 HorsemanPaletteList:
-PaletteAssociationEntry(Innards,InnardsHorsemanPaletteID)
 PaletteAssociationEntry(Cleo,CleoHorsemanPaletteID)
 PaletteAssociationEntry(Anton,AntonHorsemanPaletteID)
-PaletteAssociationEntry(Myst,MystHorsemanPaletteID)
 PaletteAssociationEntry(Khris,KhrisHorsemanPaletteID)
 PaletteAssociationEntry(Nobody,NobodyHorsemanPaletteID)
 PaletteAssociationEntry(Occam,OccamHorsemanPaletteID)
+PaletteAssociationEntry(Irvine,IrvineHorsemanPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -380,12 +382,11 @@ ALIGN 4
 
 
 WyvernRiderPaletteList:
+PaletteAssociationEntry(Yanndahl,YanndahlWyvernRiderPaletteID)
 PaletteAssociationEntry(Eric,EricWyvernRiderPaletteID)
-PaletteAssociationEntry(Innards,InnardsWyvernRiderPaletteID)
 PaletteAssociationEntry(Cleo,CleoWyvernRiderPaletteID)
 PaletteAssociationEntry(Reds,RedsWyvernRiderPaletteID)
 PaletteAssociationEntry(Horus,HorusWyvernRiderPaletteID)
-PaletteAssociationEntry(Glac,GlacWyvernRiderPaletteID)
 PaletteAssociationEntry(William,WilliamWyvernRiderPaletteID)
 PaletteAssociationEntry(Greg,GregWyvernRiderPaletteID)
 //PaletteAssociationEntry(Geoffroy,GeoffroyWyvernRiderPaletteID)
@@ -394,12 +395,11 @@ ALIGN 4
 
 
 WyvernLordPaletteList:
+PaletteAssociationEntry(Yanndahl,YanndahlWyvernLordPaletteID)
 PaletteAssociationEntry(Eric,EricWyvernLordPaletteID)
-PaletteAssociationEntry(Innards,InnardsWyvernLordPaletteID)
 PaletteAssociationEntry(Cleo,CleoWyvernLordPaletteID)
 PaletteAssociationEntry(Reds,RedsWyvernLordPaletteID)
 PaletteAssociationEntry(Horus,HorusWyvernLordPaletteID)
-PaletteAssociationEntry(Glac,GlacWyvernLordPaletteID)
 PaletteAssociationEntry(William,WilliamWyvernLordPaletteID)
 PaletteAssociationEntry(Greg,GregWyvernLordPaletteID)
 //PaletteAssociationEntry(Geoffroy,GeoffroyWyvernLordPaletteID)
@@ -413,8 +413,8 @@ ALIGN 4
 
 
 MagePaletteList:
+PaletteAssociationEntry(Yanndahl,YanndahlMagePaletteID)
 PaletteAssociationEntry(QuaSahnt,QuaSahntMagePaletteID)
-PaletteAssociationEntry(Innards,InnardsMagePaletteID)
 PaletteAssociationEntry(Jonathen,JonathenMagePaletteID)
 PaletteAssociationEntry(Cleo,CleoMagePaletteID)
 PaletteAssociationEntry(Khris,KhrisMagePaletteID)
@@ -451,7 +451,7 @@ ALIGN 4
 
 
 MageKnightPaletteList:
-PaletteAssociationEntry(Innards,InnardsMageKnightPaletteID)
+PaletteAssociationEntry(Yanndahl,YanndahlMageKnightPaletteID)
 PaletteAssociationEntry(Nobody,NobodyMageKnightPaletteID)
 //PaletteAssociationEntry(Maxwell,MaxwellMageKnightPaletteID)
 WORD 0 0
@@ -488,7 +488,6 @@ PaletteAssociationEntry(Kaiden,KaidenDarkMagePaletteID)
 PaletteAssociationEntry(Reds,RedsDarkMagePaletteID)
 PaletteAssociationEntry(Mimi,MimiDarkMagePaletteID)
 PaletteAssociationEntry(Kabby,KabbyDarkMagePaletteID)
-PaletteAssociationEntry(Myst,MystDarkMagePaletteID)
 PaletteAssociationEntry(William,WilliamDarkMagePaletteID)
 PaletteAssociationEntry(Paul,PaulDarkMagePaletteID)
 PaletteAssociationEntry(Vollster,VollsterDarkMagePaletteID)
@@ -523,7 +522,6 @@ SummonerPaletteList:
 PaletteAssociationEntry(QuaSahnt,QuaSahntSummonerPaletteID)
 PaletteAssociationEntry(Jonathen,JonathenSummonerPaletteID)
 PaletteAssociationEntry(Mimi,MimiSummonerPaletteID)
-PaletteAssociationEntry(Myst,MystSummonerPaletteID)
 PaletteAssociationEntry(Vollster,VollsterSummonerPaletteID)
 WORD 0 0
 ALIGN 4
@@ -548,8 +546,8 @@ ALIGN 4
 
 
 FighterPaletteList:
+PaletteAssociationEntry(Zaim,ZaimFighterPaletteID)
 PaletteAssociationEntry(QuaSahnt,QuaSahntFighterPaletteID)
-PaletteAssociationEntry(Innards,InnardsFighterPaletteID)
 PaletteAssociationEntry(Kaiden,KaidenFighterPaletteID)
 PaletteAssociationEntry(Kabby,KabbyFighterPaletteID)
 PaletteAssociationEntry(Anton,AntonFighterPaletteID)
@@ -580,7 +578,6 @@ ALIGN 4
 
 
 WarriorPaletteList:
-PaletteAssociationEntry(Innards,InnardsWarriorPaletteID)
 PaletteAssociationEntry(Kaiden,KaidenWarriorPaletteID)
 PaletteAssociationEntry(Kabby,KabbyWarriorPaletteID)
 PaletteAssociationEntry(Anton,AntonWarriorPaletteID)
@@ -605,7 +602,6 @@ ALIGN 4
 
 MonkPaletteList:
 PaletteAssociationEntry(Mimi,MimiMonkPaletteID)
-PaletteAssociationEntry(Glac,GlacMonkPaletteID)
 PaletteAssociationEntry(Zane,ZaneMonkPaletteID)
 //PaletteAssociationEntry(Ash,AshMonkPaletteID)
 WORD 0 0
@@ -613,6 +609,7 @@ ALIGN 4
 
 
 PriestPaletteList:
+PaletteAssociationEntry(Zaim,ZaimPriestPaletteID)
 PaletteAssociationEntry(Kelly,KellyPriestPaletteID)
 PaletteAssociationEntry(Kabby,KabbyPriestPaletteID)
 PaletteAssociationEntry(Jack,JackPriestPaletteID)
@@ -632,6 +629,7 @@ ClericPaletteList:
 PaletteAssociationEntry(Lazul,LazulClericPaletteID)
 PaletteAssociationEntry(Zorua,ZoruaClericPaletteID)
 PaletteAssociationEntry(Smeglinde,SmeglindeClericPaletteID)
+PaletteAssociationEntry(Konatsu,KonatsuClericPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -651,9 +649,9 @@ ALIGN 4
 
 
 BishopPaletteList:
+PaletteAssociationEntry(Zaim,ZaimBishopPaletteID)
 PaletteAssociationEntry(Kelly,KellyBishopPaletteID)
 PaletteAssociationEntry(Mimi,MimiBishopPaletteID)
-PaletteAssociationEntry(Glac,GlacBishopPaletteID)
 PaletteAssociationEntry(Zane,ZaneBishopPaletteID)
 PaletteAssociationEntry(Jack,JackBishopPaletteID)
 WORD 0 0
@@ -678,18 +676,19 @@ ALIGN 4
 
 HolyKnightFPaletteList:
 PaletteAssociationEntry(Daff,DaffHolyKnightFPaletteID)
+PaletteAssociationEntry(Konatsu,KonatsuHolyKnightPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 DarkKnightPaletteList:
-PaletteAssociationEntry(Myst,MystDarkKnightPaletteID)
 PaletteAssociationEntry(Vollster,VollsterDarkKnightPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 WarMonkPaletteList:
+PaletteAssociationEntry(Zaim,ZaimWarMonkPaletteID)
 PaletteAssociationEntry(Kabby,KabbyWarMonkPaletteID)
 PaletteAssociationEntry(Stephen,StephenWarMonkPaletteID)
 PaletteAssociationEntry(Vollster,VollsterWarMonkPaletteID)
@@ -698,6 +697,7 @@ ALIGN 4
 
 
 WarClericPaletteList:
+PaletteAssociationEntry(Konatsu,KonatsuWarClericPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -749,19 +749,20 @@ ALIGN 4
 
 
 SoldierPaletteList:
+PaletteAssociationEntry(Zaim,ZaimSoldierPaletteID)
+PaletteAssociationEntry(Yanndahl,YanndahlSoldierPaletteID)
 PaletteAssociationEntry(Michael,MichaelSoldierPaletteID)
-PaletteAssociationEntry(Eric,EricSoldierPaletteID-1)
-PaletteAssociationEntry(Xenith,XenithSoldierPaletteID)
+PaletteAssociationEntry(Eric,EricSoldierPaletteID)
 PaletteAssociationEntry(Tray,TraySoldierPaletteID)
 //PaletteAssociationEntry(Delam,DelamSoldierPaletteID)
-PaletteAssociationEntry(Yanndahl,YanndahlSoldierPaletteID)
+PaletteAssociationEntry(Assegai,AssegaiSoldierPaletteID)
+PaletteAssociationEntry(Konatsu,KonatsuSoldierPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 HalberdierPaletteList:
 PaletteAssociationEntry(Michael,MichaelHalberdierPaletteID)
-PaletteAssociationEntry(Xenith,XenithHalberdierPaletteID)
 PaletteAssociationEntry(Tray,TrayHalberdierPaletteID)
 //PaletteAssociationEntry(Delam,DelamHalberdierPaletteID)
 WORD 0 0
@@ -769,25 +770,24 @@ ALIGN 4
 
 
 DragoonPaletteList:
+PaletteAssociationEntry(Zaim,ZaimDragoonPaletteID)
+PaletteAssociationEntry(Yanndahl,YanndahlDragoonPaletteID)
 PaletteAssociationEntry(Eric,EricDragoonPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 KnightLordPaletteList:
-PaletteAssociationEntry(Xenith,XenithKnightLordPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 SwordsmanPaletteList:
-PaletteAssociationEntry(Glac,GlacSwordsmanPaletteID)
 WORD 0 0
 ALIGN 4
 
 
 LegendPaletteList:
-PaletteAssociationEntry(Glac,GlacLegendPaletteID)
 WORD 0 0
 ALIGN 4
 
