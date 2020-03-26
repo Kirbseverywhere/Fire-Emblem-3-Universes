@@ -132,14 +132,14 @@
 #define HorusPegasusKnightPaletteID 115
 #define HorusFalcoknightPaletteID 116
 
-#define GlacAxeKnightPaletteID 117
-#define GlacPaladinPaletteID 118
-#define GlacSwordsmanPaletteID 119
-#define GlacLegendPaletteID 120
-#define GlacWyvernRiderPaletteID 121
-#define GlacWyvernLordPaletteID 122
-#define GlacMonkPaletteID 123
-#define GlacBishopPaletteID 124 //placeholder
+#define YanndahlAxeKnightPaletteID 117
+#define YanndahlPaladinPaletteID 118
+#define YanndahlWyvernRiderPaletteID 119
+#define YanndahlWyvernLordPaletteID 120
+#define YanndahlSoldierPaletteID 121
+#define YanndahlDragoonPaletteID 122
+#define YanndahlMagePaletteID 123
+#define YanndahlMageKnightPaletteID 124 
 
 #define DaffDarkMageFPaletteID 125
 #define DaffDarkBishopFPaletteID 126
@@ -186,14 +186,14 @@
 #define AntonFighterPaletteID 163
 #define AntonWarriorPaletteID 164
 
-#define MystSwordKnightPaletteID 165
-#define MystDarkKnightPaletteID 166
-#define MystMercenaryPaletteID 167
-#define MystHorsemanPaletteID 168
-#define MystMyrmidonPaletteID 169
-#define MystSwordmasterPaletteID 170
-#define MystDarkMagePaletteID 171
-#define MystSummonerPaletteID 172
+#define ZaimAxeArmorPaletteID 165
+#define ZaimGeneralPaletteID 166
+#define ZaimSoldierPaletteID 167
+#define ZaimDragoonPaletteID 168
+#define ZaimFighterPaletteID 169
+#define ZaimWarMonkPaletteID 170
+#define ZaimPriestPaletteID 171
+#define ZaimBishopPaletteID 172
 
 #define KhrisMyrmidonPaletteID 173
 #define KhrisSwordmasterPaletteID 174
@@ -313,8 +313,8 @@
 #define AugustusPriestPaletteID 273
 #define AugustusDancerMPaletteID 274
 
-#define KonatsuLanceKnightPaletteID 275
-#define KonatsuPaladinPaletteID 276
+#define KonatsuReplacementLanceKnightPaletteID 275
+#define KonatsuReplacementPaladinPaletteID 276
 
 #define CirclesClass1PaletteID 277 //placeholder
 #define CirclesClass2PaletteID 278 //placeholder

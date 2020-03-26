@@ -104,28 +104,28 @@
 	setPalette(QuaSahntGeneralPaletteID,Palette33)
 
 // Palette34
-	setPalette(InnardsWyvernRiderPaletteID,Palette34)
+	setPalette(IrvineBowKnightPaletteID,Palette34)
 
 // Palette35
-	setPalette(InnardsWyvernLordPaletteID,Palette35)
+	setPalette(IrvineHorsemanPaletteID,Palette35)
 
 // Palette36
-	setPalette(InnardsFighterPaletteID,Palette36)
+	setPalette(IrvineSwordKnightPaletteID,Palette36)
 
 // Palette37
-	setPalette(InnardsWarriorPaletteID,Palette37)
+	setPalette(IrvinePaladinPaletteID,Palette37)
 
 // Palette38
-	setPalette(InnardsMagePaletteID,Palette38)
+	setPalette(IrvineMercenaryPaletteID,Palette38)
 
 // Palette39
-	setPalette(InnardsMageKnightPaletteID,Palette39)
+	setPalette(IrvineHeroPaletteID,Palette39)
 
 // Palette40
-	setPalette(InnardsMercenaryPaletteID,Palette40)
+	setPalette(IrvineMyrmidonPaletteID,Palette40)
 
 // Palette41
-	setPalette(InnardsHorsemanPaletteID,Palette41)
+	setPalette(IrvineSwordmasterPaletteID,Palette41)
 
 // Palette42
 	setPalette(JonathenMercenaryPaletteID,Palette42)
@@ -275,640 +275,637 @@
 	setPalette(VergilHighLordPaletteID,Palette90)
 
 // Palette91
-	setPalette(XenithSwordKnightPaletteID,Palette91)
+	setPalette(KonatsuLanceKnightPaletteID,Palette91)
 
 // Palette92
-	setPalette(XenithKnightLordPaletteID,Palette92)
+	setPalette(KonatsuPaladinPaletteID,Palette92)
 
 // Palette93
-	setPalette(XenithMercenaryPaletteID,Palette93)
+	setPalette(KonatsuClericPaletteID,Palette93)
 
 // Palette94
-	setPalette(XenithHeroPaletteID,Palette94)
+	setPalette(KonatsuWarClericPaletteID,Palette94)
 
 // Palette95
-	setPalette(XenithArcherPaletteID,Palette95)
+	setPalette(KonatsuSoldierPaletteID,Palette95)
 
 // Palette96
-	setPalette(XenithSniperPaletteID,Palette96)
+	setPalette(KonatsuHolyKnightPaletteID,Palette96)
 
 // Palette97
-	setPalette(XenithSoldierPaletteID,Palette97)
+	setPalette(KonatsuAxeKnightPaletteID,Palette97)
 
 // Palette98
-	setPalette(XenithHalberdierPaletteID,Palette98)
+	setPalette(TrayPegasusKnightPaletteID,Palette98)
 
 // Palette99
-	setPalette(TrayPegasusKnightPaletteID,Palette99)
+	setPalette(TrayFalcoknightPaletteID,Palette99)
 
 // Palette100
-	setPalette(TrayFalcoknightPaletteID,Palette100)
+	setPalette(TrayMyrmidonPaletteID,Palette100)
 
 // Palette101
-	setPalette(TrayMyrmidonPaletteID,Palette101)
+	setPalette(TraySwordmasterPaletteID,Palette101)
 
 // Palette102
-	setPalette(TraySwordmasterPaletteID,Palette102)
+	setPalette(TraySoldierPaletteID,Palette102)
 
 // Palette103
-	setPalette(TraySoldierPaletteID,Palette103)
+	setPalette(TrayHalberdierPaletteID,Palette103)
 
 // Palette104
-	setPalette(TrayHalberdierPaletteID,Palette104)
+	setPalette(TrayArcherPaletteID,Palette104)
 
 // Palette105
-	setPalette(TrayArcherPaletteID,Palette105)
+	setPalette(TraySniperPaletteID,Palette105)
 
 // Palette106
-	setPalette(TraySniperPaletteID,Palette106)
+	setPalette(HorusDeaconPaletteID,Palette106)
 
 // Palette107
-	setPalette(HorusDeaconPaletteID,Palette107)
+	setPalette(HorusHolyKnightPaletteID,Palette107)
 
 // Palette108
-	setPalette(HorusHolyKnightPaletteID,Palette108)
+	setPalette(HorusLanceKnightPaletteID,Palette108)
 
 // Palette109
-	setPalette(HorusLanceKnightPaletteID,Palette109)
+	setPalette(HorusWyvernRiderPaletteID,Palette109)
 
 // Palette110
-	setPalette(HorusWyvernRiderPaletteID,Palette110)
+	setPalette(HorusWyvernLordPaletteID,Palette110)
 
 // Palette111
-	setPalette(HorusWyvernLordPaletteID,Palette111)
+	setPalette(HorusPegasusKnightPaletteID,Palette111)
 
 // Palette112
-	setPalette(HorusPegasusKnightPaletteID,Palette112)
+	setPalette(HorusFalcoknightPaletteID,Palette112)
 
 // Palette113
-	setPalette(HorusFalcoknightPaletteID,Palette113)
+	setPalette(YanndahlAxeKnightPaletteID,Palette113)
 
 // Palette114
-	setPalette(GlacAxeKnightPaletteID,Palette114)
+	setPalette(YanndahlPaladinPaletteID,Palette114)
 
 // Palette115
-	setPalette(GlacPaladinPaletteID,Palette115)
+	setPalette(YanndahlWyvernRiderPaletteID,Palette115)
 
 // Palette116
-	setPalette(GlacSwordsmanPaletteID,Palette116)
+	setPalette(YanndahlWyvernLordPaletteID,Palette116)
 
 // Palette117
-	setPalette(GlacLegendPaletteID,Palette117)
+	setPalette(YanndahlSoldierPaletteID,Palette117)
 
 // Palette118
-	setPalette(GlacWyvernRiderPaletteID,Palette118)
+	setPalette(YanndahlDragoonPaletteID,Palette118)
 
 // Palette119
-	setPalette(GlacWyvernLordPaletteID,Palette119)
+	setPalette(YanndahlMagePaletteID,Palette119)
 
 // Palette120
-	setPalette(GlacMonkPaletteID,Palette120)
+	setPalette(YanndahlMageKnightPaletteID,Palette120)
 
 // Palette121
-	setPalette(GlacBishopPaletteID,Palette121)
+	setPalette(DaffDarkMageFPaletteID,Palette121)
 
 // Palette122
-	setPalette(DaffDarkMageFPaletteID,Palette122)
+	setPalette(DaffDarkBishopFPaletteID,Palette122)
 
 // Palette123
-	setPalette(DaffDarkBishopFPaletteID,Palette123)
+	setPalette(DaffTroubadourPaletteID,Palette123)
 
 // Palette124
-	setPalette(DaffTroubadourPaletteID,Palette124)
+	setPalette(DaffHolyKnightFPaletteID,Palette124)
 
 // Palette125
-	setPalette(DaffHolyKnightFPaletteID,Palette125)
+	setPalette(DaffArcherFPaletteID,Palette125)
 
 // Palette126
-	setPalette(DaffArcherFPaletteID,Palette126)
+	setPalette(DaffHorsemanFPaletteID,Palette126)
 
 // Palette127
-	setPalette(DaffHorsemanFPaletteID,Palette127)
+	setPalette(DaffPegasusKnightPaletteID,Palette127)
 
 // Palette128
-	setPalette(DaffPegasusKnightPaletteID,Palette128)
+	setPalette(DaffFalcoknightPaletteID,Palette128)
 
 // Palette129
-	setPalette(DaffFalcoknightPaletteID,Palette129)
+	setPalette(SmeglindeThiefFPaletteID,Palette129)
 
 // Palette130
-	setPalette(SmeglindeThiefFPaletteID,Palette130)
+	setPalette(SmeglindeRogueFPaletteID,Palette130)
 
 // Palette131
-	setPalette(SmeglindeRogueFPaletteID,Palette131)
+	setPalette(SmeglindeArcherFPaletteID,Palette131)
 
 // Palette132
-	setPalette(SmeglindeArcherFPaletteID,Palette132)
+	setPalette(SmeglindeHorsemanFPaletteID,Palette132)
 
 // Palette133
-	setPalette(SmeglindeHorsemanFPaletteID,Palette133)
+	setPalette(SmeglindeClericPaletteID,Palette133)
 
 // Palette134
-	setPalette(SmeglindeClericPaletteID,Palette134)
+	setPalette(SmeglindeBishopFPaletteID,Palette134)
 
 // Palette135
-	setPalette(SmeglindeBishopFPaletteID,Palette135)
+	setPalette(SmeglindeMageFPaletteID,Palette135)
 
 // Palette136
-	setPalette(SmeglindeMageFPaletteID,Palette136)
+	setPalette(SmeglindeMageKnightFPaletteID,Palette136)
 
 // Palette137
-	setPalette(SmeglindeMageKnightFPaletteID,Palette137)
+	setPalette(KabbyBrigandPaletteID,Palette137)
 
 // Palette138
-	setPalette(KabbyBrigandPaletteID,Palette138)
+	setPalette(KabbyBerserkerPaletteID,Palette138)
 
 // Palette139
-	setPalette(KabbyBerserkerPaletteID,Palette139)
+	setPalette(KabbyFighterPaletteID,Palette139)
 
 // Palette140
-	setPalette(KabbyFighterPaletteID,Palette140)
+	setPalette(KabbyWarriorPaletteID,Palette140)
 
 // Palette141
-	setPalette(KabbyWarriorPaletteID,Palette141)
+	setPalette(KabbyDarkMagePaletteID,Palette141)
 
 // Palette142
-	setPalette(KabbyDarkMagePaletteID,Palette142)
+	setPalette(KabbyWarlockPaletteID,Palette142)
 
 // Palette143
-	setPalette(KabbyWarlockPaletteID,Palette143)
+	setPalette(KabbyPriestPaletteID,Palette143)
 
 // Palette144
-	setPalette(KabbyPriestPaletteID,Palette144)
+	setPalette(KabbyWarMonkPaletteID,Palette144)
 
 // Palette145
-	setPalette(KabbyWarMonkPaletteID,Palette145)
+	setPalette(StephenMercenaryPaletteID,Palette145)
 
 // Palette146
-	setPalette(StephenMercenaryPaletteID,Palette146)
+	setPalette(StephenHeroPaletteID,Palette146)
 
 // Palette147
-	setPalette(StephenHeroPaletteID,Palette147)
+	setPalette(StephenPiratePaletteID,Palette147)
 
 // Palette148
-	setPalette(StephenPiratePaletteID,Palette148)
+	setPalette(StephenBerserkerPaletteID,Palette148)
 
 // Palette149
-	setPalette(StephenBerserkerPaletteID,Palette149)
+	setPalette(StephenSwordArmorPaletteID,Palette149)
 
 // Palette150
-	setPalette(StephenSwordArmorPaletteID,Palette150)
+	setPalette(StephenGeneralPaletteID,Palette150)
 
 // Palette151
-	setPalette(StephenGeneralPaletteID,Palette151)
+	setPalette(StephenBuffPriestPaletteID,Palette151)
 
 // Palette152
-	setPalette(StephenBuffPriestPaletteID,Palette152)
+	setPalette(StephenWarMonkPaletteID,Palette152)
 
 // Palette153
-	setPalette(StephenWarMonkPaletteID,Palette153)
+	setPalette(AntonArcherPaletteID,Palette153)
 
 // Palette154
-	setPalette(AntonArcherPaletteID,Palette154)
+	setPalette(AntonHorsemanPaletteID,Palette154)
 
 // Palette155
-	setPalette(AntonHorsemanPaletteID,Palette155)
+	setPalette(AntonLanceKnightPaletteID,Palette155)
 
 // Palette156
-	setPalette(AntonLanceKnightPaletteID,Palette156)
+	setPalette(AntonGreatKnightPaletteID,Palette156)
 
 // Palette157
-	setPalette(AntonGreatKnightPaletteID,Palette157)
+	setPalette(AntonLanceArmorPaletteID,Palette157)
 
 // Palette158
-	setPalette(AntonLanceArmorPaletteID,Palette158)
+	setPalette(AntonGeneralPaletteID,Palette158)
 
 // Palette159
-	setPalette(AntonGeneralPaletteID,Palette159)
+	setPalette(AntonFighterPaletteID,Palette159)
 
 // Palette160
-	setPalette(AntonFighterPaletteID,Palette160)
+	setPalette(AntonWarriorPaletteID,Palette160)
 
 // Palette161
-	setPalette(AntonWarriorPaletteID,Palette161)
+	setPalette(ZaimAxeArmorPaletteID,Palette161)
 
 // Palette162
-	setPalette(MystSwordKnightPaletteID,Palette162)
+	setPalette(ZaimGeneralPaletteID,Palette162)
 
 // Palette163
-	setPalette(MystDarkKnightPaletteID,Palette163)
+	setPalette(ZaimSoldierPaletteID,Palette163)
 
 // Palette164
-	setPalette(MystMercenaryPaletteID,Palette164)
+	setPalette(ZaimDragoonPaletteID,Palette164)
 
 // Palette165
-	setPalette(MystHorsemanPaletteID,Palette165)
+	setPalette(ZaimFighterPaletteID,Palette165)
 
 // Palette166
-	setPalette(MystMyrmidonPaletteID,Palette166)
+	setPalette(ZaimWarMonkPaletteID,Palette166)
 
 // Palette167
-	setPalette(MystSwordmasterPaletteID,Palette167)
+	setPalette(ZaimPriestPaletteID,Palette167)
 
 // Palette168
-	setPalette(MystDarkMagePaletteID,Palette168)
+	setPalette(ZaimBishopPaletteID,Palette168)
 
 // Palette169
-	setPalette(MystSummonerPaletteID,Palette169)
+	setPalette(KhrisMyrmidonPaletteID,Palette169)
 
 // Palette170
-	setPalette(KhrisMyrmidonPaletteID,Palette170)
+	setPalette(KhrisSwordmasterPaletteID,Palette170)
 
 // Palette171
-	setPalette(KhrisSwordmasterPaletteID,Palette171)
+	setPalette(KhrisBowKnightPaletteID,Palette171)
 
 // Palette172
-	setPalette(KhrisBowKnightPaletteID,Palette172)
+	setPalette(KhrisHorsemanPaletteID,Palette172)
 
 // Palette173
-	setPalette(KhrisHorsemanPaletteID,Palette173)
+	setPalette(KhrisMagePaletteID,Palette173)
 
 // Palette174
-	setPalette(KhrisMagePaletteID,Palette174)
+	setPalette(KhrisSagePaletteID,Palette174)
 
 // Palette175
-	setPalette(KhrisSagePaletteID,Palette175)
+	setPalette(KhrisMercenaryPaletteID,Palette175)
 
 // Palette176
-	setPalette(KhrisMercenaryPaletteID,Palette176)
+	setPalette(KhrisMageFighterPaletteID,Palette176)
 
 // Palette177
-	setPalette(KhrisMageFighterPaletteID,Palette177)
+	setPalette(ElleBladePaletteID,Palette177)
 
 // Palette178
-	setPalette(ElleBladePaletteID,Palette178)
+	setPalette(ElleOverlordPaletteID,Palette178)
 
 // Palette179
-	setPalette(ElleOverlordPaletteID,Palette179)
+	setPalette(ZaneMonkPaletteID,Palette179)
 
 // Palette180
-	setPalette(ZaneMonkPaletteID,Palette180)
+	setPalette(ZaneBishopPaletteID,Palette180)
 
 // Palette181
-	setPalette(ZaneBishopPaletteID,Palette181)
+	setPalette(ZaneMagePaletteID,Palette181)
 
 // Palette182
-	setPalette(ZaneMagePaletteID,Palette182)
+	setPalette(ZaneSagePaletteID,Palette182)
 
 // Palette183
-	setPalette(ZaneSagePaletteID,Palette183)
+	setPalette(ZaneAxeArmorPaletteID,Palette183)
 
 // Palette184
-	setPalette(ZaneAxeArmorPaletteID,Palette184)
+	setPalette(ZaneGeneralPaletteID,Palette184)
 
 // Palette185
-	setPalette(ZaneGeneralPaletteID,Palette185)
+	setPalette(ZanePiratePaletteID,Palette185)
 
 // Palette186
-	setPalette(ZanePiratePaletteID,Palette186)
+	setPalette(ZaneBerserkerPaletteID,Palette186)
 
 // Palette187
-	setPalette(ZaneBerserkerPaletteID,Palette187)
+	setPalette(AdamminnBrigandPaletteID,Palette187)
 
 // Palette188
-	setPalette(AdamminnBrigandPaletteID,Palette188)
+	setPalette(AdamminnBerserkerPaletteID,Palette188)
 
 // Palette189
-	setPalette(AdamminnBerserkerPaletteID,Palette189)
+	setPalette(AdamminnMagePaletteID,Palette189)
 
 // Palette190
-	setPalette(AdamminnMagePaletteID,Palette190)
+	setPalette(AdamminnSagePaletteID,Palette190)
 
 // Palette191
-	setPalette(AdamminnSagePaletteID,Palette191)
+	setPalette(AdamminnMercenaryPaletteID,Palette191)
 
 // Palette192
-	setPalette(AdamminnMercenaryPaletteID,Palette192)
+	setPalette(AdamminnHeroPaletteID,Palette192)
 
 // Palette193
-	setPalette(AdamminnHeroPaletteID,Palette193)
+	setPalette(AdamminnSwordKnightPaletteID,Palette193)
 
 // Palette194
-	setPalette(AdamminnSwordKnightPaletteID,Palette194)
+	setPalette(AdamminnPaladinPaletteID,Palette194)
 
 // Palette195
-	setPalette(AdamminnPaladinPaletteID,Palette195)
+	setPalette(WilliamLanceArmorPaletteID,Palette195)
 
 // Palette196
-	setPalette(WilliamLanceArmorPaletteID,Palette196)
+	setPalette(WilliamGeneralPaletteID,Palette196)
 
 // Palette197
-	setPalette(WilliamGeneralPaletteID,Palette197)
+	setPalette(WilliamAxeArmorPaletteID,Palette197)
 
 // Palette198
-	setPalette(WilliamAxeArmorPaletteID,Palette198)
+	setPalette(WilliamGreatKnightPaletteID,Palette198)
 
 // Palette199
-	setPalette(WilliamGreatKnightPaletteID,Palette199)
+	setPalette(WilliamWyvernRiderPaletteID,Palette199)
 
 // Palette200
-	setPalette(WilliamWyvernRiderPaletteID,Palette200)
+	setPalette(WilliamWyvernLordPaletteID,Palette200)
 
 // Palette201
-	setPalette(WilliamWyvernLordPaletteID,Palette201)
+	setPalette(WilliamDarkMagePaletteID,Palette201)
 
 // Palette202
-	setPalette(WilliamDarkMagePaletteID,Palette202)
+	setPalette(WilliamWarlockPaletteID,Palette202)
 
 // Palette203
-	setPalette(WilliamWarlockPaletteID,Palette203)
+	setPalette(NobodyBowKnightPaletteID,Palette203)
 
 // Palette204
-	setPalette(NobodyBowKnightPaletteID,Palette204)
+	setPalette(NobodyHorsemanPaletteID,Palette204)
 
 // Palette205
-	setPalette(NobodyHorsemanPaletteID,Palette205)
+	setPalette(NobodyAxeKnightPaletteID,Palette205)
 
 // Palette206
-	setPalette(NobodyAxeKnightPaletteID,Palette206)
+	setPalette(NobodyGreatKnightPaletteID,Palette206)
 
 // Palette207
-	setPalette(NobodyGreatKnightPaletteID,Palette207)
+	setPalette(NobodyDeaconPaletteID,Palette207)
 
 // Palette208
-	setPalette(NobodyDeaconPaletteID,Palette208)
+	setPalette(NobodyMageKnightPaletteID,Palette208)
 
 // Palette209
-	setPalette(NobodyMageKnightPaletteID,Palette209)
+	setPalette(NobodyLanceKnightPaletteID,Palette209)
 
 // Palette210
-	setPalette(NobodyLanceKnightPaletteID,Palette210)
+	setPalette(NobodyPaladinPaletteID,Palette210)
 
 // Palette211
-	setPalette(NobodyPaladinPaletteID,Palette211)
+	setPalette(JackThiefPaletteID,Palette211)
 
 // Palette212
-	setPalette(JackThiefPaletteID,Palette212)
+	setPalette(JackRoguePaletteID,Palette212)
 
 // Palette213
-	setPalette(JackRoguePaletteID,Palette213)
+	setPalette(JackPriestPaletteID,Palette213)
 
 // Palette214
-	setPalette(JackPriestPaletteID,Palette214)
+	setPalette(JackBishopPaletteID,Palette214)
 
 // Palette215
-	setPalette(JackBishopPaletteID,Palette215)
+	setPalette(JackMagePaletteID,Palette215)
 
 // Palette216
-	setPalette(JackMagePaletteID,Palette216)
+	setPalette(JackSagePaletteID,Palette216)
 
 // Palette217
-	setPalette(JackSagePaletteID,Palette217)
+	setPalette(JackPegasusKnightPaletteID,Palette217)
 
 // Palette218
-	setPalette(JackPegasusKnightPaletteID,Palette218)
+	setPalette(JackFalcoknightPaletteID,Palette218)
 
 // Palette219
-	setPalette(JackFalcoknightPaletteID,Palette219)
+	setPalette(LazulThiefFPaletteID,Palette219)
 
 // Palette220
-	setPalette(LazulThiefFPaletteID,Palette220)
+	setPalette(LazulDancerFPaletteID,Palette220)
 
 // Palette221
-	setPalette(LazulDancerFPaletteID,Palette221)
+	setPalette(LazulClericPaletteID,Palette221)
 
 // Palette222
-	setPalette(LazulClericPaletteID,Palette222)
+	setPalette(LazulBishopFPaletteID,Palette222)
 
 // Palette223
-	setPalette(LazulBishopFPaletteID,Palette223)
+	setPalette(LazulMyrmidonFPaletteID,Palette223)
 
 // Palette224
-	setPalette(LazulMyrmidonFPaletteID,Palette224)
+	setPalette(LazulSwordmasterFPaletteID,Palette224)
 
 // Palette225
-	setPalette(LazulSwordmasterFPaletteID,Palette225)
+	setPalette(LazulPegasusKnightPaletteID,Palette225)
 
 // Palette226
-	setPalette(LazulPegasusKnightPaletteID,Palette226)
+	setPalette(LazulFalcoknightPaletteID,Palette226)
 
 // Palette227
-	setPalette(LazulFalcoknightPaletteID,Palette227)
+	setPalette(PaulMyrmidonPaletteID,Palette227)
 
 // Palette228
-	setPalette(PaulMyrmidonPaletteID,Palette228)
+	setPalette(PaulSwordmasterPaletteID,Palette228)
 
 // Palette229
-	setPalette(PaulSwordmasterPaletteID,Palette229)
+	setPalette(PaulMercenaryPaletteID,Palette229)
 
 // Palette230
-	setPalette(PaulMercenaryPaletteID,Palette230)
+	setPalette(PaulMageFighterPaletteID,Palette230)
 
 // Palette231
-	setPalette(PaulMageFighterPaletteID,Palette231)
+	setPalette(PaulDarkMagePaletteID,Palette231)
 
 // Palette232
-	setPalette(PaulDarkMagePaletteID,Palette232)
+	setPalette(PaulDarkBishopPaletteID,Palette232)
 
 // Palette233
-	setPalette(PaulDarkBishopPaletteID,Palette233)
+	setPalette(PaulSwordKnightPaletteID,Palette233)
 
 // Palette234
-	setPalette(PaulSwordKnightPaletteID,Palette234)
+	setPalette(PaulPaladinPaletteID,Palette234)
 
 // Palette235
-	setPalette(PaulPaladinPaletteID,Palette235)
+	setPalette(ReginaldAxeKnightPaletteID,Palette235)
 
 // Palette236
-	setPalette(ReginaldAxeKnightPaletteID,Palette236)
+	setPalette(ReginaldPaladinPaletteID,Palette236)
 
 // Palette237
-	setPalette(ReginaldPaladinPaletteID,Palette237)
+	setPalette(ReginaldLanceKnightPaletteID,Palette237)
 
 // Palette238
-	setPalette(ReginaldLanceKnightPaletteID,Palette238)
+	setPalette(ReginaldMagePaletteID,Palette238)
 
 // Palette239
-	setPalette(ReginaldMagePaletteID,Palette239)
+	setPalette(ReginaldSagePaletteID,Palette239)
 
 // Palette240
-	setPalette(ReginaldSagePaletteID,Palette240)
+	setPalette(ReginaldFighterPaletteID,Palette240)
 
 // Palette241
-	setPalette(ReginaldFighterPaletteID,Palette241)
+	setPalette(ReginaldWarriorPaletteID,Palette241)
 
 // Palette242
-	setPalette(ReginaldWarriorPaletteID,Palette242)
+	setPalette(VollsterDarkMagePaletteID,Palette242)
 
 // Palette243
-	setPalette(VollsterDarkMagePaletteID,Palette243)
+	setPalette(VollsterSummonerPaletteID,Palette243)
 
 // Palette244
-	setPalette(VollsterSummonerPaletteID,Palette244)
+	setPalette(VollsterSwordKnightPaletteID,Palette244)
 
 // Palette245
-	setPalette(VollsterSwordKnightPaletteID,Palette245)
+	setPalette(VollsterDarkKnightPaletteID,Palette245)
 
 // Palette246
-	setPalette(VollsterDarkKnightPaletteID,Palette246)
+	setPalette(VollsterPriestPaletteID,Palette246)
 
 // Palette247
-	setPalette(VollsterPriestPaletteID,Palette247)
+	setPalette(VollsterWarMonkPaletteID,Palette247)
 
 // Palette248
-	setPalette(VollsterWarMonkPaletteID,Palette248)
+	setPalette(VollsterSwordArmorPaletteID,Palette248)
 
 // Palette249
-	setPalette(VollsterSwordArmorPaletteID,Palette249)
+	setPalette(VollsterGeneralPaletteID,Palette249)
 
 // Palette250
-	setPalette(VollsterGeneralPaletteID,Palette250)
+	setPalette(GregWyvernRiderPaletteID,Palette250)
 
 // Palette251
-	setPalette(GregWyvernRiderPaletteID,Palette251)
+	setPalette(GregWyvernLordPaletteID,Palette251)
 
 // Palette252
-	setPalette(GregWyvernLordPaletteID,Palette252)
+	setPalette(GregBrigandPaletteID,Palette252)
 
 // Palette253
-	setPalette(GregBrigandPaletteID,Palette253)
+	setPalette(GregBerserkerPaletteID,Palette253)
 
 // Palette254
-	setPalette(GregBerserkerPaletteID,Palette254)
+	setPalette(GregLanceKnightPaletteID,Palette254)
 
 // Palette255
-	setPalette(GregLanceKnightPaletteID,Palette255)
+	setPalette(GregPaladinPaletteID,Palette255)
 
 // Palette256
-	setPalette(GregPaladinPaletteID,Palette256)
+	setPalette(GregDarkMagePaletteID,Palette256)
 
 // Palette257
-	setPalette(GregDarkMagePaletteID,Palette257)
+	setPalette(GregWarlockPaletteID,Palette257)
 
 // Palette258
-	setPalette(GregWarlockPaletteID,Palette258)
+	setPalette(OccamArcherPaletteID,Palette258)
 
 // Palette259
-	setPalette(OccamArcherPaletteID,Palette259)
+	setPalette(OccamSniperPaletteID,Palette259)
 
 // Palette260
-	setPalette(OccamSniperPaletteID,Palette260)
+	setPalette(OccamThiefPaletteID,Palette260)
 
 // Palette261
-	setPalette(OccamThiefPaletteID,Palette261)
+	setPalette(OccamAssassinPaletteID,Palette261)
 
 // Palette262
-	setPalette(OccamAssassinPaletteID,Palette262)
+	setPalette(OccamBowKnightPaletteID,Palette262)
 
 // Palette263
-	setPalette(OccamBowKnightPaletteID,Palette263)
+	setPalette(OccamHorsemanPaletteID,Palette263)
 
 // Palette264
-	setPalette(OccamHorsemanPaletteID,Palette264)
+	setPalette(OccamBowArmorPaletteID,Palette264)
 
 // Palette265
-	setPalette(OccamBowArmorPaletteID,Palette265)
+	setPalette(OccamGeneralPaletteID,Palette265)
 
 // Palette266
-	setPalette(OccamGeneralPaletteID,Palette266)
+	setPalette(LenatoBowKnightFPaletteID,Palette266)
 
 // Palette267
-	setPalette(LenatoBowKnightFPaletteID,Palette267)
+	setPalette(LenatoHorsemanFPaletteID,Palette267)
 
 // Palette268
-	setPalette(LenatoHorsemanFPaletteID,Palette268)
+	setPalette(AugustusPriestPaletteID,Palette268)
 
 // Palette269
-	setPalette(AugustusPriestPaletteID,Palette269)
+	setPalette(AugustusDancerMPaletteID,Palette269)
 
 // Palette270
-	setPalette(AugustusDancerMPaletteID,Palette270)
+	setPalette(KonatsuLanceKnightPaletteID,Palette270)
 
 // Palette271
-	setPalette(KonatsuLanceKnightPaletteID,Palette271)
+	setPalette(KonatsuPaladinPaletteID,Palette271)
 
 // Palette272
-	setPalette(KonatsuPaladinPaletteID,Palette272)
+	setPalette(ColorzPegasusKnightPaletteID,Palette272)
 
 // Palette273
-	setPalette(ColorzPegasusKnightPaletteID,Palette273)
+	setPalette(ColorzFalcoknightPaletteID,Palette273)
 
 // Palette274
-	setPalette(ColorzFalcoknightPaletteID,Palette274)
+	setPalette(GeoffroyWyvernRiderPaletteID,Palette274)
 
 // Palette275
-	setPalette(GeoffroyWyvernRiderPaletteID,Palette275)
+	setPalette(GeoffroyWyvernLordPaletteID,Palette275)
 
 // Palette276
-	setPalette(GeoffroyWyvernLordPaletteID,Palette276)
+	setPalette(DelamSoldierPaletteID,Palette276)
 
 // Palette277
-	setPalette(DelamSoldierPaletteID,Palette277)
+	setPalette(DelamHalberdierPaletteID,Palette277)
 
 // Palette278
-	setPalette(DelamHalberdierPaletteID,Palette278)
+	setPalette(MaxwellMagePaletteID,Palette278)
 
 // Palette279
-	setPalette(MaxwellMagePaletteID,Palette279)
+	setPalette(MaxwellMageKnightPaletteID,Palette279)
 
 // Palette280
-	setPalette(MaxwellMageKnightPaletteID,Palette280)
+	setPalette(GeraldoSwordArmorPaletteID,Palette280)
 
 // Palette281
-	setPalette(GeraldoSwordArmorPaletteID,Palette281)
+	setPalette(GeraldoGreatKnightPaletteID,Palette281)
 
 // Palette282
-	setPalette(GeraldoGreatKnightPaletteID,Palette282)
+	setPalette(AshMonkPaletteID,Palette282)
 
 // Palette283
-	setPalette(AshMonkPaletteID,Palette283)
+	setPalette(AshHolyKnightPaletteID,Palette283)
 
 // Palette284
-	setPalette(AshHolyKnightPaletteID,Palette284)
+	setPalette(VollerentThiefPaletteID,Palette284)
 
 // Palette285
-	setPalette(VollerentThiefPaletteID,Palette285)
+	setPalette(VollerentRoguePaletteID,Palette285)
 
 // Palette286
-	setPalette(VollerentRoguePaletteID,Palette286)
+	setPalette(VoltaFighterPaletteID,Palette286)
 
 // Palette287
-	setPalette(VoltaFighterPaletteID,Palette287)
+	setPalette(VoltaWarriorPaletteID,Palette287)
 
 // Palette288
-	setPalette(VoltaWarriorPaletteID,Palette288)
+	setPalette(ZuzkaAxeArmorPaletteID,Palette288)
 
 // Palette289
-	setPalette(ZuzkaAxeArmorPaletteID,Palette289)
+	setPalette(ZuzkaGeneralPaletteID,Palette289)
 
 // Palette290
-	setPalette(ZuzkaGeneralPaletteID,Palette290)
+	setPalette(BorgasBrigandPaletteID,Palette290)
 
 // Palette291
-	setPalette(BorgasBrigandPaletteID,Palette291)
+	setPalette(AlvaLanceKnightPaletteID,Palette291)
 
 // Palette292
-	setPalette(AlvaLanceKnightPaletteID,Palette292)
+	setPalette(WyvernBossWyvernPaletteID,Palette292)
 
 // Palette293
-	setPalette(WyvernBossWyvernPaletteID,Palette293)
+	setPalette(AssegaiSoldierPaletteID,Palette293)
 
 // Palette294
-	setPalette(YanndahlSoldierPaletteID,Palette294)
+	setPalette(BrucknerSwordKnightPaletteID,Palette294)
 
 // Palette295
-	setPalette(BrucknerSwordKnightPaletteID,Palette295)
+	setPalette(BearBossBearPaletteID,Palette295)
 
 // Palette296
-	setPalette(BearBossBearPaletteID,Palette296)
+	setPalette(DarachAxeArmorPaletteID,Palette296)
 
 // Palette297
-	setPalette(DarachAxeArmorPaletteID,Palette297)
+	setPalette(LarissaLanceKnightPaletteID,Palette297)
 
 // Palette298
-	setPalette(LarissaLanceKnightPaletteID,Palette298)
+	setPalette(KajarnMercenaryPaletteID,Palette298)
 
 // Palette299
-	setPalette(KajarnMercenaryPaletteID,Palette299)
+	setPalette(RynodFighterPaletteID,Palette299)
 
 // Palette300
-	setPalette(RynodFighterPaletteID,Palette300)
+	setPalette(IlyronLanceArmorPaletteID,Palette300)
 
 // Palette301
-	setPalette(IlyronLanceArmorPaletteID,Palette301)
+	setPalette(OrionFighterPaletteID,Palette301)
 
 // Palette302
-	setPalette(OrionFighterPaletteID,Palette302)
-
-// Palette303
-	setPalette(RunaBowKnightFPaletteID,Palette303)
+	setPalette(RunaBowKnightFPaletteID,Palette302)

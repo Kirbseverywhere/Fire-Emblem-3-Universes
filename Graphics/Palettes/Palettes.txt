@@ -1881,14 +1881,14 @@
 	auto
 	auto
 
-# char{KonatsuLanceKnightPaletteID} "Palette" auto{0}
+# char{KonatsuReplacementLanceKnightPaletteID} "Palette" auto{0}
 	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto
 	auto
 	auto
 
-# char{KonatsuPaladinPaletteID} "Palette" auto{0}
+# char{KonatsuReplacementPaladinPaletteID} "Palette" auto{0}
 	0000000000000000000000000000000000000000000000000000000000000000
 	auto
 	auto

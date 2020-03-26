@@ -92,12 +92,13 @@
 //Neutrals
 #define Augustus 37
 #define Lenato 38
-#define KonatsuNPC 39
+#define Assegai 39
 
 //Backwards Compatibility
 #define Leo Khris
 #define Diana Elle
 #define Anthony Anton
+#define KonatsuNPC Assegai
 
 // Bosses
 
