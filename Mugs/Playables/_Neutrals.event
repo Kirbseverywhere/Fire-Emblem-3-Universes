@@ -1,5 +1,5 @@
 #define AUGUSTUS_PRETIMESKIP_PORTRAIT Augustus
-setMugEntry(AUGUSTUS_PRETIMESKIP_PORTRAIT, AugustusPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(AUGUSTUS_PRETIMESKIP_PORTRAIT, AugustusPreTimeskip, 3, 5, 3, 3) 
 AugustusPreTimeskip:
 #incext PortraitFormatter "Augustus_PreTimeskip.png"
 
