@@ -17,7 +17,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(7, EndingScene, 8)
 TurnEventEnemy(0, YanndahlBackup1, 3)
-TurnEventPlayer(0, YanndahlChange, 5)
+TurnEventPlayer(0, YanndahlChange, 6)
 TurnEventEnemy(0, YanndahlBackup2, 5)
 END_MAIN
 
@@ -178,7 +178,7 @@ FadeOutMusic
 FADI 4
 STAL 60
 MUSC 0x4A
-SetBackground(Woodland_Night)
+SetBackground(0x20)
 Text(PJ1EndingForestScene)
 MUSC Tension
 Text(PJ1EndingArxhatMenAppear)

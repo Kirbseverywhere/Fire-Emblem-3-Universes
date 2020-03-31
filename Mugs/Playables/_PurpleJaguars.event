@@ -15,7 +15,7 @@ TrayPreTimeskip:
 #incext PortraitFormatter "Tray_PreTimeskip.png"
 
 #define HORUS_PRETIMESKIP_PORTRAIT Horus
-setMugEntry(HORUS_PRETIMESKIP_PORTRAIT, HorusPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(HORUS_PRETIMESKIP_PORTRAIT, HorusPreTimeskip, 5, 5, 5, 3) 
 HorusPreTimeskip:
 #incext PortraitFormatter "Horus_PreTimeskip.png"
 
