@@ -929,7 +929,7 @@
 
 //Triangle Adept+: Doubles weapon triangle effects.
 //By Sme
-#define TriAdeptPlusID 255
+#define TriAdeptPlusID 178
 #define TriangleAdeptPlusID TriAdeptPlusID //Alias
 
 //Inspiring Tune: Refreshing a unit grants them +2 Pow/Def until the next turn.
@@ -939,7 +939,7 @@
 
 //Liquid Ooze: Attackers trying to gain HP from attacking this unit lose it instead.
 //By Leonarth
-#define LiquidOozeID 178
+#define LiquidOozeID 255
 
 //Shadowgift: Allows the user to use Dark Magic. (Uses highest Magic Rank)
 //By Leonarth
