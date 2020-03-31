@@ -121,7 +121,7 @@
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
 [LoadRuna] = [LoadFace][0x54][0x1]
-[LoadDarach] = [LoadPlaceholder]
+[LoadDarach] = [LoadFace][0x50][0x1]
 [LoadOrion] = [LoadFace][0xFE][0x01]
 
 //default AB slots overwrite used villagers
@@ -134,7 +134,7 @@
 [LoadPurpleSoldier] = [LoadFace][0x70][0x1]
 [LoadWhiteSoldier] = [LoadFace][0x71][0x1]
 [LoadBelmonte] = [LoadPlaceholder]
-[LoadRynod] = [LoadPlaceholder]
+[LoadRynod] = [LoadFace][0x4E][0x1]
 [LoadMandel] = [LoadPlaceholder]
 [LoadAlbinia] = [LoadPlaceholder]
 [LoadBarrymore] = [LoadPlaceholder]

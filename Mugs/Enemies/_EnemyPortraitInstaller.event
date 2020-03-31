@@ -54,6 +54,11 @@ setMugEntry(RYNOD_PORTRAIT, RynodMug, 3, 5, 3, 3)
 RynodMug:
 #incext PortraitFormatter "Rynod.png"
 
+#define DARACH_PORTRAIT 0x50
+setMugEntry(DARACH_PORTRAIT, DarachMug, 3, 5, 3, 3)
+DarachMug:
+#incext PortraitFormatter "Darach.png"
+
 
 #define PLACEHOLDER_PORTRAIT 0xFF
 setMugEntry(PLACEHOLDER_PORTRAIT, PlaceholderMug, 2, 5, 0, 0)
