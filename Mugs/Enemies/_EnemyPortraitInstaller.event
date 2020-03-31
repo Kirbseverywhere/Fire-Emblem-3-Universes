@@ -49,7 +49,14 @@ setMugEntry(ORION_PORTRAIT, OrionMug, 3, 5, 3, 3)
 OrionMug:
 #incext PortraitFormatter "Orion.png"
 
+#define RYNOD_PORTRAIT 0x4E
+setMugEntry(RYNOD_PORTRAIT, RynodMug, 3, 5, 3, 3)
+RynodMug:
+#incext PortraitFormatter "Rynod.png"
+
+
 #define PLACEHOLDER_PORTRAIT 0xFF
 setMugEntry(PLACEHOLDER_PORTRAIT, PlaceholderMug, 2, 5, 0, 0)
 PlaceholderMug:
 #incext PortraitFormatter "Placeholder.png"
+
