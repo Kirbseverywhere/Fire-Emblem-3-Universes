@@ -121,7 +121,7 @@ BYTE 0
 
 ALIGN 4
 DaffUnitCustomizerDesc:
-String("Daff von Morgana")
+String("Lilac von Morgana")
 BYTE 0
 
 ALIGN 4

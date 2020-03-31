@@ -55,6 +55,6 @@ ZaimPreTimeskip:
 #incext PortraitFormatter "Zaim_PreTimeskip.png"
 
 #define KHRIS_PRETIMESKIP_PORTRAIT Khris 
-setMugEntry(KHRIS_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 3, 5, 3, 3) 
+setMugEntry(KHRIS_PRETIMESKIP_PORTRAIT, KhrisPreTimeskip, 2, 5, 3, 3) 
 KhrisPreTimeskip:
 #incext PortraitFormatter "Khris_PreTimeskip.png"
