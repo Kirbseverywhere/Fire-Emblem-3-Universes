@@ -61,8 +61,10 @@ Brigand - Vanilla - IS - Map Sprite by IS - Class Card by IS
 Pirate - DS Pirate - DerTheVaporeon - Map Sprite by IS - Class Card by IS
 Warrior - Repalette - helmfried - Map Sprite by IS - Class Card by IS
 Berserker - Derzerker - DerTheVaporeon - Map Sprite by IS - Class Card by IS
+Monk (Zane) - Lucius - IS - Map Sprite by IS - Class Card by IS
 Monk - Repalette - Teraspark - Map Sprite by IS - Class Card by IS
-Priest - Repalette - Eldritch Abomination/flasuban/Sme - Map Sprite by IS - Class Card by IS
+Priest (Augustus) - Repalette - Eldritch Abomination/flasuban/Sme - Map Sprite by IS - Class Card by IS
+Priest - Repalette - Eldritch Abomination - Map Sprite by IS - Class Card by IS
 Buff Priest - Buff Generic Repalette - Vilkalizer - Map Sprite by flasuban - Class Card by IS
 Cleric - Repalette - Eldritch Abomination  - Map Sprite by IS - Class Card by IS
 Deacon - Deacon Repalette + Sword, Magic - Pikmin1211/GabrielKnight/Maiser6/Lisandra_Brave/TBA - Map Sprite by Unknown - Class Card by IS
