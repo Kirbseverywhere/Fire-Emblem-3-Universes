@@ -450,4 +450,10 @@
 {
 #include "Anims/GeneralBow.event"
 }
+{
+#include "Anims/AugustusPriestStaff.event"
+}
+{
+#include "Anims/AugustusPriestUnarmed.event"
+}
 

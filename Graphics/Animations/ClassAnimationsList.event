@@ -465,6 +465,12 @@ UnarmedAnim(PriestUnarmedAnimID)
 WORD 0
 
 ALIGN 4
+AugustusPriestAnimationList:
+FaithAnim(AugustusPriestFaithAnimID)
+UnarmedAnim(AugustusPriestUnarmedAnimID)
+WORD 0
+
+ALIGN 4
 BuffPriestAnimationList:
 FaithAnim(BuffPriestMagicAnimID)
 UnarmedAnim(BuffPriestUnarmedAnimID)

@@ -283,3 +283,6 @@
 #define BearAttackAnimID $C4
 
 #define WyvernAttackAnimID $C5
+
+#define AugustusPriestFaithAnimID $C6
+#define AugustusPriestUnarmedAnimID $C7
