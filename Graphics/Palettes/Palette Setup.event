@@ -812,10 +812,10 @@
 	setPalette(AugustusDancerMPaletteID,Palette269)
 
 // Palette270
-	setPalette(KonatsuLanceKnightPaletteID,Palette270)
+	setPalette(KonatsuReplacementLanceKnightPaletteID,Palette270)
 
 // Palette271
-	setPalette(KonatsuPaladinPaletteID,Palette271)
+	setPalette(KonatsuReplacementPaladinPaletteID,Palette271)
 
 // Palette272
 	setPalette(ColorzPegasusKnightPaletteID,Palette272)
