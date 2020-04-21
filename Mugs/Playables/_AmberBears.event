@@ -25,7 +25,7 @@ NobodyPreTimeskip:
 #incext PortraitFormatter "Nobody_PreTimeskip.png"
 
 #define JACK_PRETIMESKIP_PORTRAIT Jack 
-setMugEntry(JACK_PRETIMESKIP_PORTRAIT, JackPreTimeskip, 3, 6, 3, 4) 
+setMugEntry(JACK_PRETIMESKIP_PORTRAIT, JackPreTimeskip, 3, 5, 3, 3) 
 JackPreTimeskip:
 #incext PortraitFormatter "Jack_PreTimeskip.png"
 
