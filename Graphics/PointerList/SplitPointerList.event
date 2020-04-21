@@ -90,6 +90,9 @@ TileConfigPointerTable(CaveTileConfig, CaveTileConfigData)
 #define SnowTileConfig 14
 TileConfigPointerTable(SnowTileConfig, SnowTileConfigData)
 
+#define UpdatedVillageTileConfig 15
+TileConfigPointerTable(UpdatedVillageTileConfig, UpdatedVillageTileConfigData)
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -133,6 +136,9 @@ ObjTypePalettePointerTable(CaveObjType, CaveObjTypeData)
 
 #define SnowObjType 13
 ObjTypePalettePointerTable(SnowObjType, SnowObjTypeData)
+
+#define UpdatedVillageObjType 14
+ObjTypePalettePointerTable(UpdatedVillageObjType, UpdatedVillageObjTypeData)
 
 // -------------------------------Palette-------------------------------
 
@@ -211,6 +217,9 @@ ObjTypePalettePointerTable(CavePalette1, CavePalette1Data)
 #define SnowPalette1 43
 ObjTypePalettePointerTable(SnowPalette1, SnowPalette1Data) 
 
+#define UpdatedVillagePalette1 44
+ObjTypePalettePointerTable(UpdatedVillagePalette1, UpdatedVillagePalette1Data)
+
 
 // -------------------------------Tile Anims-------------------------------
 
@@ -272,5 +281,18 @@ SnowPalette1Data:
 #incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --palette-only
 
 #include "Tilesets/Snow/TileAnims.event"
+
+ALIGN 4
+UpdatedVillageTileConfigData:
+#incbin "Tilesets/Village/Village.mapchip_config.compressed"
+
+ALIGN 4
+UpdatedVillageObjTypeData:
+#incbin "Tilesets/Village/VillageObj.bin"
+
+ALIGN 4
+UpdatedVillagePalette1Data:
+#incext Png2Dmp "Tilesets/Village/Village.png" --palette-only
+
 
 ALIGN 4
