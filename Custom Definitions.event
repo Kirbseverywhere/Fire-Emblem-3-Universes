@@ -67,7 +67,9 @@
 #define Yanndahl 17
 #define Glac Yanndahl
 #define Daff 18
+#define Lilac Daff
 #define Smeglinde 19
+#define Sme Smeglinde
 #define Kabby 20
 #define Stephen 21
 #define Anton 22

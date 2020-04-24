@@ -15,14 +15,9 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(7, EndingScene, 8)
-TurnEventEnemy(0, YanndahlBackup1, 3)
-TurnEventPlayer(0, YanndahlChange, 6)
-TurnEventEnemy(0, YanndahlBackup2, 5)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x8,HorusVergilConvo,Horus,Vergil)
 END_MAIN
 
 LocationBasedEvents:
@@ -46,49 +41,15 @@ END_MAIN
 
 PlayerUnits:
 UNIT Vergil VergilLord 0x00 Level(1, Ally, 0) [10,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Xenith 0 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Khris 0 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Tray 0 0x00 Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Horus 0 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Glac 0 0x00 Level(1, Ally, 0) [12,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Daff 0 0x00 Level(1, Ally, 0) [12,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Smeglinde 0 0x00 Level(1, Ally, 0) [12,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Myst 0 0x00 Level(1, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Konatsu 0 0x00 Level(1, Ally, 0) [11,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 EnemyUnits:
-UNIT YanndahlBoss Soldier 0x00 Level(14, Enemy, 1) [14,13] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [16,4] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [20,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [5,9] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Brigand 0x00 Level(10, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [19,4] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x81 Mercenary 0x00 Level(10, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x81 Archer 0x00 Level(10, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
-UNIT 0x81 Archer 0x00 Level(10, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI 
 UNIT
 
-PegKnights:
-UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [5,4] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [7,13] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x81 PegasusKnight 0x00 Level(10, Enemy, 1) [15,0] 0x02 0x00 0x0 0x00 [IronLance, PrecisionRing] PursueWithoutHeedAI 
-UNIT 
-
-Turn5Spawns:
-UNIT 0x81 LanceKnight 0x00 Level(10, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x81 SwordKnight 0x00 Level(10, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
-UNIT 0x81 LanceKnight 0x00 Level(10, Enemy, 1) [20,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
-UNIT 0x81 AxeKnight 0x00 Level(10, Enemy, 1) [20,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
-UNIT 
-
-RunaOrionFight:
-UNIT Runa BowKnight_F 0x00 Level(15, Enemy, 1) [16,5] 0x00 0x00 0x00 0x00 [KillerBow] NeverMoveAI
-UNIT Orion Fighter 0x00 Level(10, NPC, 1) [14,5] 0x00 0x00 0x00 0x00 [HandAxe] NeverMoveAI
-UNIT
 
 Traps1:
 ENDTRAP
@@ -103,31 +64,42 @@ REMU Kabby
 REMU Stephen
 REMU Anthony
 REMU Leo
+REMU Lilac
+REMU Sme
+REMU Yanndahl
+REMU Zaim
 SetBackground(Black)
 SVAL 0xB 0xFFFFFFFF
 TUTORIALTEXTBOXSTART
 MUSC The_Beginning
-TEXTSHOW PJ1Narration
+TEXTSHOW PJ1OpeningNarration
 TEXTEND
 REMA
 FADI 4
-MUSC Advance
-SetBackground(Riverside)
-Text(PJ1OpeningBeforeAttack)
-FadeOutMusic
-FADI 4
-STAL 60
-MUSC Solve_the_Riddle
+
+SetBackground(Black) //TEMP, this will be a cutscene map eventually
+Text(PJ1OpeningScene1)
+REMA
+
+SetBackground(Salehs_House)
+Text(PJ1OpeningScene2)
+
 SetBackground(Plain)
-Text(PJ1OpeningYanndahlRuna)
-FadeOutMusic
-FADI 4
-STAL 60
-MUSC Tension
-SetBackground(Riverside)
-Text(PJ1OpeningAttack)
-FADI 4
-STAL 60
+Text(PJ1OpeningScene3)
+
+Text(PJ1OpeningScene4)
+
+Text(PJ1OpeningScene5)
+
+Text(PJ1OpeningScene6)
+
+Text(PJ1OpeningScene7)
+
+Text(PJ1OpeningScene8)
+
+Text(PJ1OpeningScene9)
+
+
 LOAD2 0x1 PlayerUnits
 ENUN
 LOAD1 0x1 EnemyUnits
@@ -136,83 +108,20 @@ NoFade
 ENDA
 
 EndingScene:
-MUSC Raid
-Text(PJ1EndingCaravan)
-FADI 6
-ClearAllUnits
-SetBackground(Riverside)
-Text(PJ1EndingOrionSpotted)
-Text(PJ1EndingRunaOrion)
-FADI 6
-CLEAN
-CAM1 [15,5]
-LOAD1 0x1 RunaOrionFight
-ENUN
-FADU 6
-STAL 30
-MUSS 0x0
-StartBattle
-MissedAttack(0,0)
-CriticalHit(1,39)
-SetScriptedBattle(55,12,0,90,13,35)
-FIG1 Orion Runa 0x0
-MURE 0x2
-SET_SOMETHING Orion
-DISA_IF Orion
-FADI 6
-SetBackground(Riverside)
-TEXTSTART
-TEXTSHOW PJ1EndingRunaOrion2
-TEXTEND
-SOUN 0xAB
-TEXTCONT
-TEXTEND
-REMA
-TEXTSTART
-TEXTSHOW PJ1EndingDeadParentsFound
-TEXTEND
-TEXTSHOW2 PJ1EndingRunaSoloLine
-TEXTEND
-REMA
-FadeOutMusic
-FADI 4
-STAL 60
-MUSC 0x4A
-SetBackground(0x20)
-Text(PJ1EndingForestScene)
-MUSC Tension
-Text(PJ1EndingArxhatMenAppear)
-FadeOutMusic
-FADI 4
-STAL 60
-MUSC Solve_the_Riddle
+SetBackground(Fort)
+
+Text(PJ1EndingScene1)
+Text(PJ1EndingScene2)
+Text(PJ1EndingScene3)
+Text(PJ1EndingScene4)
+
 SetBackground(Castle_Room)
-Text(PJ1EndingArxhatYanndahl)
+Text(PJ1EndingScene5)
+
 FadeOutMusic
 FADI 4
 MNC2 17
 NoFade
 ENDA
 
-YanndahlBackup1:
-Text(PJ1Turn3EnemyScene)
-ReinforcementEvent(PegKnights)
-NoFade
-ENDA
 
-YanndahlBackup2:
-Text(PJ1Turn5EnemyScene)
-ReinforcementEvent(Turn5Spawns)
-NoFade
-ENDA
-
-YanndahlChange:
-SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
-CHAI [14,13] // changes the ai of this coordinate
-NoFade
-ENDA
-
-HorusVergilConvo:
-Text(PJ1HorusVergilTalk)
-NoFade
-ENDA

@@ -79,9 +79,11 @@
 // Purple Jaguars
 [LoadVergil] = [LoadFace][0x0D][0x01]
 [LoadXenith] = [LoadFace][0x0E][0x01]
+[LoadKonatsu] = [LoadXenith]
 [LoadTray] = [LoadFace][0x0F][0x01]
 [LoadHorus] = [LoadFace][0x10][0x01]
 [LoadGlac] = [LoadFace][0x11][0x01]
+[LoadYanndahl] = [LoadGlac]
 [LoadDaff] = [LoadFace][0x12][0x01]
 [LoadLilac] = [LoadDaff]
 [LoadSmeglinde] = [LoadFace][0x13][0x01]
@@ -91,9 +93,10 @@
 [LoadAnton] = [LoadFace][0x16][0x01]
 [LoadAnthony] = [LoadFace][0x16][0x01]
 [LoadMyst] = [LoadFace][0x17][0x01]
+[LoadZaim] = [LoadMyst]
 [LoadKhris] = [LoadFace][0x18][0x01]
 [LoadLeo] = [LoadFace][0x18][0x01]
-[LoadKonatsu] = [LoadFace][0x1][0x01]
+
 
 //Amber Bears
 [LoadElle] = [LoadFace][0x19][0x01]
@@ -121,7 +124,6 @@
 [LoadAurea] = [LoadFace][0x45][0x01]
 
 [LoadLennox] = [LoadFace][0x1][0x01]
-[LoadYanndahl] = [LoadFace][0x50][0x01]
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
 [LoadRuna] = [LoadFace][0x54][0x1]
