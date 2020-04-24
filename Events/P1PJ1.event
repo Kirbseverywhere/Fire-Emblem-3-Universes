@@ -15,6 +15,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(7, EndingScene, 8)
 END_MAIN
 
 CharacterBasedEvents:
@@ -63,7 +64,6 @@ BeginningScene:
 REMU Kabby
 REMU Stephen
 REMU Anthony
-REMU Leo
 REMU Lilac
 REMU Sme
 REMU Yanndahl
@@ -98,12 +98,12 @@ Text(PJ1OpeningScene7)
 Text(PJ1OpeningScene8)
 
 Text(PJ1OpeningScene9)
-
+EndConvo
 
 LOAD2 0x1 PlayerUnits
 ENUN
-LOAD1 0x1 EnemyUnits
-ENUN
+//LOAD1 0x1 EnemyUnits
+//ENUN
 NoFade
 ENDA
 
