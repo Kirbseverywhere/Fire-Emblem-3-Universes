@@ -83,7 +83,9 @@
 [LoadHorus] = [LoadFace][0x10][0x01]
 [LoadGlac] = [LoadFace][0x11][0x01]
 [LoadDaff] = [LoadFace][0x12][0x01]
+[LoadLilac] = [LoadDaff]
 [LoadSmeglinde] = [LoadFace][0x13][0x01]
+[LoadSme] = [LoadSmeglinde]
 [LoadKabby] = [LoadFace][0x14][0x01]
 [LoadStephen] = [LoadFace][0x15][0x01]
 [LoadAnton] = [LoadFace][0x16][0x01]
@@ -91,6 +93,7 @@
 [LoadMyst] = [LoadFace][0x17][0x01]
 [LoadKhris] = [LoadFace][0x18][0x01]
 [LoadLeo] = [LoadFace][0x18][0x01]
+[LoadKonatsu] = [LoadFace][0x1][0x01]
 
 //Amber Bears
 [LoadElle] = [LoadFace][0x19][0x01]
@@ -117,6 +120,7 @@
 [LoadWyvernBoss] = [LoadFace][0x42][0x01]
 [LoadAurea] = [LoadFace][0x45][0x01]
 
+[LoadLennox] = [LoadFace][0x1][0x01]
 [LoadYanndahl] = [LoadFace][0x50][0x01]
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
@@ -139,3 +143,4 @@
 [LoadAlbinia] = [LoadPlaceholder]
 [LoadBarrymore] = [LoadPlaceholder]
 [LoadBear] = [LoadFace][0x52][0x01]
+[LoadSpy] = [LoadFace][0x1][0x01]

@@ -1,0 +1,895 @@
+## PJ1OpeningNarration
+The Kingdom of Seraphyn, ruled by[N]
+the scions of House Siegfried for ages.[A][N]
+Though the Kingdom has enjoyed an era of peace,[N]
+tensions have been brewing lately.[A][N]
+Rumours have spread claiming that the[N]
+Novingale Empire has been conducting[N]
+frequent skirmishes at Seraphyn's borders.[A][N]
+Seraphyn's monarch, [....]King Curtis,[....][N] 
+has done little to address the rumours,[N]
+but his son, [....]Prince Vergil,[....][N]
+remains suspicious and wary.[A][N]
+Accompanied by his retainers,[N]
+[....]the Purple Jaguars,[....][N]
+Vergil sets off to Artasia,[N]
+[....]a border settlement,[....][N]
+to inspect these claims[Beat][A][X]
+
+
+## PJ1OpeningScene1
+# The Sacred Throne, Castronda (PJ-7 map)
+# *Several nobles leave the throne room and gather outside. Vergil follows behind them.*
+[OpenMidRight][LoadVergil] #Vergil
+[CloseEyes][Beat][A]
+
+[OpenFarFarLeft] #Noble (all the nobles have text bubbles floating around mid-air?): 
+It's absurd, isn't it?[A][N]
+Our borders are threatened,[N]
+and His Majesty does nothing?[A]
+
+[CloseSpeechSlow]
+Nobody can confirm the truth[N]
+behind those rumours, though.[A][N]
+If it's all a hoax,[A][N]
+we'll be wasting resources[N]
+reinforcing the area.[A]
+
+[CloseSpeechSlow]
+Bah, he's gone[N]
+senile in his old age.[A][N]
+It's pitiful, really.[A]
+
+[CloseSpeechSlow]
+Do you think Siegfried's[N]
+Curse is getting to him?[A][N]
+His Majesty looks[Beat] [.....]sickly.[N]
+
+[CloseSpeechSlow]
+How dare you spout such vile words[N]
+in the Sacred Throne, you snake?![A]
+
+[OpenFarFarRight] #Noble (off-screen, far right)
+Who are you calling a snake?[A][N]
+We want the country to prosper too,[N]
+you simple-minded patriot![A]
+
+[OpenMidRight] #Vergil
+[Beat][A][N][OpenEyes] 
+If you would excuse me, my lords.[A][N]
+I'm afraid I must take my leave now.[A][N]
+Have a good day, gentlemen.[A][X]
+
+
+## PJ1OpeningScene2
+[OpenMidLeft][LoadHorus][OpenMidRight][LoadVergil]
+#Vergil
+[Beat]Horus.[A]
+
+[OpenMidLeft] #Horus
+Ah, milord.[A][N]
+Whatever seems to[N]
+be bothering you?[A]
+
+[OpenMidRight] #Vergil
+I[Beat] I don't get Father's words.[A][N]
+Why won't he ramp up[N]
+security at the borders,[A][N]
+even with all the talk[N]
+about Novingale's attacks?[A][N]
+He must be insane to just[N]
+ignore all these issues![A]
+
+[OpenMidLeft] #Horus
+Forgive me, milord.[A][N]
+I perceive His Majesty as[N]
+being[Beat] overly cautious.[A]
+
+[OpenMidRight] #Vergil
+Please elaborate, Horus.[A]
+
+[OpenMidLeft] #Horus
+His Majesty doesn't want to risk[N]
+any conflicts against Novingale.[A][N]
+He could send a battalion[N]
+to defend the border,[A][N]
+but I think he really doesn't[N]
+want to invoke their wrath.[A][N]
+It's either cautiousness[Beat] or fear.[A]
+
+[OpenMidRight] #Vergil
+Hmm[Beat][A][N]
+Father's gone meek[N]
+in his old age.[A][N]
+Disappointing.[A]
+
+[OpenMidLeft] #Horus
+I wouldn't be so critical, Lord Vergil.[A][N]
+None of us know what[N]
+Novingale is planning.[A][N]
+Just a few months ago,[A][N]
+Novingale terminated all contact[N]
+with us without any explanation.[A][N]
+His Majesty sent a messenger to[N]
+relay our concerns five days ago,[A][N]
+but he never returned.[A][N]
+And with the border attacks,[N]
+it's all very[Beat] concerning.[A]
+
+[OpenMidRight] #Vergil
+But still, father's letting[N]
+them get away with all this?[A][N]
+It's outrageous.[A][N]
+[......] 
+Horus, inform Tray and Khris[N]
+to be ready this evening.[A][N]
+We'll embark for the border forts,[N]
+regardless of the circumstances.[A]
+
+[OpenMidLeft] #Horus
+What?[A][N]
+I have no objections, [....]Lord Vergil,[....][N]
+but if His Majesty knows of this[Beat][A]
+
+[OpenMidRight] #Vergil
+I know the consequences, Horus.[A][N]
+But I simply can't let this slide.[A]
+
+[OpenMidLeft] #Horus
+[Beat]Very well, Lord Vergil.[A][N]
+I'll arrange it with due haste.[A][X]
+
+
+## PJ1OpeningScene3 
+#Artasia, Seraphyn
+[OpenFarRight][LoadVergil]
+[OpenRight][LoadTray]
+[OpenMidLeft][LoadKhris]
+[HalfCloseEyes] Mmh[Beat][A][OpenEyes]
+
+[OpenRight] #Tray
+Khris![A][N]
+You'd better not be[N]
+sleeping on the job![A]
+
+[OpenMidLeft] #Khris
+Cut me some slack, Tray.[A][N]
+We've been in this[N]
+caravan for so long.[A][N]
+I appreciate any time for resting[N]
+so I won't tire easily in battle.[A]
+
+[OpenRight] #Tray:
+Well, we're nearly there![A][N]
+Horus says we'll be at Artasia soon![A]
+
+[OpenMidLeft] #Khris:
+Forgive me for asking, Lord Vergil.[A][N]
+Why are we being this secretive?[A][N]
+I thought we were just[N]
+going to inspect the area?[A]
+
+[OpenFarRight] #Vergil:
+Father would definitely prevent[N]
+us from leaving the capital.[A][N]
+We didn't have much of a choice.[A]
+
+[OpenRight] #Tray:
+Hey, in the meantime,[N]
+we get to enjoy the scenery![A][N]
+Just breathe in the[N]
+fresh country air, Khris![A][N]
+[ToggleSmile]Ahh, it brings[N]
+back good memories[Beat][A]
+
+
+[OpenMidLeft] #Khris:
+Haha.[A][N]
+You know that I traveled around[N]
+before our lord hired me,[A][N]
+so this is nothing special to me.[A]
+
+[OpenRight] #Tray:
+[ToggleSmile]
+Bah![A][N]
+You don't know how to[N]
+appreciate nature enough![A]
+
+#[LoadOverworldFaces] #*Horus rides in from off-screen*
+[OpenMidLeft][MoveLeft]
+[OpenFarFarLeft][LoadHorus][MoveFarLeft]
+
+#Horus:
+Save the sightseeing for later, Tray.[N]
+We're approaching Fort Artasia soon.[A][N]
+The mission comes first.[A]
+
+[OpenRight] #Tray:
+[CloseEyes]Yes, Horus[Beat][A]
+
+[OpenFarFarRight] #Soldier (off-screen)
+Aaargh![A]
+
+[OpenFarRight] #Vergil:
+What the[Beat][A][N]
+what's happening out there?[A]
+
+[OpenFarLeft] #Horus
+I'll go check, Lord Vergil.[N]
+I'll be right back.[A]
+
+#*Horus leaves*
+[OpenFarLeft][MoveFarFarRight][ClearFace][OpenLeft][MoveMidLeft][OpenFarFarRight]
+
+#Horus
+What in the blazes[Beat][A][N]
+Everyone! T-the fort[Beat][N]
+it's under attack![A]
+
+[OpenFarRight] #Vergil
+To arms, everyone![A][N]
+We need to reinforce[N]
+the soldiers there![A][X]
+
+
+
+## PJ1OpeningScene4 
+#*`Novingale soldiers` kill the guards (scripted event battles of the remaining soldiers, with Tray's brother and Konatsu).*
+[OpenMidRight][LoadKonatsu]
+[OpenMidLeft][LoadPurpleSoldier]# Commander:
+Damn![A][N]
+This isn't looking good[Beat][A]
+
+[OpenMidRight] #Konatsu
+Where did these Novingale[N]
+bastards come from?[A][N]
+We can't hold them off much longer[Beat][N]
+What should I do, Commander?[A]
+
+[OpenMidLeft] #Commander
+Konatsu![A][N]
+I need you to get out of[N]
+here as soon as possible,[A][N]
+and find some help![A]
+
+[OpenMidRight] #Konatsu
+What?![A][N]
+I would never abandon my comrades[N]
+just to assume the role of an envoy![A]
+
+[OpenMidLeft] #Commander
+This is an order, Konatsu![N]
+You have no time to waste![A][N]
+Leave it to me and the rest[N]
+of my men to hold them off![A]
+
+[OpenMidRight] #Konatsu
+But that's[Beat][A]
+
+[OpenMidLeft] #Commander
+There's no time![A][N]
+You must go, or[N]
+we'll all die![A]
+
+[OpenMidRight] #Konatsu
+Y-Yes, Commander[Beat][A]
+[X]
+
+## PJ1OpeningScene5 
+#*Konatsu starts running off, and is blocked by an enemy Soldier.*
+
+[OpenMidLeft][LoadKonatsu]
+[OpenMidRight][LoadRedSoldier] #Soldier
+Where do you think[N]
+you're going, girl?[A]
+
+[OpenMidLeft] #Konatsu
+I'm going to send you to[N]
+hell with your buddies![A]
+[X]
+
+
+## PJ1OpeningScene6 
+#*Cutscene battle, Konatsu doubles and wins*
+
+[OpenMidLeft][LoadKonatsu]
+Damn it![A][N]
+I can't keep fighting like this![A][N]
+I need to find a way out[Beat][A]
+
+[OpenFarFarRight][LoadHorus][MoveMidRight] #*Horus arrives*
+What in the blazes[Beat]
+T-the fort[Beat]
+it's under attack! 
+
+[OpenMidLeft] #Konatsu
+H-[....]Hey![N]
+You're from Seraphyn, aren't you?[A][N]
+We need immediate help![A][N]
+Jus- [....]Wait a second, I know you![A][N]
+You're one of Prince[N]
+Vergil's retainers, right?[A]
+
+[OpenMidRight] #Horus
+Yes![A][N]
+Quickly, come with me![A]
+[X]
+
+
+
+## PJ1OpeningScene7
+#*Vergil's group arrives at the fort entrance*
+[OpenFarLeft][LoadKhris]
+[OpenLeft][LoadVergil]
+[OpenRight][LoadHorus]
+[OpenFarRight][LoadKonatsu]
+
+[OpenRight] #Horus
+It's as I feared, Lord Vergil.[A][N]
+The fort's been attacked[N]
+by Novingale soldiers.[A]
+
+[OpenLeft] #Vergil
+By Novingale?![A][N]
+What on Ternon is[N]
+going on here?[A]
+
+[OpenFarLeft] #Khris
+So the rumors were[N]
+true after all[Beat][A]
+
+[OpenRight] #Horus
+This soldier was part[N]
+of the border guard[A][N]
+and was holding off[N]
+the enemy for some time[Beat][A]
+
+[OpenFarRight] #Konatsu
+Ah, y-yes, Your Majesty![N]
+The name's Konatsu, milord![A][N]
+I'm a fine knight of Seraphyn![A][N]
+Well, I'm still an apprentice,[N]
+but[Beat] that's besides the point![A][N]
+You've got to help us,[N]
+Prince Vergil![A][N]
+We're under attack by[N]
+those damned Novinians![A][N]
+There's no telling how long my[N]
+comrades will keep them at bay for![A]
+
+[OpenLeft] #Vergil
+To arms, everyone![A][N]
+We need to reinforce[N]
+the soldiers there![A]
+[X]
+
+## PJ1OpeningScene8
+#*Screen moves to Lennox*
+
+[OpenMidLeft][LoadLennox]
+[OpenMidRight][LoadRedSoldier]
+Boss! We've got trouble![A]
+
+[OpenMidLeft] #Lennox
+What is it?[A]
+
+[OpenMidRight] #Henchman
+Enemy reinforcements are here, boss![A][N]
+And you won't believe who it is![A]
+
+[OpenMidLeft] #Lennox
+Just spit it out already![A][N]
+We can't waste any more time here![A]
+
+[OpenMidRight] #Henchman
+It's the little princeling![A]
+
+[OpenMidLeft] #Lennox
+What? The Prince?![A][N]
+What the hell is[N]
+he doing out here?![A]
+
+[OpenMidRight] #Henchman
+What do we do, boss?[....] Run?[A]
+
+[OpenMidLeft] #Lennox
+We can't just hightail[N]
+outta here, you idiot![A][N]
+We can't let anyone know[N]
+we aren't Novinian soldiers![A][N]
+Damn that prince![A][N]
+He's going to ruin[ToggleMouthMove]---[ToggleMouthMove][.....][N]
+wait a moment[Beat][ToggleSmile]![A][N]
+That brat's just provided us an[N]
+opportunity to please our superiors[Beat][A][N] 
+Hah![A]
+
+[OpenMidRight] #Henchman
+[Beat]Boss?[A][N]
+What do you mean?[A]
+
+[OpenMidLeft] #Lennox
+[ToggleSmile] 
+Heh heh[Beat]
+he'll be most delighted to[N]
+hear of Vergil's "sudden passing".[A][N]
+We'll save him the effort of[N]
+ensuring the prince's death himself,[A][N]
+AND kill two birds with one stone![A][N]
+Tell everyone to leave no witnesses![N]
+Kill them all![A]
+
+[OpenMidRight] #Henchman
+Got it, boss![A]
+[X]
+
+
+
+## PJ1OpeningScene9
+#*Screen moves to Vergil.*
+[OpenLeft][LoadKonatsu][OpenFarLeft][LoadKhris][OpenMidRight][LoadVergil]
+
+They're everywhere[Beat][N]
+What in the devils happened here?[A]
+
+[OpenLeft] #Konatsu
+No[Beat][N]
+Oh, no no no[Beat][A][N]
+This can't be happening[Beat][N]
+C-Commander[Beat][A]
+
+[OpenMidRight] #Vergil
+[Beat]Konatsu, stay with us for now.[A][N]
+I'm sorry about the potential[N]
+loss of your comrades,[A][N]
+but we have to rout these invaders![A][N]
+Purple Jaguars, move out![A]
+
+[OpenFarLeft] #Khris
+Ready whenever you are, milord![A]
+[X]
+
+
+
+
+## PJ1Turn2Scene 
+#Turn 2, Player Phase
+[OpenMidRight][LoadVergil]
+
+[OpenMidLeft][LoadHorus]
+[Beat][A] 
+
+[OpenMidRight] #Vergil
+Horus, is something wrong?[A]
+
+[OpenMidLeft] #Horus
+Lord Vergil, something's off[N]
+about these Novinian soldiers.[A][N]
+Their formation and stances[N]
+resemble Seraphyn's[Beat][A]
+
+[OpenMidRight] #Vergil
+What? 
+Could it be[Beat]?[A][N]
+no, no, it can't be[Beat][N]
+why would our own countrymen[Beat]?[A]
+
+[OpenMidLeft] #Horus
+I'm not sure either, Lord Vergil[Beat][A][N]
+but there's something off[N]
+about this entire situation.[A]
+[X]
+
+
+## PJ1BossQuote 
+#Boss Quote
+
+[OpenMidLeft][LoadLennox]
+What are you fools thinking,[A][N]
+trying to fight the[N]
+Novingale Empire?![A]
+[X]
+
+
+## PJBossQuoteVergil 
+#Lennox vs. Vergil
+
+[OpenMidLeft][LoadLennox]
+Heh heh heh[Beat][N]
+Prince Vergil![A][N]
+What perfect timing![N]
+The master will be pleased![A]
+
+[ClearFace][OpenMidRight][LoadVergil]
+Your fighting style[Beat][A][N]
+it's not Novinian.[N]
+Who the hell are you?![A]
+
+[ClearFace][OpenMidLeft][LoadLennox]
+Heh, there's no use[N]
+telling you, princeling![A][N]
+You'll be a dead man soon.[A]
+[X]
+
+
+
+## PJBossQuoteKonatsu 
+#Lennox vs. Konatsu
+[OpenMidRight][LoadKonatsu]
+You treacherous worm![A][N]
+Explain yourself or I[N]
+will rip your guts out![A]
+
+[ClearFace][OpenMidLeft][LoadLennox]
+A survivor?
+No worries, you can listen[N]
+to my explanation thoroughly[A][N]
+in the afterlife![A]
+
+[ClearFace][OpenMidRight][LoadKonatsu]
+If you think I'm[N]
+going down that easily,[A][N]
+you're sorely mistaken.[A][N]
+I'll make you feel the pain[N]
+of all the lives you've taken![A]
+[X]
+
+
+## PJBossQuoteKhris 
+#Lennox vs. Khris
+
+[OpenMidLeft][LoadLennox]
+A mercenary?[N]
+What are you doing here?![A][N]
+You'll regret fighting[N]
+against us Novinians![A]
+
+[ClearFace][OpenMidRight][LoadKhris]
+Underestimating your enemy[N]
+is a novice mistake, you dog.[A][N]
+Your stance is not like[N]
+the usual Novinian's.[A][N]
+Prepare yourself![A]
+[X]
+
+
+## PJBossQuoteTray 
+#Lennox vs. Tray
+
+[OpenMidRight][LoadTray]
+So you're their leader[Beat][A]
+
+[ClearFace][OpenMidLeft][LoadLennox]
+A kid?! Heh![A][N]
+Is this the best those[N]
+guards could get?![A]
+
+[ClearFace][OpenMidRight][LoadTray]
+I am no mere kid![A][N]
+You'll regret your[N]
+words, Novinian![A]
+[X]
+
+
+## PJBossQuoteHorus 
+#Lennox vs. Horus
+[OpenMidRight][LoadHorus]
+Surrender now![A][N]
+You are surrounded![A]
+
+[ClearFace][OpenMidLeft][LoadLennox]
+Hah![A][N]
+I'd rather die than[N]
+kneel to some brat tactician[A][N]
+who can't even walk![A]
+
+[ClearFace][OpenMidRight][LoadHorus]
+Hmph![A][N]
+Death is too[N]
+good for you![A][N]
+Perish![A]
+[X]
+
+
+## PJ1BossDeathQuote
+#Lennox defeated
+[OpenMidLeft][LoadLennox]
+N-No[Beat][A][N]
+It wasn't supposed[Beat][N]
+to end this way[Beat][A][N]
+Those deceitful[Beat][N]
+ambitious[Beat][A]
+[X]
+
+
+## PJ1EndingScene1 
+#*Inside the fortress*
+[OpenMidRight][LoadKonatsu]
+[OpenMidLeft][LoadTray]
+[HalfCloseEyes] All this mayhem[Beat] it's awful.[A]
+
+[OpenMidRight] #Konatsu
+Tray, did you find[N]
+any other survivors?[A][N]
+I can't find anybody here-[A]
+
+[OpenMidLeft] #Tray
+Same here, Konatsu.[A][N]
+All the guards[Beat] they're all dead.[A]
+
+[OpenMidRight] #Konatsu
+No[Beat] Commander[Beat][N]
+I couldn't fulfill your orders[Beat][A][N]
+[CloseEyes]I'm so sorry[Beat][A]
+
+[OpenMidLeft] #Tray
+It's alright, Konatsu[Beat][A][N]
+Those Novinian devils[Beat][N]
+They're the ones to blame.[A][N]
+I don't understand[Beat][A][N]
+Why attack now?[A][N]
+Why would they send a[N] 
+force here, of all places?[A]
+[X]
+
+
+## PJ1EndingScene2 
+#*Horus and Vergil arrive.*
+[OpenFarLeft][LoadKonatsu]
+[OpenLeft][LoadTray]
+[OpenRight][LoadHorus]
+[OpenFarRight][LoadVergil]
+
+[OpenLeft] #Tray
+Horus, Vergil[Beat][A][N]
+did you find anything?[A][N]
+Those Novinian beasts[Beat][N]
+why would they-[A]
+
+[OpenRight] #Horus
+Tray[Beat][A][N]
+we're certain that Novingale[N]
+has no involvement with this.[A]
+
+[OpenFarLeft] #Konatsu
+[Beat]What?![N]
+How could that be?[A]
+
+[OpenFarRight] #Vergil
+I know it sounds nonsensical, but[Beat][A][N]
+the invaders used Seraphyn[N]
+tactics and battle formations.[A][N]
+It's why their fighting style[N]
+seemed so[Beat] uncanny.[A]
+
+[OpenRight] #Horus
+Their choice of target[N]
+made no sense as well.[A][N]
+A small group of soldiers[N]
+attacking one border fort?[A][N]
+Amidst the confusion and chaos,[A][N]
+they had all the time in the[N]
+world to raid the nearby villages.[A]
+
+[OpenFarLeft] #Konatsu
+Now that I think about it,[A][N]
+it looked like they completely[N]
+ignored the villages[Beat][A][N]
+like they wanted a show of force.[A]
+
+[OpenRight] #Horus
+The only possibility is that[Beat][N]
+those soldiers were ours.[A][N]
+The "Novingale strike force"[N]
+was a group of Seraphyn soldiers.[A]
+
+[OpenFarLeft] #Konatsu
+Wait, so all the reports[N]
+of border attacks[Beat][A][N]
+were they all[Beat][N]
+planned by Seraphyn herself?[A]
+
+[OpenRight] #Horus
+[....]We aren't certain.[A][N]
+But with the evidence laid out,[N]
+it's a possibility.[A]
+
+[OpenLeft][ClearFace][LoadKhris]
+But why would Seraphyn[N]
+want to destroy herself[Beat]?[A][N]
+Our own soldiers killing each other?[A][N]
+Who would willingly follow[N]
+such vile orders?[A]
+
+[OpenFarRight] #Vergil
+Like Horus said, we aren't sure yet.[A][N]
+There's no way the Senate[N]
+could plan something like this.[A][N]
+It's most likely the work[N]
+of some rebels[Beat] I hope.[A]
+[X]
+
+
+##PJ1EndingScene3 
+#*Camera moves to the side, revealing a spy (Thief class?) listening to the conversation.*
+[OpenMidRight][LoadSpy]
+They're getting closer[N]
+to the core of it all[Beat][A][N]
+this isn't good.[A][N]
+I'll have to report back-[A]
+
+[OpenFarFarRight] #Sme (off-screen)
+Prince Vergil, watch out![N]
+There's an enemy nearby![A]
+
+[OpenMidRight]
+Gah![A]
+[X]
+
+
+## PJ1EndingScene4 
+#*Sme reveals herself, moving to the spy. In a scripted battle, she crits the spy, killing him.* *She then moves into the same room as the PJs*
+[OpenLeft][LoadVergil]
+#[OpenFarLeft][LoadKonatsu]
+[OpenMidRight][LoadSme] #Sme
+[CloseEyes]Huff[Beat] huff[Beat][A][N]
+[OpenEyes]G-greetings, Prince Vergil[Beat][A]
+
+[OpenLeft] #Vergil
+You[Beat]
+You're a Seraphyn[N]
+spy, aren't you?[A][N]
+Identify yourself.[A]
+
+[OpenMidRight] #Sme
+I'm Smeglinde[Beat][N]
+or Sme for short.[A][N]
+Lord Vergil, that scout[Beat][A][N]
+he was going to warn[N]
+his masters about you.[A]
+
+[OpenLeft] #Vergil
+[Beat]Seraphyn's covert forces are[N]
+investigating this matter too?[A][N]
+[Beat]this must be serious.[A][N]
+Sme, what else do you know?[A]
+
+[OpenMidRight] #Sme
+That spy's presence[Beat][A][N]
+that means my mistress was right.[A]
+
+[OpenLeft] #Vergil
+[....]Sme? Are you alright?[A]
+
+[OpenMidRight] #Sme
+[HalfCloseEyes]No, no, no[Beat][N]
+it can't be[Beat][A]
+
+[OpenLeft][MoveLeft] #Vergil
+Smeglinde?![....][N]
+Get it together![A][N]
+What's going on?[A]
+
+[OpenMidRight][OpenEyes] #Sme
+I-I'm fine, Prince Vergil[Beat][A][N]
+but we have to leave[Beat][N]
+It's not safe here![A]
+
+[OpenLeft] #Vergil
+Leave? I don't understand.[A][N]
+Why do we have to leave?[N]
+What's happening?[A]
+
+[OpenMidRight]
+We've killed too many of[N]
+their men, Lord Vergil[Beat][A][N]
+Soon, he'll realize[N]
+what's going on[Beat][A]
+
+[OpenLeft]
+Sme, you're not making sense.[A][N]
+What exactly is happening here?![A]
+
+[OpenMidRight] #Sme
+I-I[Beat][A][N]
+Prince Vergil, you think these[N]
+people are merely bandits or scouts,[A][N]
+but their influence[Beat][N]
+it spreads out far and wide.[A][N]
+You don't know the danger[Beat][N]
+we're all in.[A][N]
+You, me, His Majesty[Beat][A]
+
+[OpenLeft]
+[Beat]Father's in danger?[A][N]
+What kind of rebel group is this?![N]
+Answer me, Sme![A]
+
+[OpenMidRight]
+I-I can't[Beat] not now.[A][N]
+I know it's hard, but please,[N]
+just believe me, Prince Vergil.[A][N]
+I'll lead you to the[N]
+Morgana household.[A][N]
+Lady Lilac[Beat][A][N]
+I think[Beat]my Lady[Beat][A][N]
+has more beneficial[N]
+information for you.[A]
+
+[OpenLeft]
+Lilac?[N]
+She's part of the investigation too?[A][N]
+I'm not sure what to[N]
+think about this, Sme,[A][N]
+but if all you've said is true[Beat][A][N]
+by all means, lead the way.[A]
+
+[OpenFarFarLeft][LoadKonatsu]
+Lord Vergil! Wait![A]
+[MoveFarLeft]
+
+[OpenLeft] #Vergil
+Konatsu?[A][N]
+What is it?[A]
+
+[OpenFarLeft]
+[Beat]I'm the only one left,[N]
+and there's nowhere else for me[Beat][A][N]
+I want to join your group, milord![A]
+
+[OpenLeft] #Vergil
+You seek to find answers[N]
+to this too, don't you?[A][N]
+Very well.[A]
+You can join us,[A][N]
+but do not use this as an[N]
+excuse to get your vengeance.[A][N]
+Do you understand?[A]
+
+[OpenFarLeft]
+O-of course, Lord Vergil![A]
+#*Screen fades to black.*
+[X]
+
+
+## PJ1EndingScene5 
+#*Scene changes to inside the manor, a day after the incident*
+[OpenMidLeft][LoadLilac][CloseEyes]
+[Beat]Just where did Sme go?[A][N][OpenEyes]
+A mere investigation of the border[N]
+forts can't possibly take her that long[Beat][A]
+
+[OpenFarFarRight][LoadSme]
+Lady Lilac![A]
+
+[OpenMidLeft]
+Huh?[A][N]
+Sme, was that-[A]
+
+[OpenFarFarRight][MoveRight][OpenFarFarRight][LoadVergil][MoveFarRight] #*Sme runs on-screen, with Vergil trailing behind*
+
+[OpenRight]
+I-I'm so sorry about[N]
+my late arrival![A]
+
+[OpenMidLeft]
+What the[Beat] Vergil?![N]
+What are you doing here?[A]
+
+[OpenFarRight]
+[HalfCloseEyes] We were[Beat][A][N]
+attacked by fake Novinian soldiers at[N]
+the border fort Sme was investigating.[A]
+She told us[Beat][N]
+you knew more about this conspiracy.[A]
+
+[OpenMidLeft]
+Well, I-[A][N]
+First, you need to get some shut-eye![N]
+Gods, your posse looks lifeless![A][N]
+Come in - I'll let your group[N]
+spend the night here.[A]
+
+#*Screen turns black*
+[X]
+
