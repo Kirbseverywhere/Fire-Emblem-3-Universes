@@ -1,3 +1,5 @@
 #include "Playables\_MasterPlayablePortraitInstaller.event"
 
 #include "Enemies\_EnemyPortraitInstaller.event"
+
+#include "NPCs\_NPCPortraitInstaller.event"

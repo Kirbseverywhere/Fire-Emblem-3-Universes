@@ -15,7 +15,7 @@ AdamminnPreTimeskip:
 #incext PortraitFormatter "Adamminn_PreTimeskip.png"
 
 #define WILLIAM_PRETIMESKIP_PORTRAIT William 
-setMugEntry(WILLIAM_PRETIMESKIP_PORTRAIT, WilliamPreTimeskip, 3, 5, 3, 3) 
+setMugEntry(WILLIAM_PRETIMESKIP_PORTRAIT, WilliamPreTimeskip, 2, 5, 2, 3) 
 WilliamPreTimeskip:
 #incext PortraitFormatter "William_PreTimeskip.png"
 

@@ -30,7 +30,7 @@ IrvinePreTimeskip:
 #incext PortraitFormatter "Irvine_PreTimeskip.png"
 
 #define JONATHEN_PRETIMESKIP_PORTRAIT Jonathen
-setMugEntry(JONATHEN_PRETIMESKIP_PORTRAIT, JonathenPreTimeskip, 2, 6, 3, 4) 
+setMugEntry(JONATHEN_PRETIMESKIP_PORTRAIT, JonathenPreTimeskip, 3, 5, 3, 3) 
 JonathenPreTimeskip:
 #incext PortraitFormatter "Jonathen_PreTimeskip.png"
 
