@@ -287,10 +287,10 @@ RemoveGlowy:
 
 
 	ALIGN 4
-	MESSAGE page 4 at currentOffset
+//	MESSAGE page 4 at currentOffset
 	MSS_page4:
       #incbin "asm/mss_page4_runa.dmp"
-	  MESSAGE page 4 ends at currentOffset
+//	  MESSAGE page 4 ends at currentOffset
 	  POIN PersonalDataTable
 	  
 	ALIGN 4
