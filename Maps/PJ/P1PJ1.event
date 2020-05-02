@@ -9,9 +9,9 @@ Map:
 #incbin "P1PJ1_data.dmp"
 
 MapChanges:
-TileMap(0,2,15,1,1,Tile_Layer_2)
-TileMap(1,4,15,1,1,Tile_Layer_3)
-TileMap(2,3,13,1,1,Tile_Layer_4)
+TileMap(0,3,15,1,1,Tile_Layer_2)
+TileMap(1,5,15,1,1,Tile_Layer_3)
+TileMap(2,4,13,1,1,Tile_Layer_4)
 TileMapEnd
 
 Tile_Layer_2:

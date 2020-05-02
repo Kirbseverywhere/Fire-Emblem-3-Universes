@@ -15,12 +15,16 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(7, EndingScene, 8)
+TurnEventPlayer(8, ReinforcementThief, 4)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Door(4,13)
+Chest(WhiteGem,3,15)
+Chest(NormalShield,5,15)
 END_MAIN
 
 MiscBasedEvents:
@@ -40,39 +44,39 @@ Tutorial:
 END_MAIN
 
 PlayerUnits:
-UNIT Vergil VergilLord 0x00 Level(1, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus 0 0x00 Level(1, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Tray 0 0x00 Level(1, Ally, 0) [5,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Khris 0 0x00 Level(1, Ally, 0) [7,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Konatsu 0 0x00 Level(1, Ally, 0) [6,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vergil VergilLord 0x00 Level(1, Ally, 0) [7,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus 0 0x00 Level(1, Ally, 0) [7,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray 0 0x00 Level(1, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Khris 0 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Konatsu 0 0x00 Level(1, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 EnemyUnits:
-UNIT Lennox Mercenary Lennox Level(10,Enemy,0) [11,16] 0x0 0x0 0x0 0x1 [IronBlade] NeverMoveAI
-UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [3,1] 0 0 0 1 [IronSword] AttackInRangeAI
-UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [12,0] 0 0 0 1 [IronLance] AttackInRangeAI
-UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [8,5] 0 0 0 1 [IronSword] AttackInRangeAI
-UNIT P1PJ1Enemy Fighter Lennox Level(10,Enemy,1) [4,6] 0 0 0 1 [IronAxe] NoAI
+UNIT Lennox Mercenary Lennox Level(10,Enemy,0) [12,16] 0x0 0x0 0x0 0x1 [IronBlade] NeverMoveAI
+UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [4,1] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [13,0] 0 0 0 1 [IronLance] AttackInRangeAI
+UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [9,5] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy Fighter Lennox Level(10,Enemy,1) [5,6] 0 0 0 1 [IronAxe] NoAI
 UNIT P1PJ1Enemy Archer Lennox Level(10,Enemy,1) [6,9] 0 0 0 1 [IronBow] AttackInRangeAI
-UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [11,4] 0 0 0 1 [Javelin] AttackInRangeAI
-UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [1,3] 0 0 0 1 [Fire] NoAI
-UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [0,9] 0 0 0 1 [IronSword] NoAI
-UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [1,10] 0 0 0 1 [IronLance] NoAI
-UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [4,12] 0 0 0 1 [IronLance] NoAI
-UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [7,11] 0 0 0 1 [SteelLance] AttackInRangeAI
-UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [12,11] 0 0 0 1 [IronSword] AttackInRangeAI
-UNIT P1PJ1Enemy AxeKnight Lennox Level(10,Enemy,1) [8,13] 0 0 0 1 [HandAxe] NoAI
-UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [9,14] 0 0 0 1 [Fire] AttackInRangeAI
+UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [12,4] 0 0 0 1 [Javelin] AttackInRangeAI
+UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [2,3] 0 0 0 1 [Fire] NoAI
+UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [1,9] 0 0 0 1 [IronSword] NoAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [2,10] 0 0 0 1 [IronLance] NoAI
+UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [5,12] 0 0 0 1 [IronLance] NoAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [8,11] 0 0 0 1 [SteelLance] AttackInRangeAI
+UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [13,11] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy AxeKnight Lennox Level(10,Enemy,1) [9,13] 0 0 0 1 [HandAxe] NoAI
+UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [10,14] 0 0 0 1 [Fire] AttackInRangeAI
 UNIT
 
 NPCUnits:
-UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [4,0] 0 0 0 1 [IronSword] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [4,1] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [8,0] 0 0 0 1 [IronAxe] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [8,1] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [5,4] 0 0 0 1 [IronSword] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [6,4] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [7,4] 0 0 0 1 [IronAxe] NeverMoveAI
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [5,0] 0 0 0 1 [IronSword] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [5,1] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [9,0] 0 0 0 1 [IronAxe] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [9,1] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [6,4] 0 0 0 1 [IronSword] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [7,4] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [8,4] 0 0 0 1 [IronAxe] NeverMoveAI
 UNIT
 
 Traps1:
@@ -98,18 +102,18 @@ UNIT Vergil VergilLord 0 Level(0,Ally,0) [20,12] 0x0 0x0 1 REDA20R22 NoItems NoA
 UNIT
 
 OpeningCutsceneUnits3:
-UNIT 128 Soldier 0 Level(0,NPC,0) [10,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 129 Soldier 0 Level(0,NPC,0) [11,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 130 Soldier 0 Level(0,NPC,0) [10,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Soldier 0 Level(0,NPC,0) [11,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 130 Soldier 0 Level(0,NPC,0) [11,13] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 OpeningCutsceneUnits4:
-UNIT 132 Soldier 0 Level(0,Enemy,0) [10,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT 133 Soldier 0 Level(0,Enemy,0) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 132 Soldier 0 Level(0,Enemy,0) [11,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 133 Soldier 0 Level(0,Enemy,0) [13,13] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 OpeningCutsceneUnits5:
-UNIT Konatsu 0 0 Level(0,Ally,0) [9,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Konatsu 0 0 Level(0,Ally,0) [10,12] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 OpeningCutsceneUnits6:
@@ -257,6 +261,18 @@ Text(PJ1OpeningScene9)
 NoFade
 ENDA
 
+
+ThiefReinforcement:
+UNIT P1PJ1Enemy Thief 0 Level(10,Enemy,1) [1,15] 0 0 1 REDA1R15 [IronSword,Lockpick] LootingThiefAI
+UNIT
+
+ReinforcementThief:
+CAM1 [1,15]
+ENUN
+LOAD1 0x1 ThiefReinforcement
+ENUN
+NoFade
+ENDA
 
 
 EndingScene:

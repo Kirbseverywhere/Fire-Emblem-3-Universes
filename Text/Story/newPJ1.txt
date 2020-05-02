@@ -1,7 +1,8 @@
 ## PJ1OpeningNarration
 The Kingdom of Seraphyn, ruled by[N]
 the scions of House Siegfried for ages.[A][N]
-Though the Kingdom has enjoyed an era of peace,[N]
+Though the Kingdom has enjoyed an[N]
+era of peace,[A][N]
 tensions have been brewing lately.[A][N]
 Rumours have spread claiming that the[N]
 Novingale Empire has been conducting[N]
@@ -298,9 +299,9 @@ I can't keep fighting like this![A][N]
 I need to find a way out[Beat][A]
 
 [OpenFarFarRight][LoadHorus][MoveMidRight]#*Horus arrives*
-What in the blazes[Beat]
-T-the fort[Beat]
-it's under attack! 
+What in the blazes[Beat][A][N]
+T-the fort[Beat][N]
+it's under attack![A]
 
 [OpenMidLeft]#Konatsu
 H-[....]Hey![N]
