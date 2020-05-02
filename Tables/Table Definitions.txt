@@ -184,6 +184,16 @@
 #define ObjectiveDefeatBoss ObjectiveKillBoss
 #define ObjectiveOther 0x4
 
+//Generic Minimug Definitions
+#define DefaultMinimug 0
+#define RedWyvernMinimug 1
+#define GreenSoldierMinimug 2
+#define RedSoldierMinimug 3
+#define RedMonsterMinimug 4
+#define GreenShieldMinimug 5
+#define RedShieldMinimug 6
+#define BlueMonsterMinimug 7
+
   #define defWTAAdvantage(attackingType, defendingType) "BYTE attackingType defendingType"//"BYTE attackingType defendingType 0x0F 0x01"
   #define defWTADisadvantage(attackingType, defendingType) "BYTE defendingType attackingType" //"BYTE attackingType defendingType 0xF1 0xFF"
   #define endWTATable "BYTE 0xFF 0xFF"
