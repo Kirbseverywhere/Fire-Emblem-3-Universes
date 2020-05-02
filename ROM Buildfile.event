@@ -1,7 +1,7 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "Custom Definitions.event"
-	//PROTECT $109A8EC
+	PROTECT $BC03E0
 	#define USE_STRMAG_SPLIT
 
     ORG FreeSpace
