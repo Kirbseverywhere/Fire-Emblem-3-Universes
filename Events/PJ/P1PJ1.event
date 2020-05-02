@@ -70,13 +70,13 @@ UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [10,14] 0 0 0 1 [Fire] AttackInRan
 UNIT
 
 NPCUnits:
-UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [5,0] 0 0 0 1 [IronSword] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [5,1] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [9,0] 0 0 0 1 [IronAxe] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [9,1] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [6,4] 0 0 0 1 [IronSword] NeverMoveAI
-UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [7,4] 0 0 0 1 [IronLance] NeverMoveAI
-UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [8,4] 0 0 0 1 [IronAxe] NeverMoveAI
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [5,0] 0 0 0 1 [IronSword] [6,3,0,0]
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [5,1] 0 0 0 1 [IronLance][6,3,0,0]
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [9,0] 0 0 0 1 [IronAxe] [6,3,0,0]
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [9,1] 0 0 0 1 [IronLance] [6,3,0,0]
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [6,4] 0 0 0 1 [IronSword] [6,3,0,0]
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [7,4] 0 0 0 1 [IronLance] [6,3,0,0]
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [8,4] 0 0 0 1 [IronAxe] [6,3,0,0]
 UNIT
 
 Traps1:

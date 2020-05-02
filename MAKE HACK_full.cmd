@@ -54,6 +54,9 @@ echo Assembling
 cd "%base_dir%Event Assembler"
 ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%" --nocash-sym
 
+cd "%~dp0sym"
+java -jar %~dp0sym\SymCombo.jar "%~dp0FireEmblem3Universes.sym" "%~dp0FE8_clean.sym"
+
 if /I not [%1]==[quick] (
 
   @rem only do the following if this isn't a make hack quick
