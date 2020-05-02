@@ -1,4 +1,9 @@
 
+PUSH
+ORG $24D90
+jumpToHack(newAreAllegiancesAllied)
+POP
+
 ALIGN 4
 #include "AreAllegiancesAllied.lyn.event"
 
@@ -6,4 +11,3 @@ ALIGN 4
 EnemyNPCFlagLink:
 SHORT EnemyNPCFlag
 
-ALIGN 4
