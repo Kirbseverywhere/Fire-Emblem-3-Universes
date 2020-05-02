@@ -755,7 +755,7 @@ PaletteAssociationEntry(Michael,MichaelSoldierPaletteID)
 PaletteAssociationEntry(Eric,EricSoldierPaletteID)
 PaletteAssociationEntry(Tray,TraySoldierPaletteID)
 //PaletteAssociationEntry(Delam,DelamSoldierPaletteID)
-PaletteAssociationEntry(Assegai,AssegaiSoldierPaletteID)
+PaletteAssociationEntry(Serine,SerineSoldierPaletteID)
 PaletteAssociationEntry(Konatsu,KonatsuSoldierPaletteID)
 WORD 0 0
 ALIGN 4

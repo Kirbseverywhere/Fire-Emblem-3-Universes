@@ -124,8 +124,8 @@ Zaim[X]
 ## YanndahlNameTextID
 Yanndahl[X]
 
-## AssegaiNameTextID
-Assegai[X]
+## SerineNameTextID
+Serine[X]
 
 ## NargisiNameTextID
 Nargisi[X]
@@ -303,8 +303,8 @@ Zaim[X]
 A minor Seraphyn captain.[N]
 Loyal to his oaths.[X]
 
-## AssegaiDescTextID
-Assegai[X]
+## SerineDescTextID
+Serine[X]
 
 ## NargisiDescTextID
 Nargisi[X]

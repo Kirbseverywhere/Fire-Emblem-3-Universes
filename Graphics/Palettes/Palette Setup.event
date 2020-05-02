@@ -881,7 +881,7 @@
 	setPalette(WyvernBossWyvernPaletteID,Palette292)
 
 // Palette293
-	setPalette(AssegaiSoldierPaletteID,Palette293)
+	setPalette(SerineSoldierPaletteID,Palette293)
 
 // Palette294
 	setPalette(BrucknerSwordKnightPaletteID,Palette294)

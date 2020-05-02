@@ -356,7 +356,7 @@
 
 #define WyvernBossWyvernPaletteID 301
 
-#define AssegaiSoldierPaletteID 302
+#define SerineSoldierPaletteID 302
 
 #define BrucknerSwordKnightPaletteID 303
 

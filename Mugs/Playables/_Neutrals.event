@@ -18,3 +18,4 @@ setMugEntry(DEVVY_PORTRAIT,DevvyMug, 3, 5, 3, 3)
 DevvyMug:
 #incext PortraitFormatter "Devvy.png"
 
+#define SERINE_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT

@@ -91,7 +91,7 @@
 //Neutrals
 #define Augustus 37
 #define Lenato 38
-#define Assegai 39
+#define Serine 39
 #define Nargisi 40
 #define Devvy 41
 
@@ -101,7 +101,7 @@
 #define Leo Khris
 #define Diana Elle
 #define Anthony Anton
-#define KonatsuNPC Assegai
+#define KonatsuNPC Serine
 #define Innards Irvine
 #define Xenith Konatsu
 #define Glac Yanndahl

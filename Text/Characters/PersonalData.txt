@@ -720,22 +720,22 @@ Tall[X]
 [X]
 
 
-## AssegaiLike1
+## SerineLike1
 [X]
 
-## AssegaiLike2
+## SerineLike2
 [X]
 
-## AssegaiDislike1
+## SerineDislike1
 [X]
 
-## AssegaiDislike2
+## SerineDislike2
 [X]
 
-## AssegaiAge
+## SerineAge
 [X]
 
-## AssegaiHeight
+## SerineHeight
 [X]
 
 ## NargisiLike1
