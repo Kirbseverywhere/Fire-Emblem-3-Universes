@@ -133,58 +133,58 @@
 #define P1CH1Enemy 0x7F
 #define P1CH2Enemy 0x80
 #define P1CH3Enemy 0x86
-#define P1CH4Enemy 0x89
-#define P1CH5Enemy 0x8A
-#define P1CH6Enemy 0x8B
-#define P1CH7Enemy 0x8C
-#define P1CH8Enemy 0x8D
-#define P1CH9Enemy 0x8E
+#define P1CH4Enemy 0x87
+#define P1CH5Enemy 0x88
+#define P1CH6Enemy 0x89
+#define P1CH7Enemy 0x8A
+#define P1CH8Enemy 0x8B
+#define P1CH9Enemy 0x8C
 
-#define P2CH1Enemy 0x8F
-#define P2CH2Enemy 0x90
-#define P2CH3Enemy 0x91
-#define P2CH4Enemy 0x92
-#define P2CH5Enemy 0x93
-#define P2CH6Enemy 0x94
-#define P2CH7Enemy 0x95
+#define P2CH1Enemy 0x8D
+#define P2CH2Enemy 0x8E
+#define P2CH3Enemy 0x8F
+#define P2CH4Enemy 0x90
+#define P2CH5Enemy 0x91
+#define P2CH6Enemy 0x92
+#define P2CH7Enemy 0x93
 
-#define P1PJ1Enemy 0x96
+#define P1PJ1Enemy 0x94
 #define P1PJ2Enemy 0x81
-#define P1PJ3Enemy 0x97
+#define P1PJ3Enemy 0x95
 #define P1PJ4Enemy 0x84
-#define P1PJ5Enemy 0x98
-#define P1PJ6Enemy 0x99
-#define P1PJ7Enemy 0x9A
-#define P1PJ8Enemy 0x9B
-#define P1PJ9Enemy 0x9C
+#define P1PJ5Enemy 0x96
+#define P1PJ6Enemy 0x97
+#define P1PJ7Enemy 0x98
+#define P1PJ8Enemy 0x99
+#define P1PJ9Enemy 0x9A
 
-#define P2PJ1Enemy 0x9D
-#define P2PJ2Enemy 0x9E
-#define P2PJ3Enemy 0x9F
-#define P2PJ4Enemy 0xA0
-#define P2PJ5Enemy 0xA1
-#define P2PJ6Enemy 0xA2
-#define P2PJ7Enemy 0xA3
+#define P2PJ1Enemy 0x9B
+#define P2PJ2Enemy 0x9C
+#define P2PJ3Enemy 0x9D
+#define P2PJ4Enemy 0x9E
+#define P2PJ5Enemy 0x9F
+#define P2PJ6Enemy 0xA0
+#define P2PJ7Enemy 0xA1
 
 #define P1AB1Enemy 0x82
 #define P1AB2Enemy 0x83
 #define P1AB3Enemy 0x85
-#define P1AB4Enemy 0xA4
-#define P1AB5Enemy 0xA5
-#define P1AB6Enemy 0xA6
-#define P1AB7Enemy 0xA7
-#define P1AB8Enemy 0xA8
-#define P1AB9Enemy 0xA9
+#define P1AB4Enemy 0xA2
+#define P1AB5Enemy 0xA3
+#define P1AB6Enemy 0xA4
+#define P1AB7Enemy 0xA5
+#define P1AB8Enemy 0xA6
+#define P1AB9Enemy 0xA7
 
-#define P2AB1Enemy 0xAA
-#define P2AB2Enemy 0xAB
-#define P2AB3Enemy 0xAC
-#define P2AB4Enemy 0xAD
-#define P2AB5Enemy 0xAE
-#define P2AB6Enemy 0xAF
-#define P2AB7Enemy 0xB0
+#define P2AB1Enemy 0xA8
+#define P2AB2Enemy 0xA9
+#define P2AB3Enemy 0xAA
+#define P2AB4Enemy 0xAB
+#define P2AB5Enemy 0xAC
+#define P2AB6Enemy 0xAD
+#define P2AB7Enemy 0xAE
 
-#define P1PJ1NPC 0xB1
+#define P1PJ1NPC 0xAF
 
 // Items
 

@@ -244,19 +244,31 @@ Inventory_Ddg:
     RMenu(ST_Skills,0,ST_Skill1,0,0x7C,0x70,1,RTextLoop,SkillDescGetter+4)
   
   //Page 4
-RText_Page4:
+  RText_Page4:
+  
+  ST_Name4:
+    RMenu(0,ST_Class4,0,ST_Dislikes,0x18,0x50,0x0,NameDescGetter)
 
-ST_Name4:
-  RMenu(0,ST_Class4,0,0,0x28,0x50,0x0,NameDescGetter)
+  ST_Class4:
+    RMenu(ST_Name4,ST_Level4,0,ST_Age,0x6,0x68,0x6E8,ClassDescGetter)
 
-ST_Class4:
-  RMenu(ST_Name4,ST_Level4,0,0,0x6,0x68,0x6E8,ClassDescGetter)
+  ST_Level4:
+    RMenu(ST_Class4,ST_HP4,0,ST_Exp4,0x6,0x78,0x542)
 
-ST_Level4:
-  RMenu(ST_Class4,ST_HP4,0,ST_Exp4,0x6,0x78,0x542)
+  ST_Exp4:
+    RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Age,0x26,0x78,0x543)
 
-ST_Exp4:
-  RMenu(ST_Class4,ST_HP4,ST_Level4,0,0x26,0x78,0x543)
+  ST_HP4:
+    RMenu(ST_Level4,0,0,ST_Age,0x6,0x88,0x544)
 
-ST_HP4:
-  RMenu(ST_Level4,0,0,0,0x6,0x88,0x544)
+  ST_Likes:
+    RMenu(0,ST_Dislikes,ST_Name4,ST_Height,0x66,0x18,LikesDesc)
+	
+  ST_Dislikes:
+    RMenu(ST_Likes,ST_Age,ST_Name4,ST_Height,0x66,0x38,DislikesDesc)
+	
+  ST_Age:
+    RMenu(ST_Dislikes,0,ST_Class4,ST_Height,0x66,0x58,AgeDesc)
+	
+  ST_Height:
+    RMenu(ST_Dislikes,0,ST_Age,0,0xa6,0x58,HeightDesc)

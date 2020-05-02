@@ -166,7 +166,23 @@
 #define SwampBattleBG 20
 #define CaveBattleBG VolcanoBattleBG //we're overwriting this image with cave
 
+//Weather Definitions
+#define ClearWeather 0x0
+#define SnowyWeather 0x1
+#define BlizzardWeather 0x2
+#define RainyWeather 0x4
+#define LavaWeather 0x5
+#define SandstormWeather 0x6
+#define CloudyWeather 0x7
 
+
+//Objective Display Definitions
+#define ObjectiveSeize 0x0
+#define ObjectiveRout 0x1
+#define ObjectiveDefend 0x2
+#define ObjectiveKillBoss 0x3
+#define ObjectiveDefeatBoss ObjectiveKillBoss
+#define ObjectiveOther 0x4
 
   #define defWTAAdvantage(attackingType, defendingType) "BYTE attackingType defendingType"//"BYTE attackingType defendingType 0x0F 0x01"
   #define defWTADisadvantage(attackingType, defendingType) "BYTE defendingType attackingType" //"BYTE attackingType defendingType 0xF1 0xFF"

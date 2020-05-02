@@ -67,15 +67,26 @@ by having this unit arrive.[X]
 
 #include "Menu\SoundRoom.txt"
 
-#0xd4c FreeBlockBegins
+#0xd4c LikesText
 #first text ID in the free block
-[X]
+Likes[X]
+
+#0xd4d DislikesText
+Dislikes[X]
+
+#0xd4e HeightText
+Height:[X]
+
+#0xd4f AgeText
+Age:[X]
 
 #include "Story/ChapterNames.txt"
 
 #include "EngineHacks\EngineHacksText.txt"
 
 #include "Characters\CharacterText.txt"
+
+#include "Characters\PersonalData.txt"
 
 #include "Class\ClassText.txt"
 

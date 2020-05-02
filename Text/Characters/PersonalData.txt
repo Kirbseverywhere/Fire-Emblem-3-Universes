@@ -1,0 +1,741 @@
+## RodinLike1
+[X]
+
+## RodinLike2
+[X]
+
+## RodinDislike1
+[X]
+
+## RodinDislike2
+[X]
+
+## RodinAge
+[X]
+
+## RodinHeight
+[X]
+
+
+## MichaelLike1
+[X]
+
+## MichaelLike2
+[X]
+
+## MichaelDislike1
+[X]
+
+## MichaelDislike2
+[X]
+
+## MichaelAge
+[X]
+
+## MichaelHeight
+[X]
+
+
+## EricLike1
+[X]
+
+## EricLike2
+[X]
+
+## EricDislike1
+[X]
+
+## EricDislike2
+[X]
+
+## EricAge
+[X]
+
+## EricHeight
+[X]
+
+
+## KellyLike1
+[X]
+
+## KellyLike2
+[X]
+
+## KellyDislike1
+[X]
+
+## KellyDislike2
+[X]
+
+## KellyAge
+[X]
+
+## KellyHeight
+[X]
+
+
+## QuaSahntLike1
+[X]
+
+## QuaSahntLike2
+[X]
+
+## QuaSahntDislike1
+[X]
+
+## QuaSahntDislike2
+[X]
+
+## QuaSahntAge
+[X]
+
+## QuaSahntHeight
+[X]
+
+
+## IrvineLike1
+[X]
+
+## IrvineLike2
+[X]
+
+## IrvineDislike1
+[X]
+
+## IrvineDislike2
+[X]
+
+## IrvineAge
+[X]
+
+## IrvineHeight
+[X]
+
+
+## JonathenLike1
+[X]
+
+## JonathenLike2
+[X]
+
+## JonathenDislike1
+[X]
+
+## JonathenDislike2
+[X]
+
+## JonathenAge
+[X]
+
+## JonathenHeight
+[X]
+
+
+## KaidenLike1
+[X]
+
+## KaidenLike2
+[X]
+
+## KaidenDislike1
+[X]
+
+## KaidenDislike2
+[X]
+
+## KaidenAge
+[X]
+
+## KaidenHeight
+[X]
+
+
+## CleoLike1
+[X]
+
+## CleoLike2
+[X]
+
+## CleoDislike1
+[X]
+
+## CleoDislike2
+[X]
+
+## CleoAge
+[X]
+
+## CleoHeight
+[X]
+
+
+## RedsLike1
+[X]
+
+## RedsLike2
+[X]
+
+## RedsDislike1
+[X]
+
+## RedsDislike2
+[X]
+
+## RedsAge
+[X]
+
+## RedsHeight
+[X]
+
+
+## MimiLike1
+[X]
+
+## MimiLike2
+[X]
+
+## MimiDislike1
+[X]
+
+## MimiDislike2
+[X]
+
+## MimiAge
+[X]
+
+## MimiHeight
+[X]
+
+
+## ZoruaLike1
+[X]
+
+## ZoruaLike2
+[X]
+
+## ZoruaDislike1
+[X]
+
+## ZoruaDislike2
+[X]
+
+## ZoruaAge
+[X]
+
+## ZoruaHeight
+[X]
+
+
+## VergilLike1
+Piercing the skies[X]
+
+## VergilLike2
+[X]
+
+## VergilDislike1
+[X]
+
+## VergilDislike2
+[X]
+
+## VergilAge
+Old[X]
+
+## VergilHeight
+Tall[X]
+
+
+## KonatsuLike1
+[X]
+
+## KonatsuLike2
+[X]
+
+## KonatsuDislike1
+[X]
+
+## KonatsuDislike2
+[X]
+
+## KonatsuAge
+[X]
+
+## KonatsuHeight
+[X]
+
+
+## TrayLike1
+[X]
+
+## TrayLike2
+[X]
+
+## TrayDislike1
+[X]
+
+## TrayDislike2
+[X]
+
+## TrayAge
+[X]
+
+## TrayHeight
+[X]
+
+
+## HorusLike1
+[X]
+
+## HorusLike2
+[X]
+
+## HorusDislike1
+[X]
+
+## HorusDislike2
+[X]
+
+## HorusAge
+[X]
+
+## HorusHeight
+[X]
+
+
+## YanndahlLike1
+[X]
+
+## YanndahlLike2
+[X]
+
+## YanndahlDislike1
+[X]
+
+## YanndahlDislike2
+[X]
+
+## YanndahlAge
+[X]
+
+## YanndahlHeight
+[X]
+
+
+## LilacLike1
+[X]
+
+## LilacLike2
+[X]
+
+## LilacDislike1
+[X]
+
+## LilacDislike2
+[X]
+
+## LilacAge
+[X]
+
+## LilacHeight
+[X]
+
+
+## SmeglindeLike1
+[X]
+
+## SmeglindeLike2
+[X]
+
+## SmeglindeDislike1
+[X]
+
+## SmeglindeDislike2
+[X]
+
+## SmeglindeAge
+[X]
+
+## SmeglindeHeight
+[X]
+
+
+## KabbyLike1
+[X]
+
+## KabbyLike2
+[X]
+
+## KabbyDislike1
+[X]
+
+## KabbyDislike2
+[X]
+
+## KabbyAge
+[X]
+
+## KabbyHeight
+[X]
+
+
+## StephenLike1
+[X]
+
+## StephenLike2
+[X]
+
+## StephenDislike1
+[X]
+
+## StephenDislike2
+[X]
+
+## StephenAge
+[X]
+
+## StephenHeight
+[X]
+
+
+## AntonLike1
+[X]
+
+## AntonLike2
+[X]
+
+## AntonDislike1
+[X]
+
+## AntonDislike2
+[X]
+
+## AntonAge
+[X]
+
+## AntonHeight
+[X]
+
+
+## ZaimLike1
+[X]
+
+## ZaimLike2
+[X]
+
+## ZaimDislike1
+[X]
+
+## ZaimDislike2
+[X]
+
+## ZaimAge
+[X]
+
+## ZaimHeight
+[X]
+
+
+## KhrisLike1
+[X]
+
+## KhrisLike2
+[X]
+
+## KhrisDislike1
+[X]
+
+## KhrisDislike2
+[X]
+
+## KhrisAge
+[X]
+
+## KhrisHeight
+[X]
+
+
+## ElleLike1
+[X]
+
+## ElleLike2
+[X]
+
+## ElleDislike1
+[X]
+
+## ElleDislike2
+[X]
+
+## ElleAge
+[X]
+
+## ElleHeight
+[X]
+
+
+## ZaneLike1
+[X]
+
+## ZaneLike2
+[X]
+
+## ZaneDislike1
+[X]
+
+## ZaneDislike2
+[X]
+
+## ZaneAge
+[X]
+
+## ZaneHeight
+[X]
+
+
+## AdamminnLike1
+[X]
+
+## AdamminnLike2
+[X]
+
+## AdamminnDislike1
+[X]
+
+## AdamminnDislike2
+[X]
+
+## AdamminnAge
+[X]
+
+## AdamminnHeight
+[X]
+
+
+## WilliamLike1
+[X]
+
+## WilliamLike2
+[X]
+
+## WilliamDislike1
+[X]
+
+## WilliamDislike2
+[X]
+
+## WilliamAge
+[X]
+
+## WilliamHeight
+[X]
+
+
+## NobodyLike1
+[X]
+
+## NobodyLike2
+[X]
+
+## NobodyDislike1
+[X]
+
+## NobodyDislike2
+[X]
+
+## NobodyAge
+[X]
+
+## NobodyHeight
+[X]
+
+
+## JackLike1
+[X]
+
+## JackLike2
+[X]
+
+## JackDislike1
+[X]
+
+## JackDislike2
+[X]
+
+## JackAge
+[X]
+
+## JackHeight
+[X]
+
+
+## LazulLike1
+[X]
+
+## LazulLike2
+[X]
+
+## LazulDislike1
+[X]
+
+## LazulDislike2
+[X]
+
+## LazulAge
+[X]
+
+## LazulHeight
+[X]
+
+
+## PaulLike1
+[X]
+
+## PaulLike2
+[X]
+
+## PaulDislike1
+[X]
+
+## PaulDislike2
+[X]
+
+## PaulAge
+[X]
+
+## PaulHeight
+[X]
+
+
+## ReginaldLike1
+[X]
+
+## ReginaldLike2
+[X]
+
+## ReginaldDislike1
+[X]
+
+## ReginaldDislike2
+[X]
+
+## ReginaldAge
+[X]
+
+## ReginaldHeight
+[X]
+
+
+## VollsterLike1
+[X]
+
+## VollsterLike2
+[X]
+
+## VollsterDislike1
+[X]
+
+## VollsterDislike2
+[X]
+
+## VollsterAge
+[X]
+
+## VollsterHeight
+[X]
+
+
+## GregLike1
+[X]
+
+## GregLike2
+[X]
+
+## GregDislike1
+[X]
+
+## GregDislike2
+[X]
+
+## GregAge
+[X]
+
+## GregHeight
+[X]
+
+
+## OccamLike1
+[X]
+
+## OccamLike2
+[X]
+
+## OccamDislike1
+[X]
+
+## OccamDislike2
+[X]
+
+## OccamAge
+[X]
+
+## OccamHeight
+[X]
+
+
+## AugustusLike1
+[X]
+
+## AugustusLike2
+[X]
+
+## AugustusDislike1
+[X]
+
+## AugustusDislike2
+[X]
+
+## AugustusAge
+[X]
+
+## AugustusHeight
+[X]
+
+
+## LenatoLike1
+[X]
+
+## LenatoLike2
+[X]
+
+## LenatoDislike1
+[X]
+
+## LenatoDislike2
+[X]
+
+## LenatoAge
+[X]
+
+## LenatoHeight
+[X]
+
+
+## AssegaiLike1
+[X]
+
+## AssegaiLike2
+[X]
+
+## AssegaiDislike1
+[X]
+
+## AssegaiDislike2
+[X]
+
+## AssegaiAge
+[X]
+
+## AssegaiHeight
+[X]
+
+

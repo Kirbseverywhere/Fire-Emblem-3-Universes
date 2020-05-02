@@ -32,16 +32,23 @@ Tame the wyvern[N]
 by defeating it[X]
 
 ## P1PJ1Goal
-Survive Yanndahl's[N]
-murder attempt[X]
+Defend the fortress[X]
 
 ## P1PJ2Goal
+Survive Bruckner's[N]
+murder attempt[X]
+
+## P1PJ3Goal
+idk lol[X]
+
+## P1PJ4Goal
 Escape the foul[N]
 cave Vergil's in[X]
 
-## P1PJ3Goal
+## P1PJ5Goal
 Break out prisoners[N]
 and seize throne[X]
+
 
 ## P1AB1Goal
 Put down the revolt[N]

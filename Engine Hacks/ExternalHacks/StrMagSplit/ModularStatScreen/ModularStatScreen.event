@@ -18,9 +18,12 @@
   #include "Display Growths Options/Display Growths Options.txt"
  
   PUSH
-    ORG 0x205b24 //24 for stat screen
-      POIN MSS_page1|1 MSS_page2|1 MSS_page3|1 MSS_page4|1
+      ORG 0x205b24 //24 for stat screen
+        POIN MSS_page1|1 MSS_page2|1 MSS_page3|1 MSS_page4|1
 
+      ORG $88690
+        BYTE 4 //make 4 pages
+		
     ORG $86E44
 		jumpToHack(MSS_leftstatscreen);
 	  
@@ -140,6 +143,16 @@
       #incbin "asm/rtext_page4.dmp"
       POIN RText_Page4
 	  
+	    ORG $889f2  
+        SHORT $BD30
+        BL(RText_Page4_ladder) //this has to be in bl range somewhere
+		
+	  ORG $087184
+		  
+      ORG $88690
+        jumpToHack(PageNumberCheck)	  
+	  
+	  
 	ORG 0x87784 
 	  WORD 0x2003D74
 	  
@@ -178,8 +191,8 @@
 	//MESSAGE MSS_page3
 
   ALIGN 4
-  MSS_page4:
-    #incbin "asm/mss_page4_supports.dmp"
+//  MSS_page4:
+//    #incbin "asm/mss_page4_supports.dmp"
 	
   ALIGN 4
   MSS_leftstatscreen:
@@ -271,6 +284,20 @@ POP
 ALIGN 4
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
+
+
+	ALIGN 4
+	MESSAGE page 4 at currentOffset
+	MSS_page4:
+      #incbin "asm/mss_page4_runa.dmp"
+	  MESSAGE page 4 ends at currentOffset
+	  POIN PersonalDataTable
+	  
+	ALIGN 4
+    PageNumberCheck:
+      #include "asm/mss_threepageconditional.lyn.event"
+	  POIN PersonalDataTable
+
 
 // POP
 #else // _FE8_

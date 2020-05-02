@@ -24,7 +24,7 @@ END_MAIN
 LocationBasedEvents:
 Door(4,13)
 Chest(WhiteGem,3,15)
-Chest(NormalShield,5,15)
+Chest(PrecisionRing,5,15)
 END_MAIN
 
 MiscBasedEvents:
