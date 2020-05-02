@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="8800898A" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../../tilesets/8800898A.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="ChapterID" value="RouteSelect"/>
+   <property name="Main" value=""/>
+   <property name="MapID" value="RouteSelectMap"/>
+   <property name="ObjectType" value="TempleObjType"/>
+   <property name="PaletteID" value="TemplePalette1"/>
+   <property name="TileConfig" value="TempleTileConfig"/>
+  </properties>
+  <data encoding="csv">
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98,
+98,98,98,98,98,98,98,98,98,98,98,98,98,98,98
+</data>
+ </layer>
+</map>

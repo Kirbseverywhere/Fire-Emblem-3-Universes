@@ -3,7 +3,8 @@
 #include eastdlib.event
 
 SetChapterData(P1AB2,SnowObjType,0,SnowPalette1,SnowTileConfig,P1AB2Map,Map,5,0,P1AB2MapChanges)
-EventPointerTable(P1AB2MapChanges, MapChanges)
+Map_Pointer_Table(P1AB2Map, Map)
+MapChangesPointerTable(P1AB2MapChanges,MapChanges)
 Map:
 #incbin "P1AB2_data.dmp"
 

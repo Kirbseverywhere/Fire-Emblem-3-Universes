@@ -2,7 +2,7 @@
 
 #include eastdlib.event
 
-SetChapterData(P1CH3,FieldsObjType,0,FieldsPalette1,FieldsTileConfig,P1CH3Map,Map,5,0,P1CH3MapChanges)
+SetChapterData(P1CH3,VillageObjType,0,VillagePalette1,VillageTileConfig,P1CH3Map,Map,5,0,P1CH3MapChanges)
 Map_Pointer_Table(P1CH3Map, Map)
 MapChangesPointerTable(P1CH3MapChanges, MapChanges)
 

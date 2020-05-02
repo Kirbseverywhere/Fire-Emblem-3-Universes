@@ -8,8 +8,6 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
-#include "Story/ChapterNames.txt"
-
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]
@@ -72,6 +70,8 @@ by having this unit arrive.[X]
 #0xd4c FreeBlockBegins
 #first text ID in the free block
 [X]
+
+#include "Story/ChapterNames.txt"
 
 #include "EngineHacks\EngineHacksText.txt"
 

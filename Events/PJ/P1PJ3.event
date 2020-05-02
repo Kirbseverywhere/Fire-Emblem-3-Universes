@@ -1,6 +1,6 @@
 #include EAstdlib.event
 
-EventPointerTable(19,ThisChapter)
+EventPointerTable(P1PJ3,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents

@@ -13,13 +13,14 @@
     MESSAGE Used text space ends at currentOffset
 	
 	//Mugs
-	#include "Mugs\_MasterPortraitInstaller.event"
+	#include "Mugs/_MasterPortraitInstaller.event"
 	
 	//Music
 	#include "Music/_MusicInstaller.event"
 
     //CSV tables
     #include "Tables/Table Installer.event"
+	#include "Tables/External Tables.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks

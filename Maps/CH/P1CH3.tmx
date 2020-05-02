@@ -3,16 +3,16 @@
  <tileset firstgid="1" name="FE8 - Village - 0e000f10" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="../../../tilesets/0E000F10.png" trans="ffffff" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Tile Layer 1" width="20" height="17" visible="0">
+ <layer id="1" name="Tile Layer 1" width="20" height="17">
   <properties>
    <property name="Anims1" value="5"/>
    <property name="ChapterID" value="P1CH3"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="P1CH3MapChanges"/>
    <property name="MapID" value="P1CH3Map"/>
-   <property name="ObjectType1" value="FieldsObjType"/>
-   <property name="PaletteID" value="FieldsPalette1"/>
-   <property name="TileConfig" value="FieldsTileConfig"/>
+   <property name="ObjectType1" value="VillageObjType"/>
+   <property name="PaletteID" value="VillagePalette1"/>
+   <property name="TileConfig" value="VillageTileConfig"/>
   </properties>
   <data>
    <tile gid="612"/>
@@ -1410,7 +1410,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="Tile Layer 3" width="20" height="17">
+ <layer id="3" name="Tile Layer 3" width="20" height="17" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>

@@ -1,6 +1,9 @@
-EventPointerTable(32, PointerList)
+
+EventPointerTable(P1AB1, PointerList)
+
 // definitions so i don't die
 #define Rebel 0x82
+
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents

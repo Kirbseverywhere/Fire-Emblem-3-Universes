@@ -1,6 +1,5 @@
 
-EventPointerTable(17, PointerList)
-EventPointerTable(18, PointerList)
+EventPointerTable(P1PJ1, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
