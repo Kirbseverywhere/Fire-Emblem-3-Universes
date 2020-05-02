@@ -157,7 +157,7 @@ UnitMenuTable:
   //MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
   
   #ifdef __TERNONDEBUG__
-  MenuCommand(UMText_Win, UMDesc_Win, GreenText, $4F448, Win_Effect)
+  //MenuCommand(UMText_Win, UMDesc_Win, GreenText, $4F448, Win_Effect)
   
   #endif // __TERNONDEBUG__
   
