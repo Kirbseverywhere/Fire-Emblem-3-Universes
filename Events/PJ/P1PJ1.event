@@ -52,7 +52,7 @@ UNIT Konatsu 0 0x00 Level(1, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 EnemyUnits:
-UNIT Lennox Mercenary Lennox Level(10,Enemy,0) [12,16] 0x0 0x0 0x0 0x1 [IronBlade] NeverMoveAI
+UNIT Lennox AxeArmor Lennox Level(10,Enemy,0) [12,16] 0x2 0x0 0x0 0x1 [HandAxe] NeverMoveAI
 UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [4,1] 0 0 0 1 [IronSword] AttackInRangeAI
 UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [13,0] 0 0 0 1 [IronLance] AttackInRangeAI
 UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [9,5] 0 0 0 1 [IronSword] AttackInRangeAI
