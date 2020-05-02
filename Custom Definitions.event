@@ -92,6 +92,10 @@
 #define Augustus 37
 #define Lenato 38
 #define Assegai 39
+#define Nargisi 40
+#define Devvy 41
+
+
 
 //Backwards Compatibility
 #define Leo Khris

@@ -124,6 +124,18 @@ Zaim[X]
 ## YanndahlNameTextID
 Yanndahl[X]
 
+## AssegaiNameTextID
+Assegai[X]
+
+## NargisiNameTextID
+Nargisi[X]
+
+## DevvyNameTextID
+Devvy[X]
+
+
+
+
 ## RodinDescTextID
 Crown Prince of Novingale. Hides a grand[N]
 ambition he works on behind the scenes.[X]
@@ -290,6 +302,16 @@ Zaim[X]
 ## YanndahlDescTextID
 A minor Seraphyn captain.[N]
 Loyal to his oaths.[X]
+
+## AssegaiDescTextID
+Assegai[X]
+
+## NargisiDescTextID
+Nargisi[X]
+
+## DevvyDescTextID
+You... Devvysian knights...[X]
+
 
 #include NPCEnemyCharText.txt
 

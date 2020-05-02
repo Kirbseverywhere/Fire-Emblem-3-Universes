@@ -8,4 +8,13 @@ setMugEntry(LENATO_PRETIMESKIP_PORTRAIT, LenatoPreTimeskip, 3, 6, 3, 4)
 LenatoPreTimeskip:
 #incext PortraitFormatter "Lenato_PreTimeskip.png"
 
+#define NARGISI_PRETIMESKIP_PORTRAIT Nargisi
+setMugEntry(NARGISI_PRETIMESKIP_PORTRAIT,NargisiPreTimeskip, 3, 7, 4, 5)
+NargisiPreTimeskip:
+#incext PortraitFormatter "Nargisi_PreTimeskip.png"
+
+#define DEVVY_PORTRAIT Devvy
+setMugEntry(DEVVY_PORTRAIT,DevvyMug, 3, 5, 3, 3)
+DevvyMug:
+#incext PortraitFormatter "Devvy.png"
 

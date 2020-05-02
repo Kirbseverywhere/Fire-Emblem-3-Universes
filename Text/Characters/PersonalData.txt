@@ -738,4 +738,42 @@ Tall[X]
 ## AssegaiHeight
 [X]
 
+## NargisiLike1
+[X]
+
+## NargisiLike2
+[X]
+
+## NargisiDislike1
+[X]
+
+## NargisiDislike2
+[X]
+
+## NargisiAge
+[X]
+
+## NargisiHeight
+[X]
+
+## DevvyLike1
+[X]
+
+## DevvyLike2
+[X]
+
+## DevvyDislike1
+[X]
+
+## DevvyDislike2
+[X]
+
+## DevvyAge
+[X]
+
+## DevvyHeight
+[X]
+
+
+
 

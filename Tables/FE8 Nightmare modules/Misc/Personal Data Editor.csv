@@ -39,8 +39,8 @@ Occam,OccamLike1,OccamLike2,OccamDislike1,OccamDislike2,OccamAge,OccamHeight
 Augustus,AugustusLike1,AugustusLike2,AugustusDislike1,AugustusDislike2,AugustusAge,AugustusHeight
 Lenato,LenatoLike1,LenatoLike2,LenatoDislike1,LenatoDislike2,LenatoAge,LenatoHeight
 Assegai,AssegaiLike1,AssegaiLike2,AssegaiDislike1,AssegaiDislike2,AssegaiAge,AssegaiHeight
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+Nargisi,NargisiLike1,NargisiLike2,NargisiDislike1,NargisiDislike2,NargisiAge,NargisiHeight
+Devvy,DevvyLike1,DevvyLike2,DevvyDislike1,DevvyDislike2,DevvyAge,DevvyHeight
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
