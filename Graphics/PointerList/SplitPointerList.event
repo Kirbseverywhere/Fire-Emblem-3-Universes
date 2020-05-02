@@ -296,3 +296,129 @@ UpdatedVillagePalette1Data:
 
 
 ALIGN 4
+
+
+// ------------------------------- MAP ------------------------------------
+
+#define RouteSelectMap 0
+
+#define P1CH1Map 1
+#define P1CH2Map 2
+#define P1CH3Map 3
+#define P1CH4Map 4
+#define P1CH5Map 5
+#define P1CH6Map 6
+#define P1CH7Map 7
+#define P1CH8Map 8
+#define P1CH9Map 9
+
+#define P2CH1Map 10
+#define P2CH2Map 11
+#define P2CH3Map 12
+#define P2CH4Map 13
+#define P2CH5Map 14
+#define P2CH6Map 15
+#define P2CH7Map 16
+#define P2CH8Map 17
+
+#define P1PJ1Map 18
+#define P1PJ2Map 19
+#define P1PJ3Map 20
+#define P1PJ4Map 21
+#define P1PJ5Map 22
+#define P1PJ6Map 23
+#define P1PJ7Map 24
+#define P1PJ8Map 25
+#define P1PJ9Map 26
+
+#define P2PJ1Map 27
+#define P2PJ2Map 28
+#define P2PJ3Map 29
+#define P2PJ4Map 30
+#define P2PJ5Map 31
+#define P2PJ6Map 32
+#define P2PJ7Map 33
+#define P2PJ8Map 34
+
+#define P1AB1Map 35
+#define P1AB2Map 36
+#define P1AB3Map 37
+#define P1AB4Map 38
+#define P1AB5Map 39
+#define P1AB6Map 40
+#define P1AB7Map 41
+#define P1AB8Map 42
+#define P1AB9Map 43
+
+#define P2AB1Map 44
+#define P2AB2Map 45
+#define P2AB3Map 46
+#define P2AB4Map 47
+#define P2AB5Map 48
+#define P2AB6Map 49
+#define P2AB7Map 50
+#define P2AB8Map 51
+
+
+// ------------------------------- MAP CHANGES ----------------------------
+
+#define RouteSelectMapChanges 0
+
+#define P1CH1MapChanges 1
+#define P1CH2MapChanges 2
+#define P1CH3MapChanges 3
+#define P1CH4MapChanges 4
+#define P1CH5MapChanges 5
+#define P1CH6MapChanges 6
+#define P1CH7MapChanges 7
+#define P1CH8MapChanges 8
+#define P1CH9MapChanges 9
+
+#define P2CH1MapChanges 10
+#define P2CH2MapChanges 11
+#define P2CH3MapChanges 12
+#define P2CH4MapChanges 13
+#define P2CH5MapChanges 14
+#define P2CH6MapChanges 15
+#define P2CH7MapChanges 16
+#define P2CH8MapChanges 17
+
+#define P1PJ1MapChanges 18
+#define P1PJ2MapChanges 19
+#define P1PJ3MapChanges 20
+#define P1PJ4MapChanges 21
+#define P1PJ5MapChanges 22
+#define P1PJ6MapChanges 23
+#define P1PJ7MapChanges 24
+#define P1PJ8MapChanges 25
+#define P1PJ9MapChanges 26
+
+#define P2PJ1MapChanges 27
+#define P2PJ2MapChanges 28
+#define P2PJ3MapChanges 29
+#define P2PJ4MapChanges 30
+#define P2PJ5MapChanges 31
+#define P2PJ6MapChanges 32
+#define P2PJ7MapChanges 33
+#define P2PJ8MapChanges 34
+
+#define P1AB1MapChanges 35
+#define P1AB2MapChanges 36
+#define P1AB3MapChanges 37
+#define P1AB4MapChanges 38
+#define P1AB5MapChanges 39
+#define P1AB6MapChanges 40
+#define P1AB7MapChanges 41
+#define P1AB8MapChanges 42
+#define P1AB9MapChanges 43
+
+#define P2AB1MapChanges 44
+#define P2AB2MapChanges 45
+#define P2AB3MapChanges 46
+#define P2AB4MapChanges 47
+#define P2AB5MapChanges 48
+#define P2AB6MapChanges 49
+#define P2AB7MapChanges 50
+#define P2AB8MapChanges 51
+
+

@@ -7,38 +7,44 @@
     #define ChapterDataTable 0xC9A200
   #endif
 #endif
-#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*148)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; Map_Pointer_Table(MapID,MapPointer); POP" 
+#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*148)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP" 
 
 {
-#include "P1AB1.event"
+#include "AB\P1AB1.event"
 }
 {
-#include "P1AB2.event"
+#include "AB\P1AB2.event"
 }
 {
-#include "P1AB3.event"
+#include "CH\P1CH1.event"
 }
 {
-#include "P1PJ1.event"
+#include "CH\P1CH2.event"
 }
 {
-#include "P1PJ2.event"
+#include "CH\P1CH3.event"
 }
 {
-#include "P1PJ3.event"
+#include "CH\P1CH4.event"
 }
 {
-#include "P1PJ4.event"
+#include "PJ\P1PJ1.event"
 }
 {
-#include "P1RL1.event"
+#include "PJ\P1PJ2.event"
 }
 {
-#include "P1RL2.event"
+#include "PJ\P1PJ4.event"
 }
 {
-#include "P1RL3.event"
+#include "PJ\P1PJ5.event"
 }
 {
-#include "P1CW4.event"
+#include "PJ\P1PJ6.event"
+}
+{
+#include "PJ\P1PJ7.event"
+}
+{
+#include "PJ\P1PJ8.event"
 }

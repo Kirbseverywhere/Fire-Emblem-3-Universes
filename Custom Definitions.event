@@ -191,3 +191,63 @@
 // Amber Bears
 
 
+// Chapter ID definitions
+
+#define RouteSelect 0
+
+#define P1CH1 1
+#define P1CH2 2
+#define P1CH3 3
+#define P1CH4 4
+#define P1CH5 5
+#define P1CH6 6
+#define P1CH7 7
+#define P1CH8 8
+#define P1CH9 9
+
+#define P2CH1 10
+#define P2CH2 11
+#define P2CH3 12
+#define P2CH4 13
+#define P2CH5 14
+#define P2CH6 15
+#define P2CH7 16
+#define P2CH8 17
+
+#define P1PJ1 18
+#define P1PJ2 19
+#define P1PJ3 20
+#define P1PJ4 21
+#define P1PJ5 22
+#define P1PJ6 23
+#define P1PJ7 24
+#define P1PJ8 25
+#define P1PJ9 26
+
+#define P2PJ1 27
+#define P2PJ2 28
+#define P2PJ3 29
+#define P2PJ4 30
+#define P2PJ5 31
+#define P2PJ6 32
+#define P2PJ7 33
+#define P2PJ8 34
+
+#define P1AB1 35
+#define P1AB2 36
+#define P1AB3 37
+#define P1AB4 38
+#define P1AB5 39
+#define P1AB6 40
+#define P1AB7 41
+#define P1AB8 42
+#define P1AB9 43
+
+#define P2AB1 44
+#define P2AB2 45
+#define P2AB3 46
+#define P2AB4 47
+#define P2AB5 48
+#define P2AB6 49
+#define P2AB7 50
+#define P2AB8 51
