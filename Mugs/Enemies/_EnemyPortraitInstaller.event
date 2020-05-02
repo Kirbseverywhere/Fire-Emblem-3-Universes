@@ -18,10 +18,10 @@ setMugEntry(AUREA_PORTRAIT, AureaMug, 3, 5, 3, 3)
 AureaMug:
 #incext PortraitFormatter "Aurea.png"
 
-#define YANNDAHL_PORTRAIT Yanndahl
-setMugEntry(YANNDAHL_PORTRAIT, YanndahlMug, 3, 5, 3, 3) 
-YanndahlMug:
-#incext PortraitFormatter "Yanndahl.png"
+#define LENNOX_PORTRAIT 0x55
+setMugEntry(LENNOX_PORTRAIT, LennoxMug, 3, 5, 3, 3) 
+LennoxMug:
+#incext PortraitFormatter "Lennox.png"
 
 #define BRUCKNER_PORTRAIT Bruckner
 setMugEntry(BRUCKNER_PORTRAIT, BrucknerMug, 3, 5, 3, 3) 

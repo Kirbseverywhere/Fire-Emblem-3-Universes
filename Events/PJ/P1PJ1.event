@@ -40,16 +40,40 @@ Tutorial:
 END_MAIN
 
 PlayerUnits:
-UNIT Vergil VergilLord 0x00 Level(1, Ally, 0) [10,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Khris 0 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Tray 0 0x00 Level(1, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus 0 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Konatsu 0 0x00 Level(1, Ally, 0) [11,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Vergil VergilLord 0x00 Level(1, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Horus 0 0x00 Level(1, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray 0 0x00 Level(1, Ally, 0) [5,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Khris 0 0x00 Level(1, Ally, 0) [7,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Konatsu 0 0x00 Level(1, Ally, 0) [6,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 EnemyUnits:
+UNIT Lennox Mercenary Lennox Level(10,Enemy,0) [11,16] 0x0 0x0 0x0 0x1 [IronBlade] NeverMoveAI
+UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [3,1] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [12,0] 0 0 0 1 [IronLance] AttackInRangeAI
+UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [8,5] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy Fighter Lennox Level(10,Enemy,1) [4,6] 0 0 0 1 [IronAxe] NoAI
+UNIT P1PJ1Enemy Archer Lennox Level(10,Enemy,1) [6,9] 0 0 0 1 [IronBow] AttackInRangeAI
+UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [11,4] 0 0 0 1 [Javelin] AttackInRangeAI
+UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [1,3] 0 0 0 1 [Fire] NoAI
+UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [0,9] 0 0 0 1 [IronSword] NoAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [1,10] 0 0 0 1 [IronLance] NoAI
+UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [4,12] 0 0 0 1 [IronLance] NoAI
+UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [7,11] 0 0 0 1 [SteelLance] AttackInRangeAI
+UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [12,11] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy AxeKnight Lennox Level(10,Enemy,1) [8,13] 0 0 0 1 [HandAxe] NoAI
+UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [9,14] 0 0 0 1 [Fire] AttackInRangeAI
 UNIT
 
+NPCUnits:
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [4,0] 0 0 0 1 [IronSword] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [4,1] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [8,0] 0 0 0 1 [IronAxe] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [8,1] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC SwordArmor Vergil Level(10,NPC,1) [5,4] 0 0 0 1 [IronSword] NeverMoveAI
+UNIT P1PJ1NPC LanceArmor Vergil Level(10,NPC,1) [6,4] 0 0 0 1 [IronLance] NeverMoveAI
+UNIT P1PJ1NPC AxeArmor Vergil Level(10,NPC,1) [7,4] 0 0 0 1 [IronAxe] NeverMoveAI
+UNIT
 
 Traps1:
 ENDTRAP
@@ -59,14 +83,50 @@ Traps2:
 ENDTRAP
 ALIGN 4
 
+
+OpeningCutsceneUnits1:
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [13,19] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [12,20] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [15,20] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [21,21] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [23,20] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 128 Civilian_2 0 Level(0,NPC,0) [17,21] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningCutsceneUnits2:
+UNIT Vergil VergilLord 0 Level(0,Ally,0) [20,12] 0x0 0x0 1 REDA20R22 NoItems NoAI
+UNIT
+
+OpeningCutsceneUnits3:
+UNIT 128 Soldier 0 Level(0,NPC,0) [10,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 129 Soldier 0 Level(0,NPC,0) [11,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 130 Soldier 0 Level(0,NPC,0) [10,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningCutsceneUnits4:
+UNIT 132 Soldier 0 Level(0,Enemy,0) [10,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT 133 Soldier 0 Level(0,Enemy,0) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningCutsceneUnits5:
+UNIT Konatsu 0 0 Level(0,Ally,0) [9,12] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+OpeningCutsceneUnits6:
+UNIT 134 Soldier 0 Level(0,Enemy,0) [12,16] 0x0 0x0 0x1 REDA12R16 NoItems NoAI
+UNIT
+
+ALIGN 4
 BeginningScene:
-REMU Kabby
-REMU Stephen
-REMU Anthony
+
+REMU Yanndahl
 REMU Lilac
 REMU Sme
-REMU Yanndahl
+REMU Kabby
+REMU Stephen
+REMU Anton
 REMU Zaim
+
 SetBackground(Black)
 SVAL 0xB 0xFFFFFFFF
 TUTORIALTEXTBOXSTART
@@ -76,35 +136,128 @@ TEXTEND
 REMA
 FADI 4
 
-SetBackground(Black) //TEMP, this will be a cutscene map eventually
-Text(PJ1OpeningScene1)
-REMA
+//Cutscene using P1PJ7 map, as this is the capitol
 
+MUSC Comrades
+LOMA P1PJ7
+CAM1 [19,23]
+LOAD1 0 OpeningCutsceneUnits1
+ENUN
+FADU 10
+LOAD2 0 OpeningCutsceneUnits2
+ENUN
+Text(PJ1OpeningScene1)
+MOVE 0 Vergil [20,23]
+ENUN
+FADI 10
+
+LOMA P1PJ1 //reset back to the actual map
+CLEA 0
+CLEN 0
+CLEE 0
 SetBackground(Salehs_House)
+
 Text(PJ1OpeningScene2)
 
+FADI 10
+EndConvo
 SetBackground(Plain)
+MUSC Advance
+FADU 10
+
 Text(PJ1OpeningScene3)
+
+FADI 10
+LOAD1 0 OpeningCutsceneUnits3
+ENUN
+LOAD2 0 OpeningCutsceneUnits5
+ENUN
+LOAD1 0 OpeningCutsceneUnits4
+ENUN
+CAM1 [11,16]
+UNIT_COLORS 3 0 3
+EndConvo
+FADU 10
+
+MUSC Tension
+
+//*`Novingale soldiers` kill the guards (scripted event battles of the remaining soldiers, with Tray's brother and Konatsu).*
+
+StartBattle
+NormalDamage(0,25)
+EndAttack
+
+FIGHT_MAP 132 128 IronLance False 
+
+StartBattle
+NormalDamage(0,25)
+EndAttack
+
+FIGHT_MAP 133 129 IronLance False 
 
 Text(PJ1OpeningScene4)
 
+MOVE 0 Konatsu [11,16]
+ENUN
+
+LOAD1 0 OpeningCutsceneUnits6
+ENUN
+
 Text(PJ1OpeningScene5)
 
+StartBattle
+NormalDamage(0,5)
+CriticalHit(0,15)
+EndAttack
+
+FIGHT_MAP Konatsu 134 IronLance False
+
+SetBackground(Fort)
 Text(PJ1OpeningScene6)
+
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+UNIT_COLORS 0 0 0
+LOAD1 0 EnemyUnits
+ENUN
+
+SetBackground(Fort_Outside)
+FADU 10
 
 Text(PJ1OpeningScene7)
 
+FADI 10
+
+LOAD2 0 PlayerUnits
+ENUN
+LOAD1 1 EnemyUnits
+ENUN
+LOAD1 1 NPCUnits
+ENUN
+
+EndConvo
+FADU 10
+
+CAM1 Lennox
+CUMO Lennox
+STAL 40
+CURE
+
 Text(PJ1OpeningScene8)
 
-Text(PJ1OpeningScene9)
-EndConvo
+CAM1 Vergil
+CUMO Vergil
+STAL 40
+CURE
 
-LOAD2 0x1 PlayerUnits
-ENUN
-//LOAD1 0x1 EnemyUnits
-//ENUN
+Text(PJ1OpeningScene9)
+
 NoFade
 ENDA
+
+
 
 EndingScene:
 SetBackground(Fort)

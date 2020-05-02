@@ -123,7 +123,7 @@
 [LoadWyvernBoss] = [LoadFace][0x42][0x01]
 [LoadAurea] = [LoadFace][0x45][0x01]
 
-[LoadLennox] = [LoadFace][0x1][0x01]
+[LoadLennox] = [LoadFace][0x55][0x01]
 [LoadBruckner] = [LoadFace][0x51][0x01]
 [LoadBearBoss] = [LoadFace][0x52][0x01]
 [LoadRuna] = [LoadFace][0x54][0x1]

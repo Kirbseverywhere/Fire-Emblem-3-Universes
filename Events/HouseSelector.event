@@ -1,5 +1,5 @@
 
-EventPointerTable(0x1, PointerList)
+EventPointerTable(RouteSelect, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -116,21 +116,21 @@ BEQ 2 1 0xC
 LOAD1 0x1 AmberBearsUnits 
 ASMC CreateUnitCustomizerMenu
 ENUN
-MNC2 31
+MNC2 P1AB1
 GOTO 3
 
 LABEL 1 // Red Lobsters
 LOAD1 0x1 RedLobstersUnits
 ASMC CreateUnitCustomizerMenu
 ENUN
-MNC2 1
+MNC2 P1CH1
 GOTO 3
 
 LABEL 2 // Purple Jaguars
 LOAD1 0x1 PurpleJaguarUnits 
 ASMC CreateUnitCustomizerMenu
 ENUN
-MNC2 16
+MNC2 P1PJ1
 
 LABEL 3 // End
 ENUN

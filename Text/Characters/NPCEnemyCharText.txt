@@ -117,3 +117,18 @@ Orion[X]
 
 ## RunaName
 Runa[X]
+
+## LennoxName
+Lennox[X]
+
+## LennoxDesc
+LennoxDesc[X]
+
+## NovinianName
+Novinian[X]
+
+## NovinianDesc
+A soldier from Novingvale.[X]
+
+## SeraphynDesc
+A soldier of Seraphyn.[X]
