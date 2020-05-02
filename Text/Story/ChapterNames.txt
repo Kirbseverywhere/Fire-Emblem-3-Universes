@@ -1,51 +1,59 @@
 
-# 0x160 IntroChName
+# 0x160 RouteSelectChName
 Select a Route: Ternon[X]
 
-## P1RL1ChName
+## P1CH1ChName
 Ch. 1: The People's Prince[X]
 
-## P1RL2ChName
+## P1CH2ChName
 Ch. 2: Caught in the Web[X]
 
-## P1RL3ChName
+## P1CH3ChName
 Ch. 3: Heart of a Dragon[X]
 
-## P1RL4ChName
+## P1CH4ChName
 Ch. 4: Swaying Hearts[X]
 
-## P1RL5ChName
+## P1CH5ChName
 Ch. 5: Bad Blood[X]
 
-## P1RL6ChName
+## P1CH6ChName
 Ch. 6: Pride Before the Fall[X]
 
-## P1RL7ChName
+## P1CH7ChName
 Ch. 7: Event Horizon[X]
 
-## P2RL8ChName
+## P1CH8ChName
 Ch. 8: Hanging On to Life[X]
 
-## P2RL9ChName
+## P1CH9ChName
 Chapter 9[X]
 
-## P2RL10ChName
+## P2CH1ChName
 Chapter 10[X]
 
-## P2RL11ChName
+## P2CH2ChName
 Chapter 11[X]
 
-## P2RL12ChName
+## P2CH3ChName
 Chapter 12[X]
 
-## P2RL13ChName
+## P2CH4ChName
 Chapter 13[X]
 
-## P2RL14ChName
+## P2CH5ChName
 Chapter 14[X]
 
-## P2RL15ChName
+## P2CH6ChName
+Chapter 15[X]
+
+## P2CH7ChName
+Chapter 16[X]
+
+## P2CH8ChName
 Final Chapter[X]
+
+
 
 ## P1PJ1ChName
 Ch. 1: Tragic Beginnings[X]
@@ -68,29 +76,37 @@ Ch. 6: Revelation[X]
 ## P1PJ7ChName
 Ch. 7: Smash[X]
 
-## P2PJ8ChName
+## P1PJ8ChName
 Ch. 8: Awakening[X]
 
-## P2PJ9ChName
+## P1PJ9ChName
 Ch. 9: New Mystery[X]
 
-## P2PJ10ChName
+## P2PJ1ChName
 Ch. 10: Lurking in the Shadows[X]
 
-## P2PJ11ChName
+## P2PJ2ChName
 Ch. 11: A New Dawn[X]
 
-## P2PJ12ChName
+## P2PJ3ChName
 Ch. 12: The Path to Radiance[X]
 
-## P2PJ13ChName
+## P2PJ4ChName
 Ch. 13: The Sacred Throne[X]
 
-## P2PJ14ChName
+## P2PJ5ChName
 Ch. 14: The Divine Lightning[X]
 
-## P2PJ15ChName
+## P2PJ6ChName
+Chapter 15[X]
+
+## P2PJ7ChName
+Chapter 16[X]
+
+## P2PJ8ChName
 Final: The Pierced Skies[X]
+
+
 
 ## P1AB1ChName
 Ch. 1: Seeping Pride[X]
@@ -113,26 +129,33 @@ Ch. 6: Hunting the Apex[X]
 ## P1AB7ChName
 Ch. 7: Emerging Hell[X]
 
-## P2AB8ChName
+## P1AB8ChName
 Ch. 8: Attempt at a Life[X]
 
-## P2AB9ChName
+## P1AB9ChName
 Ch. 9: Blood of Bear and Lobster[X]
 
-## P2AB10ChName
+
+## P2AB1ChName
 Ch. 10: Taking the Keep[X]
 
-## P2AB11ChName
+## P2AB2ChName
 Ch. 11: Lobsters Behind a Pot[X]
 
-## P2AB12ChName
+## P2AB3ChName
 Ch. 12: Reform to Revolt[X]
 
-## P2AB13ChName
+## P2AB4ChName
 Ch. 13: Crazed King[X]
 
-## P2AB14ChName
+## P2AB5ChName
 Ch. 14: Homecoming Quarrel[X]
 
-## P2AB15ChName
+## P2AB6ChName
+Chapter 15[X]
+
+## P2AB7ChName
+Chapter 16[X]
+
+## P2AB8ChName
 Final: Hevursa United[X]
