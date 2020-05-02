@@ -60,6 +60,7 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+ENUT EnemyNPCFlag
 SetBackground(Black)
 SETVAL 0xB 0xFFFFFFFF
 TUTORIALTEXTBOXSTART
@@ -91,7 +92,7 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-
+ENUF EnemyNPCFlag
 EscapeCapturedCheck(Xenith,XenithCapturedFlag)
 EscapeCapturedCheck(Tray,TrayCapturedFlag)
 EscapeCapturedCheck(Horus,HorusCapturedFlag)
