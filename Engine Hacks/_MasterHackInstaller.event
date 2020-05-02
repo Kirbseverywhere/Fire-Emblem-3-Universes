@@ -26,8 +26,9 @@ PUSH
     /*ORG 0x72886
   SHORT 0 0*/
   
-  ORG 0x24D8E
-  BYTE 0xC0
+  //make NPC units and player units not allied
+  //ORG 0x24D8E
+  //BYTE 0xC0
    
   ORG $4e70;
     SHORT 0x1c20 //mov r0, r4
@@ -251,6 +252,11 @@ POP
   
   ALIGN 4
   #include "ToT/CharSpecificAnims/Installer.event"
+  
+  ALIGN 4
+  #include "ToT/EnemyNPCs/EnemyNPCs.event"
+  
+  
   
   
 

@@ -230,6 +230,8 @@
 #define GuideUnlockHPBars 0xD5
 #define GuideReadHPBars 0xD6
 
+#define EnemyNPCFlag 0xD7
+
 
 // Red Lobsters
 
