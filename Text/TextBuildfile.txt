@@ -75,10 +75,10 @@ Likes[X]
 Dislikes[X]
 
 #0xd4e HeightText
-Height:[X]
+Height[X]
 
 #0xd4f AgeText
-Age:[X]
+Age[X]
 
 #include "Story/ChapterNames.txt"
 
