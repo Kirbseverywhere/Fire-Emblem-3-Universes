@@ -9,3 +9,7 @@
 
 #include "RemoveSkillMenu/RemoveSkillMenu.event"
 
+#ifdef __TERNONDEBUG__
+  #include "DebugSkillEdit/DebugSkillEdit.event"
+#endif
+

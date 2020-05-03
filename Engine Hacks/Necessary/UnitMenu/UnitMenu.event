@@ -156,12 +156,12 @@ UnitMenuTable:
   //MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
   
   #ifdef __TERNONDEBUG__
-  //MenuCommand(UMText_Win, UMDesc_Win, GreenText, $4F448, Win_Effect)
-  
+    MenuCommand(UM_EditSkill, UM_EditSkillDesc, OrangeText, $04F449, SkillDebugCommand_OnSelect)
+
   #endif // __TERNONDEBUG__
   
   //MESSAGE Win_Usability
-  
+    
   UM_Wait
 
   UM_Separator 
