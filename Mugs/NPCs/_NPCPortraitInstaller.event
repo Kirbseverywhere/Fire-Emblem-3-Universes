@@ -1,4 +1,4 @@
-#define BARRYMORE_PORTRAIT 0x51
+#define BARRYMORE_PORTRAIT 0x56
 setMugEntry(BARRYMORE_PORTRAIT, BarrymoreMug, 3, 5, 3, 3)
 BarrymoreMug:
 #incext PortraitFormatter "Barrymore.png"

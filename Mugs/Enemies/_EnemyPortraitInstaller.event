@@ -23,12 +23,12 @@ setMugEntry(LENNOX_PORTRAIT, LennoxMug, 3, 5, 3, 3)
 LennoxMug:
 #incext PortraitFormatter "Lennox.png"
 
-#define BRUCKNER_PORTRAIT Bruckner
+#define BRUCKNER_PORTRAIT 0x51
 setMugEntry(BRUCKNER_PORTRAIT, BrucknerMug, 3, 5, 3, 3) 
 BrucknerMug:
 #incext PortraitFormatter "Bruckner.png"
 
-#define BEAR_PORTRAIT BearBoss
+#define BEAR_PORTRAIT 0x52
 setMugEntry(BEAR_PORTRAIT, BearMug, 2, 3, 5, 0)
 BearMug:
 #incext PortraitFormatter "Bear.png"

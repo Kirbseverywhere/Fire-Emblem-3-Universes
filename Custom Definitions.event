@@ -248,17 +248,15 @@
 // Purple Jaguars
 
 #define KonatsuCapturedFlag 0xC0
-#define XenithCapturedFlag KonatsuCapturedFlag
 #define TrayCapturedFlag 0xC1
 #define HorusCapturedFlag 0xC2
-#define GlacCapturedFlag 0xC3
-#define DaffCapturedFlag 0xC4
+#define YanndahlCapturedFlag 0xC3
+#define LilacCapturedFlag 0xC4
 #define SmeglindeCapturedFlag 0xC5
 #define KabbyCapturedFlag 0xC6
 #define StephenCapturedFlag 0xC7
 #define AntonCapturedFlag 0xC8
 #define ZaimCapturedFlag 0xC9
-#define MystCapturedFlag ZaimCapturedFlag
 #define KhrisCapturedFlag 0xCA
 
 // Amber Bears

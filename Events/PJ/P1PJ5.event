@@ -1,6 +1,6 @@
 #include EAstdlib.event
 
-EventPointerTable(P1PJ3,ThisChapter)
+EventPointerTable(P1PJ5,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -80,91 +80,12 @@ UNIT
 ALIGN 4
 BeginningScene:
 
-SetBackground(Black)
-SETVAL 0xB 0xFFFFFFFF
-TUTORIALTEXTBOXSTART
-MUSC The_Beginning
-TEXTSHOW PJ3OpeningNarration
-TEXTEND
 
-FADI 10
-MUSC 0x2C
-CAM1 [15,1]
-EndConvo
-LOAD1 0x1 OpeningCutsceneDarach
-ENUN
-
-CUMO [15,1]
-STAL 40
-CURE
-
-Text(PJ3Opening1)
-
-FADI 10
-CAM1 [13,12]
-CLEE 0
-LOAD1 0x1 OpeningCutsceneDarach2
-ENUN
-LOAD1 0x1 OpeningCutscenePrisoners
-ENUN
-FADU 10
-
-TEXTSTART
-TEXTSHOW PJ3Opening2
-TEXTEND
-
-MOVE 0 Darach [13,10]
-ENUN
-MOVE 0 Augustus [13,14]
-ENUN
-
-TEXTCONT
-TEXTEND
-
-MOVE 0 128 [12,10]
-
-TEXTCONT
-TEXTEND
-
-MOVE 0 Darach [10,5]
-MOVE 0 128 [10,5]
-ENUN
-
-TEXTCONT
-TEXTEND
-
-FADI 10
-DISA Darach
-DISA Augustus
-CLEE 0
-CLEN 0
-SetBackground($17)
-FADU 10
-Text(PJ3Opening3)
-FADI 10
-SetBackground($15)
-FADU 10
-Text(PJ3Opening4)
-FADI 10
 LOAD1 0x1 Prisoners
 ENUN
 LOAD1 0x1 Bad
 ENUN
-CAM1 [3,12]
-MUSC Tension
-EndConvo
-LOAD2 0x1 Units
-ENUN
-CAM1 [15,1]
-ENUN
-CUMO Darach
-STAL 40
-CURE
-Text(PJ3Opening5)
 
-CAM1 Horus
-ENUN
-Text(PJ3Opening6)
 
 CALL $591FD8 //GotoPrepScreen but without the forced ENDA
 CALL ReloadInCapturedUnits
@@ -172,9 +93,8 @@ NoFade
 ENDA
 
 EndingScene:
-Text(EndOfDemo)
+MNC2 P1PJ6
 NoFade
-MNC2 19
 ENDA
 
 // Events
@@ -182,10 +102,10 @@ AugustusGet:
 CHECK_ACTIVE
 SVAL 1 Khris
 BNE 1 1 0xC
-	Text(PJ3TalkAugustusRecruitKhris)
+	
 GOTO 2
 LABEL 1
-	Text(PJ3TalkAgustusRecruit)
+	
 LABEL 2
 TurnAlly(Augustus)
 NoFade
@@ -195,10 +115,10 @@ LenatoGet:
 CHECK_ACTIVE
 SVAL 1 Vergil
 BNE 1 1 0xC
-	Text(PJ3TalkLenatoRecruitVergil)
+	
 GOTO 2
 LABEL 1
-	Text(PJ3TalkLenatoRecruit)
+	
 LABEL 2
 TurnAlly(Lenato)
 NoFade
@@ -246,12 +166,12 @@ UNIT
 
 ALIGN 4
 ReloadInCapturedUnits:
-CHECK_EVENTID XenithCapturedFlag
+CHECK_EVENTID KonatsuCapturedFlag
 BEQ 1 0 0xC
 	//If captured, do things here
 	ENUT 0x28
-	REVEAL Xenith
-	LOAD1 0 PrisonerXenith
+	REVEAL Konatsu
+	LOAD1 0 PrisonerKonatsu
 	ENUN
 LABEL 1
 CHECK_EVENTID TrayCapturedFlag
@@ -270,20 +190,20 @@ BEQ 3 0 0xC
 	LOAD1 0 PrisonerHorus
 	ENUN
 LABEL 3
-CHECK_EVENTID GlacCapturedFlag
+CHECK_EVENTID ZaimCapturedFlag
 BEQ 4 0 0xC
 	//If captured, do things here
 	ENUT 0x28
-	REVEAL Glac
-	LOAD1 0 PrisonerGlac
+	REVEAL Zaim
+	LOAD1 0 PrisonerZaim
 	ENUN
 LABEL 4
-CHECK_EVENTID DaffCapturedFlag
+CHECK_EVENTID LilacCapturedFlag
 BEQ 5 0 0xC
 	//If captured, do things here
 	ENUT 0x28
-	REVEAL Daff
-	LOAD1 0 PrisonerDaff
+	REVEAL Lilac
+	LOAD1 0 PrisonerLilac
 	ENUN
 LABEL 5
 CHECK_EVENTID SmeglindeCapturedFlag
@@ -318,12 +238,12 @@ BEQ 9 0 0xC
 	LOAD1 0 PrisonerAnton
 	ENUN
 LABEL 9
-CHECK_EVENTID MystCapturedFlag
+CHECK_EVENTID YanndahlCapturedFlag
 BEQ 10 0 0xC
 	//If captured, do things here
 	ENUT 0x28
-	REVEAL Myst
-	LOAD1 0 PrisonerMyst
+	REVEAL Yanndahl
+	LOAD1 0 PrisonerYanndahl
 	ENUN
 LABEL 10
 CHECK_EVENTID KhrisCapturedFlag
@@ -343,9 +263,8 @@ LABEL 12
 NoFade
 ENDA
 
-
-PrisonerXenith:
-UNIT Xenith 0 0 Level(0,Ally,0) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+PrisonerKonatsu:
+UNIT Konatsu 0 0 Level(0,Ally,0) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 PrisonerTray:
@@ -356,12 +275,12 @@ PrisonerHorus:
 UNIT Horus 0 0 Level(0,Ally,0) [17,15] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
-PrisonerGlac:
-UNIT Glac 0 0 Level(0,Ally,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+PrisonerZaim:
+UNIT Zaim 0 0 Level(0,Ally,0) [17,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
-PrisonerDaff:
-UNIT Daff 0 0 Level(0,Ally,0) [16,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+PrisonerLilac:
+UNIT Lilac 0 0 Level(0,Ally,0) [16,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 PrisonerSmeglinde:
@@ -380,8 +299,8 @@ PrisonerAnton:
 UNIT Anton 0 0 Level(0,Ally,0) [1,6] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
-PrisonerMyst:
-UNIT Myst 0 0 Level(0,Ally,0) [1,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+PrisonerYanndahl:
+UNIT Yanndahl 0 0 Level(0,Ally,0) [1,5] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 PrisonerKhris:

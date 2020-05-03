@@ -1,4 +1,3 @@
-#include EAstdlib.event
 
 EventPointerTable(P1PJ4,ThisChapter)
 
@@ -14,25 +13,36 @@ POIN Units Units
 POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
+Units:
+UNIT Vergil Brigand 0x00 Level(1, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [2,11] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [1,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [3,10] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [0,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [1,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [3,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Tray LanceKnight 0x00 Level(1, Ally, 0) [4,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
 
 
 TurnBasedEvents:
+TurnEventPlayer(0, EventAfterPrep, 1)
+TurnEventNPC(0, BearReveal, 2) //stupid macro broke, shoved after bear phase instead
+//TurnEventPlayer(0, BearReveal, 3)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(7,KonatsuGet,Daff,Konatsu)
 END_MAIN
 
 LocationBasedEvents:
-Door(1,14)
-Door(2,14)
-Door(7,4)
-Door(8,4)
+Escape(19,3)
+Chest(LightBrand,8,0)
+Chest(Hammer,16,15)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatAll(EndingScene)
 END_MAIN
 
 Dunno:
@@ -49,22 +59,53 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Units
-LOAD1 0x1 Enemies
-LOAD1 0x1 KonatsuGroup
+ENUT EnemyNPCFlag
+
+REVEAL Kabby
+REVEAL Stephen
+REVEAL Anton
+REVEAL Leo
+REVEAL Zaim
+REVEAL Yanndahl
+
+LOAD2 0x1 Units
 ENUN
-NoFade
-CALL $591FD8 //GotoPrepScreen
-ENDA
+LOAD1 0x1 Bad
+ENUN
+GotoPrepScreen
+
 
 EndingScene:
-MNC2 19
+ENUF EnemyNPCFlag
+
+EscapeCapturedCheck(Konatsu,KonatsuCapturedFlag)
+EscapeCapturedCheck(Tray,TrayCapturedFlag)
+EscapeCapturedCheck(Horus,HorusCapturedFlag)
+EscapeCapturedCheck(Zaim,ZaimCapturedFlag)
+EscapeCapturedCheck(Lilac,LilacCapturedFlag)
+EscapeCapturedCheck(Smeglinde,SmeglindeCapturedFlag)
+EscapeCapturedCheck(Kabby,KabbyCapturedFlag)
+EscapeCapturedCheck(Stephen,StephenCapturedFlag)
+EscapeCapturedCheck(Anton,AntonCapturedFlag)
+EscapeCapturedCheck(Yanndahl,YanndahlCapturedFlag)
+EscapeCapturedCheck(Khris,KhrisCapturedFlag)
+
+MUSC Victory
+
+MNC2 P1PJ5
 ENDA
 
 // Events
+EventAfterPrep:
+LOAD2 0x1 Creep
+ENUN
+NoFade
+ENDA
 
-KonatsuGet:
-TurnAlly(Konatsu)
+BearReveal:
+LOAD1 0x1 BearGroup
+CAM1 BearBoss
+FlashCursor(BearBoss,60)
 NoFade
 ENDA
 
@@ -73,56 +114,34 @@ ENDA
 // Scripted Fights
 
 // Units
-
-Units:
-UNIT Vergil SwordKnight 0x00 Level(1, Ally, 0) [12,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [11,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [13,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [14,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [10,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [11,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [13,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [11,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [10,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [12,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Horus SwordKnight 0x00 Level(1, Ally, 0) [13,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+Bad:
+UNIT Bruckner LanceKnight 0x00 Level(15, Enemy, 0) [18,3] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] NeverMoveAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [17,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
+UNIT 0x84 Mage Bruckner Level(12, Enemy, 1) [2,8] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [3,6] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [10,12] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 Soldier Bruckner Level(12, Enemy, 1) [16,14] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [IronAxe] GuardTileAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [6,5] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 AxeArmor Bruckner Level(12, Enemy, 1) [15,12] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
 UNIT
 
-Enemies:
-UNIT Larissa LanceKnight 0x00 Level(13, Enemy, 0) [7,5] 0x2 0x00 0x0 0x00 [Javelin, EnergyRing] NeverMoveAI 
-UNIT 0x86 LanceKnight Larissa Level(13, Enemy, 1) [15,9] 0x0 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x86 PegasusKnight Larissa Level(12, Enemy, 1) [13,7] 0x00 0x00 0x0 0x00 [SlimLance] AttackInRangeAI 
-UNIT 0x86 PegasusKnight Larissa Level(12, Enemy, 1) [5,8] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x86 PegasusKnight Larissa Level(12, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
-UNIT 0x86 Mercenary Larissa Level(12, Enemy, 1) [4,16] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x86 Mercenary Larissa Level(12, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
-UNIT 0x86 Mercenary Larissa Level(12, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
-UNIT 0x86 LanceArmor Larissa Level(12, Enemy, 1) [3,13] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x86 AxeArmor Larissa Level(12, Enemy, 1) [0,13] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x86 SwordArmor Larissa Level(12, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x86 LanceArmor Larissa Level(12, Enemy, 1) [10,14] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x86 Mage Larissa Level(12, Enemy, 1) [8,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x86 Mage Larissa Level(12, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
-UNIT 0x86 Mage Larissa Level(12, Enemy, 1) [10,6] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x86 Soldier Larissa Level(12, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x86 Soldier Larissa Level(12, Enemy, 1) [1,12] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
-UNIT 0x86 Soldier Larissa Level(12, Enemy, 1) [6,18] 0x00 0x00 0x0 0x00 [SlimLance] AttackInRangeAI 
-UNIT 0x86 Archer Larissa Level(12, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x86 Archer Larissa Level(12, Enemy, 1) [7,11] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x86 Archer Larissa Level(12, Enemy, 1) [3,1] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
-UNIT 0x86 Troubadour Larissa Level(12, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [Heal] AttackInRangeAI 
-UNIT 0x86 Troubadour Larissa Level(12, Enemy, 1) [2,19] 0x00 0x00 0x0 0x00 [Heal] AttackInRangeAI 
-UNIT 0x86 Troubadour Larissa Level(12, Enemy, 1) [2,6] 0x00 0x00 0x0 0x00 [Heal] AttackInRangeAI 
-UNIT 0x86 BowArmor Larissa Level(12, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x86 AxeArmor Larissa Level(12, Enemy, 1) [9,1] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x86 LanceKnight Larissa Level(12, Enemy, 1) [10,0] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
+BearGroup:
+UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
 UNIT
 
-KonatsuGroup:
-UNIT Konatsu LanceKnight 0x00 Level(14, Enemy, 0) [1,10] 0x2 0x00 0x0 0x00 [Horseslayer, Axereaver] AttackInRangeAI 
+Creep:
+UNIT Kabby LanceKnight 0x00 Level(1, Ally, 0) [4,12] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
-
 
 // Shop Data
 
-MESSAGE Events end at offset currentOffset
