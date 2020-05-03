@@ -32,4 +32,8 @@ DevvyMug:
 
 #define ZUZKA_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
 
-#define VOLTA_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define VOLTA_PRETIMESKIP_PORTRAIT Volta
+setMugEntry(VOLTA_PRETIMESKIP_PORTRAIT,VoltaPreTimeskip, 3, 7, 4, 5)
+VoltaPreTimeskip:
+#incext PortraitFormatter "Volta_PreTimeskip.png"
+
