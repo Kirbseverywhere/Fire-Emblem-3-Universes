@@ -37,6 +37,9 @@ Mov[X]
 You can't equip[NL]
 this accessory.[X]
 
+## LordMustEscapeLastText
+This unit must escape last.[X]
+
 #include "UnitMenuText.txt"
 
 #include "SkillDescText.txt"

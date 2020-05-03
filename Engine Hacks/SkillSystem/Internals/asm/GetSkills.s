@@ -73,6 +73,33 @@ no_personal:
 	add  r5, #1
 
 no_class:
+	@ learned skills, up to 4
+	cmp r6, #0x46
+	bhi generic_unit
+
+	ldr r0, =BWLTable
+	lsl r1, r6, #4 @ r1 = char*0x10
+	add r0, r1
+	add r0, #1 @start at byte 1, not 0
+	mov r2, #0
+
+lop:
+	ldrb r1, [r0, r2]
+
+	cmp  r1, #0
+	beq  continue
+
+	strb r1, [r5]
+	add  r5, #1
+
+continue:
+	cmp r2, #3
+	bge lop_end
+
+	add r2, #1
+	b lop
+
+lop_end:
 	mov  r0, #0
 	strb r0, [r5]
 

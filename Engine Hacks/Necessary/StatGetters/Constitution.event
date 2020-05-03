@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pConModifiers: // Consitition
-	POIN prAddUnitBaseCon prAddUnitConBonus
+	POIN prAddUnitBaseCon prAddUnitConBonus prItemPassiveCon (prGetItemConBonus-1)
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
@@ -23,5 +23,11 @@ _prAddCharConBonus: // byte 0x13 in ROM char data is personal consition bonus
 
 prAddUnitConBonus:
 	rAdd(rSByteAt(UNIT_CON_BONUS))
+
+#include "_asm/GetItemConBonus.lyn.event" 
+
+ALIGN 4
+prItemPassiveCon:
+	rPassiveStatBoosts(STAT_CON)
 
 #endif // MODULAR_GETTER_CONSITUTION_EVENT

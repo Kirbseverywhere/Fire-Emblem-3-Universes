@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck prAddAccessoryMovement
+	POIN prAddUnitBaseMov prAddUnitMovBonus (prGetItemMovBonus-1) prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck prAddAccessoryMovement
 	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff-1
 	#endif
