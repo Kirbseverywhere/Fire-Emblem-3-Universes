@@ -16,20 +16,29 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(0, Rein1Event, 6)
-TurnEventPlayer(0, Rein2Event, 8)
-TurnEventPlayer(0, Rein3Event, 11)
+//TURN 0x0 Reinforcements1[10,11] 0x0
+TurnEventPlayer(0, BrigandReinforcementsEvent, 9)
+TurnEventPlayer(0, ThiefReinforcementsEvent, 7)
 END_MAIN
-
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+//ReinforcementEvent(Wave1)
+
+/*Wave1:
+UNIT Rebel Soldier Rynod Level(10, Enemy, True) [16,12] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT*/
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Seize(17,0)
+Village(0xA,Village1,11,5) 
 END_MAIN
 
+Village1:
+VillageEventMoney(PlaceholderText,0x5,5000)
+ENDA
+
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -44,92 +53,158 @@ ENDTRAP
 
 ALIGN 4
 
-//Units
 Units:
-UNIT Elle LadyLord 0x00 Level(1, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [5,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [4,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [5,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin 0x00 Level(1, Ally, 0) [4,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Diana LadyLord Diana Level(1, Ally, False) [16,0] 0x00 0x00 0x0 0x00 [Rapier, SteelSword] NoAI
+UNIT Seth Paladin Diana Level(1, Ally, False) [14,0] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT Seth Paladin Diana Level(1, Ally, False) [14,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Diana Level(1, Ally, False) [15,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Diana Level(1, Ally, False) [17,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Diana Level(1, Ally, False) [16,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Diana Level(1, Ally, False) [15,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
-EnemiesStart:
-UNIT Ilyron LanceArmor 0x00 Level(12, Enemy, 1) [16,3] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
-UNIT 0x85 Mage 0x00 Level(12, Enemy, 1) [12,11] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x85 Mage 0x00 Level(12, Enemy, 1) [15,11] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x85 Mage 0x00 Level(12, Enemy, 1) [13,12] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x85 Mage 0x00 Level(12, Enemy, 1) [14,12] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x85 Mage 0x00 Level(12, Enemy, 1) [22,14] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI 
-UNIT 0x85 Archer 0x00 Level(12, Enemy, 1) [21,15] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x85 Archer 0x00 Level(12, Enemy, 1) [22,12] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x85 Archer 0x00 Level(12, Enemy, 1) [20,10] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x85 Sniper 0x00 Level(1, Enemy, 1) [22,11] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x85 Sniper 0x00 Level(1, Enemy, 1) [24,14] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
-UNIT 0x85 Mercenary 0x00 Level(12, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x85 Mercenary 0x00 Level(12, Enemy, 1) [6,11] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x85 Hero 0x00 Level(1, Enemy, 1) [3,10] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
-UNIT 0x85 Myrmidon 0x00 Level(12, Enemy, 1) [8,12] 0x00 0x00 0x0 0x00 [SlimSword] AttackInRangeAI 
-UNIT 0x85 AxeArmor 0x00 Level(12, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x85 LanceArmor 0x00 Level(12, Enemy, 1) [4,11] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x85 WyvernRider 0x00 Level(12, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x85 WyvernRider 0x00 Level(12, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
-UNIT 0x85 LanceArmor 0x00 Level(12, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x85 LanceArmor 0x00 Level(12, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI 
-UNIT 0x85 Myrmidon 0x00 Level(13, Enemy, 1) [18,1] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+DianaSquad:
+UNIT Diana LadyLord Diana Level(1, Ally, False) [17,1] 0x00 0x00 0x0 0x00 [Rapier] NoAI
+UNIT Lazul 0x0 Diana Level(10, Ally, 0)   [16,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Reginald 0x0 Diana Level(10, Ally, 0)   [17,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
-T3Reinforcements:
-UNIT 0x85 PegasusKnight 0x00 Level(12, Enemy, 1) [0,9] 0x00 0x00 1 REDA1R9 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 PegasusKnight 0x00 Level(12, Enemy, 1) [0,7] 0x00 0x00 1 REDA1R7 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 WyvernRider 0x00 Level(12, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+GuardSquad:
+UNIT Rynod Hero Rynod Level(1, Enemy, False) [6,12] 0x00 0x00 0x0 0x00 [SteelSword,HandAxe] NeverMoveAI
+UNIT 0x83 Mercenary Rynod Level(10, Enemy, True) [10,5] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
+UNIT 0x83 Mercenary Rynod Level(10, Enemy, True) [8,0] 0x00 0x00 0x0 0x00 [SteelSword,Vulnerary] PursueWithoutHeedAI
+UNIT 0x83 Fighter Rynod Level(9, Enemy, True) [9,3] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT 0x83 Soldier Rynod Level(11, Enemy, True) [16,5] 0x2 0x00 0x00 0x0  [Axereaver] AttackInRangeAI
+UNIT 0x83 LanceKnight Rynod Level(10, Enemy, True) [18,6] 0x00 0x00 0x00 0x0 [SteelLance] AttackInRangeAI
+UNIT 0x83 DarkMage_F Rynod Level(10, Enemy, True) [16,9] 0x2 0x00 0x00 0x0 [Flux] PursueWithoutHeedAI
+UNIT 0x83 LanceKnight_F Rynod Level(9, Enemy, True) [15,11] 0x2 0x00 0x00 0x0 [Horseslayer, IronLance] PursueWithoutHeedAI
+UNIT 0x83 Archer Rynod Level(10, Enemy, True) [10,11] 0x00 0x00 0x00 0x0 [Longbow] PursueWithoutHeedAI
+UNIT 0x83 Deacon Rynod Level(12, Enemy, True) [9,10] 0x2 0x00 0x00 0x0 [Mend,Shine] [0x0E,0x12]
+UNIT 0x83 LanceArmor Rynod Level(10, Enemy, True) [6,10] 0x00 0x00 0x00 0x0 [Javelin] NeverMoveAI
+UNIT 0x83 BowKnight Rynod Level(1, Enemy, True) [4,6] 0x00 0x00 0x00 0x0 [IronBow] AttackInRangeAI
+UNIT 0x83 SwordKnight_F Rynod Level(10, Enemy, True) [4,1] 0x00 0x00 0x00 0x0 [SteelSword] AttackInRangeAI
+UNIT 0x83 DarkMage_F Rynod Level(10, Enemy, True) [9,3] 0x00 0x00 0x00 0x0 [Flux] AttackInRangeAI
+UNIT 0x83 Archer Rynod Level(11, Enemy, True) [11,2] 0x00 0x00 0x00 0x0 [Longbow] AttackInRangeAI
+UNIT 0x83 Myrmidon Rynod Level(10, Enemy, True) [7,7] 0x00 0x00 0x00 0x0 [IronSword] AttackInRangeAI
 UNIT
 
-T5Reinforcements:
-UNIT 0x85 PegasusKnight 0x00 Level(12, Enemy, 1) [7,0] 0x00 0x00 1 REDA7R1 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 PegasusKnight 0x00 Level(12, Enemy, 1) [8,0] 0x00 0x00 1 REDA8R0 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 LanceKnight 0x00 Level(12, Enemy, 1) [15,15] 0x00 0x00 1 REDA15R15 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 AxeKnight 0x00 Level(12, Enemy, 1) [14,15] 0x00 0x00 1 REDA14R14 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x85 SwordKnight 0x00 Level(12, Enemy, 1) [13,15] 0x00 0x00 1 REDA13R15 [IronSword] PursueWithoutHeedAI 
-UNIT 0x85 AxeKnight 0x00 Level(12, Enemy, 1) [12,15] 0x00 0x00 1 REDA12R14 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x85 LanceKnight 0x00 Level(12, Enemy, 1) [11,15] 0x00 0x00 1 REDA11R15 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 Archer 0x00 Level(12, Enemy, 1) [12,15] 0x00 0x00 1 REDA12R15 [IronBow] PursueWithoutHeedAI 
-UNIT 0x85 Archer 0x00 Level(12, Enemy, 1) [14,15] 0x00 0x00 1 REDA14R15 [IronBow] PursueWithoutHeedAI 
+BrigandReinforcements:
+UNIT 0x73 Brigand Rynod Level(10, Enemy, True) [1,4] 0x00 0x00 0x00 0x0 [Swordreaver] BrigandAI
+UNIT 0x73 Brigand Rynod Level(9, Enemy, True) [1,9] 0x00 0x00 0x00 0x0 [IronAxe] BrigandAI
+UNIT 0x73 Brigand Rynod Level(8, Enemy, True) [2,10] 0x00 0x00 0x00 0x0 [SteelAxe] BrigandAI
 UNIT
 
-T7Reinforcements:
-UNIT 0x85 LanceKnight 0x00 Level(12, Enemy, 1) [0,15] 0x00 0x00 1 REDA0R13 [IronLance] PursueWithoutHeedAI 
-UNIT 0x85 SwordKnight 0x00 Level(12, Enemy, 1) [1,15] 0x00 0x00 1 REDA1R14 [IronSword] PursueWithoutHeedAI 
-UNIT 0x85 AxeKnight 0x00 Level(12, Enemy, 1) [2,15] 0x00 0x00 1 REDA2R15 [IronAxe] PursueWithoutHeedAI 
-UNIT 0x85 SwordKnight 0x00 Level(12, Enemy, 1) [0,15] 0x00 0x00 1 REDA0R15 [IronSword] PursueWithoutHeedAI 
-UNIT 0x85 LanceKnight 0x00 Level(12, Enemy, 1) [2,15] 0x00 0x00 1 REDA2R13 [IronLance] PursueWithoutHeedAI 
+ThiefReinforcement:
+UNIT 0x83 Thief Rynod Level(10, Enemy, True) [12,12] 0x2 0x00 0x00 0x0 [SteelSword, RedGem] StealingThiefAI
 UNIT
 
 BeginningScene:
-LOAD2 0x1 Units
+REVEAL William
+REVEAL Nobody
+REVEAL Jack
+REVEAL Paul
+//REVEAL Vollster
+REVEAL Greg
+REVEAL Occam
+/*FADI 1
+//BROWNBOXTEXT LocationTextP1AB2[3,4]
+LOAD2 0x1 GuardSquad
 ENUN
-LOAD1 0x1 EnemiesStart
+MOVE 0 Pablo [17,4] 
+//SetBackground(0x1D)
+//Text
+MOVE 0 Pablo [16,12]
+LOAD2 0x1 DianaSquad
+CUMO Diana
+STAL 3
+//Text(PlaceholderText)
+FADU 3
+LOAD1 0x1 Units
+LOAD1 0x1 GuardSquad
+CALL $591FD8
+ENDA
+*/
+
+MUSC Advance
+SetBackground($E)
+FADU 10
+Text(AB2Opening1)
+SetBackground($A)
+Text(AB2Opening2)
+FADI 10
+FADU 10
+Text(AB2Opening3)
+FADI 10
+SetBackground($31)
+FADU 10
+Text(AB2Opening4)
+FADI 10
+EndConvo
+LOAD1 0x1 GuardSquad
 ENUN
+LOAD3 0x1 Units
+ENUN
+CAM1 Rynod
+ENUN
+FADU 10
+MUSC Tension
+Text(AB2Opening5)
+CAM1 Elle
+ENUN
+Text(AB2Opening6)
+CUMO [11,5]
+STAL 40
+CURE
+REVEAL Vollster
+LOAD2 0x1  VollsterNPC
+ENUN
+Text(AB2Opening7)
+CAM1 Elle
+ENUN
+CUMO Elle
+STAL 40
+CURE
+Text(AB2Opening8)
+CAM1 Vollster
+ENUN
+CUMO Vollster
+STAL 40
+CURE
+Text(AB2Opening9)
+MUSS 0x0
+StartBattle
+MissedAttack(0,0)
+CriticalHit(1,39)
+SetScriptedBattle(78,7,0,100,13,4) 
+FIG1 0x83 Vollster 0x0
+MURE 0x2
+Text(AB2Opening10)
+CAM1 Elle
+ENUN
+CUMO Elle
+STAL 40
+CURE
+Text(AB2Opening11)
+CLEA 0
+
 GotoPrepScreen
 ENDA
 
+
+
 EndingScene:
-Text(EndOfDemo)
-MNC2 34
+MNC2 P1AB4
 ENDA
 
-Rein1Event:
-ReinforcementEvent(T3Reinforcements)
+BrigandReinforcementsEvent:
+ReinforcementEvent(BrigandReinforcements)
 ENDA
 
-Rein2Event:
-ReinforcementEvent(T5Reinforcements)
+ThiefReinforcementsEvent:
+ReinforcementEvent(ThiefReinforcement)
 ENDA
 
-Rein3Event:
-ReinforcementEvent(T7Reinforcements)
-ENDA
-
+VollsterNPC:
+UNIT Vollster 0 0 Level(0,Ally,0) [11,5] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
 

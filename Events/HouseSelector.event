@@ -116,7 +116,7 @@ BEQ 2 1 0xC
 LOAD1 0x1 AmberBearsUnits 
 ASMC CreateUnitCustomizerMenu
 ENUN
-MNC2 P1AB1
+MNC2 P1AB2
 GOTO 3
 
 LABEL 1 // Red Lobsters

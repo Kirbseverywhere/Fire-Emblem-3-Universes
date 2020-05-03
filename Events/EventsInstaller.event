@@ -6,7 +6,7 @@ ALIGN 4
 ForceDeployList:
 ForceDeployEntry(Rodin,0xFF)
 ForceDeployEntry(Vergil,0xFF)
-ForceDeployEntry(Diana,0xFF)
+ForceDeployEntry(Elle,0xFF)
 EndForceDeploy
 
 PUSH
@@ -53,11 +53,11 @@ POP
 
 
 {
-#include "AB/P1AB1.event"
-}
-{
 #include "AB/P1AB2.event"
 }
 {
 #include "AB/P1AB3.event"
+}
+{
+#include "AB/P1AB4.event"
 }

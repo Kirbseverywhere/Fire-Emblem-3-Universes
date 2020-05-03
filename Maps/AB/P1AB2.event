@@ -2,22 +2,44 @@
 
 #include eastdlib.event
 
-SetChapterData(P1AB2,SnowObjType,0,SnowPalette1,SnowTileConfig,P1AB2Map,Map,5,0,P1AB2MapChanges)
+SetChapterData(P1AB2,VillageObjType,0,VillagePalette1,VillageTileConfig,P1AB2Map,Map,5,0,P1AB2MapChanges)
+
 Map_Pointer_Table(P1AB2Map, Map)
 MapChangesPointerTable(P1AB2MapChanges,MapChanges)
+
 Map:
 #incbin "P1AB2_data.dmp"
 
 MapChanges:
-TileMap(1,10,3,3,3,VillageDestroyed)
-TileMap(2,11,5,1,1,VillageSaved)
+TileMap(1,0,0,3,2,House1Destroyed)
+TileMap(2,1,1,1,1,House1Closed)
+TileMap(3,9,4,3,2,House2Destroyed)
+TileMap(4,10,5,1,1,House2Closed)
+TileMap(5,10,9,3,2,House3Destroyed)
+TileMap(6,11,10,1,1,House3Closed)
 TileMapEnd
 
-VillageDestroyed:
-SHORT 0xc1c 0xc20 0xc24 0xc9c 0xca0 0xca4 0xd1c 0x80 0xd24 
+House1Destroyed:
+SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
 ALIGN 4
 
-VillageSaved:
+House1Closed:
+SHORT 0x80 
+ALIGN 4
+
+House2Destroyed:
+SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
+ALIGN 4
+
+House2Closed:
+SHORT 0x80 
+ALIGN 4
+
+House3Destroyed:
+SHORT 0xb90 0xb94 0xb98 0xc10 0xc14 0xc18 
+ALIGN 4
+
+House3Closed:
 SHORT 0x80 
 ALIGN 4
 
