@@ -168,6 +168,23 @@ GetUnitLevelSkills:
 	#incbin "asm/GetUnitLevelSkills.dmp"
 	POIN ClassLevelUpSkillTable
 	POIN CharLevelUpSkillTable
+	
+//ability flag for passive item skills
+#define PASSIVE_ITEM_SKILL_ATTR 0x00800000
+GetItemSkill:
+#include "ItemSkillGetter.lyn.event"
+
+#include "skillItemCounter.lyn.event"
+WORD PASSIVE_ITEM_SKILL_ATTR
+
+#include "ItemSkillBuffer.lyn.event"
+WORD 0x2026BC0 //offest of item skill buffer's location
+
+ItemSkill_Getter:
+#include "GetItemSkills.lyn.event"
+POIN GetItemSkillBuffer
+POIN GetItemPassiveSkill
+POIN ResetEquipItemSkill
 
 RTextLoop:
 #incbin "rtextloop.dmp"
