@@ -1,8 +1,8 @@
 .thumb
 .align
 
-.global prGetItemMovBonus
-.type prGetItemMovBonus, %function
+.global prGetItemMovBonus2
+.type prGetItemMovBonus2, %function
 
 .equ STAT_MOV, 0x8
 .macro blh to, reg=r3
@@ -12,7 +12,7 @@
 .endm
 .equ GetUnitEquippedItem,0x8016B28
 
-prGetItemMovBonus:
+prGetItemMovBonus2:
 push {r4-r7,r14}
 mov r4,r1 @unit
 mov r5,r0 @stat

@@ -91,4 +91,10 @@ Win the chapter.[X]
 ## UM_Debug
  Debug[X]
  
+ ## UM_EditSkill
+ Edit Skills[X]
+
+## UM_EditSkillDesc
+DEBUG: Edit this unit's skill set.[X]
+ 
  

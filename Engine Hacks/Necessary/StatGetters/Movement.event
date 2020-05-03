@@ -4,7 +4,7 @@
 #include "_Common.event"
 
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus (prGetItemMovBonus-1) prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck prAddAccessoryMovement
+	POIN prAddUnitBaseMov prAddUnitMovBonus (prGetItemMovBonus2-1) prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck prAddAccessoryMovement
 	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff-1
 	#endif
@@ -43,5 +43,12 @@ prRallyMov:
 	
 prAddAccessoryMovement:
 	rAdd(rForUnitEquippedAccessory(rCallExternal(prGetItemMovBonus)))
+	
+
+#include "_asm/GetItemMovBonus.lyn.event"
+
+ALIGN 4
+prItemPassiveMov:
+	rPassiveStatBoosts(STAT_MOV)
 
 #endif // MODULAR_GETTER_MOVEMENT_EVENT
