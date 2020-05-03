@@ -53,11 +53,11 @@ UNIT
 
 EnemyUnits:
 UNIT Lennox AxeArmor Lennox Level(10,Enemy,0) [12,16] 0x2 0x0 0x0 0x1 [HandAxe] NeverMoveAI
-UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [4,1] 0 0 0 1 [IronSword] AttackInRangeAI
+UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [4,1] 0x2 0 0 1 [IronSword,DoorKey] AttackInRangeAI
 UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [13,0] 0 0 0 1 [IronLance] AttackInRangeAI
 UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [9,5] 0 0 0 1 [IronSword] AttackInRangeAI
 UNIT P1PJ1Enemy Fighter Lennox Level(10,Enemy,1) [5,6] 0 0 0 1 [IronAxe] NoAI
-UNIT P1PJ1Enemy Archer Lennox Level(10,Enemy,1) [6,9] 0 0 0 1 [IronBow] AttackInRangeAI
+UNIT P1PJ1Enemy Archer Lennox Level(10,Enemy,1) [6,9] 0x2 0 0 1 [IronBow,ChestKey] AttackInRangeAI
 UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [12,4] 0 0 0 1 [Javelin] AttackInRangeAI
 UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [2,3] 0 0 0 1 [Fire] NoAI
 UNIT P1PJ1Enemy Mercenary Lennox Level(10,Enemy,1) [1,9] 0 0 0 1 [IronSword] NoAI
@@ -65,7 +65,7 @@ UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [2,10] 0 0 0 1 [IronLance] NoAI
 UNIT P1PJ1Enemy LanceKnight Lennox Level(10,Enemy,1) [5,12] 0 0 0 1 [IronLance] NoAI
 UNIT P1PJ1Enemy Soldier Lennox Level(10,Enemy,1) [8,11] 0 0 0 1 [SteelLance] AttackInRangeAI
 UNIT P1PJ1Enemy SwordKnight Lennox Level(10,Enemy,1) [13,11] 0 0 0 1 [IronSword] AttackInRangeAI
-UNIT P1PJ1Enemy AxeKnight Lennox Level(10,Enemy,1) [9,13] 0 0 0 1 [HandAxe] NoAI
+UNIT P1PJ1Enemy AxeKnight Lennox Level(10,Enemy,1) [9,13] 0x2 0 0 1 [HandAxe,ChestKey] NoAI
 UNIT P1PJ1Enemy Mage Lennox Level(10,Enemy,1) [10,14] 0 0 0 1 [Fire] AttackInRangeAI
 UNIT
 
