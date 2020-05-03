@@ -3,7 +3,7 @@
     #include "Custom Definitions.event"
 
 	#define USE_STRMAG_SPLIT
-
+	//PROTECT $D1674
     ORG FreeSpace
 
     #include "repointedTextTable.event"
