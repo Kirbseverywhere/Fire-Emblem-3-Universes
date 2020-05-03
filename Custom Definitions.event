@@ -94,7 +94,13 @@
 #define Serine 39
 #define Nargisi 40
 #define Devvy 41
-
+#define Vollerent 42
+#define Geoffroy 43
+#define Delam 44
+#define Maxwell 45
+#define Ash 46
+#define Zuzka 47
+#define Volta 48
 
 
 //Backwards Compatibility

@@ -775,5 +775,135 @@ Tall[X]
 [X]
 
 
+## VollerentLike1
+[X]
 
+## VollerentLike2
+[X]
+
+## VollerentDislike1
+[X]
+
+## VollerentDislike2
+[X]
+
+## VollerentAge
+[X]
+
+## VollerentHeight
+[X]
+
+
+## GeoffroyLike1
+[X]
+
+## GeoffroyLike2
+[X]
+
+## GeoffroyDislike1
+[X]
+
+## GeoffroyDislike2
+[X]
+
+## GeoffroyAge
+[X]
+
+## GeoffroyHeight
+[X]
+
+
+## DelamLike1
+[X]
+
+## DelamLike2
+[X]
+
+## DelamDislike1
+[X]
+
+## DelamDislike2
+[X]
+
+## DelamAge
+[X]
+
+## DelamHeight
+[X]
+
+
+## MaxwellLike1
+[X]
+
+## MaxwellLike2
+[X]
+
+## MaxwellDislike1
+[X]
+
+## MaxwellDislike2
+[X]
+
+## MaxwellAge
+[X]
+
+## MaxwellHeight
+[X]
+
+
+## AshLike1
+[X]
+
+## AshLike2
+[X]
+
+## AshDislike1
+[X]
+
+## AshDislike2
+[X]
+
+## AshAge
+[X]
+
+## AshHeight
+[X]
+
+
+## ZuzkaLike1
+[X]
+
+## ZuzkaLike2
+[X]
+
+## ZuzkaDislike1
+[X]
+
+## ZuzkaDislike2
+[X]
+
+## ZuzkaAge
+[X]
+
+## ZuzkaHeight
+[X]
+
+
+## VoltaLike1
+[X]
+
+## VoltaLike2
+[X]
+
+## VoltaDislike1
+[X]
+
+## VoltaDislike2
+[X]
+
+## VoltaAge
+[X]
+
+## VoltaHeight
+[X]
 

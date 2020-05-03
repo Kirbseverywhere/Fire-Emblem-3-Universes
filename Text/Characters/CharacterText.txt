@@ -133,6 +133,27 @@ Nargisi[X]
 ## DevvyNameTextID
 Devvy[X]
 
+## VollerentNameTextID
+Vollerent[X]
+
+## GeoffroyNameTextID
+Geoffroy[X]
+
+## DelamNameTextID
+Delam[X]
+
+## MaxwellNameTextID
+Maxwell[X]
+
+## AshNameTextID
+Ash[X]
+
+## ZuzkaNameTextID
+Zuzka[X]
+
+## VoltaNameTextID
+Volta[X]
+
 
 
 
@@ -311,6 +332,28 @@ Nargisi[X]
 
 ## DevvyDescTextID
 You... Devvysian knights...[X]
+
+## VollerentDescTextID
+Vollerent[X]
+
+## GeoffroyDescTextID
+Geoffroy[X]
+
+## DelamDescTextID
+Delam[X]
+
+## MaxwellDescTextID
+Maxwell[X]
+
+## AshDescTextID
+Ash[X]
+
+## ZuzkaDescTextID
+Zuzka[X]
+
+## VoltaDescTextID
+Volta[X]
+
 
 
 #include NPCEnemyCharText.txt

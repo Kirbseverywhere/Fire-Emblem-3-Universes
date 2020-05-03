@@ -41,13 +41,13 @@ Lenato,LenatoLike1,LenatoLike2,LenatoDislike1,LenatoDislike2,LenatoAge,LenatoHei
 Serine,SerineLike1,SerineLike2,SerineDislike1,SerineDislike2,SerineAge,SerineHeight
 Nargisi,NargisiLike1,NargisiLike2,NargisiDislike1,NargisiDislike2,NargisiAge,NargisiHeight
 Devvy,DevvyLike1,DevvyLike2,DevvyDislike1,DevvyDislike2,DevvyAge,DevvyHeight
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
--- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
+Vollerent,VollerentLike1,VollerentLike2,VollerentDislike1,VollerentDislike2,VollerantAge,VollerantHeight
+Geoffroy,GeoffroyLike1,GeoffroyLike2,GeoffroyDislike1,GeoffroyDislike2,GeoffroyAge,GeoffroyHeight
+Delam,DelamLike1,DelamLike2,DelamDislike1,DelamDislike2,DelamAge,DelamHeight
+Maxwell,MaxwellLike1,MaxwellLike2,MaxwellDislike1,MaxwellDislike2,MaxwellAge,MaxwellHeight
+Ash,AshLike1,AshLike2,AshDislike1,AshDislike2,AshAge,AshHeight
+Zuzka,ZuzkaLike1,ZuzkaLike2,ZuzkaDislike1,ZuzkaDislike2,ZuzkaAge,ZuzkaHeight
+Volta,VoltaLike1,VoltaLike2,VoltaDislike1,VoltaDislike2,VoltaAge,VoltaHeight
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
 -- RESERVED FOR PLAYER UNIT --,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000
