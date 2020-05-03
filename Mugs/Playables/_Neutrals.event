@@ -21,17 +21,32 @@ DevvyMug:
 #define SERINE_PRETIMESKIP_PORTRAIT Serine
 setMugEntry(SERINE_PRETIMESKIP_PORTRAIT,SerinePreTimeskip, 3, 5, 3, 3)
 SerinePreTimeskip:
-#incext PortraitFormatter "Serine.png"
+#incext PortraitFormatter "Serine_PreTimeskip.png"
 
-#define VOLLERENT_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define VOLLERENT_PRETIMESKIP_PORTRAIT Vollerent
+setMugEntry(VOLLERENT_PRETIMESKIP_PORTRAIT,VollerentPreTimeskip, 3, 5, 3, 3)
+VollerentPreTimeskip:
+#incext PortraitFormatter "Vollerent_PreTimeskip.png"
 
-#define GEOFFROY_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define GEOFFROY_PRETIMESKIP_PORTRAIT Geoffroy
+setMugEntry(GEOFFROY_PRETIMESKIP_PORTRAIT,GeoffroyPreTimeskip, 3, 5, 3, 3)
+GeoffroyPreTimeskip:
+#incext PortraitFormatter "Geoffroy_PreTimeskip.png"
 
-#define DELAM_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define DELAM_PRETIMESKIP_PORTRAIT Delam
+setMugEntry(DELAM_PRETIMESKIP_PORTRAIT,DelamPreTimeskip, 3, 5, 3, 3)
+DelamPreTimeskip:
+#incext PortraitFormatter "Delam_PreTimeskip.png"
 
-#define MAXWELL_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define MAXWELL_PRETIMESKIP_PORTRAIT Maxwell
+setMugEntry(MAXWELL_PRETIMESKIP_PORTRAIT,MaxwellPreTimeskip, 3, 5, 3, 3)
+MaxwellreTimeskip:
+#incext PortraitFormatter "Maxwell_PreTimeskip.png"
 
-#define ASH_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
+#define ASH_PRETIMESKIP_PORTRAIT Ash
+setMugEntry(ASH_PRETIMESKIP_PORTRAIT,AshPreTimeskip, 3, 5, 3, 3)
+AshPreTimeskip:
+#incext PortraitFormatter "Ash_PreTimeskip.png"
 
 #define ZUZKA_PRETIMESKIP_PORTRAIT PLACEHOLDER_PORTRAIT
 
