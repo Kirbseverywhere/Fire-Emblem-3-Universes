@@ -40,7 +40,7 @@ DelamPreTimeskip:
 
 #define MAXWELL_PRETIMESKIP_PORTRAIT Maxwell
 setMugEntry(MAXWELL_PRETIMESKIP_PORTRAIT,MaxwellPreTimeskip, 3, 5, 3, 3)
-MaxwellreTimeskip:
+MaxwellPreTimeskip:
 #incext PortraitFormatter "Maxwell_PreTimeskip.png"
 
 #define ASH_PRETIMESKIP_PORTRAIT Ash
