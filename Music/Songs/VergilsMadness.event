@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	VergilsMadness_grp  NativeInstrumentMap2
+	#define	VergilsMadness_grp  voicegroup000
 	#define	VergilsMadness_pri  0
 	#define	VergilsMadness_rev  0
 	#define	VergilsMadness_mvl  127

@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	TeamMaking_grp  NativeInstrumentMap2
+	#define	TeamMaking_grp  voicegroup000
 	#define	TeamMaking_pri  0
 	#define	TeamMaking_rev  0
 	#define	TeamMaking_mvl  127

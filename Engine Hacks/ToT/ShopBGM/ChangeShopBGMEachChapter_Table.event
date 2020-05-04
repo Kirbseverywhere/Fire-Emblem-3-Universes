@@ -1,0 +1,9 @@
+
+#define ShopBGMEntry(Song,Type,Chapter) "SHORT Song; BYTE Type Chapter; "
+#define ShopBGMEnd "WORD 0x0"
+
+ChangeShopBGMEachChapter_Table:
+ShopBGMEntry(0x36,ArmoryType,0xFE)
+ShopBGMEntry(0x35,VendorType,0xFE)
+ShopBGMEntry(0x35,SecretType,0xFE)
+ShopBGMEnd  // Terminator

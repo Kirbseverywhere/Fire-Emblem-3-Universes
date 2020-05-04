@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	WithMyBearHands_grp  NativeInstrumentMap2
+	#define	WithMyBearHands_grp  voicegroup000
 	#define	WithMyBearHands_pri  0
 	#define	WithMyBearHands_rev  0
 	#define	WithMyBearHands_mvl  127

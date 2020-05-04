@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	MainTheme_grp  NativeInstrumentMap2
+	#define	MainTheme_grp  voicegroup000
 	#define	MainTheme_pri  0
 	#define	MainTheme_rev  0
 	#define	MainTheme_mvl  127

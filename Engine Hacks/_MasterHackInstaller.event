@@ -256,7 +256,14 @@ POP
   ALIGN 4
   #include "ToT/EnemyNPCs/EnemyNPCs.event"
   
+  ALIGN 4
+  #include "ToT/ContinueBattleBGM/Installer.event"
   
+  ALIGN 4
+  #include "ToT/ShopBGM/ChangeShopBGMEachChapter.event"
+  
+  ALIGN 4
+  #include "ToT/BattleBGM/Installer.event"
   
   
 

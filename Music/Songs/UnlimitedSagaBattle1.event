@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	UnlimitedSagaBattle1_grp  NativeInstrumentMap2
+	#define	UnlimitedSagaBattle1_grp  voicegroup000
 	#define	UnlimitedSagaBattle1_pri  0
 	#define	UnlimitedSagaBattle1_rev  0
 	#define	UnlimitedSagaBattle1_mvl  127

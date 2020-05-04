@@ -1,0 +1,4 @@
+#define ArmoryType 0x00
+#define VendorType 0x01
+#define SecretType 0x02
+#define PrepShopType 0x10

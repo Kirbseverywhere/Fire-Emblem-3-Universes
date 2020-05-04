@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	GirlofTheSpiritForest2_grp  NativeInstrumentMap1
+	#define	GirlofTheSpiritForest2_grp  NIMAP1
 	#define	GirlofTheSpiritForest2_pri  0
 	#define	GirlofTheSpiritForest2_rev  0
 	#define	GirlofTheSpiritForest2_mvl  127

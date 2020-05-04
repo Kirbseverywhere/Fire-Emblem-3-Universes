@@ -1,0 +1,57 @@
+
+{
+#include "CourageAndPride.event"
+SongTable(M_CourageAndPride,song10,BattleMusicGroup)
+}
+{
+#include "CuttingEdge.event"
+SongTable(M_CuttingEdge,song11,MapMusicGroup)
+}
+{
+#include "FodlanWinds.event"
+SongTable(M_FodlanWinds,FodlanWinds,MapMusicGroup)
+}
+{
+#include "GirlOfTheSpiritForest.event"
+SongTable(M_GirlOfTheSpiritForest,GirlOfTheSpiritForest,MapMusicGroup)
+}
+{
+#include "HandCombat.event"
+SongTable(M_HandCombat,song0F,MapMusicGroup)
+}
+{
+#include "Justice.event"
+SongTable(M_Justice,song13,MapMusicGroup)
+}
+{
+#include "L_FeldIII.event"
+SongTable(M_L_FeldIII,L_FeldIII,BattleMusicGroup)
+}
+{
+#include "MainTheme.event"
+SongTable(M_MainTheme,MainTheme,MapMusicGroup)
+}
+{
+#include "MountHorn.event"
+SongTable(M_MountHorn,MountHorn,MapMusicGroup)
+}
+{
+#include "TeamMaking.event"
+SongTable(M_TeamMaking,TeamMaking,MapMusicGroup)
+}
+{
+#include "TempestOfSeasons.event"
+SongTable(M_TempestOfSeasons,TempestOfSeasons,MapMusicGroup)
+}
+{
+#include "UnlimitedSagaBattle1.event"
+SongTable(M_UnlimitedSagaBattle1,UnlimitedSagaBattle1,BattleMusicGroup)
+}
+{
+#include "VergilsMadness.event"
+SongTable(M_VergilsMadness,VergilsMadness,BattleMusicGroup)
+}
+{
+#include "WithMyBearHands.event"
+SongTable(M_WithMyBearHands,WithMyBearHands,MapMusicGroup)
+}

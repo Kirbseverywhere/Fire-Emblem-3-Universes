@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	MountHorn_grp  NativeInstrumentMap2
+	#define	MountHorn_grp  voicegroup000
 	#define	MountHorn_pri  0
 	#define	MountHorn_rev  0
 	#define	MountHorn_mvl  127

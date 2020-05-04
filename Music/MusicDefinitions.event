@@ -1,0 +1,27 @@
+#include "MPlayDef.event"
+
+//macro definitions for setting the song table
+#define SongTableOffset  0x224470
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+
+//Song Definitions
+
+#define M_MainTheme 0x43 //slot-specific
+#define M_TeamMaking 0x34 //slot-specific
+#define M_FodlanWinds 0x58
+#define M_TempestOfSeasons 0x59
+#define M_GirlOfTheSpiritForest 0x5D
+#define M_WithMyBearHands 0x5E
+#define M_MountHorn 0x5F
+#define M_UnlimitedSagaBattle1 0x62
+#define M_VergilsMadness 0x63
+#define M_CourageAndPride 0x64
+#define M_CuttingEdge 0x92
+#define M_HandCombat 0x93
+#define M_Justice 0x94
+#define M_L_FeldIII 0xA8
+

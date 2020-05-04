@@ -1,7 +1,7 @@
 //Event file generated from Sappy .s format.
 	#include "MPlayDef.event"
 
-	#define	TempestOfSeasons_grp  NativeInstrumentMap2
+	#define	TempestOfSeasons_grp  voicegroup000
 	#define	TempestOfSeasons_pri  0
 	#define	TempestOfSeasons_rev  0
 	#define	TempestOfSeasons_mvl  63
