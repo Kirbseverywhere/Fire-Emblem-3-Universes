@@ -136,7 +136,7 @@ UNIT 0x84 SwordKnight Bruckner Level(12, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [I
 UNIT
 
 BearGroup:
-UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
+UNIT BearBoss Bear 0x00 Level(12, NPC, 0) [9,8] 0x00 0x00 0x0 0x00 [BearHands] PursueWithoutHeedAI 
 UNIT
 
 Creep:
