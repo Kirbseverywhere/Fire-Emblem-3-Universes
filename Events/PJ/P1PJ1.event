@@ -275,21 +275,81 @@ NoFade
 ENDA
 
 
-EndingScene:
-SetBackground(Fort)
+EndingCutsceneUnits1:
+UNIT Konatsu 0 0 Level(0,Ally,0) [6,3] 0 0 0 1 NoItems NoAI
+UNIT Tray 0 0 Level(0,Ally,0) [8,3] 0 0 0 1 NoItems NoAI
+UNIT
 
+EndingCutsceneUnits2:
+UNIT Vergil 0 0 Level(0,Ally,0) [6,12] 0 0 1 REDA6R4 NoItems NoAI
+UNIT Horus 0 0 Level(0,Ally,0) [8,12] 0 0 1 REDA8R4 NoItems NoAI
+UNIT
+
+EndingCutsceneUnits3:
+UNIT P1PJ1Enemy Thief 0 Level(0,Enemy,0) [9,11] 0 0 0 1 [IronSword] NoAI
+UNIT
+
+EndingCutsceneUnits4:
+UNIT Smeglinde 0 0 Level(0,Ally,0) [0,10] 0 0 1 REDA8R11 NoItems NoAI
+UNIT
+
+
+EndingScene:
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+MUSC Into_the_Shadow_of_Victory
+LOAD2 0 EndingCutsceneUnits1
+ENUN
+CAM1 [7,1]
+FADU 10
 Text(PJ1EndingScene1)
+
+LOAD2 0 EndingCutsceneUnits2
+ENUN
+
+SetBackground(Fort)
 Text(PJ1EndingScene2)
+FADI 10
+LOAD1 0 EndingCutsceneUnits3
+ENUN
+MUSC Tension
+EndConvo
+
+CAM1 P1PJ1Enemy
+CUMO P1PJ1Enemy
+STAL 40
+CURE
+
 Text(PJ1EndingScene3)
+
+LOAD1 0 EndingCutsceneUnits4
+ENUN
+
+StartBattle
+CriticalHit(0,30)
+EndAttack
+
+FIGHT_MAP Smeglinde P1PJ1Enemy IronSword False 
+
+CAM1 [7,1]
+MOVE 0 Smeglinde [7,6]
+ENUN
+
 Text(PJ1EndingScene4)
 
+FADI 10
 SetBackground(Castle_Room)
-Text(PJ1EndingScene5)
+MUSC Reunion
+FADU 10
 
+Text(PJ1EndingScene5)
 FadeOutMusic
 FADI 4
+
 MNC2 P1PJ2
+
 NoFade
 ENDA
-
 
