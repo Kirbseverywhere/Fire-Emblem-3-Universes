@@ -105,3 +105,155 @@ Vampire's Fang[X]
 ## VampiresFangDescText
 Drain enemy's HP and heals[N]
 the user for all damage dealt.[X]
+
+
+## VeninEdgeNameText
+Venin Edge[X]
+
+## WoDaoNameText
+Wo Dao[X]
+
+## LevinSwordNameText
+Levin Sword[X]
+
+## LevinSwordDescText
+ [.][X]
+
+## VeninLanceNameText
+Venin Lance[X]
+
+## RidersbaneNameText
+Ridersbane[X]
+
+## VeninAxeNameText
+Venin Axe[X]
+
+## ShortAxeNameText
+Short Axe[X]
+
+## ShortAxeDescText
+ [.][X]
+
+## VeninBowNameText
+Venin Bow[X]
+
+## VeninBallistaNameText
+Venin Ballista[X]
+
+## VeninBallistaDescText
+ [.][X]
+
+## ThunderboltNameText
+Thunderbolt[X]
+
+## ThunderboltDescText
+ [.][X]
+
+## DragonpikeNameText
+Dragonpike[X]
+
+## HeavySpearNameText
+Heavy Spear[X]
+
+## IcebergeNameText
+Iceberge[X]
+
+## IcebergeDescText
+ [.][X]
+
+## FlameSpearNameText
+Flame Spear[X]
+
+## FlameSpearDescText
+ [.][X]
+
+## ShockLanceNameText
+Shock Lance[X]
+
+## ShockLanceDescText
+ [.][X]
+
+## SlimAxeNameText
+Slim Axe[X]
+
+## SlimAxeDescText
+ [.][X]
+
+## BoltAxeNameText
+Bolt Axe[X]
+
+## BoltAxeDescText
+ [.][X]
+
+## BrightBowNameText
+Bright Bow[X]
+
+## BrightBowDescText
+ [.][X]
+
+## IronGauntletsNameText
+Iron Gauntlets[X]
+
+## IronGauntletsDescText
+ [.][X]
+
+## SteelGauntletsNameText
+Steel Gauntlets[X]
+
+## SteelGauntletsDescText
+ [.][X]
+
+## SilverGauntletsNameText
+Silver Gauntlets[X]
+
+## SilverGauntletsDescText
+ [.][X]
+
+## KillerKnucklesNameText
+Killer Knuckles[X]
+
+## KillerKnucklesDescText
+ [.][X]
+
+## ArmorsmasherNameText
+Armorsmasher[X]
+
+## ArmorsmasherDescText
+ [.][X]
+
+## SpikeGauntletsNameText
+Spike Gauntlets[X]
+
+## SpikeGauntletsDescText
+ [.][X]
+
+## WingShredderNameText
+Wing Shredder[X]
+
+## WingShredderDescText
+ [.][X]
+
+## DragonClawsNameText
+Dragon Claws[X]
+
+## DragonClawsDescText
+ [.][X]
+
+## VeninGauntletsNameText
+Venin Gauntlets[X]
+
+## VeninGauntletsDescText
+ [.][X]
+
+## AuraKnucklesNameText
+Aura Knuckles[X]
+
+## AuraKnucklesDescText
+ [.][X]
+
+## BearHandsNameText
+Bear Hands[X]
+
+## BearHandsDescText
+ [.][X]
+

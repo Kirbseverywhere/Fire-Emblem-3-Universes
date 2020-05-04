@@ -78,6 +78,7 @@ Discipline:
 POIN SkillTester
 WORD DisciplineID
 WORD DisciplinePlusID
+POIN HiddenTalentsTable
 
 ALIGN 4
 LiveToServe:

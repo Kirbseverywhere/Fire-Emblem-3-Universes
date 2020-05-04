@@ -12,10 +12,6 @@
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
 
-#ifndef ItemTable
-  #define ItemTable 0x809B10
-#endif
-
 #ifndef DebuffTable
   #define DebuffTable     0x0203F100
   #define DebuffTableSize 0x00000900
@@ -208,6 +204,49 @@
 #define PursuitRing 0xC0
 #define KnightRing 0xC1
 #define ArcanaShield 0xC2
+#define RuneShifter 0xC3
+#define Whetstone 0xC4
+#define Sail 0xC5
+#define FakeWings 0xC6
+#define VampireFang 0xC7
+
+#define Shield NormalShield
+
+
+// Weapons
+
+#define VeninEdge 0x9
+#define WoDao 0xC
+#define LevinSword 0x10
+#define VeninLance 0x18
+#define VeninAxe 0x22
+#define ShortAxe 0x2C
+#define VeninBow 0x30
+#define VeninBallista 0x36
+#define Thunderbolt 0x37
+#define Dragonpike 0x8D
+#define Iceberge 0xC8
+#define FlameSpear 0xC9
+#define ShockLance 0xCA
+#define SlimAxe 0xCB
+#define BoltAxe 0xCC
+#define BrightBow 0xCD
+#define IronGauntlets 0xCE
+#define SteelGauntlets 0xCF
+#define SilverGauntlets 0xD0
+#define KillerKnuckles 0xD1
+#define Armorsmasher 0xD2
+#define SpikeGauntlets 0xD3
+#define WingShredder 0xD4
+#define DragonClaws 0xD5
+#define VeninGauntlets 0xD6
+#define AuraKnuckles 0xD7
+#define BearHands 0xD8
+
+#define MagicBow BrightBow
+#define PoisonEdge VeninEdge
+#define Shortbow ShortBow
+
 
 #include "ClassDefinitions.event"
 
@@ -322,3 +361,10 @@
 #define P2AB6 49
 #define P2AB7 50
 #define P2AB8 51
+
+
+
+
+
+
+

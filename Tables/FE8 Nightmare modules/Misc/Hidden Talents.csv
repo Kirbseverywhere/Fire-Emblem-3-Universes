@@ -1,0 +1,257 @@
+INLINE HiddenTalentsTable,Hidden Talent
+None,0x0
+Rodin,Faith
+Michael,Lances
+Eric,ItemType
+Kelly,Lances
+QuaSahnt,Axes
+Irvine,Axes
+Jonathen,Axes
+Kaiden,Axes
+Cleo,Bows
+Reds,Bows
+Mimi,Swords
+Zorua,Faith
+Vergil,Lances
+Konatsu,Axes
+Tray,Bows
+Horus,Lances
+Yanndahl,Reason
+Lilac,Lances
+Smeglinde,Reason
+Kabby,Axes
+Stephen,Faith
+Anton,Axes
+Zaim,Faith
+Khris,Reason
+Elle,Reason
+Zane,Gauntlets
+Adamminn,Reason
+William,Axes
+Nobody,Bows
+Jack,Faith
+Lazul,Lances
+Paul,Reason
+Reginald,Lances
+Vollster,Swords
+Greg,Lances
+Occam,Swords
+Augustus,Gauntlets
+Lenato,ItemType
+Serine,Bows
+Nargisi,Gauntlets
+Devvy,Swords
+Vollerent,Axes
+Geoffroy,Faith
+Delam,Gauntlets
+Maxwell,Faith
+Ash,Lances
+Zuzka,ItemType
+Volta,Reason
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+-- RESERVED FOR PLAYER UNIT --,0x0
+P1CH1 Boss – Borgas,0x0
+P1CH2 Boss – Alva,0x0
+P1CH3 Boss – Wyvern,0x0
+P1CH4 Boss,0x0
+P1CH5 Boss,0x0
+P1CH6 Boss,0x0
+P1CH7 Boss,0x0
+P1CH8 Boss,0x0
+P1CH9 Boss,0x0
+P2CH1 Boss,0x0
+P2CH2 Boss,0x0
+P2CH3 Boss,0x0
+P2CH4 Boss,0x0
+P2CH5 Boss,0x0
+P2CH6 Boss,0x0
+P2CH7 Boss,0x0
+P1PJ1 Boss – Lennox,0x0
+P1PJ2 Boss,0x0
+P1PJ3 Boss – Bruckner,0x0
+P1PJ4 Boss – Bear,0x0
+P1PJ5 Boss – Darach,0x0
+P1PJ6 Boss – Larissa,0x0
+P1PJ7 Boss,0x0
+P1PJ8 Boss,0x0
+P1PJ9 Boss,0x0
+P2PJ1 Boss,0x0
+P2PJ2 Boss,0x0
+P2PJ3 Boss,0x0
+P2PJ4 Boss,0x0
+P2PJ5 Boss,0x0
+P2PJ6 Boss,0x0
+P2PJ7 Boss,0x0
+P1AB1 Boss – Kajarn,0x0
+P1AB2 Boss – Rynod,0x0
+P1AB3 Boss – Ilryon,0x0
+P1AB4 Boss,0x0
+P1AB5 Boss,0x0
+P1AB6 Boss,0x0
+P1AB7 Boss,0x0
+P1AB8 Boss,0x0
+P1AB9 Boss,0x0
+P2AB1 Boss,0x0
+P2AB2 Boss,0x0
+P2AB3 Boss,0x0
+P2AB4 Boss,0x0
+P2AB5 Boss,0x0
+P2AB6 Boss,0x0
+P2AB7 Boss,0x0
+Cutscene Unit – Orion,0x0
+Cutscene Unit – Runa,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+-- RESERVED FOR CUTSCENE UNIT --,0x0
+P1CH1 Enemy – Bandit,0x0
+P1CH2 Enemy – Alva's,0x0
+P1PJ2 Enemy – Assassin,0x0
+P1AB1 Enemy – Rebel,0x0
+P1AB2 Enemy – Bandit,0x0
+P1PJ4 Enemy – Arxhat's,0x0
+P1AB3 Enemy – Bandit,0x0
+P1CH3 Enemy,0x0
+P1CH4 Enemy,0x0
+P1CH5 Enemy,0x0
+P1CH6 Enemy,0x0
+P1CH7 Enemy,0x0
+P1CH8 Enemy,0x0
+P1CH9 Enemy,0x0
+P2CH1 Enemy,0x0
+P2CH2 Enemy,0x0
+P2CH3 Enemy,0x0
+P2CH4 Enemy,0x0
+P2CH5 Enemy,0x0
+P2CH6 Enemy,0x0
+P2CH7 Enemy,0x0
+P1PJ1 Enemy – Novinian,0x0
+P1PJ3 Enemy,0x0
+P1PJ5 Enemy,0x0
+P1PJ6 Enemy,0x0
+P1PJ7 Enemy,0x0
+P1PJ8 Enemy,0x0
+P1PJ9 Enemy,0x0
+P2PJ1 Enemy,0x0
+P2PJ2 Enemy,0x0
+P2PJ3 Enemy,0x0
+P2PJ4 Enemy,0x0
+P2PJ5 Enemy,0x0
+P2PJ7 Enemy,0x0
+P2PJ8 Enemy,0x0
+P1AB4 Enemy,0x0
+P1AB5 Enemy,0x0
+P1AB6 Enemy,0x0
+P1AB7 Enemy,0x0
+P1AB8 Enemy,0x0
+P1AB9 Enemy,0x0
+P2AB1 Enemy,0x0
+P2AB2 Enemy,0x0
+P2AB3 Enemy,0x0
+P2AB4 Enemy,0x0
+P2AB5 Enemy,0x0
+P2AB6 Enemy,0x0
+P2AB7 Enemy,0x0
+P1PJ1 NPC – Seraphyn,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+CH Final Boss,0x0
+PJ Final Boss,0x0
+AB Final Boss,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0
+Hostage 1 (Ch. 2),0x0
+Hostage 2 (Ch. 2),0x0
+,0x0
+,0x0
+,0x0
+,0x0
+,0x0

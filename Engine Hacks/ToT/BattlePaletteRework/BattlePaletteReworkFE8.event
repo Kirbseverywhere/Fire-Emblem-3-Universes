@@ -283,6 +283,7 @@ ALIGN 4
 
 MyrmidonFPaletteList:
 PaletteAssociationEntry(Lazul,LazulMyrmidonFPaletteID)
+PaletteAssociationEntry(Zorua,ZoruaMercenaryFPaletteID)
 WORD 0 0
 ALIGN 4
 
@@ -307,7 +308,6 @@ MercenaryPaletteList:
 PaletteAssociationEntry(Irvine,IrvineMercenaryPaletteID)
 PaletteAssociationEntry(Michael,MichaelMercenaryPaletteID)
 PaletteAssociationEntry(Jonathen,JonathenMercenaryPaletteID)
-PaletteAssociationEntry(Zorua,ZoruaMercenaryFPaletteID)
 PaletteAssociationEntry(Stephen,StephenMercenaryPaletteID)
 PaletteAssociationEntry(Khris,KhrisMercenaryPaletteID)
 PaletteAssociationEntry(Adamminn,AdamminnMercenaryPaletteID)

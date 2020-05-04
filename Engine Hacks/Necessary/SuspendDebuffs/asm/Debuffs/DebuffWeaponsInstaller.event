@@ -1,5 +1,4 @@
 #define Extra_Data_Location 0x0203F100
-#define ItemTable 0x809B10
 
 
 #define defWeaponDebuffs(str, skl, spd, luk, def, res) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4))"

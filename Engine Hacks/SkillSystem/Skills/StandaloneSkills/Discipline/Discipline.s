@@ -10,7 +10,9 @@
 
 .equ Skill_ID, SkillTester+4
 .equ SkillPlus_ID, Skill_ID+4
+.equ HiddenTalentTable, SkillPlus_ID+4
 .equ DisciplinePlusReturn, 0x802C177
+
 push {r4-r5,r14}
 
 @stuff replaced by callHack
@@ -43,6 +45,23 @@ cmp	r5, #0x0
 bne 	DisciplinePlus
 
 NoSkill:
+@here we put our 2x wexp if weapon type = hidden talent
+mov r0,r7 @battler struct
+
+ldr r0,[r0] @char data
+ldrb r0,[r0,#4] @char ID
+ldr r1,HiddenTalentTable
+add r0,r1
+ldrb r1,[r0] @r1 = hidden talent
+mov r0,r7
+add r0,#0x50
+ldrb r0,[r0] @r0 = weapon type
+cmp r0,r1
+bne NotTalented
+
+lsl r4,r4,#1 @multiply by 2 (possibly again)
+
+NotTalented:
 mov     r0, r4
 pop     {r4-r5}
 pop     {r1}
