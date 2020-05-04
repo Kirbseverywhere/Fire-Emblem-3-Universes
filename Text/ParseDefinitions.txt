@@ -145,4 +145,4 @@
 [LoadAlbinia] = [LoadPlaceholder]
 [LoadBarrymore] = [LoadFace][0x56][0x1]
 [LoadBear] = [LoadFace][0x52][0x01]
-[LoadSpy] = [LoadFace][0x1][0x01]
+[LoadSpy] = [LoadRedSoldier]
