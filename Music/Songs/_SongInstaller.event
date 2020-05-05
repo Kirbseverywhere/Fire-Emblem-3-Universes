@@ -55,3 +55,9 @@ SongTable(M_VergilsMadness,VergilsMadness,BattleMusicGroup)
 #include "WithMyBearHands.event"
 SongTable(M_WithMyBearHands,WithMyBearHands,MapMusicGroup)
 }
+
+{
+#include "Select-A-Live.event"
+SongTable(M_SelectALive,song21,BattleMusicGroup)
+}
+

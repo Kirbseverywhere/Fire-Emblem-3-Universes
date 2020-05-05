@@ -24,4 +24,5 @@
 #define M_HandCombat 0x93
 #define M_Justice 0x94
 #define M_L_FeldIII 0xA8
+#define M_SelectALive 0x22 //slot-specific
 
