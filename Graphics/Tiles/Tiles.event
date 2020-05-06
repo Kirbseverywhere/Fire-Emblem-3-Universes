@@ -174,11 +174,13 @@ UnitMenuTSA:
 
 ALIGN 4
 StatusMenuTSA:
-#incext compress "StatusMenuTSA.bin"
+//#incext compress "StatusMenuTSA.bin"
+#incbin "StatusMenuTSA_comp.dmp"
 
 ALIGN 4
 OptionsMenuTSA:
-#incext compress "OptionsMenuTSA.bin"
+//#incext compress "OptionsMenuTSA.bin"
+#incbin "OptionsMenuTSA_comp.dmp"
 
 ALIGN 4
 DifficultySelectTSA:

@@ -240,45 +240,55 @@ TileAnimPointerTable(0xD3, 0x0859D520)
 
 ALIGN 4
 NewMountainsPalette:
-#incext Png2Dmp "Tilesets/NewMountainsPalette.png" --palette-only
+//#incext Png2Dmp "Tilesets/NewMountainsPalette.png" --palette-only
+#incbin "Tilesets/NewMountainsPalette_pal.dmp"
 
 ALIGN 4
 FieldsWithBridgeGFX:
-#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --lz77
+//#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --lz77
+#incbin "Tilesets/FieldsWithBridge.dmp"
 
 ALIGN 4
 FieldsWithBridgePalette1Data:
-#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --palette-only
+//#incext Png2Dmp "Tilesets/FieldsWithBridge.png" --palette-only
+#incbin "Tilesets/FieldsWithBridge_pal.dmp"
 
 ALIGN 4
 FieldsWithBridgeTileConfigData:
-#incext compress "Tilesets/FieldsWithBridge.mapchip_conf"
+//#incext compress "Tilesets/FieldsWithBridge.mapchip_conf"
+#incbin "Tilesets/FieldsWithBridge_comp.dmp"
 
 ALIGN 4
 CaveObjTypeData:
-#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --lz77
+//#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --lz77
+#incbin "Tilesets/Cave/CaveTiles.dmp"
 
 ALIGN 4
 CavePalette1Data:
-#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --palette-only
+//#incext Png2Dmp "Tilesets/Cave/CaveTiles.png" --palette-only
+#incbin "Tilesets/Cave/CaveTiles_pal.dmp"
 
 ALIGN 4
 CaveTileConfigData:
-#incext compress "Tilesets/Cave/Cave.mapchip_conf"
+//#incext compress "Tilesets/Cave/Cave.mapchip_conf"
+#incbin "Tilesets/Cave/Cave_comp.dmp"
 
 #include "Tilesets/Cave/CaveAnimsInstaller.event"
 
 ALIGN 4
 SnowTileConfigData:
-#incext compress "Tilesets/Snow/SnowTileset.mapchip_conf"
+//#incext compress "Tilesets/Snow/SnowTileset.mapchip_conf"
+#incbin "Tilesets/Snow/SnowTileset_comp.dmp"
 
 ALIGN 4
 SnowObjTypeData:
-#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --lz77
+//#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --lz77
+#incbin "Tilesets/Snow/SnowTilesetImage.dmp"
 
 ALIGN 4
 SnowPalette1Data:
-#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --palette-only
+//#incext Png2Dmp "Tilesets/Snow/SnowTilesetImage.png" --palette-only
+#incbin "Tilesets/Snow/SnowTilesetImage_pal.dmp"
 
 #include "Tilesets/Snow/TileAnims.event"
 
@@ -292,7 +302,8 @@ UpdatedVillageObjTypeData:
 
 ALIGN 4
 UpdatedVillagePalette1Data:
-#incext Png2Dmp "Tilesets/Village/Village.png" --palette-only
+//#incext Png2Dmp "Tilesets/Village/Village.png" --palette-only
+#incbin "Tilesets/Village/Village_pal.dmp"
 
 
 ALIGN 4
